@@ -1,5 +1,4 @@
-The MIT License (MIT)
-
+/*
 Copyright © 2024 Joshua Pare <joshuabpare@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,3 +18,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+*/
+package cmd
+
+import (
+	"github.com/joshuapare/moodle-api-gen/internal"
+	"github.com/spf13/cobra"
+)
+
+var (
+	skipCli    bool
+	skipPlugin bool
+)
+
+// bootstrapCmd represents the bootstrap command
+var bootstrapCmd = &cobra.Command{
+	Use:   "bootstrap",
+	Short: "Bootstrap an existing moodle installation with required plugins and tooling.",
+	Run: func(cmd *cobra.Command, args []string) {
+		if err := internal.RunBootstrap(installPath, skipCli, skipPlugin); err != nil {
+			panic(err)
+		}
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(bootstrapCmd)
+
+	bootstrapCmd.Flags().
+		BoolVar(&skipCli, "skip-cli", false, "Skip installation of the CLI export script")
+	bootstrapCmd.Flags().
+		BoolVar(&skipPlugin, "skip-plugin", false, "Skip installation of the Catalyst RESTful API plugin")
+}

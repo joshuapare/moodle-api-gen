@@ -8,3 +8,12 @@ gen:
 	JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home \
 		_JAVA_OPTIONS=-DmaxYamlCodePoints=99999999 \
 		openapi-generator-cli generate
+
+run:
+	go run .
+
+build:
+	go build -o bin/ .
+
+install:
+	go install .

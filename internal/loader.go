@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"os/exec"
+	"path/filepath"
 )
 
-// General structure for descriptions
 type Description struct {
 	Default   interface{} `json:"default"`
 	Desc      string      `json:"desc"`
@@ -16,7 +17,6 @@ type Description struct {
 	AllowNull bool        `json:"allownull"`
 }
 
-// Structure for keys within parameters or returns descriptions
 type Key struct {
 	Content *DynamicContent `json:"content,omitempty"`
 	Keys    KeysList        `json:"keys,omitempty"`
@@ -24,24 +24,23 @@ type Key struct {
 	Description
 }
 
-// Structure for dynamic content
 type DynamicContent struct {
 	Keys KeysList `json:"keys,omitempty"`
 	Description
 }
 
-// Custom type for handling allowed_from_ajax that can be either a boolean or a string
+// custom type for handling properties like allowed_from_ajax
+// that can be either a boolean or a stringified boolean value
 type BoolOrString bool
 
 func (bos *BoolOrString) UnmarshalJSON(data []byte) error {
-	// Try unmarshalling as a boolean
 	var b bool
 	if err := json.Unmarshal(data, &b); err == nil {
 		*bos = BoolOrString(b)
 		return nil
 	}
 
-	// Try unmarshalling as a string and converting to boolean
+	// try unmarshalling as a string and converting to boolean
 	var s string
 	if err := json.Unmarshal(data, &s); err == nil {
 		switch s {
@@ -58,11 +57,11 @@ func (bos *BoolOrString) UnmarshalJSON(data []byte) error {
 	return errors.New("failed to unmarshal BoolOrString")
 }
 
-// Custom type for handling keys that can be either an object or an array
+// Moodle is unfortunately inconsistent here, so making a custom type for handling keys
+// that can be either an object or an array
 type KeysList map[string]*Key
 
 func (kl *KeysList) UnmarshalJSON(data []byte) error {
-	// Try unmarshalling as an object
 	var rawObject map[string]*Key
 	err := json.Unmarshal(data, &rawObject)
 	if err == nil {
@@ -70,7 +69,7 @@ func (kl *KeysList) UnmarshalJSON(data []byte) error {
 		return nil
 	}
 
-	// Try unmarshalling as an array
+	// wasn't an object - try unmarshalling as an array
 	var rawArray []json.RawMessage
 	if err := json.Unmarshal(data, &rawArray); err == nil {
 		*kl = make(map[string]*Key)
@@ -87,7 +86,6 @@ func (kl *KeysList) UnmarshalJSON(data []byte) error {
 	return errors.New("failed to unmarshal KeysList")
 }
 
-// Struct for individual method details
 type MethodDetails struct {
 	ClassPath        *string        `json:"classpath"`
 	Services         *string        `json:"services"`
@@ -110,10 +108,9 @@ type MethodDetails struct {
 	ReadOnlySession  BoolOrString   `json:"readonlysession"`
 }
 
-// Main container for all methods
 type Methods map[string]MethodDetails
 
-// loadMethods loads methods from a JSON file
+// LoadMethods loads methods from a JSON file
 func LoadMethods(filePath string) (Methods, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
@@ -133,4 +130,29 @@ func LoadMethods(filePath string) (Methods, error) {
 	}
 
 	return methods, nil
+}
+
+// LoadMethodsFromBytes loads methods from a byte slice
+// containing JSON data
+func LoadMethodsFromBytes(data []byte) (Methods, error) {
+	var methods Methods
+	err := json.Unmarshal(data, &methods)
+	if err != nil {
+		return nil, err
+	}
+	return methods, nil
+}
+
+// LoadMethodsFromExec runs the generator script and loads the methods
+// from the output.
+func LoadMethodsFromExec(scriptPath string) (Methods, error) {
+	localPath := filepath.Join(scriptPath, ExportPath)
+
+	cmd := exec.Command("php", localPath)
+	output, err := cmd.Output()
+	if err != nil {
+		return nil, err
+	}
+	// Load the methods from the output
+	return LoadMethodsFromBytes(output)
 }
