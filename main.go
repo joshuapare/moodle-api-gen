@@ -21,7 +21,9 @@ THE SOFTWARE.
 */
 package main
 
-import "github.com/joshuapare/moodle-api-gen/cmd"
+import (
+	"github.com/joshuapare/moodle-api-gen/cmd"
+)
 
 func main() {
 	cmd.Execute()

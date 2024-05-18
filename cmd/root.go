@@ -26,6 +26,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
+	// "github.com/spf13/cobra/doc"
 	"github.com/spf13/viper"
 )
 
@@ -52,6 +53,11 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
+
+	// err := doc.GenMarkdownTree(rootCmd, "./docs/cli")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
 	rootCmd.PersistentFlags().
 		StringVar(&cfgFile, "config", "", "config file (default is $HOME/.moodle-api-gen.yaml)")
