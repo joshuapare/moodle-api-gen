@@ -13,10 +13,10 @@ The following clients are available:
 - [C#](https://www.nuget.org/packages/MoodleClientCsharp)
 
 The following documentation is available:
-- [Swagger](https://joshuapare.github.io/moodle-api-gen/gen/swagger)
+- [Swagger](https://github.com/joshuapare/moodle-api-gen/tree/main/gen/swagger)
 
 The following definitions are available:
-- [Protocol Buffers](https://github.com/joshuapare/moodle-api-gen/gen/proto)
+- [Protocol Buffers](https://github.com/joshuapare/moodle-api-gen/tree/main/gen/proto)
 
 In addition to the clients, OpenAPI specs are available for each version of the Moodle API, which can be used to generate clients in other languages or to create custom clients (instructions coming soon).
 
