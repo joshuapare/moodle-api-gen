@@ -1,0 +1,13 @@
+# CoreGroupGetActivityAllowedGroups200Response
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**canaccessallgroups** | Option<**bool**> | Whether the user will be able to access all the activity groups. | [optional][default to null]
+**groups** | [**Vec<models::CoreGroupGetActivityAllowedGroups200ResponseGroupsInner>**](core_group_get_activity_allowed_groups_200_response_groups_inner.md) |  | 
+**warnings** | Option<[**Vec<models::AuthEmailSignupUser200ResponseWarningsInner>**](auth_email_signup_user_200_response_warnings_inner.md)> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

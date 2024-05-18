@@ -1,0 +1,14 @@
+# ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**iconurl** | Option<**String**> | iconurl | [optional]
+**id** | Option<**i32**> | id | [optional]
+**name** | Option<**String**> | name | [optional]
+**url** | Option<**String**> | url | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

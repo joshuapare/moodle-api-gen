@@ -1,0 +1,46 @@
+# # ToolMobileGetPublicConfig200Response
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**agedigitalconsentverification** | **bool** | Whether age digital consent verification                     is enabled. | [optional] [default to null]
+**authinstructions** | **string** | Authentication instructions. | [default to 'null']
+**authloginviaemail** | **int** | Whether log in via email is enabled. | [default to null]
+**authnoneenabled** | **int** | Whether auth none is enabled. | [default to null]
+**autolang** | **int** | Whether to detect default language                     from browser setting. | [optional] [default to null]
+**compactlogourl** | **string** | The site compact logo URL | [optional] [default to 'null']
+**country** | **string** | Default site country | [optional] [default to 'null']
+**enablemobilewebservice** | **int** | Whether the Mobile service is enabled. | [default to null]
+**enablewebservices** | **int** | Whether Web Services are enabled. | [default to null]
+**forgottenpasswordurl** | **string** | Forgotten password URL. | [default to 'null']
+**guestlogin** | **int** | Whether guest login is enabled. | [default to null]
+**httpswwwroot** | **string** | Site https URL (if httpslogin is enabled). | [default to 'null']
+**identityproviders** | [**\OpenAPI\Client\Model\ToolMobileGetPublicConfig200ResponseIdentityprovidersInner[]**](ToolMobileGetPublicConfig200ResponseIdentityprovidersInner.md) |  | [optional]
+**lang** | **string** | Default language for the site. | [optional] [default to 'null']
+**langlist** | **string** | Languages on language menu. | [optional] [default to 'null']
+**langmenu** | **int** | Whether the language menu should be displayed. | [optional] [default to null]
+**launchurl** | **string** | SSO login launch URL. | [optional] [default to 'null']
+**locale** | **string** | Sitewide locale. | [optional] [default to 'null']
+**logourl** | **string** | The site logo URL | [optional] [default to 'null']
+**maintenanceenabled** | **int** | Whether site maintenance is enabled. | [default to null]
+**maintenancemessage** | **string** | Maintenance message. | [default to 'null']
+**mobilecssurl** | **string** | Mobile custom CSS theme | [optional]
+**registerauth** | **string** | Authentication method for user registration. | [default to 'null']
+**rememberusername** | **int** | Values: 0 for No, 1 for Yes, 2 for optional. | [default to null]
+**sitename** | **string** | Site name. | [default to 'null']
+**supportavailability** | **int** | Determines who has access to contact site support. | [optional] [default to null]
+**supportemail** | **string** | Site support contact email                     (only if age verification is enabled). | [optional] [default to 'null']
+**supportname** | **string** | Site support contact name                     (only if age verification is enabled). | [optional] [default to 'null']
+**supportpage** | **string** | Site support page link. | [optional] [default to 'null']
+**tool_mobile_androidappid** | **string** | Android app&#39;s unique identifier. | [optional] [default to 'null']
+**tool_mobile_disabledfeatures** | **string** | Disabled features in the app | [optional] [default to 'null']
+**tool_mobile_iosappid** | **string** | iOS app&#39;s unique identifier. | [optional] [default to 'null']
+**tool_mobile_minimumversion** | **string** | Minimum required version to access. | [optional] [default to 'null']
+**tool_mobile_qrcodetype** | **int** | QR login configuration. | [optional] [default to null]
+**tool_mobile_setuplink** | **string** | App download page. | [optional] [default to 'null']
+**typeoflogin** | **int** | The type of login. 1 for app, 2 for browser, 3 for embedded. | [default to null]
+**warnings** | [**\OpenAPI\Client\Model\AuthEmailSignupUser200ResponseWarningsInner[]**](AuthEmailSignupUser200ResponseWarningsInner.md) |  | [optional]
+**wwwroot** | **string** | Site URL. | [default to 'null']
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

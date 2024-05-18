@@ -1,0 +1,11 @@
+# CoreMessageGetReceivedContactRequestsCountRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**userid** | **i32** | The id of the user we want to return the number of received contact requests for | [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

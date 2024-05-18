@@ -1,0 +1,48 @@
+# # ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**activity** | **string** | Description of activity | [optional] [default to 'null']
+**activityattachments** | [**\OpenAPI\Client\Model\CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner[]**](CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner.md) |  | [optional]
+**activityformat** | **int** | activity format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to null]
+**allowsubmissionsfromdate** | **int** | allow submissions from date | [optional] [default to null]
+**attemptreopenmethod** | **string** | method used to control opening new attempts | [optional] [default to 'null']
+**blindmarking** | **int** | if enabled, hide identities until reveal identities actioned | [optional] [default to null]
+**cmid** | **int** | course module id | [optional]
+**completionsubmit** | **int** | if enabled, set activity as complete following submission | [optional] [default to null]
+**configs** | [**\OpenAPI\Client\Model\ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInnerConfigsInner[]**](ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInnerConfigsInner.md) |  | [optional]
+**course** | **int** | course id | [optional]
+**cutoffdate** | **int** | date after which submission is not accepted without an extension | [optional] [default to null]
+**duedate** | **int** | assignment due date | [optional] [default to null]
+**grade** | **int** | grade type | [optional] [default to null]
+**gradingduedate** | **int** | the expected date for marking the submissions | [optional] [default to null]
+**hidegrader** | **int** | If enabled, hide grader to student | [optional] [default to null]
+**id** | **int** | assignment id | [optional]
+**intro** | **string** | assignment intro, not allways returned because it deppends on the activity configuration | [optional] [default to 'null']
+**introattachments** | [**\OpenAPI\Client\Model\CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner[]**](CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner.md) |  | [optional]
+**introfiles** | [**\OpenAPI\Client\Model\CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner[]**](CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner.md) |  | [optional]
+**introformat** | **int** | intro format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to null]
+**markingallocation** | **int** | enable marking allocation | [optional] [default to null]
+**markingworkflow** | **int** | enable marking workflow | [optional] [default to null]
+**maxattempts** | **int** | maximum number of attempts allowed | [optional] [default to null]
+**name** | **string** | assignment name | [optional] [default to 'null']
+**nosubmissions** | **int** | no submissions | [optional] [default to null]
+**preventsubmissionnotingroup** | **int** | Prevent submission not in group | [optional] [default to null]
+**requireallteammemberssubmit** | **int** | if enabled, all team members must submit | [optional] [default to null]
+**requiresubmissionstatement** | **int** | student must accept submission statement | [optional] [default to null]
+**revealidentities** | **int** | show identities for a blind marking assignment | [optional] [default to null]
+**sendlatenotifications** | **int** | send notifications | [optional] [default to null]
+**sendnotifications** | **int** | send notifications | [optional]
+**sendstudentnotifications** | **int** | send student notifications (default) | [optional] [default to null]
+**submissionattachments** | **int** | Flag to only show files during submission | [optional] [default to null]
+**submissiondrafts** | **int** | submissions drafts | [optional] [default to null]
+**submissionstatement** | **string** | Submission statement formatted. | [optional] [default to 'null']
+**submissionstatementformat** | **int** | submissionstatement format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to null]
+**teamsubmission** | **int** | if enabled, students submit as a team | [optional] [default to null]
+**teamsubmissiongroupingid** | **int** | the grouping id for the team submission groups | [optional] [default to null]
+**timelimit** | **int** | Time limit to complete assigment | [optional] [default to null]
+**timemodified** | **int** | last time assignment was modified | [optional] [default to null]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

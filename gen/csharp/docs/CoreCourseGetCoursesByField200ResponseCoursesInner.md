@@ -1,0 +1,51 @@
+# Org.OpenAPITools.Model.CoreCourseGetCoursesByField200ResponseCoursesInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Cacherev** | **int** | Cache revision number | [optional] [default to null]
+**Calendartype** | **string** | Calendar type | [optional] [default to "null"]
+**Categoryid** | **int** | category id | [optional] 
+**Categoryname** | **string** | category name | [optional] [default to "null"]
+**Completionnotify** | **int** | 1: yes 0: no | [optional] 
+**Contacts** | [**List&lt;CoreCourseGetCoursesByField200ResponseCoursesInnerContactsInner&gt;**](CoreCourseGetCoursesByField200ResponseCoursesInnerContactsInner.md) |  | [optional] 
+**Courseformatoptions** | [**List&lt;CoreCourseGetCoursesByField200ResponseCoursesInnerCourseformatoptionsInner&gt;**](CoreCourseGetCoursesByField200ResponseCoursesInnerCourseformatoptionsInner.md) |  | [optional] 
+**Courseimage** | **string** | Course image | [optional] [default to "null"]
+**Customfields** | [**List&lt;CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner&gt;**](CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner.md) |  | [optional] 
+**Defaultgroupingid** | **int** | default grouping id | [optional] [default to null]
+**Displayname** | **string** | course display name | [optional] [default to "null"]
+**Enablecompletion** | **int** | Completion enabled? 1: yes 0: no | [optional] [default to null]
+**Enddate** | **int** | Timestamp when the course end | [optional] [default to null]
+**Enrollmentmethods** | **List&lt;Object&gt;** |  | [optional] 
+**Filters** | [**List&lt;CoreCourseGetCoursesByField200ResponseCoursesInnerFiltersInner&gt;**](CoreCourseGetCoursesByField200ResponseCoursesInnerFiltersInner.md) |  | [optional] 
+**Format** | **string** | Course format: weeks, topics, social, site,.. | [optional] [default to "null"]
+**Fullname** | **string** | course full name | [optional] [default to "null"]
+**Groupmode** | **int** | no group, separate, visible | [optional] [default to null]
+**Groupmodeforce** | **int** | 1: yes, 0: no | [optional] [default to null]
+**Id** | **int** | course id | [optional] 
+**Idnumber** | **string** | Id number | [optional] [default to "null"]
+**Lang** | **string** | Forced course language | [optional] [default to "null"]
+**Legacyfiles** | **int** | If legacy files are enabled | [optional] [default to null]
+**Marker** | **int** | Current course marker | [optional] [default to null]
+**Maxbytes** | **int** | Largest size of file that can be uploaded into | [optional] [default to null]
+**Newsitems** | **int** | Number of recent items appearing on the course page | [optional] [default to null]
+**Overviewfiles** | [**List&lt;CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner&gt;**](CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner.md) |  | [optional] 
+**Requested** | **int** | If is a requested course | [optional] [default to null]
+**Shortname** | **string** | course short name | [optional] 
+**Showactivitydates** | **bool** | Whether the activity dates are shown or not | [optional] [default to null]
+**Showcompletionconditions** | **bool** | Whether the activity completion conditions are shown or not | [optional] [default to null]
+**Showgrades** | **int** | 1 if grades are shown, otherwise 0 | [optional] [default to null]
+**Showreports** | **int** | Are activity report shown (yes &#x3D; 1, no &#x3D;0) | [optional] [default to null]
+**Sortorder** | **int** | Sort order in the category | [optional] [default to null]
+**Startdate** | **int** | Timestamp when the course start | [optional] [default to null]
+**Summary** | **string** | summary | [optional] 
+**Summaryfiles** | [**List&lt;CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner&gt;**](CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner.md) |  | [optional] 
+**Summaryformat** | **int** | summary format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] 
+**Theme** | **string** | Fame of the forced theme | [optional] [default to "null"]
+**Timecreated** | **int** | Time when the course was created | [optional] [default to null]
+**Timemodified** | **int** | Last time  the course was updated | [optional] [default to null]
+**Visible** | **int** | 1: available to student, 0:not available | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,55 @@
+# Org.OpenAPITools.Model.ModLessonGetLesson200ResponseLesson
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Activitylink** | **int** | Id of the next activity to be linked once the lesson is completed | [optional] [default to null]
+**Allowofflineattempts** | **bool** | Whether to allow the lesson to be attempted offline in the mobile app | [default to null]
+**Available** | **int** | Available from | [optional] [default to null]
+**Bgcolor** | **string** | Slideshow bgcolor | [optional] [default to "null"]
+**Completionendreached** | **int** | Require end reached for completion? | [optional] [default to null]
+**Completiontimespent** | **int** | Student must do this activity at least for | [optional] [default to null]
+**Conditions** | **string** | Conditions to enable the lesson | [optional] [default to "null"]
+**Course** | **int** | Foreign key reference to the course this lesson is part of. | [default to null]
+**Coursemodule** | **int** | Course module id. | [default to null]
+**Custom** | **bool** | Custom scoring? | [optional] [default to null]
+**Deadline** | **int** | Available until | [optional] [default to null]
+**Dependency** | **int** | Dependent on (another lesson id) | [optional] [default to null]
+**Displayleft** | **bool** | Display left pages menu? | [optional] [default to null]
+**Displayleftif** | **int** | Minimum grade to display menu | [optional] [default to null]
+**Feedback** | **bool** | Display default feedback | [optional] [default to null]
+**Grade** | **int** | The total that the grade is scaled to be out of | [optional] [default to null]
+**Height** | **int** | Slideshow height | [optional] [default to null]
+**Id** | **int** | Standard Moodle primary key. | [default to null]
+**Intro** | **string** | Lesson introduction text. | [optional] [default to "null"]
+**Introfiles** | [**List&lt;CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner&gt;**](CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner.md) |  | [optional] 
+**Introformat** | **int** | intro format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to 0]
+**Lang** | **string** | Forced activity language | 
+**Maxanswers** | **int** | Maximum answers per page | [optional] [default to null]
+**Maxattempts** | **int** | Maximum attempts | [optional] [default to null]
+**Maxpages** | **int** | Number of pages to show | [optional] [default to null]
+**Mediaclose** | **int** | Display a close button in the popup? | [optional] [default to null]
+**Mediafile** | **string** | Local file path or full external URL | [optional] [default to "null"]
+**Mediafiles** | [**List&lt;CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner&gt;**](CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner.md) |  | [optional] 
+**Mediaheight** | **int** | Popup for media file height | [optional] [default to null]
+**Mediawidth** | **int** | Popup for media with | [optional] [default to null]
+**Minquestions** | **int** | Minimum number of questions | [optional] [default to null]
+**Modattempts** | **bool** | Allow student review? | [optional] [default to null]
+**Name** | **string** | Lesson name. | [default to "null"]
+**Nextpagedefault** | **int** | Action for a correct answer | [optional] [default to null]
+**Ongoing** | **bool** | Display ongoing score? | [optional] [default to null]
+**Password** | **string** | Password | [optional] [default to "null"]
+**Practice** | **bool** | Practice lesson? | [optional] [default to null]
+**Progressbar** | **bool** | Display progress bar? | [optional] [default to null]
+**Retake** | **bool** | Re-takes allowed | [optional] [default to null]
+**Review** | **bool** | Provide option to try a question again | [optional] [default to null]
+**Slideshow** | **bool** | Display lesson as slideshow | [optional] [default to null]
+**Timelimit** | **int** | Time limit | [optional] [default to null]
+**Timemodified** | **int** | Last time settings were updated | [optional] [default to null]
+**Usemaxgrade** | **int** | How to calculate the final grade | [optional] [default to null]
+**Usepassword** | **bool** | Password protected lesson? | [optional] [default to null]
+**Width** | **int** | Slideshow width | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

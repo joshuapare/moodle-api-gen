@@ -1,0 +1,52 @@
+# Org.OpenAPITools.Model.CoreCalendarGetActionEventsByCourse200ResponseEventsInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Action** | [**CoreCalendarGetActionEventsByCourse200ResponseEventsInnerAction**](CoreCalendarGetActionEventsByCourse200ResponseEventsInnerAction.md) |  | [optional] 
+**Activityname** | **string** | activityname | [optional] [default to "null"]
+**Activitystr** | **string** | activitystr | [optional] [default to "null"]
+**Candelete** | **bool** | candelete | [optional] [default to null]
+**Canedit** | **bool** | canedit | [optional] [default to null]
+**Category** | [**CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory**](CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory.md) |  | [optional] 
+**Categoryid** | **int** | categoryid | [optional] [default to null]
+**Component** | **string** | component | [optional] [default to "null"]
+**Course** | [**CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCourse**](CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCourse.md) |  | [optional] 
+**Deleteurl** | **string** | deleteurl | [optional] [default to "null"]
+**Description** | **string** | description | [optional] [default to "null"]
+**Descriptionformat** | **int** | description format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to 1]
+**Editurl** | **string** | editurl | [optional] [default to "null"]
+**Eventcount** | **int** | eventcount | [optional] [default to null]
+**Eventtype** | **string** | eventtype | [optional] [default to "null"]
+**Formattedlocation** | **string** | formattedlocation | [optional] [default to "null"]
+**Formattedtime** | **string** | formattedtime | [optional] [default to "null"]
+**Groupid** | **int** | groupid | [optional] [default to null]
+**Groupname** | **string** | groupname | [optional] [default to "null"]
+**Icon** | [**CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon**](CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon.md) |  | [optional] 
+**Id** | **int** | id | [optional] 
+**Instance** | **int** | instance | [optional] [default to null]
+**Isactionevent** | **bool** | isactionevent | [optional] [default to null]
+**Iscategoryevent** | **bool** | iscategoryevent | [optional] [default to null]
+**Iscourseevent** | **bool** | iscourseevent | [optional] [default to null]
+**Location** | **string** | location | [optional] [default to "null"]
+**Modulename** | **string** | modulename | [optional] [default to "null"]
+**Name** | **string** | name | [optional] 
+**Normalisedeventtype** | **string** | normalisedeventtype | [optional] [default to "null"]
+**Normalisedeventtypetext** | **string** | normalisedeventtypetext | [optional] [default to "null"]
+**Overdue** | **bool** | overdue | [optional] [default to false]
+**Purpose** | **string** | purpose | [optional] [default to "null"]
+**Repeatid** | **int** | repeatid | [optional] [default to null]
+**Subscription** | [**CoreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription**](CoreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription.md) |  | [optional] 
+**Timeduration** | **int** | timeduration | [optional] [default to null]
+**Timemodified** | **int** | timemodified | [optional] [default to null]
+**Timesort** | **int** | timesort | [optional] [default to null]
+**Timestart** | **int** | timestart | [optional] [default to null]
+**Timeusermidnight** | **int** | timeusermidnight | [optional] [default to null]
+**Url** | **string** | url | [optional] 
+**Userid** | **int** | userid | [optional] [default to null]
+**Viewurl** | **string** | viewurl | [optional] 
+**Visible** | **int** | visible | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

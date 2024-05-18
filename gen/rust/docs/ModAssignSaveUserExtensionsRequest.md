@@ -1,0 +1,13 @@
+# ModAssignSaveUserExtensionsRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**assignmentid** | **i32** | The assignment id to operate on | 
+**dates** | [**Vec<serde_json::Value>**](serde_json::Value.md) |  | 
+**userids** | [**Vec<serde_json::Value>**](serde_json::Value.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
