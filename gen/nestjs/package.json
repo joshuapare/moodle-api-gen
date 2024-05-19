@@ -1,16 +1,19 @@
 {
   "name": "joshuapare/moodle-client-nestjs",
   "version": "4.3.4",
-  "description": "REST client for joshuapare/moodle-client-nestjs",
-  "author": "OpenAPI Generator Contributors",
+  "description": "Moodle Webservices client, generated as part of the `moodle-api-gen` project",
+  "author": "Joshua Pare <joshuabpare@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/joshuapare/moodle-api-gen.git"
   },
   "keywords": [
-    "swagger-client"
+    "moodle",
+    "nestjs",
+    "nest",
+    "openapi",
   ],
-  "license": "Unlicense",
+  "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "build:clean": "rm -rf dist/ 2> /dev/null && tsc -p tsconfig.build.json",

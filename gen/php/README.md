@@ -1,8 +1,27 @@
-# OpenAPIClient-php
+<br>
+<div align="center">
+  <img src="https://moodle.com/wp-content/uploads/2024/02/Moodlelogo.svg" alt="Moodle" width="300">
+  <h1 align="center" style="padding-top: 20px;">
+    Moodle | PHP Client
+  </h1>
+</div>
 
-Auto-generated OpenAPI spec for Moodle's Webservice API. Requires installation of the Catalyst RESTful API plugin: https://github.com/catalyst/moodle-webservice_restful.
+<br>
 
-For more information, please visit [https://www.joshuapare.com](https://www.joshuapare.com).
+<div align="center">
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/joshuapare/moodle-api-gen?include_prereleases&style=flat-square&color=f98012">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/joshuapare/moodle-api-gen?style=flat-square">
+  <img alt="Built with Go" src="https://img.shields.io/badge/built_with-Go-007D9C.svg?style=flat-square">
+</div>
+
+<br>
+
+<p align="center">
+  <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+</p>
+ 
+
+PHP Client for Moodle, generated from the relevant OpenAPI spec from the [moodle-api-gen](https://www.github.com/joshuapare/moodle-api-gen) project.
 
 ## Installation & Usage
 
@@ -52,9 +71,6 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: apiKey
 $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
-
 
 $apiInstance = new OpenAPI\Client\Api\AuthEmailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.

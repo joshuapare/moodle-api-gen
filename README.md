@@ -57,15 +57,14 @@
 | Client                  | Link                                                                                        | Latest Version       |
 |-------------------------|---------------------------------------------------------------------------------------------|----------------------|
 | Go                      | [Go](https://pkg.go.dev/github.com/joshuapare/moodle-client-go)                             | 4.3.4                |
-| C#                      | [C#](https://www.nuget.org/packages/MoodleClient)                                           | 4.3.4 (Unreleased)   |
-| JavaScript              | [JavaScript](https://www.npmjs.com/package/joshuapare/moodle-client-js)                     | 4.3.4 (Unreleased)   |
-| Kotlin                  | [Kotlin](https://search.maven.org/artifact/com.joshuapare/moodle-client)                    | 4.3.4 (Unreleased)   |
-| NestJS                  | [NestJS](https://www.npmjs.com/package/joshuapare/moodle-client-nestjs)                     | 4.3.4 (Unreleased)   |
-| Node.js                 | [Node.js](https://www.npmjs.com/package/joshuapare/moodle-client-node)                      | 4.3.4 (Unreleased)   |
-| PHP                     | [PHP](https://packagist.org/packages/joshuapare/moodle-client)                              | 4.3.4 (Unreleased)   |
-| Python                  | [Python](https://pypi.org/project/moodle-client)                                            | 4.3.4 (Unreleased)   |
-| Rust                    | [Rust](https://crates.io/crates/moodle-client)                                              | 4.3.4 (Unreleased)   |
-| TypeScript (Fetch)      | [TypeScript (Fetch)](https://www.npmjs.com/package/joshuapare/moodle-client-ts)             | 4.3.4 (Unreleased)   |
+| C#                      | [C#](https://www.nuget.org/packages/MoodleClient)                                           | 4.3.4 (Unreleased, prerelease in `gen/csharp`)   |
+| Kotlin                  | [Kotlin](https://search.maven.org/artifact/com.joshuapare/moodle-client)                    | 4.3.4 (Unreleased, prerelease in `gen/java`)   |
+| NestJS                  | [NestJS](https://www.npmjs.com/package/joshuapare/moodle-client-nestjs)                     | 4.3.4 (Unreleased, prerelease in `gen/nestjs`)   |
+| Node.js                 | [Node.js](https://www.npmjs.com/package/joshuapare/moodle-client-node)                      | 4.3.4 (Unreleased, prerelease in `gen/nodejs`)   |
+| PHP                     | [PHP](https://packagist.org/packages/joshuapare/moodle-client)                              | 4.3.4 (Unreleased, prerelease in `gen/php`)   |
+| Python                  | [Python](https://pypi.org/project/moodle-client)                                            | 4.3.4 (Unreleased, prerelease in `gen/python`)   |
+| Rust                    | [Rust](https://crates.io/crates/moodle-client)                                              | 4.3.4 (Unreleased, prerelease in `gen/rust`)   |
+| TypeScript (Fetch)      | [TypeScript (Fetch)](https://www.npmjs.com/package/joshuapare/moodle-client-ts)             | 4.3.4 (Unreleased, prerelease in `gen/ts-fetch`)   |
 
 ### Available Documentation
 

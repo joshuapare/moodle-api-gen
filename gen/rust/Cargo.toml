@@ -1,10 +1,10 @@
 [package]
-name = "openapi"
+name = "moodle-client"
 version = "4.3.4"
-authors = ["OpenAPI Generator team and contributors"]
+authors = ["Joshua Pare"]
 description = "Auto-generated OpenAPI spec for Moodle's Webservice API. Requires installation of the Catalyst RESTful API plugin: https://github.com/catalyst/moodle-webservice_restful."
 # Override this license by providing a License Object in the OpenAPI.
-license = "Unlicense"
+license = "MIT"
 edition = "2018"
 
 [dependencies]
