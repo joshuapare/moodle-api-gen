@@ -64,7 +64,7 @@
 | PHP                     | [PHP](https://packagist.org/packages/joshuapare/moodle-client)                              | 4.3.4 (Unreleased, prerelease in `gen/php`)   |
 | Python                  | [Python](https://pypi.org/project/moodle-client)                                            | 4.3.4 (Unreleased, prerelease in `gen/python`)   |
 | Rust                    | [Rust](https://crates.io/crates/moodle-client)                                              | 4.3.4 (Unreleased, prerelease in `gen/rust`)   |
-| TypeScript (Fetch)      | [TypeScript (Fetch)](https://www.npmjs.com/package/joshuapare/moodle-client-ts)             | 4.3.4 (Unreleased, prerelease in `gen/ts-fetch`)   |
+| TypeScript              | [TypeScript](https://www.npmjs.com/package/joshuapare/moodle-client-ts)                     | 4.3.4 (Unreleased, prerelease in `gen/ts-fetch`)   |
 
 ### Available Documentation
 
