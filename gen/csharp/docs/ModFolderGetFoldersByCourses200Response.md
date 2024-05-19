@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFolderGetFoldersByCourses200Response
+# MoodleClient.Model.ModFolderGetFoldersByCourses200Response
 
 ## Properties
 

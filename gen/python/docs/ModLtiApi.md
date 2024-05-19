@@ -1,6 +1,6 @@
 # openapi_client.ModLtiApi
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -40,10 +40,10 @@ from openapi_client.models.mod_lti_create_tool_proxy_request import ModLtiCreate
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -121,10 +121,10 @@ from openapi_client.models.mod_lti_create_tool_type_request import ModLtiCreateT
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -201,10 +201,10 @@ from openapi_client.models.mod_lti_delete_course_tool_type_request import ModLti
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -282,10 +282,10 @@ from openapi_client.models.mod_lti_delete_tool_proxy_request import ModLtiDelete
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -362,10 +362,10 @@ from openapi_client.models.mod_lti_delete_tool_type_request import ModLtiDeleteT
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -443,10 +443,10 @@ from openapi_client.models.mod_lti_get_ltis_by_courses200_response import ModLti
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -524,10 +524,10 @@ from openapi_client.models.mod_lti_get_tool_launch_data_request import ModLtiGet
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -604,10 +604,10 @@ from openapi_client.models.mod_lti_get_tool_proxies_request import ModLtiGetTool
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -685,10 +685,10 @@ from openapi_client.models.mod_lti_get_tool_proxy_registration_request200_respon
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -765,10 +765,10 @@ from openapi_client.models.mod_lti_get_tool_types_request import ModLtiGetToolTy
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -846,10 +846,10 @@ from openapi_client.models.mod_lti_get_tool_types_and_proxies_request import Mod
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -927,10 +927,10 @@ from openapi_client.models.mod_lti_get_tool_types_and_proxies_count_request impo
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -1008,10 +1008,10 @@ from openapi_client.models.mod_lti_is_cartridge_request import ModLtiIsCartridge
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -1088,10 +1088,10 @@ from openapi_client.models.mod_lti_toggle_showinactivitychooser_request import M
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -1169,10 +1169,10 @@ from openapi_client.models.mod_lti_update_tool_type_request import ModLtiUpdateT
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -1250,10 +1250,10 @@ from openapi_client.models.mod_lti_view_lti_request import ModLtiViewLtiRequest
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters

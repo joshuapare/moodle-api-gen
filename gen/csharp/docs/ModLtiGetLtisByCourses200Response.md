@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetLtisByCourses200Response
+# MoodleClient.Model.ModLtiGetLtisByCourses200Response
 
 ## Properties
 

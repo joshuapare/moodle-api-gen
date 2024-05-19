@@ -19,40 +19,40 @@ export class CoreSearchGetSearchAreasList200ResponseAreasInner {
     /**
     * category id
     */
-    'categoryid'?: string = 'null';
+    'Categoryid'?: string = 'null';
     /**
     * category name
     */
-    'categoryname'?: string;
+    'Categoryname'?: string;
     /**
     * search area id
     */
-    'id'?: string = 'null';
+    'Id'?: string = 'null';
     /**
     * search area name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "string"
         },
         {
-            "name": "categoryname",
+            "name": "Categoryname",
             "baseName": "categoryname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

@@ -14,190 +14,190 @@ import { RequestFile } from './models';
 import { CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner } from './coreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner';
 
 export class CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInner {
-    'calendareventtypes'?: Array<object>;
+    'Calendareventtypes'?: Array<object>;
     /**
     * daytitle
     */
-    'daytitle'?: string = 'null';
-    'events'?: Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner>;
+    'Daytitle'?: string = 'null';
+    'Events'?: Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner>;
     /**
     * hasevents
     */
-    'hasevents'?: boolean = false;
+    'Hasevents'?: boolean = false;
     /**
     * haslastdayofevent
     */
-    'haslastdayofevent'?: boolean = false;
+    'Haslastdayofevent'?: boolean = false;
     /**
     * hours
     */
-    'hours'?: number;
+    'Hours'?: number;
     /**
     * istoday
     */
-    'istoday'?: boolean = false;
+    'Istoday'?: boolean = false;
     /**
     * isweekend
     */
-    'isweekend'?: boolean = false;
+    'Isweekend'?: boolean = false;
     /**
     * mday
     */
-    'mday'?: number;
+    'Mday'?: number;
     /**
     * minutes
     */
-    'minutes'?: number;
+    'Minutes'?: number;
     /**
     * neweventtimestamp
     */
-    'neweventtimestamp'?: number;
+    'Neweventtimestamp'?: number;
     /**
     * nextperiod
     */
-    'nextperiod'?: number = null;
+    'Nextperiod'?: number = null;
     /**
     * popovertitle
     */
-    'popovertitle'?: string = '';
+    'Popovertitle'?: string = '';
     /**
     * previousperiod
     */
-    'previousperiod'?: number = null;
+    'Previousperiod'?: number = null;
     /**
     * seconds
     */
-    'seconds'?: number;
+    'Seconds'?: number;
     /**
     * timestamp
     */
-    'timestamp'?: number;
+    'Timestamp'?: number;
     /**
     * viewdaylink
     */
-    'viewdaylink'?: string = 'null';
+    'Viewdaylink'?: string = 'null';
     /**
     * viewdaylinktitle
     */
-    'viewdaylinktitle'?: string = 'null';
+    'Viewdaylinktitle'?: string = 'null';
     /**
     * wday
     */
-    'wday'?: number;
+    'Wday'?: number;
     /**
     * yday
     */
-    'yday'?: number;
+    'Yday'?: number;
     /**
     * year
     */
-    'year'?: number;
+    'Year'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "calendareventtypes",
+            "name": "Calendareventtypes",
             "baseName": "calendareventtypes",
             "type": "Array<object>"
         },
         {
-            "name": "daytitle",
+            "name": "Daytitle",
             "baseName": "daytitle",
             "type": "string"
         },
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner>"
         },
         {
-            "name": "hasevents",
+            "name": "Hasevents",
             "baseName": "hasevents",
             "type": "boolean"
         },
         {
-            "name": "haslastdayofevent",
+            "name": "Haslastdayofevent",
             "baseName": "haslastdayofevent",
             "type": "boolean"
         },
         {
-            "name": "hours",
+            "name": "Hours",
             "baseName": "hours",
             "type": "number"
         },
         {
-            "name": "istoday",
+            "name": "Istoday",
             "baseName": "istoday",
             "type": "boolean"
         },
         {
-            "name": "isweekend",
+            "name": "Isweekend",
             "baseName": "isweekend",
             "type": "boolean"
         },
         {
-            "name": "mday",
+            "name": "Mday",
             "baseName": "mday",
             "type": "number"
         },
         {
-            "name": "minutes",
+            "name": "Minutes",
             "baseName": "minutes",
             "type": "number"
         },
         {
-            "name": "neweventtimestamp",
+            "name": "Neweventtimestamp",
             "baseName": "neweventtimestamp",
             "type": "number"
         },
         {
-            "name": "nextperiod",
+            "name": "Nextperiod",
             "baseName": "nextperiod",
             "type": "number"
         },
         {
-            "name": "popovertitle",
+            "name": "Popovertitle",
             "baseName": "popovertitle",
             "type": "string"
         },
         {
-            "name": "previousperiod",
+            "name": "Previousperiod",
             "baseName": "previousperiod",
             "type": "number"
         },
         {
-            "name": "seconds",
+            "name": "Seconds",
             "baseName": "seconds",
             "type": "number"
         },
         {
-            "name": "timestamp",
+            "name": "Timestamp",
             "baseName": "timestamp",
             "type": "number"
         },
         {
-            "name": "viewdaylink",
+            "name": "Viewdaylink",
             "baseName": "viewdaylink",
             "type": "string"
         },
         {
-            "name": "viewdaylinktitle",
+            "name": "Viewdaylinktitle",
             "baseName": "viewdaylinktitle",
             "type": "string"
         },
         {
-            "name": "wday",
+            "name": "Wday",
             "baseName": "wday",
             "type": "number"
         },
         {
-            "name": "yday",
+            "name": "Yday",
             "baseName": "yday",
             "type": "number"
         },
         {
-            "name": "year",
+            "name": "Year",
             "baseName": "year",
             "type": "number"
         }    ];

@@ -16,31 +16,31 @@ export class CoreCourseToggleActivityRecommendation200Response {
     /**
     * The favourite area (itemtype)
     */
-    'area': string;
+    'Area': string;
     /**
     * id of the activity or whatever
     */
-    'id': number;
+    'Id': number;
     /**
     * If created or deleted
     */
-    'status': boolean = null;
+    'Status': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         }    ];

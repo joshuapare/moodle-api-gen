@@ -16,22 +16,22 @@ export class CoreEnrolSubmitUserEnrolmentForm200Response {
     /**
     * True if the user\'s enrolment was successfully updated
     */
-    'result': boolean = null;
+    'Result': boolean = null;
     /**
     * Indicates invalid form data
     */
-    'validationerror'?: boolean = false;
+    'Validationerror'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "result",
+            "name": "Result",
             "baseName": "result",
             "type": "boolean"
         },
         {
-            "name": "validationerror",
+            "name": "Validationerror",
             "baseName": "validationerror",
             "type": "boolean"
         }    ];

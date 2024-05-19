@@ -16,31 +16,31 @@ export class ModDataAddEntryRequestDataInner {
     /**
     * The field id.
     */
-    'fieldid'?: number = null;
+    'Fieldid'?: number = null;
     /**
     * The subfield name (if required).
     */
-    'subfield'?: string = '';
+    'Subfield'?: string = '';
     /**
     * The contents for the field always JSON encoded.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fieldid",
+            "name": "Fieldid",
             "baseName": "fieldid",
             "type": "number"
         },
         {
-            "name": "subfield",
+            "name": "Subfield",
             "baseName": "subfield",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

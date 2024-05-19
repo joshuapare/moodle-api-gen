@@ -16,13 +16,13 @@ export class CoreEnrolSubmitUserEnrolmentFormRequest {
     /**
     * The data from the event form
     */
-    'formdata': string;
+    'Formdata': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "formdata",
+            "name": "Formdata",
             "baseName": "formdata",
             "type": "string"
         }    ];

@@ -16,67 +16,67 @@ export class ToolDataprivacyCreateCategoryForm200ResponseCategory {
     /**
     * The category description.
     */
-    'description': string = '';
+    'Description': string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * The category name.
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

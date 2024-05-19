@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForPlansPageRequest
+# MoodleClient.Model.ToolLpDataForPlansPageRequest
 
 ## Properties
 

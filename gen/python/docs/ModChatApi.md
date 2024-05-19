@@ -1,6 +1,6 @@
 # openapi_client.ModChatApi
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -33,10 +33,10 @@ from openapi_client.models.mod_chat_get_chat_latest_messages_request import ModC
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -114,10 +114,10 @@ from openapi_client.models.mod_chat_get_chat_users_request import ModChatGetChat
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -195,10 +195,10 @@ from openapi_client.models.mod_chat_get_chats_by_courses_request import ModChatG
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -276,10 +276,10 @@ from openapi_client.models.mod_chat_get_session_messages_request import ModChatG
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -357,10 +357,10 @@ from openapi_client.models.mod_chat_get_sessions_request import ModChatGetSessio
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -438,10 +438,10 @@ from openapi_client.models.mod_chat_login_user_request import ModChatLoginUserRe
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -519,10 +519,10 @@ from openapi_client.models.mod_chat_send_chat_message_request import ModChatSend
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -600,10 +600,10 @@ from openapi_client.models.mod_chat_view_chat_request import ModChatViewChatRequ
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -681,10 +681,10 @@ from openapi_client.models.mod_chat_view_sessions_request import ModChatViewSess
 from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://localhost/webservice/rest/server.php
+# Defining the host is optional and defaults to https://localhost/webservice/restful/server.php
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost/webservice/rest/server.php"
+    host = "https://localhost/webservice/restful/server.php"
 )
 
 # The client must configure the authentication and authorization parameters

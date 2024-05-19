@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubricRubricCriteriaInnerLevelsInner
+# MoodleClient.Model.CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubricRubricCriteriaInnerLevelsInner
 
 ## Properties
 

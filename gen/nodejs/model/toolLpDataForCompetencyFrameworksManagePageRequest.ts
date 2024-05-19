@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohortsRequestContext } from './coreCohortSearchCohortsRequestContext';
 
 export class ToolLpDataForCompetencyFrameworksManagePageRequest {
-    'pagecontext': CoreCohortSearchCohortsRequestContext;
+    'Pagecontext': CoreCohortSearchCohortsRequestContext;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pagecontext",
+            "name": "Pagecontext",
             "baseName": "pagecontext",
             "type": "CoreCohortSearchCohortsRequestContext"
         }    ];

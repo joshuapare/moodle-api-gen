@@ -16,49 +16,49 @@ export class CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon {
     /**
     * alttext
     */
-    'alttext': string = 'null';
+    'Alttext': string = 'null';
     /**
     * component
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * iconclass
     */
-    'iconclass': string = 'null';
+    'Iconclass': string = 'null';
     /**
     * iconurl
     */
-    'iconurl': string = 'null';
+    'Iconurl': string = 'null';
     /**
     * key
     */
-    'key': string = 'null';
+    'Key': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "alttext",
+            "name": "Alttext",
             "baseName": "alttext",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "iconclass",
+            "name": "Iconclass",
             "baseName": "iconclass",
             "type": "string"
         },
         {
-            "name": "iconurl",
+            "name": "Iconurl",
             "baseName": "iconurl",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         }    ];

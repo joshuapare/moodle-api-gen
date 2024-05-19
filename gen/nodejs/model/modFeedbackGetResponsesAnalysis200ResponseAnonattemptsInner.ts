@@ -17,37 +17,37 @@ export class ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner {
     /**
     * Course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * Completed id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Response number
     */
-    'number'?: number = null;
-    'responses'?: Array<ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInnerResponsesInner>;
+    'Number'?: number = null;
+    'Responses'?: Array<ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInnerResponsesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "number",
+            "name": "Number",
             "baseName": "number",
             "type": "number"
         },
         {
-            "name": "responses",
+            "name": "Responses",
             "baseName": "responses",
             "type": "Array<ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInnerResponsesInner>"
         }    ];

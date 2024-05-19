@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreSearchGetResults200ResponseResultsInner } from './coreSearchGetResults200ResponseResultsInner';
 
 export class CoreSearchGetResults200Response {
-    'results': Array<CoreSearchGetResults200ResponseResultsInner>;
+    'Results': Array<CoreSearchGetResults200ResponseResultsInner>;
     /**
     * Total number of results
     */
-    'totalcount': number = null;
+    'Totalcount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "results",
+            "name": "Results",
             "baseName": "results",
             "type": "Array<CoreSearchGetResults200ResponseResultsInner>"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         }    ];

@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreMessageMessageProcessorConfigFormRequestFormvaluesInner } from './coreMessageMessageProcessorConfigFormRequestFormvaluesInner';
 
 export class CoreMessageMessageProcessorConfigFormRequest {
-    'formvalues': Array<CoreMessageMessageProcessorConfigFormRequestFormvaluesInner>;
+    'Formvalues': Array<CoreMessageMessageProcessorConfigFormRequestFormvaluesInner>;
     /**
     * The name of the message processor
     */
-    'name': string;
+    'Name': string;
     /**
     * id of the user, 0 for current user
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "formvalues",
+            "name": "Formvalues",
             "baseName": "formvalues",
             "type": "Array<CoreMessageMessageProcessorConfigFormRequestFormvaluesInner>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

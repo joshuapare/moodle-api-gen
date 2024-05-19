@@ -16,31 +16,31 @@ export class CoreCourseGetCourseModuleByInstance200ResponseCmOutcomesInner {
     /**
     * Outcome id
     */
-    'id'?: string;
+    'Id'?: string;
     /**
     * Outcome full name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Scale items
     */
-    'scale'?: string;
+    'Scale'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "scale",
+            "name": "Scale",
             "baseName": "scale",
             "type": "string"
         }    ];

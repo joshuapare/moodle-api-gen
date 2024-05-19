@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFormDynamicFormRequest
+# MoodleClient.Model.CoreFormDynamicFormRequest
 
 ## Properties
 

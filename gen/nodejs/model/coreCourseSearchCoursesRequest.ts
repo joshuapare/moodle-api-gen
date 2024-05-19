@@ -16,64 +16,64 @@ export class CoreCourseSearchCoursesRequest {
     /**
     * criteria name                                                         (search, modulelist (only admins), blocklist (only admins), tagid)
     */
-    'criterianame': string = 'null';
+    'Criterianame': string = 'null';
     /**
     * criteria value
     */
-    'criteriavalue': string = 'null';
+    'Criteriavalue': string = 'null';
     /**
     * limit to enrolled courses
     */
-    'limittoenrolled'?: boolean = 0;
+    'Limittoenrolled'?: boolean = 0;
     /**
     * limit to courses where completion is enabled
     */
-    'onlywithcompletion'?: boolean = 0;
+    'Onlywithcompletion'?: boolean = 0;
     /**
     * page number (0 based)
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * items per page
     */
-    'perpage'?: number = 0;
-    'requiredcapabilities'?: Array<object>;
+    'Perpage'?: number = 0;
+    'Requiredcapabilities'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criterianame",
+            "name": "Criterianame",
             "baseName": "criterianame",
             "type": "string"
         },
         {
-            "name": "criteriavalue",
+            "name": "Criteriavalue",
             "baseName": "criteriavalue",
             "type": "string"
         },
         {
-            "name": "limittoenrolled",
+            "name": "Limittoenrolled",
             "baseName": "limittoenrolled",
             "type": "boolean"
         },
         {
-            "name": "onlywithcompletion",
+            "name": "Onlywithcompletion",
             "baseName": "onlywithcompletion",
             "type": "boolean"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "requiredcapabilities",
+            "name": "Requiredcapabilities",
             "baseName": "requiredcapabilities",
             "type": "Array<object>"
         }    ];

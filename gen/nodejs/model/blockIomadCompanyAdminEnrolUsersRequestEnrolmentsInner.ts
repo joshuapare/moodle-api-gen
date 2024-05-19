@@ -16,67 +16,67 @@ export class BlockIomadCompanyAdminEnrolUsersRequestEnrolmentsInner {
     /**
     * The course to enrol the user role in
     */
-    'courseid'?: number = null;
+    'Courseid'?: number = null;
     /**
     * Number of items purchased.
     */
-    'quantity'?: number = null;
+    'Quantity'?: number = null;
     /**
     * Role to assign to the user
     */
-    'roleid'?: number = null;
+    'Roleid'?: number = null;
     /**
     * set to 1 to suspend the enrolment
     */
-    'suspend'?: number = null;
+    'Suspend'?: number = null;
     /**
     * Timestamp when the enrolment end
     */
-    'timeend'?: number = null;
+    'Timeend'?: number = null;
     /**
     * Timestamp when the enrolment start
     */
-    'timestart'?: number = null;
+    'Timestart'?: number = null;
     /**
     * The user that is going to be enrolled
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "quantity",
+            "name": "Quantity",
             "baseName": "quantity",
             "type": "number"
         },
         {
-            "name": "roleid",
+            "name": "Roleid",
             "baseName": "roleid",
             "type": "number"
         },
         {
-            "name": "suspend",
+            "name": "Suspend",
             "baseName": "suspend",
             "type": "number"
         },
         {
-            "name": "timeend",
+            "name": "Timeend",
             "baseName": "timeend",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

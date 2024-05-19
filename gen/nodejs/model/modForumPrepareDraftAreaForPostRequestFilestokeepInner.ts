@@ -16,22 +16,22 @@ export class ModForumPrepareDraftAreaForPostRequestFilestokeepInner {
     /**
     * File name.
     */
-    'filename'?: string;
+    'Filename'?: string;
     /**
     * File path.
     */
-    'filepath'?: string;
+    'Filepath'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         }    ];

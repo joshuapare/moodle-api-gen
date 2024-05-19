@@ -15,37 +15,37 @@ import { ModAssignGetSubmissionStatus200ResponseFeedbackGrade } from './modAssig
 import { ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInner } from './modAssignGetSubmissionStatus200ResponseFeedbackPluginsInner';
 
 export class ModAssignGetSubmissionStatus200ResponseFeedback {
-    'grade'?: ModAssignGetSubmissionStatus200ResponseFeedbackGrade;
+    'Grade'?: ModAssignGetSubmissionStatus200ResponseFeedbackGrade;
     /**
     * The date the user was graded.
     */
-    'gradeddate': number = null;
+    'Gradeddate': number = null;
     /**
     * Grade rendered into a format suitable for display.
     */
-    'gradefordisplay': string = 'null';
-    'plugins'?: Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInner>;
+    'Gradefordisplay': string = 'null';
+    'Plugins'?: Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "ModAssignGetSubmissionStatus200ResponseFeedbackGrade"
         },
         {
-            "name": "gradeddate",
+            "name": "Gradeddate",
             "baseName": "gradeddate",
             "type": "number"
         },
         {
-            "name": "gradefordisplay",
+            "name": "Gradefordisplay",
             "baseName": "gradefordisplay",
             "type": "string"
         },
         {
-            "name": "plugins",
+            "name": "Plugins",
             "baseName": "plugins",
             "type": "Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInner>"
         }    ];

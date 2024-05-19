@@ -1,6 +1,6 @@
-# Org.OpenAPITools.Api.ToolDataprivacyApi
+# MoodleClient.Api.ToolDataprivacyApi
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 | Method | HTTP request | Description |
 |--------|--------------|-------------|
@@ -39,9 +39,9 @@ Approve a data request
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -50,7 +50,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -136,9 +136,9 @@ Bulk approve data requests
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -147,7 +147,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -233,9 +233,9 @@ Bulk deny data requests
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -244,7 +244,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -330,9 +330,9 @@ Cancel the data request made by the user
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -341,7 +341,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -427,9 +427,9 @@ Mark the selected expired contexts as confirmed for deletion
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -438,7 +438,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -524,9 +524,9 @@ Contact the site Data Protection Officer(s)
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -535,7 +535,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -621,9 +621,9 @@ Adds a data category
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -632,7 +632,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -718,9 +718,9 @@ Adds a data purpose
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -729,7 +729,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -815,9 +815,9 @@ Deletes an existing data category
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -826,7 +826,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -912,9 +912,9 @@ Deletes an existing data purpose
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -923,7 +923,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1009,9 +1009,9 @@ Deny a data request
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1020,7 +1020,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1106,9 +1106,9 @@ Fetches a list of activity options
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1117,7 +1117,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1203,9 +1203,9 @@ Fetches a list of data category options
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1214,7 +1214,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1300,9 +1300,9 @@ Fetch the details of a user's data request
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1311,7 +1311,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1397,9 +1397,9 @@ Fetches a list of data storage purpose options
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1408,7 +1408,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1494,9 +1494,9 @@ Fetches a list of users
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1505,7 +1505,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1591,9 +1591,9 @@ Mark a user's general enquiry as complete
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1602,7 +1602,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1688,9 +1688,9 @@ Updates the default category and purpose for a given context level (and optional
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1699,7 +1699,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1785,9 +1785,9 @@ Sets purpose and category for a specific context
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1796,7 +1796,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1882,9 +1882,9 @@ Sets purpose and category across a context level
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1893,7 +1893,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1979,9 +1979,9 @@ Save list of selected courses for export
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -1990,7 +1990,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2076,9 +2076,9 @@ Return branches for the context tree
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Org.OpenAPITools.Api;
-using Org.OpenAPITools.Client;
-using Org.OpenAPITools.Model;
+using MoodleClient.Api;
+using MoodleClient.Client;
+using MoodleClient.Model;
 
 namespace Example
 {
@@ -2087,7 +2087,7 @@ namespace Example
         public static void Main()
         {
             Configuration config = new Configuration();
-            config.BasePath = "https://localhost/webservice/rest/server.php";
+            config.BasePath = "https://localhost/webservice/restful/server.php";
             // Configure API key authorization: apiKey
             config.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed

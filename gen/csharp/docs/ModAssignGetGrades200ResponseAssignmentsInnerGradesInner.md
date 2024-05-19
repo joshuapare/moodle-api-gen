@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetGrades200ResponseAssignmentsInnerGradesInner
+# MoodleClient.Model.ModAssignGetGrades200ResponseAssignmentsInnerGradesInner
 grade information
 
 ## Properties

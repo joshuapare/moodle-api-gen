@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInnerItemsInner } from './coreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInnerItemsInner';
 
 export class CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInner {
-    'items'?: Array<CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInnerItemsInner>;
+    'Items'?: Array<CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInnerItemsInner>;
     /**
     * key
     */
-    'key'?: string;
+    'Key'?: string;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "items",
+            "name": "Items",
             "baseName": "items",
             "type": "Array<CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInnerItemsInner>"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

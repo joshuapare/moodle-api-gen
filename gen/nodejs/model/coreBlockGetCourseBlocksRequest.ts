@@ -16,22 +16,22 @@ export class CoreBlockGetCourseBlocksRequest {
     /**
     * course id
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * Whether to return the block contents.
     */
-    'returncontents'?: boolean = false;
+    'Returncontents'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "returncontents",
+            "name": "Returncontents",
             "baseName": "returncontents",
             "type": "boolean"
         }    ];

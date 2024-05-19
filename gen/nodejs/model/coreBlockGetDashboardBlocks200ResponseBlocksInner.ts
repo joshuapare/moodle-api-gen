@@ -21,88 +21,88 @@ export class CoreBlockGetDashboardBlocks200ResponseBlocksInner {
     /**
     * Whether the block is collapsible.
     */
-    'collapsible'?: boolean;
-    'configs'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerConfigsInner>;
-    'contents'?: CoreBlockGetDashboardBlocks200ResponseBlocksInnerContents;
+    'Collapsible'?: boolean;
+    'Configs'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerConfigsInner>;
+    'Contents'?: CoreBlockGetDashboardBlocks200ResponseBlocksInnerContents;
     /**
     * Whether the block is dockable.
     */
-    'dockable'?: boolean;
+    'Dockable'?: boolean;
     /**
     * Block instance id.
     */
-    'instanceid'?: number;
+    'Instanceid'?: number;
     /**
     * Block name.
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Position id.
     */
-    'positionid'?: number;
+    'Positionid'?: number;
     /**
     * Block region.
     */
-    'region'?: string;
+    'Region'?: string;
     /**
     * Whether the block is visible.
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
     /**
     * Used to order blocks within a region.
     */
-    'weight'?: number;
+    'Weight'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "collapsible",
+            "name": "Collapsible",
             "baseName": "collapsible",
             "type": "boolean"
         },
         {
-            "name": "configs",
+            "name": "Configs",
             "baseName": "configs",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerConfigsInner>"
         },
         {
-            "name": "contents",
+            "name": "Contents",
             "baseName": "contents",
             "type": "CoreBlockGetDashboardBlocks200ResponseBlocksInnerContents"
         },
         {
-            "name": "dockable",
+            "name": "Dockable",
             "baseName": "dockable",
             "type": "boolean"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "positionid",
+            "name": "Positionid",
             "baseName": "positionid",
             "type": "number"
         },
         {
-            "name": "region",
+            "name": "Region",
             "baseName": "region",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         },
         {
-            "name": "weight",
+            "name": "Weight",
             "baseName": "weight",
             "type": "number"
         }    ];

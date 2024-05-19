@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.PaygwPaypalGetConfigForJs200Response
+# MoodleClient.Model.PaygwPaypalGetConfigForJs200Response
 
 ## Properties
 

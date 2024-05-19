@@ -16,22 +16,22 @@ export class ModGlossaryViewGlossaryRequest {
     /**
     * Glossary instance ID
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * The mode in which the glossary is viewed
     */
-    'mode': string = 'null';
+    'Mode': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "mode",
+            "name": "Mode",
             "baseName": "mode",
             "type": "string"
         }    ];

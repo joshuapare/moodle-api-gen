@@ -16,25 +16,25 @@ import { ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInner } 
 import { ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pglobalsettings } from './modH5pactivityGetH5pactivitiesByCourses200ResponseH5pglobalsettings';
 
 export class ModH5pactivityGetH5pactivitiesByCourses200Response {
-    'h5pactivities': Array<ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInner>;
-    'h5pglobalsettings'?: ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pglobalsettings;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'H5pactivities': Array<ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInner>;
+    'H5pglobalsettings'?: ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pglobalsettings;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "h5pactivities",
+            "name": "H5pactivities",
             "baseName": "h5pactivities",
             "type": "Array<ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInner>"
         },
         {
-            "name": "h5pglobalsettings",
+            "name": "H5pglobalsettings",
             "baseName": "h5pglobalsettings",
             "type": "ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pglobalsettings"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -16,40 +16,40 @@ export class ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerEditorfi
     /**
     * field description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number;
+    'Format'?: number;
     /**
     * field name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * field value
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

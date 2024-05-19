@@ -17,109 +17,109 @@ export class ModAssignGetSubmissionStatus200ResponseLastattemptSubmission {
     /**
     * assignment id
     */
-    'assignment'?: number;
+    'Assignment'?: number;
     /**
     * attempt number
     */
-    'attemptnumber': number;
+    'Attemptnumber': number;
     /**
     * Grading status.
     */
-    'gradingstatus'?: string;
+    'Gradingstatus'?: string;
     /**
     * group id
     */
-    'groupid': number;
+    'Groupid': number;
     /**
     * submission id
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * latest attempt
     */
-    'latest'?: number = null;
-    'plugins'?: Array<ModAssignGetSubmissionStatus200ResponseLastattemptSubmissionPluginsInner>;
+    'Latest'?: number = null;
+    'Plugins'?: Array<ModAssignGetSubmissionStatus200ResponseLastattemptSubmissionPluginsInner>;
     /**
     * submission status
     */
-    'status': string = 'null';
+    'Status': string = 'null';
     /**
     * submission creation time
     */
-    'timecreated': number = null;
+    'Timecreated': number = null;
     /**
     * submission last modified time
     */
-    'timemodified': number = null;
+    'Timemodified': number = null;
     /**
     * submission start time
     */
-    'timestarted'?: number = null;
+    'Timestarted'?: number = null;
     /**
     * student id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignment",
+            "name": "Assignment",
             "baseName": "assignment",
             "type": "number"
         },
         {
-            "name": "attemptnumber",
+            "name": "Attemptnumber",
             "baseName": "attemptnumber",
             "type": "number"
         },
         {
-            "name": "gradingstatus",
+            "name": "Gradingstatus",
             "baseName": "gradingstatus",
             "type": "string"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "latest",
+            "name": "Latest",
             "baseName": "latest",
             "type": "number"
         },
         {
-            "name": "plugins",
+            "name": "Plugins",
             "baseName": "plugins",
             "type": "Array<ModAssignGetSubmissionStatus200ResponseLastattemptSubmissionPluginsInner>"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timestarted",
+            "name": "Timestarted",
             "baseName": "timestarted",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

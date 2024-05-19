@@ -20,55 +20,55 @@ export class ModDataGetEntry200ResponseRatinginfoScalesInner {
     /**
     * Course id.
     */
-    'courseid'?: number = null;
+    'Courseid'?: number = null;
     /**
     * Scale id.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Whether is a numeric scale.
     */
-    'isnumeric'?: boolean = null;
-    'items'?: Array<ModDataGetEntry200ResponseRatinginfoScalesInnerItemsInner>;
+    'Isnumeric'?: boolean = null;
+    'Items'?: Array<ModDataGetEntry200ResponseRatinginfoScalesInnerItemsInner>;
     /**
     * Max value for the scale.
     */
-    'max'?: number = null;
+    'Max'?: number = null;
     /**
     * Scale name (when a real scale is used).
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isnumeric",
+            "name": "Isnumeric",
             "baseName": "isnumeric",
             "type": "boolean"
         },
         {
-            "name": "items",
+            "name": "Items",
             "baseName": "items",
             "type": "Array<ModDataGetEntry200ResponseRatinginfoScalesInnerItemsInner>"
         },
         {
-            "name": "max",
+            "name": "Max",
             "baseName": "max",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

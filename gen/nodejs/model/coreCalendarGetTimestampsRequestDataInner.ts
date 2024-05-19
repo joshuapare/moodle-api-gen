@@ -16,58 +16,58 @@ export class CoreCalendarGetTimestampsRequestDataInner {
     /**
     * day
     */
-    'day'?: number = null;
+    'Day'?: number = null;
     /**
     * hour
     */
-    'hour'?: number = null;
+    'Hour'?: number = null;
     /**
     * key
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * minute
     */
-    'minute'?: number = null;
+    'Minute'?: number = null;
     /**
     * month
     */
-    'month'?: number = null;
+    'Month'?: number = null;
     /**
     * year
     */
-    'year'?: number = null;
+    'Year'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "day",
+            "name": "Day",
             "baseName": "day",
             "type": "number"
         },
         {
-            "name": "hour",
+            "name": "Hour",
             "baseName": "hour",
             "type": "number"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "minute",
+            "name": "Minute",
             "baseName": "minute",
             "type": "number"
         },
         {
-            "name": "month",
+            "name": "Month",
             "baseName": "month",
             "type": "number"
         },
         {
-            "name": "year",
+            "name": "Year",
             "baseName": "year",
             "type": "number"
         }    ];

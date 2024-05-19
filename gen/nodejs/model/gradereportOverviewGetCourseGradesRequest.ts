@@ -16,13 +16,13 @@ export class GradereportOverviewGetCourseGradesRequest {
     /**
     * Get grades for this user (optional, default current)
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

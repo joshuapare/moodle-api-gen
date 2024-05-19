@@ -18,97 +18,97 @@ export class ModDataGetEntries200ResponseEntriesInner {
     /**
     * Whether the entry has been approved (if the database is configured in that way).
     */
-    'approved'?: boolean = 0;
+    'Approved'?: boolean = 0;
     /**
     * Whether the current user can manage this entry
     */
-    'canmanageentry'?: boolean = null;
-    'contents'?: Array<ModDataGetEntries200ResponseEntriesInnerContentsInner>;
+    'Canmanageentry'?: boolean = null;
+    'Contents'?: Array<ModDataGetEntries200ResponseEntriesInnerContentsInner>;
     /**
     * The database id this record belongs to.
     */
-    'dataid'?: number = 0;
+    'Dataid'?: number = 0;
     /**
     * The user who created the entry fullname.
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * The group id this record belongs to (0 for no groups).
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * Record id.
     */
-    'id'?: number = null;
-    'tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
+    'Id'?: number = null;
+    'Tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
     /**
     * Time the record was created.
     */
-    'timecreated'?: number = 0;
+    'Timecreated'?: number = 0;
     /**
     * Last time the record was modified.
     */
-    'timemodified'?: number = 0;
+    'Timemodified'?: number = 0;
     /**
     * The id of the user who created the record.
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "approved",
+            "name": "Approved",
             "baseName": "approved",
             "type": "boolean"
         },
         {
-            "name": "canmanageentry",
+            "name": "Canmanageentry",
             "baseName": "canmanageentry",
             "type": "boolean"
         },
         {
-            "name": "contents",
+            "name": "Contents",
             "baseName": "contents",
             "type": "Array<ModDataGetEntries200ResponseEntriesInnerContentsInner>"
         },
         {
-            "name": "dataid",
+            "name": "Dataid",
             "baseName": "dataid",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -18,277 +18,277 @@ export class CoreUserUpdateUsersRequestUsersInner {
     /**
     * Postal address
     */
-    'address'?: string;
+    'Address'?: string;
     /**
     * The alternate name of the user
     */
-    'alternatename'?: string;
+    'Alternatename'?: string;
     /**
     * Auth plugins include manual, ldap, etc
     */
-    'auth'?: string = '';
+    'Auth'?: string = '';
     /**
     * Calendar type such as \"gregorian\", must exist on server
     */
-    'calendartype'?: string = '';
+    'Calendartype'?: string = '';
     /**
     * Home city of the user
     */
-    'city'?: string;
+    'City'?: string;
     /**
     * Home country code of the user, such as AU or CZ
     */
-    'country'?: string;
-    'customfields'?: Array<CoreUserCreateUsersRequestUsersInnerCustomfieldsInner>;
+    'Country'?: string;
+    'Customfields'?: Array<CoreUserCreateUsersRequestUsersInnerCustomfieldsInner>;
     /**
     * Department
     */
-    'department'?: string = 'null';
+    'Department'?: string = 'null';
     /**
     * User profile description, no HTML
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * A valid and unique email address
     */
-    'email'?: string = '';
+    'Email'?: string = '';
     /**
     * The first name(s) of the user
     */
-    'firstname'?: string = '';
+    'Firstname'?: string = '';
     /**
     * The first name(s) phonetically of the user
     */
-    'firstnamephonetic'?: string;
+    'Firstnamephonetic'?: string;
     /**
     * ID of the user
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * An arbitrary ID code number perhaps from the institution
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * Institution
     */
-    'institution'?: string = 'null';
+    'Institution'?: string = 'null';
     /**
     * User interests (separated by commas)
     */
-    'interests'?: string;
+    'Interests'?: string;
     /**
     * Language code such as \"en\", must exist on server
     */
-    'lang'?: string = '';
+    'Lang'?: string = '';
     /**
     * The family name of the user
     */
-    'lastname'?: string;
+    'Lastname'?: string;
     /**
     * The family name phonetically of the user
     */
-    'lastnamephonetic'?: string;
+    'Lastnamephonetic'?: string;
     /**
     * Email visibility
     */
-    'maildisplay'?: number;
+    'Maildisplay'?: number;
     /**
     * Mail format code is 0 for plain text, 1 for HTML etc
     */
-    'mailformat'?: number;
+    'Mailformat'?: number;
     /**
     * The middle name of the user
     */
-    'middlename'?: string;
+    'Middlename'?: string;
     /**
     * Plain text password consisting of any characters
     */
-    'password'?: string = '';
+    'Password'?: string = '';
     /**
     * Phone
     */
-    'phone1'?: string = 'null';
+    'Phone1'?: string = 'null';
     /**
     * Mobile phone
     */
-    'phone2'?: string = 'null';
-    'preferences'?: Array<CoreUserUpdateUsersRequestUsersInnerPreferencesInner>;
+    'Phone2'?: string = 'null';
+    'Preferences'?: Array<CoreUserUpdateUsersRequestUsersInnerPreferencesInner>;
     /**
     * Suspend user account, either false to enable user login or true to disable it
     */
-    'suspended'?: boolean;
+    'Suspended'?: boolean;
     /**
     * Theme name such as \"standard\", must exist on server
     */
-    'theme'?: string;
+    'Theme'?: string;
     /**
     * Timezone code such as Australia/Perth, or 99 for default
     */
-    'timezone'?: string;
+    'Timezone'?: string;
     /**
     * Username policy is defined in Moodle security config.
     */
-    'username'?: string = '';
+    'Username'?: string = '';
     /**
     * The itemid where the new user picture has been uploaded to, 0 to delete
     */
-    'userpicture'?: number = null;
+    'Userpicture'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "address",
+            "name": "Address",
             "baseName": "address",
             "type": "string"
         },
         {
-            "name": "alternatename",
+            "name": "Alternatename",
             "baseName": "alternatename",
             "type": "string"
         },
         {
-            "name": "auth",
+            "name": "Auth",
             "baseName": "auth",
             "type": "string"
         },
         {
-            "name": "calendartype",
+            "name": "Calendartype",
             "baseName": "calendartype",
             "type": "string"
         },
         {
-            "name": "city",
+            "name": "City",
             "baseName": "city",
             "type": "string"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreUserCreateUsersRequestUsersInnerCustomfieldsInner>"
         },
         {
-            "name": "department",
+            "name": "Department",
             "baseName": "department",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "firstnamephonetic",
+            "name": "Firstnamephonetic",
             "baseName": "firstnamephonetic",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "institution",
+            "name": "Institution",
             "baseName": "institution",
             "type": "string"
         },
         {
-            "name": "interests",
+            "name": "Interests",
             "baseName": "interests",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         },
         {
-            "name": "lastnamephonetic",
+            "name": "Lastnamephonetic",
             "baseName": "lastnamephonetic",
             "type": "string"
         },
         {
-            "name": "maildisplay",
+            "name": "Maildisplay",
             "baseName": "maildisplay",
             "type": "number"
         },
         {
-            "name": "mailformat",
+            "name": "Mailformat",
             "baseName": "mailformat",
             "type": "number"
         },
         {
-            "name": "middlename",
+            "name": "Middlename",
             "baseName": "middlename",
             "type": "string"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "phone1",
+            "name": "Phone1",
             "baseName": "phone1",
             "type": "string"
         },
         {
-            "name": "phone2",
+            "name": "Phone2",
             "baseName": "phone2",
             "type": "string"
         },
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "Array<CoreUserUpdateUsersRequestUsersInnerPreferencesInner>"
         },
         {
-            "name": "suspended",
+            "name": "Suspended",
             "baseName": "suspended",
             "type": "boolean"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "timezone",
+            "name": "Timezone",
             "baseName": "timezone",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         },
         {
-            "name": "userpicture",
+            "name": "Userpicture",
             "baseName": "userpicture",
             "type": "number"
         }    ];

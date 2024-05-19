@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner } from './coreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner';
 
 export class CoreCourseGetEnrolledCoursesByTimelineClassification200Response {
-    'courses': Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>;
+    'Courses': Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>;
     /**
     * Offset for the next request
     */
-    'nextoffset': number = null;
+    'Nextoffset': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>"
         },
         {
-            "name": "nextoffset",
+            "name": "Nextoffset",
             "baseName": "nextoffset",
             "type": "number"
         }    ];

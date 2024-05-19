@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyCreateUserEvidenceCompetencyRequest
+# MoodleClient.Model.CoreCompetencyCreateUserEvidenceCompetencyRequest
 
 ## Properties
 

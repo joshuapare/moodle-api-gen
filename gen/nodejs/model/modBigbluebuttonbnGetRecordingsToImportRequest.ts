@@ -16,49 +16,49 @@ export class ModBigbluebuttonbnGetRecordingsToImportRequest {
     /**
     * Id of the other BBB we target for importing recordings into.                 The idea here is to remove already imported recordings.
     */
-    'destinationinstanceid': number = null;
+    'Destinationinstanceid': number = null;
     /**
     * Group ID
     */
-    'groupid'?: number;
+    'Groupid'?: number;
     /**
     * bigbluebuttonbn instance id
     */
-    'sourcebigbluebuttonbnid'?: number = 0;
+    'Sourcebigbluebuttonbnid'?: number = 0;
     /**
     * source courseid to filter by
     */
-    'sourcecourseid'?: number = 0;
+    'Sourcecourseid'?: number = 0;
     /**
     * a set of enabled tools
     */
-    'tools'?: string = 'protect,unprotect,publish,unpublish,delete';
+    'Tools'?: string = 'protect,unprotect,publish,unpublish,delete';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "destinationinstanceid",
+            "name": "Destinationinstanceid",
             "baseName": "destinationinstanceid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "sourcebigbluebuttonbnid",
+            "name": "Sourcebigbluebuttonbnid",
             "baseName": "sourcebigbluebuttonbnid",
             "type": "number"
         },
         {
-            "name": "sourcecourseid",
+            "name": "Sourcecourseid",
             "baseName": "sourcecourseid",
             "type": "number"
         },
         {
-            "name": "tools",
+            "name": "Tools",
             "baseName": "tools",
             "type": "string"
         }    ];

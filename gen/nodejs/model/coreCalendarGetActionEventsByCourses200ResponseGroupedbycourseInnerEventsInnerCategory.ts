@@ -16,103 +16,103 @@ export class CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner
     /**
     * coursecount
     */
-    'coursecount': number = 0;
+    'Coursecount': number = 0;
     /**
     * depth
     */
-    'depth': number = 0;
+    'Depth': number = 0;
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * idnumber
     */
-    'idnumber': string;
+    'Idnumber': string;
     /**
     * name
     */
-    'name': string = '';
+    'Name': string = '';
     /**
     * nestedname
     */
-    'nestedname': string;
+    'Nestedname': string;
     /**
     * parent
     */
-    'parent': number;
+    'Parent': number;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * url
     */
-    'url': string;
+    'Url': string;
     /**
     * visible
     */
-    'visible': number = 1;
+    'Visible': number = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "coursecount",
+            "name": "Coursecount",
             "baseName": "coursecount",
             "type": "number"
         },
         {
-            "name": "depth",
+            "name": "Depth",
             "baseName": "depth",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nestedname",
+            "name": "Nestedname",
             "baseName": "nestedname",
             "type": "string"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

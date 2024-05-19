@@ -20,190 +20,190 @@ export class ModWikiGetWikisByCourses200ResponseWikisInner {
     /**
     * True if user can create pages.
     */
-    'cancreatepages'?: boolean = null;
+    'Cancreatepages'?: boolean = null;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Wiki\'s default format (html, creole, nwiki).
     */
-    'defaultformat'?: string = 'null';
+    'Defaultformat'?: string = 'null';
     /**
     * Edit begin.
     */
-    'editbegin'?: number = null;
+    'Editbegin'?: number = null;
     /**
     * Edit end.
     */
-    'editend'?: number = null;
+    'Editend'?: number = null;
     /**
     * First page title.
     */
-    'firstpagetitle'?: string = 'null';
+    'Firstpagetitle'?: string = 'null';
     /**
     * 1 if format is forced, 0 otherwise.
     */
-    'forceformat'?: number = null;
+    'Forceformat'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Time of creation.
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time of last modification.
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
     /**
     * Wiki mode (individual, collaborative).
     */
-    'wikimode'?: string = 'null';
+    'Wikimode'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cancreatepages",
+            "name": "Cancreatepages",
             "baseName": "cancreatepages",
             "type": "boolean"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "defaultformat",
+            "name": "Defaultformat",
             "baseName": "defaultformat",
             "type": "string"
         },
         {
-            "name": "editbegin",
+            "name": "Editbegin",
             "baseName": "editbegin",
             "type": "number"
         },
         {
-            "name": "editend",
+            "name": "Editend",
             "baseName": "editend",
             "type": "number"
         },
         {
-            "name": "firstpagetitle",
+            "name": "Firstpagetitle",
             "baseName": "firstpagetitle",
             "type": "string"
         },
         {
-            "name": "forceformat",
+            "name": "Forceformat",
             "baseName": "forceformat",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         },
         {
-            "name": "wikimode",
+            "name": "Wikimode",
             "baseName": "wikimode",
             "type": "string"
         }    ];

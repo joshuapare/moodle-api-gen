@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetReopenAttemptConfirmationRequest
+# MoodleClient.Model.ModQuizGetReopenAttemptConfirmationRequest
 
 ## Properties
 

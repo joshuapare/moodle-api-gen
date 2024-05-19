@@ -19,40 +19,40 @@ export class BlockIomadCompanyAdminAssignUsers200ResponseWarningsInner {
     /**
     * always set to \'key\'
     */
-    'item'?: string = 'null';
+    'Item'?: string = 'null';
     /**
     * faulty key name
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
     /**
     * untranslated english message to explain the warning
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * the warning code can be used by the client app to implement specific behaviour
     */
-    'warningcode'?: string;
+    'Warningcode'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "warningcode",
+            "name": "Warningcode",
             "baseName": "warningcode",
             "type": "string"
         }    ];

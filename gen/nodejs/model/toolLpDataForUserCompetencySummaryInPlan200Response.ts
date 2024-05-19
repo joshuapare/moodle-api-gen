@@ -15,19 +15,19 @@ import { CoreCompetencyReadPlan200Response } from './coreCompetencyReadPlan200Re
 import { ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary } from './toolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary';
 
 export class ToolLpDataForUserCompetencySummaryInPlan200Response {
-    'plan': CoreCompetencyReadPlan200Response;
-    'usercompetencysummary': ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary;
+    'Plan': CoreCompetencyReadPlan200Response;
+    'Usercompetencysummary': ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "plan",
+            "name": "Plan",
             "baseName": "plan",
             "type": "CoreCompetencyReadPlan200Response"
         },
         {
-            "name": "usercompetencysummary",
+            "name": "Usercompetencysummary",
             "baseName": "usercompetencysummary",
             "type": "ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary"
         }    ];

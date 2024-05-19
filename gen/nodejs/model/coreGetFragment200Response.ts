@@ -16,22 +16,22 @@ export class CoreGetFragment200Response {
     /**
     * HTML fragment.
     */
-    'html': string = 'null';
+    'Html': string = 'null';
     /**
     * JavaScript fragment
     */
-    'javascript': string;
+    'Javascript': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "html",
+            "name": "Html",
             "baseName": "html",
             "type": "string"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         }    ];

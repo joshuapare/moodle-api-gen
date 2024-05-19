@@ -18,25 +18,25 @@ export class ModBigbluebuttonbnGetRecordingsToImport200Response {
     /**
     * Whether the fetch was successful
     */
-    'status': boolean;
-    'tabledata'?: ModBigbluebuttonbnGetRecordingsToImport200ResponseTabledata;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Status': boolean;
+    'Tabledata'?: ModBigbluebuttonbnGetRecordingsToImport200ResponseTabledata;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "tabledata",
+            "name": "Tabledata",
             "baseName": "tabledata",
             "type": "ModBigbluebuttonbnGetRecordingsToImport200ResponseTabledata"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

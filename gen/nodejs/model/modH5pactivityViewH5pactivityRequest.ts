@@ -16,13 +16,13 @@ export class ModH5pactivityViewH5pactivityRequest {
     /**
     * H5P activity instance id
     */
-    'h5pactivityid': number = null;
+    'H5pactivityid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "h5pactivityid",
+            "name": "H5pactivityid",
             "baseName": "h5pactivityid",
             "type": "number"
         }    ];

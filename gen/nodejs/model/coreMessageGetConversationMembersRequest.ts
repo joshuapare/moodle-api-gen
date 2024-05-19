@@ -16,58 +16,58 @@ export class CoreMessageGetConversationMembersRequest {
     /**
     * The id of the conversation
     */
-    'conversationid': number;
+    'Conversationid': number;
     /**
     * Do we want to include contact requests?
     */
-    'includecontactrequests'?: boolean = false;
+    'Includecontactrequests'?: boolean = false;
     /**
     * Do we want to include privacy info?
     */
-    'includeprivacyinfo'?: boolean = false;
+    'Includeprivacyinfo'?: boolean = false;
     /**
     * Limit from
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Limit number
     */
-    'limitnum'?: number = 0;
+    'Limitnum'?: number = 0;
     /**
     * The id of the user we are performing this action on behalf of
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversationid",
+            "name": "Conversationid",
             "baseName": "conversationid",
             "type": "number"
         },
         {
-            "name": "includecontactrequests",
+            "name": "Includecontactrequests",
             "baseName": "includecontactrequests",
             "type": "boolean"
         },
         {
-            "name": "includeprivacyinfo",
+            "name": "Includeprivacyinfo",
             "baseName": "includeprivacyinfo",
             "type": "boolean"
         },
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

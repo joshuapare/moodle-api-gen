@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFilesGetUnusedDraftItemid200Response
+# MoodleClient.Model.CoreFilesGetUnusedDraftItemid200Response
 
 ## Properties
 

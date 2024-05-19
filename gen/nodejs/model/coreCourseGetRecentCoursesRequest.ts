@@ -16,40 +16,40 @@ export class CoreCourseGetRecentCoursesRequest {
     /**
     * result set limit
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Result set offset
     */
-    'offset'?: number = 0;
+    'Offset'?: number = 0;
     /**
     * Sort string
     */
-    'sort'?: string;
+    'Sort'?: string;
     /**
     * id of the user, default to current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

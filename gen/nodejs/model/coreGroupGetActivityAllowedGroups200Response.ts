@@ -18,25 +18,25 @@ export class CoreGroupGetActivityAllowedGroups200Response {
     /**
     * Whether the user will be able to access all the activity groups.
     */
-    'canaccessallgroups'?: boolean = null;
-    'groups': Array<CoreGroupGetActivityAllowedGroups200ResponseGroupsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canaccessallgroups'?: boolean = null;
+    'Groups': Array<CoreGroupGetActivityAllowedGroups200ResponseGroupsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canaccessallgroups",
+            "name": "Canaccessallgroups",
             "baseName": "canaccessallgroups",
             "type": "boolean"
         },
         {
-            "name": "groups",
+            "name": "Groups",
             "baseName": "groups",
             "type": "Array<CoreGroupGetActivityAllowedGroups200ResponseGroupsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

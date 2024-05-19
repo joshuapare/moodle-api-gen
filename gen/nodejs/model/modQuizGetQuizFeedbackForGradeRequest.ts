@@ -16,22 +16,22 @@ export class ModQuizGetQuizFeedbackForGradeRequest {
     /**
     * the grade to check
     */
-    'grade': number = null;
+    'Grade': number = null;
     /**
     * quiz instance id
     */
-    'quizid': number;
+    'Quizid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "quizid",
+            "name": "Quizid",
             "baseName": "quizid",
             "type": "number"
         }    ];

@@ -19,76 +19,76 @@ export class ModSurveyGetQuestions200ResponseQuestionsInner {
     /**
     * Question id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The question intro
     */
-    'intro'?: string = 'null';
+    'Intro'?: string = 'null';
     /**
     * Subquestions ids
     */
-    'multi'?: string = 'null';
+    'Multi'?: string = 'null';
     /**
     * Question options
     */
-    'options'?: string = 'null';
+    'Options'?: string = 'null';
     /**
     * Parent question (for subquestions)
     */
-    'parent'?: number = null;
+    'Parent'?: number = null;
     /**
     * Question short text
     */
-    'shorttext'?: string = 'null';
+    'Shorttext'?: string = 'null';
     /**
     * Question text
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
     /**
     * Question type
     */
-    'type'?: number = null;
+    'Type'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "multi",
+            "name": "Multi",
             "baseName": "multi",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "string"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "number"
         },
         {
-            "name": "shorttext",
+            "name": "Shorttext",
             "baseName": "shorttext",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         }    ];

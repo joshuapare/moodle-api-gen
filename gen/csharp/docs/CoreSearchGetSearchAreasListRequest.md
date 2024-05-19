@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreSearchGetSearchAreasListRequest
+# MoodleClient.Model.CoreSearchGetSearchAreasListRequest
 
 ## Properties
 

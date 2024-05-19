@@ -16,22 +16,22 @@ export class CoreCourseViewCourseRequest {
     /**
     * id of the course
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * section number
     */
-    'sectionnumber'?: number = 0;
+    'Sectionnumber'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "sectionnumber",
+            "name": "Sectionnumber",
             "baseName": "sectionnumber",
             "type": "number"
         }    ];

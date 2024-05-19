@@ -16,22 +16,22 @@ export class ModFeedbackGetFinishedResponsesRequest {
     /**
     * Course where user completes the feedback (for site feedbacks only).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Feedback instance id.
     */
-    'feedbackid': number;
+    'Feedbackid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedbackid",
+            "name": "Feedbackid",
             "baseName": "feedbackid",
             "type": "number"
         }    ];

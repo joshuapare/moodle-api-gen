@@ -18,103 +18,103 @@ export class CoreTableGetDynamicTableContentRequest {
     /**
     * Component
     */
-    'component': string;
-    'filters'?: Array<CoreTableGetDynamicTableContentRequestFiltersInner>;
+    'Component': string;
+    'Filters'?: Array<CoreTableGetDynamicTableContentRequestFiltersInner>;
     /**
     * The first initial to sort filter on
     */
-    'firstinitial': string = 'null';
+    'Firstinitial': string = 'null';
     /**
     * Handler
     */
-    'handler': string = 'null';
-    'hiddencolumns': Array<object>;
+    'Handler': string = 'null';
+    'Hiddencolumns': Array<object>;
     /**
     * Type of join to join all filters together
     */
-    'jointype': number = null;
+    'Jointype': number = null;
     /**
     * The last initial to sort filter on
     */
-    'lastinitial': string = 'null';
+    'Lastinitial': string = 'null';
     /**
     * The page number
     */
-    'pagenumber': number = null;
+    'Pagenumber': number = null;
     /**
     * The number of records per page
     */
-    'pagesize': number = null;
+    'Pagesize': number = null;
     /**
     * Whether the table preferences should be reset
     */
-    'resetpreferences': boolean = null;
-    'sortdata'?: Array<CoreTableGetDynamicTableContentRequestSortdataInner>;
+    'Resetpreferences': boolean = null;
+    'Sortdata'?: Array<CoreTableGetDynamicTableContentRequestSortdataInner>;
     /**
     * Unique ID for the container
     */
-    'uniqueid': string = 'null';
+    'Uniqueid': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "Array<CoreTableGetDynamicTableContentRequestFiltersInner>"
         },
         {
-            "name": "firstinitial",
+            "name": "Firstinitial",
             "baseName": "firstinitial",
             "type": "string"
         },
         {
-            "name": "handler",
+            "name": "Handler",
             "baseName": "handler",
             "type": "string"
         },
         {
-            "name": "hiddencolumns",
+            "name": "Hiddencolumns",
             "baseName": "hiddencolumns",
             "type": "Array<object>"
         },
         {
-            "name": "jointype",
+            "name": "Jointype",
             "baseName": "jointype",
             "type": "number"
         },
         {
-            "name": "lastinitial",
+            "name": "Lastinitial",
             "baseName": "lastinitial",
             "type": "string"
         },
         {
-            "name": "pagenumber",
+            "name": "Pagenumber",
             "baseName": "pagenumber",
             "type": "number"
         },
         {
-            "name": "pagesize",
+            "name": "Pagesize",
             "baseName": "pagesize",
             "type": "number"
         },
         {
-            "name": "resetpreferences",
+            "name": "Resetpreferences",
             "baseName": "resetpreferences",
             "type": "boolean"
         },
         {
-            "name": "sortdata",
+            "name": "Sortdata",
             "baseName": "sortdata",
             "type": "Array<CoreTableGetDynamicTableContentRequestSortdataInner>"
         },
         {
-            "name": "uniqueid",
+            "name": "Uniqueid",
             "baseName": "uniqueid",
             "type": "string"
         }    ];

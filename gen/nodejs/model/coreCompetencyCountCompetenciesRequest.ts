@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCompetencyCountCompetenciesRequestFiltersInner } from './coreCompetencyCountCompetenciesRequestFiltersInner';
 
 export class CoreCompetencyCountCompetenciesRequest {
-    'filters': Array<CoreCompetencyCountCompetenciesRequestFiltersInner>;
+    'Filters': Array<CoreCompetencyCountCompetenciesRequestFiltersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "Array<CoreCompetencyCountCompetenciesRequestFiltersInner>"
         }    ];

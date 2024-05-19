@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsDelete200Response
+# MoodleClient.Model.CoreReportbuilderColumnsDelete200Response
 
 ## Properties
 

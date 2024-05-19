@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpSearchUsers200ResponseUsersInner
+# MoodleClient.Model.ToolLpSearchUsers200ResponseUsersInner
 
 ## Properties
 

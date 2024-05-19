@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreUserUpdateUsersRequestUsersInner } from './coreUserUpdateUsersRequestUsersInner';
 
 export class CoreUserUpdateUsersRequest {
-    'users': Array<CoreUserUpdateUsersRequestUsersInner>;
+    'Users': Array<CoreUserUpdateUsersRequestUsersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<CoreUserUpdateUsersRequestUsersInner>"
         }    ];

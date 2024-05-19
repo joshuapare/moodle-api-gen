@@ -16,22 +16,22 @@ export class CoreUserUpdateUserPreferencesRequestPreferencesInner {
     /**
     * The name of the preference
     */
-    'type'?: string;
+    'Type'?: string;
     /**
     * The value of the preference, do not set this field if you                                 want to remove (unset) the current value.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

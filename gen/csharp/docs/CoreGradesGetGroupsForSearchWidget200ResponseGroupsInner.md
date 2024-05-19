@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetGroupsForSearchWidget200ResponseGroupsInner
+# MoodleClient.Model.CoreGradesGetGroupsForSearchWidget200ResponseGroupsInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolBehatGetEntityGeneratorRequest
+# MoodleClient.Model.ToolBehatGetEntityGeneratorRequest
 
 ## Properties
 

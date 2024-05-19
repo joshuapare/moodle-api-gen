@@ -16,112 +16,112 @@ export class ToolLpDataForUserCompetencySummary200ResponseUsercompetencyplan {
     /**
     * competencyid
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * gradename
     */
-    'gradename': string;
+    'Gradename': string;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * planid
     */
-    'planid': number;
+    'Planid': number;
     /**
     * proficiency
     */
-    'proficiency': boolean;
+    'Proficiency': boolean;
     /**
     * proficiencyname
     */
-    'proficiencyname': string;
+    'Proficiencyname': string;
     /**
     * sortorder
     */
-    'sortorder': number = 0;
+    'Sortorder': number = 0;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * userid
     */
-    'userid': number;
+    'Userid': number;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradename",
+            "name": "Gradename",
             "baseName": "gradename",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "planid",
+            "name": "Planid",
             "baseName": "planid",
             "type": "number"
         },
         {
-            "name": "proficiency",
+            "name": "Proficiency",
             "baseName": "proficiency",
             "type": "boolean"
         },
         {
-            "name": "proficiencyname",
+            "name": "Proficiencyname",
             "baseName": "proficiencyname",
             "type": "string"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

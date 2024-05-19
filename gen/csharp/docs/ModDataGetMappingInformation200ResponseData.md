@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataGetMappingInformation200ResponseData
+# MoodleClient.Model.ModDataGetMappingInformation200ResponseData
 
 ## Properties
 

@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohorts200ResponseCohortsInner } from './coreCohortSearchCohorts200ResponseCohortsInner';
 
 export class CoreCohortSearchCohorts200Response {
-    'cohorts': Array<CoreCohortSearchCohorts200ResponseCohortsInner>;
+    'Cohorts': Array<CoreCohortSearchCohorts200ResponseCohortsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cohorts",
+            "name": "Cohorts",
             "baseName": "cohorts",
             "type": "Array<CoreCohortSearchCohorts200ResponseCohortsInner>"
         }    ];

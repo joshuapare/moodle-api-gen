@@ -16,13 +16,13 @@ export class CoreQuestionSubmitTagsForm200Response {
     /**
     * status: true if success
     */
-    'status': boolean;
+    'Status': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         }    ];

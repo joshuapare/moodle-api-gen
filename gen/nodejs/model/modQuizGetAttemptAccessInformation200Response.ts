@@ -17,43 +17,43 @@ export class ModQuizGetAttemptAccessInformation200Response {
     /**
     * When the attempt must be submitted (determined by rules).
     */
-    'endtime'?: number = null;
+    'Endtime'?: number = null;
     /**
     * Whether there is no way the user will ever be allowed to attempt.
     */
-    'isfinished': boolean = null;
+    'Isfinished': boolean = null;
     /**
     * whether a check is required before the user                                                                     starts/continues his attempt.
     */
-    'ispreflightcheckrequired'?: boolean = null;
-    'preventnewattemptreasons': Array<object>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Ispreflightcheckrequired'?: boolean = null;
+    'Preventnewattemptreasons': Array<object>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "endtime",
+            "name": "Endtime",
             "baseName": "endtime",
             "type": "number"
         },
         {
-            "name": "isfinished",
+            "name": "Isfinished",
             "baseName": "isfinished",
             "type": "boolean"
         },
         {
-            "name": "ispreflightcheckrequired",
+            "name": "Ispreflightcheckrequired",
             "baseName": "ispreflightcheckrequired",
             "type": "boolean"
         },
         {
-            "name": "preventnewattemptreasons",
+            "name": "Preventnewattemptreasons",
             "baseName": "preventnewattemptreasons",
             "type": "Array<object>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

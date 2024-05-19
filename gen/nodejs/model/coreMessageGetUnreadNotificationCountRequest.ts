@@ -16,13 +16,13 @@ export class CoreMessageGetUnreadNotificationCountRequest {
     /**
     * user id who received the notification, 0 for any user
     */
-    'useridto': number = null;
+    'Useridto': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         }    ];

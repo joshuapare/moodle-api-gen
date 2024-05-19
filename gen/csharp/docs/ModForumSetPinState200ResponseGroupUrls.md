@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetPinState200ResponseGroupUrls
+# MoodleClient.Model.ModForumSetPinState200ResponseGroupUrls
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetUserMappings200Response
+# MoodleClient.Model.ModAssignGetUserMappings200Response
 
 ## Properties
 

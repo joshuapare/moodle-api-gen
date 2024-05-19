@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreUserDeleteUsersRequest {
-    'userids': Array<object>;
+    'Userids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

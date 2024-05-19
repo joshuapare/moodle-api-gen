@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class ModQuizSetQuestionVersion200Response {
-    'result': boolean;
+    'Result': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "result",
+            "name": "Result",
             "baseName": "result",
             "type": "boolean"
         }    ];

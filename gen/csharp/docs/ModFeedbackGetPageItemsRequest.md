@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetPageItemsRequest
+# MoodleClient.Model.ModFeedbackGetPageItemsRequest
 
 ## Properties
 

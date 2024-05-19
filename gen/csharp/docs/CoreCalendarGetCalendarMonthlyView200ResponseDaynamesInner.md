@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetCalendarMonthlyView200ResponseDaynamesInner
+# MoodleClient.Model.CoreCalendarGetCalendarMonthlyView200ResponseDaynamesInner
 
 ## Properties
 

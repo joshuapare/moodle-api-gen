@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreSearchViewResultsRequestFilters } from './coreSearchViewResultsRequestFilters';
 
 export class CoreSearchViewResultsRequest {
-    'filters'?: CoreSearchViewResultsRequestFilters;
+    'Filters'?: CoreSearchViewResultsRequestFilters;
     /**
     * results page number starting from 0, defaults to the first page
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * the search query
     */
-    'query': string;
+    'Query': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "CoreSearchViewResultsRequestFilters"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

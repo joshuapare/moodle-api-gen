@@ -16,31 +16,31 @@ export class ModLtiToggleShowinactivitychooserRequest {
     /**
     * Course ID
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * Show in activity chooser
     */
-    'showinactivitychooser': boolean = null;
+    'Showinactivitychooser': boolean = null;
     /**
     * Tool type ID
     */
-    'tooltypeid': number;
+    'Tooltypeid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "showinactivitychooser",
+            "name": "Showinactivitychooser",
             "baseName": "showinactivitychooser",
             "type": "boolean"
         },
         {
-            "name": "tooltypeid",
+            "name": "Tooltypeid",
             "baseName": "tooltypeid",
             "type": "number"
         }    ];

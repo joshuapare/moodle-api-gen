@@ -16,76 +16,76 @@ export class CoreTagGetTagindexRequestTagindex {
     /**
     * context id where to search for items
     */
-    'ctx'?: number = 0;
+    'Ctx'?: number = 0;
     /**
     * exlusive mode for this tag area
     */
-    'excl'?: boolean = 0;
+    'Excl'?: boolean = 0;
     /**
     * context id where the link was displayed
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * page number (0-based)
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * search in the context recursive
     */
-    'rec'?: number = 1;
+    'Rec'?: number = 1;
     /**
     * tag area id
     */
-    'ta': number = null;
+    'Ta': number = null;
     /**
     * tag name
     */
-    'tag': string = 'null';
+    'Tag': string = 'null';
     /**
     * tag collection id
     */
-    'tc': number = null;
+    'Tc': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ctx",
+            "name": "Ctx",
             "baseName": "ctx",
             "type": "number"
         },
         {
-            "name": "excl",
+            "name": "Excl",
             "baseName": "excl",
             "type": "boolean"
         },
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "rec",
+            "name": "Rec",
             "baseName": "rec",
             "type": "number"
         },
         {
-            "name": "ta",
+            "name": "Ta",
             "baseName": "ta",
             "type": "number"
         },
         {
-            "name": "tag",
+            "name": "Tag",
             "baseName": "tag",
             "type": "string"
         },
         {
-            "name": "tc",
+            "name": "Tc",
             "baseName": "tc",
             "type": "number"
         }    ];

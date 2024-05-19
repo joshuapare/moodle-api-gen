@@ -16,31 +16,31 @@ export class ModLessonGetUserAttemptRequest {
     /**
     * The attempt number.
     */
-    'lessonattempt': number = null;
+    'Lessonattempt': number = null;
     /**
     * Lesson instance id.
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * The user id. 0 for current user.
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonattempt",
+            "name": "Lessonattempt",
             "baseName": "lessonattempt",
             "type": "number"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

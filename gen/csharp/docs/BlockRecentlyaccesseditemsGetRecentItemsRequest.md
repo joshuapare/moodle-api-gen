@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockRecentlyaccesseditemsGetRecentItemsRequest
+# MoodleClient.Model.BlockRecentlyaccesseditemsGetRecentItemsRequest
 
 ## Properties
 

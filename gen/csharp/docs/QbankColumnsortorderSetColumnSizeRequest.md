@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankColumnsortorderSetColumnSizeRequest
+# MoodleClient.Model.QbankColumnsortorderSetColumnSizeRequest
 
 ## Properties
 

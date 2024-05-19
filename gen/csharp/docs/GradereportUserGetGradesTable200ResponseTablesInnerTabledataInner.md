@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradereportUserGetGradesTable200ResponseTablesInnerTabledataInner
+# MoodleClient.Model.GradereportUserGetGradesTable200ResponseTablesInnerTabledataInner
 table
 
 ## Properties

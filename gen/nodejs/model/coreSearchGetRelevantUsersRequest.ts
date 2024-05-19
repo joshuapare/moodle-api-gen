@@ -16,22 +16,22 @@ export class CoreSearchGetRelevantUsersRequest {
     /**
     * Course id (0 if none)
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * Query string (full or partial user full name or other details)
     */
-    'query': string = 'null';
+    'Query': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

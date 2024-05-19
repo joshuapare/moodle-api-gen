@@ -16,31 +16,31 @@ export class CoreBlockGetCourseBlocks200ResponseBlocksInnerConfigsInner {
     /**
     * Name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Type (instance or plugin).
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
     /**
     * JSON encoded representation of the config value.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

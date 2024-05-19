@@ -16,67 +16,67 @@ export class CoreTagUpdateTagsRequestTagsInner {
     /**
     * tag description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * tag description format
     */
-    'descriptionformat'?: number = null;
+    'Descriptionformat'?: number = null;
     /**
     * flag
     */
-    'flag'?: number;
+    'Flag'?: number;
     /**
     * tag id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * whether this flag is standard
     */
-    'isstandard'?: number;
+    'Isstandard'?: number;
     /**
     * (deprecated, use isstandard) whether this flag is standard
     */
-    'official'?: number = null;
+    'Official'?: number = null;
     /**
     * tag raw name (may contain capital letters)
     */
-    'rawname'?: string;
+    'Rawname'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "number"
         },
         {
-            "name": "official",
+            "name": "Official",
             "baseName": "official",
             "type": "number"
         },
         {
-            "name": "rawname",
+            "name": "Rawname",
             "baseName": "rawname",
             "type": "string"
         }    ];

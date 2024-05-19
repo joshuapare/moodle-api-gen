@@ -16,22 +16,22 @@ export class CoreMessageDeleteMessageForAllUsersRequest {
     /**
     * The message id
     */
-    'messageid': number;
+    'Messageid': number;
     /**
     * The user id of who we want to delete the message for all users
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messageid",
+            "name": "Messageid",
             "baseName": "messageid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

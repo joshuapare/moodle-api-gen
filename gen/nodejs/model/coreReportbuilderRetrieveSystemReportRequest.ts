@@ -18,70 +18,70 @@ export class CoreReportbuilderRetrieveSystemReportRequest {
     /**
     * Report area
     */
-    'area'?: string = '';
+    'Area'?: string = '';
     /**
     * Report component
     */
-    'component'?: string = '';
-    'context': CoreCohortSearchCohortsRequestContext;
+    'Component'?: string = '';
+    'Context': CoreCohortSearchCohortsRequestContext;
     /**
     * Report item ID
     */
-    'itemid'?: number = 0;
+    'Itemid'?: number = 0;
     /**
     * Page number
     */
-    'page'?: number = 0;
-    'parameters'?: Array<CoreReportbuilderCanViewSystemReportRequestParametersInner>;
+    'Page'?: number = 0;
+    'Parameters'?: Array<CoreReportbuilderCanViewSystemReportRequestParametersInner>;
     /**
     * Reports per page
     */
-    'perpage'?: number = 10;
+    'Perpage'?: number = 10;
     /**
     * Report class path
     */
-    'source': string;
+    'Source': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "CoreCohortSearchCohortsRequestContext"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "parameters",
+            "name": "Parameters",
             "baseName": "parameters",
             "type": "Array<CoreReportbuilderCanViewSystemReportRequestParametersInner>"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "source",
+            "name": "Source",
             "baseName": "source",
             "type": "string"
         }    ];

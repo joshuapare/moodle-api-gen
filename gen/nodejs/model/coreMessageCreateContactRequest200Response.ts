@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreMessageCreateContactRequest200ResponseRequest } from './coreMessageCreateContactRequest200ResponseRequest';
 
 export class CoreMessageCreateContactRequest200Response {
-    'request'?: CoreMessageCreateContactRequest200ResponseRequest;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Request'?: CoreMessageCreateContactRequest200ResponseRequest;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "request",
+            "name": "Request",
             "baseName": "request",
             "type": "CoreMessageCreateContactRequest200ResponseRequest"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

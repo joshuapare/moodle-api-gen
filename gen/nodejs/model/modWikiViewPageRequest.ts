@@ -16,13 +16,13 @@ export class ModWikiViewPageRequest {
     /**
     * Wiki page ID.
     */
-    'pageid': number = null;
+    'Pageid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         }    ];

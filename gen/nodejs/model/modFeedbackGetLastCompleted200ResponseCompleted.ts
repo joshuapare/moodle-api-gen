@@ -16,67 +16,67 @@ export class ModFeedbackGetLastCompleted200ResponseCompleted {
     /**
     * Whether is an anonymous response.
     */
-    'anonymousResponse': number;
+    'AnonymousResponse': number;
     /**
     * The course id where the feedback was completed.
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * The feedback instance id this records belongs to.
     */
-    'feedback': number;
+    'Feedback': number;
     /**
     * The record id.
     */
-    'id': number;
+    'Id': number;
     /**
     * The response number (used when shuffling anonymous responses).
     */
-    'randomResponse': number;
+    'RandomResponse': number;
     /**
     * The last time the feedback was completed.
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * The user who completed the feedback (0 for anonymous).
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "anonymousResponse",
+            "name": "AnonymousResponse",
             "baseName": "anonymous_response",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "randomResponse",
+            "name": "RandomResponse",
             "baseName": "random_response",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

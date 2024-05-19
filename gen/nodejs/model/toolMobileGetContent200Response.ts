@@ -20,46 +20,46 @@ export class ToolMobileGetContent200Response {
     /**
     * Whether we consider this disabled or not.
     */
-    'disabled'?: boolean = null;
-    'files': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Disabled'?: boolean = null;
+    'Files': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * JavaScript code.
     */
-    'javascript': string = 'null';
-    'otherdata': Array<ToolMobileGetContent200ResponseOtherdataInner>;
-    'restrict': ToolMobileGetContent200ResponseRestrict;
-    'templates': Array<ToolMobileGetContent200ResponseTemplatesInner>;
+    'Javascript': string = 'null';
+    'Otherdata': Array<ToolMobileGetContent200ResponseOtherdataInner>;
+    'Restrict': ToolMobileGetContent200ResponseRestrict;
+    'Templates': Array<ToolMobileGetContent200ResponseTemplatesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "disabled",
+            "name": "Disabled",
             "baseName": "disabled",
             "type": "boolean"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         },
         {
-            "name": "otherdata",
+            "name": "Otherdata",
             "baseName": "otherdata",
             "type": "Array<ToolMobileGetContent200ResponseOtherdataInner>"
         },
         {
-            "name": "restrict",
+            "name": "Restrict",
             "baseName": "restrict",
             "type": "ToolMobileGetContent200ResponseRestrict"
         },
         {
-            "name": "templates",
+            "name": "Templates",
             "baseName": "templates",
             "type": "Array<ToolMobileGetContent200ResponseTemplatesInner>"
         }    ];

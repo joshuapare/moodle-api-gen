@@ -16,13 +16,13 @@ export class ModSurveyViewSurveyRequest {
     /**
     * survey instance id
     */
-    'surveyid': number;
+    'Surveyid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "surveyid",
+            "name": "Surveyid",
             "baseName": "surveyid",
             "type": "number"
         }    ];

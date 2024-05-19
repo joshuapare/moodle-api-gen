@@ -49,7 +49,7 @@ import com.joshuapare.JSON;
 /**
  * ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-18T14:00:07.069642-05:00[America/Chicago]", comments = "Generator version: 7.5.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-18T20:58:28.689161-05:00[America/Chicago]", comments = "Generator version: 7.5.0")
 public class ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner {
   public static final String SERIALIZED_NAME_CODE = "code";
   @SerializedName(SERIALIZED_NAME_CODE)

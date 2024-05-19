@@ -16,58 +16,58 @@ export class EnrolLicenseGetInstanceInfo200Response {
     /**
     * id of course
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * password required for enrolment
     */
-    'enrolpassword'?: string = 'null';
+    'Enrolpassword'?: string = 'null';
     /**
     * id of course enrolment instance
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * name of enrolment plugin
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * status of enrolment plugin
     */
-    'status': string = 'null';
+    'Status': string = 'null';
     /**
     * type of enrolment plugin
     */
-    'type': string = 'null';
+    'Type': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "enrolpassword",
+            "name": "Enrolpassword",
             "baseName": "enrolpassword",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

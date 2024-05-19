@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyPlanCancelReviewRequestRequest
+# MoodleClient.Model.CoreCompetencyPlanCancelReviewRequestRequest
 
 ## Properties
 

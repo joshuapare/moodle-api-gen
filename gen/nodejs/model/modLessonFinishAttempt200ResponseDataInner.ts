@@ -16,31 +16,31 @@ export class ModLessonFinishAttempt200ResponseDataInner {
     /**
     * Data message (translated string).
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
     /**
     * Data name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Data value.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

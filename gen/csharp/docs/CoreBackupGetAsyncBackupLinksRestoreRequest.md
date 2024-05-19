@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBackupGetAsyncBackupLinksRestoreRequest
+# MoodleClient.Model.CoreBackupGetAsyncBackupLinksRestoreRequest
 
 ## Properties
 

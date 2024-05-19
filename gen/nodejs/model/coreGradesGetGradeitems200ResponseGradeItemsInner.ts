@@ -16,31 +16,31 @@ export class CoreGradesGetGradeitems200ResponseGradeItemsInner {
     /**
     * The grade category of the grade item
     */
-    'category'?: string = 'null';
+    'Category'?: string = 'null';
     /**
     * An ID for the grade item
     */
-    'id'?: string = 'null';
+    'Id'?: string = 'null';
     /**
     * The full name of the grade item
     */
-    'itemname'?: string = 'null';
+    'Itemname'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         },
         {
-            "name": "itemname",
+            "name": "Itemname",
             "baseName": "itemname",
             "type": "string"
         }    ];

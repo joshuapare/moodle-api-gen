@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencySetParentCompetencyRequest
+# MoodleClient.Model.CoreCompetencySetParentCompetencyRequest
 
 ## Properties
 

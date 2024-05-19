@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class ModAssignGetUserFlagsRequest {
-    'assignmentids': Array<object>;
+    'Assignmentids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentids",
+            "name": "Assignmentids",
             "baseName": "assignmentids",
             "type": "Array<object>"
         }    ];

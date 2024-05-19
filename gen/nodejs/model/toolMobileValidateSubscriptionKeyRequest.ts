@@ -16,13 +16,13 @@ export class ToolMobileValidateSubscriptionKeyRequest {
     /**
     * Site subscription temporary key.
     */
-    'key': string = 'null';
+    'Key': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         }    ];

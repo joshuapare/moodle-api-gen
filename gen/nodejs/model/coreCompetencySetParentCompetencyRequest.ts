@@ -16,22 +16,22 @@ export class CoreCompetencySetParentCompetencyRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * The new competency parent id
     */
-    'parentid': number = null;
+    'Parentid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         }    ];

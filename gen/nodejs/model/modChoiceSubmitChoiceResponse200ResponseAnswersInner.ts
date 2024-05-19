@@ -19,49 +19,49 @@ export class ModChoiceSubmitChoiceResponse200ResponseAnswersInner {
     /**
     * choiceid
     */
-    'choiceid'?: number = null;
+    'Choiceid'?: number = null;
     /**
     * answer id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * optionid
     */
-    'optionid'?: number = null;
+    'Optionid'?: number = null;
     /**
     * time of last modification
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "choiceid",
+            "name": "Choiceid",
             "baseName": "choiceid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "optionid",
+            "name": "Optionid",
             "baseName": "optionid",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

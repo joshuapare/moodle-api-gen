@@ -15,19 +15,19 @@ import { BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner } from './bl
 import { BlockIomadCompanyAdminGetDepartmentUsers200ResponseUsersInner } from './blockIomadCompanyAdminGetDepartmentUsers200ResponseUsersInner';
 
 export class BlockIomadCompanyAdminGetDepartmentUsers200Response {
-    'users': Array<BlockIomadCompanyAdminGetDepartmentUsers200ResponseUsersInner>;
-    'warnings'?: Array<BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner>;
+    'Users': Array<BlockIomadCompanyAdminGetDepartmentUsers200ResponseUsersInner>;
+    'Warnings'?: Array<BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<BlockIomadCompanyAdminGetDepartmentUsers200ResponseUsersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner>"
         }    ];

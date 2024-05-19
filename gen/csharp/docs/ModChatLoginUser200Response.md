@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChatLoginUser200Response
+# MoodleClient.Model.ModChatLoginUser200Response
 
 ## Properties
 

@@ -16,31 +16,31 @@ export class ModFeedbackGetPageItemsRequest {
     /**
     * Course where user completes the feedback (for site feedbacks only).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Feedback instance id
     */
-    'feedbackid': number;
+    'Feedbackid': number;
     /**
     * The page to get starting by 0
     */
-    'page': number = null;
+    'Page': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedbackid",
+            "name": "Feedbackid",
             "baseName": "feedbackid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         }    ];

@@ -16,31 +16,31 @@ export class CoreGradesGetGradableUsersRequest {
     /**
     * Course Id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * Group Id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * Only active enrolment
     */
-    'onlyactive'?: boolean = false;
+    'Onlyactive'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "onlyactive",
+            "name": "Onlyactive",
             "baseName": "onlyactive",
             "type": "boolean"
         }    ];

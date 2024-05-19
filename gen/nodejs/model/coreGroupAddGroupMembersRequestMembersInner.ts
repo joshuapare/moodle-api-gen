@@ -16,22 +16,22 @@ export class CoreGroupAddGroupMembersRequestMembersInner {
     /**
     * group record id
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

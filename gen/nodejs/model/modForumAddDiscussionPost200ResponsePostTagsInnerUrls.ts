@@ -16,13 +16,13 @@ export class ModForumAddDiscussionPost200ResponsePostTagsInnerUrls {
     /**
     * The URL to view the tag
     */
-    'view': string = 'null';
+    'View': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "string"
         }    ];

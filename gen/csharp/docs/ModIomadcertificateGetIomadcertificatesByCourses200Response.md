@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModIomadcertificateGetIomadcertificatesByCourses200Response
+# MoodleClient.Model.ModIomadcertificateGetIomadcertificatesByCourses200Response
 
 ## Properties
 

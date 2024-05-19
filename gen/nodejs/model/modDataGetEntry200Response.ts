@@ -16,34 +16,34 @@ import { ModDataGetEntry200ResponseEntry } from './modDataGetEntry200ResponseEnt
 import { ModDataGetEntry200ResponseRatinginfo } from './modDataGetEntry200ResponseRatinginfo';
 
 export class ModDataGetEntry200Response {
-    'entry': ModDataGetEntry200ResponseEntry;
+    'Entry': ModDataGetEntry200ResponseEntry;
     /**
     * The entry as is rendered in the site.
     */
-    'entryviewcontents'?: string = 'null';
-    'ratinginfo'?: ModDataGetEntry200ResponseRatinginfo;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Entryviewcontents'?: string = 'null';
+    'Ratinginfo'?: ModDataGetEntry200ResponseRatinginfo;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entry",
+            "name": "Entry",
             "baseName": "entry",
             "type": "ModDataGetEntry200ResponseEntry"
         },
         {
-            "name": "entryviewcontents",
+            "name": "Entryviewcontents",
             "baseName": "entryviewcontents",
             "type": "string"
         },
         {
-            "name": "ratinginfo",
+            "name": "Ratinginfo",
             "baseName": "ratinginfo",
             "type": "ModDataGetEntry200ResponseRatinginfo"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

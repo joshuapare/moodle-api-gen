@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyGetCategoryOptions200ResponseOptionsInner
+# MoodleClient.Model.ToolDataprivacyGetCategoryOptions200ResponseOptionsInner
 
 ## Properties
 

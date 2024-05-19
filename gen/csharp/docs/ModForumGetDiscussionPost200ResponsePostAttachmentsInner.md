@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumGetDiscussionPost200ResponsePostAttachmentsInner
+# MoodleClient.Model.ModForumGetDiscussionPost200ResponsePostAttachmentsInner
 
 ## Properties
 

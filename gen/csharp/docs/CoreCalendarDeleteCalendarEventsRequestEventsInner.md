@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarDeleteCalendarEventsRequestEventsInner
+# MoodleClient.Model.CoreCalendarDeleteCalendarEventsRequestEventsInner
 List of events to delete
 
 ## Properties

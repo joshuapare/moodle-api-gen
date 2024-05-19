@@ -16,310 +16,310 @@ export class BlockIomadCompanyAdminEditCompaniesRequestCompaniesInner {
     /**
     * Company location address
     */
-    'address'?: string;
+    'Address'?: string;
     /**
     * User default forum auto-subscribe
     */
-    'autosubscribe'?: number = null;
+    'Autosubscribe'?: number = null;
     /**
     * Company location city
     */
-    'city'?: string;
+    'City'?: string;
     /**
     * Compay code
     */
-    'code'?: string = 'null';
+    'Code'?: string = 'null';
     /**
     * Company contract is terminated when <> 0
     */
-    'companyterminated'?: number = null;
+    'Companyterminated'?: number = null;
     /**
     * Company location country
     */
-    'country'?: string;
+    'Country'?: string;
     /**
     * Company custom 1
     */
-    'custom1'?: string;
+    'Custom1'?: string;
     /**
     * Company custom 2
     */
-    'custom2'?: string;
+    'Custom2'?: string;
     /**
     * Company custom 3
     */
-    'custom3'?: string;
+    'Custom3'?: string;
     /**
     * Company custom css
     */
-    'customcss'?: string = 'null';
+    'Customcss'?: string = 'null';
     /**
     * Ecommerce is disabled when = 0
     */
-    'ecommerce'?: number = null;
+    'Ecommerce'?: number = null;
     /**
     * Company heading color
     */
-    'headingcolor'?: string = 'null';
+    'Headingcolor'?: string = 'null';
     /**
     * Company hostname
     */
-    'hostname'?: string = 'null';
+    'Hostname'?: string = 'null';
     /**
     * User default text editor
     */
-    'htmleditor'?: number = null;
+    'Htmleditor'?: number = null;
     /**
     * Company id number
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * User default language
     */
-    'lang'?: string = 'null';
+    'Lang'?: string = 'null';
     /**
     * Company ink color
     */
-    'linkcolor'?: string = 'null';
+    'Linkcolor'?: string = 'null';
     /**
     * User default digest type
     */
-    'maildigest'?: number = null;
+    'Maildigest'?: number = null;
     /**
     * User default email display
     */
-    'maildisplay'?: number = null;
+    'Maildisplay'?: number = null;
     /**
     * User default email format
     */
-    'mailformat'?: number = null;
+    'Mailformat'?: number = null;
     /**
     * Company main color
     */
-    'maincolor'?: string = 'null';
+    'Maincolor'?: string = 'null';
     /**
     * Company maximum number of users
     */
-    'maxusers'?: number = null;
+    'Maxusers'?: number = null;
     /**
     * Company long name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * ID of parent company
     */
-    'parentid'?: number = null;
+    'Parentid'?: number = null;
     /**
     * Company location postcode
     */
-    'postcode'?: string;
+    'Postcode'?: string;
     /**
     * Company location region
     */
-    'region'?: string;
+    'Region'?: string;
     /**
     * User default screen reader
     */
-    'screenreader'?: number = null;
+    'Screenreader'?: number = null;
     /**
     * Compay short name
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * Number of seconds after termination date to suspend the company
     */
-    'suspendafter'?: number = null;
+    'Suspendafter'?: number = null;
     /**
     * Company is suspended when <> 0
     */
-    'suspended'?: number = null;
+    'Suspended'?: number = null;
     /**
     * Company theme
     */
-    'theme'?: string = 'null';
+    'Theme'?: string = 'null';
     /**
     * User default timezone
     */
-    'timezone'?: string = 'null';
+    'Timezone'?: string = 'null';
     /**
     * User default forum tracking
     */
-    'trackforums'?: number = null;
+    'Trackforums'?: number = null;
     /**
     * Contract termination date in unix timestamp
     */
-    'validto'?: number;
+    'Validto'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "address",
+            "name": "Address",
             "baseName": "address",
             "type": "string"
         },
         {
-            "name": "autosubscribe",
+            "name": "Autosubscribe",
             "baseName": "autosubscribe",
             "type": "number"
         },
         {
-            "name": "city",
+            "name": "City",
             "baseName": "city",
             "type": "string"
         },
         {
-            "name": "code",
+            "name": "Code",
             "baseName": "code",
             "type": "string"
         },
         {
-            "name": "companyterminated",
+            "name": "Companyterminated",
             "baseName": "companyterminated",
             "type": "number"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "custom1",
+            "name": "Custom1",
             "baseName": "custom1",
             "type": "string"
         },
         {
-            "name": "custom2",
+            "name": "Custom2",
             "baseName": "custom2",
             "type": "string"
         },
         {
-            "name": "custom3",
+            "name": "Custom3",
             "baseName": "custom3",
             "type": "string"
         },
         {
-            "name": "customcss",
+            "name": "Customcss",
             "baseName": "customcss",
             "type": "string"
         },
         {
-            "name": "ecommerce",
+            "name": "Ecommerce",
             "baseName": "ecommerce",
             "type": "number"
         },
         {
-            "name": "headingcolor",
+            "name": "Headingcolor",
             "baseName": "headingcolor",
             "type": "string"
         },
         {
-            "name": "hostname",
+            "name": "Hostname",
             "baseName": "hostname",
             "type": "string"
         },
         {
-            "name": "htmleditor",
+            "name": "Htmleditor",
             "baseName": "htmleditor",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "linkcolor",
+            "name": "Linkcolor",
             "baseName": "linkcolor",
             "type": "string"
         },
         {
-            "name": "maildigest",
+            "name": "Maildigest",
             "baseName": "maildigest",
             "type": "number"
         },
         {
-            "name": "maildisplay",
+            "name": "Maildisplay",
             "baseName": "maildisplay",
             "type": "number"
         },
         {
-            "name": "mailformat",
+            "name": "Mailformat",
             "baseName": "mailformat",
             "type": "number"
         },
         {
-            "name": "maincolor",
+            "name": "Maincolor",
             "baseName": "maincolor",
             "type": "string"
         },
         {
-            "name": "maxusers",
+            "name": "Maxusers",
             "baseName": "maxusers",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "postcode",
+            "name": "Postcode",
             "baseName": "postcode",
             "type": "string"
         },
         {
-            "name": "region",
+            "name": "Region",
             "baseName": "region",
             "type": "string"
         },
         {
-            "name": "screenreader",
+            "name": "Screenreader",
             "baseName": "screenreader",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "suspendafter",
+            "name": "Suspendafter",
             "baseName": "suspendafter",
             "type": "number"
         },
         {
-            "name": "suspended",
+            "name": "Suspended",
             "baseName": "suspended",
             "type": "number"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "timezone",
+            "name": "Timezone",
             "baseName": "timezone",
             "type": "string"
         },
         {
-            "name": "trackforums",
+            "name": "Trackforums",
             "baseName": "trackforums",
             "type": "number"
         },
         {
-            "name": "validto",
+            "name": "Validto",
             "baseName": "validto",
             "type": "number"
         }    ];

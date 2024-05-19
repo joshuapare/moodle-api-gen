@@ -17,46 +17,46 @@ export class CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubri
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
+    'Descriptionformat'?: number;
     /**
     * criterion id
     */
-    'id'?: number;
-    'levels'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubricRubricCriteriaInnerLevelsInner>;
+    'Id'?: number;
+    'Levels'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubricRubricCriteriaInnerLevelsInner>;
     /**
     * sortorder
     */
-    'sortorder'?: number;
+    'Sortorder'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "levels",
+            "name": "Levels",
             "baseName": "levels",
             "type": "Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubricRubricCriteriaInnerLevelsInner>"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         }    ];

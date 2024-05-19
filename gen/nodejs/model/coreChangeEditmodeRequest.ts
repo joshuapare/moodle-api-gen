@@ -16,22 +16,22 @@ export class CoreChangeEditmodeRequest {
     /**
     * Page context id
     */
-    'context': number = null;
+    'Context': number = null;
     /**
     * Set edit mode to
     */
-    'setmode': boolean = null;
+    'Setmode': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "number"
         },
         {
-            "name": "setmode",
+            "name": "Setmode",
             "baseName": "setmode",
             "type": "boolean"
         }    ];

@@ -16,58 +16,58 @@ export class ToolLpDataForCourseCompetenciesPage200ResponseSettings {
     /**
     * courseid
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * pushratingstouserplans
     */
-    'pushratingstouserplans': boolean = {};
+    'Pushratingstouserplans': boolean = {};
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "pushratingstouserplans",
+            "name": "Pushratingstouserplans",
             "baseName": "pushratingstouserplans",
             "type": "boolean"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

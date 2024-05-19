@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModIomadcertificateIssueIomadcertificate200ResponseIssue } from './modIomadcertificateIssueIomadcertificate200ResponseIssue';
 
 export class ModIomadcertificateIssueIomadcertificate200Response {
-    'issue': ModIomadcertificateIssueIomadcertificate200ResponseIssue;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Issue': ModIomadcertificateIssueIomadcertificate200ResponseIssue;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "issue",
+            "name": "Issue",
             "baseName": "issue",
             "type": "ModIomadcertificateIssueIomadcertificate200ResponseIssue"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

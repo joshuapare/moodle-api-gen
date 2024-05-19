@@ -16,49 +16,49 @@ export class CoreH5pGetTrustedH5pFileRequest {
     /**
     * The copyright option
     */
-    'copyright'?: number = 0;
+    'Copyright'?: number = 0;
     /**
     * The embed allow to copy the code to your site
     */
-    'embed'?: number = 0;
+    'Embed'?: number = 0;
     /**
     * The export allow to download the package
     */
-    '_export'?: number = 0;
+    'Export'?: number = 0;
     /**
     * The frame allow to show the bar options below the content
     */
-    'frame'?: number = 0;
+    'Frame'?: number = 0;
     /**
     * H5P file url.
     */
-    'url': string = 'null';
+    'Url': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "copyright",
+            "name": "Copyright",
             "baseName": "copyright",
             "type": "number"
         },
         {
-            "name": "embed",
+            "name": "Embed",
             "baseName": "embed",
             "type": "number"
         },
         {
-            "name": "_export",
+            "name": "Export",
             "baseName": "export",
             "type": "number"
         },
         {
-            "name": "frame",
+            "name": "Frame",
             "baseName": "frame",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

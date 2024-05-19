@@ -16,85 +16,85 @@ export class CoreRatingAddRatingRequest {
     /**
     * agreggation method
     */
-    'aggregation'?: number = 0;
+    'Aggregation'?: number = 0;
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * context level: course, module, user, etc...
     */
-    'contextlevel': string = 'null';
+    'Contextlevel': string = 'null';
     /**
     * the instance id of item associated with the context level
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
     /**
     * associated id
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * rated user id
     */
-    'rateduserid': number = null;
+    'Rateduserid': number = null;
     /**
     * user rating
     */
-    'rating': number = null;
+    'Rating': number = null;
     /**
     * rating area
     */
-    'ratingarea': string = 'null';
+    'Ratingarea': string = 'null';
     /**
     * scale id
     */
-    'scaleid': number = null;
+    'Scaleid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aggregation",
+            "name": "Aggregation",
             "baseName": "aggregation",
             "type": "number"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "rateduserid",
+            "name": "Rateduserid",
             "baseName": "rateduserid",
             "type": "number"
         },
         {
-            "name": "rating",
+            "name": "Rating",
             "baseName": "rating",
             "type": "number"
         },
         {
-            "name": "ratingarea",
+            "name": "Ratingarea",
             "baseName": "ratingarea",
             "type": "string"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         }    ];

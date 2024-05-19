@@ -17,100 +17,100 @@ export class AuthEmailSignupUserRequest {
     /**
     * Home city of the user
     */
-    'city'?: string = '';
+    'City'?: string = '';
     /**
     * Home country code
     */
-    'country'?: string = '';
-    'customprofilefields'?: Array<AuthEmailSignupUserRequestCustomprofilefieldsInner>;
+    'Country'?: string = '';
+    'Customprofilefields'?: Array<AuthEmailSignupUserRequestCustomprofilefieldsInner>;
     /**
     * A valid and unique email address
     */
-    'email': string = 'null';
+    'Email': string = 'null';
     /**
     * The first name(s) of the user
     */
-    'firstname': string = 'null';
+    'Firstname': string = 'null';
     /**
     * The family name of the user
     */
-    'lastname': string = 'null';
+    'Lastname': string = 'null';
     /**
     * Plain text password
     */
-    'password': string = 'null';
+    'Password': string = 'null';
     /**
     * Recaptcha challenge hash
     */
-    'recaptchachallengehash'?: string = '';
+    'Recaptchachallengehash'?: string = '';
     /**
     * Recaptcha response
     */
-    'recaptcharesponse'?: string = '';
+    'Recaptcharesponse'?: string = '';
     /**
     * Redirect the user to this site url after confirmation.
     */
-    'redirect'?: string = '';
+    'Redirect'?: string = '';
     /**
     * Username
     */
-    'username': string = 'null';
+    'Username': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "city",
+            "name": "City",
             "baseName": "city",
             "type": "string"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "customprofilefields",
+            "name": "Customprofilefields",
             "baseName": "customprofilefields",
             "type": "Array<AuthEmailSignupUserRequestCustomprofilefieldsInner>"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "recaptchachallengehash",
+            "name": "Recaptchachallengehash",
             "baseName": "recaptchachallengehash",
             "type": "string"
         },
         {
-            "name": "recaptcharesponse",
+            "name": "Recaptcharesponse",
             "baseName": "recaptcharesponse",
             "type": "string"
         },
         {
-            "name": "redirect",
+            "name": "Redirect",
             "baseName": "redirect",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

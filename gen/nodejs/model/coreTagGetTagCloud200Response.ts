@@ -15,37 +15,37 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreTagGetTagCloud200ResponseTagsInner } from './coreTagGetTagCloud200ResponseTagsInner';
 
 export class CoreTagGetTagCloud200Response {
-    'tags': Array<CoreTagGetTagCloud200ResponseTagsInner>;
+    'Tags': Array<CoreTagGetTagCloud200ResponseTagsInner>;
     /**
     * Number of tags returned.
     */
-    'tagscount': number = null;
+    'Tagscount': number = null;
     /**
     * Total count of tags.
     */
-    'totalcount': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Totalcount': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<CoreTagGetTagCloud200ResponseTagsInner>"
         },
         {
-            "name": "tagscount",
+            "name": "Tagscount",
             "baseName": "tagscount",
             "type": "number"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

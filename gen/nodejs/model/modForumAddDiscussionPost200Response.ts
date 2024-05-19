@@ -16,34 +16,34 @@ import { ModForumAddDiscussionPost200ResponseMessagesInner } from './modForumAdd
 import { ModForumAddDiscussionPost200ResponsePost } from './modForumAddDiscussionPost200ResponsePost';
 
 export class ModForumAddDiscussionPost200Response {
-    'messages'?: Array<ModForumAddDiscussionPost200ResponseMessagesInner>;
-    'post': ModForumAddDiscussionPost200ResponsePost;
+    'Messages'?: Array<ModForumAddDiscussionPost200ResponseMessagesInner>;
+    'Post': ModForumAddDiscussionPost200ResponsePost;
     /**
     * new post id
     */
-    'postid': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Postid': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<ModForumAddDiscussionPost200ResponseMessagesInner>"
         },
         {
-            "name": "post",
+            "name": "Post",
             "baseName": "post",
             "type": "ModForumAddDiscussionPost200ResponsePost"
         },
         {
-            "name": "postid",
+            "name": "Postid",
             "baseName": "postid",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

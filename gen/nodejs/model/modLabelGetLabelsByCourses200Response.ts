@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModLabelGetLabelsByCourses200ResponseLabelsInner } from './modLabelGetLabelsByCourses200ResponseLabelsInner';
 
 export class ModLabelGetLabelsByCourses200Response {
-    'labels': Array<ModLabelGetLabelsByCourses200ResponseLabelsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Labels': Array<ModLabelGetLabelsByCourses200ResponseLabelsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "labels",
+            "name": "Labels",
             "baseName": "labels",
             "type": "Array<ModLabelGetLabelsByCourses200ResponseLabelsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

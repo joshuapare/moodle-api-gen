@@ -16,22 +16,22 @@ export class ModDataGetEntryRequest {
     /**
     * record entry id
     */
-    'entryid': number = null;
+    'Entryid': number = null;
     /**
     * Whether to return contents or not.
     */
-    'returncontents'?: boolean = false;
+    'Returncontents'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entryid",
+            "name": "Entryid",
             "baseName": "entryid",
             "type": "number"
         },
         {
-            "name": "returncontents",
+            "name": "Returncontents",
             "baseName": "returncontents",
             "type": "boolean"
         }    ];

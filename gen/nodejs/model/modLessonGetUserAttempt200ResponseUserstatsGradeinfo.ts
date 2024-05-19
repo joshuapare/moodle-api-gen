@@ -16,67 +16,67 @@ export class ModLessonGetUserAttempt200ResponseUserstatsGradeinfo {
     /**
     * Number of question attempts
     */
-    'attempts': number = null;
+    'Attempts': number = null;
     /**
     * Points earned by student
     */
-    'earned': number = null;
+    'Earned': number = null;
     /**
     * Calculated percentage grade
     */
-    'grade': number = null;
+    'Grade': number = null;
     /**
     * Point value for manually graded questions
     */
-    'manualpoints': number = null;
+    'Manualpoints': number = null;
     /**
     * Number of manually graded questions
     */
-    'nmanual': number = null;
+    'Nmanual': number = null;
     /**
     * Number of questions answered
     */
-    'nquestions': number = null;
+    'Nquestions': number = null;
     /**
     * Max points possible
     */
-    'total': number = null;
+    'Total': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "number"
         },
         {
-            "name": "earned",
+            "name": "Earned",
             "baseName": "earned",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "manualpoints",
+            "name": "Manualpoints",
             "baseName": "manualpoints",
             "type": "number"
         },
         {
-            "name": "nmanual",
+            "name": "Nmanual",
             "baseName": "nmanual",
             "type": "number"
         },
         {
-            "name": "nquestions",
+            "name": "Nquestions",
             "baseName": "nquestions",
             "type": "number"
         },
         {
-            "name": "total",
+            "name": "Total",
             "baseName": "total",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiViewLtiRequest
+# MoodleClient.Model.ModLtiViewLtiRequest
 
 ## Properties
 

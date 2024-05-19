@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserSearchIdentityRequest
+# MoodleClient.Model.CoreUserSearchIdentityRequest
 
 ## Properties
 

@@ -19,31 +19,31 @@ export class ModAssignGetSubmissionStatus200ResponsePreviousattemptsInner {
     /**
     * Attempt number.
     */
-    'attemptnumber'?: number = null;
-    'feedbackplugins'?: Array<ModAssignGetSubmissionStatus200ResponseLastattemptSubmissionPluginsInner>;
-    'grade'?: ModAssignGetSubmissionStatus200ResponseFeedbackGrade;
-    'submission'?: ModAssignGetSubmissionStatus200ResponseLastattemptTeamsubmission;
+    'Attemptnumber'?: number = null;
+    'Feedbackplugins'?: Array<ModAssignGetSubmissionStatus200ResponseLastattemptSubmissionPluginsInner>;
+    'Grade'?: ModAssignGetSubmissionStatus200ResponseFeedbackGrade;
+    'Submission'?: ModAssignGetSubmissionStatus200ResponseLastattemptTeamsubmission;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptnumber",
+            "name": "Attemptnumber",
             "baseName": "attemptnumber",
             "type": "number"
         },
         {
-            "name": "feedbackplugins",
+            "name": "Feedbackplugins",
             "baseName": "feedbackplugins",
             "type": "Array<ModAssignGetSubmissionStatus200ResponseLastattemptSubmissionPluginsInner>"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "ModAssignGetSubmissionStatus200ResponseFeedbackGrade"
         },
         {
-            "name": "submission",
+            "name": "Submission",
             "baseName": "submission",
             "type": "ModAssignGetSubmissionStatus200ResponseLastattemptTeamsubmission"
         }    ];

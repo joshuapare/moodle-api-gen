@@ -13,49 +13,49 @@
 import { RequestFile } from './models';
 
 export class CoreCalendarGetActionEventsByCoursesRequest {
-    'courseids': Array<object>;
+    'Courseids': Array<object>;
     /**
     * Limit number
     */
-    'limitnum'?: number = 10;
+    'Limitnum'?: number = 10;
     /**
     * The value a user wishes to search against
     */
-    'searchvalue'?: string;
+    'Searchvalue'?: string;
     /**
     * Time sort from
     */
-    'timesortfrom'?: number;
+    'Timesortfrom'?: number;
     /**
     * Time sort to
     */
-    'timesortto'?: number;
+    'Timesortto'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "searchvalue",
+            "name": "Searchvalue",
             "baseName": "searchvalue",
             "type": "string"
         },
         {
-            "name": "timesortfrom",
+            "name": "Timesortfrom",
             "baseName": "timesortfrom",
             "type": "number"
         },
         {
-            "name": "timesortto",
+            "name": "Timesortto",
             "baseName": "timesortto",
             "type": "number"
         }    ];

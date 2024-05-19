@@ -14,37 +14,37 @@ import { RequestFile } from './models';
 import { ToolLpDataForCompetencyFrameworksManagePage200ResponseCompetencyframeworksInner } from './toolLpDataForCompetencyFrameworksManagePage200ResponseCompetencyframeworksInner';
 
 export class ToolLpDataForCompetencyFrameworksManagePage200Response {
-    'competencyframeworks': Array<ToolLpDataForCompetencyFrameworksManagePage200ResponseCompetencyframeworksInner>;
-    'navigation': Array<object>;
+    'Competencyframeworks': Array<ToolLpDataForCompetencyFrameworksManagePage200ResponseCompetencyframeworksInner>;
+    'Navigation': Array<object>;
     /**
     * The page context id
     */
-    'pagecontextid': number = null;
+    'Pagecontextid': number = null;
     /**
     * Url to the tool_lp plugin folder on this Moodle site
     */
-    'pluginbaseurl': string = 'null';
+    'Pluginbaseurl': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyframeworks",
+            "name": "Competencyframeworks",
             "baseName": "competencyframeworks",
             "type": "Array<ToolLpDataForCompetencyFrameworksManagePage200ResponseCompetencyframeworksInner>"
         },
         {
-            "name": "navigation",
+            "name": "Navigation",
             "baseName": "navigation",
             "type": "Array<object>"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         }    ];

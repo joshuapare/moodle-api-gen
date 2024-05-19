@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradereportSingleviewGetGradeItemsForSearchWidget200Response
+# MoodleClient.Model.GradereportSingleviewGetGradeItemsForSearchWidget200Response
 
 ## Properties
 

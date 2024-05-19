@@ -15,73 +15,73 @@ import { CoreCompetencyReadPlan200Response } from './coreCompetencyReadPlan200Re
 import { ToolLpDataForPlanPage200ResponseCompetenciesInner } from './toolLpDataForPlanPage200ResponseCompetenciesInner';
 
 export class ToolLpDataForPlanPage200Response {
-    'competencies': Array<ToolLpDataForPlanPage200ResponseCompetenciesInner>;
+    'Competencies': Array<ToolLpDataForPlanPage200ResponseCompetenciesInner>;
     /**
     * Count of competencies
     */
-    'competencycount': number = null;
+    'Competencycount': number = null;
     /**
     * Context ID.
     */
-    'contextid': number = null;
-    'plan': CoreCompetencyReadPlan200Response;
+    'Contextid': number = null;
+    'Plan': CoreCompetencyReadPlan200Response;
     /**
     * Plugin base URL.
     */
-    'pluginbaseurl': string = 'null';
+    'Pluginbaseurl': string = 'null';
     /**
     * Count of proficientcompetencies
     */
-    'proficientcompetencycount': number = null;
+    'Proficientcompetencycount': number = null;
     /**
     * Percentage of competencies proficient
     */
-    'proficientcompetencypercentage': number = null;
+    'Proficientcompetencypercentage': number = null;
     /**
     * Displayable percentage
     */
-    'proficientcompetencypercentageformatted': string = 'null';
+    'Proficientcompetencypercentageformatted': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencies",
+            "name": "Competencies",
             "baseName": "competencies",
             "type": "Array<ToolLpDataForPlanPage200ResponseCompetenciesInner>"
         },
         {
-            "name": "competencycount",
+            "name": "Competencycount",
             "baseName": "competencycount",
             "type": "number"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "plan",
+            "name": "Plan",
             "baseName": "plan",
             "type": "CoreCompetencyReadPlan200Response"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "proficientcompetencycount",
+            "name": "Proficientcompetencycount",
             "baseName": "proficientcompetencycount",
             "type": "number"
         },
         {
-            "name": "proficientcompetencypercentage",
+            "name": "Proficientcompetencypercentage",
             "baseName": "proficientcompetencypercentage",
             "type": "number"
         },
         {
-            "name": "proficientcompetencypercentageformatted",
+            "name": "Proficientcompetencypercentageformatted",
             "baseName": "proficientcompetencypercentageformatted",
             "type": "string"
         }    ];

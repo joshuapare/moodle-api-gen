@@ -16,31 +16,31 @@ export class ModGlossaryGetAuthors200ResponseAuthorsInner {
     /**
     * The fullname
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * The user ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The picture URL
     */
-    'pictureurl'?: string = 'null';
+    'Pictureurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "pictureurl",
+            "name": "Pictureurl",
             "baseName": "pictureurl",
             "type": "string"
         }    ];

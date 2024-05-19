@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageConfirmContactRequestRequest
+# MoodleClient.Model.CoreMessageConfirmContactRequestRequest
 
 ## Properties
 

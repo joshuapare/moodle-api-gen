@@ -16,76 +16,76 @@ export class ModFeedbackGetCurrentCompletedTmp200ResponseFeedback {
     /**
     * Whether is an anonymous response.
     */
-    'anonymousResponse': number = null;
+    'AnonymousResponse': number = null;
     /**
     * The course id where the feedback was completed.
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * The feedback instance id this records belongs to.
     */
-    'feedback': number = null;
+    'Feedback': number = null;
     /**
     * For guests, this is the session key.
     */
-    'guestid': string = 'null';
+    'Guestid': string = 'null';
     /**
     * The record id.
     */
-    'id': number;
+    'Id': number;
     /**
     * The response number (used when shuffling anonymous responses).
     */
-    'randomResponse': number = null;
+    'RandomResponse': number = null;
     /**
     * The last time the feedback was completed.
     */
-    'timemodified': number = null;
+    'Timemodified': number = null;
     /**
     * The user who completed the feedback (0 for anonymous).
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "anonymousResponse",
+            "name": "AnonymousResponse",
             "baseName": "anonymous_response",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "number"
         },
         {
-            "name": "guestid",
+            "name": "Guestid",
             "baseName": "guestid",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "randomResponse",
+            "name": "RandomResponse",
             "baseName": "random_response",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

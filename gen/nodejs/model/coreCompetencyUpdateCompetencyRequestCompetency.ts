@@ -16,157 +16,157 @@ export class CoreCompetencyUpdateCompetencyRequestCompetency {
     /**
     * competencyframeworkid
     */
-    'competencyframeworkid'?: number = null;
+    'Competencyframeworkid'?: number = null;
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * idnumber
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * parentid
     */
-    'parentid'?: number = null;
+    'Parentid'?: number = null;
     /**
     * path
     */
-    'path'?: string = 'null';
+    'Path'?: string = 'null';
     /**
     * ruleconfig
     */
-    'ruleconfig'?: string;
+    'Ruleconfig'?: string;
     /**
     * ruleoutcome
     */
-    'ruleoutcome'?: number = null;
+    'Ruleoutcome'?: number = null;
     /**
     * ruletype
     */
-    'ruletype'?: string;
+    'Ruletype'?: string;
     /**
     * scaleconfiguration
     */
-    'scaleconfiguration'?: string;
+    'Scaleconfiguration'?: string;
     /**
     * scaleid
     */
-    'scaleid'?: number;
+    'Scaleid'?: number;
     /**
     * shortname
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * sortorder
     */
-    'sortorder'?: number = null;
+    'Sortorder'?: number = null;
     /**
     * timecreated
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * timemodified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * usermodified
     */
-    'usermodified'?: number = null;
+    'Usermodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyframeworkid",
+            "name": "Competencyframeworkid",
             "baseName": "competencyframeworkid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "path",
+            "name": "Path",
             "baseName": "path",
             "type": "string"
         },
         {
-            "name": "ruleconfig",
+            "name": "Ruleconfig",
             "baseName": "ruleconfig",
             "type": "string"
         },
         {
-            "name": "ruleoutcome",
+            "name": "Ruleoutcome",
             "baseName": "ruleoutcome",
             "type": "number"
         },
         {
-            "name": "ruletype",
+            "name": "Ruletype",
             "baseName": "ruletype",
             "type": "string"
         },
         {
-            "name": "scaleconfiguration",
+            "name": "Scaleconfiguration",
             "baseName": "scaleconfiguration",
             "type": "string"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

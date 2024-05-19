@@ -20,49 +20,49 @@ import { ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerRuleoutc
 import { ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse } from './toolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse';
 
 export class ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInner {
-    'competency'?: CoreCompetencyCreateCompetency200Response;
-    'comppath'?: ToolLpDataForCompetencySummary200ResponseComppath;
-    'coursecompetency'?: ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursecompetency;
-    'coursemodules'?: Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner>;
-    'plans'?: Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>;
-    'ruleoutcomeoptions'?: Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerRuleoutcomeoptionsInner>;
-    'usercompetencycourse'?: ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse;
+    'Competency'?: CoreCompetencyCreateCompetency200Response;
+    'Comppath'?: ToolLpDataForCompetencySummary200ResponseComppath;
+    'Coursecompetency'?: ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursecompetency;
+    'Coursemodules'?: Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner>;
+    'Plans'?: Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>;
+    'Ruleoutcomeoptions'?: Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerRuleoutcomeoptionsInner>;
+    'Usercompetencycourse'?: ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "CoreCompetencyCreateCompetency200Response"
         },
         {
-            "name": "comppath",
+            "name": "Comppath",
             "baseName": "comppath",
             "type": "ToolLpDataForCompetencySummary200ResponseComppath"
         },
         {
-            "name": "coursecompetency",
+            "name": "Coursecompetency",
             "baseName": "coursecompetency",
             "type": "ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursecompetency"
         },
         {
-            "name": "coursemodules",
+            "name": "Coursemodules",
             "baseName": "coursemodules",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner>"
         },
         {
-            "name": "plans",
+            "name": "Plans",
             "baseName": "plans",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>"
         },
         {
-            "name": "ruleoutcomeoptions",
+            "name": "Ruleoutcomeoptions",
             "baseName": "ruleoutcomeoptions",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerRuleoutcomeoptionsInner>"
         },
         {
-            "name": "usercompetencycourse",
+            "name": "Usercompetencycourse",
             "baseName": "usercompetencycourse",
             "type": "ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse"
         }    ];

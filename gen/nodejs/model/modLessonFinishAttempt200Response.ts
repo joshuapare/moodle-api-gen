@@ -16,25 +16,25 @@ import { ModLessonFinishAttempt200ResponseDataInner } from './modLessonFinishAtt
 import { ModLessonFinishAttempt200ResponseMessagesInner } from './modLessonFinishAttempt200ResponseMessagesInner';
 
 export class ModLessonFinishAttempt200Response {
-    'data': Array<ModLessonFinishAttempt200ResponseDataInner>;
-    'messages': Array<ModLessonFinishAttempt200ResponseMessagesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Data': Array<ModLessonFinishAttempt200ResponseDataInner>;
+    'Messages': Array<ModLessonFinishAttempt200ResponseMessagesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModLessonFinishAttempt200ResponseDataInner>"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<ModLessonFinishAttempt200ResponseMessagesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

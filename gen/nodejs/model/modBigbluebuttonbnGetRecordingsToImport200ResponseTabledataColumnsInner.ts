@@ -16,49 +16,49 @@ export class ModBigbluebuttonbnGetRecordingsToImport200ResponseTabledataColumnsI
     /**
     * Whether this column contains HTML
     */
-    'allowHTML'?: boolean = false;
-    'key'?: string;
-    'label'?: string;
+    'AllowHTML'?: boolean = false;
+    'Key'?: string;
+    'Label'?: string;
     /**
     * Whether this column is sortable
     */
-    'sortable'?: boolean = false;
+    'Sortable'?: boolean = false;
     /**
     * Column type
     */
-    'type'?: string;
-    'width'?: string;
+    'Type'?: string;
+    'Width'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowHTML",
+            "name": "AllowHTML",
             "baseName": "allowHTML",
             "type": "boolean"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "label",
+            "name": "Label",
             "baseName": "label",
             "type": "string"
         },
         {
-            "name": "sortable",
+            "name": "Sortable",
             "baseName": "sortable",
             "type": "boolean"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "width",
+            "name": "Width",
             "baseName": "width",
             "type": "string"
         }    ];

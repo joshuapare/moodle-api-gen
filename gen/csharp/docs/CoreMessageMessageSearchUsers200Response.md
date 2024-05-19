@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMessageSearchUsers200Response
+# MoodleClient.Model.CoreMessageMessageSearchUsers200Response
 
 ## Properties
 

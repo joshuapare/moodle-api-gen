@@ -17,172 +17,172 @@ export class CoreCompetencyGradeCompetencyInCourse200Response {
     /**
     * action
     */
-    'action': number;
-    'actionuser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Action': number;
+    'Actionuser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * actionuserid
     */
-    'actionuserid': number;
+    'Actionuserid': number;
     /**
     * candelete
     */
-    'candelete': boolean;
+    'Candelete': boolean;
     /**
     * contextid
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * desca
     */
-    'desca': string;
+    'Desca': string;
     /**
     * desccomponent
     */
-    'desccomponent': string;
+    'Desccomponent': string;
     /**
     * descidentifier
     */
-    'descidentifier': string;
+    'Descidentifier': string;
     /**
     * description
     */
-    'description': string;
+    'Description': string;
     /**
     * grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * gradename
     */
-    'gradename': string;
+    'Gradename': string;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * note
     */
-    'note': string;
+    'Note': string;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * url
     */
-    'url': string;
+    'Url': string;
     /**
     * usercompetencyid
     */
-    'usercompetencyid': number;
+    'Usercompetencyid': number;
     /**
     * userdate
     */
-    'userdate': string;
+    'Userdate': string;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "number"
         },
         {
-            "name": "actionuser",
+            "name": "Actionuser",
             "baseName": "actionuser",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "actionuserid",
+            "name": "Actionuserid",
             "baseName": "actionuserid",
             "type": "number"
         },
         {
-            "name": "candelete",
+            "name": "Candelete",
             "baseName": "candelete",
             "type": "boolean"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "desca",
+            "name": "Desca",
             "baseName": "desca",
             "type": "string"
         },
         {
-            "name": "desccomponent",
+            "name": "Desccomponent",
             "baseName": "desccomponent",
             "type": "string"
         },
         {
-            "name": "descidentifier",
+            "name": "Descidentifier",
             "baseName": "descidentifier",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradename",
+            "name": "Gradename",
             "baseName": "gradename",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "note",
+            "name": "Note",
             "baseName": "note",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "usercompetencyid",
+            "name": "Usercompetencyid",
             "baseName": "usercompetencyid",
             "type": "number"
         },
         {
-            "name": "userdate",
+            "name": "Userdate",
             "baseName": "userdate",
             "type": "string"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

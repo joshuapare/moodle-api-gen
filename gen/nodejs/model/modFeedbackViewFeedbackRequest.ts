@@ -16,31 +16,31 @@ export class ModFeedbackViewFeedbackRequest {
     /**
     * Course where user completes the feedback (for site feedbacks only).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Feedback instance id
     */
-    'feedbackid': number;
+    'Feedbackid': number;
     /**
     * If we need to mark the module as viewed for completion
     */
-    'moduleviewed'?: boolean = false;
+    'Moduleviewed'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedbackid",
+            "name": "Feedbackid",
             "baseName": "feedbackid",
             "type": "number"
         },
         {
-            "name": "moduleviewed",
+            "name": "Moduleviewed",
             "baseName": "moduleviewed",
             "type": "boolean"
         }    ];

@@ -17,46 +17,46 @@ export class ModFeedbackProcessPageRequest {
     /**
     * Course where user completes the feedback (for site feedbacks only).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Feedback instance id.
     */
-    'feedbackid': number;
+    'Feedbackid': number;
     /**
     * Whether we want to jump to previous page.
     */
-    'goprevious'?: boolean = false;
+    'Goprevious'?: boolean = false;
     /**
     * The page being processed.
     */
-    'page': number = null;
-    'responses'?: Array<ModFeedbackProcessPageRequestResponsesInner>;
+    'Page': number = null;
+    'Responses'?: Array<ModFeedbackProcessPageRequestResponsesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedbackid",
+            "name": "Feedbackid",
             "baseName": "feedbackid",
             "type": "number"
         },
         {
-            "name": "goprevious",
+            "name": "Goprevious",
             "baseName": "goprevious",
             "type": "boolean"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "responses",
+            "name": "Responses",
             "baseName": "responses",
             "type": "Array<ModFeedbackProcessPageRequestResponsesInner>"
         }    ];

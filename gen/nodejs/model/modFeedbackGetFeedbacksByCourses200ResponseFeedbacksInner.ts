@@ -17,187 +17,187 @@ export class ModFeedbackGetFeedbacksByCourses200ResponseFeedbacksInner {
     /**
     * Whether the feedback is anonymous.
     */
-    'anonymous'?: number = null;
+    'Anonymous'?: number = null;
     /**
     * Whether questions should be auto-numbered.
     */
-    'autonumbering'?: boolean = 1;
+    'Autonumbering'?: boolean = 1;
     /**
     * If this field is set to 1, then the activity will be automatically marked as complete on submission.
     */
-    'completionsubmit'?: boolean = 0;
+    'Completionsubmit'?: boolean = 0;
     /**
     * Course id this feedback is part of.
     */
-    'course'?: number = null;
+    'Course'?: number = null;
     /**
     * coursemodule
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Whether email notifications will be sent to teachers.
     */
-    'emailNotification'?: boolean = null;
+    'EmailNotification'?: boolean = null;
     /**
     * The primary key of the record.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Feedback introduction text.
     */
-    'intro'?: string = '';
-    'introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Intro'?: string = '';
+    'Introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = 0;
+    'Introformat'?: number = 0;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Whether multiple submissions are allowed.
     */
-    'multipleSubmit'?: boolean = 1;
+    'MultipleSubmit'?: boolean = 1;
     /**
     * Feedback name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Text to display after submission.
     */
-    'pageAfterSubmit'?: string = 'null';
+    'PageAfterSubmit'?: string = 'null';
     /**
     * page_after_submit format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'pageAfterSubmitformat'?: number = 0;
-    'pageaftersubmitfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'PageAfterSubmitformat'?: number = 0;
+    'Pageaftersubmitfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * Whether stats should be published.
     */
-    'publishStats'?: boolean = 0;
+    'PublishStats'?: boolean = 0;
     /**
     * Link to next page after submission.
     */
-    'siteAfterSubmit'?: string = 'null';
+    'SiteAfterSubmit'?: string = 'null';
     /**
     * Allow answers until this time.
     */
-    'timeclose'?: number = null;
+    'Timeclose'?: number = null;
     /**
     * The time this record was modified.
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * Allow answers from this time.
     */
-    'timeopen'?: number = null;
+    'Timeopen'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "anonymous",
+            "name": "Anonymous",
             "baseName": "anonymous",
             "type": "number"
         },
         {
-            "name": "autonumbering",
+            "name": "Autonumbering",
             "baseName": "autonumbering",
             "type": "boolean"
         },
         {
-            "name": "completionsubmit",
+            "name": "Completionsubmit",
             "baseName": "completionsubmit",
             "type": "boolean"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "emailNotification",
+            "name": "EmailNotification",
             "baseName": "email_notification",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "multipleSubmit",
+            "name": "MultipleSubmit",
             "baseName": "multiple_submit",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "pageAfterSubmit",
+            "name": "PageAfterSubmit",
             "baseName": "page_after_submit",
             "type": "string"
         },
         {
-            "name": "pageAfterSubmitformat",
+            "name": "PageAfterSubmitformat",
             "baseName": "page_after_submitformat",
             "type": "number"
         },
         {
-            "name": "pageaftersubmitfiles",
+            "name": "Pageaftersubmitfiles",
             "baseName": "pageaftersubmitfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "publishStats",
+            "name": "PublishStats",
             "baseName": "publish_stats",
             "type": "boolean"
         },
         {
-            "name": "siteAfterSubmit",
+            "name": "SiteAfterSubmit",
             "baseName": "site_after_submit",
             "type": "string"
         },
         {
-            "name": "timeclose",
+            "name": "Timeclose",
             "baseName": "timeclose",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timeopen",
+            "name": "Timeopen",
             "baseName": "timeopen",
             "type": "number"
         }    ];

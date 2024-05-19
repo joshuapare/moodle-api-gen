@@ -16,31 +16,31 @@ export class CoreCourseGetEnrolledUsersByCmidRequest {
     /**
     * id of the course module
     */
-    'cmid': number = null;
+    'Cmid': number = null;
     /**
     * id of the group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * whether to return only active users or all.
     */
-    'onlyactive'?: boolean = false;
+    'Onlyactive'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "onlyactive",
+            "name": "Onlyactive",
             "baseName": "onlyactive",
             "type": "boolean"
         }    ];

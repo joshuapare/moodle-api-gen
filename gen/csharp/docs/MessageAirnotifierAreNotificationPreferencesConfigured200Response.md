@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.MessageAirnotifierAreNotificationPreferencesConfigured200Response
+# MoodleClient.Model.MessageAirnotifierAreNotificationPreferencesConfigured200Response
 
 ## Properties
 

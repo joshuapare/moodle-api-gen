@@ -20,55 +20,55 @@ export class CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusC
     /**
     * Completion status (true/false)
     */
-    'complete'?: boolean = null;
-    'details'?: CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusCompletionsInnerDetails;
+    'Complete'?: boolean = null;
+    'Details'?: CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusCompletionsInnerDetails;
     /**
     * Completion status (Yes/No) a % or number
     */
-    'status'?: string = 'null';
+    'Status'?: string = 'null';
     /**
     * Timestamp for criteria completetion
     */
-    'timecompleted'?: number = null;
+    'Timecompleted'?: number = null;
     /**
     * Completion criteria Title
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
     /**
     * Completion criteria type
     */
-    'type'?: number = null;
+    'Type'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "complete",
+            "name": "Complete",
             "baseName": "complete",
             "type": "boolean"
         },
         {
-            "name": "details",
+            "name": "Details",
             "baseName": "details",
             "type": "CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusCompletionsInnerDetails"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "timecompleted",
+            "name": "Timecompleted",
             "baseName": "timecompleted",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         }    ];

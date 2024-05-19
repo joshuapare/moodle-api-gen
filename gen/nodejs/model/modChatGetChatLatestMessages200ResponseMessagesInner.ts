@@ -16,49 +16,49 @@ export class ModChatGetChatLatestMessages200ResponseMessagesInner {
     /**
     * message id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * message text
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
     /**
     * true if is a system message (like user joined)
     */
-    'system'?: boolean = null;
+    'System'?: boolean = null;
     /**
     * timestamp for the message
     */
-    'timestamp'?: number = null;
+    'Timestamp'?: number = null;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "system",
+            "name": "System",
             "baseName": "system",
             "type": "boolean"
         },
         {
-            "name": "timestamp",
+            "name": "Timestamp",
             "baseName": "timestamp",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

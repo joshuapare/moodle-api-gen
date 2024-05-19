@@ -17,82 +17,82 @@ export class CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInner {
     /**
     * heading
     */
-    'heading'?: string;
+    'Heading'?: string;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * movetitle
     */
-    'movetitle'?: string;
+    'Movetitle'?: string;
     /**
     * sortdirection
     */
-    'sortdirection'?: number;
+    'Sortdirection'?: number;
     /**
     * sortenabled
     */
-    'sortenabled'?: boolean;
+    'Sortenabled'?: boolean;
     /**
     * sortenabledtitle
     */
-    'sortenabledtitle'?: string;
-    'sorticon'?: CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInnerSorticon;
+    'Sortenabledtitle'?: string;
+    'Sorticon'?: CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInnerSorticon;
     /**
     * sortorder
     */
-    'sortorder'?: number;
+    'Sortorder'?: number;
     /**
     * title
     */
-    'title'?: string;
+    'Title'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "heading",
+            "name": "Heading",
             "baseName": "heading",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "movetitle",
+            "name": "Movetitle",
             "baseName": "movetitle",
             "type": "string"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "number"
         },
         {
-            "name": "sortenabled",
+            "name": "Sortenabled",
             "baseName": "sortenabled",
             "type": "boolean"
         },
         {
-            "name": "sortenabledtitle",
+            "name": "Sortenabledtitle",
             "baseName": "sortenabledtitle",
             "type": "string"
         },
         {
-            "name": "sorticon",
+            "name": "Sorticon",
             "baseName": "sorticon",
             "type": "CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInnerSorticon"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

@@ -16,13 +16,13 @@ export class ModIomadcertificateGetIssuedIomadcertificatesRequest {
     /**
     * iomadcertificate instance id
     */
-    'iomadcertificateid': number = null;
+    'Iomadcertificateid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iomadcertificateid",
+            "name": "Iomadcertificateid",
             "baseName": "iomadcertificateid",
             "type": "number"
         }    ];

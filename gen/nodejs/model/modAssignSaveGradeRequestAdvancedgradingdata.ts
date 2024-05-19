@@ -15,19 +15,19 @@ import { ModAssignSaveGradeRequestAdvancedgradingdataGuide } from './modAssignSa
 import { ModAssignSaveGradeRequestAdvancedgradingdataRubric } from './modAssignSaveGradeRequestAdvancedgradingdataRubric';
 
 export class ModAssignSaveGradeRequestAdvancedgradingdata {
-    'guide'?: ModAssignSaveGradeRequestAdvancedgradingdataGuide;
-    'rubric'?: ModAssignSaveGradeRequestAdvancedgradingdataRubric;
+    'Guide'?: ModAssignSaveGradeRequestAdvancedgradingdataGuide;
+    'Rubric'?: ModAssignSaveGradeRequestAdvancedgradingdataRubric;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "guide",
+            "name": "Guide",
             "baseName": "guide",
             "type": "ModAssignSaveGradeRequestAdvancedgradingdataGuide"
         },
         {
-            "name": "rubric",
+            "name": "Rubric",
             "baseName": "rubric",
             "type": "ModAssignSaveGradeRequestAdvancedgradingdataRubric"
         }    ];

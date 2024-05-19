@@ -16,85 +16,85 @@ export class CoreMessageGetConversationBetweenUsersRequest {
     /**
     * Include contact requests in the members
     */
-    'includecontactrequests': boolean;
+    'Includecontactrequests': boolean;
     /**
     * Include privacy info in the members
     */
-    'includeprivacyinfo': boolean;
+    'Includeprivacyinfo': boolean;
     /**
     * Limit for number of members
     */
-    'memberlimit'?: number = 0;
+    'Memberlimit'?: number = 0;
     /**
     * Offset for member list
     */
-    'memberoffset'?: number = 0;
+    'Memberoffset'?: number = 0;
     /**
     * Limit for number of messages
     */
-    'messagelimit'?: number = 100;
+    'Messagelimit'?: number = 100;
     /**
     * Offset for messages list
     */
-    'messageoffset'?: number = 0;
+    'Messageoffset'?: number = 0;
     /**
     * Order messages by newest first
     */
-    'newestmessagesfirst'?: boolean = true;
+    'Newestmessagesfirst'?: boolean = true;
     /**
     * The other user id
     */
-    'otheruserid': number = null;
+    'Otheruserid': number = null;
     /**
     * The id of the user who we are viewing conversations for
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includecontactrequests",
+            "name": "Includecontactrequests",
             "baseName": "includecontactrequests",
             "type": "boolean"
         },
         {
-            "name": "includeprivacyinfo",
+            "name": "Includeprivacyinfo",
             "baseName": "includeprivacyinfo",
             "type": "boolean"
         },
         {
-            "name": "memberlimit",
+            "name": "Memberlimit",
             "baseName": "memberlimit",
             "type": "number"
         },
         {
-            "name": "memberoffset",
+            "name": "Memberoffset",
             "baseName": "memberoffset",
             "type": "number"
         },
         {
-            "name": "messagelimit",
+            "name": "Messagelimit",
             "baseName": "messagelimit",
             "type": "number"
         },
         {
-            "name": "messageoffset",
+            "name": "Messageoffset",
             "baseName": "messageoffset",
             "type": "number"
         },
         {
-            "name": "newestmessagesfirst",
+            "name": "Newestmessagesfirst",
             "baseName": "newestmessagesfirst",
             "type": "boolean"
         },
         {
-            "name": "otheruserid",
+            "name": "Otheruserid",
             "baseName": "otheruserid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

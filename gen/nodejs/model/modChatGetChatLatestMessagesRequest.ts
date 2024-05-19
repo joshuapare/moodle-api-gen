@@ -16,22 +16,22 @@ export class ModChatGetChatLatestMessagesRequest {
     /**
     * last time messages were retrieved (epoch time)
     */
-    'chatlasttime'?: number = 0;
+    'Chatlasttime'?: number = 0;
     /**
     * chat session id (obtained via mod_chat_login_user)
     */
-    'chatsid': string = 'null';
+    'Chatsid': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatlasttime",
+            "name": "Chatlasttime",
             "baseName": "chatlasttime",
             "type": "number"
         },
         {
-            "name": "chatsid",
+            "name": "Chatsid",
             "baseName": "chatsid",
             "type": "string"
         }    ];

@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { ModDataAddEntryRequestDataInner } from './modDataAddEntryRequestDataInner';
 
 export class ModDataAddEntryRequest {
-    'data': Array<ModDataAddEntryRequestDataInner>;
+    'Data': Array<ModDataAddEntryRequestDataInner>;
     /**
     * data instance id
     */
-    'databaseid': number = null;
+    'Databaseid': number = null;
     /**
     * Group id, 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModDataAddEntryRequestDataInner>"
         },
         {
-            "name": "databaseid",
+            "name": "Databaseid",
             "baseName": "databaseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

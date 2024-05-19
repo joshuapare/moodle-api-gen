@@ -16,40 +16,40 @@ export class ErrorResponse {
     /**
     * Debug information
     */
-    'debuginfo'?: string;
+    'Debuginfo'?: string;
     /**
     * Error code
     */
-    'errorcode'?: string;
+    'Errorcode'?: string;
     /**
     * Type of the exception
     */
-    'exception'?: string;
+    'Exception'?: string;
     /**
     * Error message
     */
-    'message'?: string;
+    'Message'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "debuginfo",
+            "name": "Debuginfo",
             "baseName": "debuginfo",
             "type": "string"
         },
         {
-            "name": "errorcode",
+            "name": "Errorcode",
             "baseName": "errorcode",
             "type": "string"
         },
         {
-            "name": "exception",
+            "name": "Exception",
             "baseName": "exception",
             "type": "string"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         }    ];

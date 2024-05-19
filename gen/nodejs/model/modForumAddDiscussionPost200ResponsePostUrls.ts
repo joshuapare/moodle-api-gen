@@ -16,103 +16,103 @@ export class ModForumAddDiscussionPost200ResponsePostUrls {
     /**
     * The URL used to delete the post
     */
-    '_delete'?: string = 'null';
+    'Delete'?: string = 'null';
     /**
     * discuss
     */
-    'discuss'?: string = 'null';
+    'Discuss'?: string = 'null';
     /**
     * The URL used to edit the post
     */
-    'edit'?: string = 'null';
+    'Edit'?: string = 'null';
     /**
     * The URL used to export the post
     */
-    '_export'?: string = 'null';
+    'Export'?: string = 'null';
     /**
     * The URL used to mark the post as read
     */
-    'markasread'?: string = 'null';
+    'Markasread'?: string = 'null';
     /**
     * The URL used to mark the post as unread
     */
-    'markasunread'?: string = 'null';
+    'Markasunread'?: string = 'null';
     /**
     * The URL used to reply to the post
     */
-    'reply'?: string = 'null';
+    'Reply'?: string = 'null';
     /**
     * The URL used to split the discussion with the selected post being the first post in the new discussion
     */
-    'split'?: string = 'null';
+    'Split'?: string = 'null';
     /**
     * The URL used to view the post
     */
-    'view'?: string = 'null';
+    'View'?: string = 'null';
     /**
     * The URL used to view the post in isolation
     */
-    'viewisolated'?: string = 'null';
+    'Viewisolated'?: string = 'null';
     /**
     * The URL used to view the parent of the post
     */
-    'viewparent'?: string = 'null';
+    'Viewparent'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "_delete",
+            "name": "Delete",
             "baseName": "delete",
             "type": "string"
         },
         {
-            "name": "discuss",
+            "name": "Discuss",
             "baseName": "discuss",
             "type": "string"
         },
         {
-            "name": "edit",
+            "name": "Edit",
             "baseName": "edit",
             "type": "string"
         },
         {
-            "name": "_export",
+            "name": "Export",
             "baseName": "export",
             "type": "string"
         },
         {
-            "name": "markasread",
+            "name": "Markasread",
             "baseName": "markasread",
             "type": "string"
         },
         {
-            "name": "markasunread",
+            "name": "Markasunread",
             "baseName": "markasunread",
             "type": "string"
         },
         {
-            "name": "reply",
+            "name": "Reply",
             "baseName": "reply",
             "type": "string"
         },
         {
-            "name": "split",
+            "name": "Split",
             "baseName": "split",
             "type": "string"
         },
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "string"
         },
         {
-            "name": "viewisolated",
+            "name": "Viewisolated",
             "baseName": "viewisolated",
             "type": "string"
         },
         {
-            "name": "viewparent",
+            "name": "Viewparent",
             "baseName": "viewparent",
             "type": "string"
         }    ];

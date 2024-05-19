@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetAnalysisRequest
+# MoodleClient.Model.ModFeedbackGetAnalysisRequest
 
 ## Properties
 

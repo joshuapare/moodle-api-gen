@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetUserFlags200ResponseAssignmentsInnerUserflagsInner
+# MoodleClient.Model.ModAssignGetUserFlags200ResponseAssignmentsInnerUserflagsInner
 
 ## Properties
 

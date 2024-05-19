@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.joshuapare</groupId>
-    <artifactId>moodle-client-java</artifactId>
+    <artifactId>moodle-client</artifactId>
     <packaging>jar</packaging>
-    <name>moodle-client-java</name>
+    <name>moodle-client</name>
     <version>0.1.0</version>
     <url>https://github.com/joshuapare/moodle-api-gen</url>
     <description>OpenAPI Java</description>

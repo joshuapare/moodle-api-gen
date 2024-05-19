@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetCalendarExportToken200Response
+# MoodleClient.Model.CoreCalendarGetCalendarExportToken200Response
 
 ## Properties
 

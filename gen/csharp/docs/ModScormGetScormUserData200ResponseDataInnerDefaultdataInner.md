@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormUserData200ResponseDataInnerDefaultdataInner
+# MoodleClient.Model.ModScormGetScormUserData200ResponseDataInnerDefaultdataInner
 
 ## Properties
 

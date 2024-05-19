@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageDeleteMessageRequest
+# MoodleClient.Model.CoreMessageDeleteMessageRequest
 
 ## Properties
 

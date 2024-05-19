@@ -16,49 +16,49 @@ export class CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInne
     /**
     * action
     */
-    'action'?: string = 'null';
+    'Action'?: string = 'null';
     /**
     * disabled
     */
-    'disabled'?: boolean = false;
+    'Disabled'?: boolean = false;
     /**
     * identifier
     */
-    'identifier'?: string = 'null';
+    'Identifier'?: string = 'null';
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * title
     */
-    'title'?: string;
+    'Title'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "string"
         },
         {
-            "name": "disabled",
+            "name": "Disabled",
             "baseName": "disabled",
             "type": "boolean"
         },
         {
-            "name": "identifier",
+            "name": "Identifier",
             "baseName": "identifier",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

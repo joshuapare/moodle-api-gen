@@ -16,22 +16,22 @@ export class ModQuizGetAttemptAccessInformationRequest {
     /**
     * attempt id, 0 for the user last attempt if exists
     */
-    'attemptid'?: number = 0;
+    'Attemptid'?: number = 0;
     /**
     * quiz instance id
     */
-    'quizid': number = null;
+    'Quizid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "quizid",
+            "name": "Quizid",
             "baseName": "quizid",
             "type": "number"
         }    ];

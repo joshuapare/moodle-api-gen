@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataGetDataAccessInformation200Response
+# MoodleClient.Model.ModDataGetDataAccessInformation200Response
 
 ## Properties
 

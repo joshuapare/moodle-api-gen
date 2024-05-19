@@ -17,55 +17,55 @@ export class CoreGroupCreateGroupingsRequestGroupingsInner {
     /**
     * id of course
     */
-    'courseid'?: number;
-    'customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
+    'Courseid'?: number;
+    'Customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
     /**
     * grouping description text
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * id number
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * multilang compatible name, course unique
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

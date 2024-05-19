@@ -16,40 +16,40 @@ export class MessagePopupGetPopupNotificationsRequest {
     /**
     * the number of results to return
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * true for ordering by newest first, false for oldest first
     */
-    'newestfirst'?: boolean = true;
+    'Newestfirst'?: boolean = true;
     /**
     * offset the result set by a given amount
     */
-    'offset'?: number = 0;
+    'Offset'?: number = 0;
     /**
     * the user id who received the message, 0 for current user
     */
-    'useridto': number = null;
+    'Useridto': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "newestfirst",
+            "name": "Newestfirst",
             "baseName": "newestfirst",
             "type": "boolean"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         },
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         }    ];

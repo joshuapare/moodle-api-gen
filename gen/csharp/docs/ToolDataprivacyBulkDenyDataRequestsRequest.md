@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyBulkDenyDataRequestsRequest
+# MoodleClient.Model.ToolDataprivacyBulkDenyDataRequestsRequest
 
 ## Properties
 

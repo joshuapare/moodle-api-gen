@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetAutologinKey200Response
+# MoodleClient.Model.ToolMobileGetAutologinKey200Response
 
 ## Properties
 

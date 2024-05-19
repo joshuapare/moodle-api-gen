@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCustomfieldCreateCategoryRequest
+# MoodleClient.Model.CoreCustomfieldCreateCategoryRequest
 
 ## Properties
 

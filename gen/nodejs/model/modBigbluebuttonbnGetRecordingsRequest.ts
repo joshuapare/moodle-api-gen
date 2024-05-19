@@ -16,31 +16,31 @@ export class ModBigbluebuttonbnGetRecordingsRequest {
     /**
     * bigbluebuttonbn instance id
     */
-    'bigbluebuttonbnid': number;
+    'Bigbluebuttonbnid': number;
     /**
     * Group ID
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
     /**
     * a set of enabled tools
     */
-    'tools'?: string = 'protect,unprotect,publish,unpublish,delete';
+    'Tools'?: string = 'protect,unprotect,publish,unpublish,delete';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bigbluebuttonbnid",
+            "name": "Bigbluebuttonbnid",
             "baseName": "bigbluebuttonbnid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "tools",
+            "name": "Tools",
             "baseName": "tools",
             "type": "string"
         }    ];

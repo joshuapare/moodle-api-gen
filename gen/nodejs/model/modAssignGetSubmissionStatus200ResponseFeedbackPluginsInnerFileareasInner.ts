@@ -17,19 +17,19 @@ export class ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFilearea
     /**
     * file area
     */
-    'area'?: string;
-    'files'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Area'?: string;
+    'Files'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         }    ];

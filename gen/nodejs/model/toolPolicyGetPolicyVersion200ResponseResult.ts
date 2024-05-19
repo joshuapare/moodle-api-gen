@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ToolPolicyGetPolicyVersion200ResponseResultPolicy } from './toolPolicyGetPolicyVersion200ResponseResultPolicy';
 
 export class ToolPolicyGetPolicyVersion200ResponseResult {
-    'policy'?: ToolPolicyGetPolicyVersion200ResponseResultPolicy;
+    'Policy'?: ToolPolicyGetPolicyVersion200ResponseResultPolicy;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "policy",
+            "name": "Policy",
             "baseName": "policy",
             "type": "ToolPolicyGetPolicyVersion200ResponseResultPolicy"
         }    ];

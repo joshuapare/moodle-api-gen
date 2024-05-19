@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyReadPlan200ResponseCommentarea
+# MoodleClient.Model.CoreCompetencyReadPlan200ResponseCommentarea
 
 ## Properties
 

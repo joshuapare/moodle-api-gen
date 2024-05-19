@@ -18,133 +18,133 @@ export class CoreMessageGetConversationBetweenUsers200ResponseMembersInner {
     /**
     * If the user can be messaged
     */
-    'canmessage'?: boolean;
+    'Canmessage'?: boolean;
     /**
     * If the user can still message even if they get blocked
     */
-    'canmessageevenifblocked'?: boolean;
-    'contactrequests'?: Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInnerContactrequestsInner>;
-    'conversations'?: Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInnerConversationsInner>;
+    'Canmessageevenifblocked'?: boolean;
+    'Contactrequests'?: Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInnerContactrequestsInner>;
+    'Conversations'?: Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInnerConversationsInner>;
     /**
     * The user\'s name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * The user id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * If the user has been blocked
     */
-    'isblocked'?: boolean;
+    'Isblocked'?: boolean;
     /**
     * Is the user a contact?
     */
-    'iscontact'?: boolean;
+    'Iscontact'?: boolean;
     /**
     * Is the user deleted?
     */
-    'isdeleted'?: boolean;
+    'Isdeleted'?: boolean;
     /**
     * The user\'s online status
     */
-    'isonline'?: boolean;
+    'Isonline'?: boolean;
     /**
     * User picture URL
     */
-    'profileimageurl'?: string;
+    'Profileimageurl'?: string;
     /**
     * Small user picture URL
     */
-    'profileimageurlsmall'?: string;
+    'Profileimageurlsmall'?: string;
     /**
     * The link to the user\'s profile page
     */
-    'profileurl'?: string;
+    'Profileurl'?: string;
     /**
     * If the user requires to be contacts
     */
-    'requirescontact'?: boolean;
+    'Requirescontact'?: boolean;
     /**
     * Show the user\'s online status?
     */
-    'showonlinestatus'?: boolean;
+    'Showonlinestatus'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmessage",
+            "name": "Canmessage",
             "baseName": "canmessage",
             "type": "boolean"
         },
         {
-            "name": "canmessageevenifblocked",
+            "name": "Canmessageevenifblocked",
             "baseName": "canmessageevenifblocked",
             "type": "boolean"
         },
         {
-            "name": "contactrequests",
+            "name": "Contactrequests",
             "baseName": "contactrequests",
             "type": "Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInnerContactrequestsInner>"
         },
         {
-            "name": "conversations",
+            "name": "Conversations",
             "baseName": "conversations",
             "type": "Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInnerConversationsInner>"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isblocked",
+            "name": "Isblocked",
             "baseName": "isblocked",
             "type": "boolean"
         },
         {
-            "name": "iscontact",
+            "name": "Iscontact",
             "baseName": "iscontact",
             "type": "boolean"
         },
         {
-            "name": "isdeleted",
+            "name": "Isdeleted",
             "baseName": "isdeleted",
             "type": "boolean"
         },
         {
-            "name": "isonline",
+            "name": "Isonline",
             "baseName": "isonline",
             "type": "boolean"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         },
         {
-            "name": "profileimageurlsmall",
+            "name": "Profileimageurlsmall",
             "baseName": "profileimageurlsmall",
             "type": "string"
         },
         {
-            "name": "profileurl",
+            "name": "Profileurl",
             "baseName": "profileurl",
             "type": "string"
         },
         {
-            "name": "requirescontact",
+            "name": "Requirescontact",
             "baseName": "requirescontact",
             "type": "boolean"
         },
         {
-            "name": "showonlinestatus",
+            "name": "Showonlinestatus",
             "baseName": "showonlinestatus",
             "type": "boolean"
         }    ];

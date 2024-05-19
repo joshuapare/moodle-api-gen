@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsSortGetRequest
+# MoodleClient.Model.CoreReportbuilderColumnsSortGetRequest
 
 ## Properties
 

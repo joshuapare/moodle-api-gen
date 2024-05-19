@@ -16,13 +16,13 @@ export class ModQuizReopenAttemptRequest {
     /**
     * The id of the attempt to reopen
     */
-    'attemptid': number;
+    'Attemptid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         }    ];

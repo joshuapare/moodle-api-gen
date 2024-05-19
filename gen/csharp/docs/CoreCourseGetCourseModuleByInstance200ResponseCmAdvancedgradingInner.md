@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetCourseModuleByInstance200ResponseCmAdvancedgradingInner
+# MoodleClient.Model.CoreCourseGetCourseModuleByInstance200ResponseCmAdvancedgradingInner
 
 ## Properties
 

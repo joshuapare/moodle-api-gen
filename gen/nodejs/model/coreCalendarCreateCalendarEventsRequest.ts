@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCalendarCreateCalendarEventsRequestEventsInner } from './coreCalendarCreateCalendarEventsRequestEventsInner';
 
 export class CoreCalendarCreateCalendarEventsRequest {
-    'events': Array<CoreCalendarCreateCalendarEventsRequestEventsInner>;
+    'Events': Array<CoreCalendarCreateCalendarEventsRequestEventsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarCreateCalendarEventsRequestEventsInner>"
         }    ];

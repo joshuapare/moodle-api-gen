@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetUserPlanRequest
+# MoodleClient.Model.ModWorkshopGetUserPlanRequest
 
 ## Properties
 

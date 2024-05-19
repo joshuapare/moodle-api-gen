@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ReportInsightsSetFixedPrediction200Response
+# MoodleClient.Model.ReportInsightsSetFixedPrediction200Response
 
 ## Properties
 

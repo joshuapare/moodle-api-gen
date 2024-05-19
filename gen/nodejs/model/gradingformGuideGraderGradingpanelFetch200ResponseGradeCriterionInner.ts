@@ -16,67 +16,67 @@ export class GradingformGuideGraderGradingpanelFetch200ResponseGradeCriterionInn
     /**
     * The description of the criterion
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * The description of the criterion for markers
     */
-    'descriptionmarkers'?: string = 'null';
+    'Descriptionmarkers'?: string = 'null';
     /**
     * The id of the criterion
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The maximum score for this criterion
     */
-    'maxscore'?: number = null;
+    'Maxscore'?: number = null;
     /**
     * The name of the criterion
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Any remarks for this criterion for the user being assessed
     */
-    'remark'?: string = 'null';
+    'Remark'?: string = 'null';
     /**
     * The current score for user being assessed
     */
-    'score'?: number = null;
+    'Score'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionmarkers",
+            "name": "Descriptionmarkers",
             "baseName": "descriptionmarkers",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "maxscore",
+            "name": "Maxscore",
             "baseName": "maxscore",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "remark",
+            "name": "Remark",
             "baseName": "remark",
             "type": "string"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "number"
         }    ];

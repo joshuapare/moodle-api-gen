@@ -16,13 +16,13 @@ export class ModLtiIsCartridge200Response {
     /**
     * True if the URL is a cartridge
     */
-    'iscartridge': boolean = null;
+    'Iscartridge': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iscartridge",
+            "name": "Iscartridge",
             "baseName": "iscartridge",
             "type": "boolean"
         }    ];

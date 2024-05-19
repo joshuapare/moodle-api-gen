@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCommentAddCommentsRequestCommentsInner } from './coreCommentAddCommentsRequestCommentsInner';
 
 export class CoreCommentAddCommentsRequest {
-    'comments': Array<CoreCommentAddCommentsRequestCommentsInner>;
+    'Comments': Array<CoreCommentAddCommentsRequestCommentsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "Array<CoreCommentAddCommentsRequestCommentsInner>"
         }    ];

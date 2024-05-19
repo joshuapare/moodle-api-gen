@@ -16,103 +16,103 @@ export class ReportCompetencyDataForReport200ResponseUsercompetenciesInnerUserco
     /**
     * competencyid
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * courseid
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * gradename
     */
-    'gradename': string;
+    'Gradename': string;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * proficiency
     */
-    'proficiency': boolean = null;
+    'Proficiency': boolean = null;
     /**
     * proficiencyname
     */
-    'proficiencyname': string = 'null';
+    'Proficiencyname': string = 'null';
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * userid
     */
-    'userid': number;
+    'Userid': number;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradename",
+            "name": "Gradename",
             "baseName": "gradename",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "proficiency",
+            "name": "Proficiency",
             "baseName": "proficiency",
             "type": "boolean"
         },
         {
-            "name": "proficiencyname",
+            "name": "Proficiencyname",
             "baseName": "proficiencyname",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

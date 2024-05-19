@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacySetContextDefaultsRequest
+# MoodleClient.Model.ToolDataprivacySetContextDefaultsRequest
 
 ## Properties
 

@@ -16,13 +16,13 @@ export class ToolDataprivacyGetUsersRequest {
     /**
     * The search query
     */
-    'query': string;
+    'Query': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

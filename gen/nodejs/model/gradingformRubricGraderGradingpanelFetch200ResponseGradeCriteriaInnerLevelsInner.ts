@@ -16,49 +16,49 @@ export class GradingformRubricGraderGradingpanelFetch200ResponseGradeCriteriaInn
     /**
     * Selected flag
     */
-    'checked'?: boolean = null;
+    'Checked'?: boolean = null;
     /**
     * ID of the criterion this matches to
     */
-    'criterionid'?: number = null;
+    'Criterionid'?: number = null;
     /**
     * Definition of the level
     */
-    'definition'?: string = 'null';
+    'Definition'?: string = 'null';
     /**
     * ID of level
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * What this level is worth
     */
-    'score'?: string = 'null';
+    'Score'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "checked",
+            "name": "Checked",
             "baseName": "checked",
             "type": "boolean"
         },
         {
-            "name": "criterionid",
+            "name": "Criterionid",
             "baseName": "criterionid",
             "type": "number"
         },
         {
-            "name": "definition",
+            "name": "Definition",
             "baseName": "definition",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "string"
         }    ];

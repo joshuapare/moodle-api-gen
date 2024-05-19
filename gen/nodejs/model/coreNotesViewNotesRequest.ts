@@ -16,22 +16,22 @@ export class CoreNotesViewNotesRequest {
     /**
     * course id, 0 for notes at system level
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * user id, 0 means view all the user notes
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

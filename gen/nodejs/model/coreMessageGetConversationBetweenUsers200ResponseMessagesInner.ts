@@ -16,40 +16,40 @@ export class CoreMessageGetConversationBetweenUsers200ResponseMessagesInner {
     /**
     * The id of the message
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The text of the message
     */
-    'text'?: string;
+    'Text'?: string;
     /**
     * The timecreated timestamp for the message
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * The id of the user who sent the message
     */
-    'useridfrom'?: number;
+    'Useridfrom'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "useridfrom",
+            "name": "Useridfrom",
             "baseName": "useridfrom",
             "type": "number"
         }    ];

@@ -16,19 +16,19 @@ export class LocalIomadLearningpathAddusersRequest {
     /**
     * ID of Iomad Learning Path
     */
-    'pathid': number;
-    'userids': Array<object>;
+    'Pathid': number;
+    'Userids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModChatGetSessionMessages200ResponseMessagesInner } from './modChatGetSessionMessages200ResponseMessagesInner';
 
 export class ModChatGetSessionMessages200Response {
-    'messages': Array<ModChatGetSessionMessages200ResponseMessagesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Messages': Array<ModChatGetSessionMessages200ResponseMessagesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<ModChatGetSessionMessages200ResponseMessagesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -16,22 +16,22 @@ export class CoreReportbuilderConditionsDeleteRequest {
     /**
     * Condition ID
     */
-    'conditionid': number = null;
+    'Conditionid': number = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conditionid",
+            "name": "Conditionid",
             "baseName": "conditionid",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

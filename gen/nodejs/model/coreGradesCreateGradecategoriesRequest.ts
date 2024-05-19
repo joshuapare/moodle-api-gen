@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreGradesCreateGradecategoriesRequestCategoriesInner } from './coreGradesCreateGradecategoriesRequestCategoriesInner';
 
 export class CoreGradesCreateGradecategoriesRequest {
-    'categories': Array<CoreGradesCreateGradecategoriesRequestCategoriesInner>;
+    'Categories': Array<CoreGradesCreateGradecategoriesRequestCategoriesInner>;
     /**
     * id of course
     */
-    'courseid': number = null;
+    'Courseid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categories",
+            "name": "Categories",
             "baseName": "categories",
             "type": "Array<CoreGradesCreateGradecategoriesRequestCategoriesInner>"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

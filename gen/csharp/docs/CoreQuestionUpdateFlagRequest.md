@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreQuestionUpdateFlagRequest
+# MoodleClient.Model.CoreQuestionUpdateFlagRequest
 
 ## Properties
 

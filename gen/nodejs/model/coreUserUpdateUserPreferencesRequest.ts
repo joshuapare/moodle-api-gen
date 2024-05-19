@@ -17,28 +17,28 @@ export class CoreUserUpdateUserPreferencesRequest {
     /**
     * Enable or disable notifications for this user
     */
-    'emailstop'?: number = null;
-    'preferences'?: Array<CoreUserUpdateUserPreferencesRequestPreferencesInner>;
+    'Emailstop'?: number = null;
+    'Preferences'?: Array<CoreUserUpdateUserPreferencesRequestPreferencesInner>;
     /**
     * id of the user, default to current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "emailstop",
+            "name": "Emailstop",
             "baseName": "emailstop",
             "type": "number"
         },
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "Array<CoreUserUpdateUserPreferencesRequestPreferencesInner>"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

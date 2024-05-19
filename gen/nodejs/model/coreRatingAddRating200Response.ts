@@ -17,46 +17,46 @@ export class CoreRatingAddRating200Response {
     /**
     * New aggregate
     */
-    'aggregate'?: string = 'null';
+    'Aggregate'?: string = 'null';
     /**
     * Ratings count
     */
-    'count'?: number = null;
+    'Count'?: number = null;
     /**
     * Rating item id
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
     /**
     * Whether the rate was successfully created
     */
-    'success': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Success': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aggregate",
+            "name": "Aggregate",
             "baseName": "aggregate",
             "type": "string"
         },
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "success",
+            "name": "Success",
             "baseName": "success",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

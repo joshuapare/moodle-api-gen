@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradingGetGradingformInstances200Response
+# MoodleClient.Model.CoreGradingGetGradingformInstances200Response
 
 ## Properties
 

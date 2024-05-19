@@ -16,22 +16,22 @@ export class QuizaccessSebValidateQuizKeys200Response {
     /**
     * Is a provided browser exam key valid?
     */
-    'browserexamkey': boolean = 0;
+    'Browserexamkey': boolean = 0;
     /**
     * Is a provided config key valid?
     */
-    'configkey': boolean = 0;
+    'Configkey': boolean = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "browserexamkey",
+            "name": "Browserexamkey",
             "baseName": "browserexamkey",
             "type": "boolean"
         },
         {
-            "name": "configkey",
+            "name": "Configkey",
             "baseName": "configkey",
             "type": "boolean"
         }    ];

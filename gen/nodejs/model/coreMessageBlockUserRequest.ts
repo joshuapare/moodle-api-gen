@@ -16,22 +16,22 @@ export class CoreMessageBlockUserRequest {
     /**
     * The id of the user being blocked
     */
-    'blockeduserid': number = null;
+    'Blockeduserid': number = null;
     /**
     * The id of the user who is blocking
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "blockeduserid",
+            "name": "Blockeduserid",
             "baseName": "blockeduserid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetReceivedContactRequestsCountRequest
+# MoodleClient.Model.CoreMessageGetReceivedContactRequestsCountRequest
 
 ## Properties
 

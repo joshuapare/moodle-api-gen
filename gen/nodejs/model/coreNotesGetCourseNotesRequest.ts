@@ -16,22 +16,22 @@ export class CoreNotesGetCourseNotesRequest {
     /**
     * course id, 0 for SITE
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * user id
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -16,49 +16,49 @@ export class BlockIomadCompanyAdminAssignCoursesRequestCoursesInner {
     /**
     * Course company ID
     */
-    'companyid'?: number = 0;
+    'Companyid'?: number = 0;
     /**
     * Course ID
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Course department ID
     */
-    'departmentid'?: number = 0;
+    'Departmentid'?: number = 0;
     /**
     * Is the course licensed
     */
-    'licensed'?: boolean = false;
+    'Licensed'?: boolean = false;
     /**
     * Does the company own the course
     */
-    'owned'?: boolean = false;
+    'Owned'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "departmentid",
+            "name": "Departmentid",
             "baseName": "departmentid",
             "type": "number"
         },
         {
-            "name": "licensed",
+            "name": "Licensed",
             "baseName": "licensed",
             "type": "boolean"
         },
         {
-            "name": "owned",
+            "name": "Owned",
             "baseName": "owned",
             "type": "boolean"
         }    ];

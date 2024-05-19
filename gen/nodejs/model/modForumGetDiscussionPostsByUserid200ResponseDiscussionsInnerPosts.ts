@@ -14,19 +14,19 @@ import { RequestFile } from './models';
 import { ModForumGetDiscussionPosts200ResponsePostsInner } from './modForumGetDiscussionPosts200ResponsePostsInner';
 
 export class ModForumGetDiscussionPostsByUserid200ResponseDiscussionsInnerPosts {
-    'parentposts': Array<ModForumGetDiscussionPosts200ResponsePostsInner>;
-    'userposts': Array<ModForumGetDiscussionPosts200ResponsePostsInner>;
+    'Parentposts': Array<ModForumGetDiscussionPosts200ResponsePostsInner>;
+    'Userposts': Array<ModForumGetDiscussionPosts200ResponsePostsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "parentposts",
+            "name": "Parentposts",
             "baseName": "parentposts",
             "type": "Array<ModForumGetDiscussionPosts200ResponsePostsInner>"
         },
         {
-            "name": "userposts",
+            "name": "Userposts",
             "baseName": "userposts",
             "type": "Array<ModForumGetDiscussionPosts200ResponsePostsInner>"
         }    ];

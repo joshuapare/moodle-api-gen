@@ -16,67 +16,67 @@ import { RequestFile } from './models';
 * Node structure
 */
 export class ToolDataprivacyTreeExtraBranches200ResponseBranchesInnerBranchesInner {
-    'branches'?: Array<object>;
+    'Branches'?: Array<object>;
     /**
     * The node contextid
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * The node contextlevel
     */
-    'contextlevel'?: number = null;
+    'Contextlevel'?: number = null;
     /**
     * The contextid this node expands
     */
-    'expandcontextid'?: number = null;
+    'Expandcontextid'?: number = null;
     /**
     * Is it expanded
     */
-    'expanded'?: number = null;
+    'Expanded'?: number = null;
     /**
     * What element is this node expanded to
     */
-    'expandelement'?: string = 'null';
+    'Expandelement'?: string = 'null';
     /**
     * The node text
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "branches",
+            "name": "Branches",
             "baseName": "branches",
             "type": "Array<object>"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "number"
         },
         {
-            "name": "expandcontextid",
+            "name": "Expandcontextid",
             "baseName": "expandcontextid",
             "type": "number"
         },
         {
-            "name": "expanded",
+            "name": "Expanded",
             "baseName": "expanded",
             "type": "number"
         },
         {
-            "name": "expandelement",
+            "name": "Expandelement",
             "baseName": "expandelement",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

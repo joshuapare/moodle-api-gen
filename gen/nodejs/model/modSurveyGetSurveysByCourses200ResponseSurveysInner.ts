@@ -20,163 +20,163 @@ export class ModSurveyGetSurveysByCourses200ResponseSurveysInner {
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Days
     */
-    'days'?: number = null;
+    'Days'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Question ids
     */
-    'questions'?: string = 'null';
+    'Questions'?: string = 'null';
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Did I finish the survey?
     */
-    'surveydone'?: number = null;
+    'Surveydone'?: number = null;
     /**
     * Survey type
     */
-    'template'?: number = null;
+    'Template'?: number = null;
     /**
     * Time of creation
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time of last modification
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "days",
+            "name": "Days",
             "baseName": "days",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "questions",
+            "name": "Questions",
             "baseName": "questions",
             "type": "string"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "surveydone",
+            "name": "Surveydone",
             "baseName": "surveydone",
             "type": "number"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetCourseModuleByInstanceRequest
+# MoodleClient.Model.CoreCourseGetCourseModuleByInstanceRequest
 
 ## Properties
 

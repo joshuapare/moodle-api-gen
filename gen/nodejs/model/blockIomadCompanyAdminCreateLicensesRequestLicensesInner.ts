@@ -20,136 +20,136 @@ export class BlockIomadCompanyAdminCreateLicensesRequestLicensesInner {
     /**
     * Number of license slots
     */
-    'allocation'?: number = null;
+    'Allocation'?: number = null;
     /**
     * Clear license assignments on expire - 0 = no, 1 = yes
     */
-    'clearonexpire'?: number = null;
+    'Clearonexpire'?: number = null;
     /**
     * Company id
     */
-    'companyid'?: number = null;
-    'courses'?: Array<BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInner>;
+    'Companyid'?: number = null;
+    'Courses'?: Array<BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInner>;
     /**
     * License cut off date (int = timestamp)
     */
-    'cutoffdate'?: number = null;
+    'Cutoffdate'?: number = null;
     /**
     * License expiry date (int = timestamp)
     */
-    'expirydate'?: number = null;
+    'Expirydate'?: number = null;
     /**
     * Instant access - 0 = no, 1 = yes
     */
-    'instant'?: number = null;
+    'Instant'?: number = null;
     /**
     * License name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Parent license id
     */
-    'parentid'?: number = null;
+    'Parentid'?: number = null;
     /**
     * Program pf courses 0 = no, 1 = yes
     */
-    'program'?: number = null;
+    'Program'?: number = null;
     /**
     * License reference
     */
-    'reference'?: string = 'null';
+    'Reference'?: string = 'null';
     /**
     * Date from which the liucense is available (int = timestamp) 
     */
-    'startdate'?: number = null;
+    'Startdate'?: number = null;
     /**
     * License type - 0 = standard, 1 = reusable, 2 = standard educator, 3 = reusable educator
     */
-    'type'?: number = null;
+    'Type'?: number = null;
     /**
     * Number how often the lic can be allocated
     */
-    'used'?: number = null;
+    'Used'?: number = null;
     /**
     * Course access length (days)
     */
-    'validlength'?: number = null;
+    'Validlength'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allocation",
+            "name": "Allocation",
             "baseName": "allocation",
             "type": "number"
         },
         {
-            "name": "clearonexpire",
+            "name": "Clearonexpire",
             "baseName": "clearonexpire",
             "type": "number"
         },
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInner>"
         },
         {
-            "name": "cutoffdate",
+            "name": "Cutoffdate",
             "baseName": "cutoffdate",
             "type": "number"
         },
         {
-            "name": "expirydate",
+            "name": "Expirydate",
             "baseName": "expirydate",
             "type": "number"
         },
         {
-            "name": "instant",
+            "name": "Instant",
             "baseName": "instant",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "program",
+            "name": "Program",
             "baseName": "program",
             "type": "number"
         },
         {
-            "name": "reference",
+            "name": "Reference",
             "baseName": "reference",
             "type": "string"
         },
         {
-            "name": "startdate",
+            "name": "Startdate",
             "baseName": "startdate",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "used",
+            "name": "Used",
             "baseName": "used",
             "type": "number"
         },
         {
-            "name": "validlength",
+            "name": "Validlength",
             "baseName": "validlength",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInnerDeployedfile
+# MoodleClient.Model.ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInnerDeployedfile
 
 ## Properties
 

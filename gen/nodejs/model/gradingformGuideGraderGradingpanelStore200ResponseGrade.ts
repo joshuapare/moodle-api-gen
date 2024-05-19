@@ -15,82 +15,82 @@ import { GradingformGuideGraderGradingpanelStore200ResponseGradeCommentsInner } 
 import { GradingformGuideGraderGradingpanelStore200ResponseGradeCriterionInner } from './gradingformGuideGraderGradingpanelStore200ResponseGradeCriterionInner';
 
 export class GradingformGuideGraderGradingpanelStore200ResponseGrade {
-    'comments': Array<GradingformGuideGraderGradingpanelStore200ResponseGradeCommentsInner>;
-    'criterion': Array<GradingformGuideGraderGradingpanelStore200ResponseGradeCriterionInner>;
+    'Comments': Array<GradingformGuideGraderGradingpanelStore200ResponseGradeCommentsInner>;
+    'Criterion': Array<GradingformGuideGraderGradingpanelStore200ResponseGradeCriterionInner>;
     /**
     * The assumed grader of this grading instance
     */
-    'gradedby': string;
+    'Gradedby': string;
     /**
     * Whether there are any frequently-used comments
     */
-    'hascomments': boolean;
+    'Hascomments': boolean;
     /**
     * The id of the current grading instance
     */
-    'instanceid': number;
+    'Instanceid': number;
     /**
     * Max possible grade
     */
-    'maxgrade': string;
+    'Maxgrade': string;
     /**
     * The time that the grade was created
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * The time that the grade was last updated
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * Current user grade
     */
-    'usergrade': string;
+    'Usergrade': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "Array<GradingformGuideGraderGradingpanelStore200ResponseGradeCommentsInner>"
         },
         {
-            "name": "criterion",
+            "name": "Criterion",
             "baseName": "criterion",
             "type": "Array<GradingformGuideGraderGradingpanelStore200ResponseGradeCriterionInner>"
         },
         {
-            "name": "gradedby",
+            "name": "Gradedby",
             "baseName": "gradedby",
             "type": "string"
         },
         {
-            "name": "hascomments",
+            "name": "Hascomments",
             "baseName": "hascomments",
             "type": "boolean"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usergrade",
+            "name": "Usergrade",
             "baseName": "usergrade",
             "type": "string"
         }    ];

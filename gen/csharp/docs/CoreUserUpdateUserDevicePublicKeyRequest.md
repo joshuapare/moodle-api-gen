@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserUpdateUserDevicePublicKeyRequest
+# MoodleClient.Model.CoreUserUpdateUserDevicePublicKeyRequest
 
 ## Properties
 

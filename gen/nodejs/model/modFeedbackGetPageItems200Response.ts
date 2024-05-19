@@ -18,34 +18,34 @@ export class ModFeedbackGetPageItems200Response {
     /**
     * Whether there are more pages.
     */
-    'hasnextpage': boolean = null;
+    'Hasnextpage': boolean = null;
     /**
     * Whether is a previous page.
     */
-    'hasprevpage': boolean = null;
-    'items': Array<ModFeedbackGetItems200ResponseItemsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Hasprevpage': boolean = null;
+    'Items': Array<ModFeedbackGetItems200ResponseItemsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "hasnextpage",
+            "name": "Hasnextpage",
             "baseName": "hasnextpage",
             "type": "boolean"
         },
         {
-            "name": "hasprevpage",
+            "name": "Hasprevpage",
             "baseName": "hasprevpage",
             "type": "boolean"
         },
         {
-            "name": "items",
+            "name": "Items",
             "baseName": "items",
             "type": "Array<ModFeedbackGetItems200ResponseItemsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

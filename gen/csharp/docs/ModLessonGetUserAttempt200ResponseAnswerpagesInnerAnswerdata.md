@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata
+# MoodleClient.Model.ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata
 
 ## Properties
 

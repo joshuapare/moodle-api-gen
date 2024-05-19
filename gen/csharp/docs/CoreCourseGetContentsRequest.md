@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetContentsRequest
+# MoodleClient.Model.CoreCourseGetContentsRequest
 
 ## Properties
 

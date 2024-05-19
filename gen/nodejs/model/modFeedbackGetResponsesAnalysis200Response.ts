@@ -16,43 +16,43 @@ import { ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner } from './m
 import { ModFeedbackGetResponsesAnalysis200ResponseAttemptsInner } from './modFeedbackGetResponsesAnalysis200ResponseAttemptsInner';
 
 export class ModFeedbackGetResponsesAnalysis200Response {
-    'anonattempts': Array<ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner>;
-    'attempts': Array<ModFeedbackGetResponsesAnalysis200ResponseAttemptsInner>;
+    'Anonattempts': Array<ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner>;
+    'Attempts': Array<ModFeedbackGetResponsesAnalysis200ResponseAttemptsInner>;
     /**
     * Total anonymous responses count.
     */
-    'totalanonattempts': number = null;
+    'Totalanonattempts': number = null;
     /**
     * Total responses count.
     */
-    'totalattempts': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Totalattempts': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "anonattempts",
+            "name": "Anonattempts",
             "baseName": "anonattempts",
             "type": "Array<ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner>"
         },
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "Array<ModFeedbackGetResponsesAnalysis200ResponseAttemptsInner>"
         },
         {
-            "name": "totalanonattempts",
+            "name": "Totalanonattempts",
             "baseName": "totalanonattempts",
             "type": "number"
         },
         {
-            "name": "totalattempts",
+            "name": "Totalattempts",
             "baseName": "totalattempts",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

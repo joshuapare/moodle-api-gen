@@ -16,22 +16,22 @@ export class CoreContentbankSetContentVisibilityRequest {
     /**
     * The content id to rename
     */
-    'contentid': number;
+    'Contentid': number;
     /**
     * The new visibility for the content
     */
-    'visibility': number = null;
+    'Visibility': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contentid",
+            "name": "Contentid",
             "baseName": "contentid",
             "type": "number"
         },
         {
-            "name": "visibility",
+            "name": "Visibility",
             "baseName": "visibility",
             "type": "number"
         }    ];

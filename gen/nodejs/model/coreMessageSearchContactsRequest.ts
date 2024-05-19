@@ -16,22 +16,22 @@ export class CoreMessageSearchContactsRequest {
     /**
     * Limit search to the user\'s courses
     */
-    'onlymycourses'?: boolean = false;
+    'Onlymycourses'?: boolean = false;
     /**
     * String the user\'s fullname has to match to be found
     */
-    'searchtext': string = 'null';
+    'Searchtext': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "onlymycourses",
+            "name": "Onlymycourses",
             "baseName": "onlymycourses",
             "type": "boolean"
         },
         {
-            "name": "searchtext",
+            "name": "Searchtext",
             "baseName": "searchtext",
             "type": "string"
         }    ];

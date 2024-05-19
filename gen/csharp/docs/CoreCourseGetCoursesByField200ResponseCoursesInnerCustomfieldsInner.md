@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner
+# MoodleClient.Model.CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner
 
 ## Properties
 

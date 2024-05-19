@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreGradingGetGradingformInstances200ResponseInstancesInnerGuideCriteriaInner } from './coreGradingGetGradingformInstances200ResponseInstancesInnerGuideCriteriaInner';
 
 export class CoreGradingGetGradingformInstances200ResponseInstancesInnerGuide {
-    'criteria'?: Array<CoreGradingGetGradingformInstances200ResponseInstancesInnerGuideCriteriaInner>;
+    'Criteria'?: Array<CoreGradingGetGradingformInstances200ResponseInstancesInnerGuideCriteriaInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "Array<CoreGradingGetGradingformInstances200ResponseInstancesInnerGuideCriteriaInner>"
         }    ];

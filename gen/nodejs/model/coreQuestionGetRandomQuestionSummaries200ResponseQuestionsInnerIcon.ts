@@ -16,31 +16,31 @@ export class CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInnerIcon
     /**
     * alttext
     */
-    'alttext': string;
+    'Alttext': string;
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * key
     */
-    'key': string;
+    'Key': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "alttext",
+            "name": "Alttext",
             "baseName": "alttext",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         }    ];

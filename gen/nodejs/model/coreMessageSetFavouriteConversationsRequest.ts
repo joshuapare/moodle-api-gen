@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class CoreMessageSetFavouriteConversationsRequest {
-    'conversations': Array<object>;
+    'Conversations': Array<object>;
     /**
     * id of the user, 0 for current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversations",
+            "name": "Conversations",
             "baseName": "conversations",
             "type": "Array<object>"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

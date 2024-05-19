@@ -16,22 +16,22 @@ export class ToolTemplatelibraryLoadCanonicalTemplateRequest {
     /**
     * component containing the template
     */
-    'component': string;
+    'Component': string;
     /**
     * name of the template
     */
-    'template': string;
+    'Template': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "string"
         }    ];

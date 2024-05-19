@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetPagesPossibleJumps200ResponseJumpsInner
+# MoodleClient.Model.ModLessonGetPagesPossibleJumps200ResponseJumpsInner
 Jump for a page answer
 
 ## Properties

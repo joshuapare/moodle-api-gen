@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserAddUserDeviceRequest
+# MoodleClient.Model.CoreUserAddUserDeviceRequest
 
 ## Properties
 

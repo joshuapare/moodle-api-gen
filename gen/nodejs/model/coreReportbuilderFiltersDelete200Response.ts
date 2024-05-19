@@ -15,46 +15,46 @@ import { CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner } 
 import { CoreReportbuilderFiltersDelete200ResponseActivefiltersInner } from './coreReportbuilderFiltersDelete200ResponseActivefiltersInner';
 
 export class CoreReportbuilderFiltersDelete200Response {
-    'activefilters': Array<CoreReportbuilderFiltersDelete200ResponseActivefiltersInner>;
-    'availablefilters': Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner>;
+    'Activefilters': Array<CoreReportbuilderFiltersDelete200ResponseActivefiltersInner>;
+    'Availablefilters': Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner>;
     /**
     * hasactivefilters
     */
-    'hasactivefilters': boolean;
+    'Hasactivefilters': boolean;
     /**
     * hasavailablefilters
     */
-    'hasavailablefilters': boolean;
+    'Hasavailablefilters': boolean;
     /**
     * helpicon
     */
-    'helpicon': string;
+    'Helpicon': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activefilters",
+            "name": "Activefilters",
             "baseName": "activefilters",
             "type": "Array<CoreReportbuilderFiltersDelete200ResponseActivefiltersInner>"
         },
         {
-            "name": "availablefilters",
+            "name": "Availablefilters",
             "baseName": "availablefilters",
             "type": "Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner>"
         },
         {
-            "name": "hasactivefilters",
+            "name": "Hasactivefilters",
             "baseName": "hasactivefilters",
             "type": "boolean"
         },
         {
-            "name": "hasavailablefilters",
+            "name": "Hasavailablefilters",
             "baseName": "hasavailablefilters",
             "type": "boolean"
         },
         {
-            "name": "helpicon",
+            "name": "Helpicon",
             "baseName": "helpicon",
             "type": "string"
         }    ];

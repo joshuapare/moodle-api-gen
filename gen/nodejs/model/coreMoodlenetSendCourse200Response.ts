@@ -17,28 +17,28 @@ export class CoreMoodlenetSendCourse200Response {
     /**
     * Resource URL from MoodleNet
     */
-    'resourceurl': string;
+    'Resourceurl': string;
     /**
     * Status: true if success
     */
-    'status': boolean;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Status': boolean;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "resourceurl",
+            "name": "Resourceurl",
             "baseName": "resourceurl",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

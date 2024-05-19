@@ -16,22 +16,22 @@ export class CoreCohortAddCohortMembersRequestMembersInnerCohorttype {
     /**
     * The name of the field: id                                         (numeric value of cohortid) or idnumber (alphanumeric value of idnumber) 
     */
-    'type': string = 'null';
+    'Type': string = 'null';
     /**
     * The value of the cohort
     */
-    'value': string = 'null';
+    'Value': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

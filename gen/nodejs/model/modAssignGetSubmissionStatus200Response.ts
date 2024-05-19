@@ -19,43 +19,43 @@ import { ModAssignGetSubmissionStatus200ResponseLastattempt } from './modAssignG
 import { ModAssignGetSubmissionStatus200ResponsePreviousattemptsInner } from './modAssignGetSubmissionStatus200ResponsePreviousattemptsInner';
 
 export class ModAssignGetSubmissionStatus200Response {
-    'assignmentdata'?: ModAssignGetSubmissionStatus200ResponseAssignmentdata;
-    'feedback'?: ModAssignGetSubmissionStatus200ResponseFeedback;
-    'gradingsummary'?: ModAssignGetSubmissionStatus200ResponseGradingsummary;
-    'lastattempt'?: ModAssignGetSubmissionStatus200ResponseLastattempt;
-    'previousattempts'?: Array<ModAssignGetSubmissionStatus200ResponsePreviousattemptsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Assignmentdata'?: ModAssignGetSubmissionStatus200ResponseAssignmentdata;
+    'Feedback'?: ModAssignGetSubmissionStatus200ResponseFeedback;
+    'Gradingsummary'?: ModAssignGetSubmissionStatus200ResponseGradingsummary;
+    'Lastattempt'?: ModAssignGetSubmissionStatus200ResponseLastattempt;
+    'Previousattempts'?: Array<ModAssignGetSubmissionStatus200ResponsePreviousattemptsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentdata",
+            "name": "Assignmentdata",
             "baseName": "assignmentdata",
             "type": "ModAssignGetSubmissionStatus200ResponseAssignmentdata"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "ModAssignGetSubmissionStatus200ResponseFeedback"
         },
         {
-            "name": "gradingsummary",
+            "name": "Gradingsummary",
             "baseName": "gradingsummary",
             "type": "ModAssignGetSubmissionStatus200ResponseGradingsummary"
         },
         {
-            "name": "lastattempt",
+            "name": "Lastattempt",
             "baseName": "lastattempt",
             "type": "ModAssignGetSubmissionStatus200ResponseLastattempt"
         },
         {
-            "name": "previousattempts",
+            "name": "Previousattempts",
             "baseName": "previousattempts",
             "type": "Array<ModAssignGetSubmissionStatus200ResponsePreviousattemptsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

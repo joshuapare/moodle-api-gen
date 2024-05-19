@@ -17,46 +17,46 @@ export class ModForumGetDiscussionPostsByUserid200ResponseDiscussionsInner {
     /**
     * Full name of the user that started the discussion
     */
-    'authorfullname'?: string = 'null';
+    'Authorfullname'?: string = 'null';
     /**
     * ID of the discussion
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Name of the discussion
     */
-    'name'?: string = 'null';
-    'posts'?: ModForumGetDiscussionPostsByUserid200ResponseDiscussionsInnerPosts;
+    'Name'?: string = 'null';
+    'Posts'?: ModForumGetDiscussionPostsByUserid200ResponseDiscussionsInnerPosts;
     /**
     * Timestamp of the discussion start
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "authorfullname",
+            "name": "Authorfullname",
             "baseName": "authorfullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "posts",
+            "name": "Posts",
             "baseName": "posts",
             "type": "ModForumGetDiscussionPostsByUserid200ResponseDiscussionsInnerPosts"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         }    ];

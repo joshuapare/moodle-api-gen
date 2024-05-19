@@ -17,19 +17,19 @@ export class ModForumSetPinState200ResponseGroup {
     /**
     * name
     */
-    'name': string;
-    'urls': ModForumSetPinState200ResponseGroupUrls;
+    'Name': string;
+    'Urls': ModForumSetPinState200ResponseGroupUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumSetPinState200ResponseGroupUrls"
         }    ];

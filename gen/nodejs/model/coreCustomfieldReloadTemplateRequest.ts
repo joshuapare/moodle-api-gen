@@ -16,31 +16,31 @@ export class CoreCustomfieldReloadTemplateRequest {
     /**
     * area
     */
-    'area': string;
+    'Area': string;
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * itemid
     */
-    'itemid': number;
+    'Itemid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         }    ];

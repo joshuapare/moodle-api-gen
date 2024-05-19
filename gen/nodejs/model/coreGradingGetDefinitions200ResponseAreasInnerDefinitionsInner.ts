@@ -18,124 +18,124 @@ export class CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInner {
     /**
     * copied from id
     */
-    'copiedfromid'?: number = null;
+    'Copiedfromid'?: number = null;
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
-    'guide'?: CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuide;
+    'Descriptionformat'?: number;
+    'Guide'?: CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuide;
     /**
     * definition id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * method
     */
-    'method'?: string = 'null';
+    'Method'?: string = 'null';
     /**
     * name
     */
-    'name'?: string;
-    'rubric'?: CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubric;
+    'Name'?: string;
+    'Rubric'?: CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubric;
     /**
     * status
     */
-    'status'?: number = null;
+    'Status'?: number = null;
     /**
     * time copied
     */
-    'timecopied'?: number = null;
+    'Timecopied'?: number = null;
     /**
     * creation time
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * last modified time
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * user who created definition
     */
-    'usercreated'?: number = null;
+    'Usercreated'?: number = null;
     /**
     * user who modified definition
     */
-    'usermodified'?: number = null;
+    'Usermodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "copiedfromid",
+            "name": "Copiedfromid",
             "baseName": "copiedfromid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "guide",
+            "name": "Guide",
             "baseName": "guide",
             "type": "CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuide"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "method",
+            "name": "Method",
             "baseName": "method",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "rubric",
+            "name": "Rubric",
             "baseName": "rubric",
             "type": "CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerRubric"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "timecopied",
+            "name": "Timecopied",
             "baseName": "timecopied",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usercreated",
+            "name": "Usercreated",
             "baseName": "usercreated",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

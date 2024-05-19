@@ -16,22 +16,22 @@ export class ModQuizGetAttemptReviewRequest {
     /**
     * attempt id
     */
-    'attemptid': number;
+    'Attemptid': number;
     /**
     * page number, empty for all the questions in all the pages
     */
-    'page'?: number = -1;
+    'Page'?: number = -1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         }    ];

@@ -15,19 +15,19 @@ import { CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner }
 import { CoreEnrolGetEnrolledUsersWithCapabilityRequestOptionsInner } from './coreEnrolGetEnrolledUsersWithCapabilityRequestOptionsInner';
 
 export class CoreEnrolGetEnrolledUsersWithCapabilityRequest {
-    'coursecapabilities': Array<CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner>;
-    'options'?: Array<CoreEnrolGetEnrolledUsersWithCapabilityRequestOptionsInner>;
+    'Coursecapabilities': Array<CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner>;
+    'Options'?: Array<CoreEnrolGetEnrolledUsersWithCapabilityRequestOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "coursecapabilities",
+            "name": "Coursecapabilities",
             "baseName": "coursecapabilities",
             "type": "Array<CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner>"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreEnrolGetEnrolledUsersWithCapabilityRequestOptionsInner>"
         }    ];

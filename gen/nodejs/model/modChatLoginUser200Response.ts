@@ -17,19 +17,19 @@ export class ModChatLoginUser200Response {
     /**
     * unique chat session id
     */
-    'chatsid': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Chatsid': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatsid",
+            "name": "Chatsid",
             "baseName": "chatsid",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

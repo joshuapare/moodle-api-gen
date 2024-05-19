@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { BlockIomadCompanyAdminUnallocateLicensesRequestLicensesInner } from './blockIomadCompanyAdminUnallocateLicensesRequestLicensesInner';
 
 export class BlockIomadCompanyAdminUnallocateLicensesRequest {
-    'licenses': Array<BlockIomadCompanyAdminUnallocateLicensesRequestLicensesInner>;
+    'Licenses': Array<BlockIomadCompanyAdminUnallocateLicensesRequestLicensesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "licenses",
+            "name": "Licenses",
             "baseName": "licenses",
             "type": "Array<BlockIomadCompanyAdminUnallocateLicensesRequestLicensesInner>"
         }    ];

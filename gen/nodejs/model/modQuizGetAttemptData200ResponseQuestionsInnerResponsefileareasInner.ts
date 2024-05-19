@@ -17,19 +17,19 @@ export class ModQuizGetAttemptData200ResponseQuestionsInnerResponsefileareasInne
     /**
     * File area name
     */
-    'area'?: string = 'null';
-    'files'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Area'?: string = 'null';
+    'Files'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         }    ];

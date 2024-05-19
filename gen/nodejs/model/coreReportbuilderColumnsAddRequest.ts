@@ -16,22 +16,22 @@ export class CoreReportbuilderColumnsAddRequest {
     /**
     * Report ID
     */
-    'reportid': number = null;
+    'Reportid': number = null;
     /**
     * Unique identifier of the column
     */
-    'uniqueidentifier': string = 'null';
+    'Uniqueidentifier': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         },
         {
-            "name": "uniqueidentifier",
+            "name": "Uniqueidentifier",
             "baseName": "uniqueidentifier",
             "type": "string"
         }    ];

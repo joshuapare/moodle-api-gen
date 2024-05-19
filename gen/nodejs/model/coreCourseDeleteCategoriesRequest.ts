@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCourseDeleteCategoriesRequestCategoriesInner } from './coreCourseDeleteCategoriesRequestCategoriesInner';
 
 export class CoreCourseDeleteCategoriesRequest {
-    'categories': Array<CoreCourseDeleteCategoriesRequestCategoriesInner>;
+    'Categories': Array<CoreCourseDeleteCategoriesRequestCategoriesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categories",
+            "name": "Categories",
             "baseName": "categories",
             "type": "Array<CoreCourseDeleteCategoriesRequestCategoriesInner>"
         }    ];

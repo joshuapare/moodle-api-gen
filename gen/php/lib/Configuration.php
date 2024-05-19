@@ -93,7 +93,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'https://localhost/webservice/rest/server.php';
+    protected $host = 'https://localhost/webservice/restful/server.php';
 
     /**
      * User agent of the HTTP request, set to "OpenAPI-Generator/{version}/PHP" by default
@@ -472,8 +472,8 @@ class Configuration
     {
         return [
             [
-                "url" => "{scheme}://{host}/webservice/rest/server.php",
-                "description" => "Custom Moodle server URL",
+                "url" => "{scheme}://{host}/webservice/restful/server.php",
+                "description" => "Moodle Server URL",
                 "variables" => [
                     "host" => [
                         "description" => "The hostname of the Moodle server",

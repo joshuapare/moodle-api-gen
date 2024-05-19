@@ -18,127 +18,127 @@ export class ModAssignGetSubmissionStatus200ResponseLastattempt {
     /**
     * Whether blind marking is enabled.
     */
-    'blindmarking': boolean = null;
+    'Blindmarking': boolean = null;
     /**
     * Whether the user can edit the current submission.
     */
-    'canedit': boolean = null;
+    'Canedit': boolean = null;
     /**
     * Whether the owner of the submission can edit it.
     */
-    'caneditowner': boolean = null;
+    'Caneditowner': boolean = null;
     /**
     * Whether the user can submit.
     */
-    'cansubmit': boolean = null;
+    'Cansubmit': boolean = null;
     /**
     * Extension due date.
     */
-    'extensionduedate': number = null;
+    'Extensionduedate': number = null;
     /**
     * Whether the submission is graded.
     */
-    'graded': boolean = null;
+    'Graded': boolean = null;
     /**
     * Grading status.
     */
-    'gradingstatus': string = 'null';
+    'Gradingstatus': string = 'null';
     /**
     * Whether new submissions are locked.
     */
-    'locked': boolean = null;
-    'submission'?: ModAssignGetSubmissionStatus200ResponseLastattemptSubmission;
+    'Locked': boolean = null;
+    'Submission'?: ModAssignGetSubmissionStatus200ResponseLastattemptSubmission;
     /**
     * The submission group id (for group submissions only).
     */
-    'submissiongroup'?: number = null;
-    'submissiongroupmemberswhoneedtosubmit'?: Array<object>;
+    'Submissiongroup'?: number = null;
+    'Submissiongroupmemberswhoneedtosubmit'?: Array<object>;
     /**
     * Whether submissions are enabled or not.
     */
-    'submissionsenabled': boolean;
-    'teamsubmission'?: ModAssignGetSubmissionStatus200ResponseLastattemptTeamsubmission;
+    'Submissionsenabled': boolean;
+    'Teamsubmission'?: ModAssignGetSubmissionStatus200ResponseLastattemptTeamsubmission;
     /**
     * Time limit for submission.
     */
-    'timelimit'?: number = null;
-    'usergroups': Array<object>;
+    'Timelimit'?: number = null;
+    'Usergroups': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "blindmarking",
+            "name": "Blindmarking",
             "baseName": "blindmarking",
             "type": "boolean"
         },
         {
-            "name": "canedit",
+            "name": "Canedit",
             "baseName": "canedit",
             "type": "boolean"
         },
         {
-            "name": "caneditowner",
+            "name": "Caneditowner",
             "baseName": "caneditowner",
             "type": "boolean"
         },
         {
-            "name": "cansubmit",
+            "name": "Cansubmit",
             "baseName": "cansubmit",
             "type": "boolean"
         },
         {
-            "name": "extensionduedate",
+            "name": "Extensionduedate",
             "baseName": "extensionduedate",
             "type": "number"
         },
         {
-            "name": "graded",
+            "name": "Graded",
             "baseName": "graded",
             "type": "boolean"
         },
         {
-            "name": "gradingstatus",
+            "name": "Gradingstatus",
             "baseName": "gradingstatus",
             "type": "string"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "submission",
+            "name": "Submission",
             "baseName": "submission",
             "type": "ModAssignGetSubmissionStatus200ResponseLastattemptSubmission"
         },
         {
-            "name": "submissiongroup",
+            "name": "Submissiongroup",
             "baseName": "submissiongroup",
             "type": "number"
         },
         {
-            "name": "submissiongroupmemberswhoneedtosubmit",
+            "name": "Submissiongroupmemberswhoneedtosubmit",
             "baseName": "submissiongroupmemberswhoneedtosubmit",
             "type": "Array<object>"
         },
         {
-            "name": "submissionsenabled",
+            "name": "Submissionsenabled",
             "baseName": "submissionsenabled",
             "type": "boolean"
         },
         {
-            "name": "teamsubmission",
+            "name": "Teamsubmission",
             "baseName": "teamsubmission",
             "type": "ModAssignGetSubmissionStatus200ResponseLastattemptTeamsubmission"
         },
         {
-            "name": "timelimit",
+            "name": "Timelimit",
             "baseName": "timelimit",
             "type": "number"
         },
         {
-            "name": "usergroups",
+            "name": "Usergroups",
             "baseName": "usergroups",
             "type": "Array<object>"
         }    ];

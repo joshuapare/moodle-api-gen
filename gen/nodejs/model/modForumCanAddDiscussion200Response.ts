@@ -17,37 +17,37 @@ export class ModForumCanAddDiscussion200Response {
     /**
     * True if the user can add attachments, false otherwise.
     */
-    'cancreateattachment'?: boolean = null;
+    'Cancreateattachment'?: boolean = null;
     /**
     * True if the user can pin discussions, false otherwise.
     */
-    'canpindiscussions'?: boolean = null;
+    'Canpindiscussions'?: boolean = null;
     /**
     * True if the user can add discussions, false otherwise.
     */
-    'status': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Status': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cancreateattachment",
+            "name": "Cancreateattachment",
             "baseName": "cancreateattachment",
             "type": "boolean"
         },
         {
-            "name": "canpindiscussions",
+            "name": "Canpindiscussions",
             "baseName": "canpindiscussions",
             "type": "boolean"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

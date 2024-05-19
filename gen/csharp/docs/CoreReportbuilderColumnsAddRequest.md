@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsAddRequest
+# MoodleClient.Model.CoreReportbuilderColumnsAddRequest
 
 ## Properties
 

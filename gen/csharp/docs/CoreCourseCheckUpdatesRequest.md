@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseCheckUpdatesRequest
+# MoodleClient.Model.CoreCourseCheckUpdatesRequest
 
 ## Properties
 

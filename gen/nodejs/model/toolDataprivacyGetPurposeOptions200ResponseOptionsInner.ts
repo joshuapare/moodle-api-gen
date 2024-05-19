@@ -16,22 +16,22 @@ export class ToolDataprivacyGetPurposeOptions200ResponseOptionsInner {
     /**
     * The purpose ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The purpose name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumPrepareDraftAreaForPostRequestFilestokeepInner
+# MoodleClient.Model.ModForumPrepareDraftAreaForPostRequestFilestokeepInner
 
 ## Properties
 

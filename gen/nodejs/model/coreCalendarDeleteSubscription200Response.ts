@@ -17,19 +17,19 @@ export class CoreCalendarDeleteSubscription200Response {
     /**
     * status: true if success
     */
-    'status': boolean;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Status': boolean;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

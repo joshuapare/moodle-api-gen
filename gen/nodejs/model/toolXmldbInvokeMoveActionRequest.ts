@@ -16,67 +16,67 @@ export class ToolXmldbInvokeMoveActionRequest {
     /**
     * Action
     */
-    'action': string = 'null';
+    'Action': string = 'null';
     /**
     * Plugin that is being edited
     */
-    'dir': string = 'null';
+    'Dir': string = 'null';
     /**
     * Field name
     */
-    'field'?: string = '';
+    'Field'?: string = '';
     /**
     * Index name
     */
-    'index'?: string = '';
+    'Index'?: string = '';
     /**
     * Key name
     */
-    'key'?: string = '';
+    'Key'?: string = '';
     /**
     * How many positions to move by (negative - up, positive - down)
     */
-    'position': number = null;
+    'Position': number = null;
     /**
     * Table name
     */
-    'table': string = 'null';
+    'Table': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "string"
         },
         {
-            "name": "dir",
+            "name": "Dir",
             "baseName": "dir",
             "type": "string"
         },
         {
-            "name": "field",
+            "name": "Field",
             "baseName": "field",
             "type": "string"
         },
         {
-            "name": "index",
+            "name": "Index",
             "baseName": "index",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "position",
+            "name": "Position",
             "baseName": "position",
             "type": "number"
         },
         {
-            "name": "table",
+            "name": "Table",
             "baseName": "table",
             "type": "string"
         }    ];

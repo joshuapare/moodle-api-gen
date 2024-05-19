@@ -16,58 +16,58 @@ export class CoreCompletionOverrideActivityCompletionStatus200Response {
     /**
     * The course module id
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * The user id who has overriden the status, or null
     */
-    'overrideby': number;
+    'Overrideby': number;
     /**
     * The current completion state.
     */
-    'state': number = null;
+    'State': number = null;
     /**
     * time of completion
     */
-    'timecompleted': number = null;
+    'Timecompleted': number = null;
     /**
     * type of tracking:                                                                     0 means none, 1 manual, 2 automatic
     */
-    'tracking': number = null;
+    'Tracking': number = null;
     /**
     * The user id to which the completion info belongs
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "overrideby",
+            "name": "Overrideby",
             "baseName": "overrideby",
             "type": "number"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         },
         {
-            "name": "timecompleted",
+            "name": "Timecompleted",
             "baseName": "timecompleted",
             "type": "number"
         },
         {
-            "name": "tracking",
+            "name": "Tracking",
             "baseName": "tracking",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

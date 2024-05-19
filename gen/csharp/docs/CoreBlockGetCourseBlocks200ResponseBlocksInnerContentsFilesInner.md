@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlockGetCourseBlocks200ResponseBlocksInnerContentsFilesInner
+# MoodleClient.Model.CoreBlockGetCourseBlocks200ResponseBlocksInnerContentsFilesInner
 File.
 
 ## Properties

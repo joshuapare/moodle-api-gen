@@ -16,58 +16,58 @@ export class CoreGradesGraderGradingpanelPointStore200ResponseGrade {
     /**
     * The numeric grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * The assumed grader of this grading instance
     */
-    'gradedby': string;
+    'Gradedby': string;
     /**
     * Max possible grade
     */
-    'maxgrade': string;
+    'Maxgrade': string;
     /**
     * The time that the grade was created
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * The time that the grade was last updated
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * Current user grade
     */
-    'usergrade': string;
+    'Usergrade': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradedby",
+            "name": "Gradedby",
             "baseName": "gradedby",
             "type": "string"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usergrade",
+            "name": "Usergrade",
             "baseName": "usergrade",
             "type": "string"
         }    ];

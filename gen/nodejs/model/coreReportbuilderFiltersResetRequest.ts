@@ -16,22 +16,22 @@ export class CoreReportbuilderFiltersResetRequest {
     /**
     * JSON encoded report parameters
     */
-    'parameters'?: string = '';
+    'Parameters'?: string = '';
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "parameters",
+            "name": "Parameters",
             "baseName": "parameters",
             "type": "string"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

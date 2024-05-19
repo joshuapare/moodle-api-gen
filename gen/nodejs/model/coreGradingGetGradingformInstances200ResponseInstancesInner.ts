@@ -18,88 +18,88 @@ export class CoreGradingGetGradingformInstances200ResponseInstancesInner {
     /**
     * feedback
     */
-    'feedback'?: string = 'null';
+    'Feedback'?: string = 'null';
     /**
     * feedback format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'feedbackformat'?: number = null;
-    'guide'?: CoreGradingGetGradingformInstances200ResponseInstancesInnerGuide;
+    'Feedbackformat'?: number = null;
+    'Guide'?: CoreGradingGetGradingformInstances200ResponseInstancesInnerGuide;
     /**
     * instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * item id
     */
-    'itemid'?: number;
+    'Itemid'?: number;
     /**
     * rater id
     */
-    'raterid'?: number = null;
+    'Raterid'?: number = null;
     /**
     * raw grade
     */
-    'rawgrade'?: string = 'null';
-    'rubric'?: CoreGradingGetGradingformInstances200ResponseInstancesInnerRubric;
+    'Rawgrade'?: string = 'null';
+    'Rubric'?: CoreGradingGetGradingformInstances200ResponseInstancesInnerRubric;
     /**
     * status
     */
-    'status'?: number;
+    'Status'?: number;
     /**
     * modified time
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "string"
         },
         {
-            "name": "feedbackformat",
+            "name": "Feedbackformat",
             "baseName": "feedbackformat",
             "type": "number"
         },
         {
-            "name": "guide",
+            "name": "Guide",
             "baseName": "guide",
             "type": "CoreGradingGetGradingformInstances200ResponseInstancesInnerGuide"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "raterid",
+            "name": "Raterid",
             "baseName": "raterid",
             "type": "number"
         },
         {
-            "name": "rawgrade",
+            "name": "Rawgrade",
             "baseName": "rawgrade",
             "type": "string"
         },
         {
-            "name": "rubric",
+            "name": "Rubric",
             "baseName": "rubric",
             "type": "CoreGradingGetGradingformInstances200ResponseInstancesInnerRubric"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

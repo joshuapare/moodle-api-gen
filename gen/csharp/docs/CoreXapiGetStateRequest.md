@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreXapiGetStateRequest
+# MoodleClient.Model.CoreXapiGetStateRequest
 
 ## Properties
 

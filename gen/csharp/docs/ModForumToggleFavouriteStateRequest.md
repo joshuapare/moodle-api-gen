@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumToggleFavouriteStateRequest
+# MoodleClient.Model.ModForumToggleFavouriteStateRequest
 
 ## Properties
 

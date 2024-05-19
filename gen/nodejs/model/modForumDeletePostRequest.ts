@@ -16,13 +16,13 @@ export class ModForumDeletePostRequest {
     /**
     * Post to be deleted. It can be a discussion topic post.
     */
-    'postid': number = null;
+    'Postid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "postid",
+            "name": "Postid",
             "baseName": "postid",
             "type": "number"
         }    ];

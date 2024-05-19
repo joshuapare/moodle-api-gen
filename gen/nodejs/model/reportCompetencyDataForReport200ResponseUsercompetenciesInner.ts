@@ -15,19 +15,19 @@ import { ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetency
 import { ReportCompetencyDataForReport200ResponseUsercompetenciesInnerUsercompetencycourse } from './reportCompetencyDataForReport200ResponseUsercompetenciesInnerUsercompetencycourse';
 
 export class ReportCompetencyDataForReport200ResponseUsercompetenciesInner {
-    'competency'?: ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetency;
-    'usercompetencycourse'?: ReportCompetencyDataForReport200ResponseUsercompetenciesInnerUsercompetencycourse;
+    'Competency'?: ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetency;
+    'Usercompetencycourse'?: ReportCompetencyDataForReport200ResponseUsercompetenciesInnerUsercompetencycourse;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetency"
         },
         {
-            "name": "usercompetencycourse",
+            "name": "Usercompetencycourse",
             "baseName": "usercompetencycourse",
             "type": "ReportCompetencyDataForReport200ResponseUsercompetenciesInnerUsercompetencycourse"
         }    ];

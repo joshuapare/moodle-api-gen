@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyGradeCompetencyInPlanRequest
+# MoodleClient.Model.CoreCompetencyGradeCompetencyInPlanRequest
 
 ## Properties
 

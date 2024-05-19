@@ -16,22 +16,22 @@ export class ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pglobalsettings
     /**
     * Whether saving state is enabled.
     */
-    'enablesavestate': boolean = null;
+    'Enablesavestate': boolean = null;
     /**
     * How often (in seconds) state is saved.
     */
-    'savestatefreq'?: number = null;
+    'Savestatefreq'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "enablesavestate",
+            "name": "Enablesavestate",
             "baseName": "enablesavestate",
             "type": "boolean"
         },
         {
-            "name": "savestatefreq",
+            "name": "Savestatefreq",
             "baseName": "savestatefreq",
             "type": "number"
         }    ];

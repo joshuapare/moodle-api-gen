@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ReportInsightsActionExecutedRequest
+# MoodleClient.Model.ReportInsightsActionExecutedRequest
 
 ## Properties
 

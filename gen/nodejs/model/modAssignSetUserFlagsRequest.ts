@@ -17,19 +17,19 @@ export class ModAssignSetUserFlagsRequest {
     /**
     * assignment id
     */
-    'assignmentid': number;
-    'userflags': Array<ModAssignSetUserFlagsRequestUserflagsInner>;
+    'Assignmentid': number;
+    'Userflags': Array<ModAssignSetUserFlagsRequestUserflagsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "userflags",
+            "name": "Userflags",
             "baseName": "userflags",
             "type": "Array<ModAssignSetUserFlagsRequestUserflagsInner>"
         }    ];

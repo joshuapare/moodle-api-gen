@@ -20,115 +20,115 @@ export class ModLessonGetPageData200ResponseAnswersInner {
     /**
     * Possible answer text
     */
-    'answer'?: string = 'null';
-    'answerfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Answer'?: string = 'null';
+    'Answerfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * answer format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'answerformat'?: number = null;
+    'Answerformat'?: number = null;
     /**
     * Used to store options for the answer
     */
-    'flags'?: number = null;
+    'Flags'?: number = null;
     /**
     * The grade this answer is worth
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * The ID of this answer in the database
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Identifies where the user goes upon completing a page with this answer
     */
-    'jumpto'?: number = null;
+    'Jumpto'?: number = null;
     /**
     * Response text for the answer
     */
-    'response'?: string = 'null';
-    'responsefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Response'?: string = 'null';
+    'Responsefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * response format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'responseformat'?: number = null;
+    'Responseformat'?: number = null;
     /**
     * The score this answer will give
     */
-    'score'?: number = null;
+    'Score'?: number = null;
     /**
     * A timestamp of when the answer was created
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * A timestamp of when the answer was modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answer",
+            "name": "Answer",
             "baseName": "answer",
             "type": "string"
         },
         {
-            "name": "answerfiles",
+            "name": "Answerfiles",
             "baseName": "answerfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "answerformat",
+            "name": "Answerformat",
             "baseName": "answerformat",
             "type": "number"
         },
         {
-            "name": "flags",
+            "name": "Flags",
             "baseName": "flags",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "jumpto",
+            "name": "Jumpto",
             "baseName": "jumpto",
             "type": "number"
         },
         {
-            "name": "response",
+            "name": "Response",
             "baseName": "response",
             "type": "string"
         },
         {
-            "name": "responsefiles",
+            "name": "Responsefiles",
             "baseName": "responsefiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "responseformat",
+            "name": "Responseformat",
             "baseName": "responseformat",
             "type": "number"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

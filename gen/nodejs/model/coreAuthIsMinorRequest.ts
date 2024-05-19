@@ -16,22 +16,22 @@ export class CoreAuthIsMinorRequest {
     /**
     * Age
     */
-    'age': number = null;
+    'Age': number = null;
     /**
     * Country of residence
     */
-    'country': string = 'null';
+    'Country': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "age",
+            "name": "Age",
             "baseName": "age",
             "type": "number"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         }    ];

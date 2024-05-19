@@ -17,118 +17,118 @@ export class BlockIomadCompanyAdminGetCompanyCourses200ResponseCompaniesInner {
     /**
     * Company address
     */
-    'address'?: string = 'null';
+    'Address'?: string = 'null';
     /**
     * Company city
     */
-    'city'?: string = 'null';
+    'City'?: string = 'null';
     /**
     * Company code
     */
-    'code'?: string = 'null';
+    'Code'?: string = 'null';
     /**
     * Company country
     */
-    'country'?: string = 'null';
-    'courses'?: Array<BlockIomadCompanyAdminGetCompanyCourses200ResponseCompaniesInnerCoursesInner>;
+    'Country'?: string = 'null';
+    'Courses'?: Array<BlockIomadCompanyAdminGetCompanyCourses200ResponseCompaniesInnerCoursesInner>;
     /**
     * Company custom1
     */
-    'custom1'?: string = 'null';
+    'Custom1'?: string = 'null';
     /**
     * Company custom2
     */
-    'custom2'?: string = 'null';
+    'Custom2'?: string = 'null';
     /**
     * Company custom3
     */
-    'custom3'?: string = 'null';
+    'Custom3'?: string = 'null';
     /**
     * Company ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Company name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Company postcode
     */
-    'postcode'?: string = 'null';
+    'Postcode'?: string = 'null';
     /**
     * Company region
     */
-    'region'?: string = 'null';
+    'Region'?: string = 'null';
     /**
     * Company shortname
     */
-    'shortname'?: string = 'null';
+    'Shortname'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "address",
+            "name": "Address",
             "baseName": "address",
             "type": "string"
         },
         {
-            "name": "city",
+            "name": "City",
             "baseName": "city",
             "type": "string"
         },
         {
-            "name": "code",
+            "name": "Code",
             "baseName": "code",
             "type": "string"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<BlockIomadCompanyAdminGetCompanyCourses200ResponseCompaniesInnerCoursesInner>"
         },
         {
-            "name": "custom1",
+            "name": "Custom1",
             "baseName": "custom1",
             "type": "string"
         },
         {
-            "name": "custom2",
+            "name": "Custom2",
             "baseName": "custom2",
             "type": "string"
         },
         {
-            "name": "custom3",
+            "name": "Custom3",
             "baseName": "custom3",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "postcode",
+            "name": "Postcode",
             "baseName": "postcode",
             "type": "string"
         },
         {
-            "name": "region",
+            "name": "Region",
             "baseName": "region",
             "type": "string"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         }    ];

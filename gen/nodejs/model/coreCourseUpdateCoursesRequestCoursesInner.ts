@@ -18,232 +18,232 @@ export class CoreCourseUpdateCoursesRequestCoursesInner {
     /**
     * category id
     */
-    'categoryid'?: number;
+    'Categoryid'?: number;
     /**
     * 1: yes 0: no
     */
-    'completionnotify'?: number;
-    'courseformatoptions'?: Array<CoreCourseUpdateCoursesRequestCoursesInnerCourseformatoptionsInner>;
-    'customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
+    'Completionnotify'?: number;
+    'Courseformatoptions'?: Array<CoreCourseUpdateCoursesRequestCoursesInnerCourseformatoptionsInner>;
+    'Customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
     /**
     * default grouping id
     */
-    'defaultgroupingid'?: number;
+    'Defaultgroupingid'?: number;
     /**
     * Enabled, control via completion and activity settings. Disabled,                                         not shown in activity settings.
     */
-    'enablecompletion'?: number;
+    'Enablecompletion'?: number;
     /**
     * timestamp when the course end
     */
-    'enddate'?: number;
+    'Enddate'?: number;
     /**
     * name of the force theme
     */
-    'forcetheme'?: string;
+    'Forcetheme'?: string;
     /**
     * course format: weeks, topics, social, site,..
     */
-    'format'?: string = 'null';
+    'Format'?: string = 'null';
     /**
     * full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * no group, separate, visible
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * 1: yes, 0: no
     */
-    'groupmodeforce'?: number;
+    'Groupmodeforce'?: number;
     /**
     * (deprecated, use courseformatoptions) How the hidden sections in the course are                                         displayed to students
     */
-    'hiddensections'?: number = null;
+    'Hiddensections'?: number = null;
     /**
     * ID of the course
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * id number
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * forced course language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * largest size of file that can be uploaded into the course
     */
-    'maxbytes'?: number = null;
+    'Maxbytes'?: number = null;
     /**
     * number of recent items appearing on the course page
     */
-    'newsitems'?: number = null;
+    'Newsitems'?: number = null;
     /**
     * (deprecated, use courseformatoptions) number of weeks/topics
     */
-    'numsections'?: number;
+    'Numsections'?: number;
     /**
     * course short name
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * 1 if grades are shown, otherwise 0
     */
-    'showgrades'?: number;
+    'Showgrades'?: number;
     /**
     * are activity report shown (yes = 1, no =0)
     */
-    'showreports'?: number = null;
+    'Showreports'?: number = null;
     /**
     * timestamp when the course start
     */
-    'startdate'?: number;
+    'Startdate'?: number;
     /**
     * summary
     */
-    'summary'?: string;
+    'Summary'?: string;
     /**
     * summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'summaryformat'?: number;
+    'Summaryformat'?: number;
     /**
     * 1: available to student, 0:not available
     */
-    'visible'?: number;
+    'Visible'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "completionnotify",
+            "name": "Completionnotify",
             "baseName": "completionnotify",
             "type": "number"
         },
         {
-            "name": "courseformatoptions",
+            "name": "Courseformatoptions",
             "baseName": "courseformatoptions",
             "type": "Array<CoreCourseUpdateCoursesRequestCoursesInnerCourseformatoptionsInner>"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>"
         },
         {
-            "name": "defaultgroupingid",
+            "name": "Defaultgroupingid",
             "baseName": "defaultgroupingid",
             "type": "number"
         },
         {
-            "name": "enablecompletion",
+            "name": "Enablecompletion",
             "baseName": "enablecompletion",
             "type": "number"
         },
         {
-            "name": "enddate",
+            "name": "Enddate",
             "baseName": "enddate",
             "type": "number"
         },
         {
-            "name": "forcetheme",
+            "name": "Forcetheme",
             "baseName": "forcetheme",
             "type": "string"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "groupmodeforce",
+            "name": "Groupmodeforce",
             "baseName": "groupmodeforce",
             "type": "number"
         },
         {
-            "name": "hiddensections",
+            "name": "Hiddensections",
             "baseName": "hiddensections",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "maxbytes",
+            "name": "Maxbytes",
             "baseName": "maxbytes",
             "type": "number"
         },
         {
-            "name": "newsitems",
+            "name": "Newsitems",
             "baseName": "newsitems",
             "type": "number"
         },
         {
-            "name": "numsections",
+            "name": "Numsections",
             "baseName": "numsections",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "showgrades",
+            "name": "Showgrades",
             "baseName": "showgrades",
             "type": "number"
         },
         {
-            "name": "showreports",
+            "name": "Showreports",
             "baseName": "showreports",
             "type": "number"
         },
         {
-            "name": "startdate",
+            "name": "Startdate",
             "baseName": "startdate",
             "type": "number"
         },
         {
-            "name": "summary",
+            "name": "Summary",
             "baseName": "summary",
             "type": "string"
         },
         {
-            "name": "summaryformat",
+            "name": "Summaryformat",
             "baseName": "summaryformat",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

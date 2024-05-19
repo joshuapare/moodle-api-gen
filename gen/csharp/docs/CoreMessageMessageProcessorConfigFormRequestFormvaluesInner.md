@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMessageProcessorConfigFormRequestFormvaluesInner
+# MoodleClient.Model.CoreMessageMessageProcessorConfigFormRequestFormvaluesInner
 
 ## Properties
 

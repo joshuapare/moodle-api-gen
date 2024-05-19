@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModSurveyGetQuestions200Response
+# MoodleClient.Model.ModSurveyGetQuestions200Response
 
 ## Properties
 

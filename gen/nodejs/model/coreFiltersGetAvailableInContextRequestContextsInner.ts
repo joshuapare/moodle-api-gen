@@ -16,22 +16,22 @@ export class CoreFiltersGetAvailableInContextRequestContextsInner {
     /**
     * The context level where the filters are:                                 (coursecat, course, module)
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * The instance id of item associated with the context.
     */
-    'instanceid'?: number = null;
+    'Instanceid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         }    ];

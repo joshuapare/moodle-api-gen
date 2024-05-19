@@ -16,13 +16,13 @@ export class EnrolSelfGetInstanceInfoRequest {
     /**
     * instance id of self enrolment plugin.
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         }    ];

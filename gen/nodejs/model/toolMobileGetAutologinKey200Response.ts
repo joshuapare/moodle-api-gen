@@ -17,28 +17,28 @@ export class ToolMobileGetAutologinKey200Response {
     /**
     * Auto-login URL.
     */
-    'autologinurl': string = 'null';
+    'Autologinurl': string = 'null';
     /**
     * Auto-login key for a single usage with time expiration.
     */
-    'key': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Key': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "autologinurl",
+            "name": "Autologinurl",
             "baseName": "autologinurl",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

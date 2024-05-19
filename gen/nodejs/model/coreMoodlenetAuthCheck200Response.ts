@@ -17,28 +17,28 @@ export class CoreMoodlenetAuthCheck200Response {
     /**
     * Login url
     */
-    'loginurl': string = 'null';
+    'Loginurl': string = 'null';
     /**
     * status: true if success
     */
-    'status': boolean;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Status': boolean;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "loginurl",
+            "name": "Loginurl",
             "baseName": "loginurl",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

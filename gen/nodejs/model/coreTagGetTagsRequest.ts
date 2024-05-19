@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreTagGetTagsRequestTagsInner } from './coreTagGetTagsRequestTagsInner';
 
 export class CoreTagGetTagsRequest {
-    'tags': Array<CoreTagGetTagsRequestTagsInner>;
+    'Tags': Array<CoreTagGetTagsRequestTagsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<CoreTagGetTagsRequestTagsInner>"
         }    ];

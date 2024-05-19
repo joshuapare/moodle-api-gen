@@ -19,103 +19,103 @@ export class ToolLpDataForCourseCompetenciesPage200Response {
     /**
     * User can configure course competency settings
     */
-    'canconfigurecoursecompetencies': boolean = null;
+    'Canconfigurecoursecompetencies': boolean = null;
     /**
     * User can grade competencies.
     */
-    'cangradecompetencies': boolean = null;
+    'Cangradecompetencies': boolean = null;
     /**
     * User can manage competency frameworks
     */
-    'canmanagecompetencyframeworks': boolean = null;
+    'Canmanagecompetencyframeworks': boolean = null;
     /**
     * User can manage linked course competencies
     */
-    'canmanagecoursecompetencies': boolean = null;
-    'competencies': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInner>;
+    'Canmanagecoursecompetencies': boolean = null;
+    'Competencies': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInner>;
     /**
     * The current course id
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * Current user id, if the user is a gradable user.
     */
-    'gradableuserid'?: number = null;
+    'Gradableuserid'?: number = null;
     /**
     * Url to the manage competencies page.
     */
-    'manageurl': string = 'null';
+    'Manageurl': string = 'null';
     /**
     * The current page context ID.
     */
-    'pagecontextid': number = null;
+    'Pagecontextid': number = null;
     /**
     * Url to the course competencies page.
     */
-    'pluginbaseurl': string = 'null';
-    'settings': ToolLpDataForCourseCompetenciesPage200ResponseSettings;
-    'statistics': ToolLpDataForCourseCompetenciesPage200ResponseStatistics;
+    'Pluginbaseurl': string = 'null';
+    'Settings': ToolLpDataForCourseCompetenciesPage200ResponseSettings;
+    'Statistics': ToolLpDataForCourseCompetenciesPage200ResponseStatistics;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canconfigurecoursecompetencies",
+            "name": "Canconfigurecoursecompetencies",
             "baseName": "canconfigurecoursecompetencies",
             "type": "boolean"
         },
         {
-            "name": "cangradecompetencies",
+            "name": "Cangradecompetencies",
             "baseName": "cangradecompetencies",
             "type": "boolean"
         },
         {
-            "name": "canmanagecompetencyframeworks",
+            "name": "Canmanagecompetencyframeworks",
             "baseName": "canmanagecompetencyframeworks",
             "type": "boolean"
         },
         {
-            "name": "canmanagecoursecompetencies",
+            "name": "Canmanagecoursecompetencies",
             "baseName": "canmanagecoursecompetencies",
             "type": "boolean"
         },
         {
-            "name": "competencies",
+            "name": "Competencies",
             "baseName": "competencies",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInner>"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "gradableuserid",
+            "name": "Gradableuserid",
             "baseName": "gradableuserid",
             "type": "number"
         },
         {
-            "name": "manageurl",
+            "name": "Manageurl",
             "baseName": "manageurl",
             "type": "string"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "settings",
+            "name": "Settings",
             "baseName": "settings",
             "type": "ToolLpDataForCourseCompetenciesPage200ResponseSettings"
         },
         {
-            "name": "statistics",
+            "name": "Statistics",
             "baseName": "statistics",
             "type": "ToolLpDataForCourseCompetenciesPage200ResponseStatistics"
         }    ];

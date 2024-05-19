@@ -16,58 +16,58 @@ export class CoreFiltersGetAvailableInContext200ResponseFiltersInner {
     /**
     * The context id.
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * The context level where the filters are:                                 (coursecat, course, module).
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * Filter plugin name.
     */
-    'filter'?: string = 'null';
+    'Filter'?: string = 'null';
     /**
     * 1 or 0 to use when localstate is set to inherit.
     */
-    'inheritedstate'?: number = null;
+    'Inheritedstate'?: number = null;
     /**
     * The instance id of item associated with the context.
     */
-    'instanceid'?: number;
+    'Instanceid'?: number;
     /**
     * Filter state: 1 for on, -1 for off, 0 if inherit.
     */
-    'localstate'?: number = null;
+    'Localstate'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "string"
         },
         {
-            "name": "inheritedstate",
+            "name": "Inheritedstate",
             "baseName": "inheritedstate",
             "type": "number"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "localstate",
+            "name": "Localstate",
             "baseName": "localstate",
             "type": "number"
         }    ];

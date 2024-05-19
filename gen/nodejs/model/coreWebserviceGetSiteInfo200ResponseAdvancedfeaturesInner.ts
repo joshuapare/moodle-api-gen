@@ -19,22 +19,22 @@ export class CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner {
     /**
     * feature name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * feature value. Usually 1 means enabled.
     */
-    'value'?: number = null;
+    'Value'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "number"
         }    ];

@@ -19,40 +19,40 @@ export class CoreNotesGetNotes200ResponseWarningsInner {
     /**
     * item is always \'note\'
     */
-    'item'?: string = 'null';
+    'Item'?: string = 'null';
     /**
     * When errorcode is savedfailed the note could not be modified.When errorcode is badparam, an incorrect parameter was provided.When errorcode is badid, the note does not exist
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
     /**
     * untranslated english message to explain the warning
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * errorcode can be badparam (incorrect parameter), savedfailed (could not be modified), or badid (note does not exist)
     */
-    'warningcode'?: string = 'null';
+    'Warningcode'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "warningcode",
+            "name": "Warningcode",
             "baseName": "warningcode",
             "type": "string"
         }    ];

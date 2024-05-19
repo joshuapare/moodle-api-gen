@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInnerFillingsInner
+# MoodleClient.Model.ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInnerFillingsInner
 
 ## Properties
 

@@ -16,40 +16,40 @@ export class ModDataGetMappingInformation200ResponseData {
     /**
     * List of field names to create
     */
-    'fieldstocreate': string = 'null';
+    'Fieldstocreate': string = 'null';
     /**
     * List of field names to remove
     */
-    'fieldstoremove': string = 'null';
+    'Fieldstoremove': string = 'null';
     /**
     * Whether the importing needs mapping or not
     */
-    'needsmapping': boolean = null;
+    'Needsmapping': boolean = null;
     /**
     * Name of the applied preset
     */
-    'presetname': string = 'null';
+    'Presetname': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fieldstocreate",
+            "name": "Fieldstocreate",
             "baseName": "fieldstocreate",
             "type": "string"
         },
         {
-            "name": "fieldstoremove",
+            "name": "Fieldstoremove",
             "baseName": "fieldstoremove",
             "type": "string"
         },
         {
-            "name": "needsmapping",
+            "name": "Needsmapping",
             "baseName": "needsmapping",
             "type": "boolean"
         },
         {
-            "name": "presetname",
+            "name": "Presetname",
             "baseName": "presetname",
             "type": "string"
         }    ];

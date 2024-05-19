@@ -16,40 +16,40 @@ export class ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerActionsInner {
     /**
     * Action label.
     */
-    'label'?: string = 'null';
+    'Label'?: string = 'null';
     /**
     * Get or post.
     */
-    'method'?: string = 'null';
+    'Method'?: string = 'null';
     /**
     * Action type.
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
     /**
     * Link to action.
     */
-    'url'?: string = 'null';
+    'Url'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "label",
+            "name": "Label",
             "baseName": "label",
             "type": "string"
         },
         {
-            "name": "method",
+            "name": "Method",
             "baseName": "method",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

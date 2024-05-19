@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMoodlenetVerifyWebfingerRequest
+# MoodleClient.Model.ToolMoodlenetVerifyWebfingerRequest
 
 ## Properties
 

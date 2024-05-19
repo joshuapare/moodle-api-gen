@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreMessageGetConversations200ResponseConversationsInner } from './coreMessageGetConversations200ResponseConversationsInner';
 
 export class CoreMessageGetConversations200Response {
-    'conversations': Array<CoreMessageGetConversations200ResponseConversationsInner>;
+    'Conversations': Array<CoreMessageGetConversations200ResponseConversationsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversations",
+            "name": "Conversations",
             "baseName": "conversations",
             "type": "Array<CoreMessageGetConversations200ResponseConversationsInner>"
         }    ];

@@ -17,19 +17,19 @@ export class CoreMessageGetUserMessagePreferences200ResponsePreferencesComponent
     /**
     * Display name
     */
-    'displayname'?: string = 'null';
-    'notifications'?: Array<CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInner>;
+    'Displayname'?: string = 'null';
+    'Notifications'?: Array<CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "notifications",
+            "name": "Notifications",
             "baseName": "notifications",
             "type": "Array<CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInner>"
         }    ];

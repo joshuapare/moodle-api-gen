@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetTimestampsRequest
+# MoodleClient.Model.CoreCalendarGetTimestampsRequest
 
 ## Properties
 

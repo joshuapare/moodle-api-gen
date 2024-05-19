@@ -16,166 +16,166 @@ export class CoreCompetencyCreatePlan200ResponseCommentarea {
     /**
     * autostart
     */
-    'autostart': boolean = null;
+    'Autostart': boolean = null;
     /**
     * canpost
     */
-    'canpost': boolean = null;
+    'Canpost': boolean = null;
     /**
     * canpostorhascomments
     */
-    'canpostorhascomments': boolean = null;
+    'Canpostorhascomments': boolean = null;
     /**
     * canview
     */
-    'canview': boolean = null;
+    'Canview': boolean = null;
     /**
     * cid
     */
-    'cid': string = 'null';
+    'Cid': string = 'null';
     /**
     * collapsediconkey
     */
-    'collapsediconkey': string = 'null';
+    'Collapsediconkey': string = 'null';
     /**
     * commentarea
     */
-    'commentarea': string = 'null';
+    'Commentarea': string = 'null';
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * contextid
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * count
     */
-    'count': number = null;
+    'Count': number = null;
     /**
     * courseid
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * displaycancel
     */
-    'displaycancel': boolean = null;
+    'Displaycancel': boolean = null;
     /**
     * displaytotalcount
     */
-    'displaytotalcount': boolean = null;
+    'Displaytotalcount': boolean = null;
     /**
     * fullwidth
     */
-    'fullwidth': boolean = null;
+    'Fullwidth': boolean = null;
     /**
     * itemid
     */
-    'itemid': number = null;
+    'Itemid': number = null;
     /**
     * linktext
     */
-    'linktext': string = 'null';
+    'Linktext': string = 'null';
     /**
     * notoggle
     */
-    'notoggle': boolean = null;
+    'Notoggle': boolean = null;
     /**
     * template
     */
-    'template': string = 'null';
+    'Template': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "autostart",
+            "name": "Autostart",
             "baseName": "autostart",
             "type": "boolean"
         },
         {
-            "name": "canpost",
+            "name": "Canpost",
             "baseName": "canpost",
             "type": "boolean"
         },
         {
-            "name": "canpostorhascomments",
+            "name": "Canpostorhascomments",
             "baseName": "canpostorhascomments",
             "type": "boolean"
         },
         {
-            "name": "canview",
+            "name": "Canview",
             "baseName": "canview",
             "type": "boolean"
         },
         {
-            "name": "cid",
+            "name": "Cid",
             "baseName": "cid",
             "type": "string"
         },
         {
-            "name": "collapsediconkey",
+            "name": "Collapsediconkey",
             "baseName": "collapsediconkey",
             "type": "string"
         },
         {
-            "name": "commentarea",
+            "name": "Commentarea",
             "baseName": "commentarea",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "displaycancel",
+            "name": "Displaycancel",
             "baseName": "displaycancel",
             "type": "boolean"
         },
         {
-            "name": "displaytotalcount",
+            "name": "Displaytotalcount",
             "baseName": "displaytotalcount",
             "type": "boolean"
         },
         {
-            "name": "fullwidth",
+            "name": "Fullwidth",
             "baseName": "fullwidth",
             "type": "boolean"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "linktext",
+            "name": "Linktext",
             "baseName": "linktext",
             "type": "string"
         },
         {
-            "name": "notoggle",
+            "name": "Notoggle",
             "baseName": "notoggle",
             "type": "boolean"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "string"
         }    ];

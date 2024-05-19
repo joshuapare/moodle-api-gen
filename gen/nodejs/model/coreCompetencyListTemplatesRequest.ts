@@ -14,67 +14,67 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohortsRequestContext } from './coreCohortSearchCohortsRequestContext';
 
 export class CoreCompetencyListTemplatesRequest {
-    'context': CoreCohortSearchCohortsRequestContext;
+    'Context': CoreCohortSearchCohortsRequestContext;
     /**
     * What other contexts to fetch the templates from. (children, parents, self)
     */
-    'includes'?: string = 'children';
+    'Includes'?: string = 'children';
     /**
     * Return this number of records at most.
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * If should list only visible templates
     */
-    'onlyvisible'?: boolean = false;
+    'Onlyvisible'?: boolean = false;
     /**
     * Sort direction. Should be either ASC or DESC
     */
-    'order'?: string = '';
+    'Order'?: string = '';
     /**
     * Skip this number of records before returning results
     */
-    'skip'?: number = 0;
+    'Skip'?: number = 0;
     /**
     * Column to sort by.
     */
-    'sort'?: string = '';
+    'Sort'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "CoreCohortSearchCohortsRequestContext"
         },
         {
-            "name": "includes",
+            "name": "Includes",
             "baseName": "includes",
             "type": "string"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "onlyvisible",
+            "name": "Onlyvisible",
             "baseName": "onlyvisible",
             "type": "boolean"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "skip",
+            "name": "Skip",
             "baseName": "skip",
             "type": "number"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

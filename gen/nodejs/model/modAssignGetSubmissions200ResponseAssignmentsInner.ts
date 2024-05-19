@@ -17,19 +17,19 @@ export class ModAssignGetSubmissions200ResponseAssignmentsInner {
     /**
     * assignment id
     */
-    'assignmentid'?: number;
-    'submissions'?: Array<ModAssignGetSubmissions200ResponseAssignmentsInnerSubmissionsInner>;
+    'Assignmentid'?: number;
+    'Submissions'?: Array<ModAssignGetSubmissions200ResponseAssignmentsInnerSubmissionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "submissions",
+            "name": "Submissions",
             "baseName": "submissions",
             "type": "Array<ModAssignGetSubmissions200ResponseAssignmentsInnerSubmissionsInner>"
         }    ];

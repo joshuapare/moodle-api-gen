@@ -16,22 +16,22 @@ export class CoreReportbuilderSchedulesDeleteRequest {
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
     /**
     * Schedule ID
     */
-    'scheduleid': number = null;
+    'Scheduleid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         },
         {
-            "name": "scheduleid",
+            "name": "Scheduleid",
             "baseName": "scheduleid",
             "type": "number"
         }    ];

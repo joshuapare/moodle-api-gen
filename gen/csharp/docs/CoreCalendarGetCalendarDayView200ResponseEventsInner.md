@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetCalendarDayView200ResponseEventsInner
+# MoodleClient.Model.CoreCalendarGetCalendarDayView200ResponseEventsInner
 
 ## Properties
 

@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ToolMobileGetConfig200ResponseSettingsInner } from './toolMobileGetConfig200ResponseSettingsInner';
 
 export class ToolMobileGetConfig200Response {
-    'settings': Array<ToolMobileGetConfig200ResponseSettingsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Settings': Array<ToolMobileGetConfig200ResponseSettingsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "settings",
+            "name": "Settings",
             "baseName": "settings",
             "type": "Array<ToolMobileGetConfig200ResponseSettingsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

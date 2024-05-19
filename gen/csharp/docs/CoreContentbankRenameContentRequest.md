@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreContentbankRenameContentRequest
+# MoodleClient.Model.CoreContentbankRenameContentRequest
 
 ## Properties
 

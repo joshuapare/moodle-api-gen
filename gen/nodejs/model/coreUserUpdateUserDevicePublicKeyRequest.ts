@@ -16,31 +16,31 @@ export class CoreUserUpdateUserDevicePublicKeyRequest {
     /**
     * The app id, something like com.moodle.moodlemobile
     */
-    'appid': string = 'null';
+    'Appid': string = 'null';
     /**
     * the app generated public key
     */
-    'publickey': string;
+    'Publickey': string;
     /**
     * the device UUID
     */
-    'uuid': string;
+    'Uuid': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "appid",
+            "name": "Appid",
             "baseName": "appid",
             "type": "string"
         },
         {
-            "name": "publickey",
+            "name": "Publickey",
             "baseName": "publickey",
             "type": "string"
         },
         {
-            "name": "uuid",
+            "name": "Uuid",
             "baseName": "uuid",
             "type": "string"
         }    ];

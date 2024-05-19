@@ -16,22 +16,22 @@ export class CoreCalendarGetCalendarUpcomingViewRequest {
     /**
     * Category being viewed
     */
-    'categoryid'?: number;
+    'Categoryid'?: number;
     /**
     * Course being viewed
     */
-    'courseid'?: number = 1;
+    'Courseid'?: number = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

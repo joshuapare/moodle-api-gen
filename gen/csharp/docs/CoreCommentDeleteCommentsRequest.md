@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCommentDeleteCommentsRequest
+# MoodleClient.Model.CoreCommentDeleteCommentsRequest
 
 ## Properties
 

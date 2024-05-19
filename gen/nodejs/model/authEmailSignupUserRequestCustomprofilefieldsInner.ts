@@ -16,31 +16,31 @@ export class AuthEmailSignupUserRequestCustomprofilefieldsInner {
     /**
     * The name of the custom field
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The type of the custom field
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
     /**
     * Custom field value, can be an encoded json if required
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ReportInsightsSetNotusefulPrediction200Response
+# MoodleClient.Model.ReportInsightsSetNotusefulPrediction200Response
 
 ## Properties
 

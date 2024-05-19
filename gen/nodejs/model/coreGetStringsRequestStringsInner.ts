@@ -17,37 +17,37 @@ export class CoreGetStringsRequestStringsInner {
     /**
     * component
     */
-    'component'?: string = 'moodle';
+    'Component'?: string = 'moodle';
     /**
     * lang
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * string identifier
     */
-    'stringid'?: string;
-    'stringparams'?: Array<CoreGetStringsRequestStringsInnerStringparamsInner>;
+    'Stringid'?: string;
+    'Stringparams'?: Array<CoreGetStringsRequestStringsInnerStringparamsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "stringid",
+            "name": "Stringid",
             "baseName": "stringid",
             "type": "string"
         },
         {
-            "name": "stringparams",
+            "name": "Stringparams",
             "baseName": "stringparams",
             "type": "Array<CoreGetStringsRequestStringsInnerStringparamsInner>"
         }    ];

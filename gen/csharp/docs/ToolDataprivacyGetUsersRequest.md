@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyGetUsersRequest
+# MoodleClient.Model.ToolDataprivacyGetUsersRequest
 
 ## Properties
 

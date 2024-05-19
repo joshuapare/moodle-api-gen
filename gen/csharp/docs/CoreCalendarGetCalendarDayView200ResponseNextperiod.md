@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetCalendarDayView200ResponseNextperiod
+# MoodleClient.Model.CoreCalendarGetCalendarDayView200ResponseNextperiod
 
 ## Properties
 

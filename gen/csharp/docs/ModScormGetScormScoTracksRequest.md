@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormScoTracksRequest
+# MoodleClient.Model.ModScormGetScormScoTracksRequest
 
 ## Properties
 

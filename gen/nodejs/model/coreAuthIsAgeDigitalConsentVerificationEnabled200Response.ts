@@ -16,13 +16,13 @@ export class CoreAuthIsAgeDigitalConsentVerificationEnabled200Response {
     /**
     * True if digital consent verification is enabled,                     false otherwise.
     */
-    'status': boolean = null;
+    'Status': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         }    ];

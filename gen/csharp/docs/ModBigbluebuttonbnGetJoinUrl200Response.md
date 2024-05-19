@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnGetJoinUrl200Response
+# MoodleClient.Model.ModBigbluebuttonbnGetJoinUrl200Response
 
 ## Properties
 

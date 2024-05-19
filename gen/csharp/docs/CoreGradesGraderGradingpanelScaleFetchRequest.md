@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGraderGradingpanelScaleFetchRequest
+# MoodleClient.Model.CoreGradesGraderGradingpanelScaleFetchRequest
 
 ## Properties
 

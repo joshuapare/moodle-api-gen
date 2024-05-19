@@ -16,22 +16,22 @@ export class MessageAirnotifierEnableDeviceRequest {
     /**
     * The device id
     */
-    'deviceid': number = null;
+    'Deviceid': number = null;
     /**
     * True for enable the device, false otherwise
     */
-    'enable': boolean = null;
+    'Enable': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "deviceid",
+            "name": "Deviceid",
             "baseName": "deviceid",
             "type": "number"
         },
         {
-            "name": "enable",
+            "name": "Enable",
             "baseName": "enable",
             "type": "boolean"
         }    ];

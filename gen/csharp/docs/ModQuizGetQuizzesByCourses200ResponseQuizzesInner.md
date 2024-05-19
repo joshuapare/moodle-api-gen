@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetQuizzesByCourses200ResponseQuizzesInner
+# MoodleClient.Model.ModQuizGetQuizzesByCourses200ResponseQuizzesInner
 
 ## Properties
 

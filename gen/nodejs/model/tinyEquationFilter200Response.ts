@@ -16,13 +16,13 @@ export class TinyEquationFilter200Response {
     /**
     * Filtered content
     */
-    'content': string = 'null';
+    'Content': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         }    ];

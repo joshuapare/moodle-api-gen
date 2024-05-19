@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAuthIsAgeDigitalConsentVerificationEnabled200Response
+# MoodleClient.Model.CoreAuthIsAgeDigitalConsentVerificationEnabled200Response
 
 ## Properties
 

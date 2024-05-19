@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageDeleteConversationsByIdRequest
+# MoodleClient.Model.CoreMessageDeleteConversationsByIdRequest
 
 ## Properties
 

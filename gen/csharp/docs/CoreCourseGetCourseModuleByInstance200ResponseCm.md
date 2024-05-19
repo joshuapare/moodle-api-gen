@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetCourseModuleByInstance200ResponseCm
+# MoodleClient.Model.CoreCourseGetCourseModuleByInstance200ResponseCm
 
 ## Properties
 

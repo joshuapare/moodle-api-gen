@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageDeleteContactsRequest
+# MoodleClient.Model.CoreMessageDeleteContactsRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupGetActivityGroupmode200Response
+# MoodleClient.Model.CoreGroupGetActivityGroupmode200Response
 
 ## Properties
 

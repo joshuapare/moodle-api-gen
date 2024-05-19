@@ -17,46 +17,46 @@ export class ModGlossaryAddEntryRequest {
     /**
     * Glossary concept
     */
-    'concept': string = 'null';
+    'Concept': string = 'null';
     /**
     * Glossary concept definition
     */
-    'definition': string = 'null';
+    'Definition': string = 'null';
     /**
     * definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'definitionformat': number;
+    'Definitionformat': number;
     /**
     * Glossary id
     */
-    'glossaryid': number = null;
-    'options'?: Array<ModGlossaryAddEntryRequestOptionsInner>;
+    'Glossaryid': number = null;
+    'Options'?: Array<ModGlossaryAddEntryRequestOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "concept",
+            "name": "Concept",
             "baseName": "concept",
             "type": "string"
         },
         {
-            "name": "definition",
+            "name": "Definition",
             "baseName": "definition",
             "type": "string"
         },
         {
-            "name": "definitionformat",
+            "name": "Definitionformat",
             "baseName": "definitionformat",
             "type": "number"
         },
         {
-            "name": "glossaryid",
+            "name": "Glossaryid",
             "baseName": "glossaryid",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModGlossaryAddEntryRequestOptionsInner>"
         }    ];

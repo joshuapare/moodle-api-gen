@@ -16,13 +16,13 @@ export class CoreMessageGetBlockedUsersRequest {
     /**
     * the user whose blocked users we want to retrieve
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

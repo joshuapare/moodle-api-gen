@@ -16,67 +16,67 @@ export class CoreCourseUpdateCategoriesRequestCategoriesInner {
     /**
     * category description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * course id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * category id number
     */
-    'idnumber'?: string = 'null';
+    'Idnumber'?: string = 'null';
     /**
     * category name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * parent category id
     */
-    'parent'?: number = null;
+    'Parent'?: number = null;
     /**
     * the category theme. This option must be enabled on moodle
     */
-    'theme'?: string = 'null';
+    'Theme'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "number"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         }    ];

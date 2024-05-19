@@ -16,43 +16,43 @@ import { CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner } f
 import { ModForumPrepareDraftAreaForPost200ResponseAreaoptionsInner } from './modForumPrepareDraftAreaForPost200ResponseAreaoptionsInner';
 
 export class ModForumPrepareDraftAreaForPost200Response {
-    'areaoptions': Array<ModForumPrepareDraftAreaForPost200ResponseAreaoptionsInner>;
+    'Areaoptions': Array<ModForumPrepareDraftAreaForPost200ResponseAreaoptionsInner>;
     /**
     * Draft item id for the file area.
     */
-    'draftitemid': number = null;
-    'files'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Draftitemid': number = null;
+    'Files'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * Message text with URLs rewritten.
     */
-    'messagetext': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Messagetext': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "areaoptions",
+            "name": "Areaoptions",
             "baseName": "areaoptions",
             "type": "Array<ModForumPrepareDraftAreaForPost200ResponseAreaoptionsInner>"
         },
         {
-            "name": "draftitemid",
+            "name": "Draftitemid",
             "baseName": "draftitemid",
             "type": "number"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "messagetext",
+            "name": "Messagetext",
             "baseName": "messagetext",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

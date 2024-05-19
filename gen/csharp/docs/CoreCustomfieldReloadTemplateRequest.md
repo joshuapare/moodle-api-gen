@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCustomfieldReloadTemplateRequest
+# MoodleClient.Model.CoreCustomfieldReloadTemplateRequest
 
 ## Properties
 

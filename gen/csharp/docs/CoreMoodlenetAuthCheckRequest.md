@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMoodlenetAuthCheckRequest
+# MoodleClient.Model.CoreMoodlenetAuthCheckRequest
 
 ## Properties
 

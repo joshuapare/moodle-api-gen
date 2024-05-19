@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserViewUserProfileRequest
+# MoodleClient.Model.CoreUserViewUserProfileRequest
 
 ## Properties
 

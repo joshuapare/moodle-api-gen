@@ -16,25 +16,25 @@ import { ModQuizGetCombinedReviewOptions200ResponseAlloptionsInner } from './mod
 import { ModQuizGetCombinedReviewOptions200ResponseSomeoptionsInner } from './modQuizGetCombinedReviewOptions200ResponseSomeoptionsInner';
 
 export class ModQuizGetCombinedReviewOptions200Response {
-    'alloptions': Array<ModQuizGetCombinedReviewOptions200ResponseAlloptionsInner>;
-    'someoptions': Array<ModQuizGetCombinedReviewOptions200ResponseSomeoptionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Alloptions': Array<ModQuizGetCombinedReviewOptions200ResponseAlloptionsInner>;
+    'Someoptions': Array<ModQuizGetCombinedReviewOptions200ResponseSomeoptionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "alloptions",
+            "name": "Alloptions",
             "baseName": "alloptions",
             "type": "Array<ModQuizGetCombinedReviewOptions200ResponseAlloptionsInner>"
         },
         {
-            "name": "someoptions",
+            "name": "Someoptions",
             "baseName": "someoptions",
             "type": "Array<ModQuizGetCombinedReviewOptions200ResponseSomeoptionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -14,40 +14,40 @@ import { RequestFile } from './models';
 import { ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner } from './modLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner';
 
 export class ModLessonGetAttemptsOverview200ResponseDataStudentsInner {
-    'attempts'?: Array<ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner>;
+    'Attempts'?: Array<ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner>;
     /**
     * Best grade.
     */
-    'bestgrade'?: number = null;
+    'Bestgrade'?: number = null;
     /**
     * User full name.
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * User id.
     */
-    'id'?: number;
+    'Id'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "Array<ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner>"
         },
         {
-            "name": "bestgrade",
+            "name": "Bestgrade",
             "baseName": "bestgrade",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

@@ -13,19 +13,19 @@
 import { RequestFile } from './models';
 
 export class ToolMobileGetContent200ResponseRestrict {
-    'courses'?: Array<object>;
-    'users'?: Array<object>;
+    'Courses'?: Array<object>;
+    'Users'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<object>"
         },
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<object>"
         }    ];

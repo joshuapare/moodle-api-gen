@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { BlockIomadCompanyAdminMoveUsersRequestUsersInner } from './blockIomadCompanyAdminMoveUsersRequestUsersInner';
 
 export class BlockIomadCompanyAdminMoveUsersRequest {
-    'users': Array<BlockIomadCompanyAdminMoveUsersRequestUsersInner>;
+    'Users': Array<BlockIomadCompanyAdminMoveUsersRequestUsersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<BlockIomadCompanyAdminMoveUsersRequestUsersInner>"
         }    ];

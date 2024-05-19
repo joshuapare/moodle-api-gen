@@ -16,22 +16,22 @@ export class ToolLpDataForUserCompetencySummaryRequest {
     /**
     * Data base record id for the competency
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * Data base record id for the user
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

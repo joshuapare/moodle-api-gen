@@ -13,31 +13,31 @@
 import { RequestFile } from './models';
 
 export class LocalIomadLearningpathAddcoursesRequest {
-    'courseids': Array<object>;
+    'Courseids': Array<object>;
     /**
     * ID of group. If 0 just add to lowest numbered group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * ID of Iomad Learning Path
     */
-    'pathid': number = null;
+    'Pathid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         }    ];

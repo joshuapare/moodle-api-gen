@@ -16,13 +16,13 @@ export class ReportInsightsSetFixedPredictionRequest {
     /**
     * The prediction id
     */
-    'predictionid': number = null;
+    'Predictionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "predictionid",
+            "name": "Predictionid",
             "baseName": "predictionid",
             "type": "number"
         }    ];

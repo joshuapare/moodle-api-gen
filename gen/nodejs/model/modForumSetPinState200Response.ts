@@ -19,106 +19,106 @@ import { ModForumSetPinState200ResponseUrls } from './modForumSetPinState200Resp
 import { ModForumSetPinState200ResponseUserstate } from './modForumSetPinState200ResponseUserstate';
 
 export class ModForumSetPinState200Response {
-    'capabilities': ModForumSetPinState200ResponseCapabilities;
+    'Capabilities': ModForumSetPinState200ResponseCapabilities;
     /**
     * firstpostid
     */
-    'firstpostid': number = null;
+    'Firstpostid': number = null;
     /**
     * forumid
     */
-    'forumid': number = null;
-    'group'?: ModForumSetPinState200ResponseGroup;
+    'Forumid': number = null;
+    'Group'?: ModForumSetPinState200ResponseGroup;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * istimelocked
     */
-    'istimelocked': boolean = null;
+    'Istimelocked': boolean = null;
     /**
     * locked
     */
-    'locked': boolean = null;
+    'Locked': boolean = null;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * pinned
     */
-    'pinned': boolean = null;
-    'timed': ModForumSetPinState200ResponseTimed;
-    'times': ModForumSetPinState200ResponseTimes;
-    'urls': ModForumSetPinState200ResponseUrls;
-    'userstate': ModForumSetPinState200ResponseUserstate;
+    'Pinned': boolean = null;
+    'Timed': ModForumSetPinState200ResponseTimed;
+    'Times': ModForumSetPinState200ResponseTimes;
+    'Urls': ModForumSetPinState200ResponseUrls;
+    'Userstate': ModForumSetPinState200ResponseUserstate;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilities",
+            "name": "Capabilities",
             "baseName": "capabilities",
             "type": "ModForumSetPinState200ResponseCapabilities"
         },
         {
-            "name": "firstpostid",
+            "name": "Firstpostid",
             "baseName": "firstpostid",
             "type": "number"
         },
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "group",
+            "name": "Group",
             "baseName": "group",
             "type": "ModForumSetPinState200ResponseGroup"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "istimelocked",
+            "name": "Istimelocked",
             "baseName": "istimelocked",
             "type": "boolean"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "pinned",
+            "name": "Pinned",
             "baseName": "pinned",
             "type": "boolean"
         },
         {
-            "name": "timed",
+            "name": "Timed",
             "baseName": "timed",
             "type": "ModForumSetPinState200ResponseTimed"
         },
         {
-            "name": "times",
+            "name": "Times",
             "baseName": "times",
             "type": "ModForumSetPinState200ResponseTimes"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumSetPinState200ResponseUrls"
         },
         {
-            "name": "userstate",
+            "name": "Userstate",
             "baseName": "userstate",
             "type": "ModForumSetPinState200ResponseUserstate"
         }    ];

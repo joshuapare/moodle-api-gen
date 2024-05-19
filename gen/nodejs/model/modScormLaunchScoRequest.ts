@@ -16,22 +16,22 @@ export class ModScormLaunchScoRequest {
     /**
     * SCO id (empty for launching the first SCO)
     */
-    'scoid'?: number = 0;
+    'Scoid'?: number = 0;
     /**
     * SCORM instance id
     */
-    'scormid': number;
+    'Scormid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "scoid",
+            "name": "Scoid",
             "baseName": "scoid",
             "type": "number"
         },
         {
-            "name": "scormid",
+            "name": "Scormid",
             "baseName": "scormid",
             "type": "number"
         }    ];

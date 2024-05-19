@@ -17,40 +17,40 @@ import { ModQuizGetAttemptReview200ResponseAttempt } from './modQuizGetAttemptRe
 import { ModQuizGetAttemptReview200ResponseQuestionsInner } from './modQuizGetAttemptReview200ResponseQuestionsInner';
 
 export class ModQuizGetAttemptReview200Response {
-    'additionaldata': Array<ModQuizGetAttemptReview200ResponseAdditionaldataInner>;
-    'attempt': ModQuizGetAttemptReview200ResponseAttempt;
+    'Additionaldata': Array<ModQuizGetAttemptReview200ResponseAdditionaldataInner>;
+    'Attempt': ModQuizGetAttemptReview200ResponseAttempt;
     /**
     * grade for the quiz (or empty or \"notyetgraded\")
     */
-    'grade': string = 'null';
-    'questions': Array<ModQuizGetAttemptReview200ResponseQuestionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Grade': string = 'null';
+    'Questions': Array<ModQuizGetAttemptReview200ResponseQuestionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "additionaldata",
+            "name": "Additionaldata",
             "baseName": "additionaldata",
             "type": "Array<ModQuizGetAttemptReview200ResponseAdditionaldataInner>"
         },
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "ModQuizGetAttemptReview200ResponseAttempt"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "string"
         },
         {
-            "name": "questions",
+            "name": "Questions",
             "baseName": "questions",
             "type": "Array<ModQuizGetAttemptReview200ResponseQuestionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

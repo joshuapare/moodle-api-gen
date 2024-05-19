@@ -16,31 +16,31 @@ export class ModForumSetSubscriptionStateRequest {
     /**
     * The discussion to subscribe or unsubscribe
     */
-    'discussionid': number = null;
+    'Discussionid': number = null;
     /**
     * Forum that the discussion is in
     */
-    'forumid': number;
+    'Forumid': number;
     /**
     * The target state
     */
-    'targetstate': boolean = null;
+    'Targetstate': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         },
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "targetstate",
+            "name": "Targetstate",
             "baseName": "targetstate",
             "type": "boolean"
         }    ];

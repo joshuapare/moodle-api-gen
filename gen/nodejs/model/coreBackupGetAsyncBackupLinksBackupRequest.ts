@@ -16,31 +16,31 @@ export class CoreBackupGetAsyncBackupLinksBackupRequest {
     /**
     * Backup id
     */
-    'backupid': string = 'null';
+    'Backupid': string = 'null';
     /**
     * Context id
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * Backup filename
     */
-    'filename': string = 'null';
+    'Filename': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "backupid",
+            "name": "Backupid",
             "baseName": "backupid",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         }    ];

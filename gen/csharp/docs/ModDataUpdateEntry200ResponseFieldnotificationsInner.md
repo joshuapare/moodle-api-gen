@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataUpdateEntry200ResponseFieldnotificationsInner
+# MoodleClient.Model.ModDataUpdateEntry200ResponseFieldnotificationsInner
 
 ## Properties
 

@@ -16,22 +16,22 @@ export class EnrolMetaDeleteInstancesRequestInstancesInner {
     /**
     * ID of the course where meta enrolment is linked to.
     */
-    'courseid'?: string;
+    'Courseid'?: string;
     /**
     * ID of the course with meta enrolment.
     */
-    'metacourseid'?: number = null;
+    'Metacourseid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "string"
         },
         {
-            "name": "metacourseid",
+            "name": "Metacourseid",
             "baseName": "metacourseid",
             "type": "number"
         }    ];

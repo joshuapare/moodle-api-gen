@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetLessonAccessInformation200ResponsePreventaccessreasonsInner
+# MoodleClient.Model.ModLessonGetLessonAccessInformation200ResponsePreventaccessreasonsInner
 The reasons why the user cannot attempt the lesson
 
 ## Properties

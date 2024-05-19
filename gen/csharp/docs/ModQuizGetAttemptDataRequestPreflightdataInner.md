@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetAttemptDataRequestPreflightdataInner
+# MoodleClient.Model.ModQuizGetAttemptDataRequestPreflightdataInner
 
 ## Properties
 

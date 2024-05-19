@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetUserFlagsRequest
+# MoodleClient.Model.ModAssignGetUserFlagsRequest
 
 ## Properties
 

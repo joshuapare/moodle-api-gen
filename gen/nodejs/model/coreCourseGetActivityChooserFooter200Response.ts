@@ -16,40 +16,40 @@ export class CoreCourseGetActivityChooserFooter200Response {
     /**
     * Either \"\" or the prerendered carousel page
     */
-    'customcarouseltemplate'?: string = 'null';
+    'Customcarouseltemplate'?: string = 'null';
     /**
     * The path to the plugin JS file
     */
-    'customfooterjs'?: string = 'null';
+    'Customfooterjs'?: string = 'null';
     /**
     * The prerendered footer
     */
-    'customfootertemplate'?: string = 'null';
+    'Customfootertemplate'?: string = 'null';
     /**
     * Is a footer being return by this request?
     */
-    'footer': boolean = null;
+    'Footer': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "customcarouseltemplate",
+            "name": "Customcarouseltemplate",
             "baseName": "customcarouseltemplate",
             "type": "string"
         },
         {
-            "name": "customfooterjs",
+            "name": "Customfooterjs",
             "baseName": "customfooterjs",
             "type": "string"
         },
         {
-            "name": "customfootertemplate",
+            "name": "Customfootertemplate",
             "baseName": "customfootertemplate",
             "type": "string"
         },
         {
-            "name": "footer",
+            "name": "Footer",
             "baseName": "footer",
             "type": "boolean"
         }    ];

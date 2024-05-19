@@ -16,58 +16,58 @@ export class ToolMoodlenetSearchCourses200ResponseCoursesInner {
     /**
     * Category name
     */
-    'coursecategory'?: string = 'null';
+    'Coursecategory'?: string = 'null';
     /**
     * course image
     */
-    'courseimage'?: string = 'null';
+    'Courseimage'?: string = 'null';
     /**
     * course full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * is the course visible
     */
-    'hidden'?: number = null;
+    'Hidden'?: number = null;
     /**
     * course id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Next step of import
     */
-    'viewurl'?: string = 'null';
+    'Viewurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "coursecategory",
+            "name": "Coursecategory",
             "baseName": "coursecategory",
             "type": "string"
         },
         {
-            "name": "courseimage",
+            "name": "Courseimage",
             "baseName": "courseimage",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "hidden",
+            "name": "Hidden",
             "baseName": "hidden",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "viewurl",
+            "name": "Viewurl",
             "baseName": "viewurl",
             "type": "string"
         }    ];

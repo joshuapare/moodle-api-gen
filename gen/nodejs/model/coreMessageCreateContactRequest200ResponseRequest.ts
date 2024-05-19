@@ -16,40 +16,40 @@ export class CoreMessageCreateContactRequest200ResponseRequest {
     /**
     * Message id
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * User to id
     */
-    'requesteduserid': number = null;
+    'Requesteduserid': number = null;
     /**
     * Time created
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * User from id
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "requesteduserid",
+            "name": "Requesteduserid",
             "baseName": "requesteduserid",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

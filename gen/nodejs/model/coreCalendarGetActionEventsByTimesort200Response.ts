@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner } from './coreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner';
 
 export class CoreCalendarGetActionEventsByTimesort200Response {
-    'events': Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner>;
+    'Events': Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner>;
     /**
     * firstid
     */
-    'firstid': number;
+    'Firstid': number;
     /**
     * lastid
     */
-    'lastid': number;
+    'Lastid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner>"
         },
         {
-            "name": "firstid",
+            "name": "Firstid",
             "baseName": "firstid",
             "type": "number"
         },
         {
-            "name": "lastid",
+            "name": "Lastid",
             "baseName": "lastid",
             "type": "number"
         }    ];

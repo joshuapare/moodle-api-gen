@@ -16,31 +16,31 @@ export class ReportCompetencyDataForReportRequest {
     /**
     * The course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * The module id
     */
-    'moduleid': number = null;
+    'Moduleid': number = null;
     /**
     * The user id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "moduleid",
+            "name": "Moduleid",
             "baseName": "moduleid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

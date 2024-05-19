@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseUpdateCoursesRequestCoursesInnerCourseformatoptionsInner
+# MoodleClient.Model.CoreCourseUpdateCoursesRequestCoursesInnerCourseformatoptionsInner
 
 ## Properties
 

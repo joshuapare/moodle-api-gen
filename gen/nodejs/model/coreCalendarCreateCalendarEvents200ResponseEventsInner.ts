@@ -19,166 +19,166 @@ export class CoreCalendarCreateCalendarEvents200ResponseEventsInner {
     /**
     * course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * Description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * Event type
     */
-    'eventtype'?: string = 'null';
+    'Eventtype'?: string = 'null';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number;
+    'Format'?: number;
     /**
     * group id
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
     /**
     * event id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * instance id
     */
-    'instance'?: number = null;
+    'Instance'?: number = null;
     /**
     * module name
     */
-    'modulename'?: string = 'null';
+    'Modulename'?: string = 'null';
     /**
     * event name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * repeat id
     */
-    'repeatid'?: number = null;
+    'Repeatid'?: number = null;
     /**
     * sequence
     */
-    'sequence'?: number = null;
+    'Sequence'?: number = null;
     /**
     * Subscription id
     */
-    'subscriptionid'?: number = null;
+    'Subscriptionid'?: number = null;
     /**
     * time duration
     */
-    'timeduration'?: number = null;
+    'Timeduration'?: number = null;
     /**
     * time modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * timestart
     */
-    'timestart'?: number = null;
+    'Timestart'?: number = null;
     /**
     * user id
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * unique id of ical events
     */
-    'uuid'?: string = '';
+    'Uuid'?: string = '';
     /**
     * visible
     */
-    'visible'?: number = null;
+    'Visible'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "eventtype",
+            "name": "Eventtype",
             "baseName": "eventtype",
             "type": "string"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instance",
+            "name": "Instance",
             "baseName": "instance",
             "type": "number"
         },
         {
-            "name": "modulename",
+            "name": "Modulename",
             "baseName": "modulename",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "repeatid",
+            "name": "Repeatid",
             "baseName": "repeatid",
             "type": "number"
         },
         {
-            "name": "sequence",
+            "name": "Sequence",
             "baseName": "sequence",
             "type": "number"
         },
         {
-            "name": "subscriptionid",
+            "name": "Subscriptionid",
             "baseName": "subscriptionid",
             "type": "number"
         },
         {
-            "name": "timeduration",
+            "name": "Timeduration",
             "baseName": "timeduration",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "uuid",
+            "name": "Uuid",
             "baseName": "uuid",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

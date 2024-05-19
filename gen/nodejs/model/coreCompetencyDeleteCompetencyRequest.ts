@@ -16,13 +16,13 @@ export class CoreCompetencyDeleteCompetencyRequest {
     /**
     * Data base record id for the competency
     */
-    'id': number = null;
+    'Id': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminGetDepartmentsRequestCriteriaInner {
     /**
     * the user column to search, expected keys (value format) are:                                 \"id\" (int) matching department id,                                 \"name\" (string) department name (Note: you can use % for searching but it may be considerably slower!),                                 \"shortname\" (string) department short name (Note: you can use % for searching but it may be considerably slower!),                                 \"company\" (int) matching company id,                                 \"parent\" (int) matching department parent id
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * the value to search
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

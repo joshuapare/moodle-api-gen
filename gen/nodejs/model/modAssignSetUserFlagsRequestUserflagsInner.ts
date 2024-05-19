@@ -16,58 +16,58 @@ export class ModAssignSetUserFlagsRequestUserflagsInner {
     /**
     * allocated marker
     */
-    'allocatedmarker'?: number;
+    'Allocatedmarker'?: number;
     /**
     * extension due date
     */
-    'extensionduedate'?: number;
+    'Extensionduedate'?: number;
     /**
     * locked
     */
-    'locked'?: number;
+    'Locked'?: number;
     /**
     * mailed
     */
-    'mailed'?: number;
+    'Mailed'?: number;
     /**
     * student id
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * marking workflow state
     */
-    'workflowstate'?: string;
+    'Workflowstate'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allocatedmarker",
+            "name": "Allocatedmarker",
             "baseName": "allocatedmarker",
             "type": "number"
         },
         {
-            "name": "extensionduedate",
+            "name": "Extensionduedate",
             "baseName": "extensionduedate",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "number"
         },
         {
-            "name": "mailed",
+            "name": "Mailed",
             "baseName": "mailed",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "workflowstate",
+            "name": "Workflowstate",
             "baseName": "workflowstate",
             "type": "string"
         }    ];

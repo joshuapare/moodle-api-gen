@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseUpdateCategoriesRequestCategoriesInner
+# MoodleClient.Model.CoreCourseUpdateCategoriesRequestCategoriesInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreContentbankCopyContent200Response
+# MoodleClient.Model.CoreContentbankCopyContent200Response
 
 ## Properties
 

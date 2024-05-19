@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetPublicConfig200Response
+# MoodleClient.Model.ToolMobileGetPublicConfig200Response
 
 ## Properties
 

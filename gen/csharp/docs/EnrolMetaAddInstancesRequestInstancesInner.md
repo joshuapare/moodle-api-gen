@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.EnrolMetaAddInstancesRequestInstancesInner
+# MoodleClient.Model.EnrolMetaAddInstancesRequestInstancesInner
 
 ## Properties
 

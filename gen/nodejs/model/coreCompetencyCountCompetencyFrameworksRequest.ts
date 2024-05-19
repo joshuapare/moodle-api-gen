@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohortsRequestContext } from './coreCohortSearchCohortsRequestContext';
 
 export class CoreCompetencyCountCompetencyFrameworksRequest {
-    'context': CoreCohortSearchCohortsRequestContext;
+    'Context': CoreCohortSearchCohortsRequestContext;
     /**
     * What other contextes to fetch the frameworks from. (children, parents, self)
     */
-    'includes'?: string = 'children';
+    'Includes'?: string = 'children';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "CoreCohortSearchCohortsRequestContext"
         },
         {
-            "name": "includes",
+            "name": "Includes",
             "baseName": "includes",
             "type": "string"
         }    ];

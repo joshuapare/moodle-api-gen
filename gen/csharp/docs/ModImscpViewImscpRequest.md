@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModImscpViewImscpRequest
+# MoodleClient.Model.ModImscpViewImscpRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryDeleteEntryRequest
+# MoodleClient.Model.ModGlossaryDeleteEntryRequest
 
 ## Properties
 

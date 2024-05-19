@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGraderGradingpanelScaleStoreRequest
+# MoodleClient.Model.CoreGradesGraderGradingpanelScaleStoreRequest
 
 ## Properties
 

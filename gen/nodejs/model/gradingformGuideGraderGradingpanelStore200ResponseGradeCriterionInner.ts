@@ -16,67 +16,67 @@ export class GradingformGuideGraderGradingpanelStore200ResponseGradeCriterionInn
     /**
     * The description of the criterion
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * The description of the criterion for markers
     */
-    'descriptionmarkers'?: string;
+    'Descriptionmarkers'?: string;
     /**
     * The id of the criterion
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The maximum score for this criterion
     */
-    'maxscore'?: number;
+    'Maxscore'?: number;
     /**
     * The name of the criterion
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Any remarks for this criterion for the user being assessed
     */
-    'remark'?: string;
+    'Remark'?: string;
     /**
     * The current score for user being assessed
     */
-    'score'?: number;
+    'Score'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionmarkers",
+            "name": "Descriptionmarkers",
             "baseName": "descriptionmarkers",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "maxscore",
+            "name": "Maxscore",
             "baseName": "maxscore",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "remark",
+            "name": "Remark",
             "baseName": "remark",
             "type": "string"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "number"
         }    ];

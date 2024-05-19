@@ -14,154 +14,154 @@ import { RequestFile } from './models';
 import { CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner } from './coreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner';
 
 export class ModWorkshopGetReviewerAssessments200ResponseAssessmentsInner {
-    'feedbackattachmentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Feedbackattachmentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * The comment/feedback from the reviewer for the author.
     */
-    'feedbackauthor'?: string;
+    'Feedbackauthor'?: string;
     /**
     * Are there some files attached to the feedbackauthor field?                     Sets to 1 by file_postupdate_standard_filemanager().
     */
-    'feedbackauthorattachment'?: number = 0;
+    'Feedbackauthorattachment'?: number = 0;
     /**
     * feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'feedbackauthorformat'?: number = 0;
-    'feedbackcontentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Feedbackauthorformat'?: number = 0;
+    'Feedbackcontentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * The comment/feedback from the teacher for the reviewer.                     For example the reason why the grade for assessment was overridden
     */
-    'feedbackreviewer'?: string;
+    'Feedbackreviewer'?: string;
     /**
     * feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'feedbackreviewerformat'?: number = 0;
+    'Feedbackreviewerformat'?: number = 0;
     /**
     * The aggregated grade for submission suggested by the reviewer.                     The grade 0..100 is computed from the values assigned to the assessment dimensions fields. If NULL then it has not been aggregated yet.
     */
-    'grade'?: number;
+    'Grade'?: number;
     /**
     * The computed grade 0..100 for this assessment. If NULL then it has not been computed yet.
     */
-    'gradinggrade'?: number;
+    'Gradinggrade'?: number;
     /**
     * Grade for the assessment manually overridden by a teacher.                     Grade is always from interval 0..100. If NULL then the grade is not overriden.
     */
-    'gradinggradeover'?: number;
+    'Gradinggradeover'?: number;
     /**
     * The id of the user who has overridden the grade for submission.
     */
-    'gradinggradeoverby'?: number;
+    'Gradinggradeoverby'?: number;
     /**
     * The primary key of the record.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The id of the reviewer who makes this assessment
     */
-    'reviewerid'?: number;
+    'Reviewerid'?: number;
     /**
     * The id of the assessed submission
     */
-    'submissionid'?: number;
+    'Submissionid'?: number;
     /**
     * If 0 then the assessment was allocated but the reviewer has not assessed yet.                     If greater than 0 then the timestamp of when the reviewer assessed for the first time
     */
-    'timecreated'?: number = 0;
+    'Timecreated'?: number = 0;
     /**
     * If 0 then the assessment was allocated but the reviewer has not assessed yet.                     If greater than 0 then the timestamp of when the reviewer assessed for the last time
     */
-    'timemodified'?: number = 0;
+    'Timemodified'?: number = 0;
     /**
     * The weight of the assessment for the purposes of aggregation
     */
-    'weight'?: number = 1;
+    'Weight'?: number = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "feedbackattachmentfiles",
+            "name": "Feedbackattachmentfiles",
             "baseName": "feedbackattachmentfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "feedbackauthor",
+            "name": "Feedbackauthor",
             "baseName": "feedbackauthor",
             "type": "string"
         },
         {
-            "name": "feedbackauthorattachment",
+            "name": "Feedbackauthorattachment",
             "baseName": "feedbackauthorattachment",
             "type": "number"
         },
         {
-            "name": "feedbackauthorformat",
+            "name": "Feedbackauthorformat",
             "baseName": "feedbackauthorformat",
             "type": "number"
         },
         {
-            "name": "feedbackcontentfiles",
+            "name": "Feedbackcontentfiles",
             "baseName": "feedbackcontentfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "feedbackreviewer",
+            "name": "Feedbackreviewer",
             "baseName": "feedbackreviewer",
             "type": "string"
         },
         {
-            "name": "feedbackreviewerformat",
+            "name": "Feedbackreviewerformat",
             "baseName": "feedbackreviewerformat",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradinggrade",
+            "name": "Gradinggrade",
             "baseName": "gradinggrade",
             "type": "number"
         },
         {
-            "name": "gradinggradeover",
+            "name": "Gradinggradeover",
             "baseName": "gradinggradeover",
             "type": "number"
         },
         {
-            "name": "gradinggradeoverby",
+            "name": "Gradinggradeoverby",
             "baseName": "gradinggradeoverby",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "reviewerid",
+            "name": "Reviewerid",
             "baseName": "reviewerid",
             "type": "number"
         },
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "weight",
+            "name": "Weight",
             "baseName": "weight",
             "type": "number"
         }    ];

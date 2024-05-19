@@ -14,49 +14,49 @@ import { RequestFile } from './models';
 import { ModLessonProcessPageRequestDataInner } from './modLessonProcessPageRequestDataInner';
 
 export class ModLessonProcessPageRequest {
-    'data': Array<ModLessonProcessPageRequestDataInner>;
+    'Data': Array<ModLessonProcessPageRequestDataInner>;
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * the page id
     */
-    'pageid': number;
+    'Pageid': number;
     /**
     * optional password (the lesson may be protected)
     */
-    'password'?: string = '';
+    'Password'?: string = '';
     /**
     * if we want to review just after finishing (1 hour margin)
     */
-    'review'?: boolean = false;
+    'Review'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModLessonProcessPageRequestDataInner>"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "review",
+            "name": "Review",
             "baseName": "review",
             "type": "boolean"
         }    ];

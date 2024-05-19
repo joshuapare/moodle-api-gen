@@ -17,187 +17,187 @@ export class ModWorkshopGetSubmission200ResponseSubmission {
     /**
     * Used by File API file_postupdate_standard_filemanager.
     */
-    'attachment': number = 0;
-    'attachmentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Attachment': number = 0;
+    'Attachmentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * The author of the submission.
     */
-    'authorid': number = null;
+    'Authorid': number = null;
     /**
     * Submission text.
     */
-    'content': string = 'null';
-    'contentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Content': string = 'null';
+    'Contentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'contentformat'?: number = 0;
+    'Contentformat'?: number = 0;
     /**
     * The trust mode of the data.
     */
-    'contenttrust': number = 0;
+    'Contenttrust': number = 0;
     /**
     * Is this submission an example from teacher.
     */
-    'example': boolean = false;
+    'Example': boolean = false;
     /**
     * Teacher comment/feedback for the author of the submission, for example describing the reasons                     for the grade overriding.
     */
-    'feedbackauthor'?: string = 'null';
+    'Feedbackauthor'?: string = 'null';
     /**
     * feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'feedbackauthorformat'?: number = 0;
+    'Feedbackauthorformat'?: number = 0;
     /**
     * Aggregated grade for the submission. The grade is a decimal number from interval 0..100.                     If NULL then the grade for submission has not been aggregated yet.
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * Grade for the submission manually overridden by a teacher. Grade is always from interval 0..100.                     If NULL then the grade is not overriden.
     */
-    'gradeover'?: number = null;
+    'Gradeover'?: number = null;
     /**
     * The id of the user who has overridden the grade for submission.
     */
-    'gradeoverby'?: number;
+    'Gradeoverby'?: number;
     /**
     * The primary key of the record.
     */
-    'id': number;
+    'Id': number;
     /**
     * Has this submission been submitted after the deadline or during the assessment phase?
     */
-    'late': number = 0;
+    'Late': number = 0;
     /**
     * Shall the submission be available to other when the workshop is closed.
     */
-    'published': boolean = false;
+    'Published': boolean = false;
     /**
     * Timestamp when the work was submitted for the first time.
     */
-    'timecreated': number = null;
+    'Timecreated': number = null;
     /**
     * The timestamp when grade or gradeover was recently modified.
     */
-    'timegraded'?: number = null;
+    'Timegraded'?: number = null;
     /**
     * Timestamp when the submission has been updated.
     */
-    'timemodified': number = null;
+    'Timemodified': number = null;
     /**
     * The submission title.
     */
-    'title': string = 'null';
+    'Title': string = 'null';
     /**
     * The id of the workshop instance.
     */
-    'workshopid': number = null;
+    'Workshopid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attachment",
+            "name": "Attachment",
             "baseName": "attachment",
             "type": "number"
         },
         {
-            "name": "attachmentfiles",
+            "name": "Attachmentfiles",
             "baseName": "attachmentfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "authorid",
+            "name": "Authorid",
             "baseName": "authorid",
             "type": "number"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contentfiles",
+            "name": "Contentfiles",
             "baseName": "contentfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "number"
         },
         {
-            "name": "contenttrust",
+            "name": "Contenttrust",
             "baseName": "contenttrust",
             "type": "number"
         },
         {
-            "name": "example",
+            "name": "Example",
             "baseName": "example",
             "type": "boolean"
         },
         {
-            "name": "feedbackauthor",
+            "name": "Feedbackauthor",
             "baseName": "feedbackauthor",
             "type": "string"
         },
         {
-            "name": "feedbackauthorformat",
+            "name": "Feedbackauthorformat",
             "baseName": "feedbackauthorformat",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradeover",
+            "name": "Gradeover",
             "baseName": "gradeover",
             "type": "number"
         },
         {
-            "name": "gradeoverby",
+            "name": "Gradeoverby",
             "baseName": "gradeoverby",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "late",
+            "name": "Late",
             "baseName": "late",
             "type": "number"
         },
         {
-            "name": "published",
+            "name": "Published",
             "baseName": "published",
             "type": "boolean"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timegraded",
+            "name": "Timegraded",
             "baseName": "timegraded",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "workshopid",
+            "name": "Workshopid",
             "baseName": "workshopid",
             "type": "number"
         }    ];

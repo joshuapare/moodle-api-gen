@@ -13,40 +13,40 @@
 import { RequestFile } from './models';
 
 export class CoreMoodlenetSendCourseRequest {
-    'cmids'?: Array<object>;
+    'Cmids'?: Array<object>;
     /**
     * Course ID
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * OAuth 2 issuer ID
     */
-    'issuerid': number;
+    'Issuerid': number;
     /**
     * Share format
     */
-    'shareformat': number;
+    'Shareformat': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmids",
+            "name": "Cmids",
             "baseName": "cmids",
             "type": "Array<object>"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "issuerid",
+            "name": "Issuerid",
             "baseName": "issuerid",
             "type": "number"
         },
         {
-            "name": "shareformat",
+            "name": "Shareformat",
             "baseName": "shareformat",
             "type": "number"
         }    ];

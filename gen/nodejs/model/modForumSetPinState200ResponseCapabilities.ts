@@ -16,58 +16,58 @@ export class ModForumSetPinState200ResponseCapabilities {
     /**
     * favourite
     */
-    'favourite': boolean = null;
+    'Favourite': boolean = null;
     /**
     * manage
     */
-    'manage': boolean = null;
+    'Manage': boolean = null;
     /**
     * move
     */
-    'move': boolean = null;
+    'Move': boolean = null;
     /**
     * pin
     */
-    'pin': boolean = null;
+    'Pin': boolean = null;
     /**
     * post
     */
-    'post': boolean = null;
+    'Post': boolean = null;
     /**
     * subscribe
     */
-    'subscribe': boolean = null;
+    'Subscribe': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourite",
+            "name": "Favourite",
             "baseName": "favourite",
             "type": "boolean"
         },
         {
-            "name": "manage",
+            "name": "Manage",
             "baseName": "manage",
             "type": "boolean"
         },
         {
-            "name": "move",
+            "name": "Move",
             "baseName": "move",
             "type": "boolean"
         },
         {
-            "name": "pin",
+            "name": "Pin",
             "baseName": "pin",
             "type": "boolean"
         },
         {
-            "name": "post",
+            "name": "Post",
             "baseName": "post",
             "type": "boolean"
         },
         {
-            "name": "subscribe",
+            "name": "Subscribe",
             "baseName": "subscribe",
             "type": "boolean"
         }    ];

@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ToolDataprivacyTreeExtraBranches200ResponseBranchesInner } from './toolDataprivacyTreeExtraBranches200ResponseBranchesInner';
 
 export class ToolDataprivacyTreeExtraBranches200Response {
-    'branches': Array<ToolDataprivacyTreeExtraBranches200ResponseBranchesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Branches': Array<ToolDataprivacyTreeExtraBranches200ResponseBranchesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "branches",
+            "name": "Branches",
             "baseName": "branches",
             "type": "Array<ToolDataprivacyTreeExtraBranches200ResponseBranchesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

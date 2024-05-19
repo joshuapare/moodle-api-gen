@@ -16,13 +16,13 @@ export class ModFolderViewFolderRequest {
     /**
     * folder instance id
     */
-    'folderid': number = null;
+    'Folderid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "folderid",
+            "name": "Folderid",
             "baseName": "folderid",
             "type": "number"
         }    ];

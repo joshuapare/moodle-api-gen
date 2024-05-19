@@ -16,13 +16,13 @@ export class CoreCompetencyDeleteUserEvidenceRequest {
     /**
     * The user evidence ID.
     */
-    'id': number;
+    'Id': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

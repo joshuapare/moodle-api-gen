@@ -13,31 +13,31 @@
 import { RequestFile } from './models';
 
 export class CoreCalendarGetCalendarEventsRequestEvents {
-    'categoryids'?: Array<object>;
-    'courseids'?: Array<object>;
-    'eventids'?: Array<object>;
-    'groupids'?: Array<object>;
+    'Categoryids'?: Array<object>;
+    'Courseids'?: Array<object>;
+    'Eventids'?: Array<object>;
+    'Groupids'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryids",
+            "name": "Categoryids",
             "baseName": "categoryids",
             "type": "Array<object>"
         },
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "eventids",
+            "name": "Eventids",
             "baseName": "eventids",
             "type": "Array<object>"
         },
         {
-            "name": "groupids",
+            "name": "Groupids",
             "baseName": "groupids",
             "type": "Array<object>"
         }    ];

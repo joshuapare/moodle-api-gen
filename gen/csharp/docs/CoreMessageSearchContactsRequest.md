@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageSearchContactsRequest
+# MoodleClient.Model.CoreMessageSearchContactsRequest
 
 ## Properties
 

@@ -16,13 +16,13 @@ export class QbankViewquestiontextSetQuestionTextFormatRequest {
     /**
     * Format for the question text
     */
-    'format': number = null;
+    'Format': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         }    ];

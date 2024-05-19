@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreWebserviceGetSiteInfoRequest {
-    'serviceshortnames'?: Array<object>;
+    'Serviceshortnames'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "serviceshortnames",
+            "name": "Serviceshortnames",
             "baseName": "serviceshortnames",
             "type": "Array<object>"
         }    ];

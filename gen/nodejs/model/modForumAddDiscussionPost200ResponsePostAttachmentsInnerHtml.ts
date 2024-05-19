@@ -16,13 +16,13 @@ export class ModForumAddDiscussionPost200ResponsePostAttachmentsInnerHtml {
     /**
     * The HTML source for the Plagiarism Response
     */
-    'plagiarism'?: string = 'null';
+    'Plagiarism'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "plagiarism",
+            "name": "Plagiarism",
             "baseName": "plagiarism",
             "type": "string"
         }    ];

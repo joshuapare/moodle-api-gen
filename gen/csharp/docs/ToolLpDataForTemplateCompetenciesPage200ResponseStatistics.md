@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForTemplateCompetenciesPage200ResponseStatistics
+# MoodleClient.Model.ToolLpDataForTemplateCompetenciesPage200ResponseStatistics
 
 ## Properties
 

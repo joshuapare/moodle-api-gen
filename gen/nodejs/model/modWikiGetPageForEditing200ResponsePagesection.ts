@@ -17,37 +17,37 @@ export class ModWikiGetPageForEditing200ResponsePagesection {
     /**
     * The contents of the page-section to be edited.
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * Format of the original content of the page.
     */
-    'contentformat'?: string = 'null';
+    'Contentformat'?: string = 'null';
     /**
     * Latest version of the page.
     */
-    'version': number;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Version': number;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "string"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

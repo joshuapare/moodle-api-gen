@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModForumGetForumDiscussionsPaginated200ResponseDiscussionsInner } from './modForumGetForumDiscussionsPaginated200ResponseDiscussionsInner';
 
 export class ModForumGetForumDiscussionsPaginated200Response {
-    'discussions': Array<ModForumGetForumDiscussionsPaginated200ResponseDiscussionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Discussions': Array<ModForumGetForumDiscussionsPaginated200ResponseDiscussionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussions",
+            "name": "Discussions",
             "baseName": "discussions",
             "type": "Array<ModForumGetForumDiscussionsPaginated200ResponseDiscussionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

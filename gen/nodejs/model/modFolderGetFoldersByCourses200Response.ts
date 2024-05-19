@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModFolderGetFoldersByCourses200ResponseFoldersInner } from './modFolderGetFoldersByCourses200ResponseFoldersInner';
 
 export class ModFolderGetFoldersByCourses200Response {
-    'folders': Array<ModFolderGetFoldersByCourses200ResponseFoldersInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Folders': Array<ModFolderGetFoldersByCourses200ResponseFoldersInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "folders",
+            "name": "Folders",
             "baseName": "folders",
             "type": "Array<ModFolderGetFoldersByCourses200ResponseFoldersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

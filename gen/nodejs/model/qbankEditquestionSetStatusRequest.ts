@@ -16,22 +16,22 @@ export class QbankEditquestionSetStatusRequest {
     /**
     * The question id
     */
-    'questionid': number;
+    'Questionid': number;
     /**
     * The updated question status
     */
-    'status': string = 'null';
+    'Status': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "questionid",
+            "name": "Questionid",
             "baseName": "questionid",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         }    ];

@@ -16,13 +16,13 @@ export class CoreCompetencyListCourseModuleCompetenciesRequest {
     /**
     * The course module id
     */
-    'cmid': number;
+    'Cmid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         }    ];

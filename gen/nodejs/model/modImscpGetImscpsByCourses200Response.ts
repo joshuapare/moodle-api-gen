@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModImscpGetImscpsByCourses200ResponseImscpsInner } from './modImscpGetImscpsByCourses200ResponseImscpsInner';
 
 export class ModImscpGetImscpsByCourses200Response {
-    'imscps': Array<ModImscpGetImscpsByCourses200ResponseImscpsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Imscps': Array<ModImscpGetImscpsByCourses200ResponseImscpsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "imscps",
+            "name": "Imscps",
             "baseName": "imscps",
             "type": "Array<ModImscpGetImscpsByCourses200ResponseImscpsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

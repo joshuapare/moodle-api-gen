@@ -17,55 +17,55 @@ export class CoreReportbuilderConditionsDelete200Response {
     /**
     * activeconditionsform
     */
-    'activeconditionsform': string;
-    'availableconditions': Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner>;
+    'Activeconditionsform': string;
+    'Availableconditions': Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner>;
     /**
     * hasactiveconditions
     */
-    'hasactiveconditions': boolean;
+    'Hasactiveconditions': boolean;
     /**
     * hasavailableconditions
     */
-    'hasavailableconditions': boolean;
+    'Hasavailableconditions': boolean;
     /**
     * helpicon
     */
-    'helpicon': string;
+    'Helpicon': string;
     /**
     * javascript
     */
-    'javascript'?: string;
+    'Javascript'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activeconditionsform",
+            "name": "Activeconditionsform",
             "baseName": "activeconditionsform",
             "type": "string"
         },
         {
-            "name": "availableconditions",
+            "name": "Availableconditions",
             "baseName": "availableconditions",
             "type": "Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner>"
         },
         {
-            "name": "hasactiveconditions",
+            "name": "Hasactiveconditions",
             "baseName": "hasactiveconditions",
             "type": "boolean"
         },
         {
-            "name": "hasavailableconditions",
+            "name": "Hasavailableconditions",
             "baseName": "hasavailableconditions",
             "type": "boolean"
         },
         {
-            "name": "helpicon",
+            "name": "Helpicon",
             "baseName": "helpicon",
             "type": "string"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         }    ];

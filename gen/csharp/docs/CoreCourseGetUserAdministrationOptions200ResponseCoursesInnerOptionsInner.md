@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetUserAdministrationOptions200ResponseCoursesInnerOptionsInner
+# MoodleClient.Model.CoreCourseGetUserAdministrationOptions200ResponseCoursesInnerOptionsInner
 
 ## Properties
 

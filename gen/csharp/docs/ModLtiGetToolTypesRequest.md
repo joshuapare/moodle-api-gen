@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetToolTypesRequest
+# MoodleClient.Model.ModLtiGetToolTypesRequest
 
 ## Properties
 

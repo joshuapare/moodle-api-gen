@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner
+# MoodleClient.Model.ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInner
 
 ## Properties
 

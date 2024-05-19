@@ -17,100 +17,100 @@ export class CoreUpdateInplaceEditable200Response {
     /**
     * component responsible for the update
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * display value (may contain link or other html tags)
     */
-    'displayvalue': string = 'null';
+    'Displayvalue': string = 'null';
     /**
     * hint for editing element
     */
-    'edithint'?: string = 'null';
-    'editicon'?: CoreUpdateInplaceEditable200ResponseEditicon;
+    'Edithint'?: string = 'null';
+    'Editicon'?: CoreUpdateInplaceEditable200ResponseEditicon;
     /**
     * label for editing element
     */
-    'editlabel'?: string = 'null';
+    'Editlabel'?: string = 'null';
     /**
     * identifier of the updated item
     */
-    'itemid'?: string;
+    'Itemid'?: string;
     /**
     * itemtype
     */
-    'itemtype'?: string;
+    'Itemtype'?: string;
     /**
     * Should everything be wrapped in the edit link or link displayed separately
     */
-    'linkeverything'?: number = null;
+    'Linkeverything'?: number = null;
     /**
     * options of the element, format depends on type
     */
-    'options'?: string = 'null';
+    'Options'?: string = 'null';
     /**
     * type of the element (text, toggle, select)
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
     /**
     * value of the item as it is stored
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "displayvalue",
+            "name": "Displayvalue",
             "baseName": "displayvalue",
             "type": "string"
         },
         {
-            "name": "edithint",
+            "name": "Edithint",
             "baseName": "edithint",
             "type": "string"
         },
         {
-            "name": "editicon",
+            "name": "Editicon",
             "baseName": "editicon",
             "type": "CoreUpdateInplaceEditable200ResponseEditicon"
         },
         {
-            "name": "editlabel",
+            "name": "Editlabel",
             "baseName": "editlabel",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "string"
         },
         {
-            "name": "itemtype",
+            "name": "Itemtype",
             "baseName": "itemtype",
             "type": "string"
         },
         {
-            "name": "linkeverything",
+            "name": "Linkeverything",
             "baseName": "linkeverything",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

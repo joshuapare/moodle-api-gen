@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderAudiencesDeleteRequest
+# MoodleClient.Model.CoreReportbuilderAudiencesDeleteRequest
 
 ## Properties
 

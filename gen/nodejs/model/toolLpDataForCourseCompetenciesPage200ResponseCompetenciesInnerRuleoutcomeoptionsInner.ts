@@ -16,31 +16,31 @@ export class ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerRule
     /**
     * If this is the currently selected option
     */
-    'selected'?: boolean = null;
+    'Selected'?: boolean = null;
     /**
     * The name of the option
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
     /**
     * The option value
     */
-    'value'?: number = null;
+    'Value'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "selected",
+            "name": "Selected",
             "baseName": "selected",
             "type": "boolean"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "number"
         }    ];

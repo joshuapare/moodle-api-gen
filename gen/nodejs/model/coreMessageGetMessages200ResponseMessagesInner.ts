@@ -19,184 +19,184 @@ export class CoreMessageGetMessages200ResponseMessagesInner {
     /**
     * The component that generated the notification
     */
-    'component'?: string = 'null';
+    'Component'?: string = 'null';
     /**
     * Context URL
     */
-    'contexturl'?: string = 'null';
+    'Contexturl'?: string = 'null';
     /**
     * Context URL link name
     */
-    'contexturlname'?: string = 'null';
+    'Contexturlname'?: string = 'null';
     /**
     * Custom data to be passed to the message processor.                                 The data here is serialised using json_encode().
     */
-    'customdata'?: string = 'null';
+    'Customdata'?: string = 'null';
     /**
     * The type of notification
     */
-    'eventtype'?: string = 'null';
+    'Eventtype'?: string = 'null';
     /**
     * The message
     */
-    'fullmessage'?: string = 'null';
+    'Fullmessage'?: string = 'null';
     /**
     * fullmessage format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'fullmessageformat'?: number = null;
+    'Fullmessageformat'?: number = null;
     /**
     * The message in html
     */
-    'fullmessagehtml'?: string = 'null';
+    'Fullmessagehtml'?: string = 'null';
     /**
     * URL for icon, only for notifications.
     */
-    'iconurl'?: string = 'null';
+    'Iconurl'?: string = 'null';
     /**
     * Message id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Is a notification?
     */
-    'notification'?: number = null;
+    'Notification'?: number = null;
     /**
     * The shorten message
     */
-    'smallmessage'?: string = 'null';
+    'Smallmessage'?: string = 'null';
     /**
     * The message subject
     */
-    'subject'?: string = 'null';
+    'Subject'?: string = 'null';
     /**
     * The message text formated
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time read
     */
-    'timeread'?: number = null;
+    'Timeread'?: number = null;
     /**
     * User from full name
     */
-    'userfromfullname'?: string = 'null';
+    'Userfromfullname'?: string = 'null';
     /**
     * User from id
     */
-    'useridfrom'?: number;
+    'Useridfrom'?: number;
     /**
     * User to id
     */
-    'useridto'?: number;
+    'Useridto'?: number;
     /**
     * User to full name
     */
-    'usertofullname'?: string = 'null';
+    'Usertofullname'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contexturl",
+            "name": "Contexturl",
             "baseName": "contexturl",
             "type": "string"
         },
         {
-            "name": "contexturlname",
+            "name": "Contexturlname",
             "baseName": "contexturlname",
             "type": "string"
         },
         {
-            "name": "customdata",
+            "name": "Customdata",
             "baseName": "customdata",
             "type": "string"
         },
         {
-            "name": "eventtype",
+            "name": "Eventtype",
             "baseName": "eventtype",
             "type": "string"
         },
         {
-            "name": "fullmessage",
+            "name": "Fullmessage",
             "baseName": "fullmessage",
             "type": "string"
         },
         {
-            "name": "fullmessageformat",
+            "name": "Fullmessageformat",
             "baseName": "fullmessageformat",
             "type": "number"
         },
         {
-            "name": "fullmessagehtml",
+            "name": "Fullmessagehtml",
             "baseName": "fullmessagehtml",
             "type": "string"
         },
         {
-            "name": "iconurl",
+            "name": "Iconurl",
             "baseName": "iconurl",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "notification",
+            "name": "Notification",
             "baseName": "notification",
             "type": "number"
         },
         {
-            "name": "smallmessage",
+            "name": "Smallmessage",
             "baseName": "smallmessage",
             "type": "string"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timeread",
+            "name": "Timeread",
             "baseName": "timeread",
             "type": "number"
         },
         {
-            "name": "userfromfullname",
+            "name": "Userfromfullname",
             "baseName": "userfromfullname",
             "type": "string"
         },
         {
-            "name": "useridfrom",
+            "name": "Useridfrom",
             "baseName": "useridfrom",
             "type": "number"
         },
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         },
         {
-            "name": "usertofullname",
+            "name": "Usertofullname",
             "baseName": "usertofullname",
             "type": "string"
         }    ];

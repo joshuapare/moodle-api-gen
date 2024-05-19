@@ -16,67 +16,67 @@ export class CoreRatingGetItemRatingsRequest {
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * context level: course, module, user, etc...
     */
-    'contextlevel': string;
+    'Contextlevel': string;
     /**
     * the instance id of item associated with the context level
     */
-    'instanceid': number;
+    'Instanceid': number;
     /**
     * associated id
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * rating area
     */
-    'ratingarea': string;
+    'Ratingarea': string;
     /**
     * scale id
     */
-    'scaleid': number;
+    'Scaleid': number;
     /**
     * sort order (firstname, rating or timemodified)
     */
-    'sort': string = 'null';
+    'Sort': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "ratingarea",
+            "name": "Ratingarea",
             "baseName": "ratingarea",
             "type": "string"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

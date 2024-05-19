@@ -16,40 +16,40 @@ export class CoreMessageGetSelfConversationRequest {
     /**
     * Limit for number of messages
     */
-    'messagelimit'?: number = 100;
+    'Messagelimit'?: number = 100;
     /**
     * Offset for messages list
     */
-    'messageoffset'?: number = 0;
+    'Messageoffset'?: number = 0;
     /**
     * Order messages by newest first
     */
-    'newestmessagesfirst'?: boolean = true;
+    'Newestmessagesfirst'?: boolean = true;
     /**
     * The id of the user who we are viewing self-conversations for
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messagelimit",
+            "name": "Messagelimit",
             "baseName": "messagelimit",
             "type": "number"
         },
         {
-            "name": "messageoffset",
+            "name": "Messageoffset",
             "baseName": "messageoffset",
             "type": "number"
         },
         {
-            "name": "newestmessagesfirst",
+            "name": "Newestmessagesfirst",
             "baseName": "newestmessagesfirst",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

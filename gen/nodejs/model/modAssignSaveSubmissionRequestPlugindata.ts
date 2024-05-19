@@ -17,19 +17,19 @@ export class ModAssignSaveSubmissionRequestPlugindata {
     /**
     * The id of a draft area containing files for this submission.
     */
-    'filesFilemanager'?: number = null;
-    'onlinetextEditor'?: ModAssignSaveSubmissionRequestPlugindataOnlinetextEditor;
+    'FilesFilemanager'?: number = null;
+    'OnlinetextEditor'?: ModAssignSaveSubmissionRequestPlugindataOnlinetextEditor;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filesFilemanager",
+            "name": "FilesFilemanager",
             "baseName": "files_filemanager",
             "type": "number"
         },
         {
-            "name": "onlinetextEditor",
+            "name": "OnlinetextEditor",
             "baseName": "onlinetext_editor",
             "type": "ModAssignSaveSubmissionRequestPlugindataOnlinetextEditor"
         }    ];

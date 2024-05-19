@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { LocalIomadLearningpathOrdercoursesRequestCoursesInner } from './localIomadLearningpathOrdercoursesRequestCoursesInner';
 
 export class LocalIomadLearningpathOrdercoursesRequest {
-    'courses': Array<LocalIomadLearningpathOrdercoursesRequestCoursesInner>;
+    'Courses': Array<LocalIomadLearningpathOrdercoursesRequestCoursesInner>;
     /**
     * ID of Iomad Learning Path
     */
-    'pathid': number;
+    'Pathid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<LocalIomadLearningpathOrdercoursesRequestCoursesInner>"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         }    ];

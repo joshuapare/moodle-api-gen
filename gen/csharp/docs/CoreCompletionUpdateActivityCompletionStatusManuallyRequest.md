@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompletionUpdateActivityCompletionStatusManuallyRequest
+# MoodleClient.Model.CoreCompletionUpdateActivityCompletionStatusManuallyRequest
 
 ## Properties
 

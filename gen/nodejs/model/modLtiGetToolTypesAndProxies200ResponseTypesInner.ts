@@ -18,112 +18,112 @@ import { ModLtiGetToolTypesAndProxies200ResponseTypesInnerUrls } from './modLtiG
 * Tool
 */
 export class ModLtiGetToolTypesAndProxies200ResponseTypesInner {
-    'capabilitygroups'?: Array<object>;
+    'Capabilitygroups'?: Array<object>;
     /**
     * Client ID
     */
-    'clientid'?: string;
+    'Clientid'?: string;
     /**
     * Tool type course
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Deployment ID
     */
-    'deploymentid'?: number;
+    'Deploymentid'?: number;
     /**
     * Tool type description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * Indicate if capabilitygroups is populated
     */
-    'hascapabilitygroups'?: boolean;
+    'Hascapabilitygroups'?: boolean;
     /**
     * Tool type id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The number of times this tool is being used
     */
-    'instancecount'?: number;
-    'instanceids'?: Array<object>;
+    'Instancecount'?: number;
+    'Instanceids'?: Array<object>;
     /**
     * Tool type name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Platform ID
     */
-    'platformid'?: string;
-    'state'?: ModLtiGetToolTypesAndProxies200ResponseTypesInnerState;
-    'urls'?: ModLtiGetToolTypesAndProxies200ResponseTypesInnerUrls;
+    'Platformid'?: string;
+    'State'?: ModLtiGetToolTypesAndProxies200ResponseTypesInnerState;
+    'Urls'?: ModLtiGetToolTypesAndProxies200ResponseTypesInnerUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilitygroups",
+            "name": "Capabilitygroups",
             "baseName": "capabilitygroups",
             "type": "Array<object>"
         },
         {
-            "name": "clientid",
+            "name": "Clientid",
             "baseName": "clientid",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "deploymentid",
+            "name": "Deploymentid",
             "baseName": "deploymentid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "hascapabilitygroups",
+            "name": "Hascapabilitygroups",
             "baseName": "hascapabilitygroups",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instancecount",
+            "name": "Instancecount",
             "baseName": "instancecount",
             "type": "number"
         },
         {
-            "name": "instanceids",
+            "name": "Instanceids",
             "baseName": "instanceids",
             "type": "Array<object>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "platformid",
+            "name": "Platformid",
             "baseName": "platformid",
             "type": "string"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "ModLtiGetToolTypesAndProxies200ResponseTypesInnerState"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModLtiGetToolTypesAndProxies200ResponseTypesInnerUrls"
         }    ];

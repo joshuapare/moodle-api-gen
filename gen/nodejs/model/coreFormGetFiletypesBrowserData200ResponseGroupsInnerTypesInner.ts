@@ -16,40 +16,40 @@ export class CoreFormGetFiletypesBrowserData200ResponseGroupsInnerTypesInner {
     /**
     * The file extension associated with the file type
     */
-    'ext'?: string = 'null';
+    'Ext'?: string = 'null';
     /**
     * The file type identifier
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * The file type name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Should it be marked as selected
     */
-    'selected'?: boolean;
+    'Selected'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ext",
+            "name": "Ext",
             "baseName": "ext",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "selected",
+            "name": "Selected",
             "baseName": "selected",
             "type": "boolean"
         }    ];

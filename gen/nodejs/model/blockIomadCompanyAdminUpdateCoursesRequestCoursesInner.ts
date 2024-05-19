@@ -16,67 +16,67 @@ export class BlockIomadCompanyAdminUpdateCoursesRequestCoursesInner {
     /**
     * Course ID
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Course licensed
     */
-    'licensed'?: boolean = false;
+    'Licensed'?: boolean = false;
     /**
     * Course warning email notify period
     */
-    'notifyperiod'?: number = 0;
+    'Notifyperiod'?: number = 0;
     /**
     * Course shared value
     */
-    'shared'?: number = 0;
+    'Shared'?: number = 0;
     /**
     * Course training valid for in days
     */
-    'validlength'?: number = 0;
+    'Validlength'?: number = 0;
     /**
     * Course days to warn if not completed in
     */
-    'warncompletion'?: number = 0;
+    'Warncompletion'?: number = 0;
     /**
     * Course days to warn before training expires
     */
-    'warnexpire'?: number = 0;
+    'Warnexpire'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "licensed",
+            "name": "Licensed",
             "baseName": "licensed",
             "type": "boolean"
         },
         {
-            "name": "notifyperiod",
+            "name": "Notifyperiod",
             "baseName": "notifyperiod",
             "type": "number"
         },
         {
-            "name": "shared",
+            "name": "Shared",
             "baseName": "shared",
             "type": "number"
         },
         {
-            "name": "validlength",
+            "name": "Validlength",
             "baseName": "validlength",
             "type": "number"
         },
         {
-            "name": "warncompletion",
+            "name": "Warncompletion",
             "baseName": "warncompletion",
             "type": "number"
         },
         {
-            "name": "warnexpire",
+            "name": "Warnexpire",
             "baseName": "warnexpire",
             "type": "number"
         }    ];

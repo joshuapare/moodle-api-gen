@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreUserSearchIdentity200ResponseListInner } from './coreUserSearchIdentity200ResponseListInner';
 
 export class CoreUserSearchIdentity200Response {
-    'list': Array<CoreUserSearchIdentity200ResponseListInner>;
+    'List': Array<CoreUserSearchIdentity200ResponseListInner>;
     /**
     * Configured maximum users per page.
     */
-    'maxusersperpage': number = null;
+    'Maxusersperpage': number = null;
     /**
     * Were there more records than maxusersperpage found?
     */
-    'overflow': boolean = null;
+    'Overflow': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "list",
+            "name": "List",
             "baseName": "list",
             "type": "Array<CoreUserSearchIdentity200ResponseListInner>"
         },
         {
-            "name": "maxusersperpage",
+            "name": "Maxusersperpage",
             "baseName": "maxusersperpage",
             "type": "number"
         },
         {
-            "name": "overflow",
+            "name": "Overflow",
             "baseName": "overflow",
             "type": "boolean"
         }    ];

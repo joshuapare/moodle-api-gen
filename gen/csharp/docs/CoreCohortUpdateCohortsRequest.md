@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCohortUpdateCohortsRequest
+# MoodleClient.Model.CoreCohortUpdateCohortsRequest
 
 ## Properties
 

@@ -17,31 +17,31 @@ import { ModGlossaryGetEntryById200ResponseEntry } from './modGlossaryGetEntryBy
 import { ModGlossaryGetEntryById200ResponsePermissions } from './modGlossaryGetEntryById200ResponsePermissions';
 
 export class ModGlossaryGetEntryById200Response {
-    'entry': ModGlossaryGetEntryById200ResponseEntry;
-    'permissions'?: ModGlossaryGetEntryById200ResponsePermissions;
-    'ratinginfo'?: ModForumGetDiscussionPosts200ResponseRatinginfo;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Entry': ModGlossaryGetEntryById200ResponseEntry;
+    'Permissions'?: ModGlossaryGetEntryById200ResponsePermissions;
+    'Ratinginfo'?: ModForumGetDiscussionPosts200ResponseRatinginfo;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entry",
+            "name": "Entry",
             "baseName": "entry",
             "type": "ModGlossaryGetEntryById200ResponseEntry"
         },
         {
-            "name": "permissions",
+            "name": "Permissions",
             "baseName": "permissions",
             "type": "ModGlossaryGetEntryById200ResponsePermissions"
         },
         {
-            "name": "ratinginfo",
+            "name": "Ratinginfo",
             "baseName": "ratinginfo",
             "type": "ModForumGetDiscussionPosts200ResponseRatinginfo"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

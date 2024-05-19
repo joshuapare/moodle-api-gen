@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup
+# MoodleClient.Model.CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup
 
 ## Properties
 

@@ -17,19 +17,19 @@ export class CoreMessageSendMessagesToConversationRequest {
     /**
     * id of the conversation
     */
-    'conversationid': number = null;
-    'messages': Array<CoreMessageSendMessagesToConversationRequestMessagesInner>;
+    'Conversationid': number = null;
+    'Messages': Array<CoreMessageSendMessagesToConversationRequestMessagesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversationid",
+            "name": "Conversationid",
             "baseName": "conversationid",
             "type": "number"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<CoreMessageSendMessagesToConversationRequestMessagesInner>"
         }    ];

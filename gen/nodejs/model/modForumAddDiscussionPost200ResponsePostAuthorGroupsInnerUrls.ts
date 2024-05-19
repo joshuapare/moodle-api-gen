@@ -16,13 +16,13 @@ export class ModForumAddDiscussionPost200ResponsePostAuthorGroupsInnerUrls {
     /**
     * image
     */
-    'image'?: string = 'null';
+    'Image'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "image",
+            "name": "Image",
             "baseName": "image",
             "type": "string"
         }    ];

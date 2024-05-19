@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetAutologinKeyRequest
+# MoodleClient.Model.ToolMobileGetAutologinKeyRequest
 
 ## Properties
 

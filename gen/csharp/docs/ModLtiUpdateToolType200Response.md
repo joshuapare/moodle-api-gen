@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiUpdateToolType200Response
+# MoodleClient.Model.ModLtiUpdateToolType200Response
 
 ## Properties
 

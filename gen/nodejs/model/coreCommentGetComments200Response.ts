@@ -18,43 +18,43 @@ export class CoreCommentGetComments200Response {
     /**
     * Whether the user can post in this comment area.
     */
-    'canpost'?: boolean = null;
-    'comments': Array<CoreCommentGetComments200ResponseCommentsInner>;
+    'Canpost'?: boolean = null;
+    'Comments': Array<CoreCommentGetComments200ResponseCommentsInner>;
     /**
     * Total number of comments.
     */
-    'count'?: number = null;
+    'Count'?: number = null;
     /**
     * Number of comments per page.
     */
-    'perpage'?: number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Perpage'?: number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canpost",
+            "name": "Canpost",
             "baseName": "canpost",
             "type": "boolean"
         },
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "Array<CoreCommentGetComments200ResponseCommentsInner>"
         },
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

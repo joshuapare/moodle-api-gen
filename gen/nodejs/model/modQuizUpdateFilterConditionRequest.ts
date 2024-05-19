@@ -16,31 +16,31 @@ export class ModQuizUpdateFilterConditionRequest {
     /**
     * The cmid of the quiz
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * Filter condition
     */
-    'filtercondition': string = 'null';
+    'Filtercondition': string = 'null';
     /**
     * The quiz slot ID for the random question.
     */
-    'slotid': number = null;
+    'Slotid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "filtercondition",
+            "name": "Filtercondition",
             "baseName": "filtercondition",
             "type": "string"
         },
         {
-            "name": "slotid",
+            "name": "Slotid",
             "baseName": "slotid",
             "type": "number"
         }    ];

@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreEnrolUnenrolUserEnrolment200ResponseErrorsInner } from './coreEnrolUnenrolUserEnrolment200ResponseErrorsInner';
 
 export class CoreEnrolUnenrolUserEnrolment200Response {
-    'errors': Array<CoreEnrolUnenrolUserEnrolment200ResponseErrorsInner>;
+    'Errors': Array<CoreEnrolUnenrolUserEnrolment200ResponseErrorsInner>;
     /**
     * True if the user\'s enrolment was successfully updated
     */
-    'result': boolean;
+    'Result': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "errors",
+            "name": "Errors",
             "baseName": "errors",
             "type": "Array<CoreEnrolUnenrolUserEnrolment200ResponseErrorsInner>"
         },
         {
-            "name": "result",
+            "name": "Result",
             "baseName": "result",
             "type": "boolean"
         }    ];

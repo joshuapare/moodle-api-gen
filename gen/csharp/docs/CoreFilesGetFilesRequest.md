@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFilesGetFilesRequest
+# MoodleClient.Model.CoreFilesGetFilesRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderSchedulesSendRequest
+# MoodleClient.Model.CoreReportbuilderSchedulesSendRequest
 
 ## Properties
 

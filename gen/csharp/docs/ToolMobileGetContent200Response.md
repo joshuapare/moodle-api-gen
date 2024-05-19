@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetContent200Response
+# MoodleClient.Model.ToolMobileGetContent200Response
 
 ## Properties
 

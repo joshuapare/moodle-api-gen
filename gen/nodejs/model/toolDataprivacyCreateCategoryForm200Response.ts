@@ -15,28 +15,28 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ToolDataprivacyCreateCategoryForm200ResponseCategory } from './toolDataprivacyCreateCategoryForm200ResponseCategory';
 
 export class ToolDataprivacyCreateCategoryForm200Response {
-    'category': ToolDataprivacyCreateCategoryForm200ResponseCategory;
+    'Category': ToolDataprivacyCreateCategoryForm200ResponseCategory;
     /**
     * Were there validation errors
     */
-    'validationerrors': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Validationerrors': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "ToolDataprivacyCreateCategoryForm200ResponseCategory"
         },
         {
-            "name": "validationerrors",
+            "name": "Validationerrors",
             "baseName": "validationerrors",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

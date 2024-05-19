@@ -20,328 +20,328 @@ export class ModGlossaryGetGlossariesByCourses200ResponseGlossariesInner {
     /**
     * If enabled, all participants with permission to create comments will be able to add comments to glossary entries
     */
-    'allowcomments'?: number = null;
+    'Allowcomments'?: number = null;
     /**
     * If enabled, multiple entries can have the same concept name
     */
-    'allowduplicatedentries'?: number = null;
+    'Allowduplicatedentries'?: number = null;
     /**
     * If enabled, students are provided with a link to a printer-friendly version of the glossary. The link is always available to teachers
     */
-    'allowprintview'?: number = null;
+    'Allowprintview'?: number = null;
     /**
     * When approving glossary items you may wish to use a different display format
     */
-    'approvaldisplayformat'?: string = 'null';
+    'Approvaldisplayformat'?: string = 'null';
     /**
     * Aggregate type
     */
-    'assessed'?: number = null;
+    'Assessed'?: number = null;
     /**
     * Restrict rating to items created before this
     */
-    'assesstimefinish'?: number = null;
+    'Assesstimefinish'?: number = null;
     /**
     * Restrict rating to items created after this
     */
-    'assesstimestart'?: number = null;
-    'browsemodes'?: Array<object>;
+    'Assesstimestart'?: number = null;
+    'Browsemodes'?: Array<object>;
     /**
     * Whether the user can add a new entry
     */
-    'canaddentry'?: number = null;
+    'Canaddentry'?: number = null;
     /**
     * Number of entries to complete
     */
-    'completionentries'?: number = null;
+    'Completionentries'?: number = null;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * If set to no, entries require approving by a teacher before they are viewable by everyone.
     */
-    'defaultapproval'?: number = null;
+    'Defaultapproval'?: number = null;
     /**
     * Display format type
     */
-    'displayformat'?: string = 'null';
+    'Displayformat'?: string = 'null';
     /**
     * Always allow editing
     */
-    'editalways'?: number = null;
+    'Editalways'?: number = null;
     /**
     * Entries shown per page
     */
-    'entbypage'?: number = null;
-    'globalglossary'?: number;
+    'Entbypage'?: number = null;
+    'Globalglossary'?: number;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * If enabled this glossary is a main glossary.
     */
-    'mainglossary'?: number = null;
+    'Mainglossary'?: number = null;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * This setting specifies the number of glossary entry concepts to include in the RSS feed. Between 5 and 20 generally acceptable
     */
-    'rssarticles'?: number = null;
+    'Rssarticles'?: number = null;
     /**
     * To enable the RSS feed for this activity, select either concepts with author or concepts without author to be included in the feed
     */
-    'rsstype'?: number = null;
+    'Rsstype'?: number = null;
     /**
     * Scale ID
     */
-    'scale'?: number = null;
+    'Scale'?: number = null;
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * If enabled, participants can browse all entries at once
     */
-    'showall'?: number = null;
+    'Showall'?: number = null;
     /**
     * If enabled, participants can browse the glossary by letters of the alphabet
     */
-    'showalphabet'?: number = null;
+    'Showalphabet'?: number = null;
     /**
     * If enabled, participants can browse the glossary by special characters, such as @ and #
     */
-    'showspecial'?: number = null;
+    'Showspecial'?: number = null;
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time modified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * If site-wide glossary auto-linking has been enabled by an administrator and this checkbox is ticked, the entry will be automatically linked wherever the concept words and phrases appear throughout the rest of the course.
     */
-    'usedynalink'?: number = null;
+    'Usedynalink'?: number = null;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowcomments",
+            "name": "Allowcomments",
             "baseName": "allowcomments",
             "type": "number"
         },
         {
-            "name": "allowduplicatedentries",
+            "name": "Allowduplicatedentries",
             "baseName": "allowduplicatedentries",
             "type": "number"
         },
         {
-            "name": "allowprintview",
+            "name": "Allowprintview",
             "baseName": "allowprintview",
             "type": "number"
         },
         {
-            "name": "approvaldisplayformat",
+            "name": "Approvaldisplayformat",
             "baseName": "approvaldisplayformat",
             "type": "string"
         },
         {
-            "name": "assessed",
+            "name": "Assessed",
             "baseName": "assessed",
             "type": "number"
         },
         {
-            "name": "assesstimefinish",
+            "name": "Assesstimefinish",
             "baseName": "assesstimefinish",
             "type": "number"
         },
         {
-            "name": "assesstimestart",
+            "name": "Assesstimestart",
             "baseName": "assesstimestart",
             "type": "number"
         },
         {
-            "name": "browsemodes",
+            "name": "Browsemodes",
             "baseName": "browsemodes",
             "type": "Array<object>"
         },
         {
-            "name": "canaddentry",
+            "name": "Canaddentry",
             "baseName": "canaddentry",
             "type": "number"
         },
         {
-            "name": "completionentries",
+            "name": "Completionentries",
             "baseName": "completionentries",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "defaultapproval",
+            "name": "Defaultapproval",
             "baseName": "defaultapproval",
             "type": "number"
         },
         {
-            "name": "displayformat",
+            "name": "Displayformat",
             "baseName": "displayformat",
             "type": "string"
         },
         {
-            "name": "editalways",
+            "name": "Editalways",
             "baseName": "editalways",
             "type": "number"
         },
         {
-            "name": "entbypage",
+            "name": "Entbypage",
             "baseName": "entbypage",
             "type": "number"
         },
         {
-            "name": "globalglossary",
+            "name": "Globalglossary",
             "baseName": "globalglossary",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "mainglossary",
+            "name": "Mainglossary",
             "baseName": "mainglossary",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "rssarticles",
+            "name": "Rssarticles",
             "baseName": "rssarticles",
             "type": "number"
         },
         {
-            "name": "rsstype",
+            "name": "Rsstype",
             "baseName": "rsstype",
             "type": "number"
         },
         {
-            "name": "scale",
+            "name": "Scale",
             "baseName": "scale",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "showall",
+            "name": "Showall",
             "baseName": "showall",
             "type": "number"
         },
         {
-            "name": "showalphabet",
+            "name": "Showalphabet",
             "baseName": "showalphabet",
             "type": "number"
         },
         {
-            "name": "showspecial",
+            "name": "Showspecial",
             "baseName": "showspecial",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usedynalink",
+            "name": "Usedynalink",
             "baseName": "usedynalink",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

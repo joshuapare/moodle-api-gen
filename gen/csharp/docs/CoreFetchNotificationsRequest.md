@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFetchNotificationsRequest
+# MoodleClient.Model.CoreFetchNotificationsRequest
 
 ## Properties
 

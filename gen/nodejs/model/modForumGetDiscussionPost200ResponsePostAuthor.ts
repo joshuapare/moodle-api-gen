@@ -18,43 +18,43 @@ export class ModForumGetDiscussionPost200ResponsePostAuthor {
     /**
     * fullname
     */
-    'fullname'?: string;
-    'groups'?: Array<ModForumGetDiscussionPost200ResponsePostAuthorGroupsInner>;
+    'Fullname'?: string;
+    'Groups'?: Array<ModForumGetDiscussionPost200ResponsePostAuthorGroupsInner>;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * isdeleted
     */
-    'isdeleted'?: boolean;
-    'urls': ModForumGetDiscussionPost200ResponsePostAuthorUrls;
+    'Isdeleted'?: boolean;
+    'Urls': ModForumGetDiscussionPost200ResponsePostAuthorUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "groups",
+            "name": "Groups",
             "baseName": "groups",
             "type": "Array<ModForumGetDiscussionPost200ResponsePostAuthorGroupsInner>"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isdeleted",
+            "name": "Isdeleted",
             "baseName": "isdeleted",
             "type": "boolean"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumGetDiscussionPost200ResponsePostAuthorUrls"
         }    ];

@@ -16,58 +16,58 @@ export class CoreGradesGetEnrolledUsersForSearchWidget200ResponseUsersInner {
     /**
     * Are we currently on this item?
     */
-    'active'?: boolean = null;
+    'Active'?: boolean = null;
     /**
     * An email address - allow email as root@localhost
     */
-    'email'?: string = 'null';
+    'Email'?: string = 'null';
     /**
     * The full name of the user
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * ID of the user
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The location of the users larger image
     */
-    'profileimage'?: string;
+    'Profileimage'?: string;
     /**
     * The link to the user report
     */
-    'url'?: string = 'null';
+    'Url'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "active",
+            "name": "Active",
             "baseName": "active",
             "type": "boolean"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "profileimage",
+            "name": "Profileimage",
             "baseName": "profileimage",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

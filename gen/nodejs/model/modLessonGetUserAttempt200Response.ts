@@ -16,25 +16,25 @@ import { ModLessonGetUserAttempt200ResponseAnswerpagesInner } from './modLessonG
 import { ModLessonGetUserAttempt200ResponseUserstats } from './modLessonGetUserAttempt200ResponseUserstats';
 
 export class ModLessonGetUserAttempt200Response {
-    'answerpages': Array<ModLessonGetUserAttempt200ResponseAnswerpagesInner>;
-    'userstats': ModLessonGetUserAttempt200ResponseUserstats;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Answerpages': Array<ModLessonGetUserAttempt200ResponseAnswerpagesInner>;
+    'Userstats': ModLessonGetUserAttempt200ResponseUserstats;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerpages",
+            "name": "Answerpages",
             "baseName": "answerpages",
             "type": "Array<ModLessonGetUserAttempt200ResponseAnswerpagesInner>"
         },
         {
-            "name": "userstats",
+            "name": "Userstats",
             "baseName": "userstats",
             "type": "ModLessonGetUserAttempt200ResponseUserstats"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

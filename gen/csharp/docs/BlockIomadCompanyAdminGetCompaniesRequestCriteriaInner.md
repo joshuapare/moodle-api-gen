@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminGetCompaniesRequestCriteriaInner
+# MoodleClient.Model.BlockIomadCompanyAdminGetCompaniesRequestCriteriaInner
 
 ## Properties
 

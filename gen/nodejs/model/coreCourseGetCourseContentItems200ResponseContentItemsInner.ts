@@ -16,112 +16,112 @@ export class CoreCourseGetCourseContentItems200ResponseContentItemsInner {
     /**
     * The archetype of the module exposing the content item
     */
-    'archetype'?: string;
+    'Archetype'?: string;
     /**
     * The name of the component exposing the content item
     */
-    'componentname'?: string;
+    'Componentname'?: string;
     /**
     * Has the user favourited the content item
     */
-    'favourite'?: boolean;
+    'Favourite'?: boolean;
     /**
     * Html description / help for the content item
     */
-    'help'?: string;
+    'Help'?: string;
     /**
     * Html containing the icon for the content item
     */
-    'icon'?: string;
+    'Icon'?: string;
     /**
     * The id of the content item
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * If this item was pulled from the old callback and has no item id.
     */
-    'legacyitem'?: boolean;
+    'Legacyitem'?: boolean;
     /**
     * The link to the content item creation page
     */
-    'link'?: string;
+    'Link'?: string;
     /**
     * Name of the content item
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * The purpose of the component exposing the content item
     */
-    'purpose'?: string;
+    'Purpose'?: string;
     /**
     * Has this item been recommended
     */
-    'recommended'?: boolean;
+    'Recommended'?: boolean;
     /**
     * The string title of the content item, human readable
     */
-    'title'?: string;
+    'Title'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "archetype",
+            "name": "Archetype",
             "baseName": "archetype",
             "type": "string"
         },
         {
-            "name": "componentname",
+            "name": "Componentname",
             "baseName": "componentname",
             "type": "string"
         },
         {
-            "name": "favourite",
+            "name": "Favourite",
             "baseName": "favourite",
             "type": "boolean"
         },
         {
-            "name": "help",
+            "name": "Help",
             "baseName": "help",
             "type": "string"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "legacyitem",
+            "name": "Legacyitem",
             "baseName": "legacyitem",
             "type": "boolean"
         },
         {
-            "name": "link",
+            "name": "Link",
             "baseName": "link",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "purpose",
+            "name": "Purpose",
             "baseName": "purpose",
             "type": "string"
         },
         {
-            "name": "recommended",
+            "name": "Recommended",
             "baseName": "recommended",
             "type": "boolean"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

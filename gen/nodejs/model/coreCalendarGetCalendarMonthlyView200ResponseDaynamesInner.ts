@@ -16,31 +16,31 @@ export class CoreCalendarGetCalendarMonthlyView200ResponseDaynamesInner {
     /**
     * dayno
     */
-    'dayno'?: number = null;
+    'Dayno'?: number = null;
     /**
     * fullname
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * shortname
     */
-    'shortname'?: string;
+    'Shortname'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "dayno",
+            "name": "Dayno",
             "baseName": "dayno",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         }    ];

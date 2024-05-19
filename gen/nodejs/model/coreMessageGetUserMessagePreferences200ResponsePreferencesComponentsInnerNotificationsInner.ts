@@ -17,28 +17,28 @@ export class CoreMessageGetUserMessagePreferences200ResponsePreferencesComponent
     /**
     * Display name
     */
-    'displayname'?: string;
+    'Displayname'?: string;
     /**
     * Preference key
     */
-    'preferencekey'?: string = 'null';
-    'processors'?: Array<CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInner>;
+    'Preferencekey'?: string = 'null';
+    'Processors'?: Array<CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "preferencekey",
+            "name": "Preferencekey",
             "baseName": "preferencekey",
             "type": "string"
         },
         {
-            "name": "processors",
+            "name": "Processors",
             "baseName": "processors",
             "type": "Array<CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInner>"
         }    ];

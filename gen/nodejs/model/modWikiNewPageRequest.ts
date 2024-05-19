@@ -16,67 +16,67 @@ export class ModWikiNewPageRequest {
     /**
     * Page contents.
     */
-    'content': string;
+    'Content': string;
     /**
     * Page contents format. If an invalid format is provided, default                     wiki format is used.
     */
-    'contentformat'?: string = 'null';
+    'Contentformat'?: string = 'null';
     /**
     * Subwiki\'s group ID. Used if subwiki does not exists.
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
     /**
     * Page\'s subwiki ID.
     */
-    'subwikiid'?: number;
+    'Subwikiid'?: number;
     /**
     * New page title.
     */
-    'title': string = 'null';
+    'Title': string = 'null';
     /**
     * Subwiki\'s user ID. Used if subwiki does not exists.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * Page\'s wiki ID. Used if subwiki does not exists.
     */
-    'wikiid'?: number = null;
+    'Wikiid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "string"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "subwikiid",
+            "name": "Subwikiid",
             "baseName": "subwikiid",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "wikiid",
+            "name": "Wikiid",
             "baseName": "wikiid",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class ModForumSetPinStateRequest {
     /**
     * The discussion to pin or unpin
     */
-    'discussionid': number = null;
+    'Discussionid': number = null;
     /**
     * The target state
     */
-    'targetstate': number = null;
+    'Targetstate': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         },
         {
-            "name": "targetstate",
+            "name": "Targetstate",
             "baseName": "targetstate",
             "type": "number"
         }    ];

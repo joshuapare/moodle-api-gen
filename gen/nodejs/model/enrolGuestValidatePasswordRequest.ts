@@ -16,22 +16,22 @@ export class EnrolGuestValidatePasswordRequest {
     /**
     * instance id of guest enrolment plugin
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
     /**
     * the course password
     */
-    'password': string = 'null';
+    'Password': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         }    ];

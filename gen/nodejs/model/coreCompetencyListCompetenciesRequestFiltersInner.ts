@@ -16,22 +16,22 @@ export class CoreCompetencyListCompetenciesRequestFiltersInner {
     /**
     * Column name to filter by
     */
-    'column'?: string;
+    'Column'?: string;
     /**
     * Value to filter by. Must be exact match
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "column",
+            "name": "Column",
             "baseName": "column",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

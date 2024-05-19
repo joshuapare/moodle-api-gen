@@ -20,154 +20,154 @@ export class ModQuizGetAttemptReview200ResponseQuestionsInner {
     /**
     * whether the question is blocked by the previous question
     */
-    'blockedbyprevious'?: boolean;
+    'Blockedbyprevious'?: boolean;
     /**
     * whether the question is flagged or not
     */
-    'flagged'?: boolean;
+    'Flagged'?: boolean;
     /**
     * whether this question attempt has autosaved data
     */
-    'hasautosavedstep'?: boolean;
+    'Hasautosavedstep'?: boolean;
     /**
     * the question rendered
     */
-    'html'?: string;
+    'Html'?: string;
     /**
     * the timestamp of the most recent step in this question attempt
     */
-    'lastactiontime'?: number;
+    'Lastactiontime'?: number;
     /**
     * the mark awarded.                     It will be returned only if the user is allowed to see it.
     */
-    'mark'?: string;
+    'Mark'?: string;
     /**
     * the maximum mark possible for this question attempt.                     It will be returned only if the user is allowed to see it.
     */
-    'maxmark'?: number;
+    'Maxmark'?: number;
     /**
     * DO NOT USE. Use questionnumber. Only retained for backwards compatibility.
     */
-    'number'?: number;
+    'Number'?: number;
     /**
     * page of the quiz this question appears on
     */
-    'page'?: number;
+    'Page'?: number;
     /**
     * The question number to display for this question, e.g. \"7\", \"i\" or \"Custom-B)\".
     */
-    'questionnumber'?: string;
-    'responsefileareas'?: Array<ModQuizGetAttemptReview200ResponseQuestionsInnerResponsefileareasInner>;
+    'Questionnumber'?: string;
+    'Responsefileareas'?: Array<ModQuizGetAttemptReview200ResponseQuestionsInnerResponsefileareasInner>;
     /**
     * the number of real steps in this attempt
     */
-    'sequencecheck'?: number;
+    'Sequencecheck'?: number;
     /**
     * Question settings (JSON encoded).
     */
-    'settings'?: string;
+    'Settings'?: string;
     /**
     * slot number
     */
-    'slot'?: number;
+    'Slot'?: number;
     /**
     * the state where the question is in.                     It will not be returned if the user cannot see it due to the quiz display correctness settings.
     */
-    'state'?: string;
+    'State'?: string;
     /**
     * current formatted state of the question
     */
-    'status'?: string;
+    'Status'?: string;
     /**
     * question type, i.e: multichoice
     */
-    'type'?: string;
+    'Type'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "blockedbyprevious",
+            "name": "Blockedbyprevious",
             "baseName": "blockedbyprevious",
             "type": "boolean"
         },
         {
-            "name": "flagged",
+            "name": "Flagged",
             "baseName": "flagged",
             "type": "boolean"
         },
         {
-            "name": "hasautosavedstep",
+            "name": "Hasautosavedstep",
             "baseName": "hasautosavedstep",
             "type": "boolean"
         },
         {
-            "name": "html",
+            "name": "Html",
             "baseName": "html",
             "type": "string"
         },
         {
-            "name": "lastactiontime",
+            "name": "Lastactiontime",
             "baseName": "lastactiontime",
             "type": "number"
         },
         {
-            "name": "mark",
+            "name": "Mark",
             "baseName": "mark",
             "type": "string"
         },
         {
-            "name": "maxmark",
+            "name": "Maxmark",
             "baseName": "maxmark",
             "type": "number"
         },
         {
-            "name": "number",
+            "name": "Number",
             "baseName": "number",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "questionnumber",
+            "name": "Questionnumber",
             "baseName": "questionnumber",
             "type": "string"
         },
         {
-            "name": "responsefileareas",
+            "name": "Responsefileareas",
             "baseName": "responsefileareas",
             "type": "Array<ModQuizGetAttemptReview200ResponseQuestionsInnerResponsefileareasInner>"
         },
         {
-            "name": "sequencecheck",
+            "name": "Sequencecheck",
             "baseName": "sequencecheck",
             "type": "number"
         },
         {
-            "name": "settings",
+            "name": "Settings",
             "baseName": "settings",
             "type": "string"
         },
         {
-            "name": "slot",
+            "name": "Slot",
             "baseName": "slot",
             "type": "number"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

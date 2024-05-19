@@ -16,49 +16,49 @@ export class ToolDataprivacySetContextDefaultsRequest {
     /**
     * The plugin name of the activity
     */
-    'activity'?: string;
+    'Activity'?: string;
     /**
     * The default category for the given context level
     */
-    'category': number = null;
+    'Category': number = null;
     /**
     * The context level
     */
-    'contextlevel': number = null;
+    'Contextlevel': number = null;
     /**
     * Whether to override existing instances with the defaults
     */
-    'override'?: boolean = false;
+    'Override'?: boolean = false;
     /**
     * The default purpose for the given context level
     */
-    'purpose': number = null;
+    'Purpose': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activity",
+            "name": "Activity",
             "baseName": "activity",
             "type": "string"
         },
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "number"
         },
         {
-            "name": "override",
+            "name": "Override",
             "baseName": "override",
             "type": "boolean"
         },
         {
-            "name": "purpose",
+            "name": "Purpose",
             "baseName": "purpose",
             "type": "number"
         }    ];

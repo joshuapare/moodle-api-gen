@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class ToolDataprivacyBulkDenyDataRequestsRequest {
-    'requestids': Array<object>;
+    'Requestids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "requestids",
+            "name": "Requestids",
             "baseName": "requestids",
             "type": "Array<object>"
         }    ];

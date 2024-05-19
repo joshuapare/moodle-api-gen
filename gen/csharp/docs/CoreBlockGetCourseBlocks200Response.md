@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlockGetCourseBlocks200Response
+# MoodleClient.Model.CoreBlockGetCourseBlocks200Response
 
 ## Properties
 

@@ -16,175 +16,175 @@ export class CoreGradesCreateGradecategoriesRequestCategoriesInnerOptions {
     /**
     * exclude empty grades
     */
-    'aggregateonlygraded'?: boolean = null;
+    'Aggregateonlygraded'?: boolean = null;
     /**
     * aggregate outcomes
     */
-    'aggregateoutcomes'?: boolean = null;
+    'Aggregateoutcomes'?: boolean = null;
     /**
     * aggregation method
     */
-    'aggregation'?: number = null;
+    'Aggregation'?: number = null;
     /**
     * weight coefficient
     */
-    'aggregationcoef2'?: string = 'null';
+    'Aggregationcoef2'?: string = 'null';
     /**
     * the decimal count
     */
-    'decimals'?: number = null;
+    'Decimals'?: number = null;
     /**
     * the display type
     */
-    'display'?: number = null;
+    'Display'?: number = null;
     /**
     * drop low grades
     */
-    'droplow'?: number = null;
+    'Droplow'?: number = null;
     /**
     * the grade max
     */
-    'grademax'?: number = null;
+    'Grademax'?: number = null;
     /**
     * the grade min
     */
-    'grademin'?: number = null;
+    'Grademin'?: number = null;
     /**
     * the grade to pass
     */
-    'gradepass'?: number = null;
+    'Gradepass'?: number = null;
     /**
     * the grade type
     */
-    'gradetype'?: number = null;
+    'Gradetype'?: number = null;
     /**
     * grades hidden until
     */
-    'hiddenuntil'?: number = null;
+    'Hiddenuntil'?: number = null;
     /**
     * the category idnumber
     */
-    'idnumber'?: string = 'null';
+    'Idnumber'?: string = 'null';
     /**
     * the category iteminfo
     */
-    'iteminfo'?: string = 'null';
+    'Iteminfo'?: string = 'null';
     /**
     * the category total name
     */
-    'itemname'?: string = 'null';
+    'Itemname'?: string = 'null';
     /**
     * lock grades after
     */
-    'locktime'?: number = null;
+    'Locktime'?: number = null;
     /**
     * The parent category id
     */
-    'parentcategoryid'?: number = null;
+    'Parentcategoryid'?: number = null;
     /**
     * the parent category idnumber
     */
-    'parentcategoryidnumber'?: string = 'null';
+    'Parentcategoryidnumber'?: string = 'null';
     /**
     * weight adjusted
     */
-    'weightoverride'?: boolean = null;
+    'Weightoverride'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aggregateonlygraded",
+            "name": "Aggregateonlygraded",
             "baseName": "aggregateonlygraded",
             "type": "boolean"
         },
         {
-            "name": "aggregateoutcomes",
+            "name": "Aggregateoutcomes",
             "baseName": "aggregateoutcomes",
             "type": "boolean"
         },
         {
-            "name": "aggregation",
+            "name": "Aggregation",
             "baseName": "aggregation",
             "type": "number"
         },
         {
-            "name": "aggregationcoef2",
+            "name": "Aggregationcoef2",
             "baseName": "aggregationcoef2",
             "type": "string"
         },
         {
-            "name": "decimals",
+            "name": "Decimals",
             "baseName": "decimals",
             "type": "number"
         },
         {
-            "name": "display",
+            "name": "Display",
             "baseName": "display",
             "type": "number"
         },
         {
-            "name": "droplow",
+            "name": "Droplow",
             "baseName": "droplow",
             "type": "number"
         },
         {
-            "name": "grademax",
+            "name": "Grademax",
             "baseName": "grademax",
             "type": "number"
         },
         {
-            "name": "grademin",
+            "name": "Grademin",
             "baseName": "grademin",
             "type": "number"
         },
         {
-            "name": "gradepass",
+            "name": "Gradepass",
             "baseName": "gradepass",
             "type": "number"
         },
         {
-            "name": "gradetype",
+            "name": "Gradetype",
             "baseName": "gradetype",
             "type": "number"
         },
         {
-            "name": "hiddenuntil",
+            "name": "Hiddenuntil",
             "baseName": "hiddenuntil",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "iteminfo",
+            "name": "Iteminfo",
             "baseName": "iteminfo",
             "type": "string"
         },
         {
-            "name": "itemname",
+            "name": "Itemname",
             "baseName": "itemname",
             "type": "string"
         },
         {
-            "name": "locktime",
+            "name": "Locktime",
             "baseName": "locktime",
             "type": "number"
         },
         {
-            "name": "parentcategoryid",
+            "name": "Parentcategoryid",
             "baseName": "parentcategoryid",
             "type": "number"
         },
         {
-            "name": "parentcategoryidnumber",
+            "name": "Parentcategoryidnumber",
             "baseName": "parentcategoryidnumber",
             "type": "string"
         },
         {
-            "name": "weightoverride",
+            "name": "Weightoverride",
             "baseName": "weightoverride",
             "type": "boolean"
         }    ];

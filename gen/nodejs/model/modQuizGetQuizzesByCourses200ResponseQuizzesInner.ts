@@ -17,469 +17,469 @@ export class ModQuizGetQuizzesByCourses200ResponseQuizzesInner {
     /**
     * Whether to allow the quiz to be attempted                                                                             offline in the mobile app
     */
-    'allowofflineattempts'?: number = null;
+    'Allowofflineattempts'?: number = null;
     /**
     * Whether subsequent attempts start from the answer                                                                     to the previous attempt (1) or start blank (0).
     */
-    'attemptonlast'?: number = null;
+    'Attemptonlast'?: number = null;
     /**
     * The maximum number of attempts a student is allowed.
     */
-    'attempts'?: number = null;
+    'Attempts'?: number = null;
     /**
     * Auto-save delay
     */
-    'autosaveperiod'?: number = null;
+    'Autosaveperiod'?: number = null;
     /**
     * Restriciton on the browser the student must                                                                     use. E.g. \'securewindow\'.
     */
-    'browsersecurity'?: string = 'null';
+    'Browsersecurity'?: string = 'null';
     /**
     * Allows students to redo any completed question                                                                         within a quiz attempt.
     */
-    'canredoquestions'?: number = null;
+    'Canredoquestions'?: number = null;
     /**
     * Mark quiz complete when the student has                                                                                 exhausted the maximum number of attempts
     */
-    'completionattemptsexhausted'?: number = null;
+    'Completionattemptsexhausted'?: number = null;
     /**
     * Whether to require passing grade
     */
-    'completionpass'?: number = null;
+    'Completionpass'?: number = null;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Number of decimal points to use when displaying                                                                     grades.
     */
-    'decimalpoints'?: number = null;
+    'Decimalpoints'?: number = null;
     /**
     * Delay that must be left between the first and second attempt,                                                             in seconds.
     */
-    'delay1'?: number = null;
+    'Delay1'?: number = null;
     /**
     * Delay that must be left between the second and subsequent                                                             attempt, in seconds.
     */
-    'delay2'?: number = null;
+    'Delay2'?: number = null;
     /**
     * The amount of time (in seconds) after the time limit                                                                 runs out during which attempts can still be submitted,                                                                 if overduehandling is set to allow it.
     */
-    'graceperiod'?: number = null;
+    'Graceperiod'?: number = null;
     /**
     * The total that the quiz overall grade is scaled to be                                                             out of.
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * One of the values QUIZ_GRADEHIGHEST, QUIZ_GRADEAVERAGE,                                                                     QUIZ_ATTEMPTFIRST or QUIZ_ATTEMPTLAST.
     */
-    'grademethod'?: number = null;
+    'Grademethod'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Whether the quiz has any non-blank feedback text
     */
-    'hasfeedback'?: number = null;
+    'Hasfeedback'?: number = null;
     /**
     * Whether the quiz has questions
     */
-    'hasquestions'?: number = null;
+    'Hasquestions'?: number = null;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Any constraints on how the user is allowed to navigate                                                                 around the quiz. Currently recognised values are                                                                 \'free\' and \'seq\'.
     */
-    'navmethod'?: string = 'null';
+    'Navmethod'?: string = 'null';
     /**
     * The method used to handle overdue attempts.                                                                     \'autosubmit\', \'graceperiod\' or \'autoabandon\'.
     */
-    'overduehandling'?: string = 'null';
+    'Overduehandling'?: string = 'null';
     /**
     * A password that the student must enter before starting or                                                                 continuing a quiz attempt.
     */
-    'password'?: string = 'null';
+    'Password'?: string = 'null';
     /**
     * The behaviour to ask questions to use.
     */
-    'preferredbehaviour'?: string = 'null';
+    'Preferredbehaviour'?: string = 'null';
     /**
     * Number of decimal points to use when                                                                             displaying question grades.                                                                             (-1 means use decimalpoints.)
     */
-    'questiondecimalpoints'?: number = null;
+    'Questiondecimalpoints'?: number = null;
     /**
     * How often to insert a page break when editing                                                                         the quiz, or when shuffling the question order.
     */
-    'questionsperpage'?: number = null;
+    'Questionsperpage'?: number = null;
     /**
     * Whether users are allowed to review their quiz                                                                     attempts at various times. This is a bit field, decoded by the                                                                     \\mod_quiz\\question\\display_options class. It is formed by ORing                                                                     together the constants defined there.
     */
-    'reviewattempt'?: number = null;
+    'Reviewattempt'?: number = null;
     /**
     * Whether users are allowed to review their quiz                                                        attempts at various times.A bit field, like reviewattempt.
     */
-    'reviewcorrectness'?: number = null;
+    'Reviewcorrectness'?: number = null;
     /**
     * Whether users are allowed to review their                                                                             quiz attempts at various times. A bit field, like                                                                             reviewattempt.
     */
-    'reviewgeneralfeedback'?: number = null;
+    'Reviewgeneralfeedback'?: number = null;
     /**
     * Whether users are allowed to review their quiz attempts                                                                 at various times. A bit field, like reviewattempt.
     */
-    'reviewmarks'?: number = null;
+    'Reviewmarks'?: number = null;
     /**
     * Whether users are allowed to review their quiz                                                   attempts at various times. A bit field, like reviewattempt.
     */
-    'reviewmaxmarks'?: number = null;
+    'Reviewmaxmarks'?: number = null;
     /**
     * Whether users are allowed to review their quiz                                                                             attempts at various times. A bit field, like                                                                             reviewattempt.
     */
-    'reviewoverallfeedback'?: number = null;
+    'Reviewoverallfeedback'?: number = null;
     /**
     * Whether users are allowed to review their quiz                                                                         attempts at various times. A bit field, like                                                                         reviewattempt.
     */
-    'reviewrightanswer'?: number = null;
+    'Reviewrightanswer'?: number = null;
     /**
     * Whether users are allowed to review their                                                                             quiz attempts at various times. A bit field, like                                                                             reviewattempt.
     */
-    'reviewspecificfeedback'?: number;
+    'Reviewspecificfeedback'?: number;
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Whether blocks should be shown on the attempt.php and                                                                 review.php pages.
     */
-    'showblocks'?: number = null;
+    'Showblocks'?: number = null;
     /**
     * Option to show the user\'s picture during the                                                                     attempt and on the review page.
     */
-    'showuserpicture'?: number = null;
+    'Showuserpicture'?: number = null;
     /**
     * Whether the parts of the question should be shuffled,                                                                     in those question types that support it.
     */
-    'shuffleanswers'?: number = null;
+    'Shuffleanswers'?: number = null;
     /**
     * Used to restrict the IP addresses from which this quiz can                                                             be attempted. The format is as requried by the address_in_subnet                                                             function.
     */
-    'subnet'?: string = 'null';
+    'Subnet'?: string = 'null';
     /**
     * The total of all the question instance maxmarks.
     */
-    'sumgrades'?: number = null;
+    'Sumgrades'?: number = null;
     /**
     * The time when this quiz closes. (0 = no restriction.)
     */
-    'timeclose'?: number = null;
+    'Timeclose'?: number = null;
     /**
     * The time when the quiz was added to the course.
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * The time limit for quiz attempts, in seconds.
     */
-    'timelimit'?: number = null;
+    'Timelimit'?: number = null;
     /**
     * Last modified time.
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * The time when this quiz opens. (0 = no restriction.)
     */
-    'timeopen'?: number = null;
+    'Timeopen'?: number = null;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowofflineattempts",
+            "name": "Allowofflineattempts",
             "baseName": "allowofflineattempts",
             "type": "number"
         },
         {
-            "name": "attemptonlast",
+            "name": "Attemptonlast",
             "baseName": "attemptonlast",
             "type": "number"
         },
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "number"
         },
         {
-            "name": "autosaveperiod",
+            "name": "Autosaveperiod",
             "baseName": "autosaveperiod",
             "type": "number"
         },
         {
-            "name": "browsersecurity",
+            "name": "Browsersecurity",
             "baseName": "browsersecurity",
             "type": "string"
         },
         {
-            "name": "canredoquestions",
+            "name": "Canredoquestions",
             "baseName": "canredoquestions",
             "type": "number"
         },
         {
-            "name": "completionattemptsexhausted",
+            "name": "Completionattemptsexhausted",
             "baseName": "completionattemptsexhausted",
             "type": "number"
         },
         {
-            "name": "completionpass",
+            "name": "Completionpass",
             "baseName": "completionpass",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "decimalpoints",
+            "name": "Decimalpoints",
             "baseName": "decimalpoints",
             "type": "number"
         },
         {
-            "name": "delay1",
+            "name": "Delay1",
             "baseName": "delay1",
             "type": "number"
         },
         {
-            "name": "delay2",
+            "name": "Delay2",
             "baseName": "delay2",
             "type": "number"
         },
         {
-            "name": "graceperiod",
+            "name": "Graceperiod",
             "baseName": "graceperiod",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "grademethod",
+            "name": "Grademethod",
             "baseName": "grademethod",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "hasfeedback",
+            "name": "Hasfeedback",
             "baseName": "hasfeedback",
             "type": "number"
         },
         {
-            "name": "hasquestions",
+            "name": "Hasquestions",
             "baseName": "hasquestions",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "navmethod",
+            "name": "Navmethod",
             "baseName": "navmethod",
             "type": "string"
         },
         {
-            "name": "overduehandling",
+            "name": "Overduehandling",
             "baseName": "overduehandling",
             "type": "string"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "preferredbehaviour",
+            "name": "Preferredbehaviour",
             "baseName": "preferredbehaviour",
             "type": "string"
         },
         {
-            "name": "questiondecimalpoints",
+            "name": "Questiondecimalpoints",
             "baseName": "questiondecimalpoints",
             "type": "number"
         },
         {
-            "name": "questionsperpage",
+            "name": "Questionsperpage",
             "baseName": "questionsperpage",
             "type": "number"
         },
         {
-            "name": "reviewattempt",
+            "name": "Reviewattempt",
             "baseName": "reviewattempt",
             "type": "number"
         },
         {
-            "name": "reviewcorrectness",
+            "name": "Reviewcorrectness",
             "baseName": "reviewcorrectness",
             "type": "number"
         },
         {
-            "name": "reviewgeneralfeedback",
+            "name": "Reviewgeneralfeedback",
             "baseName": "reviewgeneralfeedback",
             "type": "number"
         },
         {
-            "name": "reviewmarks",
+            "name": "Reviewmarks",
             "baseName": "reviewmarks",
             "type": "number"
         },
         {
-            "name": "reviewmaxmarks",
+            "name": "Reviewmaxmarks",
             "baseName": "reviewmaxmarks",
             "type": "number"
         },
         {
-            "name": "reviewoverallfeedback",
+            "name": "Reviewoverallfeedback",
             "baseName": "reviewoverallfeedback",
             "type": "number"
         },
         {
-            "name": "reviewrightanswer",
+            "name": "Reviewrightanswer",
             "baseName": "reviewrightanswer",
             "type": "number"
         },
         {
-            "name": "reviewspecificfeedback",
+            "name": "Reviewspecificfeedback",
             "baseName": "reviewspecificfeedback",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "showblocks",
+            "name": "Showblocks",
             "baseName": "showblocks",
             "type": "number"
         },
         {
-            "name": "showuserpicture",
+            "name": "Showuserpicture",
             "baseName": "showuserpicture",
             "type": "number"
         },
         {
-            "name": "shuffleanswers",
+            "name": "Shuffleanswers",
             "baseName": "shuffleanswers",
             "type": "number"
         },
         {
-            "name": "subnet",
+            "name": "Subnet",
             "baseName": "subnet",
             "type": "string"
         },
         {
-            "name": "sumgrades",
+            "name": "Sumgrades",
             "baseName": "sumgrades",
             "type": "number"
         },
         {
-            "name": "timeclose",
+            "name": "Timeclose",
             "baseName": "timeclose",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timelimit",
+            "name": "Timelimit",
             "baseName": "timelimit",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timeopen",
+            "name": "Timeopen",
             "baseName": "timeopen",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

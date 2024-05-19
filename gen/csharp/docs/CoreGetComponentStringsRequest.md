@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGetComponentStringsRequest
+# MoodleClient.Model.CoreGetComponentStringsRequest
 
 ## Properties
 

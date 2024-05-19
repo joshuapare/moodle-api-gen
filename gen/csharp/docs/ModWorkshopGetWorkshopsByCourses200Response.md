@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetWorkshopsByCourses200Response
+# MoodleClient.Model.ModWorkshopGetWorkshopsByCourses200Response
 
 ## Properties
 

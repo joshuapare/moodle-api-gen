@@ -17,379 +17,379 @@ export class ModWorkshopGetWorkshopsByCourses200ResponseWorkshopsInner {
     /**
     * 0 = will be closed manually, greater than 0 the timestamp of the end of the assessment phase.
     */
-    'assessmentend'?: number = 0;
+    'Assessmentend'?: number = 0;
     /**
     * 0 = will be started manually, greater than 0 the timestamp of the start of the assessment phase.
     */
-    'assessmentstart'?: number = 0;
+    'Assessmentstart'?: number = 0;
     /**
     * A text to be displayed at the end of the workshop.
     */
-    'conclusion'?: string = 'null';
-    'conclusionfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Conclusion'?: string = 'null';
+    'Conclusionfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * conclusion format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'conclusionformat'?: number = 0;
+    'Conclusionformat'?: number = 0;
     /**
     * Course id this workshop is part of.
     */
-    'course'?: number = null;
+    'Course'?: number = null;
     /**
     * coursemodule
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * The recently used grading evaluation method.
     */
-    'evaluation'?: string = 'null';
+    'Evaluation'?: string = 'null';
     /**
     * 0 = example assessments are voluntary, 1 = examples must be assessed before submission,                     2 = examples are available after own submission and must be assessed before peer/self assessment phase.
     */
-    'examplesmode'?: number = 0;
+    'Examplesmode'?: number = 0;
     /**
     * The maximum grade for submission.
     */
-    'grade'?: number = 80;
+    'Grade'?: number = 80;
     /**
     * Number of digits that should be shown after the decimal point when displaying grades.
     */
-    'gradedecimals'?: number = 0;
+    'Gradedecimals'?: number = 0;
     /**
     * The maximum grade for assessment.
     */
-    'gradinggrade'?: number = 20;
+    'Gradinggrade'?: number = 20;
     /**
     * The primary key of the record.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Instructions for the submission phase.
     */
-    'instructauthors'?: string = 'null';
-    'instructauthorsfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Instructauthors'?: string = 'null';
+    'Instructauthorsfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * instructauthors format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'instructauthorsformat'?: number = 0;
+    'Instructauthorsformat'?: number = 0;
     /**
     * Instructions for the assessment phase.
     */
-    'instructreviewers'?: string = 'null';
-    'instructreviewersfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Instructreviewers'?: string = 'null';
+    'Instructreviewersfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * instructreviewers format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'instructreviewersformat'?: number = 0;
+    'Instructreviewersformat'?: number = 0;
     /**
     * Workshop introduction text.
     */
-    'intro'?: string = '';
-    'introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Intro'?: string = '';
+    'Introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = 0;
+    'Introformat'?: number = 0;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Allow submitting the work after the deadline.
     */
-    'latesubmissions'?: boolean = false;
+    'Latesubmissions'?: boolean = false;
     /**
     * Maximum size of the one attached file.
     */
-    'maxbytes'?: number = 100000;
+    'Maxbytes'?: number = 100000;
     /**
     * Workshop name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Maximum number of submission attachments.
     */
-    'nattachments'?: number = 1;
+    'Nattachments'?: number = 1;
     /**
     * Number of allowed attachments to the overall feedback.
     */
-    'overallfeedbackfiles'?: number = 0;
+    'Overallfeedbackfiles'?: number = 0;
     /**
     * Comma separated list of file extensions.
     */
-    'overallfeedbackfiletypes'?: string = 'null';
+    'Overallfeedbackfiletypes'?: string = 'null';
     /**
     * Maximum size of one file attached to the overall feedback.
     */
-    'overallfeedbackmaxbytes'?: number = 100000;
+    'Overallfeedbackmaxbytes'?: number = 100000;
     /**
     * Mode of the overall feedback support.
     */
-    'overallfeedbackmode'?: number = 1;
+    'Overallfeedbackmode'?: number = 1;
     /**
     * The current phase of workshop (0 = not available, 1 = submission, 2 = assessment, 3 = closed).
     */
-    'phase'?: number = 0;
+    'Phase'?: number = 0;
     /**
     * Automatically switch to the assessment phase after the submissions deadline.
     */
-    'phaseswitchassessment'?: boolean = false;
+    'Phaseswitchassessment'?: boolean = false;
     /**
     * The type of the current grading strategy used in this workshop.
     */
-    'strategy'?: string = 'null';
+    'Strategy'?: string = 'null';
     /**
     * 0 = will be closed manually, greater than 0 the timestamp of the end of the submission phase.
     */
-    'submissionend'?: number = 0;
+    'Submissionend'?: number = 0;
     /**
     * Comma separated list of file extensions.
     */
-    'submissionfiletypes'?: string;
+    'Submissionfiletypes'?: string;
     /**
     * 0 = will be started manually, greater than 0 the timestamp of the start of the submission phase.
     */
-    'submissionstart'?: number = 0;
+    'Submissionstart'?: number = 0;
     /**
     * Indicates whether a file upload is required as part of each submission. 0 for no, 1 for optional, 2 for required.
     */
-    'submissiontypefile'?: number = 1;
+    'Submissiontypefile'?: number = 1;
     /**
     * Indicates whether text is required as part of each submission. 0 for no, 1 for optional, 2 for required.
     */
-    'submissiontypetext'?: number = 1;
+    'Submissiontypetext'?: number = 1;
     /**
     * The timestamp when the module was modified.
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * Optional feature: students practise evaluating on example submissions from teacher.
     */
-    'useexamples'?: boolean = false;
+    'Useexamples'?: boolean = false;
     /**
     * Optional feature: students perform peer assessment of others\' work.
     */
-    'usepeerassessment'?: boolean = false;
+    'Usepeerassessment'?: boolean = false;
     /**
     * Optional feature: students perform self assessment of their own work.
     */
-    'useselfassessment'?: boolean = false;
+    'Useselfassessment'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentend",
+            "name": "Assessmentend",
             "baseName": "assessmentend",
             "type": "number"
         },
         {
-            "name": "assessmentstart",
+            "name": "Assessmentstart",
             "baseName": "assessmentstart",
             "type": "number"
         },
         {
-            "name": "conclusion",
+            "name": "Conclusion",
             "baseName": "conclusion",
             "type": "string"
         },
         {
-            "name": "conclusionfiles",
+            "name": "Conclusionfiles",
             "baseName": "conclusionfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "conclusionformat",
+            "name": "Conclusionformat",
             "baseName": "conclusionformat",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "evaluation",
+            "name": "Evaluation",
             "baseName": "evaluation",
             "type": "string"
         },
         {
-            "name": "examplesmode",
+            "name": "Examplesmode",
             "baseName": "examplesmode",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradedecimals",
+            "name": "Gradedecimals",
             "baseName": "gradedecimals",
             "type": "number"
         },
         {
-            "name": "gradinggrade",
+            "name": "Gradinggrade",
             "baseName": "gradinggrade",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instructauthors",
+            "name": "Instructauthors",
             "baseName": "instructauthors",
             "type": "string"
         },
         {
-            "name": "instructauthorsfiles",
+            "name": "Instructauthorsfiles",
             "baseName": "instructauthorsfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "instructauthorsformat",
+            "name": "Instructauthorsformat",
             "baseName": "instructauthorsformat",
             "type": "number"
         },
         {
-            "name": "instructreviewers",
+            "name": "Instructreviewers",
             "baseName": "instructreviewers",
             "type": "string"
         },
         {
-            "name": "instructreviewersfiles",
+            "name": "Instructreviewersfiles",
             "baseName": "instructreviewersfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "instructreviewersformat",
+            "name": "Instructreviewersformat",
             "baseName": "instructreviewersformat",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "latesubmissions",
+            "name": "Latesubmissions",
             "baseName": "latesubmissions",
             "type": "boolean"
         },
         {
-            "name": "maxbytes",
+            "name": "Maxbytes",
             "baseName": "maxbytes",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nattachments",
+            "name": "Nattachments",
             "baseName": "nattachments",
             "type": "number"
         },
         {
-            "name": "overallfeedbackfiles",
+            "name": "Overallfeedbackfiles",
             "baseName": "overallfeedbackfiles",
             "type": "number"
         },
         {
-            "name": "overallfeedbackfiletypes",
+            "name": "Overallfeedbackfiletypes",
             "baseName": "overallfeedbackfiletypes",
             "type": "string"
         },
         {
-            "name": "overallfeedbackmaxbytes",
+            "name": "Overallfeedbackmaxbytes",
             "baseName": "overallfeedbackmaxbytes",
             "type": "number"
         },
         {
-            "name": "overallfeedbackmode",
+            "name": "Overallfeedbackmode",
             "baseName": "overallfeedbackmode",
             "type": "number"
         },
         {
-            "name": "phase",
+            "name": "Phase",
             "baseName": "phase",
             "type": "number"
         },
         {
-            "name": "phaseswitchassessment",
+            "name": "Phaseswitchassessment",
             "baseName": "phaseswitchassessment",
             "type": "boolean"
         },
         {
-            "name": "strategy",
+            "name": "Strategy",
             "baseName": "strategy",
             "type": "string"
         },
         {
-            "name": "submissionend",
+            "name": "Submissionend",
             "baseName": "submissionend",
             "type": "number"
         },
         {
-            "name": "submissionfiletypes",
+            "name": "Submissionfiletypes",
             "baseName": "submissionfiletypes",
             "type": "string"
         },
         {
-            "name": "submissionstart",
+            "name": "Submissionstart",
             "baseName": "submissionstart",
             "type": "number"
         },
         {
-            "name": "submissiontypefile",
+            "name": "Submissiontypefile",
             "baseName": "submissiontypefile",
             "type": "number"
         },
         {
-            "name": "submissiontypetext",
+            "name": "Submissiontypetext",
             "baseName": "submissiontypetext",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "useexamples",
+            "name": "Useexamples",
             "baseName": "useexamples",
             "type": "boolean"
         },
         {
-            "name": "usepeerassessment",
+            "name": "Usepeerassessment",
             "baseName": "usepeerassessment",
             "type": "boolean"
         },
         {
-            "name": "useselfassessment",
+            "name": "Useselfassessment",
             "baseName": "useselfassessment",
             "type": "boolean"
         }    ];

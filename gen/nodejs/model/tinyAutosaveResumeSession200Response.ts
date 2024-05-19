@@ -16,13 +16,13 @@ export class TinyAutosaveResumeSession200Response {
     /**
     * The draft text
     */
-    'drafttext': string = 'null';
+    'Drafttext': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "drafttext",
+            "name": "Drafttext",
             "baseName": "drafttext",
             "type": "string"
         }    ];

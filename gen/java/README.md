@@ -1,8 +1,8 @@
-# moodle-client-java
+# moodle-client
 
 Moodle Webservice API
 - API version: 4.3.4
-  - Build date: 2024-05-18T14:00:07.069642-05:00[America/Chicago]
+  - Build date: 2024-05-18T20:58:28.689161-05:00[America/Chicago]
   - Generator version: 7.5.0
 
 Auto-generated OpenAPI spec for Moodle's Webservice API. Requires installation of the Catalyst RESTful API plugin: https://github.com/catalyst/moodle-webservice_restful.
@@ -41,7 +41,7 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>com.joshuapare</groupId>
-  <artifactId>moodle-client-java</artifactId>
+  <artifactId>moodle-client</artifactId>
   <version>0.1.0</version>
   <scope>compile</scope>
 </dependency>
@@ -53,12 +53,12 @@ Add this dependency to your project's build file:
 
 ```groovy
   repositories {
-    mavenCentral()     // Needed if the 'moodle-client-java' jar has been published to maven central.
-    mavenLocal()       // Needed if the 'moodle-client-java' jar has been published to the local maven repo.
+    mavenCentral()     // Needed if the 'moodle-client' jar has been published to maven central.
+    mavenLocal()       // Needed if the 'moodle-client' jar has been published to the local maven repo.
   }
 
   dependencies {
-     implementation "com.joshuapare:moodle-client-java:0.1.0"
+     implementation "com.joshuapare:moodle-client:0.1.0"
   }
 ```
 
@@ -72,7 +72,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/moodle-client-java-0.1.0.jar`
+* `target/moodle-client-0.1.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -92,7 +92,7 @@ import com.joshuapare.moodleclient.AuthEmailApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -118,7 +118,7 @@ public class Example {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

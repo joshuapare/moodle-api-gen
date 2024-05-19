@@ -17,46 +17,46 @@ export class GradereportUserGetGradesTable200ResponseTablesInner {
     /**
     * course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * table max depth (needed for printing it)
     */
-    'maxdepth'?: number;
-    'tabledata'?: Array<GradereportUserGetGradesTable200ResponseTablesInnerTabledataInner>;
+    'Maxdepth'?: number;
+    'Tabledata'?: Array<GradereportUserGetGradesTable200ResponseTablesInnerTabledataInner>;
     /**
     * user fullname
     */
-    'userfullname'?: string;
+    'Userfullname'?: string;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "maxdepth",
+            "name": "Maxdepth",
             "baseName": "maxdepth",
             "type": "number"
         },
         {
-            "name": "tabledata",
+            "name": "Tabledata",
             "baseName": "tabledata",
             "type": "Array<GradereportUserGetGradesTable200ResponseTablesInnerTabledataInner>"
         },
         {
-            "name": "userfullname",
+            "name": "Userfullname",
             "baseName": "userfullname",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

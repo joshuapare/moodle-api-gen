@@ -16,19 +16,19 @@ export class ModH5pactivityGetAttemptsRequest {
     /**
     * h5p activity instance id
     */
-    'h5pactivityid': number = null;
-    'userids'?: Array<object>;
+    'H5pactivityid': number = null;
+    'Userids'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "h5pactivityid",
+            "name": "H5pactivityid",
             "baseName": "h5pactivityid",
             "type": "number"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

@@ -16,157 +16,157 @@ export class ToolLpDataForTemplatesManagePage200ResponseTemplatesInner {
     /**
     * canmanage
     */
-    'canmanage'?: boolean;
+    'Canmanage'?: boolean;
     /**
     * canread
     */
-    'canread'?: boolean;
+    'Canread'?: boolean;
     /**
     * cohortscount
     */
-    'cohortscount'?: number;
+    'Cohortscount'?: number;
     /**
     * contextid
     */
-    'contextid'?: number;
+    'Contextid'?: number;
     /**
     * contextname
     */
-    'contextname'?: string;
+    'Contextname'?: string;
     /**
     * contextnamenoprefix
     */
-    'contextnamenoprefix'?: string;
+    'Contextnamenoprefix'?: string;
     /**
     * description
     */
-    'description'?: string = '';
+    'Description'?: string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * duedate
     */
-    'duedate'?: number = 0;
+    'Duedate'?: number = 0;
     /**
     * duedateformatted
     */
-    'duedateformatted'?: string;
+    'Duedateformatted'?: string;
     /**
     * id
     */
-    'id'?: number = 0;
+    'Id'?: number = 0;
     /**
     * planscount
     */
-    'planscount'?: number;
+    'Planscount'?: number;
     /**
     * shortname
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * timecreated
     */
-    'timecreated'?: number = 0;
+    'Timecreated'?: number = 0;
     /**
     * timemodified
     */
-    'timemodified'?: number = 0;
+    'Timemodified'?: number = 0;
     /**
     * usermodified
     */
-    'usermodified'?: number = 0;
+    'Usermodified'?: number = 0;
     /**
     * visible
     */
-    'visible'?: boolean = 1;
+    'Visible'?: boolean = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "canread",
+            "name": "Canread",
             "baseName": "canread",
             "type": "boolean"
         },
         {
-            "name": "cohortscount",
+            "name": "Cohortscount",
             "baseName": "cohortscount",
             "type": "number"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextname",
+            "name": "Contextname",
             "baseName": "contextname",
             "type": "string"
         },
         {
-            "name": "contextnamenoprefix",
+            "name": "Contextnamenoprefix",
             "baseName": "contextnamenoprefix",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "duedate",
+            "name": "Duedate",
             "baseName": "duedate",
             "type": "number"
         },
         {
-            "name": "duedateformatted",
+            "name": "Duedateformatted",
             "baseName": "duedateformatted",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "planscount",
+            "name": "Planscount",
             "baseName": "planscount",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

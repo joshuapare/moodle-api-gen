@@ -17,55 +17,55 @@ export class CoreGradesGraderGradingpanelScaleFetch200ResponseGrade {
     /**
     * The assumed grader of this grading instance
     */
-    'gradedby': string;
+    'Gradedby': string;
     /**
     * Max possible grade
     */
-    'maxgrade': string;
-    'options': Array<CoreGradesGraderGradingpanelScaleFetch200ResponseGradeOptionsInner>;
+    'Maxgrade': string;
+    'Options': Array<CoreGradesGraderGradingpanelScaleFetch200ResponseGradeOptionsInner>;
     /**
     * The time that the grade was created
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * The time that the grade was last updated
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * Current user grade
     */
-    'usergrade': string;
+    'Usergrade': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "gradedby",
+            "name": "Gradedby",
             "baseName": "gradedby",
             "type": "string"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreGradesGraderGradingpanelScaleFetch200ResponseGradeOptionsInner>"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usergrade",
+            "name": "Usergrade",
             "baseName": "usergrade",
             "type": "string"
         }    ];

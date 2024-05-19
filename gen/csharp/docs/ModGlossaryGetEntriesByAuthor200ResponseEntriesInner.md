@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetEntriesByAuthor200ResponseEntriesInner
+# MoodleClient.Model.ModGlossaryGetEntriesByAuthor200ResponseEntriesInner
 
 ## Properties
 

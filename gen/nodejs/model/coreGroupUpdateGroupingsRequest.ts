@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreGroupUpdateGroupingsRequestGroupingsInner } from './coreGroupUpdateGroupingsRequestGroupingsInner';
 
 export class CoreGroupUpdateGroupingsRequest {
-    'groupings': Array<CoreGroupUpdateGroupingsRequestGroupingsInner>;
+    'Groupings': Array<CoreGroupUpdateGroupingsRequestGroupingsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupings",
+            "name": "Groupings",
             "baseName": "groupings",
             "type": "Array<CoreGroupUpdateGroupingsRequestGroupingsInner>"
         }    ];

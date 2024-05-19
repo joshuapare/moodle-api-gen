@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacySetContextlevelForm200Response
+# MoodleClient.Model.ToolDataprivacySetContextlevelForm200Response
 
 ## Properties
 

@@ -16,76 +16,76 @@ export class BlockIomadCompanyAdminGetLicenseInfo200ResponseLicensesInner {
     /**
     * Number of license slots
     */
-    'allocation'?: number;
+    'Allocation'?: number;
     /**
     * Company id
     */
-    'companyid'?: number;
+    'Companyid'?: number;
     /**
     * License expiry date
     */
-    'expirydate'?: number;
+    'Expirydate'?: number;
     /**
     * license ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * License name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Parent license id
     */
-    'parentid'?: number;
+    'Parentid'?: number;
     /**
     * Number allocated
     */
-    'used'?: number;
+    'Used'?: number;
     /**
     * Course access length (days)
     */
-    'validlength'?: number;
+    'Validlength'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allocation",
+            "name": "Allocation",
             "baseName": "allocation",
             "type": "number"
         },
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "expirydate",
+            "name": "Expirydate",
             "baseName": "expirydate",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "used",
+            "name": "Used",
             "baseName": "used",
             "type": "number"
         },
         {
-            "name": "validlength",
+            "name": "Validlength",
             "baseName": "validlength",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class ToolIomadpolicyGetIomadpolicyVersionRequest {
     /**
     * The id of user on whose behalf the user is viewing the iomadpolicy
     */
-    'behalfid'?: number = 0;
+    'Behalfid'?: number = 0;
     /**
     * The iomadpolicy version ID
     */
-    'versionid': number = null;
+    'Versionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "behalfid",
+            "name": "Behalfid",
             "baseName": "behalfid",
             "type": "number"
         },
         {
-            "name": "versionid",
+            "name": "Versionid",
             "baseName": "versionid",
             "type": "number"
         }    ];

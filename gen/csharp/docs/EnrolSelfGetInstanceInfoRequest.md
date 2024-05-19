@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.EnrolSelfGetInstanceInfoRequest
+# MoodleClient.Model.EnrolSelfGetInstanceInfoRequest
 
 ## Properties
 

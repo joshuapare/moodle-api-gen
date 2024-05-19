@@ -16,58 +16,58 @@ export class EnrolGuestGetInstanceInfo200ResponseInstanceinfo {
     /**
     * Id of course
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * Id of course enrolment instance
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Name of enrolment plugin
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * Is a password required?
     */
-    'passwordrequired': boolean = null;
+    'Passwordrequired': boolean = null;
     /**
     * Is the enrolment enabled?
     */
-    'status': boolean = null;
+    'Status': boolean = null;
     /**
     * Type of enrolment plugin
     */
-    'type': string = 'null';
+    'Type': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "passwordrequired",
+            "name": "Passwordrequired",
             "baseName": "passwordrequired",
             "type": "boolean"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

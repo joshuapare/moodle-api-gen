@@ -16,31 +16,31 @@ export class ModForumAddDiscussionPost200ResponsePostHtml {
     /**
     * The HTML source to view the author details
     */
-    'authorsubheading'?: string = 'null';
+    'Authorsubheading'?: string = 'null';
     /**
     * The HTML source to rate the post
     */
-    'rating'?: string = 'null';
+    'Rating'?: string = 'null';
     /**
     * The HTML source to view the list of tags
     */
-    'taglist'?: string = 'null';
+    'Taglist'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "authorsubheading",
+            "name": "Authorsubheading",
             "baseName": "authorsubheading",
             "type": "string"
         },
         {
-            "name": "rating",
+            "name": "Rating",
             "baseName": "rating",
             "type": "string"
         },
         {
-            "name": "taglist",
+            "name": "Taglist",
             "baseName": "taglist",
             "type": "string"
         }    ];

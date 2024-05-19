@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonFinishAttemptRequest
+# MoodleClient.Model.ModLessonFinishAttemptRequest
 
 ## Properties
 

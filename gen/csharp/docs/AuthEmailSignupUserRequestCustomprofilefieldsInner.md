@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.AuthEmailSignupUserRequestCustomprofilefieldsInner
+# MoodleClient.Model.AuthEmailSignupUserRequestCustomprofilefieldsInner
 
 ## Properties
 

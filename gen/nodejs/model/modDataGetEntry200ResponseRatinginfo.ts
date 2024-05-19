@@ -18,61 +18,61 @@ export class ModDataGetEntry200ResponseRatinginfo {
     /**
     * Whether the user can view all the individual ratings.
     */
-    'canviewall'?: boolean = null;
+    'Canviewall'?: boolean = null;
     /**
     * Whether the user can view aggregate of ratings of others.
     */
-    'canviewany'?: boolean = null;
+    'Canviewany'?: boolean = null;
     /**
     * Context name.
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * Context id.
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * Rating area name.
     */
-    'ratingarea': string = 'null';
-    'ratings'?: Array<ModDataGetEntry200ResponseRatinginfoRatingsInner>;
-    'scales'?: Array<ModDataGetEntry200ResponseRatinginfoScalesInner>;
+    'Ratingarea': string = 'null';
+    'Ratings'?: Array<ModDataGetEntry200ResponseRatinginfoRatingsInner>;
+    'Scales'?: Array<ModDataGetEntry200ResponseRatinginfoScalesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canviewall",
+            "name": "Canviewall",
             "baseName": "canviewall",
             "type": "boolean"
         },
         {
-            "name": "canviewany",
+            "name": "Canviewany",
             "baseName": "canviewany",
             "type": "boolean"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "ratingarea",
+            "name": "Ratingarea",
             "baseName": "ratingarea",
             "type": "string"
         },
         {
-            "name": "ratings",
+            "name": "Ratings",
             "baseName": "ratings",
             "type": "Array<ModDataGetEntry200ResponseRatinginfoRatingsInner>"
         },
         {
-            "name": "scales",
+            "name": "Scales",
             "baseName": "scales",
             "type": "Array<ModDataGetEntry200ResponseRatinginfoScalesInner>"
         }    ];

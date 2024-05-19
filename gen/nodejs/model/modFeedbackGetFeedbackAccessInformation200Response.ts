@@ -17,100 +17,100 @@ export class ModFeedbackGetFeedbackAccessInformation200Response {
     /**
     * Whether the user can complete the feedback or not.
     */
-    'cancomplete': boolean = null;
+    'Cancomplete': boolean = null;
     /**
     * Whether the user can delete submissions or not.
     */
-    'candeletesubmissions': boolean = null;
+    'Candeletesubmissions': boolean = null;
     /**
     * Whether the user can edit feedback items or not.
     */
-    'canedititems': boolean = null;
+    'Canedititems': boolean = null;
     /**
     * Whether the user can submit the feedback or not.
     */
-    'cansubmit': boolean = null;
+    'Cansubmit': boolean = null;
     /**
     * Whether the user can view the analysis or not.
     */
-    'canviewanalysis': boolean = null;
+    'Canviewanalysis': boolean = null;
     /**
     * Whether the user can view the feedback reports or not.
     */
-    'canviewreports': boolean = null;
+    'Canviewreports': boolean = null;
     /**
     * Whether the feedback is already submitted or not.
     */
-    'isalreadysubmitted': boolean = null;
+    'Isalreadysubmitted': boolean = null;
     /**
     * Whether the feedback is anonymous or not.
     */
-    'isanonymous': boolean = null;
+    'Isanonymous': boolean = null;
     /**
     * Whether the feedback has questions or not.
     */
-    'isempty': boolean = null;
+    'Isempty': boolean = null;
     /**
     * Whether the feedback has active access time restrictions or not.
     */
-    'isopen': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Isopen': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cancomplete",
+            "name": "Cancomplete",
             "baseName": "cancomplete",
             "type": "boolean"
         },
         {
-            "name": "candeletesubmissions",
+            "name": "Candeletesubmissions",
             "baseName": "candeletesubmissions",
             "type": "boolean"
         },
         {
-            "name": "canedititems",
+            "name": "Canedititems",
             "baseName": "canedititems",
             "type": "boolean"
         },
         {
-            "name": "cansubmit",
+            "name": "Cansubmit",
             "baseName": "cansubmit",
             "type": "boolean"
         },
         {
-            "name": "canviewanalysis",
+            "name": "Canviewanalysis",
             "baseName": "canviewanalysis",
             "type": "boolean"
         },
         {
-            "name": "canviewreports",
+            "name": "Canviewreports",
             "baseName": "canviewreports",
             "type": "boolean"
         },
         {
-            "name": "isalreadysubmitted",
+            "name": "Isalreadysubmitted",
             "baseName": "isalreadysubmitted",
             "type": "boolean"
         },
         {
-            "name": "isanonymous",
+            "name": "Isanonymous",
             "baseName": "isanonymous",
             "type": "boolean"
         },
         {
-            "name": "isempty",
+            "name": "Isempty",
             "baseName": "isempty",
             "type": "boolean"
         },
         {
-            "name": "isopen",
+            "name": "Isopen",
             "baseName": "isopen",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

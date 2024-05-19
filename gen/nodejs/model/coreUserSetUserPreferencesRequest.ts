@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreUserSetUserPreferencesRequestPreferencesInner } from './coreUserSetUserPreferencesRequestPreferencesInner';
 
 export class CoreUserSetUserPreferencesRequest {
-    'preferences': Array<CoreUserSetUserPreferencesRequestPreferencesInner>;
+    'Preferences': Array<CoreUserSetUserPreferencesRequestPreferencesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "Array<CoreUserSetUserPreferencesRequestPreferencesInner>"
         }    ];

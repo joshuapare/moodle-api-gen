@@ -16,58 +16,58 @@ export class ModForumSetPinState200ResponseUrls {
     /**
     * markasread
     */
-    'markasread': string = 'null';
+    'Markasread': string = 'null';
     /**
     * pin
     */
-    'pin'?: string = 'null';
+    'Pin'?: string = 'null';
     /**
     * subscribe
     */
-    'subscribe': string = 'null';
+    'Subscribe': string = 'null';
     /**
     * view
     */
-    'view': string;
+    'View': string;
     /**
     * viewfirstunread
     */
-    'viewfirstunread'?: string = 'null';
+    'Viewfirstunread'?: string = 'null';
     /**
     * viewlatest
     */
-    'viewlatest'?: string = 'null';
+    'Viewlatest'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "markasread",
+            "name": "Markasread",
             "baseName": "markasread",
             "type": "string"
         },
         {
-            "name": "pin",
+            "name": "Pin",
             "baseName": "pin",
             "type": "string"
         },
         {
-            "name": "subscribe",
+            "name": "Subscribe",
             "baseName": "subscribe",
             "type": "string"
         },
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "string"
         },
         {
-            "name": "viewfirstunread",
+            "name": "Viewfirstunread",
             "baseName": "viewfirstunread",
             "type": "string"
         },
         {
-            "name": "viewlatest",
+            "name": "Viewlatest",
             "baseName": "viewlatest",
             "type": "string"
         }    ];

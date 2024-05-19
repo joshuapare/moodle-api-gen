@@ -16,13 +16,13 @@ export class ModAssignCopyPreviousAttemptRequest {
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number = null;
+    'Assignmentid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         }    ];

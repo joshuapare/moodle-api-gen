@@ -16,13 +16,13 @@ export class ModResourceViewResourceRequest {
     /**
     * resource instance id
     */
-    'resourceid': number = null;
+    'Resourceid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "resourceid",
+            "name": "Resourceid",
             "baseName": "resourceid",
             "type": "number"
         }    ];

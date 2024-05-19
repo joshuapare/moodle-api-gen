@@ -16,31 +16,31 @@ export class ModChatGetSessionsRequest {
     /**
     * Chat instance id.
     */
-    'chatid': number;
+    'Chatid': number;
     /**
     * Get messages from users in this group.                                                 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * Whether to show completed sessions or not.
     */
-    'showall'?: boolean = false;
+    'Showall'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatid",
+            "name": "Chatid",
             "baseName": "chatid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "showall",
+            "name": "Showall",
             "baseName": "showall",
             "type": "boolean"
         }    ];

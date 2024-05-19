@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyCreatePlan200ResponseCommentarea
+# MoodleClient.Model.CoreCompetencyCreatePlan200ResponseCommentarea
 
 ## Properties
 

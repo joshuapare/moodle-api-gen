@@ -16,67 +16,67 @@ export class ModDataGetEntriesRequest {
     /**
     * data instance id
     */
-    'databaseid': number;
+    'Databaseid': number;
     /**
     * Group id, 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The direction of the sorting: \'ASC\' or \'DESC\'.                                                 Empty for using the default database setting.
     */
-    'order'?: string = 'null';
+    'Order'?: string = 'null';
     /**
     * The page of records to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of records to return per page
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * Whether to return contents or not. This will return each entry                                                         raw contents and the complete list view (using the template).
     */
-    'returncontents'?: boolean = false;
+    'Returncontents'?: boolean = false;
     /**
     * Sort the records by this field id, reserved ids are:                                                 0: timeadded                                                 -1: firstname                                                 -2: lastname                                                 -3: approved                                                 -4: timemodified.                                                 Empty for using the default database setting.
     */
-    'sort'?: number = null;
+    'Sort'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "databaseid",
+            "name": "Databaseid",
             "baseName": "databaseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "returncontents",
+            "name": "Returncontents",
             "baseName": "returncontents",
             "type": "boolean"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "number"
         }    ];

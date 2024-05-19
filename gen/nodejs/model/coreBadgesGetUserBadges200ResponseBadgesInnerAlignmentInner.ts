@@ -16,67 +16,67 @@ export class CoreBadgesGetUserBadges200ResponseBadgesInnerAlignmentInner {
     /**
     * Badge id
     */
-    'badgeid'?: number;
+    'Badgeid'?: number;
     /**
     * Alignment id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Target code
     */
-    'targetCode'?: string;
+    'TargetCode'?: string;
     /**
     * Target description
     */
-    'targetDescription'?: string;
+    'TargetDescription'?: string;
     /**
     * Target framework
     */
-    'targetFramework'?: string;
+    'TargetFramework'?: string;
     /**
     * Target name
     */
-    'targetName'?: string;
+    'TargetName'?: string;
     /**
     * Target URL
     */
-    'targetUrl'?: string;
+    'TargetUrl'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "badgeid",
+            "name": "Badgeid",
             "baseName": "badgeid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "targetCode",
+            "name": "TargetCode",
             "baseName": "targetCode",
             "type": "string"
         },
         {
-            "name": "targetDescription",
+            "name": "TargetDescription",
             "baseName": "targetDescription",
             "type": "string"
         },
         {
-            "name": "targetFramework",
+            "name": "TargetFramework",
             "baseName": "targetFramework",
             "type": "string"
         },
         {
-            "name": "targetName",
+            "name": "TargetName",
             "baseName": "targetName",
             "type": "string"
         },
         {
-            "name": "targetUrl",
+            "name": "TargetUrl",
             "baseName": "targetUrl",
             "type": "string"
         }    ];

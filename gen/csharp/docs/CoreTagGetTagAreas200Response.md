@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreTagGetTagAreas200Response
+# MoodleClient.Model.CoreTagGetTagAreas200Response
 
 ## Properties
 

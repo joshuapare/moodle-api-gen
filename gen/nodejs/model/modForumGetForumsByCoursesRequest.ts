@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class ModForumGetForumsByCoursesRequest {
-    'courseids'?: Array<object>;
+    'Courseids'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         }    ];

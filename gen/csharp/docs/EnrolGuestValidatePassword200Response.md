@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.EnrolGuestValidatePassword200Response
+# MoodleClient.Model.EnrolGuestValidatePassword200Response
 
 ## Properties
 

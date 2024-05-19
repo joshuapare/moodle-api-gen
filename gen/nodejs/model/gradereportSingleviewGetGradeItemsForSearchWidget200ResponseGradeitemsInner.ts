@@ -16,22 +16,22 @@ export class GradereportSingleviewGetGradeItemsForSearchWidget200ResponseGradeit
     /**
     * ID of the grade item
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The full name of the grade item
     */
-    'name'?: string;
+    'Name'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

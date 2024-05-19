@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreUserGetUsersRequestCriteriaInner } from './coreUserGetUsersRequestCriteriaInner';
 
 export class CoreUserGetUsersRequest {
-    'criteria': Array<CoreUserGetUsersRequestCriteriaInner>;
+    'Criteria': Array<CoreUserGetUsersRequestCriteriaInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "Array<CoreUserGetUsersRequestCriteriaInner>"
         }    ];

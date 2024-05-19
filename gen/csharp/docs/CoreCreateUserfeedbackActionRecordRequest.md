@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCreateUserfeedbackActionRecordRequest
+# MoodleClient.Model.CoreCreateUserfeedbackActionRecordRequest
 
 ## Properties
 

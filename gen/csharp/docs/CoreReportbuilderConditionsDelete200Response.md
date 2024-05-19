@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderConditionsDelete200Response
+# MoodleClient.Model.CoreReportbuilderConditionsDelete200Response
 
 ## Properties
 

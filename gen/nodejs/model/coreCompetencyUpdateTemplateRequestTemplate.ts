@@ -16,112 +16,112 @@ export class CoreCompetencyUpdateTemplateRequestTemplate {
     /**
     * The context id
     */
-    'contextid'?: number;
+    'Contextid'?: number;
     /**
     * The context level
     */
-    'contextlevel'?: string;
+    'Contextlevel'?: string;
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * duedate
     */
-    'duedate'?: number;
+    'Duedate'?: number;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * The Instance id
     */
-    'instanceid'?: number;
+    'Instanceid'?: number;
     /**
     * shortname
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * timecreated
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * timemodified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * usermodified
     */
-    'usermodified'?: number;
+    'Usermodified'?: number;
     /**
     * visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "duedate",
+            "name": "Duedate",
             "baseName": "duedate",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

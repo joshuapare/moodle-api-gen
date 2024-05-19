@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataGetDatabasesByCourses200Response
+# MoodleClient.Model.ModDataGetDatabasesByCourses200Response
 
 ## Properties
 

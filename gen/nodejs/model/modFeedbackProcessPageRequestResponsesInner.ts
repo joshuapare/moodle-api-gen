@@ -16,22 +16,22 @@ export class ModFeedbackProcessPageRequestResponsesInner {
     /**
     * The response name (usually type[index]_id).
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The response value.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

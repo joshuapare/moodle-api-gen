@@ -17,25 +17,25 @@ export class CoreCourseCheckUpdatesRequest {
     /**
     * Course id to check
     */
-    'courseid': number = null;
-    'filter'?: Array<object>;
-    'tocheck': Array<CoreCourseCheckUpdatesRequestTocheckInner>;
+    'Courseid': number = null;
+    'Filter'?: Array<object>;
+    'Tocheck': Array<CoreCourseCheckUpdatesRequestTocheckInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "Array<object>"
         },
         {
-            "name": "tocheck",
+            "name": "Tocheck",
             "baseName": "tocheck",
             "type": "Array<CoreCourseCheckUpdatesRequestTocheckInner>"
         }    ];

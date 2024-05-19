@@ -16,40 +16,40 @@ export class CoreFormDynamicForm200Response {
     /**
     * JSON-encoded return data from form processing method
     */
-    'data'?: string = 'null';
+    'Data'?: string = 'null';
     /**
     * HTML fragment of the form
     */
-    'html'?: string = 'null';
+    'Html'?: string = 'null';
     /**
     * JavaScript fragment of the form
     */
-    'javascript'?: string = 'null';
+    'Javascript'?: string = 'null';
     /**
     * If form was submitted and validated
     */
-    'submitted': boolean = null;
+    'Submitted': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "string"
         },
         {
-            "name": "html",
+            "name": "Html",
             "baseName": "html",
             "type": "string"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         },
         {
-            "name": "submitted",
+            "name": "Submitted",
             "baseName": "submitted",
             "type": "boolean"
         }    ];

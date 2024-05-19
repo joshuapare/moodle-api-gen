@@ -18,25 +18,25 @@ export class ModFeedbackGetNonRespondents200Response {
     /**
     * Total number of non respondents
     */
-    'total': number = null;
-    'users': Array<ModFeedbackGetNonRespondents200ResponseUsersInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Total': number = null;
+    'Users': Array<ModFeedbackGetNonRespondents200ResponseUsersInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "total",
+            "name": "Total",
             "baseName": "total",
             "type": "number"
         },
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<ModFeedbackGetNonRespondents200ResponseUsersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

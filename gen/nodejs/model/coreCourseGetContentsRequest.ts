@@ -17,19 +17,19 @@ export class CoreCourseGetContentsRequest {
     /**
     * course id
     */
-    'courseid': number;
-    'options'?: Array<CoreCourseGetContentsRequestOptionsInner>;
+    'Courseid': number;
+    'Options'?: Array<CoreCourseGetContentsRequestOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreCourseGetContentsRequestOptionsInner>"
         }    ];

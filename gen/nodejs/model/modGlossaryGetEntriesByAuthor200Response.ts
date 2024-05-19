@@ -19,31 +19,31 @@ export class ModGlossaryGetEntriesByAuthor200Response {
     /**
     * The total number of records matching the request.
     */
-    'count': number = null;
-    'entries': Array<ModGlossaryGetEntriesByAuthor200ResponseEntriesInner>;
-    'ratinginfo'?: ModForumGetDiscussionPosts200ResponseRatinginfo;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Count': number = null;
+    'Entries': Array<ModGlossaryGetEntriesByAuthor200ResponseEntriesInner>;
+    'Ratinginfo'?: ModForumGetDiscussionPosts200ResponseRatinginfo;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "entries",
+            "name": "Entries",
             "baseName": "entries",
             "type": "Array<ModGlossaryGetEntriesByAuthor200ResponseEntriesInner>"
         },
         {
-            "name": "ratinginfo",
+            "name": "Ratinginfo",
             "baseName": "ratinginfo",
             "type": "ModForumGetDiscussionPosts200ResponseRatinginfo"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

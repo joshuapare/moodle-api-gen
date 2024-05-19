@@ -19,106 +19,106 @@ import { ModForumSetSubscriptionState200ResponseUrls } from './modForumSetSubscr
 import { ModForumSetSubscriptionState200ResponseUserstate } from './modForumSetSubscriptionState200ResponseUserstate';
 
 export class ModForumSetSubscriptionState200Response {
-    'capabilities': ModForumSetSubscriptionState200ResponseCapabilities;
+    'Capabilities': ModForumSetSubscriptionState200ResponseCapabilities;
     /**
     * firstpostid
     */
-    'firstpostid': number;
+    'Firstpostid': number;
     /**
     * forumid
     */
-    'forumid': number;
-    'group'?: ModForumSetSubscriptionState200ResponseGroup;
+    'Forumid': number;
+    'Group'?: ModForumSetSubscriptionState200ResponseGroup;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * istimelocked
     */
-    'istimelocked': boolean;
+    'Istimelocked': boolean;
     /**
     * locked
     */
-    'locked': boolean;
+    'Locked': boolean;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * pinned
     */
-    'pinned': boolean;
-    'timed': ModForumSetSubscriptionState200ResponseTimed;
-    'times': ModForumSetSubscriptionState200ResponseTimes;
-    'urls': ModForumSetSubscriptionState200ResponseUrls;
-    'userstate': ModForumSetSubscriptionState200ResponseUserstate;
+    'Pinned': boolean;
+    'Timed': ModForumSetSubscriptionState200ResponseTimed;
+    'Times': ModForumSetSubscriptionState200ResponseTimes;
+    'Urls': ModForumSetSubscriptionState200ResponseUrls;
+    'Userstate': ModForumSetSubscriptionState200ResponseUserstate;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilities",
+            "name": "Capabilities",
             "baseName": "capabilities",
             "type": "ModForumSetSubscriptionState200ResponseCapabilities"
         },
         {
-            "name": "firstpostid",
+            "name": "Firstpostid",
             "baseName": "firstpostid",
             "type": "number"
         },
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "group",
+            "name": "Group",
             "baseName": "group",
             "type": "ModForumSetSubscriptionState200ResponseGroup"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "istimelocked",
+            "name": "Istimelocked",
             "baseName": "istimelocked",
             "type": "boolean"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "pinned",
+            "name": "Pinned",
             "baseName": "pinned",
             "type": "boolean"
         },
         {
-            "name": "timed",
+            "name": "Timed",
             "baseName": "timed",
             "type": "ModForumSetSubscriptionState200ResponseTimed"
         },
         {
-            "name": "times",
+            "name": "Times",
             "baseName": "times",
             "type": "ModForumSetSubscriptionState200ResponseTimes"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumSetSubscriptionState200ResponseUrls"
         },
         {
-            "name": "userstate",
+            "name": "Userstate",
             "baseName": "userstate",
             "type": "ModForumSetSubscriptionState200ResponseUserstate"
         }    ];

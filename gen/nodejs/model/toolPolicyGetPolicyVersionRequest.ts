@@ -16,22 +16,22 @@ export class ToolPolicyGetPolicyVersionRequest {
     /**
     * The id of user on whose behalf the user is viewing the policy
     */
-    'behalfid'?: number = 0;
+    'Behalfid'?: number = 0;
     /**
     * The policy version ID
     */
-    'versionid': number = null;
+    'Versionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "behalfid",
+            "name": "Behalfid",
             "baseName": "behalfid",
             "type": "number"
         },
         {
-            "name": "versionid",
+            "name": "Versionid",
             "baseName": "versionid",
             "type": "number"
         }    ];

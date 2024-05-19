@@ -20,451 +20,451 @@ export class ModScormGetScormsByCourses200ResponseScormsInner {
     /**
     * Auto continue?
     */
-    'auto'?: boolean = null;
+    'Auto'?: boolean = null;
     /**
     * Save track data automatically?
     */
-    'autocommit'?: boolean = null;
+    'Autocommit'?: boolean = null;
     /**
     * Minimum score required
     */
-    'completionscorerequired'?: number = null;
+    'Completionscorerequired'?: number = null;
     /**
     * Require all scos to return completion status
     */
-    'completionstatusallscos'?: number = null;
+    'Completionstatusallscos'?: number = null;
     /**
     * Status passed/completed required?
     */
-    'completionstatusrequired'?: number = null;
+    'Completionstatusrequired'?: number = null;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * How to display attempt status
     */
-    'displayattemptstatus'?: number = null;
+    'Displayattemptstatus'?: number = null;
     /**
     * Display contents structure
     */
-    'displaycoursestructure'?: boolean = null;
+    'Displaycoursestructure'?: boolean = null;
     /**
     * Status current attempt is forced to \"completed\"
     */
-    'forcecompleted'?: boolean = null;
+    'Forcecompleted'?: boolean = null;
     /**
     * Controls re-entry behaviour
     */
-    'forcenewattempt'?: number = null;
+    'Forcenewattempt'?: number = null;
     /**
     * Grade method
     */
-    'grademethod'?: number = null;
+    'Grademethod'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Frame height
     */
-    'height'?: number = null;
+    'Height'?: number = null;
     /**
     * Disable preview mode?
     */
-    'hidebrowse'?: boolean = null;
+    'Hidebrowse'?: boolean = null;
     /**
     * How to display the SCORM structure in player
     */
-    'hidetoc'?: number = null;
+    'Hidetoc'?: number = null;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Prevents to launch new attempts once finished
     */
-    'lastattemptlock'?: boolean = null;
+    'Lastattemptlock'?: boolean = null;
     /**
     * First content to launch
     */
-    'launch'?: number = null;
+    'Launch'?: number = null;
     /**
     * Maximum number of attemtps
     */
-    'maxattempt'?: number = null;
+    'Maxattempt'?: number = null;
     /**
     * Max grade
     */
-    'maxgrade'?: number = null;
+    'Maxgrade'?: number = null;
     /**
     * MD5 Hash of package file
     */
-    'md5hash'?: string = 'null';
+    'Md5hash'?: string = 'null';
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Show navigation buttons
     */
-    'nav'?: number = null;
+    'Nav'?: number = null;
     /**
     * Navigation position left
     */
-    'navpositionleft'?: number = null;
+    'Navpositionleft'?: number = null;
     /**
     * Navigation position top
     */
-    'navpositiontop'?: number = null;
+    'Navpositiontop'?: number = null;
     /**
     * Additional options
     */
-    'options'?: string;
+    'Options'?: string;
     /**
     * SCORM zip package size
     */
-    'packagesize'?: number = null;
+    'Packagesize'?: number = null;
     /**
     * SCORM zip package URL
     */
-    'packageurl'?: string = 'null';
+    'Packageurl'?: string = 'null';
     /**
     * Display in current or new window
     */
-    'popup'?: number = null;
+    'Popup'?: number = null;
     /**
     * Protect package downloads?
     */
-    'protectpackagedownloads'?: boolean = null;
+    'Protectpackagedownloads'?: boolean = null;
     /**
     * Reference to the package
     */
-    'reference'?: string = 'null';
+    'Reference'?: string = 'null';
     /**
     * Revison number
     */
-    'revision'?: number = null;
+    'Revision'?: number = null;
     /**
     * SCORM type
     */
-    'scormtype'?: string = 'null';
+    'Scormtype'?: string = 'null';
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Package content or ext path hash
     */
-    'sha1hash'?: string = 'null';
+    'Sha1hash'?: string = 'null';
     /**
     * How to skip the content structure page
     */
-    'skipview'?: number = null;
+    'Skipview'?: number = null;
     /**
     * Available to
     */
-    'timeclose'?: number = null;
+    'Timeclose'?: number = null;
     /**
     * Time of last modification
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Available from
     */
-    'timeopen'?: number = null;
+    'Timeopen'?: number = null;
     /**
     * Auto-update frequency for remote packages
     */
-    'updatefreq'?: number = null;
+    'Updatefreq'?: number = null;
     /**
     * SCORM version (SCORM_12, SCORM_13, SCORM_AICC)
     */
-    'version'?: string = 'null';
+    'Version'?: string = 'null';
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
     /**
     * What grade
     */
-    'whatgrade'?: number = null;
+    'Whatgrade'?: number = null;
     /**
     * Frame width
     */
-    'width'?: number = null;
+    'Width'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "auto",
+            "name": "Auto",
             "baseName": "auto",
             "type": "boolean"
         },
         {
-            "name": "autocommit",
+            "name": "Autocommit",
             "baseName": "autocommit",
             "type": "boolean"
         },
         {
-            "name": "completionscorerequired",
+            "name": "Completionscorerequired",
             "baseName": "completionscorerequired",
             "type": "number"
         },
         {
-            "name": "completionstatusallscos",
+            "name": "Completionstatusallscos",
             "baseName": "completionstatusallscos",
             "type": "number"
         },
         {
-            "name": "completionstatusrequired",
+            "name": "Completionstatusrequired",
             "baseName": "completionstatusrequired",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "displayattemptstatus",
+            "name": "Displayattemptstatus",
             "baseName": "displayattemptstatus",
             "type": "number"
         },
         {
-            "name": "displaycoursestructure",
+            "name": "Displaycoursestructure",
             "baseName": "displaycoursestructure",
             "type": "boolean"
         },
         {
-            "name": "forcecompleted",
+            "name": "Forcecompleted",
             "baseName": "forcecompleted",
             "type": "boolean"
         },
         {
-            "name": "forcenewattempt",
+            "name": "Forcenewattempt",
             "baseName": "forcenewattempt",
             "type": "number"
         },
         {
-            "name": "grademethod",
+            "name": "Grademethod",
             "baseName": "grademethod",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "height",
+            "name": "Height",
             "baseName": "height",
             "type": "number"
         },
         {
-            "name": "hidebrowse",
+            "name": "Hidebrowse",
             "baseName": "hidebrowse",
             "type": "boolean"
         },
         {
-            "name": "hidetoc",
+            "name": "Hidetoc",
             "baseName": "hidetoc",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "lastattemptlock",
+            "name": "Lastattemptlock",
             "baseName": "lastattemptlock",
             "type": "boolean"
         },
         {
-            "name": "launch",
+            "name": "Launch",
             "baseName": "launch",
             "type": "number"
         },
         {
-            "name": "maxattempt",
+            "name": "Maxattempt",
             "baseName": "maxattempt",
             "type": "number"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "number"
         },
         {
-            "name": "md5hash",
+            "name": "Md5hash",
             "baseName": "md5hash",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nav",
+            "name": "Nav",
             "baseName": "nav",
             "type": "number"
         },
         {
-            "name": "navpositionleft",
+            "name": "Navpositionleft",
             "baseName": "navpositionleft",
             "type": "number"
         },
         {
-            "name": "navpositiontop",
+            "name": "Navpositiontop",
             "baseName": "navpositiontop",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "string"
         },
         {
-            "name": "packagesize",
+            "name": "Packagesize",
             "baseName": "packagesize",
             "type": "number"
         },
         {
-            "name": "packageurl",
+            "name": "Packageurl",
             "baseName": "packageurl",
             "type": "string"
         },
         {
-            "name": "popup",
+            "name": "Popup",
             "baseName": "popup",
             "type": "number"
         },
         {
-            "name": "protectpackagedownloads",
+            "name": "Protectpackagedownloads",
             "baseName": "protectpackagedownloads",
             "type": "boolean"
         },
         {
-            "name": "reference",
+            "name": "Reference",
             "baseName": "reference",
             "type": "string"
         },
         {
-            "name": "revision",
+            "name": "Revision",
             "baseName": "revision",
             "type": "number"
         },
         {
-            "name": "scormtype",
+            "name": "Scormtype",
             "baseName": "scormtype",
             "type": "string"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "sha1hash",
+            "name": "Sha1hash",
             "baseName": "sha1hash",
             "type": "string"
         },
         {
-            "name": "skipview",
+            "name": "Skipview",
             "baseName": "skipview",
             "type": "number"
         },
         {
-            "name": "timeclose",
+            "name": "Timeclose",
             "baseName": "timeclose",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timeopen",
+            "name": "Timeopen",
             "baseName": "timeopen",
             "type": "number"
         },
         {
-            "name": "updatefreq",
+            "name": "Updatefreq",
             "baseName": "updatefreq",
             "type": "number"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         },
         {
-            "name": "whatgrade",
+            "name": "Whatgrade",
             "baseName": "whatgrade",
             "type": "number"
         },
         {
-            "name": "width",
+            "name": "Width",
             "baseName": "width",
             "type": "number"
         }    ];

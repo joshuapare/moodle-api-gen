@@ -16,67 +16,67 @@ export class ModAssignGetUserFlags200ResponseAssignmentsInnerUserflagsInner {
     /**
     * allocated marker
     */
-    'allocatedmarker'?: number = null;
+    'Allocatedmarker'?: number = null;
     /**
     * extension due date
     */
-    'extensionduedate'?: number = null;
+    'Extensionduedate'?: number = null;
     /**
     * user flag id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * locked
     */
-    'locked'?: number = null;
+    'Locked'?: number = null;
     /**
     * mailed
     */
-    'mailed'?: number = null;
+    'Mailed'?: number = null;
     /**
     * student id
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * marking workflow state
     */
-    'workflowstate'?: string = 'null';
+    'Workflowstate'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allocatedmarker",
+            "name": "Allocatedmarker",
             "baseName": "allocatedmarker",
             "type": "number"
         },
         {
-            "name": "extensionduedate",
+            "name": "Extensionduedate",
             "baseName": "extensionduedate",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "number"
         },
         {
-            "name": "mailed",
+            "name": "Mailed",
             "baseName": "mailed",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "workflowstate",
+            "name": "Workflowstate",
             "baseName": "workflowstate",
             "type": "string"
         }    ];

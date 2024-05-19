@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreDynamicTabsGetContent200Response
+# MoodleClient.Model.CoreDynamicTabsGetContent200Response
 
 ## Properties
 

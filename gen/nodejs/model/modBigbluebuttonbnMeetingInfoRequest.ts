@@ -16,31 +16,31 @@ export class ModBigbluebuttonbnMeetingInfoRequest {
     /**
     * bigbluebuttonbn instance id
     */
-    'bigbluebuttonbnid': number;
+    'Bigbluebuttonbnid': number;
     /**
     * bigbluebuttonbn group id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * update cache ?
     */
-    'updatecache'?: boolean = false;
+    'Updatecache'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bigbluebuttonbnid",
+            "name": "Bigbluebuttonbnid",
             "baseName": "bigbluebuttonbnid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "updatecache",
+            "name": "Updatecache",
             "baseName": "updatecache",
             "type": "boolean"
         }    ];

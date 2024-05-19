@@ -15,19 +15,19 @@ import { CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuid
 import { CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCriteriaInner } from './coreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCriteriaInner';
 
 export class CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuide {
-    'guideComments'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCommentsInner>;
-    'guideCriteria'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCriteriaInner>;
+    'GuideComments'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCommentsInner>;
+    'GuideCriteria'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCriteriaInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "guideComments",
+            "name": "GuideComments",
             "baseName": "guide_comments",
             "type": "Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCommentsInner>"
         },
         {
-            "name": "guideCriteria",
+            "name": "GuideCriteria",
             "baseName": "guide_criteria",
             "type": "Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuideGuideCriteriaInner>"
         }    ];

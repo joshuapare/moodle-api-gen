@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumGetDiscussionPost200ResponsePostTagsInner
+# MoodleClient.Model.ModForumGetDiscussionPost200ResponsePostTagsInner
 
 ## Properties
 

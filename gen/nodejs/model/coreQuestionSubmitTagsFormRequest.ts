@@ -16,31 +16,31 @@ export class CoreQuestionSubmitTagsFormRequest {
     /**
     * The editing context id
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * The data from the tag form
     */
-    'formdata': string = 'null';
+    'Formdata': string = 'null';
     /**
     * The question id
     */
-    'questionid': number = null;
+    'Questionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "formdata",
+            "name": "Formdata",
             "baseName": "formdata",
             "type": "string"
         },
         {
-            "name": "questionid",
+            "name": "Questionid",
             "baseName": "questionid",
             "type": "number"
         }    ];

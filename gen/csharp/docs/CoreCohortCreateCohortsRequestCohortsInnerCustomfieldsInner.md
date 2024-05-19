@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCohortCreateCohortsRequestCohortsInnerCustomfieldsInner
+# MoodleClient.Model.CoreCohortCreateCohortsRequestCohortsInnerCustomfieldsInner
 
 ## Properties
 

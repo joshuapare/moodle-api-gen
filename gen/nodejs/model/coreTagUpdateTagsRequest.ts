@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreTagUpdateTagsRequestTagsInner } from './coreTagUpdateTagsRequestTagsInner';
 
 export class CoreTagUpdateTagsRequest {
-    'tags': Array<CoreTagUpdateTagsRequestTagsInner>;
+    'Tags': Array<CoreTagUpdateTagsRequestTagsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<CoreTagUpdateTagsRequestTagsInner>"
         }    ];

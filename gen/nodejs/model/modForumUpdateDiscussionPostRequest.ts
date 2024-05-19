@@ -17,46 +17,46 @@ export class ModForumUpdateDiscussionPostRequest {
     /**
     * Updated post message (HTML assumed if messageformat is not provided)
     */
-    'message'?: string = '';
+    'Message'?: string = '';
     /**
     * message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'messageformat'?: number = 1;
-    'options'?: Array<ModForumUpdateDiscussionPostRequestOptionsInner>;
+    'Messageformat'?: number = 1;
+    'Options'?: Array<ModForumUpdateDiscussionPostRequestOptionsInner>;
     /**
     * Post to be updated. It can be a discussion topic post.
     */
-    'postid': number = null;
+    'Postid': number = null;
     /**
     * Updated post subject
     */
-    'subject'?: string = '';
+    'Subject'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "messageformat",
+            "name": "Messageformat",
             "baseName": "messageformat",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModForumUpdateDiscussionPostRequestOptionsInner>"
         },
         {
-            "name": "postid",
+            "name": "Postid",
             "baseName": "postid",
             "type": "number"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         }    ];

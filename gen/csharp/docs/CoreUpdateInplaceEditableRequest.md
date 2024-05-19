@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUpdateInplaceEditableRequest
+# MoodleClient.Model.CoreUpdateInplaceEditableRequest
 
 ## Properties
 

@@ -17,28 +17,28 @@ export class ToolMobileGetTokensForQrLogin200Response {
     /**
     * Private token used for auto-login processes.
     */
-    'privatetoken': string = 'null';
+    'Privatetoken': string = 'null';
     /**
     * A valid WebService token for the official mobile app service.
     */
-    'token': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Token': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "privatetoken",
+            "name": "Privatetoken",
             "baseName": "privatetoken",
             "type": "string"
         },
         {
-            "name": "token",
+            "name": "Token",
             "baseName": "token",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

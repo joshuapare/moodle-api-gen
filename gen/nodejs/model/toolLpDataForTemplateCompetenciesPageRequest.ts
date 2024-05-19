@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohortsRequestContext } from './coreCohortSearchCohortsRequestContext';
 
 export class ToolLpDataForTemplateCompetenciesPageRequest {
-    'pagecontext': CoreCohortSearchCohortsRequestContext;
+    'Pagecontext': CoreCohortSearchCohortsRequestContext;
     /**
     * The template id
     */
-    'templateid': number;
+    'Templateid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pagecontext",
+            "name": "Pagecontext",
             "baseName": "pagecontext",
             "type": "CoreCohortSearchCohortsRequestContext"
         },
         {
-            "name": "templateid",
+            "name": "Templateid",
             "baseName": "templateid",
             "type": "number"
         }    ];

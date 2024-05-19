@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.EnrolLicenseEnrolUser200Response
+# MoodleClient.Model.EnrolLicenseEnrolUser200Response
 
 ## Properties
 

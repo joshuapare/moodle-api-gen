@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBackupGetCopyProgressRequestCopiesInner
+# MoodleClient.Model.CoreBackupGetCopyProgressRequestCopiesInner
 Copy data
 
 ## Properties

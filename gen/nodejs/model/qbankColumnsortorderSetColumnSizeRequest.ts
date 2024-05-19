@@ -16,22 +16,22 @@ export class QbankColumnsortorderSetColumnSizeRequest {
     /**
     * Set global config setting, rather than user preference
     */
-    'global'?: boolean = false;
+    'Global'?: boolean = false;
     /**
     * Size for each column, as a JSON string representing [column => size]
     */
-    'sizes'?: string = 'null';
+    'Sizes'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "global",
+            "name": "Global",
             "baseName": "global",
             "type": "boolean"
         },
         {
-            "name": "sizes",
+            "name": "Sizes",
             "baseName": "sizes",
             "type": "string"
         }    ];

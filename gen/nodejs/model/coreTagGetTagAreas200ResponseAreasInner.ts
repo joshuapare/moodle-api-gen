@@ -16,94 +16,94 @@ export class CoreTagGetTagAreas200ResponseAreasInner {
     /**
     * Component callback for processing tags.
     */
-    'callback'?: string = 'null';
+    'Callback'?: string = 'null';
     /**
     * Component callback file.
     */
-    'callbackfile'?: string = 'null';
+    'Callbackfile'?: string = 'null';
     /**
     * Component the area is related to.
     */
-    'component'?: string = 'null';
+    'Component'?: string = 'null';
     /**
     * Whether this area is enabled.
     */
-    'enabled'?: boolean = true;
+    'Enabled'?: boolean = true;
     /**
     * Area id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Type of item in the component.
     */
-    'itemtype'?: string = 'null';
+    'Itemtype'?: string = 'null';
     /**
     * Whether the area is locked.
     */
-    'locked'?: boolean = false;
+    'Locked'?: boolean = false;
     /**
     * Whether the tag area allows tag instances to be created in multiple contexts. 
     */
-    'multiplecontexts'?: boolean = false;
+    'Multiplecontexts'?: boolean = false;
     /**
     * Return whether to display only standard, only non-standard or both tags.
     */
-    'showstandard'?: number = 0;
+    'Showstandard'?: number = 0;
     /**
     * The tag collection this are belongs to.
     */
-    'tagcollid'?: number = null;
+    'Tagcollid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "callback",
+            "name": "Callback",
             "baseName": "callback",
             "type": "string"
         },
         {
-            "name": "callbackfile",
+            "name": "Callbackfile",
             "baseName": "callbackfile",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "enabled",
+            "name": "Enabled",
             "baseName": "enabled",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "itemtype",
+            "name": "Itemtype",
             "baseName": "itemtype",
             "type": "string"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "multiplecontexts",
+            "name": "Multiplecontexts",
             "baseName": "multiplecontexts",
             "type": "boolean"
         },
         {
-            "name": "showstandard",
+            "name": "Showstandard",
             "baseName": "showstandard",
             "type": "number"
         },
         {
-            "name": "tagcollid",
+            "name": "Tagcollid",
             "baseName": "tagcollid",
             "type": "number"
         }    ];

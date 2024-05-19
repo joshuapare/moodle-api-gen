@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsAdd200ResponseSortablecolumnsInnerSorticon
+# MoodleClient.Model.CoreReportbuilderColumnsAdd200ResponseSortablecolumnsInnerSorticon
 
 ## Properties
 

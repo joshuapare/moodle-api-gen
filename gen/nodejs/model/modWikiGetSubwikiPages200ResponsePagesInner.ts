@@ -20,136 +20,136 @@ export class ModWikiGetSubwikiPages200ResponsePagesInner {
     /**
     * Page contents.
     */
-    'cachedcontent'?: string;
+    'Cachedcontent'?: string;
     /**
     * True if user can edit the page.
     */
-    'caneditpage'?: boolean;
+    'Caneditpage'?: boolean;
     /**
     * cachedcontent format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'contentformat'?: number;
+    'Contentformat'?: number;
     /**
     * Size of page contents in bytes (doesn\'t include size of attached files).
     */
-    'contentsize'?: number = null;
+    'Contentsize'?: number = null;
     /**
     * True if it\'s the first page.
     */
-    'firstpage'?: boolean = null;
+    'Firstpage'?: boolean = null;
     /**
     * Page ID.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Number of times the page has been viewed.
     */
-    'pageviews'?: number = null;
+    'Pageviews'?: number = null;
     /**
     * 1 if readonly, 0 otherwise.
     */
-    'readonly'?: number = null;
+    'Readonly'?: number = null;
     /**
     * Page\'s subwiki ID.
     */
-    'subwikiid'?: number;
-    'tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
+    'Subwikiid'?: number;
+    'Tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
     /**
     * Time of creation.
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * Time of last modification.
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * Time of last renderization.
     */
-    'timerendered'?: number = null;
+    'Timerendered'?: number = null;
     /**
     * Page title.
     */
-    'title'?: string;
+    'Title'?: string;
     /**
     * ID of the user that last modified the page.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cachedcontent",
+            "name": "Cachedcontent",
             "baseName": "cachedcontent",
             "type": "string"
         },
         {
-            "name": "caneditpage",
+            "name": "Caneditpage",
             "baseName": "caneditpage",
             "type": "boolean"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "number"
         },
         {
-            "name": "contentsize",
+            "name": "Contentsize",
             "baseName": "contentsize",
             "type": "number"
         },
         {
-            "name": "firstpage",
+            "name": "Firstpage",
             "baseName": "firstpage",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "pageviews",
+            "name": "Pageviews",
             "baseName": "pageviews",
             "type": "number"
         },
         {
-            "name": "readonly",
+            "name": "Readonly",
             "baseName": "readonly",
             "type": "number"
         },
         {
-            "name": "subwikiid",
+            "name": "Subwikiid",
             "baseName": "subwikiid",
             "type": "number"
         },
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timerendered",
+            "name": "Timerendered",
             "baseName": "timerendered",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

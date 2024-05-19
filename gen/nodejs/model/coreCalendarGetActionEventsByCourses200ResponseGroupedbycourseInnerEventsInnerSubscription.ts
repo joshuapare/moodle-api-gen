@@ -16,31 +16,31 @@ export class CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner
     /**
     * displayeventsource
     */
-    'displayeventsource': boolean;
+    'Displayeventsource': boolean;
     /**
     * subscriptionname
     */
-    'subscriptionname'?: string;
+    'Subscriptionname'?: string;
     /**
     * subscriptionurl
     */
-    'subscriptionurl'?: string;
+    'Subscriptionurl'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayeventsource",
+            "name": "Displayeventsource",
             "baseName": "displayeventsource",
             "type": "boolean"
         },
         {
-            "name": "subscriptionname",
+            "name": "Subscriptionname",
             "baseName": "subscriptionname",
             "type": "string"
         },
         {
-            "name": "subscriptionurl",
+            "name": "Subscriptionurl",
             "baseName": "subscriptionurl",
             "type": "string"
         }    ];

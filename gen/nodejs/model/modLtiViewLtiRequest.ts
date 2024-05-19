@@ -16,13 +16,13 @@ export class ModLtiViewLtiRequest {
     /**
     * lti instance id
     */
-    'ltiid': number = null;
+    'Ltiid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ltiid",
+            "name": "Ltiid",
             "baseName": "ltiid",
             "type": "number"
         }    ];

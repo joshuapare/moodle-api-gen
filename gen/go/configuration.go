@@ -93,8 +93,8 @@ func NewConfiguration() *Configuration {
 		Debug:            false,
 		Servers:          ServerConfigurations{
 			{
-				URL: "{scheme}://{host}/webservice/rest/server.php",
-				Description: "Custom Moodle server URL",
+				URL: "{scheme}://{host}/webservice/restful/server.php",
+				Description: "Moodle Server URL",
 				Variables: map[string]ServerVariable{
 					"host": ServerVariable{
 						Description: "The hostname of the Moodle server",

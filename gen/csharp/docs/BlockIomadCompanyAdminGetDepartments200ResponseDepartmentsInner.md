@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminGetDepartments200ResponseDepartmentsInner
+# MoodleClient.Model.BlockIomadCompanyAdminGetDepartments200ResponseDepartmentsInner
 
 ## Properties
 

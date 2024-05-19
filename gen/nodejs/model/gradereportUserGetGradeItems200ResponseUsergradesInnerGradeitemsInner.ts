@@ -19,310 +19,310 @@ export class GradereportUserGetGradeItems200ResponseUsergradesInnerGradeitemsInn
     /**
     * Grade average
     */
-    'averageformatted'?: string = 'null';
+    'Averageformatted'?: string = 'null';
     /**
     * Grade item category id
     */
-    'categoryid'?: number = null;
+    'Categoryid'?: number = null;
     /**
     * Course module id (if type mod)
     */
-    'cmid'?: number = null;
+    'Cmid'?: number = null;
     /**
     * Grade feedback
     */
-    'feedback'?: string = 'null';
+    'Feedback'?: string = 'null';
     /**
     * feedback format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'feedbackformat'?: number;
+    'Feedbackformat'?: number;
     /**
     * Grade graded date
     */
-    'gradedategraded'?: number = null;
+    'Gradedategraded'?: number = null;
     /**
     * Grade submit date
     */
-    'gradedatesubmitted'?: number = null;
+    'Gradedatesubmitted'?: number = null;
     /**
     * The grade formatted
     */
-    'gradeformatted'?: string = 'null';
+    'Gradeformatted'?: string = 'null';
     /**
     * Grade hidden by date?
     */
-    'gradehiddenbydate'?: boolean = null;
+    'Gradehiddenbydate'?: boolean = null;
     /**
     * Grade is hidden?
     */
-    'gradeishidden'?: boolean = null;
+    'Gradeishidden'?: boolean = null;
     /**
     * Grade is locked?
     */
-    'gradeislocked'?: boolean = null;
+    'Gradeislocked'?: boolean = null;
     /**
     * Grade overridden?
     */
-    'gradeisoverridden'?: boolean = null;
+    'Gradeisoverridden'?: boolean = null;
     /**
     * Grade max
     */
-    'grademax'?: number = null;
+    'Grademax'?: number = null;
     /**
     * Grade min
     */
-    'grademin'?: number = null;
+    'Grademin'?: number = null;
     /**
     * Grade needs update?
     */
-    'gradeneedsupdate'?: boolean = null;
+    'Gradeneedsupdate'?: boolean = null;
     /**
     * Grade raw
     */
-    'graderaw'?: number = null;
+    'Graderaw'?: number = null;
     /**
     * Grade item id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Grade item idnumber
     */
-    'idnumber'?: string = 'null';
+    'Idnumber'?: string = 'null';
     /**
     * Grade item instance
     */
-    'iteminstance'?: number = null;
+    'Iteminstance'?: number = null;
     /**
     * Grade item module
     */
-    'itemmodule'?: string = 'null';
+    'Itemmodule'?: string = 'null';
     /**
     * Grade item name
     */
-    'itemname'?: string = 'null';
+    'Itemname'?: string = 'null';
     /**
     * Grade item item number
     */
-    'itemnumber'?: number = null;
+    'Itemnumber'?: number = null;
     /**
     * Grade item type
     */
-    'itemtype'?: string = 'null';
+    'Itemtype'?: string = 'null';
     /**
     * Letter grade
     */
-    'lettergradeformatted'?: string = 'null';
+    'Lettergradeformatted'?: string = 'null';
     /**
     * Grade item for user locked?
     */
-    'locked'?: boolean = null;
+    'Locked'?: boolean = null;
     /**
     * Num users in course
     */
-    'numusers'?: number = null;
+    'Numusers'?: number = null;
     /**
     * Outcome id
     */
-    'outcomeid'?: number = null;
+    'Outcomeid'?: number = null;
     /**
     * Percentage
     */
-    'percentageformatted'?: string = 'null';
+    'Percentageformatted'?: string = 'null';
     /**
     * Range formatted
     */
-    'rangeformatted'?: string = 'null';
+    'Rangeformatted'?: string = 'null';
     /**
     * Rank in the course
     */
-    'rank'?: number = null;
+    'Rank'?: number = null;
     /**
     * Scale id
     */
-    'scaleid'?: number = null;
+    'Scaleid'?: number = null;
     /**
     * Status
     */
-    'status'?: string = 'null';
+    'Status'?: string = 'null';
     /**
     * Weight
     */
-    'weightformatted'?: string = 'null';
+    'Weightformatted'?: string = 'null';
     /**
     * Weight raw
     */
-    'weightraw'?: number = null;
+    'Weightraw'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "averageformatted",
+            "name": "Averageformatted",
             "baseName": "averageformatted",
             "type": "string"
         },
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "string"
         },
         {
-            "name": "feedbackformat",
+            "name": "Feedbackformat",
             "baseName": "feedbackformat",
             "type": "number"
         },
         {
-            "name": "gradedategraded",
+            "name": "Gradedategraded",
             "baseName": "gradedategraded",
             "type": "number"
         },
         {
-            "name": "gradedatesubmitted",
+            "name": "Gradedatesubmitted",
             "baseName": "gradedatesubmitted",
             "type": "number"
         },
         {
-            "name": "gradeformatted",
+            "name": "Gradeformatted",
             "baseName": "gradeformatted",
             "type": "string"
         },
         {
-            "name": "gradehiddenbydate",
+            "name": "Gradehiddenbydate",
             "baseName": "gradehiddenbydate",
             "type": "boolean"
         },
         {
-            "name": "gradeishidden",
+            "name": "Gradeishidden",
             "baseName": "gradeishidden",
             "type": "boolean"
         },
         {
-            "name": "gradeislocked",
+            "name": "Gradeislocked",
             "baseName": "gradeislocked",
             "type": "boolean"
         },
         {
-            "name": "gradeisoverridden",
+            "name": "Gradeisoverridden",
             "baseName": "gradeisoverridden",
             "type": "boolean"
         },
         {
-            "name": "grademax",
+            "name": "Grademax",
             "baseName": "grademax",
             "type": "number"
         },
         {
-            "name": "grademin",
+            "name": "Grademin",
             "baseName": "grademin",
             "type": "number"
         },
         {
-            "name": "gradeneedsupdate",
+            "name": "Gradeneedsupdate",
             "baseName": "gradeneedsupdate",
             "type": "boolean"
         },
         {
-            "name": "graderaw",
+            "name": "Graderaw",
             "baseName": "graderaw",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "iteminstance",
+            "name": "Iteminstance",
             "baseName": "iteminstance",
             "type": "number"
         },
         {
-            "name": "itemmodule",
+            "name": "Itemmodule",
             "baseName": "itemmodule",
             "type": "string"
         },
         {
-            "name": "itemname",
+            "name": "Itemname",
             "baseName": "itemname",
             "type": "string"
         },
         {
-            "name": "itemnumber",
+            "name": "Itemnumber",
             "baseName": "itemnumber",
             "type": "number"
         },
         {
-            "name": "itemtype",
+            "name": "Itemtype",
             "baseName": "itemtype",
             "type": "string"
         },
         {
-            "name": "lettergradeformatted",
+            "name": "Lettergradeformatted",
             "baseName": "lettergradeformatted",
             "type": "string"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "numusers",
+            "name": "Numusers",
             "baseName": "numusers",
             "type": "number"
         },
         {
-            "name": "outcomeid",
+            "name": "Outcomeid",
             "baseName": "outcomeid",
             "type": "number"
         },
         {
-            "name": "percentageformatted",
+            "name": "Percentageformatted",
             "baseName": "percentageformatted",
             "type": "string"
         },
         {
-            "name": "rangeformatted",
+            "name": "Rangeformatted",
             "baseName": "rangeformatted",
             "type": "string"
         },
         {
-            "name": "rank",
+            "name": "Rank",
             "baseName": "rank",
             "type": "number"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "weightformatted",
+            "name": "Weightformatted",
             "baseName": "weightformatted",
             "type": "string"
         },
         {
-            "name": "weightraw",
+            "name": "Weightraw",
             "baseName": "weightraw",
             "type": "number"
         }    ];

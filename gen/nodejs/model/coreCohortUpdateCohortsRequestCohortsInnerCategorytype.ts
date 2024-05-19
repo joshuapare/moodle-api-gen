@@ -16,22 +16,22 @@ export class CoreCohortUpdateCohortsRequestCohortsInnerCategorytype {
     /**
     * the name of the field: id (numeric value                                         of course category id) or idnumber (alphanumeric value of idnumber course category)                                         or system (value ignored)
     */
-    'type': string;
+    'Type': string;
     /**
     * the value of the categorytype
     */
-    'value': string;
+    'Value': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

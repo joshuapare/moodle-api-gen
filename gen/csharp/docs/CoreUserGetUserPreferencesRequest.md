@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserGetUserPreferencesRequest
+# MoodleClient.Model.CoreUserGetUserPreferencesRequest
 
 ## Properties
 

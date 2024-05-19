@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminAssignUsers200Response
+# MoodleClient.Model.BlockIomadCompanyAdminAssignUsers200Response
 
 ## Properties
 

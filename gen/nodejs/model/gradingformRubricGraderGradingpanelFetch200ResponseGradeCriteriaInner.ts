@@ -17,37 +17,37 @@ export class GradingformRubricGraderGradingpanelFetch200ResponseGradeCriteriaInn
     /**
     * Description of the Criteria
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * ID of the Criteria
     */
-    'id'?: number = null;
-    'levels'?: Array<GradingformRubricGraderGradingpanelFetch200ResponseGradeCriteriaInnerLevelsInner>;
+    'Id'?: number = null;
+    'Levels'?: Array<GradingformRubricGraderGradingpanelFetch200ResponseGradeCriteriaInnerLevelsInner>;
     /**
     * Any remarks for this criterion for the user being assessed
     */
-    'remark'?: string;
+    'Remark'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "levels",
+            "name": "Levels",
             "baseName": "levels",
             "type": "Array<GradingformRubricGraderGradingpanelFetch200ResponseGradeCriteriaInnerLevelsInner>"
         },
         {
-            "name": "remark",
+            "name": "Remark",
             "baseName": "remark",
             "type": "string"
         }    ];

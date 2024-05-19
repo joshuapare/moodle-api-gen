@@ -17,19 +17,19 @@ export class CoreCourseGetCategoriesRequest {
     /**
     * return the sub categories infos                                           (1 - default) otherwise only the category info (0)
     */
-    'addsubcategories'?: boolean = 1;
-    'criteria'?: Array<CoreCourseGetCategoriesRequestCriteriaInner>;
+    'Addsubcategories'?: boolean = 1;
+    'Criteria'?: Array<CoreCourseGetCategoriesRequestCriteriaInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addsubcategories",
+            "name": "Addsubcategories",
             "baseName": "addsubcategories",
             "type": "boolean"
         },
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "Array<CoreCourseGetCategoriesRequestCriteriaInner>"
         }    ];

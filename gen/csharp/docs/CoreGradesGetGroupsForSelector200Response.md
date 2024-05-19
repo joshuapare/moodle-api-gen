@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetGroupsForSelector200Response
+# MoodleClient.Model.CoreGradesGetGroupsForSelector200Response
 
 ## Properties
 

@@ -16,85 +16,85 @@ export class ModForumAddDiscussionPost200ResponsePostCapabilities {
     /**
     * Whether the user can post a private reply
     */
-    'canreplyprivately': boolean = null;
+    'Canreplyprivately': boolean = null;
     /**
     * Whether the user can control the read status of the post
     */
-    'controlreadstatus': boolean = null;
+    'Controlreadstatus': boolean = null;
     /**
     * Whether the user can delete the post
     */
-    '_delete': boolean = null;
+    'Delete': boolean = null;
     /**
     * Whether the user can edit the post
     */
-    'edit': boolean = null;
+    'Edit': boolean = null;
     /**
     * Whether the user can export the post
     */
-    '_export': boolean = null;
+    'Export': boolean = null;
     /**
     * Whether the user can reply to the post
     */
-    'reply': boolean = null;
+    'Reply': boolean = null;
     /**
     * Whether the user can self enrol into the course
     */
-    'selfenrol': boolean = null;
+    'Selfenrol': boolean = null;
     /**
     * Whether the user can split the post
     */
-    'split': boolean = null;
+    'Split': boolean = null;
     /**
     * Whether the user can view the post
     */
-    'view': boolean = null;
+    'View': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canreplyprivately",
+            "name": "Canreplyprivately",
             "baseName": "canreplyprivately",
             "type": "boolean"
         },
         {
-            "name": "controlreadstatus",
+            "name": "Controlreadstatus",
             "baseName": "controlreadstatus",
             "type": "boolean"
         },
         {
-            "name": "_delete",
+            "name": "Delete",
             "baseName": "delete",
             "type": "boolean"
         },
         {
-            "name": "edit",
+            "name": "Edit",
             "baseName": "edit",
             "type": "boolean"
         },
         {
-            "name": "_export",
+            "name": "Export",
             "baseName": "export",
             "type": "boolean"
         },
         {
-            "name": "reply",
+            "name": "Reply",
             "baseName": "reply",
             "type": "boolean"
         },
         {
-            "name": "selfenrol",
+            "name": "Selfenrol",
             "baseName": "selfenrol",
             "type": "boolean"
         },
         {
-            "name": "split",
+            "name": "Split",
             "baseName": "split",
             "type": "boolean"
         },
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "boolean"
         }    ];

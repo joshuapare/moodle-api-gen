@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreTagGetTagCloudRequest
+# MoodleClient.Model.CoreTagGetTagCloudRequest
 
 ## Properties
 

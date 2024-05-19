@@ -17,43 +17,43 @@ export class ModQuizProcessAttemptRequest {
     /**
     * attempt id
     */
-    'attemptid': number;
-    'data'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
+    'Attemptid': number;
+    'Data'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
     /**
     * whether to finish or not the attempt
     */
-    'finishattempt'?: boolean = false;
-    'preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
+    'Finishattempt'?: boolean = false;
+    'Preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
     /**
     * whether the WS was called by a timer when the time is up
     */
-    'timeup'?: boolean = false;
+    'Timeup'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModQuizGetAttemptDataRequestPreflightdataInner>"
         },
         {
-            "name": "finishattempt",
+            "name": "Finishattempt",
             "baseName": "finishattempt",
             "type": "boolean"
         },
         {
-            "name": "preflightdata",
+            "name": "Preflightdata",
             "baseName": "preflightdata",
             "type": "Array<ModQuizGetAttemptDataRequestPreflightdataInner>"
         },
         {
-            "name": "timeup",
+            "name": "Timeup",
             "baseName": "timeup",
             "type": "boolean"
         }    ];

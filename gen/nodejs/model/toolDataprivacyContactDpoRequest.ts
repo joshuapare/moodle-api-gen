@@ -16,13 +16,13 @@ export class ToolDataprivacyContactDpoRequest {
     /**
     * The user\'s message to the Data Protection Officer(s)
     */
-    'message': string = 'null';
+    'Message': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetUserFlags200ResponseWarningsInner
+# MoodleClient.Model.ModAssignGetUserFlags200ResponseWarningsInner
 warning
 
 ## Properties

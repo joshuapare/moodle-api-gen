@@ -17,28 +17,28 @@ export class CoreCourseCheckUpdates200ResponseInstancesInner {
     /**
     * The context level
     */
-    'contextlevel'?: string;
+    'Contextlevel'?: string;
     /**
     * Instance id
     */
-    'id'?: number = null;
-    'updates'?: Array<CoreCourseCheckUpdates200ResponseInstancesInnerUpdatesInner>;
+    'Id'?: number = null;
+    'Updates'?: Array<CoreCourseCheckUpdates200ResponseInstancesInnerUpdatesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "updates",
+            "name": "Updates",
             "baseName": "updates",
             "type": "Array<CoreCourseCheckUpdates200ResponseInstancesInnerUpdatesInner>"
         }    ];

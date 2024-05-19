@@ -16,67 +16,67 @@ export class ModChoiceGetChoiceOptions200ResponseOptionsInner {
     /**
     * we already answered
     */
-    'checked'?: boolean = null;
+    'Checked'?: boolean = null;
     /**
     * number of answers
     */
-    'countanswers'?: number = null;
+    'Countanswers'?: number = null;
     /**
     * option disabled
     */
-    'disabled'?: boolean = null;
+    'Disabled'?: boolean = null;
     /**
     * true for orizontal, otherwise vertical
     */
-    'displaylayout'?: boolean = null;
+    'Displaylayout'?: boolean = null;
     /**
     * option id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * maximum number of answers
     */
-    'maxanswers'?: number = null;
+    'Maxanswers'?: number = null;
     /**
     * text of the choice
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "checked",
+            "name": "Checked",
             "baseName": "checked",
             "type": "boolean"
         },
         {
-            "name": "countanswers",
+            "name": "Countanswers",
             "baseName": "countanswers",
             "type": "number"
         },
         {
-            "name": "disabled",
+            "name": "Disabled",
             "baseName": "disabled",
             "type": "boolean"
         },
         {
-            "name": "displaylayout",
+            "name": "Displaylayout",
             "baseName": "displaylayout",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "maxanswers",
+            "name": "Maxanswers",
             "baseName": "maxanswers",
             "type": "number"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

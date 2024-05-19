@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyUpdateCompetencyRequestCompetency
+# MoodleClient.Model.CoreCompetencyUpdateCompetencyRequestCompetency
 
 ## Properties
 

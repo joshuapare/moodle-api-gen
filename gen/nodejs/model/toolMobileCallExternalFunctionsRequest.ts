@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ToolMobileCallExternalFunctionsRequestRequestsInner } from './toolMobileCallExternalFunctionsRequestRequestsInner';
 
 export class ToolMobileCallExternalFunctionsRequest {
-    'requests': Array<ToolMobileCallExternalFunctionsRequestRequestsInner>;
+    'Requests': Array<ToolMobileCallExternalFunctionsRequestRequestsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "requests",
+            "name": "Requests",
             "baseName": "requests",
             "type": "Array<ToolMobileCallExternalFunctionsRequestRequestsInner>"
         }    ];

@@ -16,85 +16,85 @@ export class CoreFilesGetFilesRequest {
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * context id Set to -1 to use contextlevel and instanceid.
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * The context level for the file location.
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * file area
     */
-    'filearea': string = 'null';
+    'Filearea': string = 'null';
     /**
     * file name
     */
-    'filename': string = 'null';
+    'Filename': string = 'null';
     /**
     * file path
     */
-    'filepath': string = 'null';
+    'Filepath': string = 'null';
     /**
     * The instance id for where the file is located.
     */
-    'instanceid'?: number = null;
+    'Instanceid'?: number = null;
     /**
     * associated id
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * timestamp to return files changed after this time.
     */
-    'modified'?: number = null;
+    'Modified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "modified",
+            "name": "Modified",
             "baseName": "modified",
             "type": "number"
         }    ];

@@ -18,25 +18,25 @@ export class CoreMessageGetConversationMessages200Response {
     /**
     * The conversation id
     */
-    'id': number;
-    'members': Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>;
-    'messages': Array<CoreMessageGetConversationBetweenUsers200ResponseMessagesInner>;
+    'Id': number;
+    'Members': Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>;
+    'Messages': Array<CoreMessageGetConversationBetweenUsers200ResponseMessagesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "members",
+            "name": "Members",
             "baseName": "members",
             "type": "Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<CoreMessageGetConversationBetweenUsers200ResponseMessagesInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreOutputLoadTemplateWithDependenciesRequest
+# MoodleClient.Model.CoreOutputLoadTemplateWithDependenciesRequest
 
 ## Properties
 

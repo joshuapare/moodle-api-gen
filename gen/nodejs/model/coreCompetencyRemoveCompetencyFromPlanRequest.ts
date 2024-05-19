@@ -16,22 +16,22 @@ export class CoreCompetencyRemoveCompetencyFromPlanRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * The plan id
     */
-    'planid': number;
+    'Planid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "planid",
+            "name": "Planid",
             "baseName": "planid",
             "type": "number"
         }    ];

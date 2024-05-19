@@ -16,49 +16,49 @@ export class ModLessonGetAttemptsOverview200ResponseDataStudentsInnerAttemptsInn
     /**
     * Attempt time ended.
     */
-    'end'?: number = null;
+    'End'?: number = null;
     /**
     * Attempt grade.
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * Attempt last time continued.
     */
-    'timeend'?: number = null;
+    'Timeend'?: number = null;
     /**
     * Attempt time started.
     */
-    'timestart'?: number = null;
+    'Timestart'?: number = null;
     /**
     * Attempt number.
     */
-    '_try'?: number;
+    'Try'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "end",
+            "name": "End",
             "baseName": "end",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "timeend",
+            "name": "Timeend",
             "baseName": "timeend",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "_try",
+            "name": "Try",
             "baseName": "try",
             "type": "number"
         }    ];

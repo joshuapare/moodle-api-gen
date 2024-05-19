@@ -16,31 +16,31 @@ export class CoreCourseGetCoursesByField200ResponseCoursesInnerFiltersInner {
     /**
     * Filter plugin name
     */
-    'filter'?: string = 'null';
+    'Filter'?: string = 'null';
     /**
     * 1 or 0 to use when localstate is set to inherit
     */
-    'inheritedstate'?: number = null;
+    'Inheritedstate'?: number = null;
     /**
     * Filter state: 1 for on, -1 for off, 0 if inherit
     */
-    'localstate'?: number = null;
+    'Localstate'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "string"
         },
         {
-            "name": "inheritedstate",
+            "name": "Inheritedstate",
             "baseName": "inheritedstate",
             "type": "number"
         },
         {
-            "name": "localstate",
+            "name": "Localstate",
             "baseName": "localstate",
             "type": "number"
         }    ];

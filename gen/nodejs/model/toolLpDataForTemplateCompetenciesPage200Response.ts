@@ -19,67 +19,67 @@ export class ToolLpDataForTemplateCompetenciesPage200Response {
     /**
     * User can manage competency frameworks
     */
-    'canmanagecompetencyframeworks': boolean;
+    'Canmanagecompetencyframeworks': boolean;
     /**
     * User can manage learning plan templates
     */
-    'canmanagetemplatecompetencies': boolean = null;
-    'competencies': Array<ToolLpDataForTemplateCompetenciesPage200ResponseCompetenciesInner>;
+    'Canmanagetemplatecompetencies': boolean = null;
+    'Competencies': Array<ToolLpDataForTemplateCompetenciesPage200ResponseCompetenciesInner>;
     /**
     * Url to the manage competencies page.
     */
-    'manageurl': string;
+    'Manageurl': string;
     /**
     * Context ID
     */
-    'pagecontextid': number;
+    'Pagecontextid': number;
     /**
     * Base URL of the plugin.
     */
-    'pluginbaseurl': string = 'null';
-    'statistics': ToolLpDataForTemplateCompetenciesPage200ResponseStatistics;
-    'template': CoreCompetencyCreateTemplate200Response;
+    'Pluginbaseurl': string = 'null';
+    'Statistics': ToolLpDataForTemplateCompetenciesPage200ResponseStatistics;
+    'Template': CoreCompetencyCreateTemplate200Response;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanagecompetencyframeworks",
+            "name": "Canmanagecompetencyframeworks",
             "baseName": "canmanagecompetencyframeworks",
             "type": "boolean"
         },
         {
-            "name": "canmanagetemplatecompetencies",
+            "name": "Canmanagetemplatecompetencies",
             "baseName": "canmanagetemplatecompetencies",
             "type": "boolean"
         },
         {
-            "name": "competencies",
+            "name": "Competencies",
             "baseName": "competencies",
             "type": "Array<ToolLpDataForTemplateCompetenciesPage200ResponseCompetenciesInner>"
         },
         {
-            "name": "manageurl",
+            "name": "Manageurl",
             "baseName": "manageurl",
             "type": "string"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "statistics",
+            "name": "Statistics",
             "baseName": "statistics",
             "type": "ToolLpDataForTemplateCompetenciesPage200ResponseStatistics"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "CoreCompetencyCreateTemplate200Response"
         }    ];

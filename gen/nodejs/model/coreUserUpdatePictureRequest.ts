@@ -16,31 +16,31 @@ export class CoreUserUpdatePictureRequest {
     /**
     * If we should delete the user picture
     */
-    '_delete'?: boolean = false;
+    'Delete'?: boolean = false;
     /**
     * Id of the user draft file to use as image
     */
-    'draftitemid': number = null;
+    'Draftitemid': number = null;
     /**
     * Id of the user, 0 for current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "_delete",
+            "name": "Delete",
             "baseName": "delete",
             "type": "boolean"
         },
         {
-            "name": "draftitemid",
+            "name": "Draftitemid",
             "baseName": "draftitemid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -16,85 +16,85 @@ export class CoreNotesGetCourseNotes200ResponseCoursenotesInner {
     /**
     * the content text formated
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * id of the course
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * time created (timestamp)
     */
-    'created'?: number = null;
+    'Created'?: number = null;
     /**
     * content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number;
+    'Format'?: number;
     /**
     * id of this note
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * time of last modification (timestamp)
     */
-    'lastmodified'?: number = null;
+    'Lastmodified'?: number = null;
     /**
     * state of the note (i.e. draft, public, site) 
     */
-    'publishstate'?: string = 'null';
+    'Publishstate'?: string = 'null';
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * user id of the creator of this note
     */
-    'usermodified'?: number = null;
+    'Usermodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "created",
+            "name": "Created",
             "baseName": "created",
             "type": "number"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lastmodified",
+            "name": "Lastmodified",
             "baseName": "lastmodified",
             "type": "number"
         },
         {
-            "name": "publishstate",
+            "name": "Publishstate",
             "baseName": "publishstate",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

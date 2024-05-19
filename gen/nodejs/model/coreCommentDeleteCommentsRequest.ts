@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreCommentDeleteCommentsRequest {
-    'comments': Array<object>;
+    'Comments': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "Array<object>"
         }    ];

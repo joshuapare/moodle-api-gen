@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacySubmitSelectedCoursesFormRequest
+# MoodleClient.Model.ToolDataprivacySubmitSelectedCoursesFormRequest
 
 ## Properties
 

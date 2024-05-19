@@ -16,31 +16,31 @@ export class CoreAuthResendConfirmationEmailRequest {
     /**
     * Plain text password.
     */
-    'password': string = 'null';
+    'Password': string = 'null';
     /**
     * Redirect the user to this site url after confirmation.
     */
-    'redirect'?: string = '';
+    'Redirect'?: string = '';
     /**
     * Username.
     */
-    'username': string = 'null';
+    'Username': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "redirect",
+            "name": "Redirect",
             "baseName": "redirect",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

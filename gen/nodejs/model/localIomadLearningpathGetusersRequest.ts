@@ -16,22 +16,22 @@ export class LocalIomadLearningpathGetusersRequest {
     /**
     * ID of Iomad Company
     */
-    'companyid': number;
+    'Companyid': number;
     /**
     * ID learning path
     */
-    'pathid': number;
+    'Pathid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class CoreCourseGetUserNavigationOptions200ResponseCoursesInnerOptionsInn
     /**
     * Whether the option is available or not
     */
-    'available'?: boolean;
+    'Available'?: boolean;
     /**
     * Option name
     */
-    'name'?: string;
+    'Name'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "available",
+            "name": "Available",
             "baseName": "available",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

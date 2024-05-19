@@ -16,31 +16,31 @@ export class CoreCohortSearchCohortsRequestContext {
     /**
     * Context ID. Either use this value, or level and instanceid.
     */
-    'contextid'?: number = 0;
+    'Contextid'?: number = 0;
     /**
     * Context level. To be used with instanceid.
     */
-    'contextlevel'?: string = '';
+    'Contextlevel'?: string = '';
     /**
     * Context instance ID. To be used with level
     */
-    'instanceid'?: number = 0;
+    'Instanceid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLabelGetLabelsByCourses200Response
+# MoodleClient.Model.ModLabelGetLabelsByCourses200Response
 
 ## Properties
 

@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreTagGetTagindexPerAreaRequestTagindex } from './coreTagGetTagindexPerAreaRequestTagindex';
 
 export class CoreTagGetTagindexPerAreaRequest {
-    'tagindex': CoreTagGetTagindexPerAreaRequestTagindex;
+    'Tagindex': CoreTagGetTagindexPerAreaRequestTagindex;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tagindex",
+            "name": "Tagindex",
             "baseName": "tagindex",
             "type": "CoreTagGetTagindexPerAreaRequestTagindex"
         }    ];

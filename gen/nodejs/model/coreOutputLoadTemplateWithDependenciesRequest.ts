@@ -16,49 +16,49 @@ export class CoreOutputLoadTemplateWithDependenciesRequest {
     /**
     * component containing the template
     */
-    'component': string;
+    'Component': string;
     /**
     * Include comments or not
     */
-    'includecomments'?: boolean = false;
+    'Includecomments'?: boolean = false;
     /**
     * lang
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * name of the template
     */
-    'template': string;
+    'Template': string;
     /**
     * The current theme.
     */
-    'themename': string;
+    'Themename': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "includecomments",
+            "name": "Includecomments",
             "baseName": "includecomments",
             "type": "boolean"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "string"
         },
         {
-            "name": "themename",
+            "name": "Themename",
             "baseName": "themename",
             "type": "string"
         }    ];

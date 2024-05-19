@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetParticipant200ResponseUser
+# MoodleClient.Model.ModAssignGetParticipant200ResponseUser
 
 ## Properties
 

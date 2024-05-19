@@ -14,40 +14,40 @@ import { RequestFile } from './models';
 import { CoreGetFragmentRequestArgsInner } from './coreGetFragmentRequestArgsInner';
 
 export class CoreGetFragmentRequest {
-    'args'?: Array<CoreGetFragmentRequestArgsInner>;
+    'Args'?: Array<CoreGetFragmentRequestArgsInner>;
     /**
     * Name of the callback to execute
     */
-    'callback': string = 'null';
+    'Callback': string = 'null';
     /**
     * Component for the callback e.g. mod_assign
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * Context ID that the fragment is from
     */
-    'contextid': number = null;
+    'Contextid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "args",
+            "name": "Args",
             "baseName": "args",
             "type": "Array<CoreGetFragmentRequestArgsInner>"
         },
         {
-            "name": "callback",
+            "name": "Callback",
             "baseName": "callback",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

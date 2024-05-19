@@ -17,91 +17,91 @@ export class ModDataGetDataAccessInformation200Response {
     /**
     * Whether the user can add entries or not.
     */
-    'canaddentry': boolean = null;
+    'Canaddentry': boolean = null;
     /**
     * Whether the user can approve entries or not.
     */
-    'canapprove': boolean = null;
+    'Canapprove': boolean = null;
     /**
     * Whether the user can manage entries or not.
     */
-    'canmanageentries': boolean = null;
+    'Canmanageentries': boolean = null;
     /**
     * The number of entries left to complete the activity.
     */
-    'entrieslefttoadd': number = null;
+    'Entrieslefttoadd': number = null;
     /**
     * The number of entries left to view other users entries.
     */
-    'entrieslefttoview': number = null;
+    'Entrieslefttoview': number = null;
     /**
     * User current group id (calculated)
     */
-    'groupid': number = null;
+    'Groupid': number = null;
     /**
     * Whether the database is in read mode only.
     */
-    'inreadonlyperiod': boolean = null;
+    'Inreadonlyperiod': boolean = null;
     /**
     * The number of entries the current user added.
     */
-    'numentries': number = null;
+    'Numentries': number = null;
     /**
     * Whether the database is available or not by time restrictions.
     */
-    'timeavailable': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Timeavailable': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canaddentry",
+            "name": "Canaddentry",
             "baseName": "canaddentry",
             "type": "boolean"
         },
         {
-            "name": "canapprove",
+            "name": "Canapprove",
             "baseName": "canapprove",
             "type": "boolean"
         },
         {
-            "name": "canmanageentries",
+            "name": "Canmanageentries",
             "baseName": "canmanageentries",
             "type": "boolean"
         },
         {
-            "name": "entrieslefttoadd",
+            "name": "Entrieslefttoadd",
             "baseName": "entrieslefttoadd",
             "type": "number"
         },
         {
-            "name": "entrieslefttoview",
+            "name": "Entrieslefttoview",
             "baseName": "entrieslefttoview",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "inreadonlyperiod",
+            "name": "Inreadonlyperiod",
             "baseName": "inreadonlyperiod",
             "type": "boolean"
         },
         {
-            "name": "numentries",
+            "name": "Numentries",
             "baseName": "numentries",
             "type": "number"
         },
         {
-            "name": "timeavailable",
+            "name": "Timeavailable",
             "baseName": "timeavailable",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -16,67 +16,67 @@ export class CoreCourseGetEnrolledCoursesByTimelineClassificationRequest {
     /**
     * future, inprogress, or past
     */
-    'classification': string = 'null';
+    'Classification': string = 'null';
     /**
     * Used when classification = customfield
     */
-    'customfieldname'?: string = 'null';
+    'Customfieldname'?: string = 'null';
     /**
     * Used when classification = customfield
     */
-    'customfieldvalue'?: string;
+    'Customfieldvalue'?: string;
     /**
     * Result set limit
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Result set offset
     */
-    'offset'?: number = 0;
+    'Offset'?: number = 0;
     /**
     * The value a user wishes to search against
     */
-    'searchvalue'?: string;
+    'Searchvalue'?: string;
     /**
     * Sort string
     */
-    'sort'?: string = 'null';
+    'Sort'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "classification",
+            "name": "Classification",
             "baseName": "classification",
             "type": "string"
         },
         {
-            "name": "customfieldname",
+            "name": "Customfieldname",
             "baseName": "customfieldname",
             "type": "string"
         },
         {
-            "name": "customfieldvalue",
+            "name": "Customfieldvalue",
             "baseName": "customfieldvalue",
             "type": "string"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         },
         {
-            "name": "searchvalue",
+            "name": "Searchvalue",
             "baseName": "searchvalue",
             "type": "string"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

@@ -21,361 +21,361 @@ export class CoreCourseGetCoursesByField200ResponseCoursesInner {
     /**
     * Cache revision number
     */
-    'cacherev'?: number = null;
+    'Cacherev'?: number = null;
     /**
     * Calendar type
     */
-    'calendartype'?: string = 'null';
+    'Calendartype'?: string = 'null';
     /**
     * category id
     */
-    'categoryid'?: number;
+    'Categoryid'?: number;
     /**
     * category name
     */
-    'categoryname'?: string = 'null';
+    'Categoryname'?: string = 'null';
     /**
     * 1: yes 0: no
     */
-    'completionnotify'?: number;
-    'contacts'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerContactsInner>;
-    'courseformatoptions'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCourseformatoptionsInner>;
+    'Completionnotify'?: number;
+    'Contacts'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerContactsInner>;
+    'Courseformatoptions'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCourseformatoptionsInner>;
     /**
     * Course image
     */
-    'courseimage'?: string = 'null';
-    'customfields'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>;
+    'Courseimage'?: string = 'null';
+    'Customfields'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>;
     /**
     * default grouping id
     */
-    'defaultgroupingid'?: number = null;
+    'Defaultgroupingid'?: number = null;
     /**
     * course display name
     */
-    'displayname'?: string = 'null';
+    'Displayname'?: string = 'null';
     /**
     * Completion enabled? 1: yes 0: no
     */
-    'enablecompletion'?: number = null;
+    'Enablecompletion'?: number = null;
     /**
     * Timestamp when the course end
     */
-    'enddate'?: number = null;
-    'enrollmentmethods'?: Array<object>;
-    'filters'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerFiltersInner>;
+    'Enddate'?: number = null;
+    'Enrollmentmethods'?: Array<object>;
+    'Filters'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerFiltersInner>;
     /**
     * Course format: weeks, topics, social, site,..
     */
-    'format'?: string = 'null';
+    'Format'?: string = 'null';
     /**
     * course full name
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * no group, separate, visible
     */
-    'groupmode'?: number = null;
+    'Groupmode'?: number = null;
     /**
     * 1: yes, 0: no
     */
-    'groupmodeforce'?: number = null;
+    'Groupmodeforce'?: number = null;
     /**
     * course id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Id number
     */
-    'idnumber'?: string = 'null';
+    'Idnumber'?: string = 'null';
     /**
     * Forced course language
     */
-    'lang'?: string = 'null';
+    'Lang'?: string = 'null';
     /**
     * If legacy files are enabled
     */
-    'legacyfiles'?: number = null;
+    'Legacyfiles'?: number = null;
     /**
     * Current course marker
     */
-    'marker'?: number = null;
+    'Marker'?: number = null;
     /**
     * Largest size of file that can be uploaded into
     */
-    'maxbytes'?: number = null;
+    'Maxbytes'?: number = null;
     /**
     * Number of recent items appearing on the course page
     */
-    'newsitems'?: number = null;
-    'overviewfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Newsitems'?: number = null;
+    'Overviewfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * If is a requested course
     */
-    'requested'?: number = null;
+    'Requested'?: number = null;
     /**
     * course short name
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * Whether the activity dates are shown or not
     */
-    'showactivitydates'?: boolean = null;
+    'Showactivitydates'?: boolean = null;
     /**
     * Whether the activity completion conditions are shown or not
     */
-    'showcompletionconditions'?: boolean = null;
+    'Showcompletionconditions'?: boolean = null;
     /**
     * 1 if grades are shown, otherwise 0
     */
-    'showgrades'?: number = null;
+    'Showgrades'?: number = null;
     /**
     * Are activity report shown (yes = 1, no =0)
     */
-    'showreports'?: number = null;
+    'Showreports'?: number = null;
     /**
     * Sort order in the category
     */
-    'sortorder'?: number = null;
+    'Sortorder'?: number = null;
     /**
     * Timestamp when the course start
     */
-    'startdate'?: number = null;
+    'Startdate'?: number = null;
     /**
     * summary
     */
-    'summary'?: string;
-    'summaryfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Summary'?: string;
+    'Summaryfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'summaryformat'?: number;
+    'Summaryformat'?: number;
     /**
     * Fame of the forced theme
     */
-    'theme'?: string = 'null';
+    'Theme'?: string = 'null';
     /**
     * Time when the course was created
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * Last time  the course was updated
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * 1: available to student, 0:not available
     */
-    'visible'?: number;
+    'Visible'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cacherev",
+            "name": "Cacherev",
             "baseName": "cacherev",
             "type": "number"
         },
         {
-            "name": "calendartype",
+            "name": "Calendartype",
             "baseName": "calendartype",
             "type": "string"
         },
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "categoryname",
+            "name": "Categoryname",
             "baseName": "categoryname",
             "type": "string"
         },
         {
-            "name": "completionnotify",
+            "name": "Completionnotify",
             "baseName": "completionnotify",
             "type": "number"
         },
         {
-            "name": "contacts",
+            "name": "Contacts",
             "baseName": "contacts",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInnerContactsInner>"
         },
         {
-            "name": "courseformatoptions",
+            "name": "Courseformatoptions",
             "baseName": "courseformatoptions",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCourseformatoptionsInner>"
         },
         {
-            "name": "courseimage",
+            "name": "Courseimage",
             "baseName": "courseimage",
             "type": "string"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>"
         },
         {
-            "name": "defaultgroupingid",
+            "name": "Defaultgroupingid",
             "baseName": "defaultgroupingid",
             "type": "number"
         },
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "enablecompletion",
+            "name": "Enablecompletion",
             "baseName": "enablecompletion",
             "type": "number"
         },
         {
-            "name": "enddate",
+            "name": "Enddate",
             "baseName": "enddate",
             "type": "number"
         },
         {
-            "name": "enrollmentmethods",
+            "name": "Enrollmentmethods",
             "baseName": "enrollmentmethods",
             "type": "Array<object>"
         },
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInnerFiltersInner>"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "groupmodeforce",
+            "name": "Groupmodeforce",
             "baseName": "groupmodeforce",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "legacyfiles",
+            "name": "Legacyfiles",
             "baseName": "legacyfiles",
             "type": "number"
         },
         {
-            "name": "marker",
+            "name": "Marker",
             "baseName": "marker",
             "type": "number"
         },
         {
-            "name": "maxbytes",
+            "name": "Maxbytes",
             "baseName": "maxbytes",
             "type": "number"
         },
         {
-            "name": "newsitems",
+            "name": "Newsitems",
             "baseName": "newsitems",
             "type": "number"
         },
         {
-            "name": "overviewfiles",
+            "name": "Overviewfiles",
             "baseName": "overviewfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "requested",
+            "name": "Requested",
             "baseName": "requested",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "showactivitydates",
+            "name": "Showactivitydates",
             "baseName": "showactivitydates",
             "type": "boolean"
         },
         {
-            "name": "showcompletionconditions",
+            "name": "Showcompletionconditions",
             "baseName": "showcompletionconditions",
             "type": "boolean"
         },
         {
-            "name": "showgrades",
+            "name": "Showgrades",
             "baseName": "showgrades",
             "type": "number"
         },
         {
-            "name": "showreports",
+            "name": "Showreports",
             "baseName": "showreports",
             "type": "number"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "startdate",
+            "name": "Startdate",
             "baseName": "startdate",
             "type": "number"
         },
         {
-            "name": "summary",
+            "name": "Summary",
             "baseName": "summary",
             "type": "string"
         },
         {
-            "name": "summaryfiles",
+            "name": "Summaryfiles",
             "baseName": "summaryfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "summaryformat",
+            "name": "Summaryformat",
             "baseName": "summaryformat",
             "type": "number"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

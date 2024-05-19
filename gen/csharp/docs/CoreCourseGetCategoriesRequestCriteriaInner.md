@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetCategoriesRequestCriteriaInner
+# MoodleClient.Model.CoreCourseGetCategoriesRequestCriteriaInner
 
 ## Properties
 

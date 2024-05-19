@@ -16,40 +16,40 @@ export class ModQuizGetUserAttemptsRequest {
     /**
     * whether to include previews or not
     */
-    'includepreviews'?: boolean = false;
+    'Includepreviews'?: boolean = false;
     /**
     * quiz instance id
     */
-    'quizid': number;
+    'Quizid': number;
     /**
     * quiz status: all, finished or unfinished
     */
-    'status'?: string = 'finished';
+    'Status'?: string = 'finished';
     /**
     * user id, empty for current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includepreviews",
+            "name": "Includepreviews",
             "baseName": "includepreviews",
             "type": "boolean"
         },
         {
-            "name": "quizid",
+            "name": "Quizid",
             "baseName": "quizid",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

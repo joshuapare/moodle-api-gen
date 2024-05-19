@@ -16,40 +16,40 @@ export class ModLtiGetToolTypesAndProxiesRequest {
     /**
     * How many tool types displayed per page
     */
-    'limit'?: number = 60;
+    'Limit'?: number = 60;
     /**
     * Current offset of tool elements
     */
-    'offset'?: number = 0;
+    'Offset'?: number = 0;
     /**
     * Orphaned tool types only
     */
-    'orphanedonly'?: boolean = 0;
+    'Orphanedonly'?: boolean = 0;
     /**
     * Tool proxy id
     */
-    'toolproxyid'?: number = 0;
+    'Toolproxyid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         },
         {
-            "name": "orphanedonly",
+            "name": "Orphanedonly",
             "baseName": "orphanedonly",
             "type": "boolean"
         },
         {
-            "name": "toolproxyid",
+            "name": "Toolproxyid",
             "baseName": "toolproxyid",
             "type": "number"
         }    ];

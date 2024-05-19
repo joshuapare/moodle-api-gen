@@ -16,58 +16,58 @@ export class CoreBadgesGetUserBadgesRequest {
     /**
     * Filter badges by course id, empty all the courses
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Whether to return only public badges
     */
-    'onlypublic'?: boolean = false;
+    'Onlypublic'?: boolean = false;
     /**
     * The page of records to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of records to return per page
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * A simple string to search for
     */
-    'search'?: string = '';
+    'Search'?: string = '';
     /**
     * Badges only for this user id, empty for current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "onlypublic",
+            "name": "Onlypublic",
             "baseName": "onlypublic",
             "type": "boolean"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

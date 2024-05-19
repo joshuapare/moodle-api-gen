@@ -15,55 +15,55 @@ import { ModLessonGetPages200ResponsePagesInnerPage } from './modLessonGetPages2
 import { ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata } from './modLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata';
 
 export class ModLessonGetUserAttempt200ResponseAnswerpagesInner {
-    'answerdata'?: ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata;
+    'Answerdata'?: ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata;
     /**
     * Page contents.
     */
-    'contents'?: string = 'null';
+    'Contents'?: string = 'null';
     /**
     * If is required to apply a grayout.
     */
-    'grayout'?: number = null;
-    'page'?: ModLessonGetPages200ResponsePagesInnerPage;
+    'Grayout'?: number = null;
+    'Page'?: ModLessonGetPages200ResponsePagesInnerPage;
     /**
     * Identifies the page type of this page.
     */
-    'qtype'?: string = 'null';
+    'Qtype'?: string = 'null';
     /**
     * Page title.
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerdata",
+            "name": "Answerdata",
             "baseName": "answerdata",
             "type": "ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata"
         },
         {
-            "name": "contents",
+            "name": "Contents",
             "baseName": "contents",
             "type": "string"
         },
         {
-            "name": "grayout",
+            "name": "Grayout",
             "baseName": "grayout",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "ModLessonGetPages200ResponsePagesInnerPage"
         },
         {
-            "name": "qtype",
+            "name": "Qtype",
             "baseName": "qtype",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

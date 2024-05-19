@@ -16,22 +16,22 @@ export class CoreMessageSendMessagesToConversationRequestMessagesInner {
     /**
     * the text of the message
     */
-    'text'?: string;
+    'Text'?: string;
     /**
     * text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'textformat'?: number = 0;
+    'Textformat'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "textformat",
+            "name": "Textformat",
             "baseName": "textformat",
             "type": "number"
         }    ];

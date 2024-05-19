@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreCohortDeleteCohortsRequest {
-    'cohortids': Array<object>;
+    'Cohortids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cohortids",
+            "name": "Cohortids",
             "baseName": "cohortids",
             "type": "Array<object>"
         }    ];

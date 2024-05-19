@@ -20,154 +20,154 @@ export class ModH5pactivityGetResults200ResponseAttemptsInnerResultsInner {
     /**
     * Label used for user answers
     */
-    'answerlabel'?: string = 'null';
+    'Answerlabel'?: string = 'null';
     /**
     * ID of the H5P attempt
     */
-    'attemptid'?: number = null;
+    'Attemptid'?: number = null;
     /**
     * Result completion
     */
-    'completion'?: number = null;
+    'Completion'?: number = null;
     /**
     * Result extra content
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * Label used for correct answers
     */
-    'correctlabel'?: string = 'null';
+    'Correctlabel'?: string = 'null';
     /**
     * Result description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * Result duration in seconds
     */
-    'duration'?: number = 0;
+    'Duration'?: number = 0;
     /**
     * ID of the context
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Interaction type
     */
-    'interactiontype'?: string = 'null';
+    'Interactiontype'?: string = 'null';
     /**
     * Result max score
     */
-    'maxscore'?: number = null;
-    'options'?: Array<ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInner>;
+    'Maxscore'?: number = null;
+    'Options'?: Array<ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInner>;
     /**
     * Label used for result options
     */
-    'optionslabel'?: string = 'null';
+    'Optionslabel'?: string = 'null';
     /**
     * Result score value
     */
-    'rawscore'?: number = null;
+    'Rawscore'?: number = null;
     /**
     * Subcontent identifier
     */
-    'subcontent'?: string = 'null';
+    'Subcontent'?: string = 'null';
     /**
     * Result success
     */
-    'success'?: number = null;
+    'Success'?: number = null;
     /**
     * Result creation
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * If the result has valid track information
     */
-    'track'?: boolean = null;
+    'Track'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerlabel",
+            "name": "Answerlabel",
             "baseName": "answerlabel",
             "type": "string"
         },
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "completion",
+            "name": "Completion",
             "baseName": "completion",
             "type": "number"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "correctlabel",
+            "name": "Correctlabel",
             "baseName": "correctlabel",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "duration",
+            "name": "Duration",
             "baseName": "duration",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "interactiontype",
+            "name": "Interactiontype",
             "baseName": "interactiontype",
             "type": "string"
         },
         {
-            "name": "maxscore",
+            "name": "Maxscore",
             "baseName": "maxscore",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInner>"
         },
         {
-            "name": "optionslabel",
+            "name": "Optionslabel",
             "baseName": "optionslabel",
             "type": "string"
         },
         {
-            "name": "rawscore",
+            "name": "Rawscore",
             "baseName": "rawscore",
             "type": "number"
         },
         {
-            "name": "subcontent",
+            "name": "Subcontent",
             "baseName": "subcontent",
             "type": "string"
         },
         {
-            "name": "success",
+            "name": "Success",
             "baseName": "success",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "track",
+            "name": "Track",
             "baseName": "track",
             "type": "boolean"
         }    ];

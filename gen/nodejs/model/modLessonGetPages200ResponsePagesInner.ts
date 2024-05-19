@@ -17,43 +17,43 @@ import { ModLessonGetPages200ResponsePagesInnerPage } from './modLessonGetPages2
 * The lesson pages
 */
 export class ModLessonGetPages200ResponsePagesInner {
-    'answerids'?: Array<object>;
+    'Answerids'?: Array<object>;
     /**
     * The total number of files attached to the page
     */
-    'filescount'?: number = null;
+    'Filescount'?: number = null;
     /**
     * The total size of the files
     */
-    'filessizetotal'?: number = null;
-    'jumps'?: Array<object>;
-    'page'?: ModLessonGetPages200ResponsePagesInnerPage;
+    'Filessizetotal'?: number = null;
+    'Jumps'?: Array<object>;
+    'Page'?: ModLessonGetPages200ResponsePagesInnerPage;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerids",
+            "name": "Answerids",
             "baseName": "answerids",
             "type": "Array<object>"
         },
         {
-            "name": "filescount",
+            "name": "Filescount",
             "baseName": "filescount",
             "type": "number"
         },
         {
-            "name": "filessizetotal",
+            "name": "Filessizetotal",
             "baseName": "filessizetotal",
             "type": "number"
         },
         {
-            "name": "jumps",
+            "name": "Jumps",
             "baseName": "jumps",
             "type": "Array<object>"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "ModLessonGetPages200ResponsePagesInnerPage"
         }    ];

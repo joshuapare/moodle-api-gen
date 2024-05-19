@@ -16,31 +16,31 @@ export class EnrolManualUnenrolUsersRequestEnrolmentsInner {
     /**
     * The course to unenrol the user from
     */
-    'courseid'?: number = null;
+    'Courseid'?: number = null;
     /**
     * The user role
     */
-    'roleid'?: number = null;
+    'Roleid'?: number = null;
     /**
     * The user that is going to be unenrolled
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "roleid",
+            "name": "Roleid",
             "baseName": "roleid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

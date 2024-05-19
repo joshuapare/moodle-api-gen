@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseCreateCoursesRequest
+# MoodleClient.Model.CoreCourseCreateCoursesRequest
 
 ## Properties
 

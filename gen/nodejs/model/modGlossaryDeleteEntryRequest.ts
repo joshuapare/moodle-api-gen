@@ -16,13 +16,13 @@ export class ModGlossaryDeleteEntryRequest {
     /**
     * Glossary entry id to delete
     */
-    'entryid': number = null;
+    'Entryid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entryid",
+            "name": "Entryid",
             "baseName": "entryid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumAddDiscussionPost200ResponseMessagesInner
+# MoodleClient.Model.ModForumAddDiscussionPost200ResponseMessagesInner
 Messages
 
 ## Properties

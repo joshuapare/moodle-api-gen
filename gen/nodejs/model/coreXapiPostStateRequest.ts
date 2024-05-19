@@ -16,58 +16,58 @@ export class CoreXapiPostStateRequest {
     /**
     * xAPI activity ID IRI
     */
-    'activityId': string;
+    'ActivityId': string;
     /**
     * The xAPI agent json
     */
-    'agent': string;
+    'Agent': string;
     /**
     * Component name
     */
-    'component': string;
+    'Component': string;
     /**
     * The xAPI registration UUID
     */
-    'registration'?: string;
+    'Registration'?: string;
     /**
     * JSON object with the state data
     */
-    'stateData': string = 'null';
+    'StateData': string = 'null';
     /**
     * The xAPI state ID
     */
-    'stateId': string;
+    'StateId': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activityId",
+            "name": "ActivityId",
             "baseName": "activityId",
             "type": "string"
         },
         {
-            "name": "agent",
+            "name": "Agent",
             "baseName": "agent",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "registration",
+            "name": "Registration",
             "baseName": "registration",
             "type": "string"
         },
         {
-            "name": "stateData",
+            "name": "StateData",
             "baseName": "stateData",
             "type": "string"
         },
         {
-            "name": "stateId",
+            "name": "StateId",
             "baseName": "stateId",
             "type": "string"
         }    ];

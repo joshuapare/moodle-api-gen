@@ -17,19 +17,19 @@ export class CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInne
     /**
     * text
     */
-    'text': string;
-    'values': Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroupValuesInner>;
+    'Text': string;
+    'Values': Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroupValuesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "values",
+            "name": "Values",
             "baseName": "values",
             "type": "Array<CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroupValuesInner>"
         }    ];

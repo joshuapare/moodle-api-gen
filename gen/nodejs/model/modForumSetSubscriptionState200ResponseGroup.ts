@@ -17,19 +17,19 @@ export class ModForumSetSubscriptionState200ResponseGroup {
     /**
     * name
     */
-    'name': string;
-    'urls': ModForumSetSubscriptionState200ResponseGroupUrls;
+    'Name': string;
+    'Urls': ModForumSetSubscriptionState200ResponseGroupUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumSetSubscriptionState200ResponseGroupUrls"
         }    ];

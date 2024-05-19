@@ -16,85 +16,85 @@ export class ModIomadcertificateGetIssuedIomadcertificates200ResponseIssuesInner
     /**
     * Certificate code
     */
-    'code'?: string = 'null';
+    'Code'?: string = 'null';
     /**
     * Time created
     */
-    'filename'?: string = 'null';
+    'Filename'?: string = 'null';
     /**
     * Time created
     */
-    'fileurl'?: string;
+    'Fileurl'?: string;
     /**
     * Certificate grade
     */
-    'grade'?: string = 'null';
+    'Grade'?: string = 'null';
     /**
     * Issue id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Certificate id
     */
-    'iomadcertificateid'?: number;
+    'Iomadcertificateid'?: number;
     /**
     * mime type
     */
-    'mimetype'?: string = 'null';
+    'Mimetype'?: string = 'null';
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * User id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "code",
+            "name": "Code",
             "baseName": "code",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "fileurl",
+            "name": "Fileurl",
             "baseName": "fileurl",
             "type": "string"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "iomadcertificateid",
+            "name": "Iomadcertificateid",
             "baseName": "iomadcertificateid",
             "type": "number"
         },
         {
-            "name": "mimetype",
+            "name": "Mimetype",
             "baseName": "mimetype",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

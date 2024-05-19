@@ -20,79 +20,79 @@ import { GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerLeader
 * table
 */
 export class GradereportUserGetGradesTable200ResponseTablesInnerTabledataInner {
-    'average'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerAverage;
-    'contributiontocoursetotal'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'feedback'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'grade'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'itemname'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerItemname;
-    'leader'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerLeader;
-    'lettergrade'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'parentcategories'?: Array<object>;
-    'percentage'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'range'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'rank'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
-    'weight'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Average'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerAverage;
+    'Contributiontocoursetotal'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Feedback'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Grade'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Itemname'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerItemname;
+    'Leader'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerLeader;
+    'Lettergrade'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Parentcategories'?: Array<object>;
+    'Percentage'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Range'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Rank'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
+    'Weight'?: GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "average",
+            "name": "Average",
             "baseName": "average",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerAverage"
         },
         {
-            "name": "contributiontocoursetotal",
+            "name": "Contributiontocoursetotal",
             "baseName": "contributiontocoursetotal",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "itemname",
+            "name": "Itemname",
             "baseName": "itemname",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerItemname"
         },
         {
-            "name": "leader",
+            "name": "Leader",
             "baseName": "leader",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerLeader"
         },
         {
-            "name": "lettergrade",
+            "name": "Lettergrade",
             "baseName": "lettergrade",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "parentcategories",
+            "name": "Parentcategories",
             "baseName": "parentcategories",
             "type": "Array<object>"
         },
         {
-            "name": "percentage",
+            "name": "Percentage",
             "baseName": "percentage",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "range",
+            "name": "Range",
             "baseName": "range",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "rank",
+            "name": "Rank",
             "baseName": "rank",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         },
         {
-            "name": "weight",
+            "name": "Weight",
             "baseName": "weight",
             "type": "GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerContributiontocoursetotal"
         }    ];

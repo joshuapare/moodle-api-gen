@@ -53,7 +53,7 @@ import com.joshuapare.JSON;
 /**
  * ModWorkshopGetSubmission200ResponseSubmission
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-18T14:00:07.069642-05:00[America/Chicago]", comments = "Generator version: 7.5.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-18T20:58:28.689161-05:00[America/Chicago]", comments = "Generator version: 7.5.0")
 public class ModWorkshopGetSubmission200ResponseSubmission {
   public static final String SERIALIZED_NAME_ATTACHMENT = "attachment";
   @SerializedName(SERIALIZED_NAME_ATTACHMENT)

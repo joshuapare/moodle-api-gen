@@ -16,40 +16,40 @@ export class LocalIomadLearningpathGetprospectivecoursesRequest {
     /**
     * Show only courses in this category (and children)
     */
-    'category'?: number = 0;
+    'Category'?: number = 0;
     /**
     * Filter course list returned
     */
-    'filter'?: string = '';
+    'Filter'?: string = '';
     /**
     * ID of (target) learning path
     */
-    'pathid': number = null;
+    'Pathid': number = null;
     /**
     * Show only courses assigned to this program license
     */
-    'program'?: number = 0;
+    'Program'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "number"
         },
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "string"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         },
         {
-            "name": "program",
+            "name": "Program",
             "baseName": "program",
             "type": "number"
         }    ];

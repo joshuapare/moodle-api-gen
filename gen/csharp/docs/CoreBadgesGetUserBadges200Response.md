@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBadgesGetUserBadges200Response
+# MoodleClient.Model.CoreBadgesGetUserBadges200Response
 
 ## Properties
 

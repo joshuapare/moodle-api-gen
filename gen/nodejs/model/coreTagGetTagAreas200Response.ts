@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreTagGetTagAreas200ResponseAreasInner } from './coreTagGetTagAreas200ResponseAreasInner';
 
 export class CoreTagGetTagAreas200Response {
-    'areas': Array<CoreTagGetTagAreas200ResponseAreasInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Areas': Array<CoreTagGetTagAreas200ResponseAreasInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "areas",
+            "name": "Areas",
             "baseName": "areas",
             "type": "Array<CoreTagGetTagAreas200ResponseAreasInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

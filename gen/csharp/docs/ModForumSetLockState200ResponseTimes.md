@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetLockState200ResponseTimes
+# MoodleClient.Model.ModForumSetLockState200ResponseTimes
 
 ## Properties
 

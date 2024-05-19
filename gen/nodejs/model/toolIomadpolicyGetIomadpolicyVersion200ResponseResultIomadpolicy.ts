@@ -16,31 +16,31 @@ export class ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy {
     /**
     * The iomadpolicy version content
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * The iomadpolicy version name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The iomadpolicy version id
     */
-    'versionid'?: number = null;
+    'Versionid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "versionid",
+            "name": "Versionid",
             "baseName": "versionid",
             "type": "number"
         }    ];

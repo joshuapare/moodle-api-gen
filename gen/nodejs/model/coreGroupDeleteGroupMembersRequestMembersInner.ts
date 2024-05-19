@@ -16,22 +16,22 @@ export class CoreGroupDeleteGroupMembersRequestMembersInner {
     /**
     * group record id
     */
-    'groupid'?: number;
+    'Groupid'?: number;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

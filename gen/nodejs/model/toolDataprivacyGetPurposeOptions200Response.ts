@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ToolDataprivacyGetPurposeOptions200ResponseOptionsInner } from './toolDataprivacyGetPurposeOptions200ResponseOptionsInner';
 
 export class ToolDataprivacyGetPurposeOptions200Response {
-    'options': Array<ToolDataprivacyGetPurposeOptions200ResponseOptionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Options': Array<ToolDataprivacyGetPurposeOptions200ResponseOptionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ToolDataprivacyGetPurposeOptions200ResponseOptionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

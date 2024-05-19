@@ -16,22 +16,22 @@ export class CoreUserCreateUsersRequestUsersInnerPreferencesInner {
     /**
     * The name of the preference
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
     /**
     * The value of the preference
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

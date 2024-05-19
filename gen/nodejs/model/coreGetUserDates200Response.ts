@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreGetUserDates200Response {
-    'dates': Array<object>;
+    'Dates': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "dates",
+            "name": "Dates",
             "baseName": "dates",
             "type": "Array<object>"
         }    ];

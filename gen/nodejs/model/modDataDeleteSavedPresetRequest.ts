@@ -16,19 +16,19 @@ export class ModDataDeleteSavedPresetRequest {
     /**
     * Id of the data activity
     */
-    'dataid': number = null;
-    'presetnames': Array<object>;
+    'Dataid': number = null;
+    'Presetnames': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "dataid",
+            "name": "Dataid",
             "baseName": "dataid",
             "type": "number"
         },
         {
-            "name": "presetnames",
+            "name": "Presetnames",
             "baseName": "presetnames",
             "type": "Array<object>"
         }    ];

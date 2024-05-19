@@ -16,22 +16,22 @@ export class CoreCourseGetCoursesByFieldRequest {
     /**
     * The field to search can be left empty for all courses or:                     id: course id                     ids: comma separated course ids                     shortname: course short name                     idnumber: course id number                     category: category id the course belongs to                 
     */
-    'field'?: string = '';
+    'Field'?: string = '';
     /**
     * The value to match
     */
-    'value'?: string = '';
+    'Value'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "field",
+            "name": "Field",
             "baseName": "field",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

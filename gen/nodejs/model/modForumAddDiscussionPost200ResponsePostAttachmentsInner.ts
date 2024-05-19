@@ -18,187 +18,187 @@ export class ModForumAddDiscussionPost200ResponsePostAttachmentsInner {
     /**
     * author
     */
-    'author'?: string;
+    'Author'?: string;
     /**
     * component
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * contextid
     */
-    'contextid'?: number;
+    'Contextid'?: number;
     /**
     * filearea
     */
-    'filearea'?: string;
+    'Filearea'?: string;
     /**
     * filename
     */
-    'filename'?: string;
+    'Filename'?: string;
     /**
     * filenameshort
     */
-    'filenameshort'?: string;
+    'Filenameshort'?: string;
     /**
     * filepath
     */
-    'filepath'?: string;
+    'Filepath'?: string;
     /**
     * filesize
     */
-    'filesize'?: number;
+    'Filesize'?: number;
     /**
     * filesizeformatted
     */
-    'filesizeformatted'?: string;
-    'html'?: ModForumAddDiscussionPost200ResponsePostAttachmentsInnerHtml;
+    'Filesizeformatted'?: string;
+    'Html'?: ModForumAddDiscussionPost200ResponsePostAttachmentsInnerHtml;
     /**
     * icon
     */
-    'icon'?: string;
+    'Icon'?: string;
     /**
     * isdir
     */
-    'isdir'?: boolean;
+    'Isdir'?: boolean;
     /**
     * isimage
     */
-    'isimage'?: boolean;
+    'Isimage'?: boolean;
     /**
     * itemid
     */
-    'itemid'?: number;
+    'Itemid'?: number;
     /**
     * license
     */
-    'license'?: string;
+    'License'?: string;
     /**
     * timecreated
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * timecreatedformatted
     */
-    'timecreatedformatted'?: string;
+    'Timecreatedformatted'?: string;
     /**
     * timemodified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * timemodifiedformatted
     */
-    'timemodifiedformatted'?: string;
+    'Timemodifiedformatted'?: string;
     /**
     * url
     */
-    'url'?: string;
-    'urls'?: ModForumAddDiscussionPost200ResponsePostAttachmentsInnerUrls;
+    'Url'?: string;
+    'Urls'?: ModForumAddDiscussionPost200ResponsePostAttachmentsInnerUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "author",
+            "name": "Author",
             "baseName": "author",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filenameshort",
+            "name": "Filenameshort",
             "baseName": "filenameshort",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "filesizeformatted",
+            "name": "Filesizeformatted",
             "baseName": "filesizeformatted",
             "type": "string"
         },
         {
-            "name": "html",
+            "name": "Html",
             "baseName": "html",
             "type": "ModForumAddDiscussionPost200ResponsePostAttachmentsInnerHtml"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "string"
         },
         {
-            "name": "isdir",
+            "name": "Isdir",
             "baseName": "isdir",
             "type": "boolean"
         },
         {
-            "name": "isimage",
+            "name": "Isimage",
             "baseName": "isimage",
             "type": "boolean"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "license",
+            "name": "License",
             "baseName": "license",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timecreatedformatted",
+            "name": "Timecreatedformatted",
             "baseName": "timecreatedformatted",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timemodifiedformatted",
+            "name": "Timemodifiedformatted",
             "baseName": "timemodifiedformatted",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumAddDiscussionPost200ResponsePostAttachmentsInnerUrls"
         }    ];

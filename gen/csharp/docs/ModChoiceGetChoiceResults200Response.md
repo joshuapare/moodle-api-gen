@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChoiceGetChoiceResults200Response
+# MoodleClient.Model.ModChoiceGetChoiceResults200Response
 
 ## Properties
 

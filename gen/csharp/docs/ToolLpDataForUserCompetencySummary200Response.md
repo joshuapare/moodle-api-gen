@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForUserCompetencySummary200Response
+# MoodleClient.Model.ToolLpDataForUserCompetencySummary200Response
 
 ## Properties
 

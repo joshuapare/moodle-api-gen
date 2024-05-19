@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.PaygwPaypalCreateTransactionCompleteRequest
+# MoodleClient.Model.PaygwPaypalCreateTransactionCompleteRequest
 
 ## Properties
 

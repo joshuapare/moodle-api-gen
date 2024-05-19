@@ -16,40 +16,40 @@ export class CoreCustomfieldReloadTemplate200ResponseCategoriesInnerFieldsInner 
     /**
     * id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * shortname
     */
-    'shortname'?: string = 'null';
+    'Shortname'?: string = 'null';
     /**
     * type
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

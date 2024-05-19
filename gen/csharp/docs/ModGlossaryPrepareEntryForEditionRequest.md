@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryPrepareEntryForEditionRequest
+# MoodleClient.Model.ModGlossaryPrepareEntryForEditionRequest
 
 ## Properties
 

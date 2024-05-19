@@ -17,235 +17,235 @@ export class ModWorkshopGetWorkshopAccessInformation200Response {
     /**
     * Is the user allowed to create/edit his assessments?
     */
-    'assessingallowed': boolean = null;
+    'Assessingallowed': boolean = null;
     /**
     * Are reviewers allowed to create/edit their assessments of the example submissions?.
     */
-    'assessingexamplesallowed': boolean = null;
+    'Assessingexamplesallowed': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:addinstance allowed.
     */
-    'canaddinstance': boolean = null;
+    'Canaddinstance': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:allocate allowed.
     */
-    'canallocate': boolean = null;
+    'Canallocate': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:deletesubmissions allowed.
     */
-    'candeletesubmissions': boolean = null;
+    'Candeletesubmissions': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:editdimensions allowed.
     */
-    'caneditdimensions': boolean = null;
+    'Caneditdimensions': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:exportsubmissions allowed.
     */
-    'canexportsubmissions': boolean = null;
+    'Canexportsubmissions': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:ignoredeadlines allowed.
     */
-    'canignoredeadlines': boolean = null;
+    'Canignoredeadlines': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:manageexamples allowed.
     */
-    'canmanageexamples': boolean = null;
+    'Canmanageexamples': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:overridegrades allowed.
     */
-    'canoverridegrades': boolean = null;
+    'Canoverridegrades': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:peerassess allowed.
     */
-    'canpeerassess': boolean = null;
+    'Canpeerassess': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:publishsubmissions allowed.
     */
-    'canpublishsubmissions': boolean = null;
+    'Canpublishsubmissions': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:submit allowed.
     */
-    'cansubmit': boolean = null;
+    'Cansubmit': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:switchphase allowed.
     */
-    'canswitchphase': boolean = null;
+    'Canswitchphase': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:view allowed.
     */
-    'canview': boolean = null;
+    'Canview': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:viewallassessments allowed.
     */
-    'canviewallassessments': boolean = null;
+    'Canviewallassessments': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:viewallsubmissions allowed.
     */
-    'canviewallsubmissions': boolean = null;
+    'Canviewallsubmissions': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:viewauthornames allowed.
     */
-    'canviewauthornames': boolean = null;
+    'Canviewauthornames': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:viewauthorpublished allowed.
     */
-    'canviewauthorpublished': boolean = null;
+    'Canviewauthorpublished': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:viewpublishedsubmissions allowed.
     */
-    'canviewpublishedsubmissions': boolean = null;
+    'Canviewpublishedsubmissions': boolean = null;
     /**
     * Whether the user has the capability mod/workshop:viewreviewernames allowed.
     */
-    'canviewreviewernames': boolean = null;
+    'Canviewreviewernames': boolean = null;
     /**
     * Is the given user allowed to create their submission?
     */
-    'creatingsubmissionallowed': boolean = null;
+    'Creatingsubmissionallowed': boolean = null;
     /**
     * Whether the given user has assessed all his required examples before assessment                 (always true if there are not examples to assessor not configured to check before assessment).
     */
-    'examplesassessedbeforeassessment': boolean = null;
+    'Examplesassessedbeforeassessment': boolean = null;
     /**
     * Whether the given user has assessed all his required examples before submission                 (always true if there are not examples to assess or not configured to check before submission).
     */
-    'examplesassessedbeforesubmission': boolean = null;
+    'Examplesassessedbeforesubmission': boolean = null;
     /**
     * Is the user allowed to modify his existing submission?
     */
-    'modifyingsubmissionallowed': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Modifyingsubmissionallowed': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessingallowed",
+            "name": "Assessingallowed",
             "baseName": "assessingallowed",
             "type": "boolean"
         },
         {
-            "name": "assessingexamplesallowed",
+            "name": "Assessingexamplesallowed",
             "baseName": "assessingexamplesallowed",
             "type": "boolean"
         },
         {
-            "name": "canaddinstance",
+            "name": "Canaddinstance",
             "baseName": "canaddinstance",
             "type": "boolean"
         },
         {
-            "name": "canallocate",
+            "name": "Canallocate",
             "baseName": "canallocate",
             "type": "boolean"
         },
         {
-            "name": "candeletesubmissions",
+            "name": "Candeletesubmissions",
             "baseName": "candeletesubmissions",
             "type": "boolean"
         },
         {
-            "name": "caneditdimensions",
+            "name": "Caneditdimensions",
             "baseName": "caneditdimensions",
             "type": "boolean"
         },
         {
-            "name": "canexportsubmissions",
+            "name": "Canexportsubmissions",
             "baseName": "canexportsubmissions",
             "type": "boolean"
         },
         {
-            "name": "canignoredeadlines",
+            "name": "Canignoredeadlines",
             "baseName": "canignoredeadlines",
             "type": "boolean"
         },
         {
-            "name": "canmanageexamples",
+            "name": "Canmanageexamples",
             "baseName": "canmanageexamples",
             "type": "boolean"
         },
         {
-            "name": "canoverridegrades",
+            "name": "Canoverridegrades",
             "baseName": "canoverridegrades",
             "type": "boolean"
         },
         {
-            "name": "canpeerassess",
+            "name": "Canpeerassess",
             "baseName": "canpeerassess",
             "type": "boolean"
         },
         {
-            "name": "canpublishsubmissions",
+            "name": "Canpublishsubmissions",
             "baseName": "canpublishsubmissions",
             "type": "boolean"
         },
         {
-            "name": "cansubmit",
+            "name": "Cansubmit",
             "baseName": "cansubmit",
             "type": "boolean"
         },
         {
-            "name": "canswitchphase",
+            "name": "Canswitchphase",
             "baseName": "canswitchphase",
             "type": "boolean"
         },
         {
-            "name": "canview",
+            "name": "Canview",
             "baseName": "canview",
             "type": "boolean"
         },
         {
-            "name": "canviewallassessments",
+            "name": "Canviewallassessments",
             "baseName": "canviewallassessments",
             "type": "boolean"
         },
         {
-            "name": "canviewallsubmissions",
+            "name": "Canviewallsubmissions",
             "baseName": "canviewallsubmissions",
             "type": "boolean"
         },
         {
-            "name": "canviewauthornames",
+            "name": "Canviewauthornames",
             "baseName": "canviewauthornames",
             "type": "boolean"
         },
         {
-            "name": "canviewauthorpublished",
+            "name": "Canviewauthorpublished",
             "baseName": "canviewauthorpublished",
             "type": "boolean"
         },
         {
-            "name": "canviewpublishedsubmissions",
+            "name": "Canviewpublishedsubmissions",
             "baseName": "canviewpublishedsubmissions",
             "type": "boolean"
         },
         {
-            "name": "canviewreviewernames",
+            "name": "Canviewreviewernames",
             "baseName": "canviewreviewernames",
             "type": "boolean"
         },
         {
-            "name": "creatingsubmissionallowed",
+            "name": "Creatingsubmissionallowed",
             "baseName": "creatingsubmissionallowed",
             "type": "boolean"
         },
         {
-            "name": "examplesassessedbeforeassessment",
+            "name": "Examplesassessedbeforeassessment",
             "baseName": "examplesassessedbeforeassessment",
             "type": "boolean"
         },
         {
-            "name": "examplesassessedbeforesubmission",
+            "name": "Examplesassessedbeforesubmission",
             "baseName": "examplesassessedbeforesubmission",
             "type": "boolean"
         },
         {
-            "name": "modifyingsubmissionallowed",
+            "name": "Modifyingsubmissionallowed",
             "baseName": "modifyingsubmissionallowed",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

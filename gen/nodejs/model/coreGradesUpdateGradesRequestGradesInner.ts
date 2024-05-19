@@ -16,31 +16,31 @@ export class CoreGradesUpdateGradesRequestGradesInner {
     /**
     * Student grade
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * A string representation of the feedback from the grader
     */
-    'strFeedback'?: string = 'null';
+    'StrFeedback'?: string = 'null';
     /**
     * Student ID
     */
-    'studentid'?: number = null;
+    'Studentid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "strFeedback",
+            "name": "StrFeedback",
             "baseName": "str_feedback",
             "type": "string"
         },
         {
-            "name": "studentid",
+            "name": "Studentid",
             "baseName": "studentid",
             "type": "number"
         }    ];

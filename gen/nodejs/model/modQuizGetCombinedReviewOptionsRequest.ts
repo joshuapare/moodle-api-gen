@@ -16,22 +16,22 @@ export class ModQuizGetCombinedReviewOptionsRequest {
     /**
     * quiz instance id
     */
-    'quizid': number;
+    'Quizid': number;
     /**
     * user id (empty for current user)
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "quizid",
+            "name": "Quizid",
             "baseName": "quizid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

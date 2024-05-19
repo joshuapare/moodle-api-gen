@@ -16,22 +16,22 @@ export class ModChatLoginUserRequest {
     /**
     * chat instance id
     */
-    'chatid': number = null;
+    'Chatid': number = null;
     /**
     * group id, 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatid",
+            "name": "Chatid",
             "baseName": "chatid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

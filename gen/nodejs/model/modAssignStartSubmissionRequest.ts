@@ -16,13 +16,13 @@ export class ModAssignStartSubmissionRequest {
     /**
     * Assignment instance id
     */
-    'assignid': number = null;
+    'Assignid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignid",
+            "name": "Assignid",
             "baseName": "assignid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignViewAssignRequest
+# MoodleClient.Model.ModAssignViewAssignRequest
 
 ## Properties
 

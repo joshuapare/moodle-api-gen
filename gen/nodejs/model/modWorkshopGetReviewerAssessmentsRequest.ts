@@ -16,22 +16,22 @@ export class ModWorkshopGetReviewerAssessmentsRequest {
     /**
     * User id who did the assessment review (empty or 0 for current user).
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
     /**
     * Workshop instance id.
     */
-    'workshopid': number;
+    'Workshopid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "workshopid",
+            "name": "Workshopid",
             "baseName": "workshopid",
             "type": "number"
         }    ];

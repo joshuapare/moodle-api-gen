@@ -19,205 +19,205 @@ export class CoreCalendarGetCalendarMonthlyView200Response {
     /**
     * calendarinstanceid
     */
-    'calendarinstanceid': number = 0;
+    'Calendarinstanceid': number = 0;
     /**
     * categoryid
     */
-    'categoryid'?: number = 0;
+    'Categoryid'?: number = 0;
     /**
     * courseid
     */
-    'courseid': number;
-    'date': CoreCalendarGetCalendarDayView200ResponseNextperiod;
-    'daynames': Array<CoreCalendarGetCalendarMonthlyView200ResponseDaynamesInner>;
+    'Courseid': number;
+    'Date': CoreCalendarGetCalendarDayView200ResponseNextperiod;
+    'Daynames': Array<CoreCalendarGetCalendarMonthlyView200ResponseDaynamesInner>;
     /**
     * defaulteventcontext
     */
-    'defaulteventcontext': number = 0;
+    'Defaulteventcontext': number = 0;
     /**
     * filter_selector
     */
-    'filterSelector'?: string;
+    'FilterSelector'?: string;
     /**
     * includenavigation
     */
-    'includenavigation': boolean = true;
+    'Includenavigation': boolean = true;
     /**
     * initialeventsloaded
     */
-    'initialeventsloaded': boolean = true;
+    'Initialeventsloaded': boolean = true;
     /**
     * larrow
     */
-    'larrow': string;
-    'nextperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
+    'Larrow': string;
+    'Nextperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
     /**
     * nextperiodlink
     */
-    'nextperiodlink': string;
+    'Nextperiodlink': string;
     /**
     * nextperiodname
     */
-    'nextperiodname': string;
+    'Nextperiodname': string;
     /**
     * periodname
     */
-    'periodname': string;
-    'previousperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
+    'Periodname': string;
+    'Previousperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
     /**
     * previousperiodlink
     */
-    'previousperiodlink': string;
+    'Previousperiodlink': string;
     /**
     * previousperiodname
     */
-    'previousperiodname': string;
+    'Previousperiodname': string;
     /**
     * rarrow
     */
-    'rarrow': string;
+    'Rarrow': string;
     /**
     * showviewselector
     */
-    'showviewselector': boolean = true;
+    'Showviewselector': boolean = true;
     /**
     * url
     */
-    'url': string;
+    'Url': string;
     /**
     * view
     */
-    'view': string = 'null';
+    'View': string = 'null';
     /**
     * viewinginblock
     */
-    'viewinginblock': boolean = false;
+    'Viewinginblock': boolean = false;
     /**
     * viewingmonth
     */
-    'viewingmonth': boolean = true;
-    'weeks': Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInner>;
+    'Viewingmonth': boolean = true;
+    'Weeks': Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "calendarinstanceid",
+            "name": "Calendarinstanceid",
             "baseName": "calendarinstanceid",
             "type": "number"
         },
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "date",
+            "name": "Date",
             "baseName": "date",
             "type": "CoreCalendarGetCalendarDayView200ResponseNextperiod"
         },
         {
-            "name": "daynames",
+            "name": "Daynames",
             "baseName": "daynames",
             "type": "Array<CoreCalendarGetCalendarMonthlyView200ResponseDaynamesInner>"
         },
         {
-            "name": "defaulteventcontext",
+            "name": "Defaulteventcontext",
             "baseName": "defaulteventcontext",
             "type": "number"
         },
         {
-            "name": "filterSelector",
+            "name": "FilterSelector",
             "baseName": "filter_selector",
             "type": "string"
         },
         {
-            "name": "includenavigation",
+            "name": "Includenavigation",
             "baseName": "includenavigation",
             "type": "boolean"
         },
         {
-            "name": "initialeventsloaded",
+            "name": "Initialeventsloaded",
             "baseName": "initialeventsloaded",
             "type": "boolean"
         },
         {
-            "name": "larrow",
+            "name": "Larrow",
             "baseName": "larrow",
             "type": "string"
         },
         {
-            "name": "nextperiod",
+            "name": "Nextperiod",
             "baseName": "nextperiod",
             "type": "CoreCalendarGetCalendarDayView200ResponseNextperiod"
         },
         {
-            "name": "nextperiodlink",
+            "name": "Nextperiodlink",
             "baseName": "nextperiodlink",
             "type": "string"
         },
         {
-            "name": "nextperiodname",
+            "name": "Nextperiodname",
             "baseName": "nextperiodname",
             "type": "string"
         },
         {
-            "name": "periodname",
+            "name": "Periodname",
             "baseName": "periodname",
             "type": "string"
         },
         {
-            "name": "previousperiod",
+            "name": "Previousperiod",
             "baseName": "previousperiod",
             "type": "CoreCalendarGetCalendarDayView200ResponseNextperiod"
         },
         {
-            "name": "previousperiodlink",
+            "name": "Previousperiodlink",
             "baseName": "previousperiodlink",
             "type": "string"
         },
         {
-            "name": "previousperiodname",
+            "name": "Previousperiodname",
             "baseName": "previousperiodname",
             "type": "string"
         },
         {
-            "name": "rarrow",
+            "name": "Rarrow",
             "baseName": "rarrow",
             "type": "string"
         },
         {
-            "name": "showviewselector",
+            "name": "Showviewselector",
             "baseName": "showviewselector",
             "type": "boolean"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "string"
         },
         {
-            "name": "viewinginblock",
+            "name": "Viewinginblock",
             "baseName": "viewinginblock",
             "type": "boolean"
         },
         {
-            "name": "viewingmonth",
+            "name": "Viewingmonth",
             "baseName": "viewingmonth",
             "type": "boolean"
         },
         {
-            "name": "weeks",
+            "name": "Weeks",
             "baseName": "weeks",
             "type": "Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInner>"
         }    ];

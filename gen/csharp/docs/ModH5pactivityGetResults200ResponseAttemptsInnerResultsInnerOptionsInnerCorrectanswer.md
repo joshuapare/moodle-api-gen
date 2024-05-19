@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerCorrectanswer
+# MoodleClient.Model.ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerCorrectanswer
 
 ## Properties
 

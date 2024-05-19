@@ -16,13 +16,13 @@ export class CoreBackupGetAsyncBackupLinksRestore200Response {
     /**
     * Restore url
     */
-    'restoreurl': string = 'null';
+    'Restoreurl': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "restoreurl",
+            "name": "Restoreurl",
             "baseName": "restoreurl",
             "type": "string"
         }    ];

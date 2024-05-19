@@ -17,82 +17,82 @@ export class GradingformRubricGraderGradingpanelStore200ResponseGrade {
     /**
     * Can the user edit this
     */
-    'canedit': boolean;
-    'criteria': Array<GradingformRubricGraderGradingpanelStore200ResponseGradeCriteriaInner>;
+    'Canedit': boolean;
+    'Criteria': Array<GradingformRubricGraderGradingpanelStore200ResponseGradeCriteriaInner>;
     /**
     * The assumed grader of this grading instance
     */
-    'gradedby': string;
+    'Gradedby': string;
     /**
     * The id of the current grading instance
     */
-    'instanceid': number;
+    'Instanceid': number;
     /**
     * Max possible grade
     */
-    'maxgrade': string;
+    'Maxgrade': string;
     /**
     * The mode i.e. evaluate editable
     */
-    'rubricmode': string;
+    'Rubricmode': string;
     /**
     * The time that the grade was created
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * The time that the grade was last updated
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * Current user grade
     */
-    'usergrade': string;
+    'Usergrade': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canedit",
+            "name": "Canedit",
             "baseName": "canedit",
             "type": "boolean"
         },
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "Array<GradingformRubricGraderGradingpanelStore200ResponseGradeCriteriaInner>"
         },
         {
-            "name": "gradedby",
+            "name": "Gradedby",
             "baseName": "gradedby",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "string"
         },
         {
-            "name": "rubricmode",
+            "name": "Rubricmode",
             "baseName": "rubricmode",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usergrade",
+            "name": "Usergrade",
             "baseName": "usergrade",
             "type": "string"
         }    ];

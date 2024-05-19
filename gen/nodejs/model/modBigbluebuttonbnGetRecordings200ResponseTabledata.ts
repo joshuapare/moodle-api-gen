@@ -14,43 +14,43 @@ import { RequestFile } from './models';
 import { ModBigbluebuttonbnGetRecordings200ResponseTabledataColumnsInner } from './modBigbluebuttonbnGetRecordings200ResponseTabledataColumnsInner';
 
 export class ModBigbluebuttonbnGetRecordings200ResponseTabledata {
-    'activity': string;
-    'columns': Array<ModBigbluebuttonbnGetRecordings200ResponseTabledataColumnsInner>;
-    'data': string;
-    'locale': string;
-    'pingInterval': number;
-    'profileFeatures': Array<object>;
+    'Activity': string;
+    'Columns': Array<ModBigbluebuttonbnGetRecordings200ResponseTabledataColumnsInner>;
+    'Data': string;
+    'Locale': string;
+    'PingInterval': number;
+    'ProfileFeatures': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activity",
+            "name": "Activity",
             "baseName": "activity",
             "type": "string"
         },
         {
-            "name": "columns",
+            "name": "Columns",
             "baseName": "columns",
             "type": "Array<ModBigbluebuttonbnGetRecordings200ResponseTabledataColumnsInner>"
         },
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "string"
         },
         {
-            "name": "locale",
+            "name": "Locale",
             "baseName": "locale",
             "type": "string"
         },
         {
-            "name": "pingInterval",
+            "name": "PingInterval",
             "baseName": "ping_interval",
             "type": "number"
         },
         {
-            "name": "profileFeatures",
+            "name": "ProfileFeatures",
             "baseName": "profile_features",
             "type": "Array<object>"
         }    ];

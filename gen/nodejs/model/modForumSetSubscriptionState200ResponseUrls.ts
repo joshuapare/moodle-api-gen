@@ -16,58 +16,58 @@ export class ModForumSetSubscriptionState200ResponseUrls {
     /**
     * markasread
     */
-    'markasread': string;
+    'Markasread': string;
     /**
     * pin
     */
-    'pin'?: string;
+    'Pin'?: string;
     /**
     * subscribe
     */
-    'subscribe': string;
+    'Subscribe': string;
     /**
     * view
     */
-    'view': string;
+    'View': string;
     /**
     * viewfirstunread
     */
-    'viewfirstunread'?: string;
+    'Viewfirstunread'?: string;
     /**
     * viewlatest
     */
-    'viewlatest'?: string;
+    'Viewlatest'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "markasread",
+            "name": "Markasread",
             "baseName": "markasread",
             "type": "string"
         },
         {
-            "name": "pin",
+            "name": "Pin",
             "baseName": "pin",
             "type": "string"
         },
         {
-            "name": "subscribe",
+            "name": "Subscribe",
             "baseName": "subscribe",
             "type": "string"
         },
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "string"
         },
         {
-            "name": "viewfirstunread",
+            "name": "Viewfirstunread",
             "baseName": "viewfirstunread",
             "type": "string"
         },
         {
-            "name": "viewlatest",
+            "name": "Viewlatest",
             "baseName": "viewlatest",
             "type": "string"
         }    ];

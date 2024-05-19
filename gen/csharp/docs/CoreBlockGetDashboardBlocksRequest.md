@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlockGetDashboardBlocksRequest
+# MoodleClient.Model.CoreBlockGetDashboardBlocksRequest
 
 ## Properties
 

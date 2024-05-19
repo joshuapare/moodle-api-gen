@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetFinishedResponses200ResponseResponsesInner
+# MoodleClient.Model.ModFeedbackGetFinishedResponses200ResponseResponsesInner
 
 ## Properties
 

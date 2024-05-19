@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageSetFavouriteConversationsRequest
+# MoodleClient.Model.CoreMessageSetFavouriteConversationsRequest
 
 ## Properties
 

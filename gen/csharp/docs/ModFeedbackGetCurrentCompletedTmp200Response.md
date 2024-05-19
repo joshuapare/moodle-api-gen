@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetCurrentCompletedTmp200Response
+# MoodleClient.Model.ModFeedbackGetCurrentCompletedTmp200Response
 
 ## Properties
 

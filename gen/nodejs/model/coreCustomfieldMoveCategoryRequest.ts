@@ -16,22 +16,22 @@ export class CoreCustomfieldMoveCategoryRequest {
     /**
     * Id of the category before which it needs to be moved
     */
-    'beforeid'?: number = 0;
+    'Beforeid'?: number = 0;
     /**
     * Category ID to move
     */
-    'id': number = null;
+    'Id': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "beforeid",
+            "name": "Beforeid",
             "baseName": "beforeid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

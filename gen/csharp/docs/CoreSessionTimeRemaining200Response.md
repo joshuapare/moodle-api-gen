@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreSessionTimeRemaining200Response
+# MoodleClient.Model.CoreSessionTimeRemaining200Response
 
 ## Properties
 

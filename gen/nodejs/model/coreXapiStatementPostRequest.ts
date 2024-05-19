@@ -16,22 +16,22 @@ export class CoreXapiStatementPostRequest {
     /**
     * Component name
     */
-    'component': string;
+    'Component': string;
     /**
     * json object with all the statements to post
     */
-    'requestjson': string = 'null';
+    'Requestjson': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "requestjson",
+            "name": "Requestjson",
             "baseName": "requestjson",
             "type": "string"
         }    ];

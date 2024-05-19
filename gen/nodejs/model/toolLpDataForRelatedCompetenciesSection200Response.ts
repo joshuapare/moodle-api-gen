@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreCompetencyReadUserEvidence200ResponseCompetenciesInner } from './coreCompetencyReadUserEvidence200ResponseCompetenciesInner';
 
 export class ToolLpDataForRelatedCompetenciesSection200Response {
-    'relatedcompetencies': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
+    'Relatedcompetencies': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
     /**
     * Whether to show the delete relation link or not
     */
-    'showdeleterelatedaction': boolean = null;
+    'Showdeleterelatedaction': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "relatedcompetencies",
+            "name": "Relatedcompetencies",
             "baseName": "relatedcompetencies",
             "type": "Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>"
         },
         {
-            "name": "showdeleterelatedaction",
+            "name": "Showdeleterelatedaction",
             "baseName": "showdeleterelatedaction",
             "type": "boolean"
         }    ];

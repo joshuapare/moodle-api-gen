@@ -16,193 +16,193 @@ export class AuthEmailGetSignupSettings200ResponseProfilefieldsInner {
     /**
     * Profield field category id
     */
-    'categoryid'?: number = null;
+    'Categoryid'?: number = null;
     /**
     * Profield field category name
     */
-    'categoryname'?: string = 'null';
+    'Categoryname'?: string = 'null';
     /**
     * Profield field datatype
     */
-    'datatype'?: string = 'null';
+    'Datatype'?: string = 'null';
     /**
     * Profield field default data
     */
-    'defaultdata'?: string = 'null';
+    'Defaultdata'?: string = 'null';
     /**
     * defaultdata format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'defaultdataformat'?: number = null;
+    'Defaultdataformat'?: number = null;
     /**
     * Profield field description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = null;
+    'Descriptionformat'?: number = null;
     /**
     * Profield field unique
     */
-    'forceunique'?: number = null;
+    'Forceunique'?: number = null;
     /**
     * Profile field id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Profield field locked
     */
-    'locked'?: number = null;
+    'Locked'?: number = null;
     /**
     * Profield field name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Profield field settings
     */
-    'param1'?: string = 'null';
+    'Param1'?: string = 'null';
     /**
     * Profield field settings
     */
-    'param2'?: string;
+    'Param2'?: string;
     /**
     * Profield field settings
     */
-    'param3'?: string;
+    'Param3'?: string;
     /**
     * Profield field settings
     */
-    'param4'?: string;
+    'Param4'?: string;
     /**
     * Profield field settings
     */
-    'param5'?: string;
+    'Param5'?: string;
     /**
     * Profield field required
     */
-    'required'?: number = null;
+    'Required'?: number = null;
     /**
     * Profile field shortname
     */
-    'shortname'?: string = 'null';
+    'Shortname'?: string = 'null';
     /**
     * Profield field in signup form
     */
-    'signup'?: number = null;
+    'Signup'?: number = null;
     /**
     * Profield field sort order
     */
-    'sortorder'?: number = null;
+    'Sortorder'?: number = null;
     /**
     * Profield field visible
     */
-    'visible'?: number = null;
+    'Visible'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "categoryname",
+            "name": "Categoryname",
             "baseName": "categoryname",
             "type": "string"
         },
         {
-            "name": "datatype",
+            "name": "Datatype",
             "baseName": "datatype",
             "type": "string"
         },
         {
-            "name": "defaultdata",
+            "name": "Defaultdata",
             "baseName": "defaultdata",
             "type": "string"
         },
         {
-            "name": "defaultdataformat",
+            "name": "Defaultdataformat",
             "baseName": "defaultdataformat",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "forceunique",
+            "name": "Forceunique",
             "baseName": "forceunique",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "param1",
+            "name": "Param1",
             "baseName": "param1",
             "type": "string"
         },
         {
-            "name": "param2",
+            "name": "Param2",
             "baseName": "param2",
             "type": "string"
         },
         {
-            "name": "param3",
+            "name": "Param3",
             "baseName": "param3",
             "type": "string"
         },
         {
-            "name": "param4",
+            "name": "Param4",
             "baseName": "param4",
             "type": "string"
         },
         {
-            "name": "param5",
+            "name": "Param5",
             "baseName": "param5",
             "type": "string"
         },
         {
-            "name": "required",
+            "name": "Required",
             "baseName": "required",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "signup",
+            "name": "Signup",
             "baseName": "signup",
             "type": "number"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

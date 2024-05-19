@@ -17,64 +17,64 @@ export class ModGlossaryGetEntriesByAuthorIdRequest {
     /**
     * The author ID
     */
-    'authorid': number = null;
+    'Authorid': number = null;
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * Glossary entry ID
     */
-    'id': number;
+    'Id': number;
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
-    'options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
+    'Limit'?: number = 20;
+    'Options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
     /**
     * Order by: \'CONCEPT\', \'CREATION\' or \'UPDATE\'
     */
-    'order'?: string = 'CONCEPT';
+    'Order'?: string = 'CONCEPT';
     /**
     * The direction of the order: \'ASC\' or \'DESC\'
     */
-    'sort'?: string = 'ASC';
+    'Sort'?: string = 'ASC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "authorid",
+            "name": "Authorid",
             "baseName": "authorid",
             "type": "number"
         },
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModGlossaryGetEntriesByAuthorRequestOptions"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

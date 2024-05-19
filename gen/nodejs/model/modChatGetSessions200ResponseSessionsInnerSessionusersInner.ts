@@ -16,22 +16,22 @@ export class ModChatGetSessions200ResponseSessionsInnerSessionusersInner {
     /**
     * Number of messages in the session.
     */
-    'messagecount'?: number = null;
+    'Messagecount'?: number = null;
     /**
     * User id.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messagecount",
+            "name": "Messagecount",
             "baseName": "messagecount",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

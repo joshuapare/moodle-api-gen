@@ -16,40 +16,40 @@ export class BlockIomadCompanyAdminAssignUsers200ResponseUsersInner {
     /**
     * Company ID
     */
-    'companyid'?: number = null;
+    'Companyid'?: number = null;
     /**
     * Failure message
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
     /**
     * Success or failure
     */
-    'result'?: boolean = null;
+    'Result'?: boolean = null;
     /**
     * Department ID
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "result",
+            "name": "Result",
             "baseName": "result",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.EnrolManualUnenrolUsersRequestEnrolmentsInner
+# MoodleClient.Model.EnrolManualUnenrolUsersRequestEnrolmentsInner
 
 ## Properties
 

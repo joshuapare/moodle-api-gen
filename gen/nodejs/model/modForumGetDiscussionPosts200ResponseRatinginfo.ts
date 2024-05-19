@@ -18,61 +18,61 @@ export class ModForumGetDiscussionPosts200ResponseRatinginfo {
     /**
     * Whether the user can view all the individual ratings.
     */
-    'canviewall'?: boolean;
+    'Canviewall'?: boolean;
     /**
     * Whether the user can view aggregate of ratings of others.
     */
-    'canviewany'?: boolean;
+    'Canviewany'?: boolean;
     /**
     * Context name.
     */
-    'component': string;
+    'Component': string;
     /**
     * Context id.
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * Rating area name.
     */
-    'ratingarea': string;
-    'ratings'?: Array<ModForumGetDiscussionPosts200ResponseRatinginfoRatingsInner>;
-    'scales'?: Array<ModForumGetDiscussionPosts200ResponseRatinginfoScalesInner>;
+    'Ratingarea': string;
+    'Ratings'?: Array<ModForumGetDiscussionPosts200ResponseRatinginfoRatingsInner>;
+    'Scales'?: Array<ModForumGetDiscussionPosts200ResponseRatinginfoScalesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canviewall",
+            "name": "Canviewall",
             "baseName": "canviewall",
             "type": "boolean"
         },
         {
-            "name": "canviewany",
+            "name": "Canviewany",
             "baseName": "canviewany",
             "type": "boolean"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "ratingarea",
+            "name": "Ratingarea",
             "baseName": "ratingarea",
             "type": "string"
         },
         {
-            "name": "ratings",
+            "name": "Ratings",
             "baseName": "ratings",
             "type": "Array<ModForumGetDiscussionPosts200ResponseRatinginfoRatingsInner>"
         },
         {
-            "name": "scales",
+            "name": "Scales",
             "baseName": "scales",
             "type": "Array<ModForumGetDiscussionPosts200ResponseRatinginfoScalesInner>"
         }    ];

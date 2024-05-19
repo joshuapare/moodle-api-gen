@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner
+# MoodleClient.Model.ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner
 
 ## Properties
 

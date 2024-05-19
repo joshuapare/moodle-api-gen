@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreRoleAssignRolesRequestAssignmentsInner
+# MoodleClient.Model.CoreRoleAssignRolesRequestAssignmentsInner
 
 ## Properties
 

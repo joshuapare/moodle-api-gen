@@ -15,49 +15,49 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModGlossaryPrepareEntryForEdition200ResponseAreasInner } from './modGlossaryPrepareEntryForEdition200ResponseAreasInner';
 
 export class ModGlossaryPrepareEntryForEdition200Response {
-    'aliases': Array<object>;
-    'areas': Array<ModGlossaryPrepareEntryForEdition200ResponseAreasInner>;
+    'Aliases': Array<object>;
+    'Areas': Array<ModGlossaryPrepareEntryForEdition200ResponseAreasInner>;
     /**
     * Draft item id for the file manager.
     */
-    'attachmentsid': number = null;
-    'categories': Array<object>;
+    'Attachmentsid': number = null;
+    'Categories': Array<object>;
     /**
     * Draft item id for the text editor.
     */
-    'inlineattachmentsid': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Inlineattachmentsid': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aliases",
+            "name": "Aliases",
             "baseName": "aliases",
             "type": "Array<object>"
         },
         {
-            "name": "areas",
+            "name": "Areas",
             "baseName": "areas",
             "type": "Array<ModGlossaryPrepareEntryForEdition200ResponseAreasInner>"
         },
         {
-            "name": "attachmentsid",
+            "name": "Attachmentsid",
             "baseName": "attachmentsid",
             "type": "number"
         },
         {
-            "name": "categories",
+            "name": "Categories",
             "baseName": "categories",
             "type": "Array<object>"
         },
         {
-            "name": "inlineattachmentsid",
+            "name": "Inlineattachmentsid",
             "baseName": "inlineattachmentsid",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

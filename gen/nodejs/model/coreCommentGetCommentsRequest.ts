@@ -16,67 +16,67 @@ export class CoreCommentGetCommentsRequest {
     /**
     * string comment area
     */
-    'area'?: string = '';
+    'Area'?: string = '';
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * contextlevel system, course, user...
     */
-    'contextlevel': string;
+    'Contextlevel': string;
     /**
     * the Instance id of item associated with the context level
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
     /**
     * associated id
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * page number (0 based)
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * Sort direction: ASC or DESC
     */
-    'sortdirection'?: string = 'DESC';
+    'Sortdirection'?: string = 'DESC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "string"
         }    ];

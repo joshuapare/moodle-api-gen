@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCompetencyUpdateCompetencyRequestCompetency } from './coreCompetencyUpdateCompetencyRequestCompetency';
 
 export class CoreCompetencyUpdateCompetencyRequest {
-    'competency': CoreCompetencyUpdateCompetencyRequestCompetency;
+    'Competency': CoreCompetencyUpdateCompetencyRequestCompetency;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "CoreCompetencyUpdateCompetencyRequestCompetency"
         }    ];

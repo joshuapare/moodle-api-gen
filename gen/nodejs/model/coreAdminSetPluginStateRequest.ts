@@ -16,22 +16,22 @@ export class CoreAdminSetPluginStateRequest {
     /**
     * The name of the plugin
     */
-    'plugin': string;
+    'Plugin': string;
     /**
     * The target state
     */
-    'state': number;
+    'State': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "plugin",
+            "name": "Plugin",
             "baseName": "plugin",
             "type": "string"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradereportOverviewViewGradeReportRequest
+# MoodleClient.Model.GradereportOverviewViewGradeReportRequest
 
 ## Properties
 

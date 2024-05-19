@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyDuplicateCompetencyFrameworkRequest
+# MoodleClient.Model.CoreCompetencyDuplicateCompetencyFrameworkRequest
 
 ## Properties
 

@@ -16,67 +16,67 @@ export class ModLessonGetUserAttemptGrade200ResponseGrade {
     /**
     * Number of question attempts
     */
-    'attempts': number;
+    'Attempts': number;
     /**
     * Points earned by student
     */
-    'earned': number;
+    'Earned': number;
     /**
     * Calculated percentage grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * Point value for manually graded questions
     */
-    'manualpoints': number;
+    'Manualpoints': number;
     /**
     * Number of manually graded questions
     */
-    'nmanual': number;
+    'Nmanual': number;
     /**
     * Number of questions answered
     */
-    'nquestions': number;
+    'Nquestions': number;
     /**
     * Max points possible
     */
-    'total': number;
+    'Total': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "number"
         },
         {
-            "name": "earned",
+            "name": "Earned",
             "baseName": "earned",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "manualpoints",
+            "name": "Manualpoints",
             "baseName": "manualpoints",
             "type": "number"
         },
         {
-            "name": "nmanual",
+            "name": "Nmanual",
             "baseName": "nmanual",
             "type": "number"
         },
         {
-            "name": "nquestions",
+            "name": "Nquestions",
             "baseName": "nquestions",
             "type": "number"
         },
         {
-            "name": "total",
+            "name": "Total",
             "baseName": "total",
             "type": "number"
         }    ];

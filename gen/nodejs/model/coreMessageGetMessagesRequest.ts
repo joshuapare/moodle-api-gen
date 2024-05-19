@@ -16,67 +16,67 @@ export class CoreMessageGetMessagesRequest {
     /**
     * limit from
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * limit number
     */
-    'limitnum'?: number = 0;
+    'Limitnum'?: number = 0;
     /**
     * true for ordering by newest first, false for oldest first
     */
-    'newestfirst'?: boolean = true;
+    'Newestfirst'?: boolean = true;
     /**
     * 1 for getting read messages, 0 for unread, 2 for both
     */
-    'read'?: number = 1;
+    'Read'?: number = 1;
     /**
     * type of message to return, expected values are: notifications, conversations and both
     */
-    'type'?: string = 'both';
+    'Type'?: string = 'both';
     /**
     * the user id who send the message, 0 for any user. -10 or -20 for no-reply or support user
     */
-    'useridfrom'?: number = 0;
+    'Useridfrom'?: number = 0;
     /**
     * the user id who received the message, 0 for any user
     */
-    'useridto': number = null;
+    'Useridto': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "newestfirst",
+            "name": "Newestfirst",
             "baseName": "newestfirst",
             "type": "boolean"
         },
         {
-            "name": "read",
+            "name": "Read",
             "baseName": "read",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "useridfrom",
+            "name": "Useridfrom",
             "baseName": "useridfrom",
             "type": "number"
         },
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         }    ];

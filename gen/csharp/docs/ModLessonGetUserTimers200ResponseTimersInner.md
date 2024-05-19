@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetUserTimers200ResponseTimersInner
+# MoodleClient.Model.ModLessonGetUserTimers200ResponseTimersInner
 The timers
 
 ## Properties

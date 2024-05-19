@@ -16,22 +16,22 @@ export class ModLtiGetToolTypesAndProxiesCountRequest {
     /**
     * Orphaned tool types only
     */
-    'orphanedonly'?: boolean = 0;
+    'Orphanedonly'?: boolean = 0;
     /**
     * Tool proxy id
     */
-    'toolproxyid'?: number = 0;
+    'Toolproxyid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "orphanedonly",
+            "name": "Orphanedonly",
             "baseName": "orphanedonly",
             "type": "boolean"
         },
         {
-            "name": "toolproxyid",
+            "name": "Toolproxyid",
             "baseName": "toolproxyid",
             "type": "number"
         }    ];

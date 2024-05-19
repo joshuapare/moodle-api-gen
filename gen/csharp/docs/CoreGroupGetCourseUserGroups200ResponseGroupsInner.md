@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupGetCourseUserGroups200ResponseGroupsInner
+# MoodleClient.Model.CoreGroupGetCourseUserGroups200ResponseGroupsInner
 
 ## Properties
 

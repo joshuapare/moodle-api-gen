@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminAssignUsersRequestUsersInner
+# MoodleClient.Model.BlockIomadCompanyAdminAssignUsersRequestUsersInner
 
 ## Properties
 

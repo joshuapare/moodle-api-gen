@@ -15,19 +15,19 @@ import { BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner } from './bl
 import { CoreGradesGetGradableUsers200ResponseUsersInner } from './coreGradesGetGradableUsers200ResponseUsersInner';
 
 export class CoreUserGetUsers200Response {
-    'users': Array<CoreGradesGetGradableUsers200ResponseUsersInner>;
-    'warnings'?: Array<BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner>;
+    'Users': Array<CoreGradesGetGradableUsers200ResponseUsersInner>;
+    'Warnings'?: Array<BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<CoreGradesGetGradableUsers200ResponseUsersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<BlockIomadCompanyAdminGetCompanies200ResponseWarningsInner>"
         }    ];

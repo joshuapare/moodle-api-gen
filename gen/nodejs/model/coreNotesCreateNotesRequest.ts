@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreNotesCreateNotesRequestNotesInner } from './coreNotesCreateNotesRequestNotesInner';
 
 export class CoreNotesCreateNotesRequest {
-    'notes': Array<CoreNotesCreateNotesRequestNotesInner>;
+    'Notes': Array<CoreNotesCreateNotesRequestNotesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "notes",
+            "name": "Notes",
             "baseName": "notes",
             "type": "Array<CoreNotesCreateNotesRequestNotesInner>"
         }    ];

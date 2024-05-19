@@ -18,214 +18,214 @@ export class ModBigbluebuttonbnMeetingInfo200Response {
     /**
     * bigbluebuttonbn instance id
     */
-    'bigbluebuttonbnid': string = 'null';
+    'Bigbluebuttonbnid': string = 'null';
     /**
     * Can join
     */
-    'canjoin': boolean = null;
+    'Canjoin': boolean = null;
     /**
     * Closing time
     */
-    'closingtime'?: number = null;
+    'Closingtime'?: number = null;
     /**
     * CM id
     */
-    'cmid': number = null;
-    'features'?: Array<ModBigbluebuttonbnMeetingInfo200ResponseFeaturesInner>;
+    'Cmid': number = null;
+    'Features'?: Array<ModBigbluebuttonbnMeetingInfo200ResponseFeaturesInner>;
     /**
     * bigbluebuttonbn group id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * Guest access enabled
     */
-    'guestaccessenabled'?: boolean = null;
+    'Guestaccessenabled'?: boolean = null;
     /**
     * Guest URL
     */
-    'guestjoinurl'?: string = 'null';
+    'Guestjoinurl'?: string = 'null';
     /**
     * Guest join password
     */
-    'guestpassword'?: string = 'null';
+    'Guestpassword'?: string = 'null';
     /**
     * Is moderator
     */
-    'ismoderator': boolean = null;
+    'Ismoderator': boolean = null;
     /**
     * Join URL
     */
-    'joinurl': string = 'null';
+    'Joinurl': string = 'null';
     /**
     * Meeting id
     */
-    'meetingid': string;
+    'Meetingid': string;
     /**
     * Moderator count
     */
-    'moderatorcount'?: number = null;
+    'Moderatorcount'?: number = null;
     /**
     * Several moderators ?
     */
-    'moderatorplural'?: boolean = null;
+    'Moderatorplural'?: boolean = null;
     /**
     * Opening time
     */
-    'openingtime'?: number = null;
+    'Openingtime'?: number = null;
     /**
     * Participant count
     */
-    'participantcount'?: number = null;
+    'Participantcount'?: number = null;
     /**
     * Several participants ?
     */
-    'participantplural'?: boolean = null;
-    'presentations': Array<ModBigbluebuttonbnMeetingInfo200ResponsePresentationsInner>;
+    'Participantplural'?: boolean = null;
+    'Presentations': Array<ModBigbluebuttonbnMeetingInfo200ResponsePresentationsInner>;
     /**
     * Started at
     */
-    'startedat'?: number = null;
+    'Startedat'?: number = null;
     /**
     * Status closed
     */
-    'statusclosed'?: boolean = null;
+    'Statusclosed'?: boolean = null;
     /**
     * Status message
     */
-    'statusmessage'?: string = 'null';
+    'Statusmessage'?: string = 'null';
     /**
     * Status open
     */
-    'statusopen'?: boolean = null;
+    'Statusopen'?: boolean = null;
     /**
     * Status running
     */
-    'statusrunning'?: boolean = null;
+    'Statusrunning'?: boolean = null;
     /**
     * User limit
     */
-    'userlimit': number = null;
+    'Userlimit': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bigbluebuttonbnid",
+            "name": "Bigbluebuttonbnid",
             "baseName": "bigbluebuttonbnid",
             "type": "string"
         },
         {
-            "name": "canjoin",
+            "name": "Canjoin",
             "baseName": "canjoin",
             "type": "boolean"
         },
         {
-            "name": "closingtime",
+            "name": "Closingtime",
             "baseName": "closingtime",
             "type": "number"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "features",
+            "name": "Features",
             "baseName": "features",
             "type": "Array<ModBigbluebuttonbnMeetingInfo200ResponseFeaturesInner>"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "guestaccessenabled",
+            "name": "Guestaccessenabled",
             "baseName": "guestaccessenabled",
             "type": "boolean"
         },
         {
-            "name": "guestjoinurl",
+            "name": "Guestjoinurl",
             "baseName": "guestjoinurl",
             "type": "string"
         },
         {
-            "name": "guestpassword",
+            "name": "Guestpassword",
             "baseName": "guestpassword",
             "type": "string"
         },
         {
-            "name": "ismoderator",
+            "name": "Ismoderator",
             "baseName": "ismoderator",
             "type": "boolean"
         },
         {
-            "name": "joinurl",
+            "name": "Joinurl",
             "baseName": "joinurl",
             "type": "string"
         },
         {
-            "name": "meetingid",
+            "name": "Meetingid",
             "baseName": "meetingid",
             "type": "string"
         },
         {
-            "name": "moderatorcount",
+            "name": "Moderatorcount",
             "baseName": "moderatorcount",
             "type": "number"
         },
         {
-            "name": "moderatorplural",
+            "name": "Moderatorplural",
             "baseName": "moderatorplural",
             "type": "boolean"
         },
         {
-            "name": "openingtime",
+            "name": "Openingtime",
             "baseName": "openingtime",
             "type": "number"
         },
         {
-            "name": "participantcount",
+            "name": "Participantcount",
             "baseName": "participantcount",
             "type": "number"
         },
         {
-            "name": "participantplural",
+            "name": "Participantplural",
             "baseName": "participantplural",
             "type": "boolean"
         },
         {
-            "name": "presentations",
+            "name": "Presentations",
             "baseName": "presentations",
             "type": "Array<ModBigbluebuttonbnMeetingInfo200ResponsePresentationsInner>"
         },
         {
-            "name": "startedat",
+            "name": "Startedat",
             "baseName": "startedat",
             "type": "number"
         },
         {
-            "name": "statusclosed",
+            "name": "Statusclosed",
             "baseName": "statusclosed",
             "type": "boolean"
         },
         {
-            "name": "statusmessage",
+            "name": "Statusmessage",
             "baseName": "statusmessage",
             "type": "string"
         },
         {
-            "name": "statusopen",
+            "name": "Statusopen",
             "baseName": "statusopen",
             "type": "boolean"
         },
         {
-            "name": "statusrunning",
+            "name": "Statusrunning",
             "baseName": "statusrunning",
             "type": "boolean"
         },
         {
-            "name": "userlimit",
+            "name": "Userlimit",
             "baseName": "userlimit",
             "type": "number"
         }    ];

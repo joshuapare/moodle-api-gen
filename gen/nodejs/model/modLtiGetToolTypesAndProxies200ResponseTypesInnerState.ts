@@ -16,49 +16,49 @@ export class ModLtiGetToolTypesAndProxies200ResponseTypesInnerState {
     /**
     * Is the state configured
     */
-    'configured': boolean;
+    'Configured': boolean;
     /**
     * Is the state pending
     */
-    'pending': boolean;
+    'Pending': boolean;
     /**
     * Is the state rejected
     */
-    'rejected': boolean;
+    'Rejected': boolean;
     /**
     * Tool type state name string
     */
-    'text': string;
+    'Text': string;
     /**
     * Is the state unknown
     */
-    'unknown': boolean;
+    'Unknown': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "configured",
+            "name": "Configured",
             "baseName": "configured",
             "type": "boolean"
         },
         {
-            "name": "pending",
+            "name": "Pending",
             "baseName": "pending",
             "type": "boolean"
         },
         {
-            "name": "rejected",
+            "name": "Rejected",
             "baseName": "rejected",
             "type": "boolean"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "unknown",
+            "name": "Unknown",
             "baseName": "unknown",
             "type": "boolean"
         }    ];

@@ -16,193 +16,193 @@ export class CoreSearchGetResults200ResponseResultsInner {
     /**
     * search area name
     */
-    'areaname'?: string = 'null';
+    'Areaname'?: string = 'null';
     /**
     * component name
     */
-    'componentname'?: string = 'null';
+    'Componentname'?: string = 'null';
     /**
     * result contents
     */
-    'content'?: string = '';
+    'Content'?: string = '';
     /**
     * result context id
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * result context url
     */
-    'contexturl'?: string = 'null';
+    'Contexturl'?: string = 'null';
     /**
     * result course fullname
     */
-    'coursefullname'?: string = 'null';
+    'Coursefullname'?: string = 'null';
     /**
     * result course url
     */
-    'courseurl'?: string = 'null';
+    'Courseurl'?: string = 'null';
     /**
     * extra result contents, depends on the search area
     */
-    'description1'?: string = '';
+    'Description1'?: string = '';
     /**
     * extra result contents, depends on the search area
     */
-    'description2'?: string = '';
+    'Description2'?: string = '';
     /**
     * result url
     */
-    'docurl'?: string = 'null';
+    'Docurl'?: string = 'null';
     /**
     * result file name if present
     */
-    'filename'?: string = 'null';
+    'Filename'?: string = 'null';
     /**
     * result file names if present
     */
-    'filenames'?: string = 'null';
+    'Filenames'?: string = 'null';
     /**
     * icon url
     */
-    'iconurl'?: string = '';
+    'Iconurl'?: string = '';
     /**
     * unique id in the search area scope
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
     /**
     * whether multiple files are returned or not
     */
-    'multiplefiles'?: number = null;
+    'Multiplefiles'?: number = null;
     /**
     * text fields format, it is the same for all of them
     */
-    'textformat'?: number = null;
+    'Textformat'?: number = null;
     /**
     * result modified time
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * result title
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
     /**
     * user fullname
     */
-    'userfullname'?: string = 'null';
+    'Userfullname'?: string = 'null';
     /**
     * user id
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * user url
     */
-    'userurl'?: string = 'null';
+    'Userurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "areaname",
+            "name": "Areaname",
             "baseName": "areaname",
             "type": "string"
         },
         {
-            "name": "componentname",
+            "name": "Componentname",
             "baseName": "componentname",
             "type": "string"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contexturl",
+            "name": "Contexturl",
             "baseName": "contexturl",
             "type": "string"
         },
         {
-            "name": "coursefullname",
+            "name": "Coursefullname",
             "baseName": "coursefullname",
             "type": "string"
         },
         {
-            "name": "courseurl",
+            "name": "Courseurl",
             "baseName": "courseurl",
             "type": "string"
         },
         {
-            "name": "description1",
+            "name": "Description1",
             "baseName": "description1",
             "type": "string"
         },
         {
-            "name": "description2",
+            "name": "Description2",
             "baseName": "description2",
             "type": "string"
         },
         {
-            "name": "docurl",
+            "name": "Docurl",
             "baseName": "docurl",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filenames",
+            "name": "Filenames",
             "baseName": "filenames",
             "type": "string"
         },
         {
-            "name": "iconurl",
+            "name": "Iconurl",
             "baseName": "iconurl",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "multiplefiles",
+            "name": "Multiplefiles",
             "baseName": "multiplefiles",
             "type": "number"
         },
         {
-            "name": "textformat",
+            "name": "Textformat",
             "baseName": "textformat",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "userfullname",
+            "name": "Userfullname",
             "baseName": "userfullname",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "userurl",
+            "name": "Userurl",
             "baseName": "userurl",
             "type": "string"
         }    ];

@@ -1,6 +1,6 @@
 # BlockIomadCompanyAdminApi
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
@@ -52,7 +52,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -122,7 +122,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -192,7 +192,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -262,7 +262,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -332,7 +332,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -402,7 +402,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -472,7 +472,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -542,7 +542,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -612,7 +612,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -682,7 +682,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -752,7 +752,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -822,7 +822,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -892,7 +892,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -962,7 +962,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1032,7 +1032,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1102,7 +1102,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1172,7 +1172,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1242,7 +1242,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1312,7 +1312,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1382,7 +1382,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1452,7 +1452,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1522,7 +1522,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1592,7 +1592,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1662,7 +1662,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");
@@ -1732,7 +1732,7 @@ import com.joshuapare.moodleclient.BlockIomadCompanyAdminApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://localhost/webservice/rest/server.php");
+    defaultClient.setBasePath("https://localhost/webservice/restful/server.php");
     
     // Configure API key authorization: apiKey
     ApiKeyAuth apiKey = (ApiKeyAuth) defaultClient.getAuthentication("apiKey");

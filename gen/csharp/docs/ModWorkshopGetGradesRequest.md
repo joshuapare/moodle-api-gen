@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetGradesRequest
+# MoodleClient.Model.ModWorkshopGetGradesRequest
 
 ## Properties
 

@@ -16,22 +16,22 @@ export class CoreGetComponentStringsRequest {
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * lang
     */
-    'lang'?: string = 'null';
+    'Lang'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         }    ];

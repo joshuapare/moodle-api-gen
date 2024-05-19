@@ -16,58 +16,58 @@ export class ModFeedbackGetUnfinishedResponses200ResponseResponsesInner {
     /**
     * Reference to the feedback_completedtmp table.
     */
-    'completed'?: number = null;
+    'Completed'?: number = null;
     /**
     * The course id this record belongs to.
     */
-    'courseId'?: number;
+    'CourseId'?: number;
     /**
     * The record id.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The item id that was responded.
     */
-    'item'?: number;
+    'Item'?: number;
     /**
     * Old field - not used anymore.
     */
-    'tmpCompleted'?: number;
+    'TmpCompleted'?: number;
     /**
     * The response value.
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "number"
         },
         {
-            "name": "courseId",
+            "name": "CourseId",
             "baseName": "course_id",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "number"
         },
         {
-            "name": "tmpCompleted",
+            "name": "TmpCompleted",
             "baseName": "tmp_completed",
             "type": "number"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

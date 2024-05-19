@@ -16,58 +16,58 @@ export class ModBigbluebuttonbnGetRecordings200ResponseTabledataColumnsInner {
     /**
     * Whether this column contains HTML
     */
-    'allowHTML'?: boolean = false;
+    'AllowHTML'?: boolean = false;
     /**
     * Formatter name
     */
-    'formatter'?: string = 'null';
-    'key'?: string;
-    'label'?: string;
+    'Formatter'?: string = 'null';
+    'Key'?: string;
+    'Label'?: string;
     /**
     * Whether this column is sortable
     */
-    'sortable'?: boolean = false;
+    'Sortable'?: boolean = false;
     /**
     * Column type
     */
-    'type'?: string = 'null';
-    'width'?: string;
+    'Type'?: string = 'null';
+    'Width'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowHTML",
+            "name": "AllowHTML",
             "baseName": "allowHTML",
             "type": "boolean"
         },
         {
-            "name": "formatter",
+            "name": "Formatter",
             "baseName": "formatter",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "label",
+            "name": "Label",
             "baseName": "label",
             "type": "string"
         },
         {
-            "name": "sortable",
+            "name": "Sortable",
             "baseName": "sortable",
             "type": "boolean"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "width",
+            "name": "Width",
             "baseName": "width",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlockFetchAddableBlocksRequest
+# MoodleClient.Model.CoreBlockFetchAddableBlocksRequest
 
 ## Properties
 

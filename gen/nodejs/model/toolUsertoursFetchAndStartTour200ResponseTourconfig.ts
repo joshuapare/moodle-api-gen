@@ -17,37 +17,37 @@ export class ToolUsertoursFetchAndStartTour200ResponseTourconfig {
     /**
     * display step number
     */
-    'displaystepnumbers': boolean = null;
+    'Displaystepnumbers': boolean = null;
     /**
     * Label of the end tour button
     */
-    'endtourlabel': string = 'null';
+    'Endtourlabel': string = 'null';
     /**
     * Tour Name
     */
-    'name': string = 'null';
-    'steps': Array<ToolUsertoursFetchAndStartTour200ResponseTourconfigStepsInner>;
+    'Name': string = 'null';
+    'Steps': Array<ToolUsertoursFetchAndStartTour200ResponseTourconfigStepsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displaystepnumbers",
+            "name": "Displaystepnumbers",
             "baseName": "displaystepnumbers",
             "type": "boolean"
         },
         {
-            "name": "endtourlabel",
+            "name": "Endtourlabel",
             "baseName": "endtourlabel",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "steps",
+            "name": "Steps",
             "baseName": "steps",
             "type": "Array<ToolUsertoursFetchAndStartTour200ResponseTourconfigStepsInner>"
         }    ];

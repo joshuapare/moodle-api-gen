@@ -16,49 +16,49 @@ export class CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner
     /**
     * actionable
     */
-    'actionable': boolean;
+    'Actionable': boolean;
     /**
     * itemcount
     */
-    'itemcount': number;
+    'Itemcount': number;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * showitemcount
     */
-    'showitemcount': boolean = false;
+    'Showitemcount': boolean = false;
     /**
     * url
     */
-    'url': string;
+    'Url': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "actionable",
+            "name": "Actionable",
             "baseName": "actionable",
             "type": "boolean"
         },
         {
-            "name": "itemcount",
+            "name": "Itemcount",
             "baseName": "itemcount",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "showitemcount",
+            "name": "Showitemcount",
             "baseName": "showitemcount",
             "type": "boolean"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

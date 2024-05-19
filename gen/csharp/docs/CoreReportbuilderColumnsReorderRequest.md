@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsReorderRequest
+# MoodleClient.Model.CoreReportbuilderColumnsReorderRequest
 
 ## Properties
 

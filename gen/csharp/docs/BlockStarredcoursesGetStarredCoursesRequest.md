@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockStarredcoursesGetStarredCoursesRequest
+# MoodleClient.Model.BlockStarredcoursesGetStarredCoursesRequest
 
 ## Properties
 

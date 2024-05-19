@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBookGetBooksByCoursesRequest
+# MoodleClient.Model.ModBookGetBooksByCoursesRequest
 
 ## Properties
 

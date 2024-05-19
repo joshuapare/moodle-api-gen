@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreRoleAssignRolesRequestAssignmentsInner } from './coreRoleAssignRolesRequestAssignmentsInner';
 
 export class CoreRoleAssignRolesRequest {
-    'assignments': Array<CoreRoleAssignRolesRequestAssignmentsInner>;
+    'Assignments': Array<CoreRoleAssignRolesRequestAssignmentsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignments",
+            "name": "Assignments",
             "baseName": "assignments",
             "type": "Array<CoreRoleAssignRolesRequestAssignmentsInner>"
         }    ];

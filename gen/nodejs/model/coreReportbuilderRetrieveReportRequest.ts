@@ -16,31 +16,31 @@ export class CoreReportbuilderRetrieveReportRequest {
     /**
     * Page number
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * Reports per page
     */
-    'perpage'?: number = 10;
+    'Perpage'?: number = 10;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

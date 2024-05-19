@@ -16,40 +16,40 @@ export class ModForumSetSubscriptionState200ResponseTimes {
     /**
     * end
     */
-    'end': number;
+    'End': number;
     /**
     * locked
     */
-    'locked': number;
+    'Locked': number;
     /**
     * modified
     */
-    'modified': number;
+    'Modified': number;
     /**
     * start
     */
-    'start': number;
+    'Start': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "end",
+            "name": "End",
             "baseName": "end",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "number"
         },
         {
-            "name": "modified",
+            "name": "Modified",
             "baseName": "modified",
             "type": "number"
         },
         {
-            "name": "start",
+            "name": "Start",
             "baseName": "start",
             "type": "number"
         }    ];

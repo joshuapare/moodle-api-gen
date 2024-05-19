@@ -20,19 +20,19 @@ export class CoreGradesCreateGradecategoriesRequestCategoriesInner {
     /**
     * fullname of category
     */
-    'fullname'?: string = 'null';
-    'options'?: CoreGradesCreateGradecategoriesRequestCategoriesInnerOptions;
+    'Fullname'?: string = 'null';
+    'Options'?: CoreGradesCreateGradecategoriesRequestCategoriesInnerOptions;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "CoreGradesCreateGradecategoriesRequestCategoriesInnerOptions"
         }    ];

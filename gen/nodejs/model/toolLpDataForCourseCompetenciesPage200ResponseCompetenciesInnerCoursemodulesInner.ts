@@ -16,40 +16,40 @@ export class ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCour
     /**
     * iconurl
     */
-    'iconurl'?: string;
+    'Iconurl'?: string;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * url
     */
-    'url'?: string;
+    'Url'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iconurl",
+            "name": "Iconurl",
             "baseName": "iconurl",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

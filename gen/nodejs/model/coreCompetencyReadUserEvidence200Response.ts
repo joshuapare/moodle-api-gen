@@ -18,142 +18,142 @@ export class CoreCompetencyReadUserEvidence200Response {
     /**
     * canmanage
     */
-    'canmanage': boolean;
-    'competencies': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
+    'Canmanage': boolean;
+    'Competencies': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
     /**
     * competencycount
     */
-    'competencycount': number = null;
+    'Competencycount': number = null;
     /**
     * description
     */
-    'description': string = '';
+    'Description': string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * filecount
     */
-    'filecount': number = null;
-    'files': Array<CoreCompetencyReadUserEvidence200ResponseFilesInner>;
+    'Filecount': number = null;
+    'Files': Array<CoreCompetencyReadUserEvidence200ResponseFilesInner>;
     /**
     * hasurlorfiles
     */
-    'hasurlorfiles': boolean = null;
+    'Hasurlorfiles': boolean = null;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * url
     */
-    'url': string = '';
+    'Url': string = '';
     /**
     * urlshort
     */
-    'urlshort': string = 'null';
+    'Urlshort': string = 'null';
     /**
     * userid
     */
-    'userid': number;
+    'Userid': number;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "competencies",
+            "name": "Competencies",
             "baseName": "competencies",
             "type": "Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>"
         },
         {
-            "name": "competencycount",
+            "name": "Competencycount",
             "baseName": "competencycount",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "filecount",
+            "name": "Filecount",
             "baseName": "filecount",
             "type": "number"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreCompetencyReadUserEvidence200ResponseFilesInner>"
         },
         {
-            "name": "hasurlorfiles",
+            "name": "Hasurlorfiles",
             "baseName": "hasurlorfiles",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "urlshort",
+            "name": "Urlshort",
             "baseName": "urlshort",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetEnrolledUsersForSearchWidget200Response
+# MoodleClient.Model.CoreGradesGetEnrolledUsersForSearchWidget200Response
 
 ## Properties
 

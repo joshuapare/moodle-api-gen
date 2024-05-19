@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserUpdatePicture200Response
+# MoodleClient.Model.CoreUserUpdatePicture200Response
 
 ## Properties
 

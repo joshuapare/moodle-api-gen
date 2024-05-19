@@ -16,22 +16,22 @@ export class ModForumUpdateDiscussionPostRequestOptionsInner {
     /**
     * The allowed keys (value format) are:                                 pinned (bool); (only for discussions) whether to pin this discussion or not                                 discussionsubscribe (bool); whether to subscribe to the post or not                                 inlineattachmentsid (int); the draft file area id for inline attachments in the text                                 attachmentsid (int); the draft file area id for attachments
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The value of the option.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner } from './coreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner';
 
 export class CoreCourseGetEnrolledCoursesWithActionEventsByTimelineClassification200Response {
-    'courses': Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>;
+    'Courses': Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>;
     /**
     * Whether more courses with events exist within the provided parameters
     */
-    'morecoursesavailable': boolean = null;
+    'Morecoursesavailable': boolean = null;
     /**
     * Offset for the next request
     */
-    'nextoffset': number;
+    'Nextoffset': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>"
         },
         {
-            "name": "morecoursesavailable",
+            "name": "Morecoursesavailable",
             "baseName": "morecoursesavailable",
             "type": "boolean"
         },
         {
-            "name": "nextoffset",
+            "name": "Nextoffset",
             "baseName": "nextoffset",
             "type": "number"
         }    ];

@@ -15,19 +15,19 @@ import { ModAssignGetUserFlags200ResponseAssignmentsInner } from './modAssignGet
 import { ModAssignGetUserFlags200ResponseWarningsInner } from './modAssignGetUserFlags200ResponseWarningsInner';
 
 export class ModAssignGetUserFlags200Response {
-    'assignments': Array<ModAssignGetUserFlags200ResponseAssignmentsInner>;
-    'warnings'?: Array<ModAssignGetUserFlags200ResponseWarningsInner>;
+    'Assignments': Array<ModAssignGetUserFlags200ResponseAssignmentsInner>;
+    'Warnings'?: Array<ModAssignGetUserFlags200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignments",
+            "name": "Assignments",
             "baseName": "assignments",
             "type": "Array<ModAssignGetUserFlags200ResponseAssignmentsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<ModAssignGetUserFlags200ResponseWarningsInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyGradeCompetency200ResponseActionuser
+# MoodleClient.Model.CoreCompetencyGradeCompetency200ResponseActionuser
 
 ## Properties
 

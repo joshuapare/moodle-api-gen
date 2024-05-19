@@ -17,82 +17,82 @@ export class ModLessonGetAttemptsOverview200ResponseData {
     /**
     * Average score.
     */
-    'avescore': number = null;
+    'Avescore': number = null;
     /**
     * Average time (spent in taking the lesson).
     */
-    'avetime': number = null;
+    'Avetime': number = null;
     /**
     * High score.
     */
-    'highscore': number = null;
+    'Highscore': number = null;
     /**
     * High time.
     */
-    'hightime': number = null;
+    'Hightime': number = null;
     /**
     * True if the lesson was scored.
     */
-    'lessonscored': boolean = null;
+    'Lessonscored': boolean = null;
     /**
     * Low score.
     */
-    'lowscore': number = null;
+    'Lowscore': number = null;
     /**
     * Low time.
     */
-    'lowtime': number = null;
+    'Lowtime': number = null;
     /**
     * Number of attempts.
     */
-    'numofattempts': number = null;
-    'students'?: Array<ModLessonGetAttemptsOverview200ResponseDataStudentsInner>;
+    'Numofattempts': number = null;
+    'Students'?: Array<ModLessonGetAttemptsOverview200ResponseDataStudentsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "avescore",
+            "name": "Avescore",
             "baseName": "avescore",
             "type": "number"
         },
         {
-            "name": "avetime",
+            "name": "Avetime",
             "baseName": "avetime",
             "type": "number"
         },
         {
-            "name": "highscore",
+            "name": "Highscore",
             "baseName": "highscore",
             "type": "number"
         },
         {
-            "name": "hightime",
+            "name": "Hightime",
             "baseName": "hightime",
             "type": "number"
         },
         {
-            "name": "lessonscored",
+            "name": "Lessonscored",
             "baseName": "lessonscored",
             "type": "boolean"
         },
         {
-            "name": "lowscore",
+            "name": "Lowscore",
             "baseName": "lowscore",
             "type": "number"
         },
         {
-            "name": "lowtime",
+            "name": "Lowtime",
             "baseName": "lowtime",
             "type": "number"
         },
         {
-            "name": "numofattempts",
+            "name": "Numofattempts",
             "baseName": "numofattempts",
             "type": "number"
         },
         {
-            "name": "students",
+            "name": "Students",
             "baseName": "students",
             "type": "Array<ModLessonGetAttemptsOverview200ResponseDataStudentsInner>"
         }    ];

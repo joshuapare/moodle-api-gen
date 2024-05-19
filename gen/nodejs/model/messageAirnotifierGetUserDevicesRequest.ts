@@ -16,22 +16,22 @@ export class MessageAirnotifierGetUserDevicesRequest {
     /**
     * App unique id (usually a reversed domain)
     */
-    'appid': string = 'null';
+    'Appid': string = 'null';
     /**
     * User id, 0 for current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "appid",
+            "name": "Appid",
             "baseName": "appid",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

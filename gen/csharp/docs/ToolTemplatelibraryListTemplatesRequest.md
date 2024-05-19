@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolTemplatelibraryListTemplatesRequest
+# MoodleClient.Model.ToolTemplatelibraryListTemplatesRequest
 
 ## Properties
 

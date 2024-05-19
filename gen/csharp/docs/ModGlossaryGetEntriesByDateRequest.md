@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetEntriesByDateRequest
+# MoodleClient.Model.ModGlossaryGetEntriesByDateRequest
 
 ## Properties
 

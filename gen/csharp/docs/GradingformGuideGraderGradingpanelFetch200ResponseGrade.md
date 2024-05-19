@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradingformGuideGraderGradingpanelFetch200ResponseGrade
+# MoodleClient.Model.GradingformGuideGraderGradingpanelFetch200ResponseGrade
 
 ## Properties
 

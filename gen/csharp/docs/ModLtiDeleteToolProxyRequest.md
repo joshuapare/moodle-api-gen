@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiDeleteToolProxyRequest
+# MoodleClient.Model.ModLtiDeleteToolProxyRequest
 
 ## Properties
 

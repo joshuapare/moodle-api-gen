@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWikiEditPageRequest
+# MoodleClient.Model.ModWikiEditPageRequest
 
 ## Properties
 

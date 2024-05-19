@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminUnassignCoursesRequestCoursesInner {
     /**
     * Course company ID
     */
-    'companyid'?: number = 0;
+    'Companyid'?: number = 0;
     /**
     * Course ID
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

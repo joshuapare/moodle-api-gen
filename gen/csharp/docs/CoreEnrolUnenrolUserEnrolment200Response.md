@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreEnrolUnenrolUserEnrolment200Response
+# MoodleClient.Model.CoreEnrolUnenrolUserEnrolment200Response
 
 ## Properties
 

@@ -16,13 +16,13 @@ export class BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInne
     /**
     * Course ID
     */
-    'courseid'?: number;
+    'Courseid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

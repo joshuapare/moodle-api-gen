@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { ToolMobileGetContentRequestArgsInner } from './toolMobileGetContentRequestArgsInner';
 
 export class ToolMobileGetContentRequest {
-    'args'?: Array<ToolMobileGetContentRequestArgsInner>;
+    'Args'?: Array<ToolMobileGetContentRequestArgsInner>;
     /**
     * Component where the class is e.g. mod_assign.
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * Method to execute in class \\$component\\output\\mobile.
     */
-    'method': string = 'null';
+    'Method': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "args",
+            "name": "Args",
             "baseName": "args",
             "type": "Array<ToolMobileGetContentRequestArgsInner>"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "method",
+            "name": "Method",
             "baseName": "method",
             "type": "string"
         }    ];

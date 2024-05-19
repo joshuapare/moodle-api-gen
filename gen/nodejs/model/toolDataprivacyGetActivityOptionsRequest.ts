@@ -16,13 +16,13 @@ export class ToolDataprivacyGetActivityOptionsRequest {
     /**
     * Whether to fetch all activities or only those without defaults
     */
-    'nodefaults'?: boolean = false;
+    'Nodefaults'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "nodefaults",
+            "name": "Nodefaults",
             "baseName": "nodefaults",
             "type": "boolean"
         }    ];

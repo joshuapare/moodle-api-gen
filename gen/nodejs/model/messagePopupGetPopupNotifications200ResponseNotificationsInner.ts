@@ -19,193 +19,193 @@ export class MessagePopupGetPopupNotifications200ResponseNotificationsInner {
     /**
     * The component that generated the notification
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * Context URL
     */
-    'contexturl'?: string;
+    'Contexturl'?: string;
     /**
     * Context URL link name
     */
-    'contexturlname'?: string;
+    'Contexturlname'?: string;
     /**
     * Custom data to be passed to the message processor.                                 The data here is serialised using json_encode().
     */
-    'customdata'?: string;
+    'Customdata'?: string;
     /**
     * notification deletion status
     */
-    'deleted'?: boolean = null;
+    'Deleted'?: boolean = null;
     /**
     * The type of notification
     */
-    'eventtype'?: string;
+    'Eventtype'?: string;
     /**
     * The message
     */
-    'fullmessage'?: string;
+    'Fullmessage'?: string;
     /**
     * fullmessage format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'fullmessageformat'?: number;
+    'Fullmessageformat'?: number;
     /**
     * The message in html
     */
-    'fullmessagehtml'?: string;
+    'Fullmessagehtml'?: string;
     /**
     * URL for notification icon
     */
-    'iconurl'?: string = 'null';
+    'Iconurl'?: string = 'null';
     /**
     * Notification id (this is not guaranteed to be unique                                 within this result set)
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * notification read status
     */
-    'read'?: boolean = null;
+    'Read'?: boolean = null;
     /**
     * The notification subject shortened                                 with ellipsis
     */
-    'shortenedsubject'?: string = 'null';
+    'Shortenedsubject'?: string = 'null';
     /**
     * The shorten message
     */
-    'smallmessage'?: string;
+    'Smallmessage'?: string;
     /**
     * The notification subject
     */
-    'subject'?: string = 'null';
+    'Subject'?: string = 'null';
     /**
     * The message text formated
     */
-    'text'?: string;
+    'Text'?: string;
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time created in a pretty format
     */
-    'timecreatedpretty'?: string = 'null';
+    'Timecreatedpretty'?: string = 'null';
     /**
     * Time read
     */
-    'timeread'?: number;
+    'Timeread'?: number;
     /**
     * User from id
     */
-    'useridfrom'?: number;
+    'Useridfrom'?: number;
     /**
     * User to id
     */
-    'useridto'?: number;
+    'Useridto'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contexturl",
+            "name": "Contexturl",
             "baseName": "contexturl",
             "type": "string"
         },
         {
-            "name": "contexturlname",
+            "name": "Contexturlname",
             "baseName": "contexturlname",
             "type": "string"
         },
         {
-            "name": "customdata",
+            "name": "Customdata",
             "baseName": "customdata",
             "type": "string"
         },
         {
-            "name": "deleted",
+            "name": "Deleted",
             "baseName": "deleted",
             "type": "boolean"
         },
         {
-            "name": "eventtype",
+            "name": "Eventtype",
             "baseName": "eventtype",
             "type": "string"
         },
         {
-            "name": "fullmessage",
+            "name": "Fullmessage",
             "baseName": "fullmessage",
             "type": "string"
         },
         {
-            "name": "fullmessageformat",
+            "name": "Fullmessageformat",
             "baseName": "fullmessageformat",
             "type": "number"
         },
         {
-            "name": "fullmessagehtml",
+            "name": "Fullmessagehtml",
             "baseName": "fullmessagehtml",
             "type": "string"
         },
         {
-            "name": "iconurl",
+            "name": "Iconurl",
             "baseName": "iconurl",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "read",
+            "name": "Read",
             "baseName": "read",
             "type": "boolean"
         },
         {
-            "name": "shortenedsubject",
+            "name": "Shortenedsubject",
             "baseName": "shortenedsubject",
             "type": "string"
         },
         {
-            "name": "smallmessage",
+            "name": "Smallmessage",
             "baseName": "smallmessage",
             "type": "string"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timecreatedpretty",
+            "name": "Timecreatedpretty",
             "baseName": "timecreatedpretty",
             "type": "string"
         },
         {
-            "name": "timeread",
+            "name": "Timeread",
             "baseName": "timeread",
             "type": "number"
         },
         {
-            "name": "useridfrom",
+            "name": "Useridfrom",
             "baseName": "useridfrom",
             "type": "number"
         },
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         }    ];

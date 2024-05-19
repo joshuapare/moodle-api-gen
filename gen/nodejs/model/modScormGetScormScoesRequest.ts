@@ -16,22 +16,22 @@ export class ModScormGetScormScoesRequest {
     /**
     * organization id
     */
-    'organization'?: string = '';
+    'Organization'?: string = '';
     /**
     * scorm instance id
     */
-    'scormid': number = null;
+    'Scormid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "organization",
+            "name": "Organization",
             "baseName": "organization",
             "type": "string"
         },
         {
-            "name": "scormid",
+            "name": "Scormid",
             "baseName": "scormid",
             "type": "number"
         }    ];

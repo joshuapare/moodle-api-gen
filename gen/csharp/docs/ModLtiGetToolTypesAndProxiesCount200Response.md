@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetToolTypesAndProxiesCount200Response
+# MoodleClient.Model.ModLtiGetToolTypesAndProxiesCount200Response
 
 ## Properties
 

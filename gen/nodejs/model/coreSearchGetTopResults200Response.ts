@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreSearchGetTopResults200ResponseResultsInner } from './coreSearchGetTopResults200ResponseResultsInner';
 
 export class CoreSearchGetTopResults200Response {
-    'results': Array<CoreSearchGetTopResults200ResponseResultsInner>;
+    'Results': Array<CoreSearchGetTopResults200ResponseResultsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "results",
+            "name": "Results",
             "baseName": "results",
             "type": "Array<CoreSearchGetTopResults200ResponseResultsInner>"
         }    ];

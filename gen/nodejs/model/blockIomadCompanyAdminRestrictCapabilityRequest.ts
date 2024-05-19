@@ -16,49 +16,49 @@ export class BlockIomadCompanyAdminRestrictCapabilityRequest {
     /**
     * Set capability?
     */
-    'allow': boolean = null;
+    'Allow': boolean = null;
     /**
     * The capability
     */
-    'capability': string = 'null';
+    'Capability': string = 'null';
     /**
     * Company ID. Ignored if templateid is non-zero
     */
-    'companyid': number = null;
+    'Companyid': number = null;
     /**
     * Role ID
     */
-    'roleid': number = null;
+    'Roleid': number = null;
     /**
     * Template ID. Set to 0 if company restriction
     */
-    'templateid'?: number = 0;
+    'Templateid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allow",
+            "name": "Allow",
             "baseName": "allow",
             "type": "boolean"
         },
         {
-            "name": "capability",
+            "name": "Capability",
             "baseName": "capability",
             "type": "string"
         },
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "roleid",
+            "name": "Roleid",
             "baseName": "roleid",
             "type": "number"
         },
         {
-            "name": "templateid",
+            "name": "Templateid",
             "baseName": "templateid",
             "type": "number"
         }    ];

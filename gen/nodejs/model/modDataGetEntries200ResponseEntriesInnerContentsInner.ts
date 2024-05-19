@@ -17,82 +17,82 @@ export class ModDataGetEntries200ResponseEntriesInnerContentsInner {
     /**
     * Contents.
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * Contents.
     */
-    'content1'?: string;
+    'Content1'?: string;
     /**
     * Contents.
     */
-    'content2'?: string;
+    'Content2'?: string;
     /**
     * Contents.
     */
-    'content3'?: string;
+    'Content3'?: string;
     /**
     * Contents.
     */
-    'content4'?: string;
+    'Content4'?: string;
     /**
     * The field type of the content.
     */
-    'fieldid'?: number = 0;
-    'files'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Fieldid'?: number = 0;
+    'Files'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * Content id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The record this content belongs to.
     */
-    'recordid'?: number = 0;
+    'Recordid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "content1",
+            "name": "Content1",
             "baseName": "content1",
             "type": "string"
         },
         {
-            "name": "content2",
+            "name": "Content2",
             "baseName": "content2",
             "type": "string"
         },
         {
-            "name": "content3",
+            "name": "Content3",
             "baseName": "content3",
             "type": "string"
         },
         {
-            "name": "content4",
+            "name": "Content4",
             "baseName": "content4",
             "type": "string"
         },
         {
-            "name": "fieldid",
+            "name": "Fieldid",
             "baseName": "fieldid",
             "type": "number"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "recordid",
+            "name": "Recordid",
             "baseName": "recordid",
             "type": "number"
         }    ];

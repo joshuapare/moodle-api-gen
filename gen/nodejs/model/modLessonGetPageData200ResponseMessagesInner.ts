@@ -19,22 +19,22 @@ export class ModLessonGetPageData200ResponseMessagesInner {
     /**
     * Message.
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * Message type: usually a CSS identifier like:                                 success, info, warning, error, notifyproblem, notifyerror, notifytiny, notifysuccess
     */
-    'type'?: string;
+    'Type'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

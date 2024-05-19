@@ -16,31 +16,31 @@ export class ModFeedbackGetAnalysisRequest {
     /**
     * Course where user completes the feedback (for site feedbacks only).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Feedback instance id
     */
-    'feedbackid': number = null;
+    'Feedbackid': number = null;
     /**
     * Group id, 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedbackid",
+            "name": "Feedbackid",
             "baseName": "feedbackid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

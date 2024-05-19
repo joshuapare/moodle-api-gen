@@ -16,22 +16,22 @@ export class ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor {
     /**
     * The format for this feedback
     */
-    'format': number = null;
+    'Format': number = null;
     /**
     * The text for this feedback.
     */
-    'text': string = 'null';
+    'Text': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

@@ -16,49 +16,49 @@ export class CoreRoleUnassignRolesRequestUnassignmentsInner {
     /**
     * The context to unassign the user role from
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * The context level to unassign the user role in +                                    (block, course, coursecat, system, user, module)
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * The Instance id of item where the role needs to be unassigned
     */
-    'instanceid'?: number = null;
+    'Instanceid'?: number = null;
     /**
     * Role to assign to the user
     */
-    'roleid'?: number;
+    'Roleid'?: number;
     /**
     * The user that is going to be assigned
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "roleid",
+            "name": "Roleid",
             "baseName": "roleid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

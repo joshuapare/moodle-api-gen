@@ -16,49 +16,49 @@ export class ModWorkshopGetAssessmentFormDefinition200ResponseDimensionsinfoInne
     /**
     * Dimension id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Maximum grade for the dimension.
     */
-    'max'?: number = null;
+    'Max'?: number = null;
     /**
     * Minimum grade for the dimension.
     */
-    'min'?: number = null;
+    'Min'?: number = null;
     /**
     * Scale items (if used).
     */
-    'scale'?: string = 'null';
+    'Scale'?: string = 'null';
     /**
     * The weight of the dimension.
     */
-    'weight'?: string = 'null';
+    'Weight'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "max",
+            "name": "Max",
             "baseName": "max",
             "type": "number"
         },
         {
-            "name": "min",
+            "name": "Min",
             "baseName": "min",
             "type": "number"
         },
         {
-            "name": "scale",
+            "name": "Scale",
             "baseName": "scale",
             "type": "string"
         },
         {
-            "name": "weight",
+            "name": "Weight",
             "baseName": "weight",
             "type": "string"
         }    ];

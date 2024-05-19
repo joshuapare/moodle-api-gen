@@ -16,22 +16,22 @@ export class ModBigbluebuttonbnEndMeetingRequest {
     /**
     * bigbluebuttonbn instance id
     */
-    'bigbluebuttonbnid': number;
+    'Bigbluebuttonbnid': number;
     /**
     * bigbluebuttonbn group id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bigbluebuttonbnid",
+            "name": "Bigbluebuttonbnid",
             "baseName": "bigbluebuttonbnid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

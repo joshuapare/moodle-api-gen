@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderReportsGet200ResponseCardview
+# MoodleClient.Model.CoreReportbuilderReportsGet200ResponseCardview
 
 ## Properties
 

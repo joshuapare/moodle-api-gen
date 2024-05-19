@@ -16,40 +16,40 @@ export class CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusC
     /**
     * Criteria description
     */
-    'criteria': string = 'null';
+    'Criteria': string = 'null';
     /**
     * Requirement description
     */
-    'requirement': string = 'null';
+    'Requirement': string = 'null';
     /**
     * Status description, can be anything
     */
-    'status': string = 'null';
+    'Status': string = 'null';
     /**
     * Type description
     */
-    'type': string = 'null';
+    'Type': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "string"
         },
         {
-            "name": "requirement",
+            "name": "Requirement",
             "baseName": "requirement",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

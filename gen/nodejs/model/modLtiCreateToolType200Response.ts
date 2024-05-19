@@ -15,112 +15,112 @@ import { ModLtiCreateToolType200ResponseState } from './modLtiCreateToolType200R
 import { ModLtiCreateToolType200ResponseUrls } from './modLtiCreateToolType200ResponseUrls';
 
 export class ModLtiCreateToolType200Response {
-    'capabilitygroups'?: Array<object>;
+    'Capabilitygroups'?: Array<object>;
     /**
     * Client ID
     */
-    'clientid': string = 'null';
+    'Clientid': string = 'null';
     /**
     * Tool type course
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Deployment ID
     */
-    'deploymentid': number = null;
+    'Deploymentid': number = null;
     /**
     * Tool type description
     */
-    'description': string = 'null';
+    'Description': string = 'null';
     /**
     * Indicate if capabilitygroups is populated
     */
-    'hascapabilitygroups': boolean = null;
+    'Hascapabilitygroups': boolean = null;
     /**
     * Tool type id
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * The number of times this tool is being used
     */
-    'instancecount': number = null;
-    'instanceids'?: Array<object>;
+    'Instancecount': number = null;
+    'Instanceids'?: Array<object>;
     /**
     * Tool type name
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * Platform ID
     */
-    'platformid': string = 'null';
-    'state': ModLtiCreateToolType200ResponseState;
-    'urls': ModLtiCreateToolType200ResponseUrls;
+    'Platformid': string = 'null';
+    'State': ModLtiCreateToolType200ResponseState;
+    'Urls': ModLtiCreateToolType200ResponseUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilitygroups",
+            "name": "Capabilitygroups",
             "baseName": "capabilitygroups",
             "type": "Array<object>"
         },
         {
-            "name": "clientid",
+            "name": "Clientid",
             "baseName": "clientid",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "deploymentid",
+            "name": "Deploymentid",
             "baseName": "deploymentid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "hascapabilitygroups",
+            "name": "Hascapabilitygroups",
             "baseName": "hascapabilitygroups",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instancecount",
+            "name": "Instancecount",
             "baseName": "instancecount",
             "type": "number"
         },
         {
-            "name": "instanceids",
+            "name": "Instanceids",
             "baseName": "instanceids",
             "type": "Array<object>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "platformid",
+            "name": "Platformid",
             "baseName": "platformid",
             "type": "string"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "ModLtiCreateToolType200ResponseState"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModLtiCreateToolType200ResponseUrls"
         }    ];

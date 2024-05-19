@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreXapiStatementPostRequest
+# MoodleClient.Model.CoreXapiStatementPostRequest
 
 ## Properties
 

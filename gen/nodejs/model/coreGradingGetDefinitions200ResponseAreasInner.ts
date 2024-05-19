@@ -17,55 +17,55 @@ export class CoreGradingGetDefinitions200ResponseAreasInner {
     /**
     * active method
     */
-    'activemethod'?: string = 'null';
+    'Activemethod'?: string = 'null';
     /**
     * area name
     */
-    'areaname'?: string;
+    'Areaname'?: string;
     /**
     * course module id
     */
-    'cmid'?: number;
+    'Cmid'?: number;
     /**
     * component name
     */
-    'component'?: string = 'null';
+    'Component'?: string = 'null';
     /**
     * context id
     */
-    'contextid'?: number;
-    'definitions'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInner>;
+    'Contextid'?: number;
+    'Definitions'?: Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activemethod",
+            "name": "Activemethod",
             "baseName": "activemethod",
             "type": "string"
         },
         {
-            "name": "areaname",
+            "name": "Areaname",
             "baseName": "areaname",
             "type": "string"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "definitions",
+            "name": "Definitions",
             "baseName": "definitions",
             "type": "Array<CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInner>"
         }    ];

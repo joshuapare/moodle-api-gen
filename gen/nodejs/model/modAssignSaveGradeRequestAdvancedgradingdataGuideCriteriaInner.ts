@@ -17,19 +17,19 @@ export class ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInner {
     /**
     * criterion id
     */
-    'criterionid'?: number;
-    'fillings'?: Array<ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInnerFillingsInner>;
+    'Criterionid'?: number;
+    'Fillings'?: Array<ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInnerFillingsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criterionid",
+            "name": "Criterionid",
             "baseName": "criterionid",
             "type": "number"
         },
         {
-            "name": "fillings",
+            "name": "Fillings",
             "baseName": "fillings",
             "type": "Array<ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInnerFillingsInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetSubscriptionState200ResponseCapabilities
+# MoodleClient.Model.ModForumSetSubscriptionState200ResponseCapabilities
 
 ## Properties
 

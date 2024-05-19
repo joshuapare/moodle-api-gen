@@ -17,19 +17,19 @@ export class ModWorkshopUpdateAssessmentRequest {
     /**
     * Assessment id.
     */
-    'assessmentid': number;
-    'data': Array<ModWorkshopUpdateAssessmentRequestDataInner>;
+    'Assessmentid': number;
+    'Data': Array<ModWorkshopUpdateAssessmentRequestDataInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentid",
+            "name": "Assessmentid",
             "baseName": "assessmentid",
             "type": "number"
         },
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModWorkshopUpdateAssessmentRequestDataInner>"
         }    ];

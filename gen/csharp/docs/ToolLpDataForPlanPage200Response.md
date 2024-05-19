@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForPlanPage200Response
+# MoodleClient.Model.ToolLpDataForPlanPage200Response
 
 ## Properties
 

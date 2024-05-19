@@ -16,22 +16,22 @@ export class CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner {
     /**
     * The shortname of the custom field
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * The value of the custom field
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

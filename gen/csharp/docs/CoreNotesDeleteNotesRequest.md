@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreNotesDeleteNotesRequest
+# MoodleClient.Model.CoreNotesDeleteNotesRequest
 
 ## Properties
 

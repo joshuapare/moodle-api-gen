@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetPinStateRequest
+# MoodleClient.Model.ModForumSetPinStateRequest
 
 ## Properties
 

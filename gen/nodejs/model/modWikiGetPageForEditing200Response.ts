@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ModWikiGetPageForEditing200ResponsePagesection } from './modWikiGetPageForEditing200ResponsePagesection';
 
 export class ModWikiGetPageForEditing200Response {
-    'pagesection': ModWikiGetPageForEditing200ResponsePagesection;
+    'Pagesection': ModWikiGetPageForEditing200ResponsePagesection;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pagesection",
+            "name": "Pagesection",
             "baseName": "pagesection",
             "type": "ModWikiGetPageForEditing200ResponsePagesection"
         }    ];

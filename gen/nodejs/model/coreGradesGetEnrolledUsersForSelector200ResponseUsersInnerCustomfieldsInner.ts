@@ -16,49 +16,49 @@ export class CoreGradesGetEnrolledUsersForSelector200ResponseUsersInnerCustomfie
     /**
     * The value of the custom field for display
     */
-    'displayvalue'?: string = 'null';
+    'Displayvalue'?: string = 'null';
     /**
     * The name of the custom field
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * The shortname of the custom field - to be able to build the field class in the code
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * The type of the custom field - text field, checkbox...
     */
-    'type'?: string;
+    'Type'?: string;
     /**
     * The value of the custom field (as stored in the database)
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayvalue",
+            "name": "Displayvalue",
             "baseName": "displayvalue",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

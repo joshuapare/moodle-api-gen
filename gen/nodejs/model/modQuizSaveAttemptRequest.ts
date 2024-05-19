@@ -17,25 +17,25 @@ export class ModQuizSaveAttemptRequest {
     /**
     * attempt id
     */
-    'attemptid': number;
-    'data': Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
-    'preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
+    'Attemptid': number;
+    'Data': Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
+    'Preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModQuizGetAttemptDataRequestPreflightdataInner>"
         },
         {
-            "name": "preflightdata",
+            "name": "Preflightdata",
             "baseName": "preflightdata",
             "type": "Array<ModQuizGetAttemptDataRequestPreflightdataInner>"
         }    ];

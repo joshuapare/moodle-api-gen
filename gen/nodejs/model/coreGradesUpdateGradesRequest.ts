@@ -18,61 +18,61 @@ export class CoreGradesUpdateGradesRequest {
     /**
     * The activity ID
     */
-    'activityid': number = null;
+    'Activityid': number = null;
     /**
     * A component, for example mod_forum or mod_quiz
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * id of course
     */
-    'courseid': number;
-    'grades'?: Array<CoreGradesUpdateGradesRequestGradesInner>;
-    'itemdetails'?: CoreGradesUpdateGradesRequestItemdetails;
+    'Courseid': number;
+    'Grades'?: Array<CoreGradesUpdateGradesRequestGradesInner>;
+    'Itemdetails'?: CoreGradesUpdateGradesRequestItemdetails;
     /**
     * grade item ID number for modules that have multiple grades. Typically this is 0.
     */
-    'itemnumber': number = null;
+    'Itemnumber': number = null;
     /**
     * The source of the grade update
     */
-    'source': string = 'null';
+    'Source': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activityid",
+            "name": "Activityid",
             "baseName": "activityid",
             "type": "number"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "grades",
+            "name": "Grades",
             "baseName": "grades",
             "type": "Array<CoreGradesUpdateGradesRequestGradesInner>"
         },
         {
-            "name": "itemdetails",
+            "name": "Itemdetails",
             "baseName": "itemdetails",
             "type": "CoreGradesUpdateGradesRequestItemdetails"
         },
         {
-            "name": "itemnumber",
+            "name": "Itemnumber",
             "baseName": "itemnumber",
             "type": "number"
         },
         {
-            "name": "source",
+            "name": "Source",
             "baseName": "source",
             "type": "string"
         }    ];

@@ -16,22 +16,22 @@ export class CoreCompletionUpdateActivityCompletionStatusManuallyRequest {
     /**
     * course module id
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * activity completed or not
     */
-    'completed': boolean = null;
+    'Completed': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "boolean"
         }    ];

@@ -16,22 +16,22 @@ export class CoreGradesGetEnrolledUsersForSelectorRequest {
     /**
     * Course Id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * Group Id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

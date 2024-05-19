@@ -16,13 +16,13 @@ export class ModUrlViewUrlRequest {
     /**
     * url instance id
     */
-    'urlid': number = null;
+    'Urlid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "urlid",
+            "name": "Urlid",
             "baseName": "urlid",
             "type": "number"
         }    ];

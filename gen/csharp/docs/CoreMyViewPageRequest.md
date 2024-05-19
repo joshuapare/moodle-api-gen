@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMyViewPageRequest
+# MoodleClient.Model.CoreMyViewPageRequest
 
 ## Properties
 

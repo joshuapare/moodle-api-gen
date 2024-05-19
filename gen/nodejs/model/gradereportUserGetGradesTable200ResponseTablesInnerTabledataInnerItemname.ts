@@ -16,40 +16,40 @@ export class GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerIt
     /**
     * class
     */
-    '_class': string;
+    'Class': string;
     /**
     * col span
     */
-    'colspan': number = null;
+    'Colspan': number = null;
     /**
     * cell content
     */
-    'content': string;
+    'Content': string;
     /**
     * id
     */
-    'id': string = 'null';
+    'Id': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "_class",
+            "name": "Class",
             "baseName": "class",
             "type": "string"
         },
         {
-            "name": "colspan",
+            "name": "Colspan",
             "baseName": "colspan",
             "type": "number"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         }    ];

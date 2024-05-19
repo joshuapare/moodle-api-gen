@@ -17,28 +17,28 @@ export class ModQuizViewAttemptRequest {
     /**
     * attempt id
     */
-    'attemptid': number;
+    'Attemptid': number;
     /**
     * page number
     */
-    'page': number;
-    'preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
+    'Page': number;
+    'Preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "preflightdata",
+            "name": "Preflightdata",
             "baseName": "preflightdata",
             "type": "Array<ModQuizGetAttemptDataRequestPreflightdataInner>"
         }    ];

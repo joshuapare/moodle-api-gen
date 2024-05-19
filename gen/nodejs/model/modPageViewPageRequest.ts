@@ -16,13 +16,13 @@ export class ModPageViewPageRequest {
     /**
     * page instance id
     */
-    'pageid': number = null;
+    'Pageid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         }    ];

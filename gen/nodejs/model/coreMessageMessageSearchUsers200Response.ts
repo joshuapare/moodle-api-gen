@@ -14,19 +14,19 @@ import { RequestFile } from './models';
 import { CoreMessageGetConversationBetweenUsers200ResponseMembersInner } from './coreMessageGetConversationBetweenUsers200ResponseMembersInner';
 
 export class CoreMessageMessageSearchUsers200Response {
-    'contacts': Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>;
-    'noncontacts': Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>;
+    'Contacts': Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>;
+    'Noncontacts': Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contacts",
+            "name": "Contacts",
             "baseName": "contacts",
             "type": "Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>"
         },
         {
-            "name": "noncontacts",
+            "name": "Noncontacts",
             "baseName": "noncontacts",
             "type": "Array<CoreMessageGetConversationBetweenUsers200ResponseMembersInner>"
         }    ];

@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreCalendarGetCalendarEventById200ResponseEvent } from './coreCalendarGetCalendarEventById200ResponseEvent';
 
 export class CoreCalendarSubmitCreateUpdateForm200Response {
-    'event'?: CoreCalendarGetCalendarEventById200ResponseEvent;
+    'Event'?: CoreCalendarGetCalendarEventById200ResponseEvent;
     /**
     * Invalid form data
     */
-    'validationerror'?: boolean = false;
+    'Validationerror'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "event",
+            "name": "Event",
             "baseName": "event",
             "type": "CoreCalendarGetCalendarEventById200ResponseEvent"
         },
         {
-            "name": "validationerror",
+            "name": "Validationerror",
             "baseName": "validationerror",
             "type": "boolean"
         }    ];

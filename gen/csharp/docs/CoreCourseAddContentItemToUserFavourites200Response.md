@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseAddContentItemToUserFavourites200Response
+# MoodleClient.Model.CoreCourseAddContentItemToUserFavourites200Response
 
 ## Properties
 

@@ -16,22 +16,22 @@ export class ModAssignSubmitForGradingRequest {
     /**
     * Accept the assignment submission statement
     */
-    'acceptsubmissionstatement': boolean = null;
+    'Acceptsubmissionstatement': boolean = null;
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
+    'Assignmentid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "acceptsubmissionstatement",
+            "name": "Acceptsubmissionstatement",
             "baseName": "acceptsubmissionstatement",
             "type": "boolean"
         },
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         }    ];

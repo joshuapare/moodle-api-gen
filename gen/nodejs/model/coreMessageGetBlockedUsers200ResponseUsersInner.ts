@@ -16,31 +16,31 @@ export class CoreMessageGetBlockedUsers200ResponseUsersInner {
     /**
     * User full name
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * User ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * User picture URL
     */
-    'profileimageurl'?: string;
+    'Profileimageurl'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.TinyAutosaveResetSessionRequest
+# MoodleClient.Model.TinyAutosaveResetSessionRequest
 
 ## Properties
 

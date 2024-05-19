@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryUpdateEntry200Response
+# MoodleClient.Model.ModGlossaryUpdateEntry200Response
 
 ## Properties
 

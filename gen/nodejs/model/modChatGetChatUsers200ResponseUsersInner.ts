@@ -16,31 +16,31 @@ export class ModChatGetChatUsers200ResponseUsersInner {
     /**
     * user full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * user id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * user picture URL
     */
-    'profileimageurl'?: string = 'null';
+    'Profileimageurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseSetFavouriteCoursesRequestCoursesInner
+# MoodleClient.Model.CoreCourseSetFavouriteCoursesRequestCoursesInner
 
 ## Properties
 

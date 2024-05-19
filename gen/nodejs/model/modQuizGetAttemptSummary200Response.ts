@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModQuizGetAttemptReview200ResponseQuestionsInner } from './modQuizGetAttemptReview200ResponseQuestionsInner';
 
 export class ModQuizGetAttemptSummary200Response {
-    'questions': Array<ModQuizGetAttemptReview200ResponseQuestionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Questions': Array<ModQuizGetAttemptReview200ResponseQuestionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "questions",
+            "name": "Questions",
             "baseName": "questions",
             "type": "Array<ModQuizGetAttemptReview200ResponseQuestionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

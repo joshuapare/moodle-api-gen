@@ -14,76 +14,76 @@ import { RequestFile } from './models';
 import { CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner } from './coreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner';
 
 export class ToolLpSearchCohorts200ResponseCohortsInner {
-    'customfields'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>;
+    'Customfields'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>;
     /**
     * cohort description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
+    'Descriptionformat'?: number;
     /**
     * ID of the cohort
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * cohort idnumber
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * cohort name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * cohort theme
     */
-    'theme'?: string;
+    'Theme'?: string;
     /**
     * cohort visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

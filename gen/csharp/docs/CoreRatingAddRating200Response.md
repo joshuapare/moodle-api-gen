@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreRatingAddRating200Response
+# MoodleClient.Model.CoreRatingAddRating200Response
 
 ## Properties
 

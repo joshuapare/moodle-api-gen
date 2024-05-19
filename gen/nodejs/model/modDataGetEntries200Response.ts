@@ -15,46 +15,46 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModDataGetEntries200ResponseEntriesInner } from './modDataGetEntries200ResponseEntriesInner';
 
 export class ModDataGetEntries200Response {
-    'entries': Array<ModDataGetEntries200ResponseEntriesInner>;
+    'Entries': Array<ModDataGetEntries200ResponseEntriesInner>;
     /**
     * The list view contents as is rendered in the site.
     */
-    'listviewcontents'?: string = 'null';
+    'Listviewcontents'?: string = 'null';
     /**
     * Total count of records.
     */
-    'totalcount': number = null;
+    'Totalcount': number = null;
     /**
     * Total size (bytes) of the files included in the records.
     */
-    'totalfilesize': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Totalfilesize': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entries",
+            "name": "Entries",
             "baseName": "entries",
             "type": "Array<ModDataGetEntries200ResponseEntriesInner>"
         },
         {
-            "name": "listviewcontents",
+            "name": "Listviewcontents",
             "baseName": "listviewcontents",
             "type": "string"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         },
         {
-            "name": "totalfilesize",
+            "name": "Totalfilesize",
             "baseName": "totalfilesize",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

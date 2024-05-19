@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreNotesViewNotesRequest
+# MoodleClient.Model.CoreNotesViewNotesRequest
 
 ## Properties
 

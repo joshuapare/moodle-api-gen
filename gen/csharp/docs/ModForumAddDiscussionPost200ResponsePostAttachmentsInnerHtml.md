@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumAddDiscussionPost200ResponsePostAttachmentsInnerHtml
+# MoodleClient.Model.ModForumAddDiscussionPost200ResponsePostAttachmentsInnerHtml
 
 ## Properties
 

@@ -17,28 +17,28 @@ export class ModQuizStartAttemptRequest {
     /**
     * Whether to force a new attempt or not.
     */
-    'forcenew'?: boolean = false;
-    'preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
+    'Forcenew'?: boolean = false;
+    'Preflightdata'?: Array<ModQuizGetAttemptDataRequestPreflightdataInner>;
     /**
     * quiz instance id
     */
-    'quizid': number;
+    'Quizid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "forcenew",
+            "name": "Forcenew",
             "baseName": "forcenew",
             "type": "boolean"
         },
         {
-            "name": "preflightdata",
+            "name": "Preflightdata",
             "baseName": "preflightdata",
             "type": "Array<ModQuizGetAttemptDataRequestPreflightdataInner>"
         },
         {
-            "name": "quizid",
+            "name": "Quizid",
             "baseName": "quizid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopAddSubmissionRequest
+# MoodleClient.Model.ModWorkshopAddSubmissionRequest
 
 ## Properties
 

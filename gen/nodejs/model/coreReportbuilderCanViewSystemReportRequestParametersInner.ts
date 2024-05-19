@@ -13,19 +13,19 @@
 import { RequestFile } from './models';
 
 export class CoreReportbuilderCanViewSystemReportRequestParametersInner {
-    'name'?: string;
-    'value'?: string;
+    'Name'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

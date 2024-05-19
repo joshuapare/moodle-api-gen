@@ -16,13 +16,13 @@ export class MediaVideojsGetLanguageRequest {
     /**
     * language
     */
-    'lang': string = 'null';
+    'Lang': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseToggleActivityRecommendation200Response
+# MoodleClient.Model.CoreCourseToggleActivityRecommendation200Response
 
 ## Properties
 

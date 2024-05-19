@@ -17,145 +17,145 @@ export class ModFeedbackGetAnalysis200ResponseItemsdataInnerItem {
     /**
     * The item id this item depend on.
     */
-    'dependitem': number = 0;
+    'Dependitem': number = 0;
     /**
     * The depend value.
     */
-    'dependvalue': string = 'null';
+    'Dependvalue': string = 'null';
     /**
     * The feedback instance id this records belongs to.
     */
-    'feedback': number = 0;
+    'Feedback': number = 0;
     /**
     * Whether it has a value or not.
     */
-    'hasvalue': number = 0;
+    'Hasvalue': number = 0;
     /**
     * The record id.
     */
-    'id': number = null;
-    'itemfiles': Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>;
+    'Id': number = null;
+    'Itemfiles': Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>;
     /**
     * The item position number
     */
-    'itemnumber': number = null;
+    'Itemnumber': number = null;
     /**
     * The item label.
     */
-    'label': string = 'null';
+    'Label': string = 'null';
     /**
     * The item name.
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * Different additional settings for the item (question).
     */
-    'options': string = 'null';
+    'Options': string = 'null';
     /**
     * Additional data that may be required by external functions
     */
-    'otherdata': string = 'null';
+    'Otherdata': string = 'null';
     /**
     * The position in the list of questions.
     */
-    'position': number = 0;
+    'Position': number = 0;
     /**
     * The text describing the item or the available possible answers.
     */
-    'presentation': string = 'null';
+    'Presentation': string = 'null';
     /**
     * Whether is a item (question) required or not.
     */
-    'required': boolean = 0;
+    'Required': boolean = 0;
     /**
     * If it belogns to a template, the template id.
     */
-    'template': number = 0;
+    'Template': number = 0;
     /**
     * The type of the item.
     */
-    'typ': string = 'null';
+    'Typ': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "dependitem",
+            "name": "Dependitem",
             "baseName": "dependitem",
             "type": "number"
         },
         {
-            "name": "dependvalue",
+            "name": "Dependvalue",
             "baseName": "dependvalue",
             "type": "string"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "number"
         },
         {
-            "name": "hasvalue",
+            "name": "Hasvalue",
             "baseName": "hasvalue",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "itemfiles",
+            "name": "Itemfiles",
             "baseName": "itemfiles",
             "type": "Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>"
         },
         {
-            "name": "itemnumber",
+            "name": "Itemnumber",
             "baseName": "itemnumber",
             "type": "number"
         },
         {
-            "name": "label",
+            "name": "Label",
             "baseName": "label",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "string"
         },
         {
-            "name": "otherdata",
+            "name": "Otherdata",
             "baseName": "otherdata",
             "type": "string"
         },
         {
-            "name": "position",
+            "name": "Position",
             "baseName": "position",
             "type": "number"
         },
         {
-            "name": "presentation",
+            "name": "Presentation",
             "baseName": "presentation",
             "type": "string"
         },
         {
-            "name": "required",
+            "name": "Required",
             "baseName": "required",
             "type": "boolean"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "number"
         },
         {
-            "name": "typ",
+            "name": "Typ",
             "baseName": "typ",
             "type": "string"
         }    ];

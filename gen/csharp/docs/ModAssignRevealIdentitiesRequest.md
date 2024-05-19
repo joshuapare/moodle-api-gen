@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignRevealIdentitiesRequest
+# MoodleClient.Model.ModAssignRevealIdentitiesRequest
 
 ## Properties
 

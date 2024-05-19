@@ -19,76 +19,76 @@ export class ModLessonGetContentPagesViewed200ResponsePagesInner {
     /**
     * 1 if the next page was calculated randomly.
     */
-    'flag'?: number = null;
+    'Flag'?: number = null;
     /**
     * The attempt id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The lesson id.
     */
-    'lessonid'?: number = null;
+    'Lessonid'?: number = null;
     /**
     * The next page chosen id.
     */
-    'nextpageid'?: number = null;
+    'Nextpageid'?: number = null;
     /**
     * The page id.
     */
-    'pageid'?: number = null;
+    'Pageid'?: number = null;
     /**
     * The lesson attempt number.
     */
-    'retry'?: number = null;
+    'Retry'?: number = null;
     /**
     * The time the page was seen.
     */
-    'timeseen'?: number = null;
+    'Timeseen'?: number = null;
     /**
     * The user who viewed the page.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "nextpageid",
+            "name": "Nextpageid",
             "baseName": "nextpageid",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "retry",
+            "name": "Retry",
             "baseName": "retry",
             "type": "number"
         },
         {
-            "name": "timeseen",
+            "name": "Timeseen",
             "baseName": "timeseen",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

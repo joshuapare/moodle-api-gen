@@ -16,22 +16,22 @@ export class CoreEnrolUnenrolUserEnrolment200ResponseErrorsInner {
     /**
     * The data that failed the validation
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * The error message
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         }    ];

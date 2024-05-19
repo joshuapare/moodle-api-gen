@@ -14,85 +14,85 @@ import { RequestFile } from './models';
 import { CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner } from './coreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner';
 
 export class CoreGroupUpdateGroupsRequestGroupsInner {
-    'customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
+    'Customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
     /**
     * group description text
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * group enrol secret phrase
     */
-    'enrolmentkey'?: string;
+    'Enrolmentkey'?: string;
     /**
     * ID of the group
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * id number
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * multilang compatible name, course unique
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * activity participation enabled? Only for \"all\" and \"members\" visibility
     */
-    'participation'?: boolean = null;
+    'Participation'?: boolean = null;
     /**
     * group visibility mode. 0 = Visible to all. 1 = Visible to members. 2 = See own membership. 3 = Membership is hidden.
     */
-    'visibility'?: string = 'null';
+    'Visibility'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "enrolmentkey",
+            "name": "Enrolmentkey",
             "baseName": "enrolmentkey",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "participation",
+            "name": "Participation",
             "baseName": "participation",
             "type": "boolean"
         },
         {
-            "name": "visibility",
+            "name": "Visibility",
             "baseName": "visibility",
             "type": "string"
         }    ];

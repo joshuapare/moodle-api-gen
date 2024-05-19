@@ -13,19 +13,19 @@
 import { RequestFile } from './models';
 
 export class ModQuizSetQuestionVersionRequest {
-    'newversion': number;
-    'slotid': number;
+    'Newversion': number;
+    'Slotid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "newversion",
+            "name": "Newversion",
             "baseName": "newversion",
             "type": "number"
         },
         {
-            "name": "slotid",
+            "name": "Slotid",
             "baseName": "slotid",
             "type": "number"
         }    ];

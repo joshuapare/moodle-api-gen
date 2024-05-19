@@ -16,13 +16,13 @@ export class CoreCalendarGetCalendarEventByIdRequest {
     /**
     * The event id to be retrieved
     */
-    'eventid': number = null;
+    'Eventid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "eventid",
+            "name": "Eventid",
             "baseName": "eventid",
             "type": "number"
         }    ];

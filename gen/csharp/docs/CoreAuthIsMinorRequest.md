@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAuthIsMinorRequest
+# MoodleClient.Model.CoreAuthIsMinorRequest
 
 ## Properties
 

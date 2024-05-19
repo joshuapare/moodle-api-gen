@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreMessageDataForMessageareaSearchMessages200ResponseContactsInner } from './coreMessageDataForMessageareaSearchMessages200ResponseContactsInner';
 
 export class CoreMessageDataForMessageareaSearchMessages200Response {
-    'contacts': Array<CoreMessageDataForMessageareaSearchMessages200ResponseContactsInner>;
+    'Contacts': Array<CoreMessageDataForMessageareaSearchMessages200ResponseContactsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contacts",
+            "name": "Contacts",
             "baseName": "contacts",
             "type": "Array<CoreMessageDataForMessageareaSearchMessages200ResponseContactsInner>"
         }    ];

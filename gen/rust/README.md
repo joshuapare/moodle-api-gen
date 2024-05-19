@@ -23,7 +23,7 @@ openapi = { path = "./openapi" }
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

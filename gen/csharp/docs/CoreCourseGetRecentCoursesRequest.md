@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetRecentCoursesRequest
+# MoodleClient.Model.CoreCourseGetRecentCoursesRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.AuthEmailGetSignupSettings200Response
+# MoodleClient.Model.AuthEmailGetSignupSettings200Response
 
 ## Properties
 

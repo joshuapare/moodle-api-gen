@@ -16,112 +16,112 @@ export class ModH5pactivityGetAttempts200ResponseUsersattemptsInnerAttemptsInner
     /**
     * Attempt number
     */
-    'attempt'?: number = null;
+    'Attempt'?: number = null;
     /**
     * Attempt completion
     */
-    'completion'?: number = null;
+    'Completion'?: number = null;
     /**
     * Attempt duration in seconds
     */
-    'duration'?: number = null;
+    'Duration'?: number = null;
     /**
     * ID of the H5P activity
     */
-    'h5pactivityid'?: number = null;
+    'H5pactivityid'?: number = null;
     /**
     * ID of the context
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Attempt max score
     */
-    'maxscore'?: number = null;
+    'Maxscore'?: number = null;
     /**
     * Attempt score value
     */
-    'rawscore'?: number = null;
+    'Rawscore'?: number = null;
     /**
     * Attempt scaled
     */
-    'scaled'?: number = null;
+    'Scaled'?: number = null;
     /**
     * Attempt success
     */
-    'success'?: number = null;
+    'Success'?: number = null;
     /**
     * Attempt creation
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * Attempt modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * ID of the user
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "number"
         },
         {
-            "name": "completion",
+            "name": "Completion",
             "baseName": "completion",
             "type": "number"
         },
         {
-            "name": "duration",
+            "name": "Duration",
             "baseName": "duration",
             "type": "number"
         },
         {
-            "name": "h5pactivityid",
+            "name": "H5pactivityid",
             "baseName": "h5pactivityid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "maxscore",
+            "name": "Maxscore",
             "baseName": "maxscore",
             "type": "number"
         },
         {
-            "name": "rawscore",
+            "name": "Rawscore",
             "baseName": "rawscore",
             "type": "number"
         },
         {
-            "name": "scaled",
+            "name": "Scaled",
             "baseName": "scaled",
             "type": "number"
         },
         {
-            "name": "success",
+            "name": "Success",
             "baseName": "success",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

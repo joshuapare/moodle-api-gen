@@ -15,37 +15,37 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner } from './coreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner';
 
 export class ModQuizGetQuizFeedbackForGrade200Response {
-    'feedbackinlinefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Feedbackinlinefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * the comment that corresponds to this grade (empty for none)
     */
-    'feedbacktext': string = 'null';
+    'Feedbacktext': string = 'null';
     /**
     * feedbacktext format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'feedbacktextformat'?: number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Feedbacktextformat'?: number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "feedbackinlinefiles",
+            "name": "Feedbackinlinefiles",
             "baseName": "feedbackinlinefiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "feedbacktext",
+            "name": "Feedbacktext",
             "baseName": "feedbacktext",
             "type": "string"
         },
         {
-            "name": "feedbacktextformat",
+            "name": "Feedbacktextformat",
             "baseName": "feedbacktextformat",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

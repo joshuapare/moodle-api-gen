@@ -16,31 +16,31 @@ export class CoreMoodlenetSendActivityRequest {
     /**
     * Course module ID
     */
-    'cmid': number = null;
+    'Cmid': number = null;
     /**
     * OAuth 2 issuer ID
     */
-    'issuerid': number;
+    'Issuerid': number;
     /**
     * Share format
     */
-    'shareformat': number = null;
+    'Shareformat': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "issuerid",
+            "name": "Issuerid",
             "baseName": "issuerid",
             "type": "number"
         },
         {
-            "name": "shareformat",
+            "name": "Shareformat",
             "baseName": "shareformat",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFilesUploadRequest
+# MoodleClient.Model.CoreFilesUploadRequest
 
 ## Properties
 

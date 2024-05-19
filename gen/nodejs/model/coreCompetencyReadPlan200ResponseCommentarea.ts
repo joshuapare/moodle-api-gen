@@ -16,166 +16,166 @@ export class CoreCompetencyReadPlan200ResponseCommentarea {
     /**
     * autostart
     */
-    'autostart': boolean;
+    'Autostart': boolean;
     /**
     * canpost
     */
-    'canpost': boolean;
+    'Canpost': boolean;
     /**
     * canpostorhascomments
     */
-    'canpostorhascomments': boolean;
+    'Canpostorhascomments': boolean;
     /**
     * canview
     */
-    'canview': boolean;
+    'Canview': boolean;
     /**
     * cid
     */
-    'cid': string;
+    'Cid': string;
     /**
     * collapsediconkey
     */
-    'collapsediconkey': string;
+    'Collapsediconkey': string;
     /**
     * commentarea
     */
-    'commentarea': string;
+    'Commentarea': string;
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * contextid
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * count
     */
-    'count': number;
+    'Count': number;
     /**
     * courseid
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * displaycancel
     */
-    'displaycancel': boolean;
+    'Displaycancel': boolean;
     /**
     * displaytotalcount
     */
-    'displaytotalcount': boolean;
+    'Displaytotalcount': boolean;
     /**
     * fullwidth
     */
-    'fullwidth': boolean;
+    'Fullwidth': boolean;
     /**
     * itemid
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * linktext
     */
-    'linktext': string;
+    'Linktext': string;
     /**
     * notoggle
     */
-    'notoggle': boolean;
+    'Notoggle': boolean;
     /**
     * template
     */
-    'template': string;
+    'Template': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "autostart",
+            "name": "Autostart",
             "baseName": "autostart",
             "type": "boolean"
         },
         {
-            "name": "canpost",
+            "name": "Canpost",
             "baseName": "canpost",
             "type": "boolean"
         },
         {
-            "name": "canpostorhascomments",
+            "name": "Canpostorhascomments",
             "baseName": "canpostorhascomments",
             "type": "boolean"
         },
         {
-            "name": "canview",
+            "name": "Canview",
             "baseName": "canview",
             "type": "boolean"
         },
         {
-            "name": "cid",
+            "name": "Cid",
             "baseName": "cid",
             "type": "string"
         },
         {
-            "name": "collapsediconkey",
+            "name": "Collapsediconkey",
             "baseName": "collapsediconkey",
             "type": "string"
         },
         {
-            "name": "commentarea",
+            "name": "Commentarea",
             "baseName": "commentarea",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "displaycancel",
+            "name": "Displaycancel",
             "baseName": "displaycancel",
             "type": "boolean"
         },
         {
-            "name": "displaytotalcount",
+            "name": "Displaytotalcount",
             "baseName": "displaytotalcount",
             "type": "boolean"
         },
         {
-            "name": "fullwidth",
+            "name": "Fullwidth",
             "baseName": "fullwidth",
             "type": "boolean"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "linktext",
+            "name": "Linktext",
             "baseName": "linktext",
             "type": "string"
         },
         {
-            "name": "notoggle",
+            "name": "Notoggle",
             "baseName": "notoggle",
             "type": "boolean"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "string"
         }    ];

@@ -16,13 +16,13 @@ export class BlockIomadCompanyAdminSyncUsersRequest {
     /**
     * The user that is going to be enrolled
     */
-    'source': string;
+    'Source': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "source",
+            "name": "Source",
             "baseName": "source",
             "type": "string"
         }    ];

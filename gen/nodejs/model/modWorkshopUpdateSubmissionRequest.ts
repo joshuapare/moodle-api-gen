@@ -16,58 +16,58 @@ export class ModWorkshopUpdateSubmissionRequest {
     /**
     * The draft file area id for attachments
     */
-    'attachmentsid'?: number = 0;
+    'Attachmentsid'?: number = 0;
     /**
     * Submission text content
     */
-    'content'?: string = '';
+    'Content'?: string = '';
     /**
     * The format used for the content
     */
-    'contentformat'?: number = 0;
+    'Contentformat'?: number = 0;
     /**
     * The draft file area id for inline attachments in the content
     */
-    'inlineattachmentsid'?: number = 0;
+    'Inlineattachmentsid'?: number = 0;
     /**
     * Submission id
     */
-    'submissionid': number;
+    'Submissionid': number;
     /**
     * Submission title
     */
-    'title': string;
+    'Title': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attachmentsid",
+            "name": "Attachmentsid",
             "baseName": "attachmentsid",
             "type": "number"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "number"
         },
         {
-            "name": "inlineattachmentsid",
+            "name": "Inlineattachmentsid",
             "baseName": "inlineattachmentsid",
             "type": "number"
         },
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

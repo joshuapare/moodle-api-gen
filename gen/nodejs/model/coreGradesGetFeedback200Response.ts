@@ -16,49 +16,49 @@ export class CoreGradesGetFeedback200Response {
     /**
     * Additional field for the user (email or ID number, for example)
     */
-    'additionalfield': string = 'null';
+    'Additionalfield': string = 'null';
     /**
     * The full feedback text
     */
-    'feedbacktext': string = 'null';
+    'Feedbacktext': string = 'null';
     /**
     * Students name
     */
-    'fullname': string = 'null';
+    'Fullname': string = 'null';
     /**
     * Students picture
     */
-    'picture': string = 'null';
+    'Picture': string = 'null';
     /**
     * Title of the grade item that the feedback is for
     */
-    'title': string = 'null';
+    'Title': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "additionalfield",
+            "name": "Additionalfield",
             "baseName": "additionalfield",
             "type": "string"
         },
         {
-            "name": "feedbacktext",
+            "name": "Feedbacktext",
             "baseName": "feedbacktext",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "picture",
+            "name": "Picture",
             "baseName": "picture",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

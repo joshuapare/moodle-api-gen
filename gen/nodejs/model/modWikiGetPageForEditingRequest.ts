@@ -16,31 +16,31 @@ export class ModWikiGetPageForEditingRequest {
     /**
     * Just renew lock and not return content.
     */
-    'lockonly'?: boolean = false;
+    'Lockonly'?: boolean = false;
     /**
     * Page ID to edit.
     */
-    'pageid': number = null;
+    'Pageid': number = null;
     /**
     * Section page title.
     */
-    'section'?: string;
+    'Section'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lockonly",
+            "name": "Lockonly",
             "baseName": "lockonly",
             "type": "boolean"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "string"
         }    ];

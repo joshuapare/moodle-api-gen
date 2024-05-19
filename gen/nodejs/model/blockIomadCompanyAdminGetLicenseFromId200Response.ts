@@ -15,19 +15,19 @@ import { BlockIomadCompanyAdminGetLicenseFromId200ResponseCoursesInner } from '.
 import { BlockIomadCompanyAdminGetLicenseFromId200ResponseLicense } from './blockIomadCompanyAdminGetLicenseFromId200ResponseLicense';
 
 export class BlockIomadCompanyAdminGetLicenseFromId200Response {
-    'courses': Array<BlockIomadCompanyAdminGetLicenseFromId200ResponseCoursesInner>;
-    'license': BlockIomadCompanyAdminGetLicenseFromId200ResponseLicense;
+    'Courses': Array<BlockIomadCompanyAdminGetLicenseFromId200ResponseCoursesInner>;
+    'License': BlockIomadCompanyAdminGetLicenseFromId200ResponseLicense;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<BlockIomadCompanyAdminGetLicenseFromId200ResponseCoursesInner>"
         },
         {
-            "name": "license",
+            "name": "License",
             "baseName": "license",
             "type": "BlockIomadCompanyAdminGetLicenseFromId200ResponseLicense"
         }    ];

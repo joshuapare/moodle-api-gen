@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetPageData200ResponseMessagesInner
+# MoodleClient.Model.ModLessonGetPageData200ResponseMessagesInner
 The lesson generated messages
 
 ## Properties

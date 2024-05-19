@@ -17,154 +17,154 @@ export class CoreReportbuilderRetrieveReport200ResponseDetails {
     /**
     * area
     */
-    'area': string = '';
+    'Area': string = '';
     /**
     * component
     */
-    'component': string = '';
+    'Component': string = '';
     /**
     * conditiondata
     */
-    'conditiondata': string;
+    'Conditiondata': string;
     /**
     * contextid
     */
-    'contextid': number = {};
+    'Contextid': number = {};
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * itemid
     */
-    'itemid': number = 0;
-    'modifiedby': CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Itemid': number = 0;
+    'Modifiedby': CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * settingsdata
     */
-    'settingsdata': string;
+    'Settingsdata': string;
     /**
     * source
     */
-    'source': string;
+    'Source': string;
     /**
     * sourcename
     */
-    'sourcename': string;
+    'Sourcename': string;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * type
     */
-    'type': number;
+    'Type': number;
     /**
     * uniquerows
     */
-    'uniquerows': boolean = false;
+    'Uniquerows': boolean = false;
     /**
     * usercreated
     */
-    'usercreated': number = {};
+    'Usercreated': number = {};
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "conditiondata",
+            "name": "Conditiondata",
             "baseName": "conditiondata",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "modifiedby",
+            "name": "Modifiedby",
             "baseName": "modifiedby",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "settingsdata",
+            "name": "Settingsdata",
             "baseName": "settingsdata",
             "type": "string"
         },
         {
-            "name": "source",
+            "name": "Source",
             "baseName": "source",
             "type": "string"
         },
         {
-            "name": "sourcename",
+            "name": "Sourcename",
             "baseName": "sourcename",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "uniquerows",
+            "name": "Uniquerows",
             "baseName": "uniquerows",
             "type": "boolean"
         },
         {
-            "name": "usercreated",
+            "name": "Usercreated",
             "baseName": "usercreated",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

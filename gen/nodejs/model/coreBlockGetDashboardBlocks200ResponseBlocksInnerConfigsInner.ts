@@ -16,31 +16,31 @@ export class CoreBlockGetDashboardBlocks200ResponseBlocksInnerConfigsInner {
     /**
     * Name.
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Type (instance or plugin).
     */
-    'type'?: string;
+    'Type'?: string;
     /**
     * JSON encoded representation of the config value.
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

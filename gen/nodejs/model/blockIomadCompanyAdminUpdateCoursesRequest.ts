@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { BlockIomadCompanyAdminUpdateCoursesRequestCoursesInner } from './blockIomadCompanyAdminUpdateCoursesRequestCoursesInner';
 
 export class BlockIomadCompanyAdminUpdateCoursesRequest {
-    'courses': Array<BlockIomadCompanyAdminUpdateCoursesRequestCoursesInner>;
+    'Courses': Array<BlockIomadCompanyAdminUpdateCoursesRequestCoursesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<BlockIomadCompanyAdminUpdateCoursesRequestCoursesInner>"
         }    ];

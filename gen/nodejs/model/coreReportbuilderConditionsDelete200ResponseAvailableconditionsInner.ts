@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup } from './coreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup';
 
 export class CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInner {
-    'optiongroup'?: CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup;
+    'Optiongroup'?: CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "optiongroup",
+            "name": "Optiongroup",
             "baseName": "optiongroup",
             "type": "CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInnerOptiongroup"
         }    ];

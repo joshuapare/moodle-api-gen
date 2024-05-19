@@ -16,49 +16,49 @@ export class CoreXapiDeleteStateRequest {
     /**
     * xAPI activity ID IRI
     */
-    'activityId': string = 'null';
+    'ActivityId': string = 'null';
     /**
     * The xAPI agent json
     */
-    'agent': string = 'null';
+    'Agent': string = 'null';
     /**
     * Component name
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * The xAPI registration UUID
     */
-    'registration'?: string = 'null';
+    'Registration'?: string = 'null';
     /**
     * The xAPI state ID
     */
-    'stateId': string = 'null';
+    'StateId': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activityId",
+            "name": "ActivityId",
             "baseName": "activityId",
             "type": "string"
         },
         {
-            "name": "agent",
+            "name": "Agent",
             "baseName": "agent",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "registration",
+            "name": "Registration",
             "baseName": "registration",
             "type": "string"
         },
         {
-            "name": "stateId",
+            "name": "StateId",
             "baseName": "stateId",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminSyncUsersRequest
+# MoodleClient.Model.BlockIomadCompanyAdminSyncUsersRequest
 
 ## Properties
 

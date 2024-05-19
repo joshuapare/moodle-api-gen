@@ -13,46 +13,46 @@
 import { RequestFile } from './models';
 
 export class CoreSearchViewResultsRequestFilters {
-    'areaids'?: Array<object>;
-    'courseids'?: Array<object>;
+    'Areaids'?: Array<object>;
+    'Courseids'?: Array<object>;
     /**
     * docs modified before this date
     */
-    'timeend'?: number = 0;
+    'Timeend'?: number = 0;
     /**
     * docs modified after this date
     */
-    'timestart'?: number = 0;
+    'Timestart'?: number = 0;
     /**
     * result title
     */
-    'title'?: string;
+    'Title'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "areaids",
+            "name": "Areaids",
             "baseName": "areaids",
             "type": "Array<object>"
         },
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "timeend",
+            "name": "Timeend",
             "baseName": "timeend",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

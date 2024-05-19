@@ -16,22 +16,22 @@ export class CoreCompetencyRemoveRelatedCompetencyRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * The related competency id
     */
-    'relatedcompetencyid': number;
+    'Relatedcompetencyid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "relatedcompetencyid",
+            "name": "Relatedcompetencyid",
             "baseName": "relatedcompetencyid",
             "type": "number"
         }    ];

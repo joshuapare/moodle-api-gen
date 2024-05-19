@@ -16,31 +16,31 @@ export class ToolMoodlenetVerifyWebfinger200Response {
     /**
     * Domain to redirect the user to
     */
-    'domain'?: string = 'null';
+    'Domain'?: string = 'null';
     /**
     * Our message for the user
     */
-    'message': string = 'null';
+    'Message': string = 'null';
     /**
     * Was the passed content a valid WebFinger?
     */
-    'result': boolean = null;
+    'Result': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "domain",
+            "name": "Domain",
             "baseName": "domain",
             "type": "string"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "result",
+            "name": "Result",
             "baseName": "result",
             "type": "boolean"
         }    ];

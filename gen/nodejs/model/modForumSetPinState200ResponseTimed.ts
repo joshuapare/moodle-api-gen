@@ -16,22 +16,22 @@ export class ModForumSetPinState200ResponseTimed {
     /**
     * istimed
     */
-    'istimed'?: boolean = null;
+    'Istimed'?: boolean = null;
     /**
     * visible
     */
-    'visible'?: boolean = null;
+    'Visible'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "istimed",
+            "name": "Istimed",
             "baseName": "istimed",
             "type": "boolean"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

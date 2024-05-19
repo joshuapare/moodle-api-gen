@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiIsCartridgeRequest
+# MoodleClient.Model.ModLtiIsCartridgeRequest
 
 ## Properties
 

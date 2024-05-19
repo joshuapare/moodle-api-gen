@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackLaunchFeedback200Response
+# MoodleClient.Model.ModFeedbackLaunchFeedback200Response
 
 ## Properties
 

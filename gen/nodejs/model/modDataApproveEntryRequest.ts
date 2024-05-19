@@ -16,22 +16,22 @@ export class ModDataApproveEntryRequest {
     /**
     * Whether to approve (true) or unapprove the entry.
     */
-    'approve'?: boolean = true;
+    'Approve'?: boolean = true;
     /**
     * Record entry id.
     */
-    'entryid': number = null;
+    'Entryid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "approve",
+            "name": "Approve",
             "baseName": "approve",
             "type": "boolean"
         },
         {
-            "name": "entryid",
+            "name": "Entryid",
             "baseName": "entryid",
             "type": "number"
         }    ];

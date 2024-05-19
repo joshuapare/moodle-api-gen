@@ -16,13 +16,13 @@ export class CoreReportbuilderColumnsSortGetRequest {
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

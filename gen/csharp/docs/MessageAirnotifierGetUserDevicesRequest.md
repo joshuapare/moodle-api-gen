@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.MessageAirnotifierGetUserDevicesRequest
+# MoodleClient.Model.MessageAirnotifierGetUserDevicesRequest
 
 ## Properties
 

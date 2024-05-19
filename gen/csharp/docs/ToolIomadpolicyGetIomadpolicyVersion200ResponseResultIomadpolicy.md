@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy
+# MoodleClient.Model.ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumGetDiscussionPosts200ResponseRatinginfoScalesInnerItemsInner
+# MoodleClient.Model.ModForumGetDiscussionPosts200ResponseRatinginfoScalesInnerItemsInner
 
 ## Properties
 

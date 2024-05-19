@@ -19,319 +19,319 @@ export class ModIomadcertificateGetIomadcertificatesByCourses200ResponseIomadcer
     /**
     * Border color
     */
-    'bordercolor'?: string = 'null';
+    'Bordercolor'?: string = 'null';
     /**
     * Border style
     */
-    'borderstyle'?: string = 'null';
+    'Borderstyle'?: string = 'null';
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Custom text
     */
-    'customtext'?: string = 'null';
+    'Customtext'?: string = 'null';
     /**
     * Date format
     */
-    'datefmt'?: number = null;
+    'Datefmt'?: number = null;
     /**
     * Delivery options
     */
-    'delivery'?: number = null;
+    'Delivery'?: number = null;
     /**
     * Email others?
     */
-    'emailothers'?: string = 'null';
+    'Emailothers'?: string = 'null';
     /**
     * Email teachers?
     */
-    'emailteachers'?: number = null;
+    'Emailteachers'?: number = null;
     /**
     * Grade format
     */
-    'gradefmt'?: number = null;
+    'Gradefmt'?: number = null;
     /**
     * group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * group mode
     */
-    'groupmode'?: number = null;
+    'Groupmode'?: number = null;
     /**
     * Certificate id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The Certificate intro
     */
-    'intro'?: string = 'null';
+    'Intro'?: string = 'null';
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Type
     */
-    'iomadcertificatetype'?: string = 'null';
+    'Iomadcertificatetype'?: string = 'null';
     /**
     * Certificate name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Orientation
     */
-    'orientation'?: string = 'null';
+    'Orientation'?: string = 'null';
     /**
     * Print date?
     */
-    'printdate'?: string = 'null';
+    'Printdate'?: string = 'null';
     /**
     * Print grade?
     */
-    'printgrade'?: number = null;
+    'Printgrade'?: number = null;
     /**
     * Print hours?
     */
-    'printhours'?: string = 'null';
+    'Printhours'?: string = 'null';
     /**
     * Print number?
     */
-    'printnumber'?: number = null;
+    'Printnumber'?: number = null;
     /**
     * Print outcome?
     */
-    'printoutcome'?: number = null;
+    'Printoutcome'?: number = null;
     /**
     * Print seal?
     */
-    'printseal'?: string = 'null';
+    'Printseal'?: string = 'null';
     /**
     * Print signature?
     */
-    'printsignature'?: string = 'null';
+    'Printsignature'?: string = 'null';
     /**
     * Print teacher?
     */
-    'printteacher'?: number = null;
+    'Printteacher'?: number = null;
     /**
     * Print water mark?
     */
-    'printwmark'?: string = 'null';
+    'Printwmark'?: string = 'null';
     /**
     * Report iomadcertificate?
     */
-    'reportcert'?: number = null;
+    'Reportcert'?: number = null;
     /**
     * Required time
     */
-    'requiredtime'?: number = null;
+    'Requiredtime'?: number = null;
     /**
     * Whether the time req is met
     */
-    'requiredtimenotmet'?: number = null;
+    'Requiredtimenotmet'?: number = null;
     /**
     * Save iomadcertificate?
     */
-    'savecert'?: number = null;
+    'Savecert'?: number = null;
     /**
     * course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time modified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * visible
     */
-    'visible'?: number;
+    'Visible'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bordercolor",
+            "name": "Bordercolor",
             "baseName": "bordercolor",
             "type": "string"
         },
         {
-            "name": "borderstyle",
+            "name": "Borderstyle",
             "baseName": "borderstyle",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "customtext",
+            "name": "Customtext",
             "baseName": "customtext",
             "type": "string"
         },
         {
-            "name": "datefmt",
+            "name": "Datefmt",
             "baseName": "datefmt",
             "type": "number"
         },
         {
-            "name": "delivery",
+            "name": "Delivery",
             "baseName": "delivery",
             "type": "number"
         },
         {
-            "name": "emailothers",
+            "name": "Emailothers",
             "baseName": "emailothers",
             "type": "string"
         },
         {
-            "name": "emailteachers",
+            "name": "Emailteachers",
             "baseName": "emailteachers",
             "type": "number"
         },
         {
-            "name": "gradefmt",
+            "name": "Gradefmt",
             "baseName": "gradefmt",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "iomadcertificatetype",
+            "name": "Iomadcertificatetype",
             "baseName": "iomadcertificatetype",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "orientation",
+            "name": "Orientation",
             "baseName": "orientation",
             "type": "string"
         },
         {
-            "name": "printdate",
+            "name": "Printdate",
             "baseName": "printdate",
             "type": "string"
         },
         {
-            "name": "printgrade",
+            "name": "Printgrade",
             "baseName": "printgrade",
             "type": "number"
         },
         {
-            "name": "printhours",
+            "name": "Printhours",
             "baseName": "printhours",
             "type": "string"
         },
         {
-            "name": "printnumber",
+            "name": "Printnumber",
             "baseName": "printnumber",
             "type": "number"
         },
         {
-            "name": "printoutcome",
+            "name": "Printoutcome",
             "baseName": "printoutcome",
             "type": "number"
         },
         {
-            "name": "printseal",
+            "name": "Printseal",
             "baseName": "printseal",
             "type": "string"
         },
         {
-            "name": "printsignature",
+            "name": "Printsignature",
             "baseName": "printsignature",
             "type": "string"
         },
         {
-            "name": "printteacher",
+            "name": "Printteacher",
             "baseName": "printteacher",
             "type": "number"
         },
         {
-            "name": "printwmark",
+            "name": "Printwmark",
             "baseName": "printwmark",
             "type": "string"
         },
         {
-            "name": "reportcert",
+            "name": "Reportcert",
             "baseName": "reportcert",
             "type": "number"
         },
         {
-            "name": "requiredtime",
+            "name": "Requiredtime",
             "baseName": "requiredtime",
             "type": "number"
         },
         {
-            "name": "requiredtimenotmet",
+            "name": "Requiredtimenotmet",
             "baseName": "requiredtimenotmet",
             "type": "number"
         },
         {
-            "name": "savecert",
+            "name": "Savecert",
             "baseName": "savecert",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

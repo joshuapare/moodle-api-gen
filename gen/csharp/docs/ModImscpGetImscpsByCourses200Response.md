@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModImscpGetImscpsByCourses200Response
+# MoodleClient.Model.ModImscpGetImscpsByCourses200Response
 
 ## Properties
 

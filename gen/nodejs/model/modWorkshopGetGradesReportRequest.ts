@@ -16,58 +16,58 @@ export class ModWorkshopGetGradesReportRequest {
     /**
     * Group id, 0 means that the function will determine the user group.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The page of records to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of records to return per page.
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * sort by this element: lastname, firstname, submissiontitle,                     submissionmodified, submissiongrade, gradinggrade.
     */
-    'sortby'?: string = 'lastname';
+    'Sortby'?: string = 'lastname';
     /**
     * sort direction: ASC or DESC
     */
-    'sortdirection'?: string = 'ASC';
+    'Sortdirection'?: string = 'ASC';
     /**
     * Workshop instance id.
     */
-    'workshopid': number;
+    'Workshopid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "sortby",
+            "name": "Sortby",
             "baseName": "sortby",
             "type": "string"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "string"
         },
         {
-            "name": "workshopid",
+            "name": "Workshopid",
             "baseName": "workshopid",
             "type": "number"
         }    ];

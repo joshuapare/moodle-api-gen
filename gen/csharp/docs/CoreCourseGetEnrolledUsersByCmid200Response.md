@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetEnrolledUsersByCmid200Response
+# MoodleClient.Model.CoreCourseGetEnrolledUsersByCmid200Response
 
 ## Properties
 

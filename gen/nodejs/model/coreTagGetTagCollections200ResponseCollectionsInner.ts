@@ -16,67 +16,67 @@ export class CoreTagGetTagCollections200ResponseCollectionsInner {
     /**
     * Component the collection is related to.
     */
-    'component'?: string = 'null';
+    'Component'?: string = 'null';
     /**
     * Custom URL for the tag page instead of /tag/index.php.
     */
-    'customurl'?: string = 'null';
+    'Customurl'?: string = 'null';
     /**
     * Collection id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Whether is the default collection.
     */
-    'isdefault'?: boolean = false;
+    'Isdefault'?: boolean = false;
     /**
     * Collection name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Whether the tag collection is searchable.
     */
-    'searchable'?: boolean = true;
+    'Searchable'?: boolean = true;
     /**
     * Collection ordering in the list.
     */
-    'sortorder'?: number = null;
+    'Sortorder'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "customurl",
+            "name": "Customurl",
             "baseName": "customurl",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isdefault",
+            "name": "Isdefault",
             "baseName": "isdefault",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "searchable",
+            "name": "Searchable",
             "baseName": "searchable",
             "type": "boolean"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         }    ];

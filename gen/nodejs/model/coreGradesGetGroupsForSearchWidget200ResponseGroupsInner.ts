@@ -16,31 +16,31 @@ export class CoreGradesGetGroupsForSearchWidget200ResponseGroupsInner {
     /**
     * Group image URL
     */
-    'groupimageurl'?: string = 'null';
+    'Groupimageurl'?: string = 'null';
     /**
     * An ID for the group
     */
-    'id'?: string = 'null';
+    'Id'?: string = 'null';
     /**
     * The full name of the group
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupimageurl",
+            "name": "Groupimageurl",
             "baseName": "groupimageurl",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

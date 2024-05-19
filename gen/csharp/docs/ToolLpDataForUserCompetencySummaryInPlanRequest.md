@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForUserCompetencySummaryInPlanRequest
+# MoodleClient.Model.ToolLpDataForUserCompetencySummaryInPlanRequest
 
 ## Properties
 

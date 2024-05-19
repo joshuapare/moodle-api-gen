@@ -16,40 +16,40 @@ export class TinyAutosaveResetSessionRequest {
     /**
     * The context id that owns the editor
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * The ID of the element
     */
-    'elementid': string = 'null';
+    'Elementid': string = 'null';
     /**
     * The page hash
     */
-    'pagehash': string = 'null';
+    'Pagehash': string = 'null';
     /**
     * The page instance
     */
-    'pageinstance': string = 'null';
+    'Pageinstance': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "elementid",
+            "name": "Elementid",
             "baseName": "elementid",
             "type": "string"
         },
         {
-            "name": "pagehash",
+            "name": "Pagehash",
             "baseName": "pagehash",
             "type": "string"
         },
         {
-            "name": "pageinstance",
+            "name": "Pageinstance",
             "baseName": "pageinstance",
             "type": "string"
         }    ];

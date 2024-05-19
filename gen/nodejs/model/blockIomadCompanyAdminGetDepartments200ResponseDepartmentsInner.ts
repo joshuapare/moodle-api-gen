@@ -16,49 +16,49 @@ export class BlockIomadCompanyAdminGetDepartments200ResponseDepartmentsInner {
     /**
     * Company ID
     */
-    'company'?: number;
+    'Company'?: number;
     /**
     * Department ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Department name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Department parent id
     */
-    'parent'?: number = null;
+    'Parent'?: number = null;
     /**
     * Department short name
     */
-    'shortname'?: string = 'null';
+    'Shortname'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "company",
+            "name": "Company",
             "baseName": "company",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         }    ];

@@ -19,52 +19,52 @@ import { ModWorkshopGetAssessmentFormDefinition200ResponseFieldsInner } from './
 import { ModWorkshopGetAssessmentFormDefinition200ResponseOptionsInner } from './modWorkshopGetAssessmentFormDefinition200ResponseOptionsInner';
 
 export class ModWorkshopGetAssessmentFormDefinition200Response {
-    'current': Array<ModWorkshopGetAssessmentFormDefinition200ResponseCurrentInner>;
-    'descriptionfiles': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
-    'dimensionsinfo': Array<ModWorkshopGetAssessmentFormDefinition200ResponseDimensionsinfoInner>;
+    'Current': Array<ModWorkshopGetAssessmentFormDefinition200ResponseCurrentInner>;
+    'Descriptionfiles': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Dimensionsinfo': Array<ModWorkshopGetAssessmentFormDefinition200ResponseDimensionsinfoInner>;
     /**
     * The number of dimenssions used by the form.
     */
-    'dimenssionscount': number = null;
-    'fields': Array<ModWorkshopGetAssessmentFormDefinition200ResponseFieldsInner>;
-    'options': Array<ModWorkshopGetAssessmentFormDefinition200ResponseOptionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Dimenssionscount': number = null;
+    'Fields': Array<ModWorkshopGetAssessmentFormDefinition200ResponseFieldsInner>;
+    'Options': Array<ModWorkshopGetAssessmentFormDefinition200ResponseOptionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "current",
+            "name": "Current",
             "baseName": "current",
             "type": "Array<ModWorkshopGetAssessmentFormDefinition200ResponseCurrentInner>"
         },
         {
-            "name": "descriptionfiles",
+            "name": "Descriptionfiles",
             "baseName": "descriptionfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "dimensionsinfo",
+            "name": "Dimensionsinfo",
             "baseName": "dimensionsinfo",
             "type": "Array<ModWorkshopGetAssessmentFormDefinition200ResponseDimensionsinfoInner>"
         },
         {
-            "name": "dimenssionscount",
+            "name": "Dimenssionscount",
             "baseName": "dimenssionscount",
             "type": "number"
         },
         {
-            "name": "fields",
+            "name": "Fields",
             "baseName": "fields",
             "type": "Array<ModWorkshopGetAssessmentFormDefinition200ResponseFieldsInner>"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModWorkshopGetAssessmentFormDefinition200ResponseOptionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

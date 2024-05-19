@@ -18,442 +18,442 @@ import { CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEven
 import { CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerSubscription } from './coreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerSubscription';
 
 export class CoreCalendarGetCalendarDayView200ResponseEventsInner {
-    'action'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerAction;
+    'Action'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerAction;
     /**
     * activityname
     */
-    'activityname'?: string;
+    'Activityname'?: string;
     /**
     * activitystr
     */
-    'activitystr'?: string;
+    'Activitystr'?: string;
     /**
     * candelete
     */
-    'candelete'?: boolean;
+    'Candelete'?: boolean;
     /**
     * canedit
     */
-    'canedit'?: boolean;
-    'category'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCategory;
+    'Canedit'?: boolean;
+    'Category'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCategory;
     /**
     * categoryid
     */
-    'categoryid'?: number;
+    'Categoryid'?: number;
     /**
     * component
     */
-    'component'?: string;
-    'course'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse;
+    'Component'?: string;
+    'Course'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse;
     /**
     * deleteurl
     */
-    'deleteurl'?: string;
+    'Deleteurl'?: string;
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * draggable
     */
-    'draggable'?: boolean = false;
+    'Draggable'?: boolean = false;
     /**
     * editurl
     */
-    'editurl'?: string;
+    'Editurl'?: string;
     /**
     * eventcount
     */
-    'eventcount'?: number;
+    'Eventcount'?: number;
     /**
     * eventtype
     */
-    'eventtype'?: string;
+    'Eventtype'?: string;
     /**
     * formattedlocation
     */
-    'formattedlocation'?: string;
+    'Formattedlocation'?: string;
     /**
     * formattedtime
     */
-    'formattedtime'?: string;
+    'Formattedtime'?: string;
     /**
     * groupid
     */
-    'groupid'?: number;
+    'Groupid'?: number;
     /**
     * groupname
     */
-    'groupname'?: string;
-    'icon'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerIcon;
+    'Groupname'?: string;
+    'Icon'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerIcon;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * instance
     */
-    'instance'?: number;
+    'Instance'?: number;
     /**
     * isactionevent
     */
-    'isactionevent'?: boolean;
+    'Isactionevent'?: boolean;
     /**
     * iscategoryevent
     */
-    'iscategoryevent'?: boolean;
+    'Iscategoryevent'?: boolean;
     /**
     * iscourseevent
     */
-    'iscourseevent'?: boolean;
+    'Iscourseevent'?: boolean;
     /**
     * islastday
     */
-    'islastday'?: boolean = false;
+    'Islastday'?: boolean = false;
     /**
     * location
     */
-    'location'?: string;
+    'Location'?: string;
     /**
     * maxdayerror
     */
-    'maxdayerror'?: string = 'null';
+    'Maxdayerror'?: string = 'null';
     /**
     * maxdaytimestamp
     */
-    'maxdaytimestamp'?: number = null;
+    'Maxdaytimestamp'?: number = null;
     /**
     * mindayerror
     */
-    'mindayerror'?: string = 'null';
+    'Mindayerror'?: string = 'null';
     /**
     * mindaytimestamp
     */
-    'mindaytimestamp'?: number = null;
+    'Mindaytimestamp'?: number = null;
     /**
     * modulename
     */
-    'modulename'?: string;
+    'Modulename'?: string;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * normalisedeventtype
     */
-    'normalisedeventtype'?: string;
+    'Normalisedeventtype'?: string;
     /**
     * normalisedeventtypetext
     */
-    'normalisedeventtypetext'?: string;
+    'Normalisedeventtypetext'?: string;
     /**
     * overdue
     */
-    'overdue'?: boolean = false;
+    'Overdue'?: boolean = false;
     /**
     * popupname
     */
-    'popupname'?: string = 'null';
+    'Popupname'?: string = 'null';
     /**
     * purpose
     */
-    'purpose'?: string;
+    'Purpose'?: string;
     /**
     * repeatid
     */
-    'repeatid'?: number;
-    'subscription'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerSubscription;
+    'Repeatid'?: number;
+    'Subscription'?: CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerSubscription;
     /**
     * timeduration
     */
-    'timeduration'?: number;
+    'Timeduration'?: number;
     /**
     * timemodified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * timesort
     */
-    'timesort'?: number;
+    'Timesort'?: number;
     /**
     * timestart
     */
-    'timestart'?: number;
+    'Timestart'?: number;
     /**
     * timeusermidnight
     */
-    'timeusermidnight'?: number;
+    'Timeusermidnight'?: number;
     /**
     * url
     */
-    'url'?: string;
+    'Url'?: string;
     /**
     * userid
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * viewurl
     */
-    'viewurl'?: string;
+    'Viewurl'?: string;
     /**
     * visible
     */
-    'visible'?: number;
+    'Visible'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerAction"
         },
         {
-            "name": "activityname",
+            "name": "Activityname",
             "baseName": "activityname",
             "type": "string"
         },
         {
-            "name": "activitystr",
+            "name": "Activitystr",
             "baseName": "activitystr",
             "type": "string"
         },
         {
-            "name": "candelete",
+            "name": "Candelete",
             "baseName": "candelete",
             "type": "boolean"
         },
         {
-            "name": "canedit",
+            "name": "Canedit",
             "baseName": "canedit",
             "type": "boolean"
         },
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCategory"
         },
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse"
         },
         {
-            "name": "deleteurl",
+            "name": "Deleteurl",
             "baseName": "deleteurl",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "draggable",
+            "name": "Draggable",
             "baseName": "draggable",
             "type": "boolean"
         },
         {
-            "name": "editurl",
+            "name": "Editurl",
             "baseName": "editurl",
             "type": "string"
         },
         {
-            "name": "eventcount",
+            "name": "Eventcount",
             "baseName": "eventcount",
             "type": "number"
         },
         {
-            "name": "eventtype",
+            "name": "Eventtype",
             "baseName": "eventtype",
             "type": "string"
         },
         {
-            "name": "formattedlocation",
+            "name": "Formattedlocation",
             "baseName": "formattedlocation",
             "type": "string"
         },
         {
-            "name": "formattedtime",
+            "name": "Formattedtime",
             "baseName": "formattedtime",
             "type": "string"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "groupname",
+            "name": "Groupname",
             "baseName": "groupname",
             "type": "string"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerIcon"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instance",
+            "name": "Instance",
             "baseName": "instance",
             "type": "number"
         },
         {
-            "name": "isactionevent",
+            "name": "Isactionevent",
             "baseName": "isactionevent",
             "type": "boolean"
         },
         {
-            "name": "iscategoryevent",
+            "name": "Iscategoryevent",
             "baseName": "iscategoryevent",
             "type": "boolean"
         },
         {
-            "name": "iscourseevent",
+            "name": "Iscourseevent",
             "baseName": "iscourseevent",
             "type": "boolean"
         },
         {
-            "name": "islastday",
+            "name": "Islastday",
             "baseName": "islastday",
             "type": "boolean"
         },
         {
-            "name": "location",
+            "name": "Location",
             "baseName": "location",
             "type": "string"
         },
         {
-            "name": "maxdayerror",
+            "name": "Maxdayerror",
             "baseName": "maxdayerror",
             "type": "string"
         },
         {
-            "name": "maxdaytimestamp",
+            "name": "Maxdaytimestamp",
             "baseName": "maxdaytimestamp",
             "type": "number"
         },
         {
-            "name": "mindayerror",
+            "name": "Mindayerror",
             "baseName": "mindayerror",
             "type": "string"
         },
         {
-            "name": "mindaytimestamp",
+            "name": "Mindaytimestamp",
             "baseName": "mindaytimestamp",
             "type": "number"
         },
         {
-            "name": "modulename",
+            "name": "Modulename",
             "baseName": "modulename",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "normalisedeventtype",
+            "name": "Normalisedeventtype",
             "baseName": "normalisedeventtype",
             "type": "string"
         },
         {
-            "name": "normalisedeventtypetext",
+            "name": "Normalisedeventtypetext",
             "baseName": "normalisedeventtypetext",
             "type": "string"
         },
         {
-            "name": "overdue",
+            "name": "Overdue",
             "baseName": "overdue",
             "type": "boolean"
         },
         {
-            "name": "popupname",
+            "name": "Popupname",
             "baseName": "popupname",
             "type": "string"
         },
         {
-            "name": "purpose",
+            "name": "Purpose",
             "baseName": "purpose",
             "type": "string"
         },
         {
-            "name": "repeatid",
+            "name": "Repeatid",
             "baseName": "repeatid",
             "type": "number"
         },
         {
-            "name": "subscription",
+            "name": "Subscription",
             "baseName": "subscription",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerSubscription"
         },
         {
-            "name": "timeduration",
+            "name": "Timeduration",
             "baseName": "timeduration",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timesort",
+            "name": "Timesort",
             "baseName": "timesort",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "timeusermidnight",
+            "name": "Timeusermidnight",
             "baseName": "timeusermidnight",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "viewurl",
+            "name": "Viewurl",
             "baseName": "viewurl",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

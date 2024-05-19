@@ -16,13 +16,13 @@ export class ToolDataprivacyApproveDataRequestRequest {
     /**
     * The request ID
     */
-    'requestid': number = null;
+    'Requestid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "requestid",
+            "name": "Requestid",
             "baseName": "requestid",
             "type": "number"
         }    ];

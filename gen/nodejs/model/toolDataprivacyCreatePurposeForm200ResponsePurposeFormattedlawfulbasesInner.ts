@@ -16,22 +16,22 @@ export class ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulba
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

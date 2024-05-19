@@ -17,55 +17,55 @@ export class ModForumAddDiscussionPost200ResponsePostTagsInner {
     /**
     * The display name of the tag
     */
-    'displayname'?: string = 'null';
+    'Displayname'?: string = 'null';
     /**
     * Wehther this tag is flagged
     */
-    'flag'?: boolean = null;
+    'Flag'?: boolean = null;
     /**
     * The ID of the Tag
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Whether this is a standard tag
     */
-    'isstandard'?: boolean = null;
+    'Isstandard'?: boolean = null;
     /**
     * The tagid
     */
-    'tagid'?: number = null;
-    'urls'?: ModForumAddDiscussionPost200ResponsePostTagsInnerUrls;
+    'Tagid'?: number = null;
+    'Urls'?: ModForumAddDiscussionPost200ResponsePostTagsInnerUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "boolean"
         },
         {
-            "name": "tagid",
+            "name": "Tagid",
             "baseName": "tagid",
             "type": "number"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumAddDiscussionPost200ResponsePostTagsInnerUrls"
         }    ];

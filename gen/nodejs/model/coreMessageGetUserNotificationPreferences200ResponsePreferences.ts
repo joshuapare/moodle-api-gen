@@ -15,37 +15,37 @@ import { CoreMessageGetUserNotificationPreferences200ResponsePreferencesComponen
 import { CoreMessageGetUserNotificationPreferences200ResponsePreferencesProcessorsInner } from './coreMessageGetUserNotificationPreferences200ResponsePreferencesProcessorsInner';
 
 export class CoreMessageGetUserNotificationPreferences200ResponsePreferences {
-    'components': Array<CoreMessageGetUserNotificationPreferences200ResponsePreferencesComponentsInner>;
+    'Components': Array<CoreMessageGetUserNotificationPreferences200ResponsePreferencesComponentsInner>;
     /**
     * Whether all the preferences are disabled
     */
-    'disableall': number;
-    'processors': Array<CoreMessageGetUserNotificationPreferences200ResponsePreferencesProcessorsInner>;
+    'Disableall': number;
+    'Processors': Array<CoreMessageGetUserNotificationPreferences200ResponsePreferencesProcessorsInner>;
     /**
     * User id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "components",
+            "name": "Components",
             "baseName": "components",
             "type": "Array<CoreMessageGetUserNotificationPreferences200ResponsePreferencesComponentsInner>"
         },
         {
-            "name": "disableall",
+            "name": "Disableall",
             "baseName": "disableall",
             "type": "number"
         },
         {
-            "name": "processors",
+            "name": "Processors",
             "baseName": "processors",
             "type": "Array<CoreMessageGetUserNotificationPreferences200ResponsePreferencesProcessorsInner>"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

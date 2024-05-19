@@ -16,22 +16,22 @@ export class CoreContentbankRenameContentRequest {
     /**
     * The content id to rename
     */
-    'contentid': number = null;
+    'Contentid': number = null;
     /**
     * The new name for the content
     */
-    'name': string;
+    'Name': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contentid",
+            "name": "Contentid",
             "baseName": "contentid",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

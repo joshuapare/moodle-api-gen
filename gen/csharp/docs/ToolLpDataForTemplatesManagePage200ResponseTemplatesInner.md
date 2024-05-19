@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForTemplatesManagePage200ResponseTemplatesInner
+# MoodleClient.Model.ToolLpDataForTemplatesManagePage200ResponseTemplatesInner
 
 ## Properties
 

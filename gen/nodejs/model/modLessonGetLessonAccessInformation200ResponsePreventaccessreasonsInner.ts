@@ -19,31 +19,31 @@ export class ModLessonGetLessonAccessInformation200ResponsePreventaccessreasonsI
     /**
     * Additional data
     */
-    'data'?: string = 'null';
+    'Data'?: string = 'null';
     /**
     * Complete html message
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
     /**
     * Reason lang string code
     */
-    'reason'?: string = 'null';
+    'Reason'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "string"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "reason",
+            "name": "Reason",
             "baseName": "reason",
             "type": "string"
         }    ];

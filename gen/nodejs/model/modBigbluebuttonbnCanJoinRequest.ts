@@ -16,22 +16,22 @@ export class ModBigbluebuttonbnCanJoinRequest {
     /**
     * course module id
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * bigbluebuttonbn group id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlockGetDashboardBlocks200ResponseBlocksInnerConfigsInner
+# MoodleClient.Model.CoreBlockGetDashboardBlocks200ResponseBlocksInnerConfigsInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBookViewBookRequest
+# MoodleClient.Model.ModBookViewBookRequest
 
 ## Properties
 

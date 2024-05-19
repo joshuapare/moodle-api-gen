@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class ToolBehatGetEntityGenerator200Response {
-    'required'?: Array<object>;
+    'Required'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "required",
+            "name": "Required",
             "baseName": "required",
             "type": "Array<object>"
         }    ];

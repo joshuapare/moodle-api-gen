@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyCreatePlan200ResponseReviewer
+# MoodleClient.Model.CoreCompetencyCreatePlan200ResponseReviewer
 
 ## Properties
 

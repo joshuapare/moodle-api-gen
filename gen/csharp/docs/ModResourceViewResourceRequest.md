@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModResourceViewResourceRequest
+# MoodleClient.Model.ModResourceViewResourceRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankEditquestionSetStatus200Response
+# MoodleClient.Model.QbankEditquestionSetStatus200Response
 
 ## Properties
 

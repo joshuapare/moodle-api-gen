@@ -17,19 +17,19 @@ export class CoreFilesDeleteDraftFilesRequest {
     /**
     * Item id of the draft file area
     */
-    'draftitemid': number = null;
-    'files': Array<CoreFilesDeleteDraftFilesRequestFilesInner>;
+    'Draftitemid': number = null;
+    'Files': Array<CoreFilesDeleteDraftFilesRequestFilesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "draftitemid",
+            "name": "Draftitemid",
             "baseName": "draftitemid",
             "type": "number"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreFilesDeleteDraftFilesRequestFilesInner>"
         }    ];

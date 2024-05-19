@@ -16,103 +16,103 @@ export class CoreCalendarGetCalendarDayView200ResponseDate {
     /**
     * hours
     */
-    'hours': number = null;
+    'Hours': number = null;
     /**
     * mday
     */
-    'mday': number = null;
+    'Mday': number = null;
     /**
     * minutes
     */
-    'minutes': number = null;
+    'Minutes': number = null;
     /**
     * mon
     */
-    'mon': number = null;
+    'Mon': number = null;
     /**
     * month
     */
-    'month': string = 'null';
+    'Month': string = 'null';
     /**
     * seconds
     */
-    'seconds': number = null;
+    'Seconds': number = null;
     /**
     * timestamp
     */
-    'timestamp': number = null;
+    'Timestamp': number = null;
     /**
     * wday
     */
-    'wday': number = null;
+    'Wday': number = null;
     /**
     * weekday
     */
-    'weekday': string = 'null';
+    'Weekday': string = 'null';
     /**
     * yday
     */
-    'yday': number = null;
+    'Yday': number = null;
     /**
     * year
     */
-    'year': number = null;
+    'Year': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "hours",
+            "name": "Hours",
             "baseName": "hours",
             "type": "number"
         },
         {
-            "name": "mday",
+            "name": "Mday",
             "baseName": "mday",
             "type": "number"
         },
         {
-            "name": "minutes",
+            "name": "Minutes",
             "baseName": "minutes",
             "type": "number"
         },
         {
-            "name": "mon",
+            "name": "Mon",
             "baseName": "mon",
             "type": "number"
         },
         {
-            "name": "month",
+            "name": "Month",
             "baseName": "month",
             "type": "string"
         },
         {
-            "name": "seconds",
+            "name": "Seconds",
             "baseName": "seconds",
             "type": "number"
         },
         {
-            "name": "timestamp",
+            "name": "Timestamp",
             "baseName": "timestamp",
             "type": "number"
         },
         {
-            "name": "wday",
+            "name": "Wday",
             "baseName": "wday",
             "type": "number"
         },
         {
-            "name": "weekday",
+            "name": "Weekday",
             "baseName": "weekday",
             "type": "string"
         },
         {
-            "name": "yday",
+            "name": "Yday",
             "baseName": "yday",
             "type": "number"
         },
         {
-            "name": "year",
+            "name": "Year",
             "baseName": "year",
             "type": "number"
         }    ];

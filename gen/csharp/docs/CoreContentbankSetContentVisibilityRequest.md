@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreContentbankSetContentVisibilityRequest
+# MoodleClient.Model.CoreContentbankSetContentVisibilityRequest
 
 ## Properties
 

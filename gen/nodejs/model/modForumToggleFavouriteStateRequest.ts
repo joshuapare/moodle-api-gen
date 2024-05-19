@@ -16,22 +16,22 @@ export class ModForumToggleFavouriteStateRequest {
     /**
     * The discussion to subscribe or unsubscribe
     */
-    'discussionid': number;
+    'Discussionid': number;
     /**
     * The target state
     */
-    'targetstate': boolean;
+    'Targetstate': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         },
         {
-            "name": "targetstate",
+            "name": "Targetstate",
             "baseName": "targetstate",
             "type": "boolean"
         }    ];

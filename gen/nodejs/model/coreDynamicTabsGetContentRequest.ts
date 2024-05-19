@@ -16,22 +16,22 @@ export class CoreDynamicTabsGetContentRequest {
     /**
     * Json-encoded data
     */
-    'jsondata': string = 'null';
+    'Jsondata': string = 'null';
     /**
     * Tab class
     */
-    'tab': string = 'null';
+    'Tab': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "jsondata",
+            "name": "Jsondata",
             "baseName": "jsondata",
             "type": "string"
         },
         {
-            "name": "tab",
+            "name": "Tab",
             "baseName": "tab",
             "type": "string"
         }    ];

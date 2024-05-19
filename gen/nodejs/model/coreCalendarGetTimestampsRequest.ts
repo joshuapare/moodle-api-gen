@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCalendarGetTimestampsRequestDataInner } from './coreCalendarGetTimestampsRequestDataInner';
 
 export class CoreCalendarGetTimestampsRequest {
-    'data': Array<CoreCalendarGetTimestampsRequestDataInner>;
+    'Data': Array<CoreCalendarGetTimestampsRequestDataInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<CoreCalendarGetTimestampsRequestDataInner>"
         }    ];

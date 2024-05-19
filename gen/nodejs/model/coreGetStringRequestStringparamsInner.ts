@@ -16,22 +16,22 @@ export class CoreGetStringRequestStringparamsInner {
     /**
     * param name                             - if the string expect only one $a parameter then don\'t send this field, just send the value.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * param value
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

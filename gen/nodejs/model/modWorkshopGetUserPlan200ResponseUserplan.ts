@@ -15,19 +15,19 @@ import { ModWorkshopGetUserPlan200ResponseUserplanExamplesInner } from './modWor
 import { ModWorkshopGetUserPlan200ResponseUserplanPhasesInner } from './modWorkshopGetUserPlan200ResponseUserplanPhasesInner';
 
 export class ModWorkshopGetUserPlan200ResponseUserplan {
-    'examples': Array<ModWorkshopGetUserPlan200ResponseUserplanExamplesInner>;
-    'phases': Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInner>;
+    'Examples': Array<ModWorkshopGetUserPlan200ResponseUserplanExamplesInner>;
+    'Phases': Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "examples",
+            "name": "Examples",
             "baseName": "examples",
             "type": "Array<ModWorkshopGetUserPlan200ResponseUserplanExamplesInner>"
         },
         {
-            "name": "phases",
+            "name": "Phases",
             "baseName": "phases",
             "type": "Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInner>"
         }    ];

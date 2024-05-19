@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnGetRecordingsToImport200ResponseTabledataColumnsInner
+# MoodleClient.Model.ModBigbluebuttonbnGetRecordingsToImport200ResponseTabledataColumnsInner
 
 ## Properties
 

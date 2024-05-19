@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModUrlGetUrlsByCourses200ResponseUrlsInner
+# MoodleClient.Model.ModUrlGetUrlsByCourses200ResponseUrlsInner
 
 ## Properties
 

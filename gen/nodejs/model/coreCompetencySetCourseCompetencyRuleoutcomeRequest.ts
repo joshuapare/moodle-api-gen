@@ -16,22 +16,22 @@ export class CoreCompetencySetCourseCompetencyRuleoutcomeRequest {
     /**
     * Data base record id for the course competency
     */
-    'coursecompetencyid': number = null;
+    'Coursecompetencyid': number = null;
     /**
     * Ruleoutcome value
     */
-    'ruleoutcome': number = null;
+    'Ruleoutcome': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "coursecompetencyid",
+            "name": "Coursecompetencyid",
             "baseName": "coursecompetencyid",
             "type": "number"
         },
         {
-            "name": "ruleoutcome",
+            "name": "Ruleoutcome",
             "baseName": "ruleoutcome",
             "type": "number"
         }    ];

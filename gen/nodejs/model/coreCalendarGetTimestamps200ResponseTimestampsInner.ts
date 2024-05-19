@@ -16,22 +16,22 @@ export class CoreCalendarGetTimestamps200ResponseTimestampsInner {
     /**
     * Timestamp key
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * Unix timestamp
     */
-    'timestamp'?: number = null;
+    'Timestamp'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "timestamp",
+            "name": "Timestamp",
             "baseName": "timestamp",
             "type": "number"
         }    ];

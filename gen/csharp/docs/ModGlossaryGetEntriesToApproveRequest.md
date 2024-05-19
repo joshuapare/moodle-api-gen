@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetEntriesToApproveRequest
+# MoodleClient.Model.ModGlossaryGetEntriesToApproveRequest
 
 ## Properties
 

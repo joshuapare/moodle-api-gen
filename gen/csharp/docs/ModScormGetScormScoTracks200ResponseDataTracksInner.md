@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormScoTracks200ResponseDataTracksInner
+# MoodleClient.Model.ModScormGetScormScoTracks200ResponseDataTracksInner
 Tracks data
 
 ## Properties

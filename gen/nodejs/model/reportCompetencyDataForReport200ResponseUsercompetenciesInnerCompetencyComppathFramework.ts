@@ -16,49 +16,49 @@ export class ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompet
     /**
     * first
     */
-    'first': boolean;
+    'First': boolean;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * last
     */
-    'last': boolean;
+    'Last': boolean;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * position
     */
-    'position': number;
+    'Position': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "first",
+            "name": "First",
             "baseName": "first",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "last",
+            "name": "Last",
             "baseName": "last",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "position",
+            "name": "Position",
             "baseName": "position",
             "type": "number"
         }    ];

@@ -18,25 +18,25 @@ export class ModLtiGetToolLaunchData200Response {
     /**
     * Endpoint URL
     */
-    'endpoint': string = 'null';
-    'parameters': Array<ModLtiGetToolLaunchData200ResponseParametersInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Endpoint': string = 'null';
+    'Parameters': Array<ModLtiGetToolLaunchData200ResponseParametersInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "endpoint",
+            "name": "Endpoint",
             "baseName": "endpoint",
             "type": "string"
         },
         {
-            "name": "parameters",
+            "name": "Parameters",
             "baseName": "parameters",
             "type": "Array<ModLtiGetToolLaunchData200ResponseParametersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

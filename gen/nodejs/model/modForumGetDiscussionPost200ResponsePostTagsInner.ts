@@ -17,55 +17,55 @@ export class ModForumGetDiscussionPost200ResponsePostTagsInner {
     /**
     * The display name of the tag
     */
-    'displayname'?: string;
+    'Displayname'?: string;
     /**
     * Wehther this tag is flagged
     */
-    'flag'?: boolean;
+    'Flag'?: boolean;
     /**
     * The ID of the Tag
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Whether this is a standard tag
     */
-    'isstandard'?: boolean;
+    'Isstandard'?: boolean;
     /**
     * The tagid
     */
-    'tagid'?: number;
-    'urls'?: ModForumGetDiscussionPost200ResponsePostTagsInnerUrls;
+    'Tagid'?: number;
+    'Urls'?: ModForumGetDiscussionPost200ResponsePostTagsInnerUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "boolean"
         },
         {
-            "name": "tagid",
+            "name": "Tagid",
             "baseName": "tagid",
             "type": "number"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumGetDiscussionPost200ResponsePostTagsInnerUrls"
         }    ];

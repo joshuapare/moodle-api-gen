@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetBlockedUsersRequest
+# MoodleClient.Model.CoreMessageGetBlockedUsersRequest
 
 ## Properties
 

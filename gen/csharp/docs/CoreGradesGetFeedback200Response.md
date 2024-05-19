@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetFeedback200Response
+# MoodleClient.Model.CoreGradesGetFeedback200Response
 
 ## Properties
 

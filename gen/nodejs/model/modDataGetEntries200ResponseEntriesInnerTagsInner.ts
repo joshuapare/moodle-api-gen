@@ -16,94 +16,94 @@ export class ModDataGetEntries200ResponseEntriesInnerTagsInner {
     /**
     * Whether the tag is flagged as inappropriate.
     */
-    'flag'?: number = 0;
+    'Flag'?: number = 0;
     /**
     * Tag id.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Whether this tag is standard.
     */
-    'isstandard'?: boolean = false;
+    'Isstandard'?: boolean = false;
     /**
     * Id of the record tagged.
     */
-    'itemid'?: number;
+    'Itemid'?: number;
     /**
     * Tag name.
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Tag ordering.
     */
-    'ordering'?: number;
+    'Ordering'?: number;
     /**
     * The raw, unnormalised name for the tag as entered by users.
     */
-    'rawname'?: string;
+    'Rawname'?: string;
     /**
     * Tag collection id.
     */
-    'tagcollid'?: number;
+    'Tagcollid'?: number;
     /**
     * Context the tag instance belongs to.
     */
-    'taginstancecontextid'?: number;
+    'Taginstancecontextid'?: number;
     /**
     * Tag instance id.
     */
-    'taginstanceid'?: number;
+    'Taginstanceid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "boolean"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "ordering",
+            "name": "Ordering",
             "baseName": "ordering",
             "type": "number"
         },
         {
-            "name": "rawname",
+            "name": "Rawname",
             "baseName": "rawname",
             "type": "string"
         },
         {
-            "name": "tagcollid",
+            "name": "Tagcollid",
             "baseName": "tagcollid",
             "type": "number"
         },
         {
-            "name": "taginstancecontextid",
+            "name": "Taginstancecontextid",
             "baseName": "taginstancecontextid",
             "type": "number"
         },
         {
-            "name": "taginstanceid",
+            "name": "Taginstanceid",
             "baseName": "taginstanceid",
             "type": "number"
         }    ];

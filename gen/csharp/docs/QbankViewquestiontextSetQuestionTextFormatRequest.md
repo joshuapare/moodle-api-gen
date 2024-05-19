@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankViewquestiontextSetQuestionTextFormatRequest
+# MoodleClient.Model.QbankViewquestiontextSetQuestionTextFormatRequest
 
 ## Properties
 

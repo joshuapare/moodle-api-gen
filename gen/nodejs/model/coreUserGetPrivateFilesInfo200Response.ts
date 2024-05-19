@@ -17,46 +17,46 @@ export class CoreUserGetPrivateFilesInfo200Response {
     /**
     * Number of files in the area.
     */
-    'filecount': number = null;
+    'Filecount': number = null;
     /**
     * Total size of the files in the area.
     */
-    'filesize': number = null;
+    'Filesize': number = null;
     /**
     * Total size of the area excluding file references
     */
-    'filesizewithoutreferences': number = null;
+    'Filesizewithoutreferences': number = null;
     /**
     * Number of folders in the area.
     */
-    'foldercount': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Foldercount': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filecount",
+            "name": "Filecount",
             "baseName": "filecount",
             "type": "number"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "filesizewithoutreferences",
+            "name": "Filesizewithoutreferences",
             "baseName": "filesizewithoutreferences",
             "type": "number"
         },
         {
-            "name": "foldercount",
+            "name": "Foldercount",
             "baseName": "foldercount",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

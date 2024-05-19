@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroup } from './coreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroup';
 
 export class CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInner {
-    'optiongroup'?: CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroup;
+    'Optiongroup'?: CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroup;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "optiongroup",
+            "name": "Optiongroup",
             "baseName": "optiongroup",
             "type": "CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroup"
         }    ];

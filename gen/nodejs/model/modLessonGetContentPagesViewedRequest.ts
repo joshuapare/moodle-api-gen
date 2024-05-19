@@ -16,31 +16,31 @@ export class ModLessonGetContentPagesViewedRequest {
     /**
     * lesson attempt number
     */
-    'lessonattempt': number = null;
+    'Lessonattempt': number = null;
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * the user id (empty for current user)
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonattempt",
+            "name": "Lessonattempt",
             "baseName": "lessonattempt",
             "type": "number"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -15,82 +15,82 @@ import { CoreCohortUpdateCohortsRequestCohortsInnerCategorytype } from './coreCo
 import { CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner } from './coreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner';
 
 export class CoreCohortUpdateCohortsRequestCohortsInner {
-    'categorytype'?: CoreCohortUpdateCohortsRequestCohortsInnerCategorytype;
-    'customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
+    'Categorytype'?: CoreCohortUpdateCohortsRequestCohortsInnerCategorytype;
+    'Customfields'?: Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>;
     /**
     * cohort description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * ID of the cohort
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * cohort idnumber
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * cohort name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * the cohort theme. The allowcohortthemes setting must be enabled on Moodle
     */
-    'theme'?: string;
+    'Theme'?: string;
     /**
     * cohort visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categorytype",
+            "name": "Categorytype",
             "baseName": "categorytype",
             "type": "CoreCohortUpdateCohortsRequestCohortsInnerCategorytype"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCohortUpdateCohortsRequestCohortsInnerCustomfieldsInner>"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

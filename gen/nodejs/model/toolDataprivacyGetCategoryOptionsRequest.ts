@@ -16,22 +16,22 @@ export class ToolDataprivacyGetCategoryOptionsRequest {
     /**
     * Include option \"Inherit\"
     */
-    'includeinherit'?: boolean = true;
+    'Includeinherit'?: boolean = true;
     /**
     * Include option \"Not set\"
     */
-    'includenotset'?: boolean = false;
+    'Includenotset'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includeinherit",
+            "name": "Includeinherit",
             "baseName": "includeinherit",
             "type": "boolean"
         },
         {
-            "name": "includenotset",
+            "name": "Includenotset",
             "baseName": "includenotset",
             "type": "boolean"
         }    ];

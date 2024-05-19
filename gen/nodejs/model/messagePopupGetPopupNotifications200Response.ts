@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { MessagePopupGetPopupNotifications200ResponseNotificationsInner } from './messagePopupGetPopupNotifications200ResponseNotificationsInner';
 
 export class MessagePopupGetPopupNotifications200Response {
-    'notifications': Array<MessagePopupGetPopupNotifications200ResponseNotificationsInner>;
+    'Notifications': Array<MessagePopupGetPopupNotifications200ResponseNotificationsInner>;
     /**
     * the number of unread message for the given user
     */
-    'unreadcount': number = null;
+    'Unreadcount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "notifications",
+            "name": "Notifications",
             "baseName": "notifications",
             "type": "Array<MessagePopupGetPopupNotifications200ResponseNotificationsInner>"
         },
         {
-            "name": "unreadcount",
+            "name": "Unreadcount",
             "baseName": "unreadcount",
             "type": "number"
         }    ];

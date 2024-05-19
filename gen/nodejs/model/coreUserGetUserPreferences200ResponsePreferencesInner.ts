@@ -16,22 +16,22 @@ export class CoreUserGetUserPreferences200ResponsePreferencesInner {
     /**
     * The name of the preference
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * The value of the preference
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

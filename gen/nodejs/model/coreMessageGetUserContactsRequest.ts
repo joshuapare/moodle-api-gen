@@ -16,31 +16,31 @@ export class CoreMessageGetUserContactsRequest {
     /**
     * Limit from
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Limit number
     */
-    'limitnum'?: number = 0;
+    'Limitnum'?: number = 0;
     /**
     * The id of the user who we retrieving the contacts for
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

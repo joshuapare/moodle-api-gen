@@ -16,22 +16,22 @@ export class BlockStarredcoursesGetStarredCoursesRequest {
     /**
     * Limit
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Offset
     */
-    'offset'?: number = 0;
+    'Offset'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         }    ];

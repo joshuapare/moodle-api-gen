@@ -16,13 +16,13 @@ export class ToolLpDataForRelatedCompetenciesSectionRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         }    ];

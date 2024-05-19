@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumAddDiscussionPostRequest
+# MoodleClient.Model.ModForumAddDiscussionPostRequest
 
 ## Properties
 

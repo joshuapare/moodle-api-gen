@@ -16,13 +16,13 @@ export class EnrolGuestGetInstanceInfoRequest {
     /**
     * Instance id of guest enrolment plugin.
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         }    ];

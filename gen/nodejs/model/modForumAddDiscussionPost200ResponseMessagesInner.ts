@@ -19,22 +19,22 @@ export class ModForumAddDiscussionPost200ResponseMessagesInner {
     /**
     * untranslated english message to explain the warning
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * The classification to be used in the client side
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetEnrolledUsersForSelectorRequest
+# MoodleClient.Model.CoreGradesGetEnrolledUsersForSelectorRequest
 
 ## Properties
 

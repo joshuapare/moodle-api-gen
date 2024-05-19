@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class ModAssignGetGradesRequest {
-    'assignmentids': Array<object>;
+    'Assignmentids': Array<object>;
     /**
     * timestamp, only return records where timemodified >= since
     */
-    'since'?: number = 0;
+    'Since'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentids",
+            "name": "Assignmentids",
             "baseName": "assignmentids",
             "type": "Array<object>"
         },
         {
-            "name": "since",
+            "name": "Since",
             "baseName": "since",
             "type": "number"
         }    ];

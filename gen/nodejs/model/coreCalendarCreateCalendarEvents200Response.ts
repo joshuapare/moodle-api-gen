@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreCalendarCreateCalendarEvents200ResponseEventsInner } from './coreCalendarCreateCalendarEvents200ResponseEventsInner';
 
 export class CoreCalendarCreateCalendarEvents200Response {
-    'events': Array<CoreCalendarCreateCalendarEvents200ResponseEventsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Events': Array<CoreCalendarCreateCalendarEvents200ResponseEventsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarCreateCalendarEvents200ResponseEventsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

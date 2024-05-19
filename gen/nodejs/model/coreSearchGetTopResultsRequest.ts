@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreSearchGetTopResultsRequestFilters } from './coreSearchGetTopResultsRequestFilters';
 
 export class CoreSearchGetTopResultsRequest {
-    'filters'?: CoreSearchGetTopResultsRequestFilters;
+    'Filters'?: CoreSearchGetTopResultsRequestFilters;
     /**
     * the search query
     */
-    'query': string;
+    'Query': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "CoreSearchGetTopResultsRequestFilters"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

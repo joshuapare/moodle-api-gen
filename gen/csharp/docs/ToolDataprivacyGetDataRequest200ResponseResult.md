@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyGetDataRequest200ResponseResult
+# MoodleClient.Model.ToolDataprivacyGetDataRequest200ResponseResult
 
 ## Properties
 

@@ -16,40 +16,40 @@ export class LocalIomadLearningpathGetprospectiveusersRequest {
     /**
     * ID of Iomad Company
     */
-    'companyid': number = null;
+    'Companyid': number = null;
     /**
     * Filter user list returned
     */
-    'filter'?: string = '';
+    'Filter'?: string = '';
     /**
     * ID learning path
     */
-    'pathid': number = null;
+    'Pathid': number = null;
     /**
     * Filter by user profilefield
     */
-    'profilefieldid'?: number = 0;
+    'Profilefieldid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "string"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         },
         {
-            "name": "profilefieldid",
+            "name": "Profilefieldid",
             "baseName": "profilefieldid",
             "type": "number"
         }    ];

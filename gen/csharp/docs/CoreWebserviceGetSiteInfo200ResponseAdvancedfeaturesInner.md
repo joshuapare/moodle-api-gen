@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner
+# MoodleClient.Model.CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner
 Advanced features availability
 
 ## Properties

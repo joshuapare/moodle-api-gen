@@ -16,40 +16,40 @@ import { ModQuizGetAttemptData200ResponseAttempt } from './modQuizGetAttemptData
 import { ModQuizGetAttemptData200ResponseQuestionsInner } from './modQuizGetAttemptData200ResponseQuestionsInner';
 
 export class ModQuizGetAttemptData200Response {
-    'attempt': ModQuizGetAttemptData200ResponseAttempt;
-    'messages': Array<object>;
+    'Attempt': ModQuizGetAttemptData200ResponseAttempt;
+    'Messages': Array<object>;
     /**
     * next page number
     */
-    'nextpage': number = null;
-    'questions': Array<ModQuizGetAttemptData200ResponseQuestionsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Nextpage': number = null;
+    'Questions': Array<ModQuizGetAttemptData200ResponseQuestionsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "ModQuizGetAttemptData200ResponseAttempt"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<object>"
         },
         {
-            "name": "nextpage",
+            "name": "Nextpage",
             "baseName": "nextpage",
             "type": "number"
         },
         {
-            "name": "questions",
+            "name": "Questions",
             "baseName": "questions",
             "type": "Array<ModQuizGetAttemptData200ResponseQuestionsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

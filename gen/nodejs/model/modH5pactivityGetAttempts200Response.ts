@@ -18,25 +18,25 @@ export class ModH5pactivityGetAttempts200Response {
     /**
     * Activity course module ID
     */
-    'activityid': number = null;
-    'usersattempts': Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Activityid': number = null;
+    'Usersattempts': Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activityid",
+            "name": "Activityid",
             "baseName": "activityid",
             "type": "number"
         },
         {
-            "name": "usersattempts",
+            "name": "Usersattempts",
             "baseName": "usersattempts",
             "type": "Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

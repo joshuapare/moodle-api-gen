@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumGetForumsByCoursesRequest
+# MoodleClient.Model.ModForumGetForumsByCoursesRequest
 
 ## Properties
 

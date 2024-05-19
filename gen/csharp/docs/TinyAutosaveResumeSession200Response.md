@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.TinyAutosaveResumeSession200Response
+# MoodleClient.Model.TinyAutosaveResumeSession200Response
 
 ## Properties
 

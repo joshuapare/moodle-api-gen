@@ -16,58 +16,58 @@ export class ModFeedbackGetNonRespondentsRequest {
     /**
     * Course where user completes the feedback (for site feedbacks only).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Feedback instance id
     */
-    'feedbackid': number;
+    'Feedbackid': number;
     /**
     * Group id, 0 means that the function will determine the user group.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The page of records to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of records to return per page.
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * Sort param, must be firstname, lastname or lastaccess (default).
     */
-    'sort'?: string = 'lastaccess';
+    'Sort'?: string = 'lastaccess';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "feedbackid",
+            "name": "Feedbackid",
             "baseName": "feedbackid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

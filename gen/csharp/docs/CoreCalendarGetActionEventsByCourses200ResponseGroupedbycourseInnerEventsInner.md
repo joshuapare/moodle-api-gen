@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner
+# MoodleClient.Model.CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner
 
 ## Properties
 

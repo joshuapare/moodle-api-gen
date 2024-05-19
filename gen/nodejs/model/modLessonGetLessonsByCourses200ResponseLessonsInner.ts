@@ -17,412 +17,412 @@ export class ModLessonGetLessonsByCourses200ResponseLessonsInner {
     /**
     * Id of the next activity to be linked once the lesson is completed
     */
-    'activitylink'?: number;
+    'Activitylink'?: number;
     /**
     * Whether to allow the lesson to be attempted offline in the mobile app
     */
-    'allowofflineattempts'?: boolean;
+    'Allowofflineattempts'?: boolean;
     /**
     * Available from
     */
-    'available'?: number;
+    'Available'?: number;
     /**
     * Slideshow bgcolor
     */
-    'bgcolor'?: string;
+    'Bgcolor'?: string;
     /**
     * Require end reached for completion?
     */
-    'completionendreached'?: number;
+    'Completionendreached'?: number;
     /**
     * Student must do this activity at least for
     */
-    'completiontimespent'?: number;
+    'Completiontimespent'?: number;
     /**
     * Conditions to enable the lesson
     */
-    'conditions'?: string;
+    'Conditions'?: string;
     /**
     * Foreign key reference to the course this lesson is part of.
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id.
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Custom scoring?
     */
-    'custom'?: boolean;
+    'Custom'?: boolean;
     /**
     * Available until
     */
-    'deadline'?: number;
+    'Deadline'?: number;
     /**
     * Dependent on (another lesson id)
     */
-    'dependency'?: number;
+    'Dependency'?: number;
     /**
     * Display left pages menu?
     */
-    'displayleft'?: boolean;
+    'Displayleft'?: boolean;
     /**
     * Minimum grade to display menu
     */
-    'displayleftif'?: number;
+    'Displayleftif'?: number;
     /**
     * Display default feedback
     */
-    'feedback'?: boolean;
+    'Feedback'?: boolean;
     /**
     * The total that the grade is scaled to be out of
     */
-    'grade'?: number;
+    'Grade'?: number;
     /**
     * Slideshow height
     */
-    'height'?: number;
+    'Height'?: number;
     /**
     * Standard Moodle primary key.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Lesson introduction text.
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = 0;
+    'Introformat'?: number = 0;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Maximum answers per page
     */
-    'maxanswers'?: number;
+    'Maxanswers'?: number;
     /**
     * Maximum attempts
     */
-    'maxattempts'?: number;
+    'Maxattempts'?: number;
     /**
     * Number of pages to show
     */
-    'maxpages'?: number;
+    'Maxpages'?: number;
     /**
     * Display a close button in the popup?
     */
-    'mediaclose'?: number;
+    'Mediaclose'?: number;
     /**
     * Local file path or full external URL
     */
-    'mediafile'?: string;
-    'mediafiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Mediafile'?: string;
+    'Mediafiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * Popup for media file height
     */
-    'mediaheight'?: number;
+    'Mediaheight'?: number;
     /**
     * Popup for media with
     */
-    'mediawidth'?: number;
+    'Mediawidth'?: number;
     /**
     * Minimum number of questions
     */
-    'minquestions'?: number;
+    'Minquestions'?: number;
     /**
     * Allow student review?
     */
-    'modattempts'?: boolean;
+    'Modattempts'?: boolean;
     /**
     * Lesson name.
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Action for a correct answer
     */
-    'nextpagedefault'?: number;
+    'Nextpagedefault'?: number;
     /**
     * Display ongoing score?
     */
-    'ongoing'?: boolean;
+    'Ongoing'?: boolean;
     /**
     * Password
     */
-    'password'?: string;
+    'Password'?: string;
     /**
     * Practice lesson?
     */
-    'practice'?: boolean;
+    'Practice'?: boolean;
     /**
     * Display progress bar?
     */
-    'progressbar'?: boolean;
+    'Progressbar'?: boolean;
     /**
     * Re-takes allowed
     */
-    'retake'?: boolean;
+    'Retake'?: boolean;
     /**
     * Provide option to try a question again
     */
-    'review'?: boolean;
+    'Review'?: boolean;
     /**
     * Display lesson as slideshow
     */
-    'slideshow'?: boolean;
+    'Slideshow'?: boolean;
     /**
     * Time limit
     */
-    'timelimit'?: number;
+    'Timelimit'?: number;
     /**
     * Last time settings were updated
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * How to calculate the final grade
     */
-    'usemaxgrade'?: number;
+    'Usemaxgrade'?: number;
     /**
     * Password protected lesson?
     */
-    'usepassword'?: boolean;
+    'Usepassword'?: boolean;
     /**
     * Slideshow width
     */
-    'width'?: number;
+    'Width'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activitylink",
+            "name": "Activitylink",
             "baseName": "activitylink",
             "type": "number"
         },
         {
-            "name": "allowofflineattempts",
+            "name": "Allowofflineattempts",
             "baseName": "allowofflineattempts",
             "type": "boolean"
         },
         {
-            "name": "available",
+            "name": "Available",
             "baseName": "available",
             "type": "number"
         },
         {
-            "name": "bgcolor",
+            "name": "Bgcolor",
             "baseName": "bgcolor",
             "type": "string"
         },
         {
-            "name": "completionendreached",
+            "name": "Completionendreached",
             "baseName": "completionendreached",
             "type": "number"
         },
         {
-            "name": "completiontimespent",
+            "name": "Completiontimespent",
             "baseName": "completiontimespent",
             "type": "number"
         },
         {
-            "name": "conditions",
+            "name": "Conditions",
             "baseName": "conditions",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "custom",
+            "name": "Custom",
             "baseName": "custom",
             "type": "boolean"
         },
         {
-            "name": "deadline",
+            "name": "Deadline",
             "baseName": "deadline",
             "type": "number"
         },
         {
-            "name": "dependency",
+            "name": "Dependency",
             "baseName": "dependency",
             "type": "number"
         },
         {
-            "name": "displayleft",
+            "name": "Displayleft",
             "baseName": "displayleft",
             "type": "boolean"
         },
         {
-            "name": "displayleftif",
+            "name": "Displayleftif",
             "baseName": "displayleftif",
             "type": "number"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "boolean"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "height",
+            "name": "Height",
             "baseName": "height",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "maxanswers",
+            "name": "Maxanswers",
             "baseName": "maxanswers",
             "type": "number"
         },
         {
-            "name": "maxattempts",
+            "name": "Maxattempts",
             "baseName": "maxattempts",
             "type": "number"
         },
         {
-            "name": "maxpages",
+            "name": "Maxpages",
             "baseName": "maxpages",
             "type": "number"
         },
         {
-            "name": "mediaclose",
+            "name": "Mediaclose",
             "baseName": "mediaclose",
             "type": "number"
         },
         {
-            "name": "mediafile",
+            "name": "Mediafile",
             "baseName": "mediafile",
             "type": "string"
         },
         {
-            "name": "mediafiles",
+            "name": "Mediafiles",
             "baseName": "mediafiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "mediaheight",
+            "name": "Mediaheight",
             "baseName": "mediaheight",
             "type": "number"
         },
         {
-            "name": "mediawidth",
+            "name": "Mediawidth",
             "baseName": "mediawidth",
             "type": "number"
         },
         {
-            "name": "minquestions",
+            "name": "Minquestions",
             "baseName": "minquestions",
             "type": "number"
         },
         {
-            "name": "modattempts",
+            "name": "Modattempts",
             "baseName": "modattempts",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nextpagedefault",
+            "name": "Nextpagedefault",
             "baseName": "nextpagedefault",
             "type": "number"
         },
         {
-            "name": "ongoing",
+            "name": "Ongoing",
             "baseName": "ongoing",
             "type": "boolean"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "practice",
+            "name": "Practice",
             "baseName": "practice",
             "type": "boolean"
         },
         {
-            "name": "progressbar",
+            "name": "Progressbar",
             "baseName": "progressbar",
             "type": "boolean"
         },
         {
-            "name": "retake",
+            "name": "Retake",
             "baseName": "retake",
             "type": "boolean"
         },
         {
-            "name": "review",
+            "name": "Review",
             "baseName": "review",
             "type": "boolean"
         },
         {
-            "name": "slideshow",
+            "name": "Slideshow",
             "baseName": "slideshow",
             "type": "boolean"
         },
         {
-            "name": "timelimit",
+            "name": "Timelimit",
             "baseName": "timelimit",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usemaxgrade",
+            "name": "Usemaxgrade",
             "baseName": "usemaxgrade",
             "type": "number"
         },
         {
-            "name": "usepassword",
+            "name": "Usepassword",
             "baseName": "usepassword",
             "type": "boolean"
         },
         {
-            "name": "width",
+            "name": "Width",
             "baseName": "width",
             "type": "number"
         }    ];

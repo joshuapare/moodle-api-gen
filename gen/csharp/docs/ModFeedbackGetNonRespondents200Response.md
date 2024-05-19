@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetNonRespondents200Response
+# MoodleClient.Model.ModFeedbackGetNonRespondents200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFormGetFiletypesBrowserData200ResponseGroupsInnerTypesInner
+# MoodleClient.Model.CoreFormGetFiletypesBrowserData200ResponseGroupsInnerTypesInner
 
 ## Properties
 

@@ -16,31 +16,31 @@ export class ToolUsertoursFetchAndStartTourRequest {
     /**
     * Context ID
     */
-    'context': number;
+    'Context': number;
     /**
     * Page URL
     */
-    'pageurl': string;
+    'Pageurl': string;
     /**
     * Tour ID
     */
-    'tourid': number;
+    'Tourid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "number"
         },
         {
-            "name": "pageurl",
+            "name": "Pageurl",
             "baseName": "pageurl",
             "type": "string"
         },
         {
-            "name": "tourid",
+            "name": "Tourid",
             "baseName": "tourid",
             "type": "number"
         }    ];

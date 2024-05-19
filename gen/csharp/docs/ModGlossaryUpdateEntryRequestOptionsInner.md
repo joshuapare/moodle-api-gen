@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryUpdateEntryRequestOptionsInner
+# MoodleClient.Model.ModGlossaryUpdateEntryRequestOptionsInner
 
 ## Properties
 

@@ -16,22 +16,22 @@ export class ModQuizGetCombinedReviewOptions200ResponseSomeoptionsInner {
     /**
     * option name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * option value
     */
-    'value'?: number;
+    'Value'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "number"
         }    ];

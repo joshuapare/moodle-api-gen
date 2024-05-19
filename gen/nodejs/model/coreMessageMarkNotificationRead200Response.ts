@@ -17,19 +17,19 @@ export class CoreMessageMarkNotificationRead200Response {
     /**
     * id of the notification
     */
-    'notificationid': number;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Notificationid': number;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "notificationid",
+            "name": "Notificationid",
             "baseName": "notificationid",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCompetencyCreateCompetencyFrameworkRequestCompetencyframework } from './coreCompetencyCreateCompetencyFrameworkRequestCompetencyframework';
 
 export class CoreCompetencyCreateCompetencyFrameworkRequest {
-    'competencyframework': CoreCompetencyCreateCompetencyFrameworkRequestCompetencyframework;
+    'Competencyframework': CoreCompetencyCreateCompetencyFrameworkRequestCompetencyframework;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyframework",
+            "name": "Competencyframework",
             "baseName": "competencyframework",
             "type": "CoreCompetencyCreateCompetencyFrameworkRequestCompetencyframework"
         }    ];

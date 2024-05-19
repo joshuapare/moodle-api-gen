@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreBadgesGetUserBadges200ResponseBadgesInner } from './coreBadgesGetUserBadges200ResponseBadgesInner';
 
 export class CoreBadgesGetUserBadges200Response {
-    'badges': Array<CoreBadgesGetUserBadges200ResponseBadgesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Badges': Array<CoreBadgesGetUserBadges200ResponseBadgesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "badges",
+            "name": "Badges",
             "baseName": "badges",
             "type": "Array<CoreBadgesGetUserBadges200ResponseBadgesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

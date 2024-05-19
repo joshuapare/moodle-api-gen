@@ -16,112 +16,112 @@ export class ToolLpSearchUsers200ResponseUsersInner {
     /**
     * department
     */
-    'department'?: string = '';
+    'Department'?: string = '';
     /**
     * email
     */
-    'email'?: string = '';
+    'Email'?: string = '';
     /**
     * fullname
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * identity
     */
-    'identity'?: string;
+    'Identity'?: string;
     /**
     * idnumber
     */
-    'idnumber'?: string = '';
+    'Idnumber'?: string = '';
     /**
     * institution
     */
-    'institution'?: string = '';
+    'Institution'?: string = '';
     /**
     * phone1
     */
-    'phone1'?: string = '';
+    'Phone1'?: string = '';
     /**
     * phone2
     */
-    'phone2'?: string = '';
+    'Phone2'?: string = '';
     /**
     * profileimageurl
     */
-    'profileimageurl'?: string;
+    'Profileimageurl'?: string;
     /**
     * profileimageurlsmall
     */
-    'profileimageurlsmall'?: string;
+    'Profileimageurlsmall'?: string;
     /**
     * profileurl
     */
-    'profileurl'?: string;
+    'Profileurl'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "department",
+            "name": "Department",
             "baseName": "department",
             "type": "string"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "identity",
+            "name": "Identity",
             "baseName": "identity",
             "type": "string"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "institution",
+            "name": "Institution",
             "baseName": "institution",
             "type": "string"
         },
         {
-            "name": "phone1",
+            "name": "Phone1",
             "baseName": "phone1",
             "type": "string"
         },
         {
-            "name": "phone2",
+            "name": "Phone2",
             "baseName": "phone2",
             "type": "string"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         },
         {
-            "name": "profileimageurlsmall",
+            "name": "Profileimageurlsmall",
             "baseName": "profileimageurlsmall",
             "type": "string"
         },
         {
-            "name": "profileurl",
+            "name": "Profileurl",
             "baseName": "profileurl",
             "type": "string"
         }    ];

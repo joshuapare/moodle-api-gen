@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetConversationBetweenUsers200Response
+# MoodleClient.Model.CoreMessageGetConversationBetweenUsers200Response
 
 ## Properties
 

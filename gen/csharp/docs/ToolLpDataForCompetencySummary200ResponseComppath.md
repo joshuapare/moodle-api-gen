@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForCompetencySummary200ResponseComppath
+# MoodleClient.Model.ToolLpDataForCompetencySummary200ResponseComppath
 
 ## Properties
 

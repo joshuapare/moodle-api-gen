@@ -16,13 +16,13 @@ export class ToolIomadpolicySubmitAcceptOnBehalfRequest {
     /**
     * The data from the create group form, encoded as a json array
     */
-    'jsonformdata': string = 'null';
+    'Jsonformdata': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "jsonformdata",
+            "name": "Jsonformdata",
             "baseName": "jsonformdata",
             "type": "string"
         }    ];

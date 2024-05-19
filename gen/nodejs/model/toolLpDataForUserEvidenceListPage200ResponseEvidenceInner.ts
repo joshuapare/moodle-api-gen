@@ -18,151 +18,151 @@ export class ToolLpDataForUserEvidenceListPage200ResponseEvidenceInner {
     /**
     * canmanage
     */
-    'canmanage'?: boolean;
+    'Canmanage'?: boolean;
     /**
     * competencycount
     */
-    'competencycount'?: number;
+    'Competencycount'?: number;
     /**
     * description
     */
-    'description'?: string = '';
+    'Description'?: string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * filecount
     */
-    'filecount'?: number;
-    'files'?: Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>;
+    'Filecount'?: number;
+    'Files'?: Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>;
     /**
     * hasurlorfiles
     */
-    'hasurlorfiles'?: boolean;
+    'Hasurlorfiles'?: boolean;
     /**
     * id
     */
-    'id'?: number = 0;
+    'Id'?: number = 0;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * timecreated
     */
-    'timecreated'?: number = 0;
+    'Timecreated'?: number = 0;
     /**
     * timemodified
     */
-    'timemodified'?: number = 0;
+    'Timemodified'?: number = 0;
     /**
     * url
     */
-    'url'?: string = '';
+    'Url'?: string = '';
     /**
     * urlshort
     */
-    'urlshort'?: string;
-    'usercompetencies'?: Array<ToolLpDataForUserEvidenceListPage200ResponseEvidenceInnerUsercompetenciesInner>;
+    'Urlshort'?: string;
+    'Usercompetencies'?: Array<ToolLpDataForUserEvidenceListPage200ResponseEvidenceInnerUsercompetenciesInner>;
     /**
     * userhasplan
     */
-    'userhasplan'?: boolean = null;
+    'Userhasplan'?: boolean = null;
     /**
     * userid
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * usermodified
     */
-    'usermodified'?: number = 0;
+    'Usermodified'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "competencycount",
+            "name": "Competencycount",
             "baseName": "competencycount",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "filecount",
+            "name": "Filecount",
             "baseName": "filecount",
             "type": "number"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>"
         },
         {
-            "name": "hasurlorfiles",
+            "name": "Hasurlorfiles",
             "baseName": "hasurlorfiles",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "urlshort",
+            "name": "Urlshort",
             "baseName": "urlshort",
             "type": "string"
         },
         {
-            "name": "usercompetencies",
+            "name": "Usercompetencies",
             "baseName": "usercompetencies",
             "type": "Array<ToolLpDataForUserEvidenceListPage200ResponseEvidenceInnerUsercompetenciesInner>"
         },
         {
-            "name": "userhasplan",
+            "name": "Userhasplan",
             "baseName": "userhasplan",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

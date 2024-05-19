@@ -16,40 +16,40 @@ export class ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInnerResponse
     /**
     * Response id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Response name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Response ready for output
     */
-    'printval'?: string = 'null';
+    'Printval'?: string = 'null';
     /**
     * Response raw value
     */
-    'rawval'?: string = 'null';
+    'Rawval'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "printval",
+            "name": "Printval",
             "baseName": "printval",
             "type": "string"
         },
         {
-            "name": "rawval",
+            "name": "Rawval",
             "baseName": "rawval",
             "type": "string"
         }    ];

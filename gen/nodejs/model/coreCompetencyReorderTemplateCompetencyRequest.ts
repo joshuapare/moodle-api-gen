@@ -16,31 +16,31 @@ export class CoreCompetencyReorderTemplateCompetencyRequest {
     /**
     * The competency id we are moving
     */
-    'competencyidfrom': number;
+    'Competencyidfrom': number;
     /**
     * The competency id we are moving to
     */
-    'competencyidto': number;
+    'Competencyidto': number;
     /**
     * The template id
     */
-    'templateid': number;
+    'Templateid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyidfrom",
+            "name": "Competencyidfrom",
             "baseName": "competencyidfrom",
             "type": "number"
         },
         {
-            "name": "competencyidto",
+            "name": "Competencyidto",
             "baseName": "competencyidto",
             "type": "number"
         },
         {
-            "name": "templateid",
+            "name": "Templateid",
             "baseName": "templateid",
             "type": "number"
         }    ];

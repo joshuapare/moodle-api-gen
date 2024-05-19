@@ -16,76 +16,76 @@ export class ModAssignListParticipantsRequest {
     /**
     * assign instance id
     */
-    'assignid': number;
+    'Assignid': number;
     /**
     * search string to filter the results
     */
-    'filter': string = 'null';
+    'Filter': string = 'null';
     /**
     * group id
     */
-    'groupid': number;
+    'Groupid': number;
     /**
     * Do return courses where the user is enrolled
     */
-    'includeenrolments'?: boolean = true;
+    'Includeenrolments'?: boolean = true;
     /**
     * maximum number of records to return
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Do not return all user fields
     */
-    'onlyids'?: boolean = false;
+    'Onlyids'?: boolean = false;
     /**
     * number of records to skip
     */
-    'skip'?: number = 0;
+    'Skip'?: number = 0;
     /**
     * Apply current user table sorting preferences.
     */
-    'tablesort'?: boolean = false;
+    'Tablesort'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignid",
+            "name": "Assignid",
             "baseName": "assignid",
             "type": "number"
         },
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "string"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "includeenrolments",
+            "name": "Includeenrolments",
             "baseName": "includeenrolments",
             "type": "boolean"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "onlyids",
+            "name": "Onlyids",
             "baseName": "onlyids",
             "type": "boolean"
         },
         {
-            "name": "skip",
+            "name": "Skip",
             "baseName": "skip",
             "type": "number"
         },
         {
-            "name": "tablesort",
+            "name": "Tablesort",
             "baseName": "tablesort",
             "type": "boolean"
         }    ];

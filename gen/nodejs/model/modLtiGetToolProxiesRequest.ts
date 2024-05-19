@@ -16,13 +16,13 @@ export class ModLtiGetToolProxiesRequest {
     /**
     * Orphaned tool types only
     */
-    'orphanedonly'?: boolean = 0;
+    'Orphanedonly'?: boolean = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "orphanedonly",
+            "name": "Orphanedonly",
             "baseName": "orphanedonly",
             "type": "boolean"
         }    ];

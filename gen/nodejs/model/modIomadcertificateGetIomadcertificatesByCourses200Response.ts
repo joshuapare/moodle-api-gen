@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModIomadcertificateGetIomadcertificatesByCourses200ResponseIomadcertificatesInner } from './modIomadcertificateGetIomadcertificatesByCourses200ResponseIomadcertificatesInner';
 
 export class ModIomadcertificateGetIomadcertificatesByCourses200Response {
-    'iomadcertificates': Array<ModIomadcertificateGetIomadcertificatesByCourses200ResponseIomadcertificatesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Iomadcertificates': Array<ModIomadcertificateGetIomadcertificatesByCourses200ResponseIomadcertificatesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iomadcertificates",
+            "name": "Iomadcertificates",
             "baseName": "iomadcertificates",
             "type": "Array<ModIomadcertificateGetIomadcertificatesByCourses200ResponseIomadcertificatesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

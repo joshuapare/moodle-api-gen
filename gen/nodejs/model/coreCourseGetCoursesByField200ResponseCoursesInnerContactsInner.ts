@@ -16,22 +16,22 @@ export class CoreCourseGetCoursesByField200ResponseCoursesInnerContactsInner {
     /**
     * contact user fullname
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * contact user id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

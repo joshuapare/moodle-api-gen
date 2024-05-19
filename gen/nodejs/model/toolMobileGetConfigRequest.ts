@@ -16,13 +16,13 @@ export class ToolMobileGetConfigRequest {
     /**
     * Settings section name.
     */
-    'section'?: string = '';
+    'Section'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "string"
         }    ];

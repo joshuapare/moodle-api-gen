@@ -16,58 +16,58 @@ export class ToolMobileCallExternalFunctionsRequestRequestsInner {
     /**
     * JSON-encoded object with named arguments
     */
-    'arguments'?: string = '{}';
+    'Arguments'?: string = '{}';
     /**
     * Function name
     */
-    '_function'?: string = 'null';
+    'Function'?: string = 'null';
     /**
     * Rewrite plugin file URLs
     */
-    'settingfileurl'?: boolean = true;
+    'Settingfileurl'?: boolean = true;
     /**
     * Filter text
     */
-    'settingfilter'?: boolean = false;
+    'Settingfilter'?: boolean = false;
     /**
     * Session language
     */
-    'settinglang'?: string = '';
+    'Settinglang'?: string = '';
     /**
     * Return raw text
     */
-    'settingraw'?: boolean = false;
+    'Settingraw'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "arguments",
+            "name": "Arguments",
             "baseName": "arguments",
             "type": "string"
         },
         {
-            "name": "_function",
+            "name": "Function",
             "baseName": "function",
             "type": "string"
         },
         {
-            "name": "settingfileurl",
+            "name": "Settingfileurl",
             "baseName": "settingfileurl",
             "type": "boolean"
         },
         {
-            "name": "settingfilter",
+            "name": "Settingfilter",
             "baseName": "settingfilter",
             "type": "boolean"
         },
         {
-            "name": "settinglang",
+            "name": "Settinglang",
             "baseName": "settinglang",
             "type": "string"
         },
         {
-            "name": "settingraw",
+            "name": "Settingraw",
             "baseName": "settingraw",
             "type": "boolean"
         }    ];

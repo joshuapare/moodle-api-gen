@@ -16,22 +16,22 @@ export class ModBigbluebuttonbnCanJoin200Response {
     /**
     * Can join session
     */
-    'canJoin': boolean = null;
+    'CanJoin': boolean = null;
     /**
     * course module id
     */
-    'cmid': number;
+    'Cmid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canJoin",
+            "name": "CanJoin",
             "baseName": "can_join",
             "type": "boolean"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         }    ];

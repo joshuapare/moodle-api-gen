@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWikiGetPageContents200ResponsePage
+# MoodleClient.Model.ModWikiGetPageContents200ResponsePage
 
 ## Properties
 

@@ -18,61 +18,61 @@ export class ModAssignSaveGradesRequestGradesInner {
     /**
     * Allow another attempt if manual attempt reopen method
     */
-    'addattempt'?: boolean = null;
-    'advancedgradingdata'?: ModAssignSaveGradeRequestAdvancedgradingdata;
+    'Addattempt'?: boolean = null;
+    'Advancedgradingdata'?: ModAssignSaveGradeRequestAdvancedgradingdata;
     /**
     * The attempt number (-1 means latest attempt)
     */
-    'attemptnumber'?: number;
+    'Attemptnumber'?: number;
     /**
     * The new grade for this user. Ignored if advanced grading used
     */
-    'grade'?: number;
-    'plugindata'?: ModAssignSaveGradesRequestGradesInnerPlugindata;
+    'Grade'?: number;
+    'Plugindata'?: ModAssignSaveGradesRequestGradesInnerPlugindata;
     /**
     * The student id to operate on
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * The next marking workflow state
     */
-    'workflowstate'?: string;
+    'Workflowstate'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addattempt",
+            "name": "Addattempt",
             "baseName": "addattempt",
             "type": "boolean"
         },
         {
-            "name": "advancedgradingdata",
+            "name": "Advancedgradingdata",
             "baseName": "advancedgradingdata",
             "type": "ModAssignSaveGradeRequestAdvancedgradingdata"
         },
         {
-            "name": "attemptnumber",
+            "name": "Attemptnumber",
             "baseName": "attemptnumber",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "plugindata",
+            "name": "Plugindata",
             "baseName": "plugindata",
             "type": "ModAssignSaveGradesRequestGradesInnerPlugindata"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "workflowstate",
+            "name": "Workflowstate",
             "baseName": "workflowstate",
             "type": "string"
         }    ];

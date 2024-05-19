@@ -16,31 +16,31 @@ export class CorePaymentGetAvailableGatewaysRequest {
     /**
     * Component
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * An identifier for payment area in the component
     */
-    'itemid': number = null;
+    'Itemid': number = null;
     /**
     * Payment area in the component
     */
-    'paymentarea': string = 'null';
+    'Paymentarea': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "paymentarea",
+            "name": "Paymentarea",
             "baseName": "paymentarea",
             "type": "string"
         }    ];

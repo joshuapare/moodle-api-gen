@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAuthRequestPasswordReset200Response
+# MoodleClient.Model.CoreAuthRequestPasswordReset200Response
 
 ## Properties
 

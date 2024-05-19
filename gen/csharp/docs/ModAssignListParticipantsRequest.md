@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignListParticipantsRequest
+# MoodleClient.Model.ModAssignListParticipantsRequest
 
 ## Properties
 

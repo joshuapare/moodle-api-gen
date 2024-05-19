@@ -17,136 +17,136 @@ export class ToolLpDataForTemplateCompetenciesPage200ResponseStatistics {
     /**
     * competencycount
     */
-    'competencycount': number;
+    'Competencycount': number;
     /**
     * completedplancount
     */
-    'completedplancount': number = null;
+    'Completedplancount': number = null;
     /**
     * completedplanpercentage
     */
-    'completedplanpercentage': number = null;
+    'Completedplanpercentage': number = null;
     /**
     * completedplanpercentageformatted
     */
-    'completedplanpercentageformatted': string = 'null';
-    'leastproficient': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
+    'Completedplanpercentageformatted': string = 'null';
+    'Leastproficient': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
     /**
     * leastproficientcount
     */
-    'leastproficientcount': number;
+    'Leastproficientcount': number;
     /**
     * linkedcompetencycount
     */
-    'linkedcompetencycount': number = null;
+    'Linkedcompetencycount': number = null;
     /**
     * linkedcompetencypercentage
     */
-    'linkedcompetencypercentage': number = null;
+    'Linkedcompetencypercentage': number = null;
     /**
     * linkedcompetencypercentageformatted
     */
-    'linkedcompetencypercentageformatted': string = 'null';
+    'Linkedcompetencypercentageformatted': string = 'null';
     /**
     * plancount
     */
-    'plancount': number = null;
+    'Plancount': number = null;
     /**
     * proficientusercompetencyplancount
     */
-    'proficientusercompetencyplancount': number = null;
+    'Proficientusercompetencyplancount': number = null;
     /**
     * proficientusercompetencyplanpercentage
     */
-    'proficientusercompetencyplanpercentage': number = null;
+    'Proficientusercompetencyplanpercentage': number = null;
     /**
     * proficientusercompetencyplanpercentageformatted
     */
-    'proficientusercompetencyplanpercentageformatted': string = 'null';
+    'Proficientusercompetencyplanpercentageformatted': string = 'null';
     /**
     * unlinkedcompetencycount
     */
-    'unlinkedcompetencycount': number = null;
+    'Unlinkedcompetencycount': number = null;
     /**
     * usercompetencyplancount
     */
-    'usercompetencyplancount': number = null;
+    'Usercompetencyplancount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencycount",
+            "name": "Competencycount",
             "baseName": "competencycount",
             "type": "number"
         },
         {
-            "name": "completedplancount",
+            "name": "Completedplancount",
             "baseName": "completedplancount",
             "type": "number"
         },
         {
-            "name": "completedplanpercentage",
+            "name": "Completedplanpercentage",
             "baseName": "completedplanpercentage",
             "type": "number"
         },
         {
-            "name": "completedplanpercentageformatted",
+            "name": "Completedplanpercentageformatted",
             "baseName": "completedplanpercentageformatted",
             "type": "string"
         },
         {
-            "name": "leastproficient",
+            "name": "Leastproficient",
             "baseName": "leastproficient",
             "type": "Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>"
         },
         {
-            "name": "leastproficientcount",
+            "name": "Leastproficientcount",
             "baseName": "leastproficientcount",
             "type": "number"
         },
         {
-            "name": "linkedcompetencycount",
+            "name": "Linkedcompetencycount",
             "baseName": "linkedcompetencycount",
             "type": "number"
         },
         {
-            "name": "linkedcompetencypercentage",
+            "name": "Linkedcompetencypercentage",
             "baseName": "linkedcompetencypercentage",
             "type": "number"
         },
         {
-            "name": "linkedcompetencypercentageformatted",
+            "name": "Linkedcompetencypercentageformatted",
             "baseName": "linkedcompetencypercentageformatted",
             "type": "string"
         },
         {
-            "name": "plancount",
+            "name": "Plancount",
             "baseName": "plancount",
             "type": "number"
         },
         {
-            "name": "proficientusercompetencyplancount",
+            "name": "Proficientusercompetencyplancount",
             "baseName": "proficientusercompetencyplancount",
             "type": "number"
         },
         {
-            "name": "proficientusercompetencyplanpercentage",
+            "name": "Proficientusercompetencyplanpercentage",
             "baseName": "proficientusercompetencyplanpercentage",
             "type": "number"
         },
         {
-            "name": "proficientusercompetencyplanpercentageformatted",
+            "name": "Proficientusercompetencyplanpercentageformatted",
             "baseName": "proficientusercompetencyplanpercentageformatted",
             "type": "string"
         },
         {
-            "name": "unlinkedcompetencycount",
+            "name": "Unlinkedcompetencycount",
             "baseName": "unlinkedcompetencycount",
             "type": "number"
         },
         {
-            "name": "usercompetencyplancount",
+            "name": "Usercompetencyplancount",
             "baseName": "usercompetencyplancount",
             "type": "number"
         }    ];

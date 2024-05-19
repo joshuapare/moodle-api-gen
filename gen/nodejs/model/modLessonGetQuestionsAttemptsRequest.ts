@@ -16,49 +16,49 @@ export class ModLessonGetQuestionsAttemptsRequest {
     /**
     * lesson attempt number
     */
-    'attempt': number;
+    'Attempt': number;
     /**
     * only fetch correct attempts
     */
-    'correct'?: boolean = false;
+    'Correct'?: boolean = false;
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * only fetch attempts at the given page
     */
-    'pageid'?: number = null;
+    'Pageid'?: number = null;
     /**
     * only fetch attempts of the given user
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "number"
         },
         {
-            "name": "correct",
+            "name": "Correct",
             "baseName": "correct",
             "type": "boolean"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

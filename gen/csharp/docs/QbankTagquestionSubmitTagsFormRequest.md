@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankTagquestionSubmitTagsFormRequest
+# MoodleClient.Model.QbankTagquestionSubmitTagsFormRequest
 
 ## Properties
 

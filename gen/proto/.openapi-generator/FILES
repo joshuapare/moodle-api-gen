@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 README.md
 models/auth_email_get_signup_settings200_response.proto
 models/auth_email_get_signup_settings200_response_profilefields_inner.proto

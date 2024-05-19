@@ -14,25 +14,25 @@ import { RequestFile } from './models';
 import { CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInner } from './coreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInner';
 
 export class CoreCalendarGetCalendarMonthlyView200ResponseWeeksInner {
-    'days'?: Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInner>;
-    'postpadding'?: Array<object>;
-    'prepadding'?: Array<object>;
+    'Days'?: Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInner>;
+    'Postpadding'?: Array<object>;
+    'Prepadding'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "days",
+            "name": "Days",
             "baseName": "days",
             "type": "Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInner>"
         },
         {
-            "name": "postpadding",
+            "name": "Postpadding",
             "baseName": "postpadding",
             "type": "Array<object>"
         },
         {
-            "name": "prepadding",
+            "name": "Prepadding",
             "baseName": "prepadding",
             "type": "Array<object>"
         }    ];

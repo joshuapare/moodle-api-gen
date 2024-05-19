@@ -17,46 +17,46 @@ export class CoreBlockGetDashboardBlocks200ResponseBlocksInnerContents {
     /**
     * Block contents.
     */
-    'content': string;
+    'Content': string;
     /**
     * content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'contentformat': number;
-    'files': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Contentformat': number;
+    'Files': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * Block footer.
     */
-    'footer': string;
+    'Footer': string;
     /**
     * Block title.
     */
-    'title': string;
+    'Title': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "number"
         },
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "footer",
+            "name": "Footer",
             "baseName": "footer",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

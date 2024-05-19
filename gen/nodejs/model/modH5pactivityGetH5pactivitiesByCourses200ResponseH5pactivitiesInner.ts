@@ -18,148 +18,148 @@ export class ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInne
     /**
     * Sha1 hash of file content.
     */
-    'contenthash'?: string = 'null';
+    'Contenthash'?: string = 'null';
     /**
     * context
     */
-    'context'?: number = null;
+    'Context'?: number = null;
     /**
     * Course id this h5p activity is part of.
     */
-    'course'?: number = null;
+    'Course'?: number = null;
     /**
     * coursemodule
     */
-    'coursemodule'?: number;
-    'deployedfile'?: ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInnerDeployedfile;
+    'Coursemodule'?: number;
+    'Deployedfile'?: ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInnerDeployedfile;
     /**
     * H5P Button display options.
     */
-    'displayoptions'?: number = 0;
+    'Displayoptions'?: number = 0;
     /**
     * Enable xAPI tracking.
     */
-    'enabletracking'?: number = 1;
+    'Enabletracking'?: number = 1;
     /**
     * The maximum grade for submission.
     */
-    'grade'?: number = 0;
+    'Grade'?: number = 0;
     /**
     * Which H5P attempt is used for grading.
     */
-    'grademethod'?: number = 1;
+    'Grademethod'?: number = 1;
     /**
     * The primary key of the record.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * H5P activity description.
     */
-    'intro'?: string = '';
-    'introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Intro'?: string = '';
+    'Introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = 0;
+    'Introformat'?: number = 0;
     /**
     * The name of the activity module instance.
     */
-    'name'?: string = 'null';
-    '_package'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Name'?: string = 'null';
+    'Package'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * Timestamp of when the instance was added to the course.
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * Timestamp of when the instance was last modified.
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contenthash",
+            "name": "Contenthash",
             "baseName": "contenthash",
             "type": "string"
         },
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "deployedfile",
+            "name": "Deployedfile",
             "baseName": "deployedfile",
             "type": "ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInnerDeployedfile"
         },
         {
-            "name": "displayoptions",
+            "name": "Displayoptions",
             "baseName": "displayoptions",
             "type": "number"
         },
         {
-            "name": "enabletracking",
+            "name": "Enabletracking",
             "baseName": "enabletracking",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "grademethod",
+            "name": "Grademethod",
             "baseName": "grademethod",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "_package",
+            "name": "Package",
             "baseName": "package",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

@@ -15,19 +15,19 @@ import { CoreFilesGetFiles200ResponseFilesInner } from './coreFilesGetFiles200Re
 import { CoreFilesGetFiles200ResponseParentsInner } from './coreFilesGetFiles200ResponseParentsInner';
 
 export class CoreFilesGetFiles200Response {
-    'files': Array<CoreFilesGetFiles200ResponseFilesInner>;
-    'parents': Array<CoreFilesGetFiles200ResponseParentsInner>;
+    'Files': Array<CoreFilesGetFiles200ResponseFilesInner>;
+    'Parents': Array<CoreFilesGetFiles200ResponseParentsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "files",
+            "name": "Files",
             "baseName": "files",
             "type": "Array<CoreFilesGetFiles200ResponseFilesInner>"
         },
         {
-            "name": "parents",
+            "name": "Parents",
             "baseName": "parents",
             "type": "Array<CoreFilesGetFiles200ResponseParentsInner>"
         }    ];

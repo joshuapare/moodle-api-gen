@@ -16,22 +16,22 @@ export class ModForumAddDiscussionPostRequestOptionsInner {
     /**
     * The allowed keys (value format) are:                                         discussionsubscribe (bool); subscribe to the discussion?, default to true                                         private (bool); make this reply private to the author of the parent post, default to false.                                         inlineattachmentsid              (int); the draft file area id for inline attachments                                         attachmentsid       (int); the draft file area id for attachments                                         topreferredformat (bool); convert the message & messageformat to FORMAT_HTML, defaults to false                             
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * the value of the option,                                                             this param is validated in the external function.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetNonRespondentsRequest
+# MoodleClient.Model.ModFeedbackGetNonRespondentsRequest
 
 ## Properties
 

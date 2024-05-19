@@ -16,22 +16,22 @@ export class ModScormGetScormUserData200ResponseDataInnerDefaultdataInner {
     /**
     * element name
     */
-    'element'?: string;
+    'Element'?: string;
     /**
     * element value
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "element",
+            "name": "Element",
             "baseName": "element",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

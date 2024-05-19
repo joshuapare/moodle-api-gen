@@ -16,31 +16,31 @@ export class ModScormGetScormScoTracksRequest {
     /**
     * attempt number (0 for last attempt)
     */
-    'attempt'?: number = 0;
+    'Attempt'?: number = 0;
     /**
     * sco id
     */
-    'scoid': number = null;
+    'Scoid': number = null;
     /**
     * user id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "number"
         },
         {
-            "name": "scoid",
+            "name": "Scoid",
             "baseName": "scoid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

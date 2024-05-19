@@ -17,73 +17,73 @@ export class ToolLpDataForCourseCompetenciesPage200ResponseStatistics {
     /**
     * canbegradedincourse
     */
-    'canbegradedincourse': boolean = null;
+    'Canbegradedincourse': boolean = null;
     /**
     * canmanagecoursecompetencies
     */
-    'canmanagecoursecompetencies': boolean = null;
+    'Canmanagecoursecompetencies': boolean = null;
     /**
     * competencycount
     */
-    'competencycount': number;
-    'leastproficient': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
+    'Competencycount': number;
+    'Leastproficient': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
     /**
     * leastproficientcount
     */
-    'leastproficientcount': number = null;
+    'Leastproficientcount': number = null;
     /**
     * proficientcompetencycount
     */
-    'proficientcompetencycount': number = null;
+    'Proficientcompetencycount': number = null;
     /**
     * proficientcompetencypercentage
     */
-    'proficientcompetencypercentage': number = null;
+    'Proficientcompetencypercentage': number = null;
     /**
     * proficientcompetencypercentageformatted
     */
-    'proficientcompetencypercentageformatted': string = 'null';
+    'Proficientcompetencypercentageformatted': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canbegradedincourse",
+            "name": "Canbegradedincourse",
             "baseName": "canbegradedincourse",
             "type": "boolean"
         },
         {
-            "name": "canmanagecoursecompetencies",
+            "name": "Canmanagecoursecompetencies",
             "baseName": "canmanagecoursecompetencies",
             "type": "boolean"
         },
         {
-            "name": "competencycount",
+            "name": "Competencycount",
             "baseName": "competencycount",
             "type": "number"
         },
         {
-            "name": "leastproficient",
+            "name": "Leastproficient",
             "baseName": "leastproficient",
             "type": "Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>"
         },
         {
-            "name": "leastproficientcount",
+            "name": "Leastproficientcount",
             "baseName": "leastproficientcount",
             "type": "number"
         },
         {
-            "name": "proficientcompetencycount",
+            "name": "Proficientcompetencycount",
             "baseName": "proficientcompetencycount",
             "type": "number"
         },
         {
-            "name": "proficientcompetencypercentage",
+            "name": "Proficientcompetencypercentage",
             "baseName": "proficientcompetencypercentage",
             "type": "number"
         },
         {
-            "name": "proficientcompetencypercentageformatted",
+            "name": "Proficientcompetencypercentageformatted",
             "baseName": "proficientcompetencypercentageformatted",
             "type": "string"
         }    ];

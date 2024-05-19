@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolUsertoursFetchAndStartTour200ResponseTourconfig
+# MoodleClient.Model.ToolUsertoursFetchAndStartTour200ResponseTourconfig
 
 ## Properties
 

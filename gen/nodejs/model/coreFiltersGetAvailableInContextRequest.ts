@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreFiltersGetAvailableInContextRequestContextsInner } from './coreFiltersGetAvailableInContextRequestContextsInner';
 
 export class CoreFiltersGetAvailableInContextRequest {
-    'contexts': Array<CoreFiltersGetAvailableInContextRequestContextsInner>;
+    'Contexts': Array<CoreFiltersGetAvailableInContextRequestContextsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contexts",
+            "name": "Contexts",
             "baseName": "contexts",
             "type": "Array<CoreFiltersGetAvailableInContextRequestContextsInner>"
         }    ];

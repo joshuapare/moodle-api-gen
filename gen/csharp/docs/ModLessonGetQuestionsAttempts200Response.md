@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetQuestionsAttempts200Response
+# MoodleClient.Model.ModLessonGetQuestionsAttempts200Response
 
 ## Properties
 

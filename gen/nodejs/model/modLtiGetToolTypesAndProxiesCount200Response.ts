@@ -16,13 +16,13 @@ export class ModLtiGetToolTypesAndProxiesCount200Response {
     /**
     * Total number of tool types and proxies
     */
-    'count': number = null;
+    'Count': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetQuizFeedbackForGrade200Response
+# MoodleClient.Model.ModQuizGetQuizFeedbackForGrade200Response
 
 ## Properties
 

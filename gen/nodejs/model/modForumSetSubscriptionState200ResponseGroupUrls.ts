@@ -16,22 +16,22 @@ export class ModForumSetSubscriptionState200ResponseGroupUrls {
     /**
     * picture
     */
-    'picture'?: string;
+    'Picture'?: string;
     /**
     * userlist
     */
-    'userlist'?: string;
+    'Userlist'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "picture",
+            "name": "Picture",
             "baseName": "picture",
             "type": "string"
         },
         {
-            "name": "userlist",
+            "name": "Userlist",
             "baseName": "userlist",
             "type": "string"
         }    ];

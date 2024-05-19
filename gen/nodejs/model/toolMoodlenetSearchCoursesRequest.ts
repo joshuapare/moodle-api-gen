@@ -16,13 +16,13 @@ export class ToolMoodlenetSearchCoursesRequest {
     /**
     * search value
     */
-    'searchvalue': string = 'null';
+    'Searchvalue': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "searchvalue",
+            "name": "Searchvalue",
             "baseName": "searchvalue",
             "type": "string"
         }    ];

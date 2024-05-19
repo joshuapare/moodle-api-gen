@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetAllowedEventTypes200Response
+# MoodleClient.Model.CoreCalendarGetAllowedEventTypes200Response
 
 ## Properties
 

@@ -17,55 +17,55 @@ export class ToolLpDataForCompetenciesManagePage200Response {
     /**
     * True if this user has permission to manage competency frameworks
     */
-    'canmanage': boolean = null;
-    'framework': CoreCompetencyDuplicateCompetencyFramework200Response;
+    'Canmanage': boolean = null;
+    'Framework': CoreCompetencyDuplicateCompetencyFramework200Response;
     /**
     * Context id for the framework
     */
-    'pagecontextid': number = null;
+    'Pagecontextid': number = null;
     /**
     * Plugin base url
     */
-    'pluginbaseurl': string = 'null';
+    'Pluginbaseurl': string = 'null';
     /**
     * JSON encoded data for rules
     */
-    'rulesmodules': string = 'null';
+    'Rulesmodules': string = 'null';
     /**
     * Current search string
     */
-    'search': string = 'null';
+    'Search': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "framework",
+            "name": "Framework",
             "baseName": "framework",
             "type": "CoreCompetencyDuplicateCompetencyFramework200Response"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "rulesmodules",
+            "name": "Rulesmodules",
             "baseName": "rulesmodules",
             "type": "string"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         }    ];

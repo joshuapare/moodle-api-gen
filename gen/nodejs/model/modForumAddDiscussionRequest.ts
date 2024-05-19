@@ -17,46 +17,46 @@ export class ModForumAddDiscussionRequest {
     /**
     * Forum instance ID
     */
-    'forumid': number = null;
+    'Forumid': number = null;
     /**
     * The group, default to 0
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * New Discussion message (only html format allowed)
     */
-    'message': string = 'null';
-    'options'?: Array<ModForumAddDiscussionRequestOptionsInner>;
+    'Message': string = 'null';
+    'Options'?: Array<ModForumAddDiscussionRequestOptionsInner>;
     /**
     * New Discussion subject
     */
-    'subject': string = 'null';
+    'Subject': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModForumAddDiscussionRequestOptionsInner>"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMarkAllNotificationsAsReadRequest
+# MoodleClient.Model.CoreMessageMarkAllNotificationsAsReadRequest
 
 ## Properties
 

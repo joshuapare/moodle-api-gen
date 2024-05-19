@@ -16,31 +16,31 @@ export class CoreDynamicTabsGetContent200Response {
     /**
     * JSON-encoded data for template
     */
-    'content': string = 'null';
+    'Content': string = 'null';
     /**
     * JavaScript fragment
     */
-    'javascript': string = 'null';
+    'Javascript': string = 'null';
     /**
     * Template name
     */
-    'template': string = 'null';
+    'Template': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "string"
         }    ];

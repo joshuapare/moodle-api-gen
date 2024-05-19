@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner } from './coreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner';
 
 export class CoreCalendarGetActionEventsByCourses200Response {
-    'groupedbycourse': Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner>;
+    'Groupedbycourse': Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupedbycourse",
+            "name": "Groupedbycourse",
             "baseName": "groupedbycourse",
             "type": "Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBackupSubmitCopyFormRequest
+# MoodleClient.Model.CoreBackupSubmitCopyFormRequest
 
 ## Properties
 

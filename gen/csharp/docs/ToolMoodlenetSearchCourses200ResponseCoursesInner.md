@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMoodlenetSearchCourses200ResponseCoursesInner
+# MoodleClient.Model.ToolMoodlenetSearchCourses200ResponseCoursesInner
 
 ## Properties
 

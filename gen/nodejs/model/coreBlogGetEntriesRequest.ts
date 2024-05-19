@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreBlogGetEntriesRequestFiltersInner } from './coreBlogGetEntriesRequestFiltersInner';
 
 export class CoreBlogGetEntriesRequest {
-    'filters'?: Array<CoreBlogGetEntriesRequestFiltersInner>;
+    'Filters'?: Array<CoreBlogGetEntriesRequestFiltersInner>;
     /**
     * The blog page to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of posts to return per page.
     */
-    'perpage'?: number = 10;
+    'Perpage'?: number = 10;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "Array<CoreBlogGetEntriesRequestFiltersInner>"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         }    ];

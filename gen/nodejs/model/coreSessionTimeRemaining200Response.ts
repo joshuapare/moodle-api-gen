@@ -16,22 +16,22 @@ export class CoreSessionTimeRemaining200Response {
     /**
     * The number of seconds remaining in this session.
     */
-    'timeremaining': number = null;
+    'Timeremaining': number = null;
     /**
     * The current user id.
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "timeremaining",
+            "name": "Timeremaining",
             "baseName": "timeremaining",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

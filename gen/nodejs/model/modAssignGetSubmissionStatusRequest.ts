@@ -16,31 +16,31 @@ export class ModAssignGetSubmissionStatusRequest {
     /**
     * assignment instance id
     */
-    'assignid': number = null;
+    'Assignid': number = null;
     /**
     * filter by users in group (used for generating the grading summary).                     0 for all groups information, any other empty value will calculate currrent group.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * user id (empty for current user)
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignid",
+            "name": "Assignid",
             "baseName": "assignid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

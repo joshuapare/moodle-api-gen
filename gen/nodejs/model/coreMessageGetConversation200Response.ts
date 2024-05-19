@@ -18,115 +18,115 @@ export class CoreMessageGetConversation200Response {
     /**
     * If the user can delete messages in the conversation for all users
     */
-    'candeletemessagesforallusers'?: boolean = false;
+    'Candeletemessagesforallusers'?: boolean = false;
     /**
     * The conversation id
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * A link to the conversation picture, if set
     */
-    'imageurl'?: string = 'null';
+    'Imageurl'?: string = 'null';
     /**
     * If the user marked this conversation as a favourite
     */
-    'isfavourite': boolean = null;
+    'Isfavourite': boolean = null;
     /**
     * If the user muted this conversation
     */
-    'ismuted': boolean = null;
+    'Ismuted': boolean = null;
     /**
     * If the user has read all messages in the conversation
     */
-    'isread': boolean = null;
+    'Isread': boolean = null;
     /**
     * Total number of conversation members
     */
-    'membercount': number = null;
-    'members': Array<CoreMessageGetConversation200ResponseMembersInner>;
-    'messages': Array<CoreMessageGetConversation200ResponseMessagesInner>;
+    'Membercount': number = null;
+    'Members': Array<CoreMessageGetConversation200ResponseMembersInner>;
+    'Messages': Array<CoreMessageGetConversation200ResponseMessagesInner>;
     /**
     * The conversation name, if set
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * A subtitle for the conversation name, if set
     */
-    'subname'?: string = 'null';
+    'Subname'?: string = 'null';
     /**
     * The type of the conversation (1=individual,2=group,3=self)
     */
-    'type': number = null;
+    'Type': number = null;
     /**
     * The number of unread messages in this conversation
     */
-    'unreadcount'?: number;
+    'Unreadcount'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "candeletemessagesforallusers",
+            "name": "Candeletemessagesforallusers",
             "baseName": "candeletemessagesforallusers",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "imageurl",
+            "name": "Imageurl",
             "baseName": "imageurl",
             "type": "string"
         },
         {
-            "name": "isfavourite",
+            "name": "Isfavourite",
             "baseName": "isfavourite",
             "type": "boolean"
         },
         {
-            "name": "ismuted",
+            "name": "Ismuted",
             "baseName": "ismuted",
             "type": "boolean"
         },
         {
-            "name": "isread",
+            "name": "Isread",
             "baseName": "isread",
             "type": "boolean"
         },
         {
-            "name": "membercount",
+            "name": "Membercount",
             "baseName": "membercount",
             "type": "number"
         },
         {
-            "name": "members",
+            "name": "Members",
             "baseName": "members",
             "type": "Array<CoreMessageGetConversation200ResponseMembersInner>"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<CoreMessageGetConversation200ResponseMessagesInner>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "subname",
+            "name": "Subname",
             "baseName": "subname",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "unreadcount",
+            "name": "Unreadcount",
             "baseName": "unreadcount",
             "type": "number"
         }    ];

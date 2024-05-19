@@ -16,13 +16,13 @@ export class CoreCalendarGetAllowedEventTypesRequest {
     /**
     * Course to check, empty for site.
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

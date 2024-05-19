@@ -17,28 +17,28 @@ export class ModWorkshopUpdateAssessment200Response {
     /**
     * Raw percentual grade (0.00000 to 100.00000) for submission.
     */
-    'rawgrade'?: number = null;
+    'Rawgrade'?: number = null;
     /**
     * status: true if the assessment was added or updated false otherwise.
     */
-    'status': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Status': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "rawgrade",
+            "name": "Rawgrade",
             "baseName": "rawgrade",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

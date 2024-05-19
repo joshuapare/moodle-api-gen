@@ -16,76 +16,76 @@ export class CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerGuideGui
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
+    'Descriptionformat'?: number;
     /**
     * markers description
     */
-    'descriptionmarkers'?: string;
+    'Descriptionmarkers'?: string;
     /**
     * descriptionmarkers format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionmarkersformat'?: number;
+    'Descriptionmarkersformat'?: number;
     /**
     * criterion id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * maximum score
     */
-    'maxscore'?: number;
+    'Maxscore'?: number;
     /**
     * description
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * sortorder
     */
-    'sortorder'?: number;
+    'Sortorder'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "descriptionmarkers",
+            "name": "Descriptionmarkers",
             "baseName": "descriptionmarkers",
             "type": "string"
         },
         {
-            "name": "descriptionmarkersformat",
+            "name": "Descriptionmarkersformat",
             "baseName": "descriptionmarkersformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "maxscore",
+            "name": "Maxscore",
             "baseName": "maxscore",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         }    ];

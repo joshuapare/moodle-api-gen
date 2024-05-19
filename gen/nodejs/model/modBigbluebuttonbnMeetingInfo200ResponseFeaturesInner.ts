@@ -16,22 +16,22 @@ export class ModBigbluebuttonbnMeetingInfo200ResponseFeaturesInner {
     /**
     * Whether the feature is enabled.
     */
-    'isenabled'?: boolean = null;
+    'Isenabled'?: boolean = null;
     /**
     * Feature name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "isenabled",
+            "name": "Isenabled",
             "baseName": "isenabled",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

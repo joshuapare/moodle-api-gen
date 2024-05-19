@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizProcessAttempt200Response
+# MoodleClient.Model.ModQuizProcessAttempt200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankColumnsortorderSetColumnbankOrderRequest
+# MoodleClient.Model.QbankColumnsortorderSetColumnbankOrderRequest
 
 ## Properties
 

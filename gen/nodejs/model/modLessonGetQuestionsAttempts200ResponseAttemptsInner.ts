@@ -19,85 +19,85 @@ export class ModLessonGetQuestionsAttempts200ResponseAttemptsInner {
     /**
     * The attempt answerid
     */
-    'answerid'?: number = null;
+    'Answerid'?: number = null;
     /**
     * If it was the correct answer
     */
-    'correct'?: number = null;
+    'Correct'?: number = null;
     /**
     * The attempt id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The attempt lessonid
     */
-    'lessonid'?: number = null;
+    'Lessonid'?: number = null;
     /**
     * The attempt pageid
     */
-    'pageid'?: number = null;
+    'Pageid'?: number = null;
     /**
     * The lesson attempt number
     */
-    'retry'?: number = null;
+    'Retry'?: number = null;
     /**
     * The time the question was seen
     */
-    'timeseen'?: number = null;
+    'Timeseen'?: number = null;
     /**
     * The complete user answer
     */
-    'useranswer'?: string = 'null';
+    'Useranswer'?: string = 'null';
     /**
     * The user who did the attempt
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerid",
+            "name": "Answerid",
             "baseName": "answerid",
             "type": "number"
         },
         {
-            "name": "correct",
+            "name": "Correct",
             "baseName": "correct",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "retry",
+            "name": "Retry",
             "baseName": "retry",
             "type": "number"
         },
         {
-            "name": "timeseen",
+            "name": "Timeseen",
             "baseName": "timeseen",
             "type": "number"
         },
         {
-            "name": "useranswer",
+            "name": "Useranswer",
             "baseName": "useranswer",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

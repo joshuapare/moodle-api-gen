@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminRestrictCapabilityRequest
+# MoodleClient.Model.BlockIomadCompanyAdminRestrictCapabilityRequest
 
 ## Properties
 

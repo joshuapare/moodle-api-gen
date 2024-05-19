@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.LocalIomadLearningpathAddusersRequest
+# MoodleClient.Model.LocalIomadLearningpathAddusersRequest
 
 ## Properties
 

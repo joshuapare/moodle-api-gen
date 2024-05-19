@@ -16,31 +16,31 @@ export class ModScormGetScormAttemptCountRequest {
     /**
     * Ignores attempts that haven\'t reported a grade/completion
     */
-    'ignoremissingcompletion'?: boolean = false;
+    'Ignoremissingcompletion'?: boolean = false;
     /**
     * SCORM instance id
     */
-    'scormid': number = null;
+    'Scormid': number = null;
     /**
     * User id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ignoremissingcompletion",
+            "name": "Ignoremissingcompletion",
             "baseName": "ignoremissingcompletion",
             "type": "boolean"
         },
         {
-            "name": "scormid",
+            "name": "Scormid",
             "baseName": "scormid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

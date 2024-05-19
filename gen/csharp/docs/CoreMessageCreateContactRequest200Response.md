@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageCreateContactRequest200Response
+# MoodleClient.Model.CoreMessageCreateContactRequest200Response
 
 ## Properties
 

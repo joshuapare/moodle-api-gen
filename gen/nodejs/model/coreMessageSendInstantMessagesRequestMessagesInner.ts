@@ -16,40 +16,40 @@ export class CoreMessageSendInstantMessagesRequestMessagesInner {
     /**
     * your own client id for the message. If this id is provided, the fail message id will be returned to you
     */
-    'clientmsgid'?: string = 'null';
+    'Clientmsgid'?: string = 'null';
     /**
     * the text of the message
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
     /**
     * text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'textformat'?: number = 0;
+    'Textformat'?: number = 0;
     /**
     * id of the user to send the private message
     */
-    'touserid'?: number = null;
+    'Touserid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "clientmsgid",
+            "name": "Clientmsgid",
             "baseName": "clientmsgid",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "textformat",
+            "name": "Textformat",
             "baseName": "textformat",
             "type": "number"
         },
         {
-            "name": "touserid",
+            "name": "Touserid",
             "baseName": "touserid",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class CoreFilesDeleteDraftFilesRequestFilesInner {
     /**
     * Name of the file to delete.
     */
-    'filename'?: string = 'null';
+    'Filename'?: string = 'null';
     /**
     * Path to the file or directory to delete.
     */
-    'filepath'?: string = 'null';
+    'Filepath'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         }    ];

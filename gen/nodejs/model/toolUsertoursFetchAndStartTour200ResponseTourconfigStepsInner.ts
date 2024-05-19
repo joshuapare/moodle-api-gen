@@ -16,85 +16,85 @@ export class ToolUsertoursFetchAndStartTour200ResponseTourconfigStepsInner {
     /**
     * Whether a backdrop should be used
     */
-    'backdrop'?: boolean = null;
+    'Backdrop'?: boolean = null;
     /**
     * Step Content
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * Delay before showing the step (ms)
     */
-    'delay'?: number = null;
+    'Delay'?: number = null;
     /**
     * Step Target
     */
-    'element'?: string = 'null';
+    'Element'?: string = 'null';
     /**
     * Whether to display the step even if it could not be found
     */
-    'orphan'?: boolean = null;
+    'Orphan'?: boolean = null;
     /**
     * Step Placement
     */
-    'placement'?: string = 'null';
+    'Placement'?: string = 'null';
     /**
     * Whether to move to the next step when the target element is clicked
     */
-    'reflex'?: boolean = null;
+    'Reflex'?: boolean = null;
     /**
     * The actual ID of the step
     */
-    'stepid'?: number = null;
+    'Stepid'?: number = null;
     /**
     * Step Title
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "backdrop",
+            "name": "Backdrop",
             "baseName": "backdrop",
             "type": "boolean"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "delay",
+            "name": "Delay",
             "baseName": "delay",
             "type": "number"
         },
         {
-            "name": "element",
+            "name": "Element",
             "baseName": "element",
             "type": "string"
         },
         {
-            "name": "orphan",
+            "name": "Orphan",
             "baseName": "orphan",
             "type": "boolean"
         },
         {
-            "name": "placement",
+            "name": "Placement",
             "baseName": "placement",
             "type": "string"
         },
         {
-            "name": "reflex",
+            "name": "Reflex",
             "baseName": "reflex",
             "type": "boolean"
         },
         {
-            "name": "stepid",
+            "name": "Stepid",
             "baseName": "stepid",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

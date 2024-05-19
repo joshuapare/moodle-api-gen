@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCompetencyCreateTemplateRequestTemplate } from './coreCompetencyCreateTemplateRequestTemplate';
 
 export class CoreCompetencyCreateTemplateRequest {
-    'template': CoreCompetencyCreateTemplateRequestTemplate;
+    'Template': CoreCompetencyCreateTemplateRequestTemplate;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "CoreCompetencyCreateTemplateRequestTemplate"
         }    ];

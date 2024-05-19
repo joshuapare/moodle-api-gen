@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetUnreadNotificationCountRequest
+# MoodleClient.Model.CoreMessageGetUnreadNotificationCountRequest
 
 ## Properties
 

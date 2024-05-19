@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankEditquestionSetStatusRequest
+# MoodleClient.Model.QbankEditquestionSetStatusRequest
 
 ## Properties
 

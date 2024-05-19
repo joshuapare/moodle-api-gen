@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreTagUpdateTagsRequest
+# MoodleClient.Model.CoreTagUpdateTagsRequest
 
 ## Properties
 

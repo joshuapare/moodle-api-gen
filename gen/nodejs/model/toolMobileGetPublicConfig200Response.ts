@@ -18,340 +18,340 @@ export class ToolMobileGetPublicConfig200Response {
     /**
     * Whether age digital consent verification                     is enabled.
     */
-    'agedigitalconsentverification'?: boolean = null;
+    'Agedigitalconsentverification'?: boolean = null;
     /**
     * Authentication instructions.
     */
-    'authinstructions': string = 'null';
+    'Authinstructions': string = 'null';
     /**
     * Whether log in via email is enabled.
     */
-    'authloginviaemail': number = null;
+    'Authloginviaemail': number = null;
     /**
     * Whether auth none is enabled.
     */
-    'authnoneenabled': number = null;
+    'Authnoneenabled': number = null;
     /**
     * Whether to detect default language                     from browser setting.
     */
-    'autolang'?: number = null;
+    'Autolang'?: number = null;
     /**
     * The site compact logo URL
     */
-    'compactlogourl'?: string = 'null';
+    'Compactlogourl'?: string = 'null';
     /**
     * Default site country
     */
-    'country'?: string = 'null';
+    'Country'?: string = 'null';
     /**
     * Whether the Mobile service is enabled.
     */
-    'enablemobilewebservice': number = null;
+    'Enablemobilewebservice': number = null;
     /**
     * Whether Web Services are enabled.
     */
-    'enablewebservices': number = null;
+    'Enablewebservices': number = null;
     /**
     * Forgotten password URL.
     */
-    'forgottenpasswordurl': string = 'null';
+    'Forgottenpasswordurl': string = 'null';
     /**
     * Whether guest login is enabled.
     */
-    'guestlogin': number = null;
+    'Guestlogin': number = null;
     /**
     * Site https URL (if httpslogin is enabled).
     */
-    'httpswwwroot': string = 'null';
-    'identityproviders'?: Array<ToolMobileGetPublicConfig200ResponseIdentityprovidersInner>;
+    'Httpswwwroot': string = 'null';
+    'Identityproviders'?: Array<ToolMobileGetPublicConfig200ResponseIdentityprovidersInner>;
     /**
     * Default language for the site.
     */
-    'lang'?: string = 'null';
+    'Lang'?: string = 'null';
     /**
     * Languages on language menu.
     */
-    'langlist'?: string = 'null';
+    'Langlist'?: string = 'null';
     /**
     * Whether the language menu should be displayed.
     */
-    'langmenu'?: number = null;
+    'Langmenu'?: number = null;
     /**
     * SSO login launch URL.
     */
-    'launchurl'?: string = 'null';
+    'Launchurl'?: string = 'null';
     /**
     * Sitewide locale.
     */
-    'locale'?: string = 'null';
+    'Locale'?: string = 'null';
     /**
     * The site logo URL
     */
-    'logourl'?: string = 'null';
+    'Logourl'?: string = 'null';
     /**
     * Whether site maintenance is enabled.
     */
-    'maintenanceenabled': number = null;
+    'Maintenanceenabled': number = null;
     /**
     * Maintenance message.
     */
-    'maintenancemessage': string = 'null';
+    'Maintenancemessage': string = 'null';
     /**
     * Mobile custom CSS theme
     */
-    'mobilecssurl'?: string;
+    'Mobilecssurl'?: string;
     /**
     * Authentication method for user registration.
     */
-    'registerauth': string = 'null';
+    'Registerauth': string = 'null';
     /**
     * Values: 0 for No, 1 for Yes, 2 for optional.
     */
-    'rememberusername': number = null;
+    'Rememberusername': number = null;
     /**
     * Site name.
     */
-    'sitename': string = 'null';
+    'Sitename': string = 'null';
     /**
     * Determines who has access to contact site support.
     */
-    'supportavailability'?: number = null;
+    'Supportavailability'?: number = null;
     /**
     * Site support contact email                     (only if age verification is enabled).
     */
-    'supportemail'?: string = 'null';
+    'Supportemail'?: string = 'null';
     /**
     * Site support contact name                     (only if age verification is enabled).
     */
-    'supportname'?: string = 'null';
+    'Supportname'?: string = 'null';
     /**
     * Site support page link.
     */
-    'supportpage'?: string = 'null';
+    'Supportpage'?: string = 'null';
     /**
     * Android app\'s unique identifier.
     */
-    'toolMobileAndroidappid'?: string = 'null';
+    'ToolMobileAndroidappid'?: string = 'null';
     /**
     * Disabled features in the app
     */
-    'toolMobileDisabledfeatures'?: string = 'null';
+    'ToolMobileDisabledfeatures'?: string = 'null';
     /**
     * iOS app\'s unique identifier.
     */
-    'toolMobileIosappid'?: string = 'null';
+    'ToolMobileIosappid'?: string = 'null';
     /**
     * Minimum required version to access.
     */
-    'toolMobileMinimumversion'?: string = 'null';
+    'ToolMobileMinimumversion'?: string = 'null';
     /**
     * QR login configuration.
     */
-    'toolMobileQrcodetype'?: number = null;
+    'ToolMobileQrcodetype'?: number = null;
     /**
     * App download page.
     */
-    'toolMobileSetuplink'?: string = 'null';
+    'ToolMobileSetuplink'?: string = 'null';
     /**
     * The type of login. 1 for app, 2 for browser, 3 for embedded.
     */
-    'typeoflogin': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Typeoflogin': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
     /**
     * Site URL.
     */
-    'wwwroot': string = 'null';
+    'Wwwroot': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "agedigitalconsentverification",
+            "name": "Agedigitalconsentverification",
             "baseName": "agedigitalconsentverification",
             "type": "boolean"
         },
         {
-            "name": "authinstructions",
+            "name": "Authinstructions",
             "baseName": "authinstructions",
             "type": "string"
         },
         {
-            "name": "authloginviaemail",
+            "name": "Authloginviaemail",
             "baseName": "authloginviaemail",
             "type": "number"
         },
         {
-            "name": "authnoneenabled",
+            "name": "Authnoneenabled",
             "baseName": "authnoneenabled",
             "type": "number"
         },
         {
-            "name": "autolang",
+            "name": "Autolang",
             "baseName": "autolang",
             "type": "number"
         },
         {
-            "name": "compactlogourl",
+            "name": "Compactlogourl",
             "baseName": "compactlogourl",
             "type": "string"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "enablemobilewebservice",
+            "name": "Enablemobilewebservice",
             "baseName": "enablemobilewebservice",
             "type": "number"
         },
         {
-            "name": "enablewebservices",
+            "name": "Enablewebservices",
             "baseName": "enablewebservices",
             "type": "number"
         },
         {
-            "name": "forgottenpasswordurl",
+            "name": "Forgottenpasswordurl",
             "baseName": "forgottenpasswordurl",
             "type": "string"
         },
         {
-            "name": "guestlogin",
+            "name": "Guestlogin",
             "baseName": "guestlogin",
             "type": "number"
         },
         {
-            "name": "httpswwwroot",
+            "name": "Httpswwwroot",
             "baseName": "httpswwwroot",
             "type": "string"
         },
         {
-            "name": "identityproviders",
+            "name": "Identityproviders",
             "baseName": "identityproviders",
             "type": "Array<ToolMobileGetPublicConfig200ResponseIdentityprovidersInner>"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "langlist",
+            "name": "Langlist",
             "baseName": "langlist",
             "type": "string"
         },
         {
-            "name": "langmenu",
+            "name": "Langmenu",
             "baseName": "langmenu",
             "type": "number"
         },
         {
-            "name": "launchurl",
+            "name": "Launchurl",
             "baseName": "launchurl",
             "type": "string"
         },
         {
-            "name": "locale",
+            "name": "Locale",
             "baseName": "locale",
             "type": "string"
         },
         {
-            "name": "logourl",
+            "name": "Logourl",
             "baseName": "logourl",
             "type": "string"
         },
         {
-            "name": "maintenanceenabled",
+            "name": "Maintenanceenabled",
             "baseName": "maintenanceenabled",
             "type": "number"
         },
         {
-            "name": "maintenancemessage",
+            "name": "Maintenancemessage",
             "baseName": "maintenancemessage",
             "type": "string"
         },
         {
-            "name": "mobilecssurl",
+            "name": "Mobilecssurl",
             "baseName": "mobilecssurl",
             "type": "string"
         },
         {
-            "name": "registerauth",
+            "name": "Registerauth",
             "baseName": "registerauth",
             "type": "string"
         },
         {
-            "name": "rememberusername",
+            "name": "Rememberusername",
             "baseName": "rememberusername",
             "type": "number"
         },
         {
-            "name": "sitename",
+            "name": "Sitename",
             "baseName": "sitename",
             "type": "string"
         },
         {
-            "name": "supportavailability",
+            "name": "Supportavailability",
             "baseName": "supportavailability",
             "type": "number"
         },
         {
-            "name": "supportemail",
+            "name": "Supportemail",
             "baseName": "supportemail",
             "type": "string"
         },
         {
-            "name": "supportname",
+            "name": "Supportname",
             "baseName": "supportname",
             "type": "string"
         },
         {
-            "name": "supportpage",
+            "name": "Supportpage",
             "baseName": "supportpage",
             "type": "string"
         },
         {
-            "name": "toolMobileAndroidappid",
+            "name": "ToolMobileAndroidappid",
             "baseName": "tool_mobile_androidappid",
             "type": "string"
         },
         {
-            "name": "toolMobileDisabledfeatures",
+            "name": "ToolMobileDisabledfeatures",
             "baseName": "tool_mobile_disabledfeatures",
             "type": "string"
         },
         {
-            "name": "toolMobileIosappid",
+            "name": "ToolMobileIosappid",
             "baseName": "tool_mobile_iosappid",
             "type": "string"
         },
         {
-            "name": "toolMobileMinimumversion",
+            "name": "ToolMobileMinimumversion",
             "baseName": "tool_mobile_minimumversion",
             "type": "string"
         },
         {
-            "name": "toolMobileQrcodetype",
+            "name": "ToolMobileQrcodetype",
             "baseName": "tool_mobile_qrcodetype",
             "type": "number"
         },
         {
-            "name": "toolMobileSetuplink",
+            "name": "ToolMobileSetuplink",
             "baseName": "tool_mobile_setuplink",
             "type": "string"
         },
         {
-            "name": "typeoflogin",
+            "name": "Typeoflogin",
             "baseName": "typeoflogin",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         },
         {
-            "name": "wwwroot",
+            "name": "Wwwroot",
             "baseName": "wwwroot",
             "type": "string"
         }    ];

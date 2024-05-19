@@ -16,22 +16,22 @@ export class ModAssignSaveGradesRequestGradesInnerPlugindataAssignfeedbackcommen
     /**
     * The format for this feedback
     */
-    'format': number;
+    'Format': number;
     /**
     * The text for this feedback.
     */
-    'text': string;
+    'Text': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

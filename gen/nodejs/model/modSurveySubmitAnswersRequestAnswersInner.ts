@@ -16,22 +16,22 @@ export class ModSurveySubmitAnswersRequestAnswersInner {
     /**
     * Answer key
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * Answer value
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

@@ -16,22 +16,22 @@ export class CoreGradingGetGradingformInstancesRequest {
     /**
     * definition id
     */
-    'definitionid': number;
+    'Definitionid': number;
     /**
     * submitted since
     */
-    'since'?: number = 0;
+    'Since'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "definitionid",
+            "name": "Definitionid",
             "baseName": "definitionid",
             "type": "number"
         },
         {
-            "name": "since",
+            "name": "Since",
             "baseName": "since",
             "type": "number"
         }    ];

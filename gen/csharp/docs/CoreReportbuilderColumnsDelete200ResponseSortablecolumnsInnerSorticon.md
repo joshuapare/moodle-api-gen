@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInnerSorticon
+# MoodleClient.Model.CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInnerSorticon
 
 ## Properties
 

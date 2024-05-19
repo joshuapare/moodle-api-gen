@@ -16,13 +16,13 @@ export class BlockRecentlyaccesseditemsGetRecentItemsRequest {
     /**
     * result set limit
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         }    ];

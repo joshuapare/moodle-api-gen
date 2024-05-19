@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ToolMobileCallExternalFunctions200ResponseResponsesInner } from './toolMobileCallExternalFunctions200ResponseResponsesInner';
 
 export class ToolMobileCallExternalFunctions200Response {
-    'responses': Array<ToolMobileCallExternalFunctions200ResponseResponsesInner>;
+    'Responses': Array<ToolMobileCallExternalFunctions200ResponseResponsesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "responses",
+            "name": "Responses",
             "baseName": "responses",
             "type": "Array<ToolMobileCallExternalFunctions200ResponseResponsesInner>"
         }    ];

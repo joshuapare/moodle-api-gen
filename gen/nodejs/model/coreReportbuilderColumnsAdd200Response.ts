@@ -17,28 +17,28 @@ export class CoreReportbuilderColumnsAdd200Response {
     /**
     * hassortablecolumns
     */
-    'hassortablecolumns': boolean = null;
+    'Hassortablecolumns': boolean = null;
     /**
     * helpicon
     */
-    'helpicon': string = 'null';
-    'sortablecolumns': Array<CoreReportbuilderColumnsAdd200ResponseSortablecolumnsInner>;
+    'Helpicon': string = 'null';
+    'Sortablecolumns': Array<CoreReportbuilderColumnsAdd200ResponseSortablecolumnsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "hassortablecolumns",
+            "name": "Hassortablecolumns",
             "baseName": "hassortablecolumns",
             "type": "boolean"
         },
         {
-            "name": "helpicon",
+            "name": "Helpicon",
             "baseName": "helpicon",
             "type": "string"
         },
         {
-            "name": "sortablecolumns",
+            "name": "Sortablecolumns",
             "baseName": "sortablecolumns",
             "type": "Array<CoreReportbuilderColumnsAdd200ResponseSortablecolumnsInner>"
         }    ];

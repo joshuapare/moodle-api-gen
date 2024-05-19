@@ -17,64 +17,64 @@ export class CoreFormGetFiletypesBrowserData200ResponseGroupsInner {
     /**
     * Should the group start as expanded or collapsed
     */
-    'expanded'?: boolean = null;
+    'Expanded'?: boolean = null;
     /**
     * The list of file extensions associated with the group
     */
-    'ext'?: string = 'null';
+    'Ext'?: string = 'null';
     /**
     * The file type group identifier
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * The file type group name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Can it be marked as selected
     */
-    'selectable'?: boolean = null;
+    'Selectable'?: boolean = null;
     /**
     * Should it be marked as selected
     */
-    'selected'?: boolean = null;
-    'types'?: Array<CoreFormGetFiletypesBrowserData200ResponseGroupsInnerTypesInner>;
+    'Selected'?: boolean = null;
+    'Types'?: Array<CoreFormGetFiletypesBrowserData200ResponseGroupsInnerTypesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "expanded",
+            "name": "Expanded",
             "baseName": "expanded",
             "type": "boolean"
         },
         {
-            "name": "ext",
+            "name": "Ext",
             "baseName": "ext",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "selectable",
+            "name": "Selectable",
             "baseName": "selectable",
             "type": "boolean"
         },
         {
-            "name": "selected",
+            "name": "Selected",
             "baseName": "selected",
             "type": "boolean"
         },
         {
-            "name": "types",
+            "name": "Types",
             "baseName": "types",
             "type": "Array<CoreFormGetFiletypesBrowserData200ResponseGroupsInnerTypesInner>"
         }    ];

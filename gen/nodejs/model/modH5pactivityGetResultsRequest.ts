@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class ModH5pactivityGetResultsRequest {
-    'attemptids'?: Array<object>;
+    'Attemptids'?: Array<object>;
     /**
     * h5p activity instance id
     */
-    'h5pactivityid': number;
+    'H5pactivityid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptids",
+            "name": "Attemptids",
             "baseName": "attemptids",
             "type": "Array<object>"
         },
         {
-            "name": "h5pactivityid",
+            "name": "H5pactivityid",
             "baseName": "h5pactivityid",
             "type": "number"
         }    ];

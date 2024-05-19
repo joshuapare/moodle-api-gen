@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAuthIsMinor200Response
+# MoodleClient.Model.CoreAuthIsMinor200Response
 
 ## Properties
 

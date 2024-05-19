@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { MessageAirnotifierAreNotificationPreferencesConfigured200ResponseUsersInner } from './messageAirnotifierAreNotificationPreferencesConfigured200ResponseUsersInner';
 
 export class MessageAirnotifierAreNotificationPreferencesConfigured200Response {
-    'users': Array<MessageAirnotifierAreNotificationPreferencesConfigured200ResponseUsersInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Users': Array<MessageAirnotifierAreNotificationPreferencesConfigured200ResponseUsersInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<MessageAirnotifierAreNotificationPreferencesConfigured200ResponseUsersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

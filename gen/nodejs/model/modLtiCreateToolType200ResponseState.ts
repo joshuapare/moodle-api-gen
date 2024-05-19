@@ -16,49 +16,49 @@ export class ModLtiCreateToolType200ResponseState {
     /**
     * Is the state configured
     */
-    'configured': boolean = null;
+    'Configured': boolean = null;
     /**
     * Is the state pending
     */
-    'pending': boolean = null;
+    'Pending': boolean = null;
     /**
     * Is the state rejected
     */
-    'rejected': boolean = null;
+    'Rejected': boolean = null;
     /**
     * Tool type state name string
     */
-    'text': string = 'null';
+    'Text': string = 'null';
     /**
     * Is the state unknown
     */
-    'unknown': boolean = null;
+    'Unknown': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "configured",
+            "name": "Configured",
             "baseName": "configured",
             "type": "boolean"
         },
         {
-            "name": "pending",
+            "name": "Pending",
             "baseName": "pending",
             "type": "boolean"
         },
         {
-            "name": "rejected",
+            "name": "Rejected",
             "baseName": "rejected",
             "type": "boolean"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "unknown",
+            "name": "Unknown",
             "baseName": "unknown",
             "type": "boolean"
         }    ];

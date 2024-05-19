@@ -16,22 +16,22 @@ export class CoreCourseSetFavouriteCoursesRequestCoursesInner {
     /**
     * favourite status
     */
-    'favourite'?: boolean = null;
+    'Favourite'?: boolean = null;
     /**
     * course ID
     */
-    'id'?: number = null;
+    'Id'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourite",
+            "name": "Favourite",
             "baseName": "favourite",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

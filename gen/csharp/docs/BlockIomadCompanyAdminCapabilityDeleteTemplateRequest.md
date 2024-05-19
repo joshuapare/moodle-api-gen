@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminCapabilityDeleteTemplateRequest
+# MoodleClient.Model.BlockIomadCompanyAdminCapabilityDeleteTemplateRequest
 
 ## Properties
 

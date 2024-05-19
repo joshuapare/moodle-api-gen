@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserSearchIdentity200ResponseListInner
+# MoodleClient.Model.CoreUserSearchIdentity200ResponseListInner
 
 ## Properties
 

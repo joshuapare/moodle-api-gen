@@ -16,157 +16,157 @@ export class CoreCompetencyCreateCompetencyFramework200Response {
     /**
     * canmanage
     */
-    'canmanage': boolean = null;
+    'Canmanage': boolean = null;
     /**
     * competenciescount
     */
-    'competenciescount': number = null;
+    'Competenciescount': number = null;
     /**
     * contextid
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * contextname
     */
-    'contextname': string = 'null';
+    'Contextname': string = 'null';
     /**
     * contextnamenoprefix
     */
-    'contextnamenoprefix': string = 'null';
+    'Contextnamenoprefix': string = 'null';
     /**
     * description
     */
-    'description': string = '';
+    'Description': string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * idnumber
     */
-    'idnumber': string;
+    'Idnumber': string;
     /**
     * scaleconfiguration
     */
-    'scaleconfiguration': string;
+    'Scaleconfiguration': string;
     /**
     * scaleid
     */
-    'scaleid': number;
+    'Scaleid': number;
     /**
     * shortname
     */
-    'shortname': string;
+    'Shortname': string;
     /**
     * taxonomies
     */
-    'taxonomies': string = '';
+    'Taxonomies': string = '';
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
     /**
     * visible
     */
-    'visible': boolean = 1;
+    'Visible': boolean = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "competenciescount",
+            "name": "Competenciescount",
             "baseName": "competenciescount",
             "type": "number"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextname",
+            "name": "Contextname",
             "baseName": "contextname",
             "type": "string"
         },
         {
-            "name": "contextnamenoprefix",
+            "name": "Contextnamenoprefix",
             "baseName": "contextnamenoprefix",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "scaleconfiguration",
+            "name": "Scaleconfiguration",
             "baseName": "scaleconfiguration",
             "type": "string"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "taxonomies",
+            "name": "Taxonomies",
             "baseName": "taxonomies",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

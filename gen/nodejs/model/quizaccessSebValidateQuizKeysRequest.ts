@@ -16,40 +16,40 @@ export class QuizaccessSebValidateQuizKeysRequest {
     /**
     * SEB browser exam key
     */
-    'browserexamkey'?: string = 'null';
+    'Browserexamkey'?: string = 'null';
     /**
     * Course module ID
     */
-    'cmid': number = null;
+    'Cmid': number = null;
     /**
     * SEB config key
     */
-    'configkey'?: string = 'null';
+    'Configkey'?: string = 'null';
     /**
     * Page URL to check
     */
-    'url': string = 'null';
+    'Url': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "browserexamkey",
+            "name": "Browserexamkey",
             "baseName": "browserexamkey",
             "type": "string"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "configkey",
+            "name": "Configkey",
             "baseName": "configkey",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

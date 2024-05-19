@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminGetLicenseInfo200Response
+# MoodleClient.Model.BlockIomadCompanyAdminGetLicenseInfo200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyCreateCategoryForm200Response
+# MoodleClient.Model.ToolDataprivacyCreateCategoryForm200Response
 
 ## Properties
 

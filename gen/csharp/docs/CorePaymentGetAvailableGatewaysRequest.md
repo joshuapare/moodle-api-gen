@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CorePaymentGetAvailableGatewaysRequest
+# MoodleClient.Model.CorePaymentGetAvailableGatewaysRequest
 
 ## Properties
 

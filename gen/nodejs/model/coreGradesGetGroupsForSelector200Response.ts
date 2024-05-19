@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreGradesGetGroupsForSelector200ResponseGroupsInner } from './coreGradesGetGroupsForSelector200ResponseGroupsInner';
 
 export class CoreGradesGetGroupsForSelector200Response {
-    'groups': Array<CoreGradesGetGroupsForSelector200ResponseGroupsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Groups': Array<CoreGradesGetGroupsForSelector200ResponseGroupsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groups",
+            "name": "Groups",
             "baseName": "groups",
             "type": "Array<CoreGradesGetGroupsForSelector200ResponseGroupsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

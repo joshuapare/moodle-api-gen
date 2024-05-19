@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModSurveyGetSurveysByCourses200ResponseSurveysInner
+# MoodleClient.Model.ModSurveyGetSurveysByCourses200ResponseSurveysInner
 Surveys
 
 ## Properties

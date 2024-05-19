@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataGetMappingInformationRequest
+# MoodleClient.Model.ModDataGetMappingInformationRequest
 
 ## Properties
 

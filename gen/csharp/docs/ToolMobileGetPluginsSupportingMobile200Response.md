@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetPluginsSupportingMobile200Response
+# MoodleClient.Model.ToolMobileGetPluginsSupportingMobile200Response
 
 ## Properties
 

@@ -16,76 +16,76 @@ export class CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner {
     /**
     * File name.
     */
-    'filename'?: string;
+    'Filename'?: string;
     /**
     * File path.
     */
-    'filepath'?: string;
+    'Filepath'?: string;
     /**
     * File size.
     */
-    'filesize'?: number;
+    'Filesize'?: number;
     /**
     * Downloadable file url.
     */
-    'fileurl'?: string;
+    'Fileurl'?: string;
     /**
     * Whether is an external file.
     */
-    'isexternalfile'?: boolean;
+    'Isexternalfile'?: boolean;
     /**
     * File mime type.
     */
-    'mimetype'?: string;
+    'Mimetype'?: string;
     /**
     * The repository type for the external files.
     */
-    'repositorytype'?: string;
+    'Repositorytype'?: string;
     /**
     * Time modified.
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "fileurl",
+            "name": "Fileurl",
             "baseName": "fileurl",
             "type": "string"
         },
         {
-            "name": "isexternalfile",
+            "name": "Isexternalfile",
             "baseName": "isexternalfile",
             "type": "boolean"
         },
         {
-            "name": "mimetype",
+            "name": "Mimetype",
             "baseName": "mimetype",
             "type": "string"
         },
         {
-            "name": "repositorytype",
+            "name": "Repositorytype",
             "baseName": "repositorytype",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreNotesGetNotes200ResponseWarningsInner
+# MoodleClient.Model.CoreNotesGetNotes200ResponseWarningsInner
 warning
 
 ## Properties

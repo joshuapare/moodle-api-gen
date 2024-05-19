@@ -16,31 +16,31 @@ export class CoreGroupGetCourseUserGroupsRequest {
     /**
     * Id of course (empty or 0 for all the courses where the user is enrolled).
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * returns only groups in the specified grouping
     */
-    'groupingid'?: number = 0;
+    'Groupingid'?: number = 0;
     /**
     * Id of user (empty or 0 for current user).
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

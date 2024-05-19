@@ -16,22 +16,22 @@ export class CoreCompetencySearchCompetenciesRequest {
     /**
     * Competency framework id
     */
-    'competencyframeworkid': number = null;
+    'Competencyframeworkid': number = null;
     /**
     * Text to search for
     */
-    'searchtext': string = 'null';
+    'Searchtext': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyframeworkid",
+            "name": "Competencyframeworkid",
             "baseName": "competencyframeworkid",
             "type": "number"
         },
         {
-            "name": "searchtext",
+            "name": "Searchtext",
             "baseName": "searchtext",
             "type": "string"
         }    ];

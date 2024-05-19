@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFiltersGetAvailableInContext200Response
+# MoodleClient.Model.CoreFiltersGetAvailableInContext200Response
 
 ## Properties
 

@@ -16,31 +16,31 @@ export class CoreUserSetUserPreferencesRequestPreferencesInner {
     /**
     * The name of the preference
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Id of the user to set the preference (default to current user)
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
     /**
     * The value of the preference
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

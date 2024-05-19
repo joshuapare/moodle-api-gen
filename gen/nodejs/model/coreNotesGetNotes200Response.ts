@@ -15,19 +15,19 @@ import { CoreNotesGetNotes200ResponseNotesInner } from './coreNotesGetNotes200Re
 import { CoreNotesGetNotes200ResponseWarningsInner } from './coreNotesGetNotes200ResponseWarningsInner';
 
 export class CoreNotesGetNotes200Response {
-    'notes': Array<CoreNotesGetNotes200ResponseNotesInner>;
-    'warnings'?: Array<CoreNotesGetNotes200ResponseWarningsInner>;
+    'Notes': Array<CoreNotesGetNotes200ResponseNotesInner>;
+    'Warnings'?: Array<CoreNotesGetNotes200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "notes",
+            "name": "Notes",
             "baseName": "notes",
             "type": "Array<CoreNotesGetNotes200ResponseNotesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<CoreNotesGetNotes200ResponseWarningsInner>"
         }    ];

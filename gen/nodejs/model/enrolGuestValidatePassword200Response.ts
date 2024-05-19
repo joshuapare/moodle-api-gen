@@ -17,28 +17,28 @@ export class EnrolGuestValidatePassword200Response {
     /**
     * Password hint (if enabled)
     */
-    'hint'?: string = 'null';
+    'Hint'?: string = 'null';
     /**
     * Whether the password was successfully validated
     */
-    'validated': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Validated': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "hint",
+            "name": "Hint",
             "baseName": "hint",
             "type": "string"
         },
         {
-            "name": "validated",
+            "name": "Validated",
             "baseName": "validated",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

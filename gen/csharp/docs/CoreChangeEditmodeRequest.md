@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreChangeEditmodeRequest
+# MoodleClient.Model.CoreChangeEditmodeRequest
 
 ## Properties
 

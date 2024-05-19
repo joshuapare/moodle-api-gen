@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ReportCompetencyDataForReport200ResponseUsercompetenciesInner
+# MoodleClient.Model.ReportCompetencyDataForReport200ResponseUsercompetenciesInner
 
 ## Properties
 

@@ -16,22 +16,22 @@ export class LocalIomadLearningpathActivateRequest {
     /**
     * ID of Learning Path
     */
-    'pathid': number = null;
+    'Pathid': number = null;
     /**
     * Active (1) / deactivate (0)
     */
-    'state': number = null;
+    'State': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         }    ];

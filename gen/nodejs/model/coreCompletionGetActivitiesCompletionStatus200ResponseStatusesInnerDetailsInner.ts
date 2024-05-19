@@ -17,19 +17,19 @@ export class CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInner
     /**
     * Rule name
     */
-    'rulename'?: string = 'null';
-    'rulevalue'?: CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInnerRulevalue;
+    'Rulename'?: string = 'null';
+    'Rulevalue'?: CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInnerRulevalue;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "rulename",
+            "name": "Rulename",
             "baseName": "rulename",
             "type": "string"
         },
         {
-            "name": "rulevalue",
+            "name": "Rulevalue",
             "baseName": "rulevalue",
             "type": "CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInnerRulevalue"
         }    ];

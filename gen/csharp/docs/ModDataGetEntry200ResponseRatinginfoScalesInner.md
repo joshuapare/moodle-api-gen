@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataGetEntry200ResponseRatinginfoScalesInner
+# MoodleClient.Model.ModDataGetEntry200ResponseRatinginfoScalesInner
 Scale information
 
 ## Properties

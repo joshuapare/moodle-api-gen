@@ -16,13 +16,13 @@ export class ModWorkshopGetAssessmentRequest {
     /**
     * Assessment id
     */
-    'assessmentid': number = null;
+    'Assessmentid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentid",
+            "name": "Assessmentid",
             "baseName": "assessmentid",
             "type": "number"
         }    ];

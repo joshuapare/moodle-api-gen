@@ -16,13 +16,13 @@ export class ModQuizViewAttemptReviewRequest {
     /**
     * attempt id
     */
-    'attemptid': number;
+    'Attemptid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         }    ];

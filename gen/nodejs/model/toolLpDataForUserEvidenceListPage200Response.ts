@@ -17,43 +17,43 @@ export class ToolLpDataForUserEvidenceListPage200Response {
     /**
     * Can the current user manage the user\'s evidence
     */
-    'canmanage': boolean = null;
-    'evidence': Array<ToolLpDataForUserEvidenceListPage200ResponseEvidenceInner>;
-    'navigation': Array<object>;
+    'Canmanage': boolean = null;
+    'Evidence': Array<ToolLpDataForUserEvidenceListPage200ResponseEvidenceInner>;
+    'Navigation': Array<object>;
     /**
     * Url to the tool_lp plugin folder on this Moodle site
     */
-    'pluginbaseurl': string;
+    'Pluginbaseurl': string;
     /**
     * The user ID
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "evidence",
+            "name": "Evidence",
             "baseName": "evidence",
             "type": "Array<ToolLpDataForUserEvidenceListPage200ResponseEvidenceInner>"
         },
         {
-            "name": "navigation",
+            "name": "Navigation",
             "baseName": "navigation",
             "type": "Array<object>"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

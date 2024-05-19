@@ -15,37 +15,37 @@ import { ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInne
 import { ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerUseranswer } from './modH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerUseranswer';
 
 export class ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInner {
-    'correctanswer'?: ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerCorrectanswer;
+    'Correctanswer'?: ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerCorrectanswer;
     /**
     * Option description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * Option string identifier
     */
-    'id'?: string = 'null';
-    'useranswer'?: ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerUseranswer;
+    'Id'?: string = 'null';
+    'Useranswer'?: ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerUseranswer;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "correctanswer",
+            "name": "Correctanswer",
             "baseName": "correctanswer",
             "type": "ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerCorrectanswer"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         },
         {
-            "name": "useranswer",
+            "name": "Useranswer",
             "baseName": "useranswer",
             "type": "ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptionsInnerUseranswer"
         }    ];

@@ -19,46 +19,46 @@ export class CoreNotesGetCourseNotes200Response {
     /**
     * Whether the user can manage notes at the given course.
     */
-    'canmanagecoursenotes'?: boolean = null;
+    'Canmanagecoursenotes'?: boolean = null;
     /**
     * Whether the user can manage notes at system level.
     */
-    'canmanagesystemnotes'?: boolean = null;
-    'coursenotes'?: Array<CoreNotesGetCourseNotes200ResponseCoursenotesInner>;
-    'personalnotes'?: Array<CoreNotesGetCourseNotes200ResponsePersonalnotesInner>;
-    'sitenotes'?: Array<CoreNotesGetCourseNotes200ResponsePersonalnotesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canmanagesystemnotes'?: boolean = null;
+    'Coursenotes'?: Array<CoreNotesGetCourseNotes200ResponseCoursenotesInner>;
+    'Personalnotes'?: Array<CoreNotesGetCourseNotes200ResponsePersonalnotesInner>;
+    'Sitenotes'?: Array<CoreNotesGetCourseNotes200ResponsePersonalnotesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanagecoursenotes",
+            "name": "Canmanagecoursenotes",
             "baseName": "canmanagecoursenotes",
             "type": "boolean"
         },
         {
-            "name": "canmanagesystemnotes",
+            "name": "Canmanagesystemnotes",
             "baseName": "canmanagesystemnotes",
             "type": "boolean"
         },
         {
-            "name": "coursenotes",
+            "name": "Coursenotes",
             "baseName": "coursenotes",
             "type": "Array<CoreNotesGetCourseNotes200ResponseCoursenotesInner>"
         },
         {
-            "name": "personalnotes",
+            "name": "Personalnotes",
             "baseName": "personalnotes",
             "type": "Array<CoreNotesGetCourseNotes200ResponsePersonalnotesInner>"
         },
         {
-            "name": "sitenotes",
+            "name": "Sitenotes",
             "baseName": "sitenotes",
             "type": "Array<CoreNotesGetCourseNotes200ResponsePersonalnotesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -16,13 +16,13 @@ export class ModForumSetLockState200ResponseTimes {
     /**
     * The locked time of the discussion.
     */
-    'locked': number = null;
+    'Locked': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "number"
         }    ];

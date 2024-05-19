@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetContentPagesViewed200Response
+# MoodleClient.Model.ModLessonGetContentPagesViewed200Response
 
 ## Properties
 

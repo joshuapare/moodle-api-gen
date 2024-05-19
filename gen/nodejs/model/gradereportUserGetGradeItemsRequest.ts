@@ -16,31 +16,31 @@ export class GradereportUserGetGradeItemsRequest {
     /**
     * Course Id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * Get users from this group only
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * Return grades only for this user (optional)
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

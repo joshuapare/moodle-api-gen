@@ -16,22 +16,22 @@ export class ToolMobileGetContent200ResponseTemplatesInner {
     /**
     * HTML code.
     */
-    'html'?: string = 'null';
+    'Html'?: string = 'null';
     /**
     * ID of the template.
     */
-    'id'?: string = 'null';
+    'Id'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "html",
+            "name": "Html",
             "baseName": "html",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         }    ];

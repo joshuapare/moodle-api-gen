@@ -16,40 +16,40 @@ export class CoreGradesGraderGradingpanelPointFetchRequest {
     /**
     * The name of the component
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * The ID of the context being graded
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * The ID of the user show
     */
-    'gradeduserid': number = null;
+    'Gradeduserid': number = null;
     /**
     * The grade item itemname being graded
     */
-    'itemname': string = 'null';
+    'Itemname': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "gradeduserid",
+            "name": "Gradeduserid",
             "baseName": "gradeduserid",
             "type": "number"
         },
         {
-            "name": "itemname",
+            "name": "Itemname",
             "baseName": "itemname",
             "type": "string"
         }    ];

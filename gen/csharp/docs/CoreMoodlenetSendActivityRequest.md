@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMoodlenetSendActivityRequest
+# MoodleClient.Model.CoreMoodlenetSendActivityRequest
 
 ## Properties
 

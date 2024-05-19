@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyGetActivityOptionsRequest
+# MoodleClient.Model.ToolDataprivacyGetActivityOptionsRequest
 
 ## Properties
 

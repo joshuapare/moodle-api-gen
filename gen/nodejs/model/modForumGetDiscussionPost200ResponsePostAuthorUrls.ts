@@ -16,22 +16,22 @@ export class ModForumGetDiscussionPost200ResponsePostAuthorUrls {
     /**
     * The URL for the use profile page
     */
-    'profile'?: string;
+    'Profile'?: string;
     /**
     * The URL for the use profile image
     */
-    'profileimage'?: string;
+    'Profileimage'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "profile",
+            "name": "Profile",
             "baseName": "profile",
             "type": "string"
         },
         {
-            "name": "profileimage",
+            "name": "Profileimage",
             "baseName": "profileimage",
             "type": "string"
         }    ];

@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreGroupDeleteGroupingsRequest {
-    'groupingids': Array<object>;
+    'Groupingids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupingids",
+            "name": "Groupingids",
             "baseName": "groupingids",
             "type": "Array<object>"
         }    ];

@@ -16,58 +16,58 @@ export class CoreEnrolGetPotentialUsersRequest {
     /**
     * course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * enrolment id
     */
-    'enrolid': number = null;
+    'Enrolid': number = null;
     /**
     * Page number
     */
-    'page': number = null;
+    'Page': number = null;
     /**
     * Number per page
     */
-    'perpage': number = null;
+    'Perpage': number = null;
     /**
     * query
     */
-    'search': string = 'null';
+    'Search': string = 'null';
     /**
     * find a match anywhere, or only at the beginning
     */
-    'searchanywhere': boolean = null;
+    'Searchanywhere': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "enrolid",
+            "name": "Enrolid",
             "baseName": "enrolid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "searchanywhere",
+            "name": "Searchanywhere",
             "baseName": "searchanywhere",
             "type": "boolean"
         }    ];

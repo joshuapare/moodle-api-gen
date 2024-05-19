@@ -16,58 +16,58 @@ export class CoreMessageGetConversationsRequest {
     /**
     * Whether to restrict the results to contain NO favourite                 conversations (false), ONLY favourite conversation (true), or ignore any restriction altogether (null)
     */
-    'favourites'?: boolean = null;
+    'Favourites'?: boolean = null;
     /**
     * The offset to start at
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Limit number of conversations to this
     */
-    'limitnum'?: number = 0;
+    'Limitnum'?: number = 0;
     /**
     * Whether to include self-conversations (true) or ONLY private                     conversations (false) when private conversations are requested.
     */
-    'mergeself'?: boolean = false;
+    'Mergeself'?: boolean = false;
     /**
     * Filter by type
     */
-    'type'?: number = null;
+    'Type'?: number = null;
     /**
     * The id of the user who we are viewing conversations for
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourites",
+            "name": "Favourites",
             "baseName": "favourites",
             "type": "boolean"
         },
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "mergeself",
+            "name": "Mergeself",
             "baseName": "mergeself",
             "type": "boolean"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

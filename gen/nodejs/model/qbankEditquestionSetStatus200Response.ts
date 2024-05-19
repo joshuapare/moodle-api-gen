@@ -16,31 +16,31 @@ export class QbankEditquestionSetStatus200Response {
     /**
     * Error message if error exists
     */
-    'error': string = 'null';
+    'Error': string = 'null';
     /**
     * status: true if success
     */
-    'status': boolean;
+    'Status': boolean;
     /**
     * statusname: name of the status
     */
-    'statusname': string = 'null';
+    'Statusname': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "error",
+            "name": "Error",
             "baseName": "error",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "statusname",
+            "name": "Statusname",
             "baseName": "statusname",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileCallExternalFunctionsRequestRequestsInner
+# MoodleClient.Model.ToolMobileCallExternalFunctionsRequestRequestsInner
 
 ## Properties
 

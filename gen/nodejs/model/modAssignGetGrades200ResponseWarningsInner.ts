@@ -19,40 +19,40 @@ export class ModAssignGetGrades200ResponseWarningsInner {
     /**
     * item is always \'assignment\'
     */
-    'item'?: string = 'null';
+    'Item'?: string = 'null';
     /**
     * when errorcode is 3 then itemid is an assignment id. When errorcode is 1, itemid is a course module id
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
     /**
     * untranslated english message to explain the warning
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * errorcode can be 3 (no grades found) or 1 (no permission to get grades)
     */
-    'warningcode'?: string = 'null';
+    'Warningcode'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "warningcode",
+            "name": "Warningcode",
             "baseName": "warningcode",
             "type": "string"
         }    ];

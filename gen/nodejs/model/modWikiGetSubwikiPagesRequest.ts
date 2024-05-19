@@ -17,37 +17,37 @@ export class ModWikiGetSubwikiPagesRequest {
     /**
     * Subwiki\'s group ID, -1 means current group. It will be ignored if the wiki doesn\'t use groups.
     */
-    'groupid'?: number = -1;
-    'options'?: ModWikiGetSubwikiPagesRequestOptions;
+    'Groupid'?: number = -1;
+    'Options'?: ModWikiGetSubwikiPagesRequestOptions;
     /**
     * Subwiki\'s user ID, 0 means current user. It will be ignored in collaborative wikis.
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
     /**
     * Wiki instance ID.
     */
-    'wikiid': number;
+    'Wikiid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModWikiGetSubwikiPagesRequestOptions"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "wikiid",
+            "name": "Wikiid",
             "baseName": "wikiid",
             "type": "number"
         }    ];

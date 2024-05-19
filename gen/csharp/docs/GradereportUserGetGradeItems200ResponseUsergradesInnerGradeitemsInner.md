@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradereportUserGetGradeItems200ResponseUsergradesInnerGradeitemsInner
+# MoodleClient.Model.GradereportUserGetGradeItems200ResponseUsergradesInnerGradeitemsInner
 Grade items
 
 ## Properties

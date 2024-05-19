@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradingformRubricGraderGradingpanelStore200ResponseGrade
+# MoodleClient.Model.GradingformRubricGraderGradingpanelStore200ResponseGrade
 
 ## Properties
 

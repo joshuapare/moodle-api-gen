@@ -16,22 +16,22 @@ export class LocalIomadLearningpathGetcoursesRequest {
     /**
     * ID of Iomad Learning Path group (0 = return all)
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * ID of Iomad Learning Path
     */
-    'pathid': number;
+    'Pathid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         }    ];

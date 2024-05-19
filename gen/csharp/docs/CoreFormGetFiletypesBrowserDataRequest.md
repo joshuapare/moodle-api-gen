@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFormGetFiletypesBrowserDataRequest
+# MoodleClient.Model.CoreFormGetFiletypesBrowserDataRequest
 
 ## Properties
 

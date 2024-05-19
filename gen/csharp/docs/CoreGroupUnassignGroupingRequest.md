@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupUnassignGroupingRequest
+# MoodleClient.Model.CoreGroupUnassignGroupingRequest
 
 ## Properties
 

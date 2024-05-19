@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreGradesGetEnrolledUsersForSearchWidget200ResponseUsersInner } from './coreGradesGetEnrolledUsersForSearchWidget200ResponseUsersInner';
 
 export class CoreGradesGetEnrolledUsersForSearchWidget200Response {
-    'users': Array<CoreGradesGetEnrolledUsersForSearchWidget200ResponseUsersInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Users': Array<CoreGradesGetEnrolledUsersForSearchWidget200ResponseUsersInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<CoreGradesGetEnrolledUsersForSearchWidget200ResponseUsersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

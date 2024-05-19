@@ -16,31 +16,31 @@ export class CoreCourseDeleteCategoriesRequestCategoriesInner {
     /**
     * category id to delete
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * the parent category to move the contents to, if specified
     */
-    'newparent'?: number = null;
+    'Newparent'?: number = null;
     /**
     * 1: recursively delete all contents inside this                                 category, 0 (default): move contents to newparent or current parent category (except if parent is root)
     */
-    'recursive'?: boolean = 0;
+    'Recursive'?: boolean = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "newparent",
+            "name": "Newparent",
             "baseName": "newparent",
             "type": "number"
         },
         {
-            "name": "recursive",
+            "name": "Recursive",
             "baseName": "recursive",
             "type": "boolean"
         }    ];

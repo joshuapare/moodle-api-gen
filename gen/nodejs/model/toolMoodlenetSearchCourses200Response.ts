@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ToolMoodlenetSearchCourses200ResponseCoursesInner } from './toolMoodlenetSearchCourses200ResponseCoursesInner';
 
 export class ToolMoodlenetSearchCourses200Response {
-    'courses': Array<ToolMoodlenetSearchCourses200ResponseCoursesInner>;
+    'Courses': Array<ToolMoodlenetSearchCourses200ResponseCoursesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<ToolMoodlenetSearchCourses200ResponseCoursesInner>"
         }    ];

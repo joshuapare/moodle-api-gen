@@ -16,31 +16,31 @@ export class CoreMessageDeleteMessageRequest {
     /**
     * The message id
     */
-    'messageid': number = null;
+    'Messageid': number = null;
     /**
     * If is a message read
     */
-    'read'?: boolean = true;
+    'Read'?: boolean = true;
     /**
     * The user id of who we want to delete the message for
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messageid",
+            "name": "Messageid",
             "baseName": "messageid",
             "type": "number"
         },
         {
-            "name": "read",
+            "name": "Read",
             "baseName": "read",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

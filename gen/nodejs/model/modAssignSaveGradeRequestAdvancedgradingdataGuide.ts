@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInner } from './modAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInner';
 
 export class ModAssignSaveGradeRequestAdvancedgradingdataGuide {
-    'criteria': Array<ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInner>;
+    'Criteria': Array<ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "Array<ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInner>"
         }    ];

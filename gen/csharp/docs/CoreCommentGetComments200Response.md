@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCommentGetComments200Response
+# MoodleClient.Model.CoreCommentGetComments200Response
 
 ## Properties
 

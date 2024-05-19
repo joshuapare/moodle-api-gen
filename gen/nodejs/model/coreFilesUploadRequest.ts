@@ -16,85 +16,85 @@ export class CoreFilesUploadRequest {
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * context id
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * The context level to put the file in,                         (block, course, coursecat, system, user, module)
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * file area
     */
-    'filearea': string;
+    'Filearea': string;
     /**
     * file content
     */
-    'filecontent': string = 'null';
+    'Filecontent': string = 'null';
     /**
     * file name
     */
-    'filename': string;
+    'Filename': string;
     /**
     * file path
     */
-    'filepath': string;
+    'Filepath': string;
     /**
     * The Instance id of item associated                          with the context level
     */
-    'instanceid'?: number = null;
+    'Instanceid'?: number = null;
     /**
     * associated id
     */
-    'itemid': number;
+    'Itemid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "filecontent",
+            "name": "Filecontent",
             "baseName": "filecontent",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         }    ];

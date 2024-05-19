@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class QbankColumnsortorderSetHiddenColumnsRequest {
-    'columns'?: Array<object>;
+    'Columns'?: Array<object>;
     /**
     * Set global config setting, rather than user preference
     */
-    'global'?: boolean = false;
+    'Global'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "columns",
+            "name": "Columns",
             "baseName": "columns",
             "type": "Array<object>"
         },
         {
-            "name": "global",
+            "name": "Global",
             "baseName": "global",
             "type": "boolean"
         }    ];

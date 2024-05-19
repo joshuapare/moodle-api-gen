@@ -16,22 +16,22 @@ export class CoreCohortAddCohortMembersRequestMembersInnerUsertype {
     /**
     * The name of the field: id                                         (numeric value of id) or username (alphanumeric value of username) 
     */
-    'type': string = 'null';
+    'Type': string = 'null';
     /**
     * The value of the cohort
     */
-    'value': string;
+    'Value': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

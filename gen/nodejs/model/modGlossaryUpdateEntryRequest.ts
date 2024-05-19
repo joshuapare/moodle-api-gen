@@ -17,46 +17,46 @@ export class ModGlossaryUpdateEntryRequest {
     /**
     * Glossary concept
     */
-    'concept': string;
+    'Concept': string;
     /**
     * Glossary concept definition
     */
-    'definition': string;
+    'Definition': string;
     /**
     * definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'definitionformat': number;
+    'Definitionformat': number;
     /**
     * Glossary entry id to update
     */
-    'entryid': number;
-    'options'?: Array<ModGlossaryUpdateEntryRequestOptionsInner>;
+    'Entryid': number;
+    'Options'?: Array<ModGlossaryUpdateEntryRequestOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "concept",
+            "name": "Concept",
             "baseName": "concept",
             "type": "string"
         },
         {
-            "name": "definition",
+            "name": "Definition",
             "baseName": "definition",
             "type": "string"
         },
         {
-            "name": "definitionformat",
+            "name": "Definitionformat",
             "baseName": "definitionformat",
             "type": "number"
         },
         {
-            "name": "entryid",
+            "name": "Entryid",
             "baseName": "entryid",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModGlossaryUpdateEntryRequestOptionsInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetUserAdministrationOptionsRequest
+# MoodleClient.Model.CoreCourseGetUserAdministrationOptionsRequest
 
 ## Properties
 

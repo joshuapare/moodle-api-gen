@@ -17,412 +17,412 @@ export class ModLessonGetLesson200ResponseLesson {
     /**
     * Id of the next activity to be linked once the lesson is completed
     */
-    'activitylink'?: number = null;
+    'Activitylink'?: number = null;
     /**
     * Whether to allow the lesson to be attempted offline in the mobile app
     */
-    'allowofflineattempts': boolean = null;
+    'Allowofflineattempts': boolean = null;
     /**
     * Available from
     */
-    'available'?: number = null;
+    'Available'?: number = null;
     /**
     * Slideshow bgcolor
     */
-    'bgcolor'?: string = 'null';
+    'Bgcolor'?: string = 'null';
     /**
     * Require end reached for completion?
     */
-    'completionendreached'?: number = null;
+    'Completionendreached'?: number = null;
     /**
     * Student must do this activity at least for
     */
-    'completiontimespent'?: number = null;
+    'Completiontimespent'?: number = null;
     /**
     * Conditions to enable the lesson
     */
-    'conditions'?: string = 'null';
+    'Conditions'?: string = 'null';
     /**
     * Foreign key reference to the course this lesson is part of.
     */
-    'course': number = null;
+    'Course': number = null;
     /**
     * Course module id.
     */
-    'coursemodule': number = null;
+    'Coursemodule': number = null;
     /**
     * Custom scoring?
     */
-    'custom'?: boolean = null;
+    'Custom'?: boolean = null;
     /**
     * Available until
     */
-    'deadline'?: number = null;
+    'Deadline'?: number = null;
     /**
     * Dependent on (another lesson id)
     */
-    'dependency'?: number = null;
+    'Dependency'?: number = null;
     /**
     * Display left pages menu?
     */
-    'displayleft'?: boolean = null;
+    'Displayleft'?: boolean = null;
     /**
     * Minimum grade to display menu
     */
-    'displayleftif'?: number = null;
+    'Displayleftif'?: number = null;
     /**
     * Display default feedback
     */
-    'feedback'?: boolean = null;
+    'Feedback'?: boolean = null;
     /**
     * The total that the grade is scaled to be out of
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * Slideshow height
     */
-    'height'?: number = null;
+    'Height'?: number = null;
     /**
     * Standard Moodle primary key.
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Lesson introduction text.
     */
-    'intro'?: string = 'null';
-    'introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Intro'?: string = 'null';
+    'Introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = 0;
+    'Introformat'?: number = 0;
     /**
     * Forced activity language
     */
-    'lang': string;
+    'Lang': string;
     /**
     * Maximum answers per page
     */
-    'maxanswers'?: number = null;
+    'Maxanswers'?: number = null;
     /**
     * Maximum attempts
     */
-    'maxattempts'?: number = null;
+    'Maxattempts'?: number = null;
     /**
     * Number of pages to show
     */
-    'maxpages'?: number = null;
+    'Maxpages'?: number = null;
     /**
     * Display a close button in the popup?
     */
-    'mediaclose'?: number = null;
+    'Mediaclose'?: number = null;
     /**
     * Local file path or full external URL
     */
-    'mediafile'?: string = 'null';
-    'mediafiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Mediafile'?: string = 'null';
+    'Mediafiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * Popup for media file height
     */
-    'mediaheight'?: number = null;
+    'Mediaheight'?: number = null;
     /**
     * Popup for media with
     */
-    'mediawidth'?: number = null;
+    'Mediawidth'?: number = null;
     /**
     * Minimum number of questions
     */
-    'minquestions'?: number = null;
+    'Minquestions'?: number = null;
     /**
     * Allow student review?
     */
-    'modattempts'?: boolean = null;
+    'Modattempts'?: boolean = null;
     /**
     * Lesson name.
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * Action for a correct answer
     */
-    'nextpagedefault'?: number = null;
+    'Nextpagedefault'?: number = null;
     /**
     * Display ongoing score?
     */
-    'ongoing'?: boolean = null;
+    'Ongoing'?: boolean = null;
     /**
     * Password
     */
-    'password'?: string = 'null';
+    'Password'?: string = 'null';
     /**
     * Practice lesson?
     */
-    'practice'?: boolean = null;
+    'Practice'?: boolean = null;
     /**
     * Display progress bar?
     */
-    'progressbar'?: boolean = null;
+    'Progressbar'?: boolean = null;
     /**
     * Re-takes allowed
     */
-    'retake'?: boolean = null;
+    'Retake'?: boolean = null;
     /**
     * Provide option to try a question again
     */
-    'review'?: boolean = null;
+    'Review'?: boolean = null;
     /**
     * Display lesson as slideshow
     */
-    'slideshow'?: boolean = null;
+    'Slideshow'?: boolean = null;
     /**
     * Time limit
     */
-    'timelimit'?: number = null;
+    'Timelimit'?: number = null;
     /**
     * Last time settings were updated
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * How to calculate the final grade
     */
-    'usemaxgrade'?: number = null;
+    'Usemaxgrade'?: number = null;
     /**
     * Password protected lesson?
     */
-    'usepassword'?: boolean = null;
+    'Usepassword'?: boolean = null;
     /**
     * Slideshow width
     */
-    'width'?: number = null;
+    'Width'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activitylink",
+            "name": "Activitylink",
             "baseName": "activitylink",
             "type": "number"
         },
         {
-            "name": "allowofflineattempts",
+            "name": "Allowofflineattempts",
             "baseName": "allowofflineattempts",
             "type": "boolean"
         },
         {
-            "name": "available",
+            "name": "Available",
             "baseName": "available",
             "type": "number"
         },
         {
-            "name": "bgcolor",
+            "name": "Bgcolor",
             "baseName": "bgcolor",
             "type": "string"
         },
         {
-            "name": "completionendreached",
+            "name": "Completionendreached",
             "baseName": "completionendreached",
             "type": "number"
         },
         {
-            "name": "completiontimespent",
+            "name": "Completiontimespent",
             "baseName": "completiontimespent",
             "type": "number"
         },
         {
-            "name": "conditions",
+            "name": "Conditions",
             "baseName": "conditions",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "custom",
+            "name": "Custom",
             "baseName": "custom",
             "type": "boolean"
         },
         {
-            "name": "deadline",
+            "name": "Deadline",
             "baseName": "deadline",
             "type": "number"
         },
         {
-            "name": "dependency",
+            "name": "Dependency",
             "baseName": "dependency",
             "type": "number"
         },
         {
-            "name": "displayleft",
+            "name": "Displayleft",
             "baseName": "displayleft",
             "type": "boolean"
         },
         {
-            "name": "displayleftif",
+            "name": "Displayleftif",
             "baseName": "displayleftif",
             "type": "number"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "boolean"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "height",
+            "name": "Height",
             "baseName": "height",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "maxanswers",
+            "name": "Maxanswers",
             "baseName": "maxanswers",
             "type": "number"
         },
         {
-            "name": "maxattempts",
+            "name": "Maxattempts",
             "baseName": "maxattempts",
             "type": "number"
         },
         {
-            "name": "maxpages",
+            "name": "Maxpages",
             "baseName": "maxpages",
             "type": "number"
         },
         {
-            "name": "mediaclose",
+            "name": "Mediaclose",
             "baseName": "mediaclose",
             "type": "number"
         },
         {
-            "name": "mediafile",
+            "name": "Mediafile",
             "baseName": "mediafile",
             "type": "string"
         },
         {
-            "name": "mediafiles",
+            "name": "Mediafiles",
             "baseName": "mediafiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "mediaheight",
+            "name": "Mediaheight",
             "baseName": "mediaheight",
             "type": "number"
         },
         {
-            "name": "mediawidth",
+            "name": "Mediawidth",
             "baseName": "mediawidth",
             "type": "number"
         },
         {
-            "name": "minquestions",
+            "name": "Minquestions",
             "baseName": "minquestions",
             "type": "number"
         },
         {
-            "name": "modattempts",
+            "name": "Modattempts",
             "baseName": "modattempts",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nextpagedefault",
+            "name": "Nextpagedefault",
             "baseName": "nextpagedefault",
             "type": "number"
         },
         {
-            "name": "ongoing",
+            "name": "Ongoing",
             "baseName": "ongoing",
             "type": "boolean"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "practice",
+            "name": "Practice",
             "baseName": "practice",
             "type": "boolean"
         },
         {
-            "name": "progressbar",
+            "name": "Progressbar",
             "baseName": "progressbar",
             "type": "boolean"
         },
         {
-            "name": "retake",
+            "name": "Retake",
             "baseName": "retake",
             "type": "boolean"
         },
         {
-            "name": "review",
+            "name": "Review",
             "baseName": "review",
             "type": "boolean"
         },
         {
-            "name": "slideshow",
+            "name": "Slideshow",
             "baseName": "slideshow",
             "type": "boolean"
         },
         {
-            "name": "timelimit",
+            "name": "Timelimit",
             "baseName": "timelimit",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usemaxgrade",
+            "name": "Usemaxgrade",
             "baseName": "usemaxgrade",
             "type": "number"
         },
         {
-            "name": "usepassword",
+            "name": "Usepassword",
             "baseName": "usepassword",
             "type": "boolean"
         },
         {
-            "name": "width",
+            "name": "Width",
             "baseName": "width",
             "type": "number"
         }    ];

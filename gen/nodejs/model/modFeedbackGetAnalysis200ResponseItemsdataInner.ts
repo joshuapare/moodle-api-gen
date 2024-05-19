@@ -14,19 +14,19 @@ import { RequestFile } from './models';
 import { ModFeedbackGetAnalysis200ResponseItemsdataInnerItem } from './modFeedbackGetAnalysis200ResponseItemsdataInnerItem';
 
 export class ModFeedbackGetAnalysis200ResponseItemsdataInner {
-    'data'?: Array<object>;
-    'item'?: ModFeedbackGetAnalysis200ResponseItemsdataInnerItem;
+    'Data'?: Array<object>;
+    'Item'?: ModFeedbackGetAnalysis200ResponseItemsdataInnerItem;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<object>"
         },
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "ModFeedbackGetAnalysis200ResponseItemsdataInnerItem"
         }    ];

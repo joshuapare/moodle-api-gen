@@ -17,52 +17,52 @@ export class ToolLpDataForPlansPage200Response {
     /**
     * Can the current user manage the user\'s plans
     */
-    'canmanageuserplans': boolean = null;
+    'Canmanageuserplans': boolean = null;
     /**
     * Can the current user view the user\'s evidence
     */
-    'canreaduserevidence': boolean = null;
-    'navigation': Array<object>;
-    'plans': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>;
+    'Canreaduserevidence': boolean = null;
+    'Navigation': Array<object>;
+    'Plans': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>;
     /**
     * Url to the tool_lp plugin folder on this Moodle site
     */
-    'pluginbaseurl': string;
+    'Pluginbaseurl': string;
     /**
     * The learning plan user id
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanageuserplans",
+            "name": "Canmanageuserplans",
             "baseName": "canmanageuserplans",
             "type": "boolean"
         },
         {
-            "name": "canreaduserevidence",
+            "name": "Canreaduserevidence",
             "baseName": "canreaduserevidence",
             "type": "boolean"
         },
         {
-            "name": "navigation",
+            "name": "Navigation",
             "baseName": "navigation",
             "type": "Array<object>"
         },
         {
-            "name": "plans",
+            "name": "Plans",
             "baseName": "plans",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

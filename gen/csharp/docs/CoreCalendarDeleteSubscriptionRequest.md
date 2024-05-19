@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarDeleteSubscriptionRequest
+# MoodleClient.Model.CoreCalendarDeleteSubscriptionRequest
 
 ## Properties
 

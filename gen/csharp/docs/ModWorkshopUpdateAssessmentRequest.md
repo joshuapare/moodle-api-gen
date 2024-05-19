@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopUpdateAssessmentRequest
+# MoodleClient.Model.ModWorkshopUpdateAssessmentRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetAuthorsRequest
+# MoodleClient.Model.ModGlossaryGetAuthorsRequest
 
 ## Properties
 

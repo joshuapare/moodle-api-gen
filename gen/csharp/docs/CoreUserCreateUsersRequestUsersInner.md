@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserCreateUsersRequestUsersInner
+# MoodleClient.Model.CoreUserCreateUsersRequestUsersInner
 
 ## Properties
 

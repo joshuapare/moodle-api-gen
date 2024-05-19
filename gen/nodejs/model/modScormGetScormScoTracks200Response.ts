@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModScormGetScormScoTracks200ResponseData } from './modScormGetScormScoTracks200ResponseData';
 
 export class ModScormGetScormScoTracks200Response {
-    'data': ModScormGetScormScoTracks200ResponseData;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Data': ModScormGetScormScoTracks200ResponseData;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "ModScormGetScormScoTracks200ResponseData"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

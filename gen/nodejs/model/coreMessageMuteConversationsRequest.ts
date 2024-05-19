@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class CoreMessageMuteConversationsRequest {
-    'conversationids': Array<object>;
+    'Conversationids': Array<object>;
     /**
     * The id of the user who is blocking
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversationids",
+            "name": "Conversationids",
             "baseName": "conversationids",
             "type": "Array<object>"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderListReportsRequest
+# MoodleClient.Model.CoreReportbuilderListReportsRequest
 
 ## Properties
 

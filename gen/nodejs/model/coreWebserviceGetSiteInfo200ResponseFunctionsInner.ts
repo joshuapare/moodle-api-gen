@@ -19,22 +19,22 @@ export class CoreWebserviceGetSiteInfo200ResponseFunctionsInner {
     /**
     * function name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The version number of the component to which the function belongs
     */
-    'version'?: string = 'null';
+    'Version'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         }    ];

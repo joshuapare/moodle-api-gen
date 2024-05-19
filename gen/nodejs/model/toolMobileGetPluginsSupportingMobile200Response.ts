@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ToolMobileGetPluginsSupportingMobile200ResponsePluginsInner } from './toolMobileGetPluginsSupportingMobile200ResponsePluginsInner';
 
 export class ToolMobileGetPluginsSupportingMobile200Response {
-    'plugins': Array<ToolMobileGetPluginsSupportingMobile200ResponsePluginsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Plugins': Array<ToolMobileGetPluginsSupportingMobile200ResponsePluginsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "plugins",
+            "name": "Plugins",
             "baseName": "plugins",
             "type": "Array<ToolMobileGetPluginsSupportingMobile200ResponsePluginsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

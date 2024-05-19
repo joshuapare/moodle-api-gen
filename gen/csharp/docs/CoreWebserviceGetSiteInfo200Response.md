@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreWebserviceGetSiteInfo200Response
+# MoodleClient.Model.CoreWebserviceGetSiteInfo200Response
 
 ## Properties
 

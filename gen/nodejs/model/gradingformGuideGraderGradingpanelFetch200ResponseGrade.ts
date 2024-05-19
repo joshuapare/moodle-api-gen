@@ -15,82 +15,82 @@ import { GradingformGuideGraderGradingpanelFetch200ResponseGradeCommentsInner } 
 import { GradingformGuideGraderGradingpanelFetch200ResponseGradeCriterionInner } from './gradingformGuideGraderGradingpanelFetch200ResponseGradeCriterionInner';
 
 export class GradingformGuideGraderGradingpanelFetch200ResponseGrade {
-    'comments': Array<GradingformGuideGraderGradingpanelFetch200ResponseGradeCommentsInner>;
-    'criterion': Array<GradingformGuideGraderGradingpanelFetch200ResponseGradeCriterionInner>;
+    'Comments': Array<GradingformGuideGraderGradingpanelFetch200ResponseGradeCommentsInner>;
+    'Criterion': Array<GradingformGuideGraderGradingpanelFetch200ResponseGradeCriterionInner>;
     /**
     * The assumed grader of this grading instance
     */
-    'gradedby': string;
+    'Gradedby': string;
     /**
     * Whether there are any frequently-used comments
     */
-    'hascomments': boolean = null;
+    'Hascomments': boolean = null;
     /**
     * The id of the current grading instance
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
     /**
     * Max possible grade
     */
-    'maxgrade': string;
+    'Maxgrade': string;
     /**
     * The time that the grade was created
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * The time that the grade was last updated
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * Current user grade
     */
-    'usergrade': string;
+    'Usergrade': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "Array<GradingformGuideGraderGradingpanelFetch200ResponseGradeCommentsInner>"
         },
         {
-            "name": "criterion",
+            "name": "Criterion",
             "baseName": "criterion",
             "type": "Array<GradingformGuideGraderGradingpanelFetch200ResponseGradeCriterionInner>"
         },
         {
-            "name": "gradedby",
+            "name": "Gradedby",
             "baseName": "gradedby",
             "type": "string"
         },
         {
-            "name": "hascomments",
+            "name": "Hascomments",
             "baseName": "hascomments",
             "type": "boolean"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usergrade",
+            "name": "Usergrade",
             "baseName": "usergrade",
             "type": "string"
         }    ];

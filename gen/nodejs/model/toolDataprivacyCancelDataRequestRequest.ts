@@ -16,13 +16,13 @@ export class ToolDataprivacyCancelDataRequestRequest {
     /**
     * The request ID
     */
-    'requestid': number;
+    'Requestid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "requestid",
+            "name": "Requestid",
             "baseName": "requestid",
             "type": "number"
         }    ];

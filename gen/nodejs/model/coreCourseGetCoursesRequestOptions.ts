@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreCourseGetCoursesRequestOptions {
-    'ids'?: Array<object>;
+    'Ids'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ids",
+            "name": "Ids",
             "baseName": "ids",
             "type": "Array<object>"
         }    ];

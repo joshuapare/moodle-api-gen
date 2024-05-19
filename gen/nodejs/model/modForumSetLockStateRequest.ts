@@ -16,31 +16,31 @@ export class ModForumSetLockStateRequest {
     /**
     * The discussion to lock / unlock
     */
-    'discussionid': number = null;
+    'Discussionid': number = null;
     /**
     * Forum that the discussion is in
     */
-    'forumid': number = null;
+    'Forumid': number = null;
     /**
     * The timestamp for the lock state
     */
-    'targetstate': number = null;
+    'Targetstate': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         },
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "targetstate",
+            "name": "Targetstate",
             "baseName": "targetstate",
             "type": "number"
         }    ];

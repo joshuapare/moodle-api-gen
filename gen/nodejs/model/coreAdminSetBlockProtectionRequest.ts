@@ -16,22 +16,22 @@ export class CoreAdminSetBlockProtectionRequest {
     /**
     * The name of the plugin
     */
-    'plugin': string = 'null';
+    'Plugin': string = 'null';
     /**
     * The target state
     */
-    'state': number = null;
+    'State': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "plugin",
+            "name": "Plugin",
             "baseName": "plugin",
             "type": "string"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class ToolDataprivacySubmitSelectedCoursesFormRequest {
     /**
     * The data of selected courses form, encoded as a json array
     */
-    'jsonformdata': string = 'null';
+    'Jsonformdata': string = 'null';
     /**
     * The id of data request
     */
-    'requestid': number = null;
+    'Requestid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "jsonformdata",
+            "name": "Jsonformdata",
             "baseName": "jsonformdata",
             "type": "string"
         },
         {
-            "name": "requestid",
+            "name": "Requestid",
             "baseName": "requestid",
             "type": "number"
         }    ];

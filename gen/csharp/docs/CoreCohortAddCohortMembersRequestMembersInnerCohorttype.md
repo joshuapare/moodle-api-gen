@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCohortAddCohortMembersRequestMembersInnerCohorttype
+# MoodleClient.Model.CoreCohortAddCohortMembersRequestMembersInnerCohorttype
 
 ## Properties
 

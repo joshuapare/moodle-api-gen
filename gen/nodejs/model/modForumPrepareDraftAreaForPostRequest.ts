@@ -17,37 +17,37 @@ export class ModForumPrepareDraftAreaForPostRequest {
     /**
     * Area to prepare: attachment or post.
     */
-    'area': string = 'null';
+    'Area': string = 'null';
     /**
     * The draft item id to use. 0 to generate one.
     */
-    'draftitemid'?: number = 0;
-    'filestokeep'?: Array<ModForumPrepareDraftAreaForPostRequestFilestokeepInner>;
+    'Draftitemid'?: number = 0;
+    'Filestokeep'?: Array<ModForumPrepareDraftAreaForPostRequestFilestokeepInner>;
     /**
     * Post to prepare the draft area for.
     */
-    'postid': number = null;
+    'Postid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "draftitemid",
+            "name": "Draftitemid",
             "baseName": "draftitemid",
             "type": "number"
         },
         {
-            "name": "filestokeep",
+            "name": "Filestokeep",
             "baseName": "filestokeep",
             "type": "Array<ModForumPrepareDraftAreaForPostRequestFilestokeepInner>"
         },
         {
-            "name": "postid",
+            "name": "Postid",
             "baseName": "postid",
             "type": "number"
         }    ];

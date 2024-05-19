@@ -16,19 +16,19 @@ export class ModAssignRevertSubmissionsToDraftRequest {
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
-    'userids': Array<object>;
+    'Assignmentid': number;
+    'Userids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

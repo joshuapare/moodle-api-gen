@@ -16,13 +16,13 @@ export class CoreMessageGetReceivedContactRequestsCountRequest {
     /**
     * The id of the user we want to return the number of received contact requests for
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

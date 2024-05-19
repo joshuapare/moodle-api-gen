@@ -17,28 +17,28 @@ import { ModScormGetScormUserData200ResponseDataInnerDefaultdataInner } from './
 * SCO data
 */
 export class ModScormGetScormUserData200ResponseDataInner {
-    'defaultdata'?: Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>;
+    'Defaultdata'?: Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>;
     /**
     * sco id
     */
-    'scoid'?: number;
-    'userdata'?: Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>;
+    'Scoid'?: number;
+    'Userdata'?: Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "defaultdata",
+            "name": "Defaultdata",
             "baseName": "defaultdata",
             "type": "Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>"
         },
         {
-            "name": "scoid",
+            "name": "Scoid",
             "baseName": "scoid",
             "type": "number"
         },
         {
-            "name": "userdata",
+            "name": "Userdata",
             "baseName": "userdata",
             "type": "Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>"
         }    ];

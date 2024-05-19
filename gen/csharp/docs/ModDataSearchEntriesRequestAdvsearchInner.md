@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataSearchEntriesRequestAdvsearchInner
+# MoodleClient.Model.ModDataSearchEntriesRequestAdvsearchInner
 
 ## Properties
 

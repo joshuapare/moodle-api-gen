@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QuizaccessSebValidateQuizKeys200Response
+# MoodleClient.Model.QuizaccessSebValidateQuizKeys200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyConfirmContextsForDeletionRequest
+# MoodleClient.Model.ToolDataprivacyConfirmContextsForDeletionRequest
 
 ## Properties
 

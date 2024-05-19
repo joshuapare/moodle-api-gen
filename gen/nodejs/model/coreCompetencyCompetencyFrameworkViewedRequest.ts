@@ -16,13 +16,13 @@ export class CoreCompetencyCompetencyFrameworkViewedRequest {
     /**
     * The competency framework id
     */
-    'id': number = null;
+    'Id': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

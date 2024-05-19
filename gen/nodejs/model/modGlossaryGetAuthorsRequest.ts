@@ -17,37 +17,37 @@ export class ModGlossaryGetAuthorsRequest {
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * Glossary entry ID
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
-    'options'?: ModGlossaryGetAuthorsRequestOptions;
+    'Limit'?: number = 20;
+    'Options'?: ModGlossaryGetAuthorsRequestOptions;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModGlossaryGetAuthorsRequestOptions"
         }    ];

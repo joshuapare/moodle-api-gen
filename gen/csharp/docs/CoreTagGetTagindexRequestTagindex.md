@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreTagGetTagindexRequestTagindex
+# MoodleClient.Model.CoreTagGetTagindexRequestTagindex
 
 ## Properties
 

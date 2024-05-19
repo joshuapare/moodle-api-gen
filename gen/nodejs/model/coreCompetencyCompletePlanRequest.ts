@@ -16,13 +16,13 @@ export class CoreCompetencyCompletePlanRequest {
     /**
     * The plan id
     */
-    'planid': number;
+    'Planid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "planid",
+            "name": "Planid",
             "baseName": "planid",
             "type": "number"
         }    ];

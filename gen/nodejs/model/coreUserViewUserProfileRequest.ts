@@ -16,22 +16,22 @@ export class CoreUserViewUserProfileRequest {
     /**
     * id of the course, default site course
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * id of the user, 0 for current user
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

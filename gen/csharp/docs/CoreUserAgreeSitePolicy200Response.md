@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserAgreeSitePolicy200Response
+# MoodleClient.Model.CoreUserAgreeSitePolicy200Response
 
 ## Properties
 

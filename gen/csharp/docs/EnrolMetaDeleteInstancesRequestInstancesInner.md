@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.EnrolMetaDeleteInstancesRequestInstancesInner
+# MoodleClient.Model.EnrolMetaDeleteInstancesRequestInstancesInner
 
 ## Properties
 

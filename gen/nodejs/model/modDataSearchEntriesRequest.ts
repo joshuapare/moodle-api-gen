@@ -14,85 +14,85 @@ import { RequestFile } from './models';
 import { ModDataSearchEntriesRequestAdvsearchInner } from './modDataSearchEntriesRequestAdvsearchInner';
 
 export class ModDataSearchEntriesRequest {
-    'advsearch'?: Array<ModDataSearchEntriesRequestAdvsearchInner>;
+    'Advsearch'?: Array<ModDataSearchEntriesRequestAdvsearchInner>;
     /**
     * data instance id
     */
-    'databaseid': number;
+    'Databaseid': number;
     /**
     * Group id, 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The direction of the sorting: \'ASC\' or \'DESC\'.                                                 Empty for using the default database setting.
     */
-    'order'?: string;
+    'Order'?: string;
     /**
     * The page of records to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of records to return per page
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * Whether to return contents or not.
     */
-    'returncontents'?: boolean = false;
+    'Returncontents'?: boolean = false;
     /**
     * search string (empty when using advanced)
     */
-    'search'?: string = '';
+    'Search'?: string = '';
     /**
     * Sort the records by this field id, reserved ids are:                                                 0: timeadded                                                 -1: firstname                                                 -2: lastname                                                 -3: approved                                                 -4: timemodified.                                                 Empty for using the default database setting.
     */
-    'sort'?: number;
+    'Sort'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "advsearch",
+            "name": "Advsearch",
             "baseName": "advsearch",
             "type": "Array<ModDataSearchEntriesRequestAdvsearchInner>"
         },
         {
-            "name": "databaseid",
+            "name": "Databaseid",
             "baseName": "databaseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "returncontents",
+            "name": "Returncontents",
             "baseName": "returncontents",
             "type": "boolean"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "number"
         }    ];

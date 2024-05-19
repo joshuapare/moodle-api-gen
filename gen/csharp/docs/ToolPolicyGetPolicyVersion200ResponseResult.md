@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolPolicyGetPolicyVersion200ResponseResult
+# MoodleClient.Model.ToolPolicyGetPolicyVersion200ResponseResult
 
 ## Properties
 

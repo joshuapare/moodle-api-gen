@@ -18,379 +18,379 @@ import { CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon } from '.
 import { CoreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription } from './coreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription';
 
 export class CoreCalendarGetActionEventsByCourse200ResponseEventsInner {
-    'action'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerAction;
+    'Action'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerAction;
     /**
     * activityname
     */
-    'activityname'?: string = 'null';
+    'Activityname'?: string = 'null';
     /**
     * activitystr
     */
-    'activitystr'?: string = 'null';
+    'Activitystr'?: string = 'null';
     /**
     * candelete
     */
-    'candelete'?: boolean = null;
+    'Candelete'?: boolean = null;
     /**
     * canedit
     */
-    'canedit'?: boolean = null;
-    'category'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory;
+    'Canedit'?: boolean = null;
+    'Category'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory;
     /**
     * categoryid
     */
-    'categoryid'?: number = null;
+    'Categoryid'?: number = null;
     /**
     * component
     */
-    'component'?: string = 'null';
-    'course'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCourse;
+    'Component'?: string = 'null';
+    'Course'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCourse;
     /**
     * deleteurl
     */
-    'deleteurl'?: string = 'null';
+    'Deleteurl'?: string = 'null';
     /**
     * description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * editurl
     */
-    'editurl'?: string = 'null';
+    'Editurl'?: string = 'null';
     /**
     * eventcount
     */
-    'eventcount'?: number = null;
+    'Eventcount'?: number = null;
     /**
     * eventtype
     */
-    'eventtype'?: string = 'null';
+    'Eventtype'?: string = 'null';
     /**
     * formattedlocation
     */
-    'formattedlocation'?: string = 'null';
+    'Formattedlocation'?: string = 'null';
     /**
     * formattedtime
     */
-    'formattedtime'?: string = 'null';
+    'Formattedtime'?: string = 'null';
     /**
     * groupid
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
     /**
     * groupname
     */
-    'groupname'?: string = 'null';
-    'icon'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon;
+    'Groupname'?: string = 'null';
+    'Icon'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * instance
     */
-    'instance'?: number = null;
+    'Instance'?: number = null;
     /**
     * isactionevent
     */
-    'isactionevent'?: boolean = null;
+    'Isactionevent'?: boolean = null;
     /**
     * iscategoryevent
     */
-    'iscategoryevent'?: boolean = null;
+    'Iscategoryevent'?: boolean = null;
     /**
     * iscourseevent
     */
-    'iscourseevent'?: boolean = null;
+    'Iscourseevent'?: boolean = null;
     /**
     * location
     */
-    'location'?: string = 'null';
+    'Location'?: string = 'null';
     /**
     * modulename
     */
-    'modulename'?: string = 'null';
+    'Modulename'?: string = 'null';
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * normalisedeventtype
     */
-    'normalisedeventtype'?: string = 'null';
+    'Normalisedeventtype'?: string = 'null';
     /**
     * normalisedeventtypetext
     */
-    'normalisedeventtypetext'?: string = 'null';
+    'Normalisedeventtypetext'?: string = 'null';
     /**
     * overdue
     */
-    'overdue'?: boolean = false;
+    'Overdue'?: boolean = false;
     /**
     * purpose
     */
-    'purpose'?: string = 'null';
+    'Purpose'?: string = 'null';
     /**
     * repeatid
     */
-    'repeatid'?: number = null;
-    'subscription'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription;
+    'Repeatid'?: number = null;
+    'Subscription'?: CoreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription;
     /**
     * timeduration
     */
-    'timeduration'?: number = null;
+    'Timeduration'?: number = null;
     /**
     * timemodified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * timesort
     */
-    'timesort'?: number = null;
+    'Timesort'?: number = null;
     /**
     * timestart
     */
-    'timestart'?: number = null;
+    'Timestart'?: number = null;
     /**
     * timeusermidnight
     */
-    'timeusermidnight'?: number = null;
+    'Timeusermidnight'?: number = null;
     /**
     * url
     */
-    'url'?: string;
+    'Url'?: string;
     /**
     * userid
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * viewurl
     */
-    'viewurl'?: string;
+    'Viewurl'?: string;
     /**
     * visible
     */
-    'visible'?: number = null;
+    'Visible'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "CoreCalendarGetActionEventsByCourse200ResponseEventsInnerAction"
         },
         {
-            "name": "activityname",
+            "name": "Activityname",
             "baseName": "activityname",
             "type": "string"
         },
         {
-            "name": "activitystr",
+            "name": "Activitystr",
             "baseName": "activitystr",
             "type": "string"
         },
         {
-            "name": "candelete",
+            "name": "Candelete",
             "baseName": "candelete",
             "type": "boolean"
         },
         {
-            "name": "canedit",
+            "name": "Canedit",
             "baseName": "canedit",
             "type": "boolean"
         },
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory"
         },
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCourse"
         },
         {
-            "name": "deleteurl",
+            "name": "Deleteurl",
             "baseName": "deleteurl",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "editurl",
+            "name": "Editurl",
             "baseName": "editurl",
             "type": "string"
         },
         {
-            "name": "eventcount",
+            "name": "Eventcount",
             "baseName": "eventcount",
             "type": "number"
         },
         {
-            "name": "eventtype",
+            "name": "Eventtype",
             "baseName": "eventtype",
             "type": "string"
         },
         {
-            "name": "formattedlocation",
+            "name": "Formattedlocation",
             "baseName": "formattedlocation",
             "type": "string"
         },
         {
-            "name": "formattedtime",
+            "name": "Formattedtime",
             "baseName": "formattedtime",
             "type": "string"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "groupname",
+            "name": "Groupname",
             "baseName": "groupname",
             "type": "string"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "CoreCalendarGetActionEventsByCourse200ResponseEventsInnerIcon"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instance",
+            "name": "Instance",
             "baseName": "instance",
             "type": "number"
         },
         {
-            "name": "isactionevent",
+            "name": "Isactionevent",
             "baseName": "isactionevent",
             "type": "boolean"
         },
         {
-            "name": "iscategoryevent",
+            "name": "Iscategoryevent",
             "baseName": "iscategoryevent",
             "type": "boolean"
         },
         {
-            "name": "iscourseevent",
+            "name": "Iscourseevent",
             "baseName": "iscourseevent",
             "type": "boolean"
         },
         {
-            "name": "location",
+            "name": "Location",
             "baseName": "location",
             "type": "string"
         },
         {
-            "name": "modulename",
+            "name": "Modulename",
             "baseName": "modulename",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "normalisedeventtype",
+            "name": "Normalisedeventtype",
             "baseName": "normalisedeventtype",
             "type": "string"
         },
         {
-            "name": "normalisedeventtypetext",
+            "name": "Normalisedeventtypetext",
             "baseName": "normalisedeventtypetext",
             "type": "string"
         },
         {
-            "name": "overdue",
+            "name": "Overdue",
             "baseName": "overdue",
             "type": "boolean"
         },
         {
-            "name": "purpose",
+            "name": "Purpose",
             "baseName": "purpose",
             "type": "string"
         },
         {
-            "name": "repeatid",
+            "name": "Repeatid",
             "baseName": "repeatid",
             "type": "number"
         },
         {
-            "name": "subscription",
+            "name": "Subscription",
             "baseName": "subscription",
             "type": "CoreCalendarGetActionEventsByCourse200ResponseEventsInnerSubscription"
         },
         {
-            "name": "timeduration",
+            "name": "Timeduration",
             "baseName": "timeduration",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timesort",
+            "name": "Timesort",
             "baseName": "timesort",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "timeusermidnight",
+            "name": "Timeusermidnight",
             "baseName": "timeusermidnight",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "viewurl",
+            "name": "Viewurl",
             "baseName": "viewurl",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

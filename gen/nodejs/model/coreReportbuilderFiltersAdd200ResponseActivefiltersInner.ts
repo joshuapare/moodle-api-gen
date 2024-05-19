@@ -16,58 +16,58 @@ export class CoreReportbuilderFiltersAdd200ResponseActivefiltersInner {
     /**
     * entityname
     */
-    'entityname'?: string = 'null';
+    'Entityname'?: string = 'null';
     /**
     * heading
     */
-    'heading'?: string;
+    'Heading'?: string;
     /**
     * headingeditable
     */
-    'headingeditable'?: string = 'null';
+    'Headingeditable'?: string = 'null';
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * movetitle
     */
-    'movetitle'?: string;
+    'Movetitle'?: string;
     /**
     * sortorder
     */
-    'sortorder'?: number;
+    'Sortorder'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entityname",
+            "name": "Entityname",
             "baseName": "entityname",
             "type": "string"
         },
         {
-            "name": "heading",
+            "name": "Heading",
             "baseName": "heading",
             "type": "string"
         },
         {
-            "name": "headingeditable",
+            "name": "Headingeditable",
             "baseName": "headingeditable",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "movetitle",
+            "name": "Movetitle",
             "baseName": "movetitle",
             "type": "string"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         }    ];

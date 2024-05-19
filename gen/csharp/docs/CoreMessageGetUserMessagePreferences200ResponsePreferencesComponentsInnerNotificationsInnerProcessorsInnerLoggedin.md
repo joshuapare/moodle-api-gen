@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedin
+# MoodleClient.Model.CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedin
 
 ## Properties
 

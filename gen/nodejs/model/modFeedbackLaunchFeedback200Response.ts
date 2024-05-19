@@ -17,19 +17,19 @@ export class ModFeedbackLaunchFeedback200Response {
     /**
     * The next page to go (-1 if we were already in the last page). 0 for first page.
     */
-    'gopage': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Gopage': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "gopage",
+            "name": "Gopage",
             "baseName": "gopage",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

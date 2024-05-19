@@ -16,58 +16,58 @@ export class ModQuizAddRandomQuestionsRequest {
     /**
     * The page where random questions will be added to
     */
-    'addonpage': number = null;
+    'Addonpage': number = null;
     /**
     * The cmid of the quiz
     */
-    'cmid': number = null;
+    'Cmid': number = null;
     /**
     * (Optional) The filter condition used when adding random questions from an existing category.                     Not required if adding random questions from a new category.
     */
-    'filtercondition'?: string = '';
+    'Filtercondition'?: string = '';
     /**
     * (Optional) The name of a new question category to create and use for the random questions.
     */
-    'newcategory'?: string = '';
+    'Newcategory'?: string = '';
     /**
     * (Optional) The parent of the new question category, if creating one.
     */
-    'parentcategory'?: string = '0';
+    'Parentcategory'?: string = '0';
     /**
     * Number of random questions
     */
-    'randomcount': number = null;
+    'Randomcount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addonpage",
+            "name": "Addonpage",
             "baseName": "addonpage",
             "type": "number"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "filtercondition",
+            "name": "Filtercondition",
             "baseName": "filtercondition",
             "type": "string"
         },
         {
-            "name": "newcategory",
+            "name": "Newcategory",
             "baseName": "newcategory",
             "type": "string"
         },
         {
-            "name": "parentcategory",
+            "name": "Parentcategory",
             "baseName": "parentcategory",
             "type": "string"
         },
         {
-            "name": "randomcount",
+            "name": "Randomcount",
             "baseName": "randomcount",
             "type": "number"
         }    ];

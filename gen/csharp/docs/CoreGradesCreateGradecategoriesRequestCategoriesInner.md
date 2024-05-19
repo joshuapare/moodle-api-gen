@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesCreateGradecategoriesRequestCategoriesInner
+# MoodleClient.Model.CoreGradesCreateGradecategoriesRequestCategoriesInner
 Category to create
 
 ## Properties

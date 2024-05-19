@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataSearchEntries200Response
+# MoodleClient.Model.ModDataSearchEntries200Response
 
 ## Properties
 

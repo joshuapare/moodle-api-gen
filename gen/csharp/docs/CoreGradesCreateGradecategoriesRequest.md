@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesCreateGradecategoriesRequest
+# MoodleClient.Model.CoreGradesCreateGradecategoriesRequest
 
 ## Properties
 

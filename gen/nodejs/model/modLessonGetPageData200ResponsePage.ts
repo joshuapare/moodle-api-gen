@@ -16,157 +16,157 @@ export class ModLessonGetPageData200ResponsePage {
     /**
     * The contents of this page
     */
-    'contents'?: string = 'null';
+    'Contents'?: string = 'null';
     /**
     * contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'contentsformat'?: number = null;
+    'Contentsformat'?: number = null;
     /**
     * Used to record page specific display selections
     */
-    'display': number = null;
+    'Display': number = null;
     /**
     * Toggles display in the left menu block
     */
-    'displayinmenublock': boolean = null;
+    'Displayinmenublock': boolean = null;
     /**
     * The id of this lesson page
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Used to record page specific layout selections
     */
-    'layout': number = null;
+    'Layout': number = null;
     /**
     * The id of the lesson this page belongs to
     */
-    'lessonid': number = null;
+    'Lessonid': number = null;
     /**
     * The id of the next page in the page sequence
     */
-    'nextpageid': number = null;
+    'Nextpageid': number = null;
     /**
     * The id of the page before this one
     */
-    'prevpageid': number = null;
+    'Prevpageid': number = null;
     /**
     * Used to record page type specific options
     */
-    'qoption': number = null;
+    'Qoption': number = null;
     /**
     * Identifies the page type of this page
     */
-    'qtype': number = null;
+    'Qtype': number = null;
     /**
     * Timestamp for when the page was created
     */
-    'timecreated': number = null;
+    'Timecreated': number = null;
     /**
     * Timestamp for when the page was last modified
     */
-    'timemodified': number = null;
+    'Timemodified': number = null;
     /**
     * The title of this page
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
     /**
     * The type of the page [question | structure]
     */
-    'type': number = null;
+    'Type': number = null;
     /**
     * The unique identifier for the page type
     */
-    'typeid': number = null;
+    'Typeid': number = null;
     /**
     * The string that describes this page type
     */
-    'typestring': string = 'null';
+    'Typestring': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contents",
+            "name": "Contents",
             "baseName": "contents",
             "type": "string"
         },
         {
-            "name": "contentsformat",
+            "name": "Contentsformat",
             "baseName": "contentsformat",
             "type": "number"
         },
         {
-            "name": "display",
+            "name": "Display",
             "baseName": "display",
             "type": "number"
         },
         {
-            "name": "displayinmenublock",
+            "name": "Displayinmenublock",
             "baseName": "displayinmenublock",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "layout",
+            "name": "Layout",
             "baseName": "layout",
             "type": "number"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "nextpageid",
+            "name": "Nextpageid",
             "baseName": "nextpageid",
             "type": "number"
         },
         {
-            "name": "prevpageid",
+            "name": "Prevpageid",
             "baseName": "prevpageid",
             "type": "number"
         },
         {
-            "name": "qoption",
+            "name": "Qoption",
             "baseName": "qoption",
             "type": "number"
         },
         {
-            "name": "qtype",
+            "name": "Qtype",
             "baseName": "qtype",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "typeid",
+            "name": "Typeid",
             "baseName": "typeid",
             "type": "number"
         },
         {
-            "name": "typestring",
+            "name": "Typestring",
             "baseName": "typestring",
             "type": "string"
         }    ];

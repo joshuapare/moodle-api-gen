@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageSendMessagesToConversationRequest
+# MoodleClient.Model.CoreMessageSendMessagesToConversationRequest
 
 ## Properties
 

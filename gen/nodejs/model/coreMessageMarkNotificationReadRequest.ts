@@ -16,22 +16,22 @@ export class CoreMessageMarkNotificationReadRequest {
     /**
     * id of the notification
     */
-    'notificationid': number = null;
+    'Notificationid': number = null;
     /**
     * timestamp for when the notification should be marked read
     */
-    'timeread'?: number = 0;
+    'Timeread'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "notificationid",
+            "name": "Notificationid",
             "baseName": "notificationid",
             "type": "number"
         },
         {
-            "name": "timeread",
+            "name": "Timeread",
             "baseName": "timeread",
             "type": "number"
         }    ];

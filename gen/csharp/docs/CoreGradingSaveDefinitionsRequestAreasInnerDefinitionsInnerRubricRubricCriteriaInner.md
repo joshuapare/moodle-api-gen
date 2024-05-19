@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerRubricRubricCriteriaInner
+# MoodleClient.Model.CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerRubricRubricCriteriaInner
 
 ## Properties
 

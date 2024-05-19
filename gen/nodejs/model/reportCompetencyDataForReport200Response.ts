@@ -16,43 +16,43 @@ import { CoreCompetencyGradeCompetency200ResponseActionuser } from './coreCompet
 import { ReportCompetencyDataForReport200ResponseUsercompetenciesInner } from './reportCompetencyDataForReport200ResponseUsercompetenciesInner';
 
 export class ReportCompetencyDataForReport200Response {
-    'course': CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse;
+    'Course': CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse;
     /**
     * Course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * True if rating is push to user plans
     */
-    'pushratingstouserplans': boolean = null;
-    'user': CoreCompetencyGradeCompetency200ResponseActionuser;
-    'usercompetencies': Array<ReportCompetencyDataForReport200ResponseUsercompetenciesInner>;
+    'Pushratingstouserplans': boolean = null;
+    'User': CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Usercompetencies': Array<ReportCompetencyDataForReport200ResponseUsercompetenciesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "pushratingstouserplans",
+            "name": "Pushratingstouserplans",
             "baseName": "pushratingstouserplans",
             "type": "boolean"
         },
         {
-            "name": "user",
+            "name": "User",
             "baseName": "user",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "usercompetencies",
+            "name": "Usercompetencies",
             "baseName": "usercompetencies",
             "type": "Array<ReportCompetencyDataForReport200ResponseUsercompetenciesInner>"
         }    ];

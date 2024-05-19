@@ -16,22 +16,22 @@ export class CoreMessageCreateContactRequestRequest {
     /**
     * The id of the user being requested
     */
-    'requesteduserid': number;
+    'Requesteduserid': number;
     /**
     * The id of the user making the request
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "requesteduserid",
+            "name": "Requesteduserid",
             "baseName": "requesteduserid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

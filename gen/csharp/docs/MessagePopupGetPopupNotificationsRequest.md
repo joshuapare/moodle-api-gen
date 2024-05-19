@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.MessagePopupGetPopupNotificationsRequest
+# MoodleClient.Model.MessagePopupGetPopupNotificationsRequest
 
 ## Properties
 

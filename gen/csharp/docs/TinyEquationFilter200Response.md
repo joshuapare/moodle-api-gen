@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.TinyEquationFilter200Response
+# MoodleClient.Model.TinyEquationFilter200Response
 
 ## Properties
 

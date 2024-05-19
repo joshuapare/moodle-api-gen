@@ -16,22 +16,22 @@ export class ModBookViewBookRequest {
     /**
     * book instance id
     */
-    'bookid': number = null;
+    'Bookid': number = null;
     /**
     * chapter id
     */
-    'chapterid'?: number = 0;
+    'Chapterid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bookid",
+            "name": "Bookid",
             "baseName": "bookid",
             "type": "number"
         },
         {
-            "name": "chapterid",
+            "name": "Chapterid",
             "baseName": "chapterid",
             "type": "number"
         }    ];

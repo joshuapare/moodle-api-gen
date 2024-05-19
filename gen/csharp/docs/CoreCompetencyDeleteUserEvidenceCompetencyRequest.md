@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyDeleteUserEvidenceCompetencyRequest
+# MoodleClient.Model.CoreCompetencyDeleteUserEvidenceCompetencyRequest
 
 ## Properties
 

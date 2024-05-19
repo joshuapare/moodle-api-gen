@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.AuthEmailSignupUserRequest
+# MoodleClient.Model.AuthEmailSignupUserRequest
 
 ## Properties
 

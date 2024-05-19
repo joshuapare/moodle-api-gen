@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.MessageAirnotifierAreNotificationPreferencesConfiguredRequest
+# MoodleClient.Model.MessageAirnotifierAreNotificationPreferencesConfiguredRequest
 
 ## Properties
 

@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreMessageGetUserNotificationPreferences200ResponsePreferences } from './coreMessageGetUserNotificationPreferences200ResponsePreferences';
 
 export class CoreMessageGetUserNotificationPreferences200Response {
-    'preferences': CoreMessageGetUserNotificationPreferences200ResponsePreferences;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Preferences': CoreMessageGetUserNotificationPreferences200ResponsePreferences;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "CoreMessageGetUserNotificationPreferences200ResponsePreferences"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

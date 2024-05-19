@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreGradingSaveDefinitionsRequestAreasInner } from './coreGradingSaveDefinitionsRequestAreasInner';
 
 export class CoreGradingSaveDefinitionsRequest {
-    'areas': Array<CoreGradingSaveDefinitionsRequestAreasInner>;
+    'Areas': Array<CoreGradingSaveDefinitionsRequestAreasInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "areas",
+            "name": "Areas",
             "baseName": "areas",
             "type": "Array<CoreGradingSaveDefinitionsRequestAreasInner>"
         }    ];

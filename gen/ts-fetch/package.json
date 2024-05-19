@@ -1,0 +1,19 @@
+{
+  "name": "joshuapare/moodle-client",
+  "version": "4.3.4",
+  "description": "OpenAPI client for joshuapare/moodle-client",
+  "author": "OpenAPI-Generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuapare/moodle-api-gen.git"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0"
+  }
+}

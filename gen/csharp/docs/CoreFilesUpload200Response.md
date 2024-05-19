@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFilesUpload200Response
+# MoodleClient.Model.CoreFilesUpload200Response
 
 ## Properties
 

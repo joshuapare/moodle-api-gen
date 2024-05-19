@@ -16,40 +16,40 @@ export class ModFeedbackGetNonRespondents200ResponseUsersInner {
     /**
     * Course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * User full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * If the user has started the attempt
     */
-    'started'?: boolean = null;
+    'Started'?: boolean = null;
     /**
     * The user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "started",
+            "name": "Started",
             "baseName": "started",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

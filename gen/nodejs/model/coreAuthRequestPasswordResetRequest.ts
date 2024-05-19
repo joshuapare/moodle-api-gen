@@ -16,22 +16,22 @@ export class CoreAuthRequestPasswordResetRequest {
     /**
     * User email
     */
-    'email'?: string = '';
+    'Email'?: string = '';
     /**
     * User name
     */
-    'username'?: string = '';
+    'Username'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

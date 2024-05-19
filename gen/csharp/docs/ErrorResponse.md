@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ErrorResponse
+# MoodleClient.Model.ErrorResponse
 
 ## Properties
 

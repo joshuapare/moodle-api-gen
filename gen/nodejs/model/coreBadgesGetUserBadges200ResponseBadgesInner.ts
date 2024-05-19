@@ -16,322 +16,322 @@ import { CoreBadgesGetUserBadges200ResponseBadgesInnerEndorsement } from './core
 import { CoreBadgesGetUserBadges200ResponseBadgesInnerRelatedbadgesInner } from './coreBadgesGetUserBadges200ResponseBadgesInnerRelatedbadgesInner';
 
 export class CoreBadgesGetUserBadges200ResponseBadgesInner {
-    'alignment'?: Array<CoreBadgesGetUserBadges200ResponseBadgesInnerAlignmentInner>;
+    'Alignment'?: Array<CoreBadgesGetUserBadges200ResponseBadgesInnerAlignmentInner>;
     /**
     * Attachment
     */
-    'attachment'?: number = 1;
+    'Attachment'?: number = 1;
     /**
     * Badge URL
     */
-    'badgeurl'?: string;
+    'Badgeurl'?: string;
     /**
     * Course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * Date expire
     */
-    'dateexpire'?: number;
+    'Dateexpire'?: number;
     /**
     * Date issued
     */
-    'dateissued'?: number = 0;
+    'Dateissued'?: number = 0;
     /**
     * Badge description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * User email
     */
-    'email'?: string;
-    'endorsement'?: CoreBadgesGetUserBadges200ResponseBadgesInnerEndorsement;
+    'Email'?: string;
+    'Endorsement'?: CoreBadgesGetUserBadges200ResponseBadgesInnerEndorsement;
     /**
     * Expire date
     */
-    'expiredate'?: number;
+    'Expiredate'?: number;
     /**
     * Expire period
     */
-    'expireperiod'?: number;
+    'Expireperiod'?: number;
     /**
     * Badge id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Email of the image author
     */
-    'imageauthoremail'?: string;
+    'Imageauthoremail'?: string;
     /**
     * Name of the image author
     */
-    'imageauthorname'?: string;
+    'Imageauthorname'?: string;
     /**
     * URL of the image author
     */
-    'imageauthorurl'?: string;
+    'Imageauthorurl'?: string;
     /**
     * Caption of the image
     */
-    'imagecaption'?: string;
+    'Imagecaption'?: string;
     /**
     * Issued id
     */
-    'issuedid'?: number;
+    'Issuedid'?: number;
     /**
     * Issuer contact
     */
-    'issuercontact'?: string;
+    'Issuercontact'?: string;
     /**
     * Issuer name
     */
-    'issuername'?: string;
+    'Issuername'?: string;
     /**
     * Issuer URL
     */
-    'issuerurl'?: string;
+    'Issuerurl'?: string;
     /**
     * Language
     */
-    'language'?: string;
+    'Language'?: string;
     /**
     * Message
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * Message subject
     */
-    'messagesubject'?: string;
+    'Messagesubject'?: string;
     /**
     * Badge name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Next cron
     */
-    'nextcron'?: number;
+    'Nextcron'?: number;
     /**
     * Whether to notify when badge is awarded
     */
-    'notification'?: number = 1;
-    'relatedbadges'?: Array<CoreBadgesGetUserBadges200ResponseBadgesInnerRelatedbadgesInner>;
+    'Notification'?: number = 1;
+    'Relatedbadges'?: Array<CoreBadgesGetUserBadges200ResponseBadgesInnerRelatedbadgesInner>;
     /**
     * Status
     */
-    'status'?: number = 0;
+    'Status'?: number = 0;
     /**
     * Time created
     */
-    'timecreated'?: number = 0;
+    'Timecreated'?: number = 0;
     /**
     * Time modified
     */
-    'timemodified'?: number = 0;
+    'Timemodified'?: number = 0;
     /**
     * Type
     */
-    'type'?: number = 1;
+    'Type'?: number = 1;
     /**
     * Unique hash
     */
-    'uniquehash'?: string;
+    'Uniquehash'?: string;
     /**
     * User created
     */
-    'usercreated'?: number;
+    'Usercreated'?: number;
     /**
     * User modified
     */
-    'usermodified'?: number;
+    'Usermodified'?: number;
     /**
     * Version
     */
-    'version'?: string;
+    'Version'?: string;
     /**
     * Visible
     */
-    'visible'?: number = 0;
+    'Visible'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "alignment",
+            "name": "Alignment",
             "baseName": "alignment",
             "type": "Array<CoreBadgesGetUserBadges200ResponseBadgesInnerAlignmentInner>"
         },
         {
-            "name": "attachment",
+            "name": "Attachment",
             "baseName": "attachment",
             "type": "number"
         },
         {
-            "name": "badgeurl",
+            "name": "Badgeurl",
             "baseName": "badgeurl",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "dateexpire",
+            "name": "Dateexpire",
             "baseName": "dateexpire",
             "type": "number"
         },
         {
-            "name": "dateissued",
+            "name": "Dateissued",
             "baseName": "dateissued",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "endorsement",
+            "name": "Endorsement",
             "baseName": "endorsement",
             "type": "CoreBadgesGetUserBadges200ResponseBadgesInnerEndorsement"
         },
         {
-            "name": "expiredate",
+            "name": "Expiredate",
             "baseName": "expiredate",
             "type": "number"
         },
         {
-            "name": "expireperiod",
+            "name": "Expireperiod",
             "baseName": "expireperiod",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "imageauthoremail",
+            "name": "Imageauthoremail",
             "baseName": "imageauthoremail",
             "type": "string"
         },
         {
-            "name": "imageauthorname",
+            "name": "Imageauthorname",
             "baseName": "imageauthorname",
             "type": "string"
         },
         {
-            "name": "imageauthorurl",
+            "name": "Imageauthorurl",
             "baseName": "imageauthorurl",
             "type": "string"
         },
         {
-            "name": "imagecaption",
+            "name": "Imagecaption",
             "baseName": "imagecaption",
             "type": "string"
         },
         {
-            "name": "issuedid",
+            "name": "Issuedid",
             "baseName": "issuedid",
             "type": "number"
         },
         {
-            "name": "issuercontact",
+            "name": "Issuercontact",
             "baseName": "issuercontact",
             "type": "string"
         },
         {
-            "name": "issuername",
+            "name": "Issuername",
             "baseName": "issuername",
             "type": "string"
         },
         {
-            "name": "issuerurl",
+            "name": "Issuerurl",
             "baseName": "issuerurl",
             "type": "string"
         },
         {
-            "name": "language",
+            "name": "Language",
             "baseName": "language",
             "type": "string"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "messagesubject",
+            "name": "Messagesubject",
             "baseName": "messagesubject",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nextcron",
+            "name": "Nextcron",
             "baseName": "nextcron",
             "type": "number"
         },
         {
-            "name": "notification",
+            "name": "Notification",
             "baseName": "notification",
             "type": "number"
         },
         {
-            "name": "relatedbadges",
+            "name": "Relatedbadges",
             "baseName": "relatedbadges",
             "type": "Array<CoreBadgesGetUserBadges200ResponseBadgesInnerRelatedbadgesInner>"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "uniquehash",
+            "name": "Uniquehash",
             "baseName": "uniquehash",
             "type": "string"
         },
         {
-            "name": "usercreated",
+            "name": "Usercreated",
             "baseName": "usercreated",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

@@ -16,67 +16,67 @@ export class CoreBadgesGetUserBadgeByHash200ResponseBadgeInnerAlignmentInner {
     /**
     * Badge id
     */
-    'badgeid'?: number = null;
+    'Badgeid'?: number = null;
     /**
     * Alignment id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Target code
     */
-    'targetCode'?: string = 'null';
+    'TargetCode'?: string = 'null';
     /**
     * Target description
     */
-    'targetDescription'?: string = 'null';
+    'TargetDescription'?: string = 'null';
     /**
     * Target framework
     */
-    'targetFramework'?: string = 'null';
+    'TargetFramework'?: string = 'null';
     /**
     * Target name
     */
-    'targetName'?: string = 'null';
+    'TargetName'?: string = 'null';
     /**
     * Target URL
     */
-    'targetUrl'?: string = 'null';
+    'TargetUrl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "badgeid",
+            "name": "Badgeid",
             "baseName": "badgeid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "targetCode",
+            "name": "TargetCode",
             "baseName": "targetCode",
             "type": "string"
         },
         {
-            "name": "targetDescription",
+            "name": "TargetDescription",
             "baseName": "targetDescription",
             "type": "string"
         },
         {
-            "name": "targetFramework",
+            "name": "TargetFramework",
             "baseName": "targetFramework",
             "type": "string"
         },
         {
-            "name": "targetName",
+            "name": "TargetName",
             "baseName": "targetName",
             "type": "string"
         },
         {
-            "name": "targetUrl",
+            "name": "TargetUrl",
             "baseName": "targetUrl",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupGetCourseGroupingsRequest
+# MoodleClient.Model.CoreGroupGetCourseGroupingsRequest
 
 ## Properties
 

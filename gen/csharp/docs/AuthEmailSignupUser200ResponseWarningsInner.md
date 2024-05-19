@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.AuthEmailSignupUser200ResponseWarningsInner
+# MoodleClient.Model.AuthEmailSignupUser200ResponseWarningsInner
 warning
 
 ## Properties

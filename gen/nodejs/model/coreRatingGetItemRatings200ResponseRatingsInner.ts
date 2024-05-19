@@ -19,58 +19,58 @@ export class CoreRatingGetItemRatings200ResponseRatingsInner {
     /**
     * rating id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * rating on scale
     */
-    'rating'?: string = 'null';
+    'Rating'?: string = 'null';
     /**
     * time modified (timestamp)
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * user fullname
     */
-    'userfullname'?: string = 'null';
+    'Userfullname'?: string = 'null';
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * URL user picture
     */
-    'userpictureurl'?: string = 'null';
+    'Userpictureurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "rating",
+            "name": "Rating",
             "baseName": "rating",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userfullname",
+            "name": "Userfullname",
             "baseName": "userfullname",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "userpictureurl",
+            "name": "Userpictureurl",
             "baseName": "userpictureurl",
             "type": "string"
         }    ];

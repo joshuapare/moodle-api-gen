@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolAnalyticsPotentialContextsRequest
+# MoodleClient.Model.ToolAnalyticsPotentialContextsRequest
 
 ## Properties
 

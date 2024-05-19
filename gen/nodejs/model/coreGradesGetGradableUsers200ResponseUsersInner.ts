@@ -18,277 +18,277 @@ export class CoreGradesGetGradableUsers200ResponseUsersInner {
     /**
     * Postal address
     */
-    'address'?: string;
+    'Address'?: string;
     /**
     * Auth plugins include manual, ldap, etc
     */
-    'auth'?: string;
+    'Auth'?: string;
     /**
     * Calendar type such as \"gregorian\", must exist on server
     */
-    'calendartype'?: string;
+    'Calendartype'?: string;
     /**
     * Home city of the user
     */
-    'city'?: string;
+    'City'?: string;
     /**
     * Active user: 1 if confirmed, 0 otherwise
     */
-    'confirmed'?: boolean;
+    'Confirmed'?: boolean;
     /**
     * Home country code of the user, such as AU or CZ
     */
-    'country'?: string;
-    'customfields'?: Array<CoreGradesGetGradableUsers200ResponseUsersInnerCustomfieldsInner>;
+    'Country'?: string;
+    'Customfields'?: Array<CoreGradesGetGradableUsers200ResponseUsersInnerCustomfieldsInner>;
     /**
     * department
     */
-    'department'?: string;
+    'Department'?: string;
     /**
     * User profile description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
+    'Descriptionformat'?: number;
     /**
     * An email address - allow email as root@localhost
     */
-    'email'?: string;
+    'Email'?: string;
     /**
     * first access to the site (0 if never)
     */
-    'firstaccess'?: number;
+    'Firstaccess'?: number;
     /**
     * The first name(s) of the user
     */
-    'firstname'?: string;
+    'Firstname'?: string;
     /**
     * The fullname of the user
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * ID of the user
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * An arbitrary ID code number perhaps from the institution
     */
-    'idnumber'?: string;
+    'Idnumber'?: string;
     /**
     * institution
     */
-    'institution'?: string;
+    'Institution'?: string;
     /**
     * user interests (separated by commas)
     */
-    'interests'?: string;
+    'Interests'?: string;
     /**
     * Language code such as \"en\", must exist on server
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * last access to the site (0 if never)
     */
-    'lastaccess'?: number;
+    'Lastaccess'?: number;
     /**
     * The family name of the user
     */
-    'lastname'?: string;
+    'Lastname'?: string;
     /**
     * Mail format code is 0 for plain text, 1 for HTML etc
     */
-    'mailformat'?: number;
+    'Mailformat'?: number;
     /**
     * Phone 1
     */
-    'phone1'?: string;
+    'Phone1'?: string;
     /**
     * Phone 2
     */
-    'phone2'?: string;
-    'preferences'?: Array<CoreGradesGetGradableUsers200ResponseUsersInnerPreferencesInner>;
+    'Phone2'?: string;
+    'Preferences'?: Array<CoreGradesGetGradableUsers200ResponseUsersInnerPreferencesInner>;
     /**
     * User image profile URL - big version
     */
-    'profileimageurl'?: string;
+    'Profileimageurl'?: string;
     /**
     * User image profile URL - small version
     */
-    'profileimageurlsmall'?: string;
+    'Profileimageurlsmall'?: string;
     /**
     * Suspend user account, either false to enable user login or true to disable it
     */
-    'suspended'?: boolean;
+    'Suspended'?: boolean;
     /**
     * Theme name such as \"standard\", must exist on server
     */
-    'theme'?: string;
+    'Theme'?: string;
     /**
     * Timezone code such as Australia/Perth, or 99 for default
     */
-    'timezone'?: string;
+    'Timezone'?: string;
     /**
     * The username
     */
-    'username'?: string;
+    'Username'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "address",
+            "name": "Address",
             "baseName": "address",
             "type": "string"
         },
         {
-            "name": "auth",
+            "name": "Auth",
             "baseName": "auth",
             "type": "string"
         },
         {
-            "name": "calendartype",
+            "name": "Calendartype",
             "baseName": "calendartype",
             "type": "string"
         },
         {
-            "name": "city",
+            "name": "City",
             "baseName": "city",
             "type": "string"
         },
         {
-            "name": "confirmed",
+            "name": "Confirmed",
             "baseName": "confirmed",
             "type": "boolean"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreGradesGetGradableUsers200ResponseUsersInnerCustomfieldsInner>"
         },
         {
-            "name": "department",
+            "name": "Department",
             "baseName": "department",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "firstaccess",
+            "name": "Firstaccess",
             "baseName": "firstaccess",
             "type": "number"
         },
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "institution",
+            "name": "Institution",
             "baseName": "institution",
             "type": "string"
         },
         {
-            "name": "interests",
+            "name": "Interests",
             "baseName": "interests",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "lastaccess",
+            "name": "Lastaccess",
             "baseName": "lastaccess",
             "type": "number"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         },
         {
-            "name": "mailformat",
+            "name": "Mailformat",
             "baseName": "mailformat",
             "type": "number"
         },
         {
-            "name": "phone1",
+            "name": "Phone1",
             "baseName": "phone1",
             "type": "string"
         },
         {
-            "name": "phone2",
+            "name": "Phone2",
             "baseName": "phone2",
             "type": "string"
         },
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "Array<CoreGradesGetGradableUsers200ResponseUsersInnerPreferencesInner>"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         },
         {
-            "name": "profileimageurlsmall",
+            "name": "Profileimageurlsmall",
             "baseName": "profileimageurlsmall",
             "type": "string"
         },
         {
-            "name": "suspended",
+            "name": "Suspended",
             "baseName": "suspended",
             "type": "boolean"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "timezone",
+            "name": "Timezone",
             "baseName": "timezone",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

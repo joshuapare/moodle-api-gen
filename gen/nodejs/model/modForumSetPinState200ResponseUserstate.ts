@@ -16,22 +16,22 @@ export class ModForumSetPinState200ResponseUserstate {
     /**
     * favourited
     */
-    'favourited': boolean = null;
+    'Favourited': boolean = null;
     /**
     * subscribed
     */
-    'subscribed': boolean = null;
+    'Subscribed': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourited",
+            "name": "Favourited",
             "baseName": "favourited",
             "type": "boolean"
         },
         {
-            "name": "subscribed",
+            "name": "Subscribed",
             "baseName": "subscribed",
             "type": "boolean"
         }    ];

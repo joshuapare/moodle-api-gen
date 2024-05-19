@@ -16,22 +16,22 @@ export class ToolLpDataForCompetenciesManagePageRequest {
     /**
     * The competency framework id
     */
-    'competencyframeworkid': number;
+    'Competencyframeworkid': number;
     /**
     * A search string
     */
-    'search'?: string = '';
+    'Search'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyframeworkid",
+            "name": "Competencyframeworkid",
             "baseName": "competencyframeworkid",
             "type": "number"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         }    ];

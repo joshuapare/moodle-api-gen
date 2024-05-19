@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSaveSubmissionRequestPlugindata
+# MoodleClient.Model.ModAssignSaveSubmissionRequestPlugindata
 
 ## Properties
 

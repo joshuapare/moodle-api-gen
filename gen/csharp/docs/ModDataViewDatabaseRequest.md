@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataViewDatabaseRequest
+# MoodleClient.Model.ModDataViewDatabaseRequest
 
 ## Properties
 

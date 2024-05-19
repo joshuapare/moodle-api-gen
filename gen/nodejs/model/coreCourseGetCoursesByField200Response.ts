@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreCourseGetCoursesByField200ResponseCoursesInner } from './coreCourseGetCoursesByField200ResponseCoursesInner';
 
 export class CoreCourseGetCoursesByField200Response {
-    'courses': Array<CoreCourseGetCoursesByField200ResponseCoursesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Courses': Array<CoreCourseGetCoursesByField200ResponseCoursesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -15,28 +15,28 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModGlossaryGetAuthors200ResponseAuthorsInner } from './modGlossaryGetAuthors200ResponseAuthorsInner';
 
 export class ModGlossaryGetAuthors200Response {
-    'authors': Array<ModGlossaryGetAuthors200ResponseAuthorsInner>;
+    'Authors': Array<ModGlossaryGetAuthors200ResponseAuthorsInner>;
     /**
     * The total number of records.
     */
-    'count': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Count': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "authors",
+            "name": "Authors",
             "baseName": "authors",
             "type": "Array<ModGlossaryGetAuthors200ResponseAuthorsInner>"
         },
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -15,34 +15,34 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModDataUpdateEntry200ResponseFieldnotificationsInner } from './modDataUpdateEntry200ResponseFieldnotificationsInner';
 
 export class ModDataUpdateEntry200Response {
-    'fieldnotifications': Array<ModDataUpdateEntry200ResponseFieldnotificationsInner>;
-    'generalnotifications': Array<object>;
+    'Fieldnotifications': Array<ModDataUpdateEntry200ResponseFieldnotificationsInner>;
+    'Generalnotifications': Array<object>;
     /**
     * True if the entry was successfully updated, false other wise.
     */
-    'updated': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Updated': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fieldnotifications",
+            "name": "Fieldnotifications",
             "baseName": "fieldnotifications",
             "type": "Array<ModDataUpdateEntry200ResponseFieldnotificationsInner>"
         },
         {
-            "name": "generalnotifications",
+            "name": "Generalnotifications",
             "baseName": "generalnotifications",
             "type": "Array<object>"
         },
         {
-            "name": "updated",
+            "name": "Updated",
             "baseName": "updated",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -15,19 +15,19 @@ import { CoreCohortAddCohortMembersRequestMembersInnerCohorttype } from './coreC
 import { CoreCohortAddCohortMembersRequestMembersInnerUsertype } from './coreCohortAddCohortMembersRequestMembersInnerUsertype';
 
 export class CoreCohortAddCohortMembersRequestMembersInner {
-    'cohorttype'?: CoreCohortAddCohortMembersRequestMembersInnerCohorttype;
-    'usertype'?: CoreCohortAddCohortMembersRequestMembersInnerUsertype;
+    'Cohorttype'?: CoreCohortAddCohortMembersRequestMembersInnerCohorttype;
+    'Usertype'?: CoreCohortAddCohortMembersRequestMembersInnerUsertype;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cohorttype",
+            "name": "Cohorttype",
             "baseName": "cohorttype",
             "type": "CoreCohortAddCohortMembersRequestMembersInnerCohorttype"
         },
         {
-            "name": "usertype",
+            "name": "Usertype",
             "baseName": "usertype",
             "type": "CoreCohortAddCohortMembersRequestMembersInnerUsertype"
         }    ];

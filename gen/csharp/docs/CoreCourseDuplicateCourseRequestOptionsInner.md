@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseDuplicateCourseRequestOptionsInner
+# MoodleClient.Model.CoreCourseDuplicateCourseRequestOptionsInner
 
 ## Properties
 

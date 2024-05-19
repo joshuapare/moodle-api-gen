@@ -16,40 +16,40 @@ export class ModGlossaryGetCategories200ResponseCategoriesInner {
     /**
     * The glossary ID
     */
-    'glossaryid'?: number;
+    'Glossaryid'?: number;
     /**
     * The category ID
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The name of the category
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Whether the category is automatically linked
     */
-    'usedynalink'?: boolean = null;
+    'Usedynalink'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "glossaryid",
+            "name": "Glossaryid",
             "baseName": "glossaryid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "usedynalink",
+            "name": "Usedynalink",
             "baseName": "usedynalink",
             "type": "boolean"
         }    ];

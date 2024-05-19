@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCustomfieldMoveCategoryRequest
+# MoodleClient.Model.CoreCustomfieldMoveCategoryRequest
 
 ## Properties
 

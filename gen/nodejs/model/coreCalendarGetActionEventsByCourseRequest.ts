@@ -16,58 +16,58 @@ export class CoreCalendarGetActionEventsByCourseRequest {
     /**
     * The last seen event id
     */
-    'aftereventid'?: number = 0;
+    'Aftereventid'?: number = 0;
     /**
     * Course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * Limit number
     */
-    'limitnum'?: number = 20;
+    'Limitnum'?: number = 20;
     /**
     * The value a user wishes to search against
     */
-    'searchvalue'?: string = 'null';
+    'Searchvalue'?: string = 'null';
     /**
     * Time sort from
     */
-    'timesortfrom'?: number = null;
+    'Timesortfrom'?: number = null;
     /**
     * Time sort to
     */
-    'timesortto'?: number = null;
+    'Timesortto'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aftereventid",
+            "name": "Aftereventid",
             "baseName": "aftereventid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "searchvalue",
+            "name": "Searchvalue",
             "baseName": "searchvalue",
             "type": "string"
         },
         {
-            "name": "timesortfrom",
+            "name": "Timesortfrom",
             "baseName": "timesortfrom",
             "type": "number"
         },
         {
-            "name": "timesortto",
+            "name": "Timesortto",
             "baseName": "timesortto",
             "type": "number"
         }    ];

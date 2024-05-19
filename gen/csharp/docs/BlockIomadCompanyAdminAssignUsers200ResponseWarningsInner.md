@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminAssignUsers200ResponseWarningsInner
+# MoodleClient.Model.BlockIomadCompanyAdminAssignUsers200ResponseWarningsInner
 warning
 
 ## Properties

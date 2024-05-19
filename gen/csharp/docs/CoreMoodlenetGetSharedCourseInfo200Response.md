@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMoodlenetGetSharedCourseInfo200Response
+# MoodleClient.Model.CoreMoodlenetGetSharedCourseInfo200Response
 
 ## Properties
 

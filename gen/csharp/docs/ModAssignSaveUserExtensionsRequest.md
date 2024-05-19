@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSaveUserExtensionsRequest
+# MoodleClient.Model.ModAssignSaveUserExtensionsRequest
 
 ## Properties
 

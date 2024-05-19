@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderSchedulesToggleRequest
+# MoodleClient.Model.CoreReportbuilderSchedulesToggleRequest
 
 ## Properties
 

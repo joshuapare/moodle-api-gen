@@ -16,22 +16,22 @@ export class ToolDataprivacyTreeExtraBranchesRequest {
     /**
     * The context id to expand
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * The element we are interested on
     */
-    'element': string = 'null';
+    'Element': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "element",
+            "name": "Element",
             "baseName": "element",
             "type": "string"
         }    ];

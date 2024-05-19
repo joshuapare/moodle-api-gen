@@ -16,31 +16,31 @@ export class CoreReportbuilderConditionsReorderRequest {
     /**
     * Condition ID
     */
-    'conditionid': number;
+    'Conditionid': number;
     /**
     * New condition position
     */
-    'position': number = null;
+    'Position': number = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conditionid",
+            "name": "Conditionid",
             "baseName": "conditionid",
             "type": "number"
         },
         {
-            "name": "position",
+            "name": "Position",
             "baseName": "position",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

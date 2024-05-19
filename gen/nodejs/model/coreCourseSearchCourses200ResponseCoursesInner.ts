@@ -19,142 +19,142 @@ export class CoreCourseSearchCourses200ResponseCoursesInner {
     /**
     * category id
     */
-    'categoryid'?: number;
+    'Categoryid'?: number;
     /**
     * category name
     */
-    'categoryname'?: string;
-    'contacts'?: Array<CoreCourseSearchCourses200ResponseCoursesInnerContactsInner>;
+    'Categoryname'?: string;
+    'Contacts'?: Array<CoreCourseSearchCourses200ResponseCoursesInnerContactsInner>;
     /**
     * Course image
     */
-    'courseimage'?: string;
-    'customfields'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>;
+    'Courseimage'?: string;
+    'Customfields'?: Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>;
     /**
     * course display name
     */
-    'displayname'?: string;
-    'enrollmentmethods'?: Array<object>;
+    'Displayname'?: string;
+    'Enrollmentmethods'?: Array<object>;
     /**
     * course full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * course id
     */
-    'id'?: number;
-    'overviewfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Id'?: number;
+    'Overviewfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * course short name
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * Whether the activity dates are shown or not
     */
-    'showactivitydates'?: boolean;
+    'Showactivitydates'?: boolean;
     /**
     * Whether the activity completion conditions are shown or not
     */
-    'showcompletionconditions'?: boolean;
+    'Showcompletionconditions'?: boolean;
     /**
     * Sort order in the category
     */
-    'sortorder'?: number;
+    'Sortorder'?: number;
     /**
     * summary
     */
-    'summary'?: string;
-    'summaryfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Summary'?: string;
+    'Summaryfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'summaryformat'?: number;
+    'Summaryformat'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "categoryname",
+            "name": "Categoryname",
             "baseName": "categoryname",
             "type": "string"
         },
         {
-            "name": "contacts",
+            "name": "Contacts",
             "baseName": "contacts",
             "type": "Array<CoreCourseSearchCourses200ResponseCoursesInnerContactsInner>"
         },
         {
-            "name": "courseimage",
+            "name": "Courseimage",
             "baseName": "courseimage",
             "type": "string"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner>"
         },
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "enrollmentmethods",
+            "name": "Enrollmentmethods",
             "baseName": "enrollmentmethods",
             "type": "Array<object>"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "overviewfiles",
+            "name": "Overviewfiles",
             "baseName": "overviewfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "showactivitydates",
+            "name": "Showactivitydates",
             "baseName": "showactivitydates",
             "type": "boolean"
         },
         {
-            "name": "showcompletionconditions",
+            "name": "Showcompletionconditions",
             "baseName": "showcompletionconditions",
             "type": "boolean"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "summary",
+            "name": "Summary",
             "baseName": "summary",
             "type": "string"
         },
         {
-            "name": "summaryfiles",
+            "name": "Summaryfiles",
             "baseName": "summaryfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "summaryformat",
+            "name": "Summaryformat",
             "baseName": "summaryformat",
             "type": "number"
         }    ];

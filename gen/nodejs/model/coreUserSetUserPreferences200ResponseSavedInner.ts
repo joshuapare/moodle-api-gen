@@ -16,22 +16,22 @@ export class CoreUserSetUserPreferences200ResponseSavedInner {
     /**
     * The name of the preference
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * The user the preference was set for
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

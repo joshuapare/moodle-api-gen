@@ -16,22 +16,22 @@ export class ModDataSearchEntriesRequestAdvsearchInner {
     /**
     * Field key for search.                                                             Use fn or ln for first or last name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * JSON encoded value for search
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

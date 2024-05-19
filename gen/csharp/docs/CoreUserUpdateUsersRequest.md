@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserUpdateUsersRequest
+# MoodleClient.Model.CoreUserUpdateUsersRequest
 
 ## Properties
 

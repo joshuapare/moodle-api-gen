@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFolderViewFolderRequest
+# MoodleClient.Model.ModFolderViewFolderRequest
 
 ## Properties
 

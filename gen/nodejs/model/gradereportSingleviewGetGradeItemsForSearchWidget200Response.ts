@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { GradereportSingleviewGetGradeItemsForSearchWidget200ResponseGradeitemsInner } from './gradereportSingleviewGetGradeItemsForSearchWidget200ResponseGradeitemsInner';
 
 export class GradereportSingleviewGetGradeItemsForSearchWidget200Response {
-    'gradeitems': Array<GradereportSingleviewGetGradeItemsForSearchWidget200ResponseGradeitemsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Gradeitems': Array<GradereportSingleviewGetGradeItemsForSearchWidget200ResponseGradeitemsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "gradeitems",
+            "name": "Gradeitems",
             "baseName": "gradeitems",
             "type": "Array<GradereportSingleviewGetGradeItemsForSearchWidget200ResponseGradeitemsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

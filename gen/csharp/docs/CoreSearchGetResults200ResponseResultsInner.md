@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreSearchGetResults200ResponseResultsInner
+# MoodleClient.Model.CoreSearchGetResults200ResponseResultsInner
 
 ## Properties
 

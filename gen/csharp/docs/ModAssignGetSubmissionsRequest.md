@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetSubmissionsRequest
+# MoodleClient.Model.ModAssignGetSubmissionsRequest
 
 ## Properties
 

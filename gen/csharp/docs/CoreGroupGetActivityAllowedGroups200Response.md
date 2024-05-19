@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupGetActivityAllowedGroups200Response
+# MoodleClient.Model.CoreGroupGetActivityAllowedGroups200Response
 
 ## Properties
 

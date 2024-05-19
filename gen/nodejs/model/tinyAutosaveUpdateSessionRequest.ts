@@ -16,49 +16,49 @@ export class TinyAutosaveUpdateSessionRequest {
     /**
     * The context id that owns the editor
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * The draft text
     */
-    'drafttext': string;
+    'Drafttext': string;
     /**
     * The ID of the element
     */
-    'elementid': string;
+    'Elementid': string;
     /**
     * The page hash
     */
-    'pagehash': string;
+    'Pagehash': string;
     /**
     * The page instance
     */
-    'pageinstance': string;
+    'Pageinstance': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "drafttext",
+            "name": "Drafttext",
             "baseName": "drafttext",
             "type": "string"
         },
         {
-            "name": "elementid",
+            "name": "Elementid",
             "baseName": "elementid",
             "type": "string"
         },
         {
-            "name": "pagehash",
+            "name": "Pagehash",
             "baseName": "pagehash",
             "type": "string"
         },
         {
-            "name": "pageinstance",
+            "name": "Pageinstance",
             "baseName": "pageinstance",
             "type": "string"
         }    ];

@@ -18,61 +18,61 @@ export class CoreCalendarGetCalendarUpcomingView200Response {
     /**
     * categoryid
     */
-    'categoryid'?: number = 0;
+    'Categoryid'?: number = 0;
     /**
     * courseid
     */
-    'courseid': number;
-    'date': CoreCalendarGetCalendarDayView200ResponseNextperiod;
+    'Courseid': number;
+    'Date': CoreCalendarGetCalendarDayView200ResponseNextperiod;
     /**
     * defaulteventcontext
     */
-    'defaulteventcontext': number = 0;
-    'events': Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner>;
+    'Defaulteventcontext': number = 0;
+    'Events': Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner>;
     /**
     * filter_selector
     */
-    'filterSelector': string;
+    'FilterSelector': string;
     /**
     * isloggedin
     */
-    'isloggedin': boolean = null;
+    'Isloggedin': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "date",
+            "name": "Date",
             "baseName": "date",
             "type": "CoreCalendarGetCalendarDayView200ResponseNextperiod"
         },
         {
-            "name": "defaulteventcontext",
+            "name": "Defaulteventcontext",
             "baseName": "defaulteventcontext",
             "type": "number"
         },
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarGetCalendarMonthlyView200ResponseWeeksInnerDaysInnerEventsInner>"
         },
         {
-            "name": "filterSelector",
+            "name": "FilterSelector",
             "baseName": "filter_selector",
             "type": "string"
         },
         {
-            "name": "isloggedin",
+            "name": "Isloggedin",
             "baseName": "isloggedin",
             "type": "boolean"
         }    ];

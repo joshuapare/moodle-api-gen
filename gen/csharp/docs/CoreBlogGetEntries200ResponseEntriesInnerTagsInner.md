@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlogGetEntries200ResponseEntriesInnerTagsInner
+# MoodleClient.Model.CoreBlogGetEntries200ResponseEntriesInnerTagsInner
 
 ## Properties
 

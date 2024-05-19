@@ -17,133 +17,133 @@ export class ToolDataprivacyCreatePurposeForm200ResponsePurpose {
     /**
     * The purpose description.
     */
-    'description': string = '';
+    'Description': string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
-    'formattedlawfulbases': Array<ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner>;
+    'Descriptionformat'?: number = 1;
+    'Formattedlawfulbases': Array<ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner>;
     /**
     * formattedretentionperiod
     */
-    'formattedretentionperiod': string = 'null';
-    'formattedsensitivedatareasons'?: Array<ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner>;
+    'Formattedretentionperiod': string = 'null';
+    'Formattedsensitivedatareasons'?: Array<ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner>;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * Comma-separated IDs matching records in tool_dataprivacy_lawfulbasis.
     */
-    'lawfulbases': string = 'null';
+    'Lawfulbases': string = 'null';
     /**
     * The purpose name.
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * Data retention with higher precedent over user\'s request to be forgotten.
     */
-    '_protected': number = 0;
+    'Protected': number = 0;
     /**
     * Retention period. ISO_8601 durations format (as in DateInterval format).
     */
-    'retentionperiod': string = '';
+    'Retentionperiod': string = '';
     /**
     * roleoverrides
     */
-    'roleoverrides': string = 'null';
+    'Roleoverrides': string = 'null';
     /**
     * Comma-separated IDs matching records in tool_dataprivacy_sensitive
     */
-    'sensitivedatareasons': string = '';
+    'Sensitivedatareasons': string = '';
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "formattedlawfulbases",
+            "name": "Formattedlawfulbases",
             "baseName": "formattedlawfulbases",
             "type": "Array<ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner>"
         },
         {
-            "name": "formattedretentionperiod",
+            "name": "Formattedretentionperiod",
             "baseName": "formattedretentionperiod",
             "type": "string"
         },
         {
-            "name": "formattedsensitivedatareasons",
+            "name": "Formattedsensitivedatareasons",
             "baseName": "formattedsensitivedatareasons",
             "type": "Array<ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner>"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lawfulbases",
+            "name": "Lawfulbases",
             "baseName": "lawfulbases",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "_protected",
+            "name": "Protected",
             "baseName": "protected",
             "type": "number"
         },
         {
-            "name": "retentionperiod",
+            "name": "Retentionperiod",
             "baseName": "retentionperiod",
             "type": "string"
         },
         {
-            "name": "roleoverrides",
+            "name": "Roleoverrides",
             "baseName": "roleoverrides",
             "type": "string"
         },
         {
-            "name": "sensitivedatareasons",
+            "name": "Sensitivedatareasons",
             "baseName": "sensitivedatareasons",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

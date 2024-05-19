@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetWorkshopAccessInformation200Response
+# MoodleClient.Model.ModWorkshopGetWorkshopAccessInformation200Response
 
 ## Properties
 

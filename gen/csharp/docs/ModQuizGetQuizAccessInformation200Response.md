@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetQuizAccessInformation200Response
+# MoodleClient.Model.ModQuizGetQuizAccessInformation200Response
 
 ## Properties
 

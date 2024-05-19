@@ -16,13 +16,13 @@ export class CoreEnrolUnenrolUserEnrolmentRequest {
     /**
     * User enrolment ID
     */
-    'ueid': number = null;
+    'Ueid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ueid",
+            "name": "Ueid",
             "baseName": "ueid",
             "type": "number"
         }    ];

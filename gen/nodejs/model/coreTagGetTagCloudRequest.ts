@@ -16,76 +16,76 @@ export class CoreTagGetTagCloudRequest {
     /**
     * Only retrieve tag instances in this context.
     */
-    'ctx'?: number = 0;
+    'Ctx'?: number = 0;
     /**
     * Context id where this tag cloud is displayed.
     */
-    'fromctx'?: number = 0;
+    'Fromctx'?: number = 0;
     /**
     * Whether to return only standard tags.
     */
-    'isstandard'?: boolean = false;
+    'Isstandard'?: boolean = false;
     /**
     * Maximum number of tags to retrieve.
     */
-    'limit'?: number = 150;
+    'Limit'?: number = 150;
     /**
     * Retrieve tag instances in the $ctx context and it\'s children.
     */
-    'rec'?: number = 1;
+    'Rec'?: number = 1;
     /**
     * Search string.
     */
-    'search'?: string = '';
+    'Search'?: string = '';
     /**
     * Sort order for display                     (id, name, rawname, count, flag, isstandard, tagcollid).
     */
-    'sort'?: string = 'name';
+    'Sort'?: string = 'name';
     /**
     * Tag collection id.
     */
-    'tagcollid'?: number = 0;
+    'Tagcollid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ctx",
+            "name": "Ctx",
             "baseName": "ctx",
             "type": "number"
         },
         {
-            "name": "fromctx",
+            "name": "Fromctx",
             "baseName": "fromctx",
             "type": "number"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "boolean"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "rec",
+            "name": "Rec",
             "baseName": "rec",
             "type": "number"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         },
         {
-            "name": "tagcollid",
+            "name": "Tagcollid",
             "baseName": "tagcollid",
             "type": "number"
         }    ];

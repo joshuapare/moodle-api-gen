@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetEnrolledUsersForSelector200ResponseUsersInnerCustomfieldsInner
+# MoodleClient.Model.CoreGradesGetEnrolledUsersForSelector200ResponseUsersInnerCustomfieldsInner
 
 ## Properties
 

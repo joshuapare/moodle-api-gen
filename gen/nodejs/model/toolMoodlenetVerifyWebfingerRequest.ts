@@ -16,31 +16,31 @@ export class ToolMoodlenetVerifyWebfingerRequest {
     /**
     * The course we are adding to
     */
-    'course': number = null;
+    'Course': number = null;
     /**
     * The profile url that the user has given us
     */
-    'profileurl': string = 'null';
+    'Profileurl': string = 'null';
     /**
     * The section within the course we are adding to
     */
-    'section': number = null;
+    'Section': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "profileurl",
+            "name": "Profileurl",
             "baseName": "profileurl",
             "type": "string"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         }    ];

@@ -17,19 +17,19 @@ export class ModScormGetScormScoTracks200ResponseData {
     /**
     * Attempt number
     */
-    'attempt': number;
-    'tracks': Array<ModScormGetScormScoTracks200ResponseDataTracksInner>;
+    'Attempt': number;
+    'Tracks': Array<ModScormGetScormScoTracks200ResponseDataTracksInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "number"
         },
         {
-            "name": "tracks",
+            "name": "Tracks",
             "baseName": "tracks",
             "type": "Array<ModScormGetScormScoTracks200ResponseDataTracksInner>"
         }    ];

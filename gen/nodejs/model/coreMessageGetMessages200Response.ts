@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreMessageGetMessages200ResponseMessagesInner } from './coreMessageGetMessages200ResponseMessagesInner';
 
 export class CoreMessageGetMessages200Response {
-    'messages': Array<CoreMessageGetMessages200ResponseMessagesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Messages': Array<CoreMessageGetMessages200ResponseMessagesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<CoreMessageGetMessages200ResponseMessagesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

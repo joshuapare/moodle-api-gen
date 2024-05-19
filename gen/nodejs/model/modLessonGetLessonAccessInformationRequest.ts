@@ -16,13 +16,13 @@ export class ModLessonGetLessonAccessInformationRequest {
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         }    ];

@@ -18,34 +18,34 @@ export class ModFeedbackGetAnalysis200Response {
     /**
     * Number of completed submissions.
     */
-    'completedcount': number = null;
+    'Completedcount': number = null;
     /**
     * Number of items (questions).
     */
-    'itemscount': number = null;
-    'itemsdata': Array<ModFeedbackGetAnalysis200ResponseItemsdataInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Itemscount': number = null;
+    'Itemsdata': Array<ModFeedbackGetAnalysis200ResponseItemsdataInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completedcount",
+            "name": "Completedcount",
             "baseName": "completedcount",
             "type": "number"
         },
         {
-            "name": "itemscount",
+            "name": "Itemscount",
             "baseName": "itemscount",
             "type": "number"
         },
         {
-            "name": "itemsdata",
+            "name": "Itemsdata",
             "baseName": "itemsdata",
             "type": "Array<ModFeedbackGetAnalysis200ResponseItemsdataInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

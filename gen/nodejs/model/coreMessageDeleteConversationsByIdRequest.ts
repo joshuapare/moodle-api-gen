@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class CoreMessageDeleteConversationsByIdRequest {
-    'conversationids': Array<object>;
+    'Conversationids': Array<object>;
     /**
     * The user id of who we want to delete the conversation for
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversationids",
+            "name": "Conversationids",
             "baseName": "conversationids",
             "type": "Array<object>"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -16,31 +16,31 @@ export class GradingformGuideGraderGradingpanelFetch200ResponseGradeCommentsInne
     /**
     * The comment value
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * Comment id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The sortorder of this comment
     */
-    'sortorder'?: number = null;
+    'Sortorder'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         }    ];

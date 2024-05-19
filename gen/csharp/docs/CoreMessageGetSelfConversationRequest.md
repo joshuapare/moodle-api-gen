@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetSelfConversationRequest
+# MoodleClient.Model.CoreMessageGetSelfConversationRequest
 
 ## Properties
 

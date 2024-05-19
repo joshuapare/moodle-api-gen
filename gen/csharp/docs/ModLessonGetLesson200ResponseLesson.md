@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetLesson200ResponseLesson
+# MoodleClient.Model.ModLessonGetLesson200ResponseLesson
 
 ## Properties
 

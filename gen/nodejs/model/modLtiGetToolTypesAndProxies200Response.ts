@@ -18,34 +18,34 @@ export class ModLtiGetToolTypesAndProxies200Response {
     /**
     * Limit of how many tool types to show
     */
-    'limit'?: number = null;
+    'Limit'?: number = null;
     /**
     * Offset of tool types
     */
-    'offset'?: number = null;
-    'proxies': Array<ModLtiGetToolTypesAndProxies200ResponseProxiesInner>;
-    'types': Array<ModLtiGetToolTypesAndProxies200ResponseTypesInner>;
+    'Offset'?: number = null;
+    'Proxies': Array<ModLtiGetToolTypesAndProxies200ResponseProxiesInner>;
+    'Types': Array<ModLtiGetToolTypesAndProxies200ResponseTypesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         },
         {
-            "name": "proxies",
+            "name": "Proxies",
             "baseName": "proxies",
             "type": "Array<ModLtiGetToolTypesAndProxies200ResponseProxiesInner>"
         },
         {
-            "name": "types",
+            "name": "Types",
             "baseName": "types",
             "type": "Array<ModLtiGetToolTypesAndProxies200ResponseTypesInner>"
         }    ];

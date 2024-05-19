@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreGroupDeleteGroupMembersRequestMembersInner } from './coreGroupDeleteGroupMembersRequestMembersInner';
 
 export class CoreGroupDeleteGroupMembersRequest {
-    'members': Array<CoreGroupDeleteGroupMembersRequestMembersInner>;
+    'Members': Array<CoreGroupDeleteGroupMembersRequestMembersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "members",
+            "name": "Members",
             "baseName": "members",
             "type": "Array<CoreGroupDeleteGroupMembersRequestMembersInner>"
         }    ];

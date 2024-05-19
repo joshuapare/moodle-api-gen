@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ToolUsertoursFetchAndStartTour200ResponseTourconfig } from './toolUsertoursFetchAndStartTour200ResponseTourconfig';
 
 export class ToolUsertoursFetchAndStartTour200Response {
-    'tourconfig'?: ToolUsertoursFetchAndStartTour200ResponseTourconfig;
+    'Tourconfig'?: ToolUsertoursFetchAndStartTour200ResponseTourconfig;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tourconfig",
+            "name": "Tourconfig",
             "baseName": "tourconfig",
             "type": "ToolUsertoursFetchAndStartTour200ResponseTourconfig"
         }    ];

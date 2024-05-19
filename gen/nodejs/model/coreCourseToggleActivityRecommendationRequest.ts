@@ -16,22 +16,22 @@ export class CoreCourseToggleActivityRecommendationRequest {
     /**
     * The favourite area (itemtype)
     */
-    'area': string = 'null';
+    'Area': string = 'null';
     /**
     * id of the activity or whatever
     */
-    'id': number = null;
+    'Id': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

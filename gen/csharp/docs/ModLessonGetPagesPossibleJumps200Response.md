@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetPagesPossibleJumps200Response
+# MoodleClient.Model.ModLessonGetPagesPossibleJumps200Response
 
 ## Properties
 

@@ -16,31 +16,31 @@ export class ModWikiEditPageRequest {
     /**
     * Page contents.
     */
-    'content': string;
+    'Content': string;
     /**
     * Page ID.
     */
-    'pageid': number = null;
+    'Pageid': number = null;
     /**
     * Section page title.
     */
-    'section'?: string = 'null';
+    'Section'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "string"
         }    ];

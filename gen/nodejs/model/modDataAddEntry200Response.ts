@@ -15,34 +15,34 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModDataAddEntry200ResponseFieldnotificationsInner } from './modDataAddEntry200ResponseFieldnotificationsInner';
 
 export class ModDataAddEntry200Response {
-    'fieldnotifications': Array<ModDataAddEntry200ResponseFieldnotificationsInner>;
-    'generalnotifications': Array<object>;
+    'Fieldnotifications': Array<ModDataAddEntry200ResponseFieldnotificationsInner>;
+    'Generalnotifications': Array<object>;
     /**
     * True new created entry id. 0 if the entry was not created.
     */
-    'newentryid': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Newentryid': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fieldnotifications",
+            "name": "Fieldnotifications",
             "baseName": "fieldnotifications",
             "type": "Array<ModDataAddEntry200ResponseFieldnotificationsInner>"
         },
         {
-            "name": "generalnotifications",
+            "name": "Generalnotifications",
             "baseName": "generalnotifications",
             "type": "Array<object>"
         },
         {
-            "name": "newentryid",
+            "name": "Newentryid",
             "baseName": "newentryid",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

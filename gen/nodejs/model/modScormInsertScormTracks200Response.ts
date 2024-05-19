@@ -14,19 +14,19 @@ import { RequestFile } from './models';
 import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUser200ResponseWarningsInner';
 
 export class ModScormInsertScormTracks200Response {
-    'trackids': Array<object>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Trackids': Array<object>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "trackids",
+            "name": "Trackids",
             "baseName": "trackids",
             "type": "Array<object>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

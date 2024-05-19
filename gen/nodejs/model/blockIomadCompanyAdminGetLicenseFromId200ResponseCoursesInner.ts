@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminGetLicenseFromId200ResponseCoursesInner {
     /**
     * Course full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * Course ID
     */
-    'id'?: number;
+    'Id'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class CoreReportbuilderAudiencesDeleteRequest {
     /**
     * Audience instance id
     */
-    'instanceid': number = null;
+    'Instanceid': number = null;
     /**
     * Report id
     */
-    'reportid': number = null;
+    'Reportid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

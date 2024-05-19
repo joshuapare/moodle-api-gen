@@ -16,67 +16,67 @@ export class ModLtiGetToolProxyRegistrationRequest200Response {
     /**
     * URL to redirect on registration completion
     */
-    'launchPresentationReturnUrl': string = 'null';
+    'LaunchPresentationReturnUrl': string = 'null';
     /**
     * LTI message type
     */
-    'ltiMessageType': string = 'null';
+    'LtiMessageType': string = 'null';
     /**
     * LTI version
     */
-    'ltiVersion': string = 'null';
+    'LtiVersion': string = 'null';
     /**
     * Tool proxy registration key
     */
-    'regKey': string = 'null';
+    'RegKey': string = 'null';
     /**
     * Tool proxy registration password
     */
-    'regPassword': string = 'null';
+    'RegPassword': string = 'null';
     /**
     * Tool proxy registration url
     */
-    'regUrl': string = 'null';
+    'RegUrl': string = 'null';
     /**
     * Tool consumers profile URL
     */
-    'tcProfileUrl': string = 'null';
+    'TcProfileUrl': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "launchPresentationReturnUrl",
+            "name": "LaunchPresentationReturnUrl",
             "baseName": "launch_presentation_return_url",
             "type": "string"
         },
         {
-            "name": "ltiMessageType",
+            "name": "LtiMessageType",
             "baseName": "lti_message_type",
             "type": "string"
         },
         {
-            "name": "ltiVersion",
+            "name": "LtiVersion",
             "baseName": "lti_version",
             "type": "string"
         },
         {
-            "name": "regKey",
+            "name": "RegKey",
             "baseName": "reg_key",
             "type": "string"
         },
         {
-            "name": "regPassword",
+            "name": "RegPassword",
             "baseName": "reg_password",
             "type": "string"
         },
         {
-            "name": "regUrl",
+            "name": "RegUrl",
             "baseName": "reg_url",
             "type": "string"
         },
         {
-            "name": "tcProfileUrl",
+            "name": "TcProfileUrl",
             "baseName": "tc_profile_url",
             "type": "string"
         }    ];

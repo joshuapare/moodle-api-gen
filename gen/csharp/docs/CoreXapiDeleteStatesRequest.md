@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreXapiDeleteStatesRequest
+# MoodleClient.Model.CoreXapiDeleteStatesRequest
 
 ## Properties
 

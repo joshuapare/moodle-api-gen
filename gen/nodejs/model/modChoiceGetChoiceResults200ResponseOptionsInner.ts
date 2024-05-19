@@ -20,55 +20,55 @@ export class ModChoiceGetChoiceResults200ResponseOptionsInner {
     /**
     * choice instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * maximum number of answers
     */
-    'maxanswer'?: number;
+    'Maxanswer'?: number;
     /**
     * number of users answers
     */
-    'numberofuser'?: number = null;
+    'Numberofuser'?: number = null;
     /**
     * percentage of users answers
     */
-    'percentageamount'?: number = null;
+    'Percentageamount'?: number = null;
     /**
     * text of the choice
     */
-    'text'?: string;
-    'userresponses'?: Array<ModChoiceGetChoiceResults200ResponseOptionsInnerUserresponsesInner>;
+    'Text'?: string;
+    'Userresponses'?: Array<ModChoiceGetChoiceResults200ResponseOptionsInnerUserresponsesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "maxanswer",
+            "name": "Maxanswer",
             "baseName": "maxanswer",
             "type": "number"
         },
         {
-            "name": "numberofuser",
+            "name": "Numberofuser",
             "baseName": "numberofuser",
             "type": "number"
         },
         {
-            "name": "percentageamount",
+            "name": "Percentageamount",
             "baseName": "percentageamount",
             "type": "number"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "userresponses",
+            "name": "Userresponses",
             "baseName": "userresponses",
             "type": "Array<ModChoiceGetChoiceResults200ResponseOptionsInnerUserresponsesInner>"
         }    ];

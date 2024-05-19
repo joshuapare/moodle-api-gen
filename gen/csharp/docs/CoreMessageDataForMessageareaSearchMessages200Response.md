@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageDataForMessageareaSearchMessages200Response
+# MoodleClient.Model.CoreMessageDataForMessageareaSearchMessages200Response
 
 ## Properties
 

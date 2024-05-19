@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWikiGetPageForEditing200ResponsePagesection
+# MoodleClient.Model.ModWikiGetPageForEditing200ResponsePagesection
 
 ## Properties
 

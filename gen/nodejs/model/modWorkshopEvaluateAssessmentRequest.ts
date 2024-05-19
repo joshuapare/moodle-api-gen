@@ -16,49 +16,49 @@ export class ModWorkshopEvaluateAssessmentRequest {
     /**
     * Assessment id.
     */
-    'assessmentid': number = null;
+    'Assessmentid': number = null;
     /**
     * The feedback format for text.
     */
-    'feedbackformat'?: number = 0;
+    'Feedbackformat'?: number = 0;
     /**
     * The feedback for the reviewer.
     */
-    'feedbacktext'?: string = '';
+    'Feedbacktext'?: string = '';
     /**
     * The new grading grade.
     */
-    'gradinggradeover'?: string = '';
+    'Gradinggradeover'?: string = '';
     /**
     * The new weight for the assessment.
     */
-    'weight'?: number = 1;
+    'Weight'?: number = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentid",
+            "name": "Assessmentid",
             "baseName": "assessmentid",
             "type": "number"
         },
         {
-            "name": "feedbackformat",
+            "name": "Feedbackformat",
             "baseName": "feedbackformat",
             "type": "number"
         },
         {
-            "name": "feedbacktext",
+            "name": "Feedbacktext",
             "baseName": "feedbacktext",
             "type": "string"
         },
         {
-            "name": "gradinggradeover",
+            "name": "Gradinggradeover",
             "baseName": "gradinggradeover",
             "type": "string"
         },
         {
-            "name": "weight",
+            "name": "Weight",
             "baseName": "weight",
             "type": "number"
         }    ];

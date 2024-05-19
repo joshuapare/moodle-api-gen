@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryPrepareEntryForEdition200ResponseAreasInnerOptionsInner
+# MoodleClient.Model.ModGlossaryPrepareEntryForEdition200ResponseAreasInnerOptionsInner
 
 ## Properties
 

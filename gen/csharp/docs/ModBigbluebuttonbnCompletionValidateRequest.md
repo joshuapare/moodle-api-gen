@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnCompletionValidateRequest
+# MoodleClient.Model.ModBigbluebuttonbnCompletionValidateRequest
 
 ## Properties
 

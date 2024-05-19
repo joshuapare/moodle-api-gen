@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminSyncUsers200Response
+# MoodleClient.Model.BlockIomadCompanyAdminSyncUsers200Response
 
 ## Properties
 

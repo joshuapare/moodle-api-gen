@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserRemoveUserDevice200Response
+# MoodleClient.Model.CoreUserRemoveUserDevice200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetGradeitems200ResponseGradeItemsInner
+# MoodleClient.Model.CoreGradesGetGradeitems200ResponseGradeItemsInner
 
 ## Properties
 

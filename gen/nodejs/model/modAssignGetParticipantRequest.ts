@@ -16,31 +16,31 @@ export class ModAssignGetParticipantRequest {
     /**
     * assign instance id
     */
-    'assignid': number = null;
+    'Assignid': number = null;
     /**
     * user id
     */
-    'embeduser'?: boolean = false;
+    'Embeduser'?: boolean = false;
     /**
     * user id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignid",
+            "name": "Assignid",
             "baseName": "assignid",
             "type": "number"
         },
         {
-            "name": "embeduser",
+            "name": "Embeduser",
             "baseName": "embeduser",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

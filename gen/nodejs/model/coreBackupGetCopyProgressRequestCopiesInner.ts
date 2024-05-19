@@ -19,31 +19,31 @@ export class CoreBackupGetCopyProgressRequestCopiesInner {
     /**
     * Backup id
     */
-    'backupid'?: string = 'null';
+    'Backupid'?: string = 'null';
     /**
     * Operation type
     */
-    'operation'?: string = 'null';
+    'Operation'?: string = 'null';
     /**
     * Restore id
     */
-    'restoreid'?: string = 'null';
+    'Restoreid'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "backupid",
+            "name": "Backupid",
             "baseName": "backupid",
             "type": "string"
         },
         {
-            "name": "operation",
+            "name": "Operation",
             "baseName": "operation",
             "type": "string"
         },
         {
-            "name": "restoreid",
+            "name": "Restoreid",
             "baseName": "restoreid",
             "type": "string"
         }    ];

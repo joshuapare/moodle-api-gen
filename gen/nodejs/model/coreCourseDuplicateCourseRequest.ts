@@ -17,55 +17,55 @@ export class CoreCourseDuplicateCourseRequest {
     /**
     * duplicated course category parent
     */
-    'categoryid': number = null;
+    'Categoryid': number = null;
     /**
     * course to duplicate id
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * duplicated course full name
     */
-    'fullname': string = 'null';
-    'options'?: Array<CoreCourseDuplicateCourseRequestOptionsInner>;
+    'Fullname': string = 'null';
+    'Options'?: Array<CoreCourseDuplicateCourseRequestOptionsInner>;
     /**
     * duplicated course short name
     */
-    'shortname': string = 'null';
+    'Shortname': string = 'null';
     /**
     * duplicated course visible, default to yes
     */
-    'visible'?: number = 1;
+    'Visible'?: number = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreCourseDuplicateCourseRequestOptionsInner>"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

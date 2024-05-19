@@ -17,19 +17,19 @@ export class CoreCalendarGetCalendarExportToken200Response {
     /**
     * The calendar permanent access token for calendar export.
     */
-    'token': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Token': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "token",
+            "name": "Token",
             "baseName": "token",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

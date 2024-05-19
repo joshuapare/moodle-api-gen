@@ -16,22 +16,22 @@ export class CoreCourseGetCategoriesRequestCriteriaInner {
     /**
     * The category column to search, expected keys (value format) are:\"id\" (int) the category id,\"ids\" (string) category ids separated by commas,\"name\" (string) the category name,\"parent\" (int) the parent category id,\"idnumber\" (string) category idnumber - user must have \'moodle/category:manage\' to search on idnumber,\"visible\" (int) whether the returned categories must be visible or hidden. If the key is not passed,                                              then the function return all categories that the user can see. - user must have \'moodle/category:manage\' or \'moodle/category:viewhiddencategories\' to search on visible,\"theme\" (string) only return the categories having this theme - user must have \'moodle/category:manage\' to search on theme
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * the value to match
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

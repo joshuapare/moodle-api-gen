@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBackupGetAsyncBackupProgressRequest
+# MoodleClient.Model.CoreBackupGetAsyncBackupProgressRequest
 
 ## Properties
 

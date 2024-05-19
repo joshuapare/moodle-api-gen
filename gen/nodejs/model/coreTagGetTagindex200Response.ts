@@ -16,112 +16,112 @@ export class CoreTagGetTagindex200Response {
     /**
     * name of anchor
     */
-    'anchor'?: string = 'null';
+    'Anchor'?: string = 'null';
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * title
     */
-    'content': string = 'null';
+    'Content': string = 'null';
     /**
     * text for exclusive link
     */
-    'exclusivetext'?: string = 'null';
+    'Exclusivetext'?: string = 'null';
     /**
     * URL for exclusive link
     */
-    'exclusiveurl'?: string = 'null';
+    'Exclusiveurl'?: string = 'null';
     /**
     * whether the content is present
     */
-    'hascontent': number = null;
+    'Hascontent': number = null;
     /**
     * itemtype
     */
-    'itemtype': string = 'null';
+    'Itemtype': string = 'null';
     /**
     * URL for the next page
     */
-    'nextpageurl'?: string = 'null';
+    'Nextpageurl'?: string = 'null';
     /**
     * URL for the next page
     */
-    'prevpageurl'?: string;
+    'Prevpageurl'?: string;
     /**
     * tag area id
     */
-    'ta': number;
+    'Ta': number;
     /**
     * tag id
     */
-    'tagid': number = null;
+    'Tagid': number = null;
     /**
     * title
     */
-    'title': string;
+    'Title': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "anchor",
+            "name": "Anchor",
             "baseName": "anchor",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "exclusivetext",
+            "name": "Exclusivetext",
             "baseName": "exclusivetext",
             "type": "string"
         },
         {
-            "name": "exclusiveurl",
+            "name": "Exclusiveurl",
             "baseName": "exclusiveurl",
             "type": "string"
         },
         {
-            "name": "hascontent",
+            "name": "Hascontent",
             "baseName": "hascontent",
             "type": "number"
         },
         {
-            "name": "itemtype",
+            "name": "Itemtype",
             "baseName": "itemtype",
             "type": "string"
         },
         {
-            "name": "nextpageurl",
+            "name": "Nextpageurl",
             "baseName": "nextpageurl",
             "type": "string"
         },
         {
-            "name": "prevpageurl",
+            "name": "Prevpageurl",
             "baseName": "prevpageurl",
             "type": "string"
         },
         {
-            "name": "ta",
+            "name": "Ta",
             "baseName": "ta",
             "type": "number"
         },
         {
-            "name": "tagid",
+            "name": "Tagid",
             "baseName": "tagid",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

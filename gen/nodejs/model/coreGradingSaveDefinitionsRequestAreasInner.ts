@@ -17,55 +17,55 @@ export class CoreGradingSaveDefinitionsRequestAreasInner {
     /**
     * active method
     */
-    'activemethod'?: string;
+    'Activemethod'?: string;
     /**
     * area name
     */
-    'areaname'?: string;
+    'Areaname'?: string;
     /**
     * course module id
     */
-    'cmid'?: number;
+    'Cmid'?: number;
     /**
     * component name
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * context id
     */
-    'contextid'?: number;
-    'definitions'?: Array<CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInner>;
+    'Contextid'?: number;
+    'Definitions'?: Array<CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activemethod",
+            "name": "Activemethod",
             "baseName": "activemethod",
             "type": "string"
         },
         {
-            "name": "areaname",
+            "name": "Areaname",
             "baseName": "areaname",
             "type": "string"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "definitions",
+            "name": "Definitions",
             "baseName": "definitions",
             "type": "Array<CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInner>"
         }    ];

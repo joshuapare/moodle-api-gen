@@ -20,193 +20,193 @@ import { ModForumAddDiscussionPost200ResponsePostTagsInner } from './modForumAdd
 import { ModForumAddDiscussionPost200ResponsePostUrls } from './modForumAddDiscussionPost200ResponsePostUrls';
 
 export class ModForumAddDiscussionPost200ResponsePost {
-    'attachments': Array<ModForumAddDiscussionPost200ResponsePostAttachmentsInner>;
-    'author': ModForumAddDiscussionPost200ResponsePostAuthor;
-    'capabilities': ModForumAddDiscussionPost200ResponsePostCapabilities;
+    'Attachments': Array<ModForumAddDiscussionPost200ResponsePostAttachmentsInner>;
+    'Author': ModForumAddDiscussionPost200ResponsePostAuthor;
+    'Capabilities': ModForumAddDiscussionPost200ResponsePostCapabilities;
     /**
     * charcount
     */
-    'charcount'?: number = null;
+    'Charcount'?: number = null;
     /**
     * discussionid
     */
-    'discussionid': number = null;
+    'Discussionid': number = null;
     /**
     * hasparent
     */
-    'hasparent': boolean = null;
+    'Hasparent': boolean = null;
     /**
     * haswordcount
     */
-    'haswordcount': boolean = null;
-    'html'?: ModForumAddDiscussionPost200ResponsePostHtml;
+    'Haswordcount': boolean = null;
+    'Html'?: ModForumAddDiscussionPost200ResponsePostHtml;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * isdeleted
     */
-    'isdeleted': boolean = null;
+    'Isdeleted': boolean = null;
     /**
     * isprivatereply
     */
-    'isprivatereply': boolean = null;
+    'Isprivatereply': boolean = null;
     /**
     * message
     */
-    'message': string = 'null';
+    'Message': string = 'null';
     /**
     * message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'messageformat': number = null;
-    'messageinlinefiles'?: Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>;
+    'Messageformat': number = null;
+    'Messageinlinefiles'?: Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>;
     /**
     * parentid
     */
-    'parentid'?: number = null;
+    'Parentid'?: number = null;
     /**
     * replysubject
     */
-    'replysubject': string = 'null';
+    'Replysubject': string = 'null';
     /**
     * subject
     */
-    'subject': string = 'null';
-    'tags'?: Array<ModForumAddDiscussionPost200ResponsePostTagsInner>;
+    'Subject': string = 'null';
+    'Tags'?: Array<ModForumAddDiscussionPost200ResponsePostTagsInner>;
     /**
     * timecreated
     */
-    'timecreated': number = null;
+    'Timecreated': number = null;
     /**
     * timemodified
     */
-    'timemodified': number = null;
+    'Timemodified': number = null;
     /**
     * unread
     */
-    'unread'?: boolean = null;
-    'urls'?: ModForumAddDiscussionPost200ResponsePostUrls;
+    'Unread'?: boolean = null;
+    'Urls'?: ModForumAddDiscussionPost200ResponsePostUrls;
     /**
     * wordcount
     */
-    'wordcount'?: number = null;
+    'Wordcount'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attachments",
+            "name": "Attachments",
             "baseName": "attachments",
             "type": "Array<ModForumAddDiscussionPost200ResponsePostAttachmentsInner>"
         },
         {
-            "name": "author",
+            "name": "Author",
             "baseName": "author",
             "type": "ModForumAddDiscussionPost200ResponsePostAuthor"
         },
         {
-            "name": "capabilities",
+            "name": "Capabilities",
             "baseName": "capabilities",
             "type": "ModForumAddDiscussionPost200ResponsePostCapabilities"
         },
         {
-            "name": "charcount",
+            "name": "Charcount",
             "baseName": "charcount",
             "type": "number"
         },
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         },
         {
-            "name": "hasparent",
+            "name": "Hasparent",
             "baseName": "hasparent",
             "type": "boolean"
         },
         {
-            "name": "haswordcount",
+            "name": "Haswordcount",
             "baseName": "haswordcount",
             "type": "boolean"
         },
         {
-            "name": "html",
+            "name": "Html",
             "baseName": "html",
             "type": "ModForumAddDiscussionPost200ResponsePostHtml"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isdeleted",
+            "name": "Isdeleted",
             "baseName": "isdeleted",
             "type": "boolean"
         },
         {
-            "name": "isprivatereply",
+            "name": "Isprivatereply",
             "baseName": "isprivatereply",
             "type": "boolean"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "messageformat",
+            "name": "Messageformat",
             "baseName": "messageformat",
             "type": "number"
         },
         {
-            "name": "messageinlinefiles",
+            "name": "Messageinlinefiles",
             "baseName": "messageinlinefiles",
             "type": "Array<ModFeedbackGetAnalysis200ResponseItemsdataInnerItemItemfilesInner>"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "replysubject",
+            "name": "Replysubject",
             "baseName": "replysubject",
             "type": "string"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         },
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<ModForumAddDiscussionPost200ResponsePostTagsInner>"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "unread",
+            "name": "Unread",
             "baseName": "unread",
             "type": "boolean"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumAddDiscussionPost200ResponsePostUrls"
         },
         {
-            "name": "wordcount",
+            "name": "Wordcount",
             "baseName": "wordcount",
             "type": "number"
         }    ];

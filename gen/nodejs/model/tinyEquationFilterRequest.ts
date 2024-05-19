@@ -16,22 +16,22 @@ export class TinyEquationFilterRequest {
     /**
     * The equation content
     */
-    'content': string = 'null';
+    'Content': string = 'null';
     /**
     * The context ID
     */
-    'contextid': number = null;
+    'Contextid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

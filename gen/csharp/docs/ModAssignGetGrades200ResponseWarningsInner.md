@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetGrades200ResponseWarningsInner
+# MoodleClient.Model.ModAssignGetGrades200ResponseWarningsInner
 warning
 
 ## Properties

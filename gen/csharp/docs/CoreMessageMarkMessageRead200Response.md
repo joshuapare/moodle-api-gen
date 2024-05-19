@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMarkMessageRead200Response
+# MoodleClient.Model.CoreMessageMarkMessageRead200Response
 
 ## Properties
 

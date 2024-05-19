@@ -18,34 +18,34 @@ export class CoreMessageGetUserMessagePreferences200Response {
     /**
     * Privacy messaging setting to define who can message you
     */
-    'blocknoncontacts': number = null;
+    'Blocknoncontacts': number = null;
     /**
     * User preference for using enter to send messages
     */
-    'entertosend': boolean = null;
-    'preferences': CoreMessageGetUserMessagePreferences200ResponsePreferences;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Entertosend': boolean = null;
+    'Preferences': CoreMessageGetUserMessagePreferences200ResponsePreferences;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "blocknoncontacts",
+            "name": "Blocknoncontacts",
             "baseName": "blocknoncontacts",
             "type": "number"
         },
         {
-            "name": "entertosend",
+            "name": "Entertosend",
             "baseName": "entertosend",
             "type": "boolean"
         },
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "CoreMessageGetUserMessagePreferences200ResponsePreferences"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

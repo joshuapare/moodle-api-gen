@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetEntriesByLetterRequest
+# MoodleClient.Model.ModGlossaryGetEntriesByLetterRequest
 
 ## Properties
 

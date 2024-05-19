@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarUpdateEventStartDay200Response
+# MoodleClient.Model.CoreCalendarUpdateEventStartDay200Response
 
 ## Properties
 

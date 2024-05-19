@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetActionEventsByTimesort200Response
+# MoodleClient.Model.CoreCalendarGetActionEventsByTimesort200Response
 
 ## Properties
 

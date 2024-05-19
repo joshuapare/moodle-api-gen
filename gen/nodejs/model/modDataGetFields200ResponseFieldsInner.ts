@@ -16,148 +16,148 @@ export class ModDataGetFields200ResponseFieldsInner {
     /**
     * The field type of the content.
     */
-    'dataid'?: number = 0;
+    'Dataid'?: number = 0;
     /**
     * The field description.
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * Field id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The field name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Field parameters
     */
-    'param1'?: string = 'null';
+    'Param1'?: string = 'null';
     /**
     * Field parameters
     */
-    'param2'?: string;
+    'Param2'?: string;
     /**
     * Field parameters
     */
-    'param3'?: string;
+    'Param3'?: string;
     /**
     * Field parameters
     */
-    'param4'?: string;
+    'Param4'?: string;
     /**
     * Field parameters
     */
-    'param5'?: string;
+    'Param5'?: string;
     /**
     * Field parameters
     */
-    'param6'?: string;
+    'Param6'?: string;
     /**
     * Field parameters
     */
-    'param7'?: string;
+    'Param7'?: string;
     /**
     * Field parameters
     */
-    'param8'?: string;
+    'Param8'?: string;
     /**
     * Field parameters
     */
-    'param9'?: string;
+    'Param9'?: string;
     /**
     * Field parameters
     */
-    'param10'?: string;
+    'Param10'?: string;
     /**
     * Whether is a field required or not.
     */
-    'required'?: boolean = 0;
+    'Required'?: boolean = 0;
     /**
     * The field type.
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "dataid",
+            "name": "Dataid",
             "baseName": "dataid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "param1",
+            "name": "Param1",
             "baseName": "param1",
             "type": "string"
         },
         {
-            "name": "param2",
+            "name": "Param2",
             "baseName": "param2",
             "type": "string"
         },
         {
-            "name": "param3",
+            "name": "Param3",
             "baseName": "param3",
             "type": "string"
         },
         {
-            "name": "param4",
+            "name": "Param4",
             "baseName": "param4",
             "type": "string"
         },
         {
-            "name": "param5",
+            "name": "Param5",
             "baseName": "param5",
             "type": "string"
         },
         {
-            "name": "param6",
+            "name": "Param6",
             "baseName": "param6",
             "type": "string"
         },
         {
-            "name": "param7",
+            "name": "Param7",
             "baseName": "param7",
             "type": "string"
         },
         {
-            "name": "param8",
+            "name": "Param8",
             "baseName": "param8",
             "type": "string"
         },
         {
-            "name": "param9",
+            "name": "Param9",
             "baseName": "param9",
             "type": "string"
         },
         {
-            "name": "param10",
+            "name": "Param10",
             "baseName": "param10",
             "type": "string"
         },
         {
-            "name": "required",
+            "name": "Required",
             "baseName": "required",
             "type": "boolean"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

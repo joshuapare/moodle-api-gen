@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChatGetSessionMessages200ResponseMessagesInner
+# MoodleClient.Model.ModChatGetSessionMessages200ResponseMessagesInner
 
 ## Properties
 

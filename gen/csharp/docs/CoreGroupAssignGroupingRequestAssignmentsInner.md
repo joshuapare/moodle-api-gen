@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupAssignGroupingRequestAssignmentsInner
+# MoodleClient.Model.CoreGroupAssignGroupingRequestAssignmentsInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFiltersGetAvailableInContextRequest
+# MoodleClient.Model.CoreFiltersGetAvailableInContextRequest
 
 ## Properties
 

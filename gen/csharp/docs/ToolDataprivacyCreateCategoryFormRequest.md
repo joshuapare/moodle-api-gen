@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyCreateCategoryFormRequest
+# MoodleClient.Model.ToolDataprivacyCreateCategoryFormRequest
 
 ## Properties
 

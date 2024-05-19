@@ -16,13 +16,13 @@ export class TinyPremiumGetApiKeyRequest {
     /**
     * The current context ID.
     */
-    'contextid': number = null;
+    'Contextid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

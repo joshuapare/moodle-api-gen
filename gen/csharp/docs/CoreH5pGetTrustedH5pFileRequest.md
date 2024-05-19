@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreH5pGetTrustedH5pFileRequest
+# MoodleClient.Model.CoreH5pGetTrustedH5pFileRequest
 
 ## Properties
 

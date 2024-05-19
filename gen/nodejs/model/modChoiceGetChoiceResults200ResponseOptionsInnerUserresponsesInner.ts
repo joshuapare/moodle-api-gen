@@ -19,49 +19,49 @@ export class ModChoiceGetChoiceResults200ResponseOptionsInnerUserresponsesInner 
     /**
     * answer id
     */
-    'answerid'?: number = null;
+    'Answerid'?: number = null;
     /**
     * user full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * profile user image url
     */
-    'profileimageurl'?: string = 'null';
+    'Profileimageurl'?: string = 'null';
     /**
     * time of modification
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerid",
+            "name": "Answerid",
             "baseName": "answerid",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

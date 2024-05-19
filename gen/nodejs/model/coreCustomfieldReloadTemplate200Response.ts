@@ -17,46 +17,46 @@ export class CoreCustomfieldReloadTemplate200Response {
     /**
     * area
     */
-    'area': string;
-    'categories': Array<CoreCustomfieldReloadTemplate200ResponseCategoriesInner>;
+    'Area': string;
+    'Categories': Array<CoreCustomfieldReloadTemplate200ResponseCategoriesInner>;
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * itemid
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * view has categories
     */
-    'usescategories': boolean = null;
+    'Usescategories': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "categories",
+            "name": "Categories",
             "baseName": "categories",
             "type": "Array<CoreCustomfieldReloadTemplate200ResponseCategoriesInner>"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "usescategories",
+            "name": "Usescategories",
             "baseName": "usescategories",
             "type": "boolean"
         }    ];

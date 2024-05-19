@@ -13,91 +13,91 @@
 import { RequestFile } from './models';
 
 export class CoreSearchGetResultsRequestFilters {
-    'areaids'?: Array<object>;
+    'Areaids'?: Array<object>;
     /**
     * category to filter areas
     */
-    'cat'?: string = '';
-    'contextids'?: Array<object>;
-    'courseids'?: Array<object>;
-    'groupids'?: Array<object>;
+    'Cat'?: string = '';
+    'Contextids'?: Array<object>;
+    'Courseids'?: Array<object>;
+    'Groupids'?: Array<object>;
     /**
     * only results from my courses
     */
-    'mycoursesonly'?: boolean = false;
+    'Mycoursesonly'?: boolean = false;
     /**
     * how to order
     */
-    'order'?: string = '';
+    'Order'?: string = '';
     /**
     * docs modified before this date
     */
-    'timeend'?: number = 0;
+    'Timeend'?: number = 0;
     /**
     * docs modified after this date
     */
-    'timestart'?: number = 0;
+    'Timestart'?: number = 0;
     /**
     * result title
     */
-    'title'?: string = 'null';
-    'userids'?: Array<object>;
+    'Title'?: string = 'null';
+    'Userids'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "areaids",
+            "name": "Areaids",
             "baseName": "areaids",
             "type": "Array<object>"
         },
         {
-            "name": "cat",
+            "name": "Cat",
             "baseName": "cat",
             "type": "string"
         },
         {
-            "name": "contextids",
+            "name": "Contextids",
             "baseName": "contextids",
             "type": "Array<object>"
         },
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "groupids",
+            "name": "Groupids",
             "baseName": "groupids",
             "type": "Array<object>"
         },
         {
-            "name": "mycoursesonly",
+            "name": "Mycoursesonly",
             "baseName": "mycoursesonly",
             "type": "boolean"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "timeend",
+            "name": "Timeend",
             "baseName": "timeend",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

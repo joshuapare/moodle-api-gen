@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyCreatePlanRequestPlan
+# MoodleClient.Model.CoreCompetencyCreatePlanRequestPlan
 
 ## Properties
 

@@ -16,76 +16,76 @@ export class ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCour
     /**
     * competencyid
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * courseid
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * ruleoutcome
     */
-    'ruleoutcome': number = 1;
+    'Ruleoutcome': number = 1;
     /**
     * sortorder
     */
-    'sortorder': number;
+    'Sortorder': number;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "ruleoutcome",
+            "name": "Ruleoutcome",
             "baseName": "ruleoutcome",
             "type": "number"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

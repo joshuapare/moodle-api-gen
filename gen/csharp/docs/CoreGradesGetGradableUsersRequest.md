@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetGradableUsersRequest
+# MoodleClient.Model.CoreGradesGetGradableUsersRequest
 
 ## Properties
 

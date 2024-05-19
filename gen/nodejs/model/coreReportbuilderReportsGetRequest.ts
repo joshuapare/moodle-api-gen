@@ -16,31 +16,31 @@ export class CoreReportbuilderReportsGetRequest {
     /**
     * Whether editing mode is enabled
     */
-    'editmode'?: boolean = 0;
+    'Editmode'?: boolean = 0;
     /**
     * Page size
     */
-    'pagesize'?: number = 0;
+    'Pagesize'?: number = 0;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "editmode",
+            "name": "Editmode",
             "baseName": "editmode",
             "type": "boolean"
         },
         {
-            "name": "pagesize",
+            "name": "Pagesize",
             "baseName": "pagesize",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

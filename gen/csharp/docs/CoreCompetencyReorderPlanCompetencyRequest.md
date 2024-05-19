@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyReorderPlanCompetencyRequest
+# MoodleClient.Model.CoreCompetencyReorderPlanCompetencyRequest
 
 ## Properties
 

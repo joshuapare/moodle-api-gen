@@ -16,31 +16,31 @@ export class ToolLpDataForCompetencySummaryRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * Include or not competency courses
     */
-    'includecourses'?: boolean = false;
+    'Includecourses'?: boolean = false;
     /**
     * Include or not related competencies
     */
-    'includerelated'?: boolean = false;
+    'Includerelated'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "includecourses",
+            "name": "Includecourses",
             "baseName": "includecourses",
             "type": "boolean"
         },
         {
-            "name": "includerelated",
+            "name": "Includerelated",
             "baseName": "includerelated",
             "type": "boolean"
         }    ];

@@ -16,49 +16,49 @@ export class ModWorkshopGetSubmissionsRequest {
     /**
     * Group id, 0 means that the function will determine the user group.                                                    It will return submissions done by users in the given group.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The page of records to return.
     */
-    'page'?: number = 0;
+    'Page'?: number = 0;
     /**
     * The number of records to return per page.
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * Get submissions done by this user. Use 0 or empty for the current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
     /**
     * Workshop instance id.
     */
-    'workshopid': number;
+    'Workshopid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "workshopid",
+            "name": "Workshopid",
             "baseName": "workshopid",
             "type": "number"
         }    ];

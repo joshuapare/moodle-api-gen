@@ -16,40 +16,40 @@ export class CoreUpdateInplaceEditableRequest {
     /**
     * component responsible for the update
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * identifier of the updated item
     */
-    'itemid': string = 'null';
+    'Itemid': string = 'null';
     /**
     * type of the updated item inside the component
     */
-    'itemtype': string = 'null';
+    'Itemtype': string = 'null';
     /**
     * new value
     */
-    'value': string = 'null';
+    'Value': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "string"
         },
         {
-            "name": "itemtype",
+            "name": "Itemtype",
             "baseName": "itemtype",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

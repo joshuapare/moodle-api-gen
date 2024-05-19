@@ -8,8 +8,8 @@ info:
   title: Moodle Webservice API
   version: 4.3.4
 servers:
-- description: Custom Moodle server URL
-  url: "{scheme}://{host}/webservice/rest/server.php"
+- description: Moodle Server URL
+  url: "{scheme}://{host}/webservice/restful/server.php"
   variables:
     host:
       default: localhost

@@ -16,13 +16,13 @@ export class ModForumViewForumRequest {
     /**
     * forum instance id
     */
-    'forumid': number;
+    'Forumid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         }    ];

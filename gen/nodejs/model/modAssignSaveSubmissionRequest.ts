@@ -17,19 +17,19 @@ export class ModAssignSaveSubmissionRequest {
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
-    'plugindata': ModAssignSaveSubmissionRequestPlugindata;
+    'Assignmentid': number;
+    'Plugindata': ModAssignSaveSubmissionRequestPlugindata;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "plugindata",
+            "name": "Plugindata",
             "baseName": "plugindata",
             "type": "ModAssignSaveSubmissionRequestPlugindata"
         }    ];

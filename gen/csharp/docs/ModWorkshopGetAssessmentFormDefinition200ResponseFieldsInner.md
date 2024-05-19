@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetAssessmentFormDefinition200ResponseFieldsInner
+# MoodleClient.Model.ModWorkshopGetAssessmentFormDefinition200ResponseFieldsInner
 
 ## Properties
 

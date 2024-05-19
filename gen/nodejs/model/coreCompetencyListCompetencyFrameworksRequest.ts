@@ -14,76 +14,76 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohortsRequestContext } from './coreCohortSearchCohortsRequestContext';
 
 export class CoreCompetencyListCompetencyFrameworksRequest {
-    'context': CoreCohortSearchCohortsRequestContext;
+    'Context': CoreCohortSearchCohortsRequestContext;
     /**
     * What other contextes to fetch the frameworks from. (children, parents, self)
     */
-    'includes'?: string = 'children';
+    'Includes'?: string = 'children';
     /**
     * Return this number of records at most.
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Only visible frameworks will be returned if visible true
     */
-    'onlyvisible'?: boolean = false;
+    'Onlyvisible'?: boolean = false;
     /**
     * Sort direction. Should be either ASC or DESC
     */
-    'order'?: string = '';
+    'Order'?: string = '';
     /**
     * A query string to filter the results
     */
-    'query'?: string = '';
+    'Query'?: string = '';
     /**
     * Skip this number of records before returning results
     */
-    'skip'?: number = 0;
+    'Skip'?: number = 0;
     /**
     * Column to sort by.
     */
-    'sort'?: string = 'shortname';
+    'Sort'?: string = 'shortname';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "CoreCohortSearchCohortsRequestContext"
         },
         {
-            "name": "includes",
+            "name": "Includes",
             "baseName": "includes",
             "type": "string"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "onlyvisible",
+            "name": "Onlyvisible",
             "baseName": "onlyvisible",
             "type": "boolean"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         },
         {
-            "name": "skip",
+            "name": "Skip",
             "baseName": "skip",
             "type": "number"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

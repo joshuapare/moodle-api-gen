@@ -18,25 +18,25 @@ export class ModChatGetChatLatestMessages200Response {
     /**
     * new last time
     */
-    'chatnewlasttime': number = null;
-    'messages': Array<ModChatGetChatLatestMessages200ResponseMessagesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Chatnewlasttime': number = null;
+    'Messages': Array<ModChatGetChatLatestMessages200ResponseMessagesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatnewlasttime",
+            "name": "Chatnewlasttime",
             "baseName": "chatnewlasttime",
             "type": "number"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<ModChatGetChatLatestMessages200ResponseMessagesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

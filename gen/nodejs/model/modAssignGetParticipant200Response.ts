@@ -17,127 +17,127 @@ export class ModAssignGetParticipant200Response {
     /**
     * allowsubmissionsfromdate for the user
     */
-    'allowsubmissionsfromdate': number = null;
+    'Allowsubmissionsfromdate': number = null;
     /**
     * is blind marking enabled for this assignment
     */
-    'blindmarking': boolean = null;
+    'Blindmarking': boolean = null;
     /**
     * cutoffdate for the user
     */
-    'cutoffdate': number = null;
+    'Cutoffdate': number = null;
     /**
     * duedate for the user
     */
-    'duedate': number = null;
+    'Duedate': number = null;
     /**
     * duedate for the user
     */
-    'duedatestr': string = 'null';
+    'Duedatestr': string = 'null';
     /**
     * The fullname of the user
     */
-    'fullname': string;
+    'Fullname': string;
     /**
     * have they been granted an extension
     */
-    'grantedextension': boolean = null;
+    'Grantedextension': boolean = null;
     /**
     * for group assignments this is the group id
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
     /**
     * for group assignments this is the group name
     */
-    'groupname'?: string = 'null';
+    'Groupname'?: string = 'null';
     /**
     * ID of the user
     */
-    'id': number;
+    'Id': number;
     /**
     * is their submission waiting for grading
     */
-    'requiregrading': boolean = null;
+    'Requiregrading': boolean = null;
     /**
     * The submission status (new, draft, reopened or submitted).                 Empty when not submitted.
     */
-    'submissionstatus'?: string = 'null';
+    'Submissionstatus'?: string = 'null';
     /**
     * have they submitted their assignment
     */
-    'submitted': boolean = null;
-    'user'?: ModAssignGetParticipant200ResponseUser;
+    'Submitted': boolean = null;
+    'User'?: ModAssignGetParticipant200ResponseUser;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowsubmissionsfromdate",
+            "name": "Allowsubmissionsfromdate",
             "baseName": "allowsubmissionsfromdate",
             "type": "number"
         },
         {
-            "name": "blindmarking",
+            "name": "Blindmarking",
             "baseName": "blindmarking",
             "type": "boolean"
         },
         {
-            "name": "cutoffdate",
+            "name": "Cutoffdate",
             "baseName": "cutoffdate",
             "type": "number"
         },
         {
-            "name": "duedate",
+            "name": "Duedate",
             "baseName": "duedate",
             "type": "number"
         },
         {
-            "name": "duedatestr",
+            "name": "Duedatestr",
             "baseName": "duedatestr",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "grantedextension",
+            "name": "Grantedextension",
             "baseName": "grantedextension",
             "type": "boolean"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "groupname",
+            "name": "Groupname",
             "baseName": "groupname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "requiregrading",
+            "name": "Requiregrading",
             "baseName": "requiregrading",
             "type": "boolean"
         },
         {
-            "name": "submissionstatus",
+            "name": "Submissionstatus",
             "baseName": "submissionstatus",
             "type": "string"
         },
         {
-            "name": "submitted",
+            "name": "Submitted",
             "baseName": "submitted",
             "type": "boolean"
         },
         {
-            "name": "user",
+            "name": "User",
             "baseName": "user",
             "type": "ModAssignGetParticipant200ResponseUser"
         }    ];

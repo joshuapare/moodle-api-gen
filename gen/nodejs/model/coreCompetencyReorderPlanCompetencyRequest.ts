@@ -16,31 +16,31 @@ export class CoreCompetencyReorderPlanCompetencyRequest {
     /**
     * The competency id we are moving
     */
-    'competencyidfrom': number;
+    'Competencyidfrom': number;
     /**
     * The competency id we are moving to
     */
-    'competencyidto': number;
+    'Competencyidto': number;
     /**
     * The plan id
     */
-    'planid': number;
+    'Planid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyidfrom",
+            "name": "Competencyidfrom",
             "baseName": "competencyidfrom",
             "type": "number"
         },
         {
-            "name": "competencyidto",
+            "name": "Competencyidto",
             "baseName": "competencyidto",
             "type": "number"
         },
         {
-            "name": "planid",
+            "name": "Planid",
             "baseName": "planid",
             "type": "number"
         }    ];

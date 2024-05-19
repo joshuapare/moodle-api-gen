@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminGetCompaniesRequestCriteriaInner {
     /**
     * the company column to search, expected keys (value format) are:                                 \"id\" (int) matching company id,                                 \"name\" (string) company name (Note: you can use % for searching but it may be considerably slower!),                                 \"shortname\" (string) company short name (Note: you can use % for searching but it may be considerably slower!),                                 \"code\" (string) company code (Note: you can use % for searching but it may be considerably slower!),                                 \"suspended\" (bool) company is suspended or not,                                 \"city\" (string) matching company city,                                 \"country\" (string) matching company country,                                 \"timezone\" (int) company timezone,                                 \"lang\" (string) matching company language setting
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * the value to search
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

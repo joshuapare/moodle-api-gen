@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInner } from './coreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInner';
 
 export class CoreReportbuilderReportsGet200ResponseSidebarmenucards {
-    'menucards'?: Array<CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInner>;
+    'Menucards'?: Array<CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "menucards",
+            "name": "Menucards",
             "baseName": "menucards",
             "type": "Array<CoreReportbuilderReportsGet200ResponseSidebarmenucardsMenucardsInner>"
         }    ];

@@ -16,25 +16,25 @@ import { ModScormGetScormsByCourses200ResponseOptionsInner } from './modScormGet
 import { ModScormGetScormsByCourses200ResponseScormsInner } from './modScormGetScormsByCourses200ResponseScormsInner';
 
 export class ModScormGetScormsByCourses200Response {
-    'options'?: Array<ModScormGetScormsByCourses200ResponseOptionsInner>;
-    'scorms': Array<ModScormGetScormsByCourses200ResponseScormsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Options'?: Array<ModScormGetScormsByCourses200ResponseOptionsInner>;
+    'Scorms': Array<ModScormGetScormsByCourses200ResponseScormsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModScormGetScormsByCourses200ResponseOptionsInner>"
         },
         {
-            "name": "scorms",
+            "name": "Scorms",
             "baseName": "scorms",
             "type": "Array<ModScormGetScormsByCourses200ResponseScormsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

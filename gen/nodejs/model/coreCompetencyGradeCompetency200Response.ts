@@ -17,172 +17,172 @@ export class CoreCompetencyGradeCompetency200Response {
     /**
     * action
     */
-    'action': number = null;
-    'actionuser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Action': number = null;
+    'Actionuser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * actionuserid
     */
-    'actionuserid': number = null;
+    'Actionuserid': number = null;
     /**
     * candelete
     */
-    'candelete': boolean;
+    'Candelete': boolean;
     /**
     * contextid
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * desca
     */
-    'desca': string = 'null';
+    'Desca': string = 'null';
     /**
     * desccomponent
     */
-    'desccomponent': string = 'null';
+    'Desccomponent': string = 'null';
     /**
     * descidentifier
     */
-    'descidentifier': string = 'null';
+    'Descidentifier': string = 'null';
     /**
     * description
     */
-    'description': string;
+    'Description': string;
     /**
     * grade
     */
-    'grade': number = null;
+    'Grade': number = null;
     /**
     * gradename
     */
-    'gradename': string = 'null';
+    'Gradename': string = 'null';
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * note
     */
-    'note': string = 'null';
+    'Note': string = 'null';
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * url
     */
-    'url': string = 'null';
+    'Url': string = 'null';
     /**
     * usercompetencyid
     */
-    'usercompetencyid': number = null;
+    'Usercompetencyid': number = null;
     /**
     * userdate
     */
-    'userdate': string = 'null';
+    'Userdate': string = 'null';
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "number"
         },
         {
-            "name": "actionuser",
+            "name": "Actionuser",
             "baseName": "actionuser",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "actionuserid",
+            "name": "Actionuserid",
             "baseName": "actionuserid",
             "type": "number"
         },
         {
-            "name": "candelete",
+            "name": "Candelete",
             "baseName": "candelete",
             "type": "boolean"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "desca",
+            "name": "Desca",
             "baseName": "desca",
             "type": "string"
         },
         {
-            "name": "desccomponent",
+            "name": "Desccomponent",
             "baseName": "desccomponent",
             "type": "string"
         },
         {
-            "name": "descidentifier",
+            "name": "Descidentifier",
             "baseName": "descidentifier",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradename",
+            "name": "Gradename",
             "baseName": "gradename",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "note",
+            "name": "Note",
             "baseName": "note",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "usercompetencyid",
+            "name": "Usercompetencyid",
             "baseName": "usercompetencyid",
             "type": "number"
         },
         {
-            "name": "userdate",
+            "name": "Userdate",
             "baseName": "userdate",
             "type": "string"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

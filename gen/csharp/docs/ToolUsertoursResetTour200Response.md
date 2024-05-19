@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolUsertoursResetTour200Response
+# MoodleClient.Model.ToolUsertoursResetTour200Response
 
 ## Properties
 

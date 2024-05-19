@@ -16,22 +16,22 @@ export class CoreEnrolGetUsersCoursesRequest {
     /**
     * Include count of enrolled users for each course? This can add several seconds to the response time if a user is on several large courses, so set this to false if the value will not be used to improve performance.
     */
-    'returnusercount'?: boolean = true;
+    'Returnusercount'?: boolean = true;
     /**
     * user id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "returnusercount",
+            "name": "Returnusercount",
             "baseName": "returnusercount",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

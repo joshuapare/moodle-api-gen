@@ -17,28 +17,28 @@ export class CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatus 
     /**
     * aggregation method 1 means all, 2 means any
     */
-    'aggregation': number = null;
+    'Aggregation': number = null;
     /**
     * true if the course is complete, false otherwise
     */
-    'completed': boolean = null;
-    'completions': Array<CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusCompletionsInner>;
+    'Completed': boolean = null;
+    'Completions': Array<CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusCompletionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aggregation",
+            "name": "Aggregation",
             "baseName": "aggregation",
             "type": "number"
         },
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "boolean"
         },
         {
-            "name": "completions",
+            "name": "Completions",
             "baseName": "completions",
             "type": "Array<CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatusCompletionsInner>"
         }    ];

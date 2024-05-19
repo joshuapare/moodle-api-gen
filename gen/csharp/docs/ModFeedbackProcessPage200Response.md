@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackProcessPage200Response
+# MoodleClient.Model.ModFeedbackProcessPage200Response
 
 ## Properties
 

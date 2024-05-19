@@ -19,58 +19,58 @@ export class CoreTagGetTagCloud200ResponseTagsInner {
     /**
     * Number of tag instances.
     */
-    'count'?: number = null;
+    'Count'?: number = null;
     /**
     * Whether the tag is flagged as inappropriate.
     */
-    'flag'?: boolean = null;
+    'Flag'?: boolean = null;
     /**
     * Whether is a standard tag or not.
     */
-    'isstandard'?: boolean = null;
+    'Isstandard'?: boolean = null;
     /**
     * Tag name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Proportional size to display the tag.
     */
-    'size'?: number = null;
+    'Size'?: number = null;
     /**
     * URL to view the tag index.
     */
-    'viewurl'?: string = 'null';
+    'Viewurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "boolean"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "size",
+            "name": "Size",
             "baseName": "size",
             "type": "number"
         },
         {
-            "name": "viewurl",
+            "name": "Viewurl",
             "baseName": "viewurl",
             "type": "string"
         }    ];

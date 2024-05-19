@@ -17,37 +17,37 @@ export class ModChatGetSessions200ResponseSessionsInner {
     /**
     * Whether the session is completed or not.
     */
-    'iscomplete'?: boolean = null;
+    'Iscomplete'?: boolean = null;
     /**
     * Session end time.
     */
-    'sessionend'?: number = null;
+    'Sessionend'?: number = null;
     /**
     * Session start time.
     */
-    'sessionstart'?: number = null;
-    'sessionusers'?: Array<ModChatGetSessions200ResponseSessionsInnerSessionusersInner>;
+    'Sessionstart'?: number = null;
+    'Sessionusers'?: Array<ModChatGetSessions200ResponseSessionsInnerSessionusersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iscomplete",
+            "name": "Iscomplete",
             "baseName": "iscomplete",
             "type": "boolean"
         },
         {
-            "name": "sessionend",
+            "name": "Sessionend",
             "baseName": "sessionend",
             "type": "number"
         },
         {
-            "name": "sessionstart",
+            "name": "Sessionstart",
             "baseName": "sessionstart",
             "type": "number"
         },
         {
-            "name": "sessionusers",
+            "name": "Sessionusers",
             "baseName": "sessionusers",
             "type": "Array<ModChatGetSessions200ResponseSessionsInnerSessionusersInner>"
         }    ];

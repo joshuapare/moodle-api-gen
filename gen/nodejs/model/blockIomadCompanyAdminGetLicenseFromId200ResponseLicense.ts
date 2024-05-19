@@ -16,130 +16,130 @@ export class BlockIomadCompanyAdminGetLicenseFromId200ResponseLicense {
     /**
     * All licenses allocated
     */
-    'allallocated': boolean = null;
+    'Allallocated': boolean = null;
     /**
     * Allocation
     */
-    'allocation': number = null;
+    'Allocation': number = null;
     /**
     * Company ID
     */
-    'companyid': number;
+    'Companyid': number;
     /**
     * Expiry date
     */
-    'expirydate': number = null;
+    'Expirydate': number = null;
     /**
     * License ID
     */
-    'id': number;
+    'Id': number;
     /**
     * Instant
     */
-    'instant': boolean = null;
+    'Instant': boolean = null;
     /**
     * License name
     */
-    'name': string;
+    'Name': string;
     /**
     * Parent ID
     */
-    'parentid': number = null;
+    'Parentid': number = null;
     /**
     * Program
     */
-    'program': boolean = null;
+    'Program': boolean = null;
     /**
     * Reference
     */
-    'reference': string = 'null';
+    'Reference': string = 'null';
     /**
     * Start date
     */
-    'startdate': number = null;
+    'Startdate': number = null;
     /**
     * License type - 0 = standard, 1 = reusable, 2 = standard educator, 3 = reusable educator
     */
-    'type': number;
+    'Type': number;
     /**
     * Used
     */
-    'used': number = null;
+    'Used': number = null;
     /**
     * Valid length
     */
-    'validlength': number = null;
+    'Validlength': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allallocated",
+            "name": "Allallocated",
             "baseName": "allallocated",
             "type": "boolean"
         },
         {
-            "name": "allocation",
+            "name": "Allocation",
             "baseName": "allocation",
             "type": "number"
         },
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "expirydate",
+            "name": "Expirydate",
             "baseName": "expirydate",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instant",
+            "name": "Instant",
             "baseName": "instant",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "program",
+            "name": "Program",
             "baseName": "program",
             "type": "boolean"
         },
         {
-            "name": "reference",
+            "name": "Reference",
             "baseName": "reference",
             "type": "string"
         },
         {
-            "name": "startdate",
+            "name": "Startdate",
             "baseName": "startdate",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "used",
+            "name": "Used",
             "baseName": "used",
             "type": "number"
         },
         {
-            "name": "validlength",
+            "name": "Validlength",
             "baseName": "validlength",
             "type": "number"
         }    ];

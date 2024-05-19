@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyUpdateCourseCompetencySettingsRequestSettings
+# MoodleClient.Model.CoreCompetencyUpdateCourseCompetencySettingsRequestSettings
 
 ## Properties
 

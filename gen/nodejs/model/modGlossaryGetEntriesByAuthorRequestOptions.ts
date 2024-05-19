@@ -16,13 +16,13 @@ export class ModGlossaryGetEntriesByAuthorRequestOptions {
     /**
     * When false, includes the non-approved entries created by the user. When true, also includes the ones that the user has the permission to approve.
     */
-    'includenotapproved'?: boolean = 0;
+    'Includenotapproved'?: boolean = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includenotapproved",
+            "name": "Includenotapproved",
             "baseName": "includenotapproved",
             "type": "boolean"
         }    ];

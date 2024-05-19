@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetActivityChooserFooter200Response
+# MoodleClient.Model.CoreCourseGetActivityChooserFooter200Response
 
 ## Properties
 

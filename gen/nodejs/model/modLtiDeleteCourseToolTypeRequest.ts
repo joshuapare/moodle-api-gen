@@ -16,13 +16,13 @@ export class ModLtiDeleteCourseToolTypeRequest {
     /**
     * Tool type ID
     */
-    'tooltypeid': number = null;
+    'Tooltypeid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tooltypeid",
+            "name": "Tooltypeid",
             "baseName": "tooltypeid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonProcessPageRequestDataInner
+# MoodleClient.Model.ModLessonProcessPageRequestDataInner
 
 ## Properties
 

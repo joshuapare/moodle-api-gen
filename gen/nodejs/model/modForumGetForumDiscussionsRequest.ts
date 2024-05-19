@@ -16,49 +16,49 @@ export class ModForumGetForumDiscussionsRequest {
     /**
     * forum instance id
     */
-    'forumid': number = null;
+    'Forumid': number = null;
     /**
     * group id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * current page
     */
-    'page'?: number = -1;
+    'Page'?: number = -1;
     /**
     * items per page
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * sort by this element: numreplies, , created or timemodified
     */
-    'sortorder'?: number = -1;
+    'Sortorder'?: number = -1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         }    ];

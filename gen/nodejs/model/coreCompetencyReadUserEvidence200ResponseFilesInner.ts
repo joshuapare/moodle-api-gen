@@ -16,175 +16,175 @@ export class CoreCompetencyReadUserEvidence200ResponseFilesInner {
     /**
     * author
     */
-    'author'?: string = 'null';
+    'Author'?: string = 'null';
     /**
     * component
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * contextid
     */
-    'contextid'?: number;
+    'Contextid'?: number;
     /**
     * filearea
     */
-    'filearea'?: string = 'null';
+    'Filearea'?: string = 'null';
     /**
     * filename
     */
-    'filename'?: string = 'null';
+    'Filename'?: string = 'null';
     /**
     * filenameshort
     */
-    'filenameshort'?: string = 'null';
+    'Filenameshort'?: string = 'null';
     /**
     * filepath
     */
-    'filepath'?: string = 'null';
+    'Filepath'?: string = 'null';
     /**
     * filesize
     */
-    'filesize'?: number = null;
+    'Filesize'?: number = null;
     /**
     * filesizeformatted
     */
-    'filesizeformatted'?: string = 'null';
+    'Filesizeformatted'?: string = 'null';
     /**
     * icon
     */
-    'icon'?: string = 'null';
+    'Icon'?: string = 'null';
     /**
     * isdir
     */
-    'isdir'?: boolean = null;
+    'Isdir'?: boolean = null;
     /**
     * isimage
     */
-    'isimage'?: boolean = null;
+    'Isimage'?: boolean = null;
     /**
     * itemid
     */
-    'itemid'?: number;
+    'Itemid'?: number;
     /**
     * license
     */
-    'license'?: string = 'null';
+    'License'?: string = 'null';
     /**
     * timecreated
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * timecreatedformatted
     */
-    'timecreatedformatted'?: string = 'null';
+    'Timecreatedformatted'?: string = 'null';
     /**
     * timemodified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * timemodifiedformatted
     */
-    'timemodifiedformatted'?: string = 'null';
+    'Timemodifiedformatted'?: string = 'null';
     /**
     * url
     */
-    'url'?: string;
+    'Url'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "author",
+            "name": "Author",
             "baseName": "author",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filenameshort",
+            "name": "Filenameshort",
             "baseName": "filenameshort",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "filesizeformatted",
+            "name": "Filesizeformatted",
             "baseName": "filesizeformatted",
             "type": "string"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "string"
         },
         {
-            "name": "isdir",
+            "name": "Isdir",
             "baseName": "isdir",
             "type": "boolean"
         },
         {
-            "name": "isimage",
+            "name": "Isimage",
             "baseName": "isimage",
             "type": "boolean"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "license",
+            "name": "License",
             "baseName": "license",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timecreatedformatted",
+            "name": "Timecreatedformatted",
             "baseName": "timecreatedformatted",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timemodifiedformatted",
+            "name": "Timemodifiedformatted",
             "baseName": "timemodifiedformatted",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

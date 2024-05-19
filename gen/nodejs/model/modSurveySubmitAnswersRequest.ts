@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { ModSurveySubmitAnswersRequestAnswersInner } from './modSurveySubmitAnswersRequestAnswersInner';
 
 export class ModSurveySubmitAnswersRequest {
-    'answers': Array<ModSurveySubmitAnswersRequestAnswersInner>;
+    'Answers': Array<ModSurveySubmitAnswersRequestAnswersInner>;
     /**
     * Survey id
     */
-    'surveyid': number = null;
+    'Surveyid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answers",
+            "name": "Answers",
             "baseName": "answers",
             "type": "Array<ModSurveySubmitAnswersRequestAnswersInner>"
         },
         {
-            "name": "surveyid",
+            "name": "Surveyid",
             "baseName": "surveyid",
             "type": "number"
         }    ];

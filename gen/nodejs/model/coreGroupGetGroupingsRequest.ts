@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class CoreGroupGetGroupingsRequest {
-    'groupingids': Array<object>;
+    'Groupingids': Array<object>;
     /**
     * return associated groups
     */
-    'returngroups'?: boolean = 0;
+    'Returngroups'?: boolean = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupingids",
+            "name": "Groupingids",
             "baseName": "groupingids",
             "type": "Array<object>"
         },
         {
-            "name": "returngroups",
+            "name": "Returngroups",
             "baseName": "returngroups",
             "type": "boolean"
         }    ];

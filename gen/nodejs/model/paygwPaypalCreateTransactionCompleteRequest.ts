@@ -16,40 +16,40 @@ export class PaygwPaypalCreateTransactionCompleteRequest {
     /**
     * The component name
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * The item id in the context of the component area
     */
-    'itemid': number = null;
+    'Itemid': number = null;
     /**
     * The order id coming back from PayPal
     */
-    'orderid': string = 'null';
+    'Orderid': string = 'null';
     /**
     * Payment area in the component
     */
-    'paymentarea': string;
+    'Paymentarea': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "orderid",
+            "name": "Orderid",
             "baseName": "orderid",
             "type": "string"
         },
         {
-            "name": "paymentarea",
+            "name": "Paymentarea",
             "baseName": "paymentarea",
             "type": "string"
         }    ];

@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { EnrolMetaAddInstancesRequestInstancesInner } from './enrolMetaAddInstancesRequestInstancesInner';
 
 export class EnrolMetaAddInstancesRequest {
-    'instances'?: Array<EnrolMetaAddInstancesRequestInstancesInner>;
+    'Instances'?: Array<EnrolMetaAddInstancesRequestInstancesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instances",
+            "name": "Instances",
             "baseName": "instances",
             "type": "Array<EnrolMetaAddInstancesRequestInstancesInner>"
         }    ];

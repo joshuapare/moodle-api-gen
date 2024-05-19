@@ -14,49 +14,49 @@ import { RequestFile } from './models';
 import { CoreCompetencyListCompetenciesRequestFiltersInner } from './coreCompetencyListCompetenciesRequestFiltersInner';
 
 export class CoreCompetencyListCompetenciesRequest {
-    'filters': Array<CoreCompetencyListCompetenciesRequestFiltersInner>;
+    'Filters': Array<CoreCompetencyListCompetenciesRequestFiltersInner>;
     /**
     * Return this number of records at most.
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Sort direction. Should be either ASC or DESC
     */
-    'order'?: string = '';
+    'Order'?: string = '';
     /**
     * Skip this number of records before returning results
     */
-    'skip'?: number = 0;
+    'Skip'?: number = 0;
     /**
     * Column to sort by.
     */
-    'sort'?: string = '';
+    'Sort'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "Array<CoreCompetencyListCompetenciesRequestFiltersInner>"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "skip",
+            "name": "Skip",
             "baseName": "skip",
             "type": "number"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

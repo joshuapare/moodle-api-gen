@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreContentbankRenameContent200Response
+# MoodleClient.Model.CoreContentbankRenameContent200Response
 
 ## Properties
 

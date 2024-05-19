@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBadgesGetUserBadges200ResponseBadgesInnerAlignmentInner
+# MoodleClient.Model.CoreBadgesGetUserBadges200ResponseBadgesInnerAlignmentInner
 
 ## Properties
 

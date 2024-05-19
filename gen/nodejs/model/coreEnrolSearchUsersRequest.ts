@@ -16,58 +16,58 @@ export class CoreEnrolSearchUsersRequest {
     /**
     * Context ID
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * Page number
     */
-    'page': number;
+    'Page': number;
     /**
     * Number per page
     */
-    'perpage': number;
+    'Perpage': number;
     /**
     * query
     */
-    'search': string;
+    'Search': string;
     /**
     * find a match anywhere, or only at the beginning
     */
-    'searchanywhere': boolean;
+    'Searchanywhere': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "searchanywhere",
+            "name": "Searchanywhere",
             "baseName": "searchanywhere",
             "type": "boolean"
         }    ];

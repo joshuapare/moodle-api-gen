@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetAttemptReview200ResponseAdditionaldataInner
+# MoodleClient.Model.ModQuizGetAttemptReview200ResponseAdditionaldataInner
 
 ## Properties
 

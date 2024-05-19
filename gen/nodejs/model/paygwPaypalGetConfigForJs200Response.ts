@@ -16,40 +16,40 @@ export class PaygwPaypalGetConfigForJs200Response {
     /**
     * Brand name
     */
-    'brandname': string = 'null';
+    'Brandname': string = 'null';
     /**
     * PayPal client ID
     */
-    'clientid': string = 'null';
+    'Clientid': string = 'null';
     /**
     * Cost with gateway surcharge
     */
-    'cost': number = null;
+    'Cost': number = null;
     /**
     * Currency
     */
-    'currency': string = 'null';
+    'Currency': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "brandname",
+            "name": "Brandname",
             "baseName": "brandname",
             "type": "string"
         },
         {
-            "name": "clientid",
+            "name": "Clientid",
             "baseName": "clientid",
             "type": "string"
         },
         {
-            "name": "cost",
+            "name": "Cost",
             "baseName": "cost",
             "type": "number"
         },
         {
-            "name": "currency",
+            "name": "Currency",
             "baseName": "currency",
             "type": "string"
         }    ];

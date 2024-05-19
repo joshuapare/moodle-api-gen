@@ -16,49 +16,49 @@ export class BlockIomadCompanyAdminAssignUsersRequestUsersInner {
     /**
     * User company ID
     */
-    'companyid'?: number = 0;
+    'Companyid'?: number = 0;
     /**
     * User company department ID
     */
-    'departmentid'?: number = 0;
+    'Departmentid'?: number = 0;
     /**
     * User educator 0 => No, 1 => Yes
     */
-    'educator'?: number = 0;
+    'Educator'?: number = 0;
     /**
     * User manager type 0 => User, 1 => company manager 2 => department manager, 3 => report only
     */
-    'managertype'?: number = 0;
+    'Managertype'?: number = 0;
     /**
     * User ID
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "departmentid",
+            "name": "Departmentid",
             "baseName": "departmentid",
             "type": "number"
         },
         {
-            "name": "educator",
+            "name": "Educator",
             "baseName": "educator",
             "type": "number"
         },
         {
-            "name": "managertype",
+            "name": "Managertype",
             "baseName": "managertype",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

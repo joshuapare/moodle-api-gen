@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormAttemptCountRequest
+# MoodleClient.Model.ModScormGetScormAttemptCountRequest
 
 ## Properties
 

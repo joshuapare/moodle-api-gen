@@ -16,22 +16,22 @@ export class ToolLpDataForCourseCompetenciesPageRequest {
     /**
     * The course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * The module id
     */
-    'moduleid'?: number = 0;
+    'Moduleid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "moduleid",
+            "name": "Moduleid",
             "baseName": "moduleid",
             "type": "number"
         }    ];

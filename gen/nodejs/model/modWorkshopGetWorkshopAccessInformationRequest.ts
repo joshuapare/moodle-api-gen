@@ -16,13 +16,13 @@ export class ModWorkshopGetWorkshopAccessInformationRequest {
     /**
     * Workshop instance id.
     */
-    'workshopid': number;
+    'Workshopid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "workshopid",
+            "name": "Workshopid",
             "baseName": "workshopid",
             "type": "number"
         }    ];

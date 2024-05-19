@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner
+# MoodleClient.Model.CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner
 
 ## Properties
 

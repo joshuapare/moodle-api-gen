@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradingGetGradingformInstances200ResponseInstancesInnerRubricCriteriaInner
+# MoodleClient.Model.CoreGradingGetGradingformInstances200ResponseInstancesInnerRubricCriteriaInner
 
 ## Properties
 

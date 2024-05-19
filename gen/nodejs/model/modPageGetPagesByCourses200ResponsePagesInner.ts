@@ -17,187 +17,187 @@ export class ModPageGetPagesByCourses200ResponsePagesInner {
     /**
     * Page content
     */
-    'content'?: string = 'null';
-    'contentfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Content'?: string = 'null';
+    'Contentfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'contentformat'?: number;
+    'Contentformat'?: number;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * How to display the page
     */
-    'display'?: number = null;
+    'Display'?: number = null;
     /**
     * Display options (width, height)
     */
-    'displayoptions'?: string = 'null';
+    'Displayoptions'?: string = 'null';
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Legacy files flag
     */
-    'legacyfiles'?: number = null;
+    'Legacyfiles'?: number = null;
     /**
     * Legacy files last control flag
     */
-    'legacyfileslast'?: number = null;
+    'Legacyfileslast'?: number = null;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Incremented when after each file changes, to avoid cache
     */
-    'revision'?: number;
+    'Revision'?: number;
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Last time the page was modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contentfiles",
+            "name": "Contentfiles",
             "baseName": "contentfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "display",
+            "name": "Display",
             "baseName": "display",
             "type": "number"
         },
         {
-            "name": "displayoptions",
+            "name": "Displayoptions",
             "baseName": "displayoptions",
             "type": "string"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "legacyfiles",
+            "name": "Legacyfiles",
             "baseName": "legacyfiles",
             "type": "number"
         },
         {
-            "name": "legacyfileslast",
+            "name": "Legacyfileslast",
             "baseName": "legacyfileslast",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "revision",
+            "name": "Revision",
             "baseName": "revision",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

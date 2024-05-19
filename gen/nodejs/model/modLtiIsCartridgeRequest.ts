@@ -16,13 +16,13 @@ export class ModLtiIsCartridgeRequest {
     /**
     * Tool url
     */
-    'url': string;
+    'Url': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

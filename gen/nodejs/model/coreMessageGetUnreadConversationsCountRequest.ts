@@ -16,13 +16,13 @@ export class CoreMessageGetUnreadConversationsCountRequest {
     /**
     * the user id who received the message, 0 for any user
     */
-    'useridto': number;
+    'Useridto': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         }    ];

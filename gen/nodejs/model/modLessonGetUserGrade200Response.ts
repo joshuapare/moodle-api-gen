@@ -17,28 +17,28 @@ export class ModLessonGetUserGrade200Response {
     /**
     * The lesson final grade formatted
     */
-    'formattedgrade': string = 'null';
+    'Formattedgrade': string = 'null';
     /**
     * The lesson final raw grade
     */
-    'grade': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Grade': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "formattedgrade",
+            "name": "Formattedgrade",
             "baseName": "formattedgrade",
             "type": "string"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

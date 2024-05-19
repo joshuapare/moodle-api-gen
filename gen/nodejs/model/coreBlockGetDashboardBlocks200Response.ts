@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreBlockGetDashboardBlocks200ResponseBlocksInner } from './coreBlockGetDashboardBlocks200ResponseBlocksInner';
 
 export class CoreBlockGetDashboardBlocks200Response {
-    'blocks': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Blocks': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "blocks",
+            "name": "Blocks",
             "baseName": "blocks",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

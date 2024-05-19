@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradingSaveDefinitionsRequestAreasInner
+# MoodleClient.Model.CoreGradingSaveDefinitionsRequestAreasInner
 
 ## Properties
 

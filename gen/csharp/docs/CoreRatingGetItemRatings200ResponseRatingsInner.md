@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreRatingGetItemRatings200ResponseRatingsInner
+# MoodleClient.Model.CoreRatingGetItemRatings200ResponseRatingsInner
 Rating
 
 ## Properties

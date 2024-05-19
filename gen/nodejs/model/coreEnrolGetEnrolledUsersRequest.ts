@@ -17,19 +17,19 @@ export class CoreEnrolGetEnrolledUsersRequest {
     /**
     * course id
     */
-    'courseid': number;
-    'options'?: Array<CoreEnrolGetEnrolledUsersRequestOptionsInner>;
+    'Courseid': number;
+    'Options'?: Array<CoreEnrolGetEnrolledUsersRequestOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreEnrolGetEnrolledUsersRequestOptionsInner>"
         }    ];

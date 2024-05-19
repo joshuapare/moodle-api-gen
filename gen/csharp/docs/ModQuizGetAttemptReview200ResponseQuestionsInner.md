@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetAttemptReview200ResponseQuestionsInner
+# MoodleClient.Model.ModQuizGetAttemptReview200ResponseQuestionsInner
 The question data. Some fields may not be returned depending on the quiz display settings.
 
 ## Properties

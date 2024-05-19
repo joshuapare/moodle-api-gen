@@ -16,19 +16,19 @@ export class CoreMessageDeleteContactsRequest {
     /**
     * The id of the user we are deleting the contacts for, 0 for the                     current user
     */
-    'userid'?: number = 0;
-    'userids': Array<object>;
+    'Userid'?: number = 0;
+    'Userids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

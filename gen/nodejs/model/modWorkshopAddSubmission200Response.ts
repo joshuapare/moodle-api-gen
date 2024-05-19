@@ -17,28 +17,28 @@ export class ModWorkshopAddSubmission200Response {
     /**
     * True if the submission was created false otherwise.
     */
-    'status': boolean = null;
+    'Status': boolean = null;
     /**
     * New workshop submission id.
     */
-    'submissionid'?: number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Submissionid'?: number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

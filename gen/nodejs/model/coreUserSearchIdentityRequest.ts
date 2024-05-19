@@ -16,13 +16,13 @@ export class CoreUserSearchIdentityRequest {
     /**
     * The search query
     */
-    'query': string = 'null';
+    'Query': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

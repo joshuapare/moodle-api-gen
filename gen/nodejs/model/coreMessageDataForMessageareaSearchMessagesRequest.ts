@@ -16,40 +16,40 @@ export class CoreMessageDataForMessageareaSearchMessagesRequest {
     /**
     * Limit from
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Limit number
     */
-    'limitnum'?: number = 0;
+    'Limitnum'?: number = 0;
     /**
     * The string being searched
     */
-    'search': string = 'null';
+    'Search': string = 'null';
     /**
     * The id of the user who is performing the search
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

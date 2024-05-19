@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCohortSearchCohorts200Response
+# MoodleClient.Model.CoreCohortSearchCohorts200Response
 
 ## Properties
 

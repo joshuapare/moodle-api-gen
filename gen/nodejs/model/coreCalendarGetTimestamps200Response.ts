@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCalendarGetTimestamps200ResponseTimestampsInner } from './coreCalendarGetTimestamps200ResponseTimestampsInner';
 
 export class CoreCalendarGetTimestamps200Response {
-    'timestamps': Array<CoreCalendarGetTimestamps200ResponseTimestampsInner>;
+    'Timestamps': Array<CoreCalendarGetTimestamps200ResponseTimestampsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "timestamps",
+            "name": "Timestamps",
             "baseName": "timestamps",
             "type": "Array<CoreCalendarGetTimestamps200ResponseTimestampsInner>"
         }    ];

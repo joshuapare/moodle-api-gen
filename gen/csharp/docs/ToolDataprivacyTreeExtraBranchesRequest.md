@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyTreeExtraBranchesRequest
+# MoodleClient.Model.ToolDataprivacyTreeExtraBranchesRequest
 
 ## Properties
 

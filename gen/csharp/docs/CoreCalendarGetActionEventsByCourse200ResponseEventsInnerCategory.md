@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory
+# MoodleClient.Model.CoreCalendarGetActionEventsByCourse200ResponseEventsInnerCategory
 
 ## Properties
 

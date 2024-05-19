@@ -16,22 +16,22 @@ export class CoreReportbuilderFiltersDeleteRequest {
     /**
     * Filter ID
     */
-    'filterid': number = null;
+    'Filterid': number = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filterid",
+            "name": "Filterid",
             "baseName": "filterid",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

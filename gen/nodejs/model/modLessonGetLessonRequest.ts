@@ -16,22 +16,22 @@ export class ModLessonGetLessonRequest {
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * lesson password
     */
-    'password'?: string = '';
+    'Password'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         }    ];

@@ -17,46 +17,46 @@ export class ModGlossaryGetEntriesByCategoryRequest {
     /**
     * The category ID. Use \'0\' for all categories, or \'-1\' for uncategorised entries.
     */
-    'categoryid': number = null;
+    'Categoryid': number = null;
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * The glossary ID.
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
-    'options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
+    'Limit'?: number = 20;
+    'Options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModGlossaryGetEntriesByAuthorRequestOptions"
         }    ];

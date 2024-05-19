@@ -16,49 +16,49 @@ export class ModWorkshopGetUserPlan200ResponseUserplanExamplesInner {
     /**
     * Example submission assessment id.
     */
-    'assessmentid'?: number = null;
+    'Assessmentid'?: number = null;
     /**
     * The submission grade.
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * The assessment grade.
     */
-    'gradinggrade'?: number = null;
+    'Gradinggrade'?: number = null;
     /**
     * Example submission id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Example submission title.
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentid",
+            "name": "Assessmentid",
             "baseName": "assessmentid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradinggrade",
+            "name": "Gradinggrade",
             "baseName": "gradinggrade",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

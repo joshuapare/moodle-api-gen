@@ -16,22 +16,22 @@ export class CoreCompetencyRemoveCompetencyFromCourseRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * The course id
     */
-    'courseid': number;
+    'Courseid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

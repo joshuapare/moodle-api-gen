@@ -14,37 +14,37 @@ import { RequestFile } from './models';
 import { CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner } from './coreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner';
 
 export class CoreTableGetDynamicTableContentRequestFiltersInner {
-    'filteroptions'?: Array<CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner>;
+    'Filteroptions'?: Array<CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner>;
     /**
     * Type of join for filter values
     */
-    'jointype'?: number = null;
+    'Jointype'?: number = null;
     /**
     * Name of the filter
     */
-    'name'?: string = 'null';
-    'values'?: Array<object>;
+    'Name'?: string = 'null';
+    'Values'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filteroptions",
+            "name": "Filteroptions",
             "baseName": "filteroptions",
             "type": "Array<CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInner>"
         },
         {
-            "name": "jointype",
+            "name": "Jointype",
             "baseName": "jointype",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "values",
+            "name": "Values",
             "baseName": "values",
             "type": "Array<object>"
         }    ];

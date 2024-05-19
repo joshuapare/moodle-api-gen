@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetConversation200ResponseMembersInnerContactrequestsInner
+# MoodleClient.Model.CoreMessageGetConversation200ResponseMembersInnerContactrequestsInner
 
 ## Properties
 

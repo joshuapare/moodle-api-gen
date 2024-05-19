@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminAllocateLicensesRequestLicensesInner
+# MoodleClient.Model.BlockIomadCompanyAdminAllocateLicensesRequestLicensesInner
 
 ## Properties
 

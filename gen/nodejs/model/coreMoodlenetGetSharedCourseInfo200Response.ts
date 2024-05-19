@@ -17,64 +17,64 @@ export class CoreMoodlenetGetSharedCourseInfo200Response {
     /**
     * MoodleNet issuer id
     */
-    'issuerid': number;
+    'Issuerid': number;
     /**
     * Course short name
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * MoodleNet server
     */
-    'server': string;
+    'Server': string;
     /**
     * status: true if success
     */
-    'status': boolean;
+    'Status': boolean;
     /**
     * Support page URL
     */
-    'supportpageurl': string;
+    'Supportpageurl': string;
     /**
     * Course type
     */
-    'type': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Type': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "issuerid",
+            "name": "Issuerid",
             "baseName": "issuerid",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "server",
+            "name": "Server",
             "baseName": "server",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "supportpageurl",
+            "name": "Supportpageurl",
             "baseName": "supportpageurl",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

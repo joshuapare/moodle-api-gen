@@ -16,22 +16,22 @@ export class CoreFormDynamicFormRequest {
     /**
     * Form class
     */
-    'form': string = 'null';
+    'Form': string = 'null';
     /**
     * url-encoded form data
     */
-    'formdata': string = 'null';
+    'Formdata': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "form",
+            "name": "Form",
             "baseName": "form",
             "type": "string"
         },
         {
-            "name": "formdata",
+            "name": "Formdata",
             "baseName": "formdata",
             "type": "string"
         }    ];

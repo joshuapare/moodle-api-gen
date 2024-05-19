@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetSubscriptionStateRequest
+# MoodleClient.Model.ModForumSetSubscriptionStateRequest
 
 ## Properties
 

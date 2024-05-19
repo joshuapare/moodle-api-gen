@@ -16,76 +16,76 @@ export class ModH5pactivityGetResults200ResponseAttemptsInnerResultsInnerOptions
     /**
     * Option text value
     */
-    'answer'?: string = 'null';
+    'Answer'?: string = 'null';
     /**
     * If has to be displayed as a checked option
     */
-    'checked'?: boolean = null;
+    'Checked'?: boolean = null;
     /**
     * If has to be displayed as correct
     */
-    'correct'?: boolean = null;
+    'Correct'?: boolean = null;
     /**
     * If has to be displayed as failed
     */
-    'fail'?: boolean = null;
+    'Fail'?: boolean = null;
     /**
     * If has to be displayed as incorrect
     */
-    'incorrect'?: boolean = null;
+    'Incorrect'?: boolean = null;
     /**
     * If has to be displayed as passed
     */
-    'pass'?: boolean = null;
+    'Pass'?: boolean = null;
     /**
     * If has to be displayed as simple text
     */
-    'text'?: boolean = null;
+    'Text'?: boolean = null;
     /**
     * If has to be displayed as a unchecked option
     */
-    'unchecked'?: boolean = null;
+    'Unchecked'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answer",
+            "name": "Answer",
             "baseName": "answer",
             "type": "string"
         },
         {
-            "name": "checked",
+            "name": "Checked",
             "baseName": "checked",
             "type": "boolean"
         },
         {
-            "name": "correct",
+            "name": "Correct",
             "baseName": "correct",
             "type": "boolean"
         },
         {
-            "name": "fail",
+            "name": "Fail",
             "baseName": "fail",
             "type": "boolean"
         },
         {
-            "name": "incorrect",
+            "name": "Incorrect",
             "baseName": "incorrect",
             "type": "boolean"
         },
         {
-            "name": "pass",
+            "name": "Pass",
             "baseName": "pass",
             "type": "boolean"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "boolean"
         },
         {
-            "name": "unchecked",
+            "name": "Unchecked",
             "baseName": "unchecked",
             "type": "boolean"
         }    ];

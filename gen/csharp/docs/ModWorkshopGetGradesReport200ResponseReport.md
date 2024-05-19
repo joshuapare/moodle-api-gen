@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetGradesReport200ResponseReport
+# MoodleClient.Model.ModWorkshopGetGradesReport200ResponseReport
 
 ## Properties
 

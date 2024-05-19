@@ -16,49 +16,49 @@ export class CoreBadgesGetUserBadgeByHash200ResponseBadgeInnerRelatedbadgesInner
     /**
     * Badge id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Language
     */
-    'language'?: string;
+    'Language'?: string;
     /**
     * Badge name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Type
     */
-    'type'?: number = null;
+    'Type'?: number = null;
     /**
     * Version
     */
-    'version'?: string = 'null';
+    'Version'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "language",
+            "name": "Language",
             "baseName": "language",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         }    ];

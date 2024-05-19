@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { GradereportUserGetGradesTable200ResponseTablesInner } from './gradereportUserGetGradesTable200ResponseTablesInner';
 
 export class GradereportUserGetGradesTable200Response {
-    'tables': Array<GradereportUserGetGradesTable200ResponseTablesInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Tables': Array<GradereportUserGetGradesTable200ResponseTablesInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "tables",
+            "name": "Tables",
             "baseName": "tables",
             "type": "Array<GradereportUserGetGradesTable200ResponseTablesInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

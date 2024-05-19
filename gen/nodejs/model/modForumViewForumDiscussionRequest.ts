@@ -16,13 +16,13 @@ export class ModForumViewForumDiscussionRequest {
     /**
     * discussion id
     */
-    'discussionid': number = null;
+    'Discussionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         }    ];

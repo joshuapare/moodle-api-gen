@@ -16,13 +16,13 @@ export class CoreFetchNotificationsRequest {
     /**
     * Context ID
     */
-    'contextid': number;
+    'Contextid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

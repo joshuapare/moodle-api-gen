@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminGetCompanyCoursesRequestCriteriaInner {
     /**
     * the company id
     */
-    'companyid'?: number = 0;
+    'Companyid'?: number = 0;
     /**
     * Show all of the shared courses availabe to the company
     */
-    'shared'?: number = 0;
+    'Shared'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "shared",
+            "name": "Shared",
             "baseName": "shared",
             "type": "number"
         }    ];

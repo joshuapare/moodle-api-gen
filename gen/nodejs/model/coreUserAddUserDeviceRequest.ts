@@ -16,76 +16,76 @@ export class CoreUserAddUserDeviceRequest {
     /**
     * the app id, usually something like com.moodle.moodlemobile
     */
-    'appid': string = 'null';
+    'Appid': string = 'null';
     /**
     * the device model \'Nexus4\' or \'iPad1,1\' etc.
     */
-    'model': string = 'null';
+    'Model': string = 'null';
     /**
     * the device name, \'occam\' or \'iPhone\' etc.
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * the device platform \'iOS\' or \'Android\' etc.
     */
-    'platform': string = 'null';
+    'Platform': string = 'null';
     /**
     * the app generated public key
     */
-    'publickey'?: string = 'null';
+    'Publickey'?: string = 'null';
     /**
     * the device PUSH token/key/identifier/registration id
     */
-    'pushid': string = 'null';
+    'Pushid': string = 'null';
     /**
     * the device UUID
     */
-    'uuid': string = 'null';
+    'Uuid': string = 'null';
     /**
     * the device version \'6.1.2\' or \'4.2.2\' etc.
     */
-    'version': string = 'null';
+    'Version': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "appid",
+            "name": "Appid",
             "baseName": "appid",
             "type": "string"
         },
         {
-            "name": "model",
+            "name": "Model",
             "baseName": "model",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "platform",
+            "name": "Platform",
             "baseName": "platform",
             "type": "string"
         },
         {
-            "name": "publickey",
+            "name": "Publickey",
             "baseName": "publickey",
             "type": "string"
         },
         {
-            "name": "pushid",
+            "name": "Pushid",
             "baseName": "pushid",
             "type": "string"
         },
         {
-            "name": "uuid",
+            "name": "Uuid",
             "baseName": "uuid",
             "type": "string"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         }    ];

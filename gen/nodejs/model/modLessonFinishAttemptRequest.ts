@@ -16,40 +16,40 @@ export class ModLessonFinishAttemptRequest {
     /**
     * Lesson instance id.
     */
-    'lessonid': number = null;
+    'Lessonid': number = null;
     /**
     * If the user run out of time.
     */
-    'outoftime'?: boolean = false;
+    'Outoftime'?: boolean = false;
     /**
     * Optional password (the lesson may be protected).
     */
-    'password'?: string = '';
+    'Password'?: string = '';
     /**
     * If we want to review just after finishing (1 hour margin).
     */
-    'review'?: boolean = false;
+    'Review'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "outoftime",
+            "name": "Outoftime",
             "baseName": "outoftime",
             "type": "boolean"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "review",
+            "name": "Review",
             "baseName": "review",
             "type": "boolean"
         }    ];

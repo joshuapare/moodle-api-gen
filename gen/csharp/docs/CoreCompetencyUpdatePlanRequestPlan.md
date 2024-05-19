@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyUpdatePlanRequestPlan
+# MoodleClient.Model.CoreCompetencyUpdatePlanRequestPlan
 
 ## Properties
 

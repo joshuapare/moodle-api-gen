@@ -16,22 +16,22 @@ export class CoreMessageMarkAllConversationMessagesAsReadRequest {
     /**
     * The conversation id who who we are marking the messages as read for
     */
-    'conversationid': number = null;
+    'Conversationid': number = null;
     /**
     * The user id who who we are marking the messages as read for
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversationid",
+            "name": "Conversationid",
             "baseName": "conversationid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class ModScormGetScormScoes200ResponseScoesInnerExtradataInner {
     /**
     * element name
     */
-    'element'?: string = 'null';
+    'Element'?: string = 'null';
     /**
     * element value
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "element",
+            "name": "Element",
             "baseName": "element",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

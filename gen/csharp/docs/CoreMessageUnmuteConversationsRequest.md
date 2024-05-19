@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageUnmuteConversationsRequest
+# MoodleClient.Model.CoreMessageUnmuteConversationsRequest
 
 ## Properties
 

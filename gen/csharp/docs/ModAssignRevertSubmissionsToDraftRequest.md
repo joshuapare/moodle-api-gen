@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignRevertSubmissionsToDraftRequest
+# MoodleClient.Model.ModAssignRevertSubmissionsToDraftRequest
 
 ## Properties
 

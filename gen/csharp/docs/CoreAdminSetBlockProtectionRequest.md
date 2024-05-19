@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAdminSetBlockProtectionRequest
+# MoodleClient.Model.CoreAdminSetBlockProtectionRequest
 
 ## Properties
 

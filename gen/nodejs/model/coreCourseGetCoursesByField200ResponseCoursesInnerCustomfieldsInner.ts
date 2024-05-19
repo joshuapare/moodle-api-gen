@@ -16,49 +16,49 @@ export class CoreCourseGetCoursesByField200ResponseCoursesInnerCustomfieldsInner
     /**
     * The name of the custom field
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * The shortname of the custom field - to be able to build the field class in the code
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * The type of the custom field - text field, checkbox...
     */
-    'type'?: string;
+    'Type'?: string;
     /**
     * The value of the custom field
     */
-    'value'?: string;
+    'Value'?: string;
     /**
     * The raw value of the custom field
     */
-    'valueraw'?: string;
+    'Valueraw'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         },
         {
-            "name": "valueraw",
+            "name": "Valueraw",
             "baseName": "valueraw",
             "type": "string"
         }    ];

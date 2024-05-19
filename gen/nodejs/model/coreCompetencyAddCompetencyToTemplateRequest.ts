@@ -16,22 +16,22 @@ export class CoreCompetencyAddCompetencyToTemplateRequest {
     /**
     * The competency id
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * The template id
     */
-    'templateid': number = null;
+    'Templateid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "templateid",
+            "name": "Templateid",
             "baseName": "templateid",
             "type": "number"
         }    ];

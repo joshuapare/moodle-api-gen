@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyDeletePurposeRequest
+# MoodleClient.Model.ToolDataprivacyDeletePurposeRequest
 
 ## Properties
 

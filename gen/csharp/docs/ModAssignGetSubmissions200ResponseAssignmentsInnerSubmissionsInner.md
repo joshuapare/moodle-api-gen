@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetSubmissions200ResponseAssignmentsInnerSubmissionsInner
+# MoodleClient.Model.ModAssignGetSubmissions200ResponseAssignmentsInnerSubmissionsInner
 submission info
 
 ## Properties

@@ -16,49 +16,49 @@ export class ToolUsertoursCompleteTourRequest {
     /**
     * Context ID
     */
-    'context': number;
+    'Context': number;
     /**
     * Page URL
     */
-    'pageurl': string = 'null';
+    'Pageurl': string = 'null';
     /**
     * Step ID
     */
-    'stepid': number = null;
+    'Stepid': number = null;
     /**
     * Step Number
     */
-    'stepindex': number = null;
+    'Stepindex': number = null;
     /**
     * Tour ID
     */
-    'tourid': number = null;
+    'Tourid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "number"
         },
         {
-            "name": "pageurl",
+            "name": "Pageurl",
             "baseName": "pageurl",
             "type": "string"
         },
         {
-            "name": "stepid",
+            "name": "Stepid",
             "baseName": "stepid",
             "type": "number"
         },
         {
-            "name": "stepindex",
+            "name": "Stepindex",
             "baseName": "stepindex",
             "type": "number"
         },
         {
-            "name": "tourid",
+            "name": "Tourid",
             "baseName": "tourid",
             "type": "number"
         }    ];

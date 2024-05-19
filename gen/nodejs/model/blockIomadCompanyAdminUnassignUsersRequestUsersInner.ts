@@ -16,31 +16,31 @@ export class BlockIomadCompanyAdminUnassignUsersRequestUsersInner {
     /**
     * User company ID
     */
-    'companyid'?: number = 0;
+    'Companyid'?: number = 0;
     /**
     * User ID
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
     /**
     * Old user manager type
     */
-    'usertype'?: number = 0;
+    'Usertype'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usertype",
+            "name": "Usertype",
             "baseName": "usertype",
             "type": "number"
         }    ];

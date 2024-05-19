@@ -18,70 +18,70 @@ export class CoreMessageGetUserMessagePreferences200ResponsePreferencesComponent
     /**
     * Display name
     */
-    'displayname'?: string;
+    'Displayname'?: string;
     /**
     * Is enabled?
     */
-    'enabled'?: boolean = null;
+    'Enabled'?: boolean = null;
     /**
     * Is locked by admin?
     */
-    'locked'?: boolean = null;
+    'Locked'?: boolean = null;
     /**
     * Text to display if locked
     */
-    'lockedmessage'?: string = 'null';
-    'loggedin'?: CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedin;
-    'loggedoff'?: CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedoff;
+    'Lockedmessage'?: string = 'null';
+    'Loggedin'?: CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedin;
+    'Loggedoff'?: CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedoff;
     /**
     * Processor name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Is configured?
     */
-    'userconfigured'?: number = null;
+    'Userconfigured'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "enabled",
+            "name": "Enabled",
             "baseName": "enabled",
             "type": "boolean"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "lockedmessage",
+            "name": "Lockedmessage",
             "baseName": "lockedmessage",
             "type": "string"
         },
         {
-            "name": "loggedin",
+            "name": "Loggedin",
             "baseName": "loggedin",
             "type": "CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedin"
         },
         {
-            "name": "loggedoff",
+            "name": "Loggedoff",
             "baseName": "loggedoff",
             "type": "CoreMessageGetUserMessagePreferences200ResponsePreferencesComponentsInnerNotificationsInnerProcessorsInnerLoggedoff"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "userconfigured",
+            "name": "Userconfigured",
             "baseName": "userconfigured",
             "type": "number"
         }    ];

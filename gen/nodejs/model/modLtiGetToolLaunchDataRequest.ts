@@ -16,13 +16,13 @@ export class ModLtiGetToolLaunchDataRequest {
     /**
     * external tool instance id
     */
-    'toolid': number = null;
+    'Toolid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "toolid",
+            "name": "Toolid",
             "baseName": "toolid",
             "type": "number"
         }    ];

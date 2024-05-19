@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner
+# MoodleClient.Model.ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner
 
 ## Properties
 

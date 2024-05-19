@@ -14,190 +14,190 @@ import { RequestFile } from './models';
 import { CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner } from './coreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner';
 
 export class ModResourceGetResourcesByCourses200ResponseResourcesInner {
-    'contentfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Contentfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * How to display the resource
     */
-    'display'?: number = null;
+    'Display'?: number = null;
     /**
     * Display options (width, height)
     */
-    'displayoptions'?: string;
+    'Displayoptions'?: string;
     /**
     * If filters should be applied to the resource content
     */
-    'filterfiles'?: number = null;
+    'Filterfiles'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Legacy files flag
     */
-    'legacyfiles'?: number;
+    'Legacyfiles'?: number;
     /**
     * Legacy files last control flag
     */
-    'legacyfileslast'?: number;
+    'Legacyfileslast'?: number;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Incremented when after each file changes, to avoid cache
     */
-    'revision'?: number;
+    'Revision'?: number;
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Last time the resource was modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * Whether this resource was migrated
     */
-    'tobemigrated'?: number = null;
+    'Tobemigrated'?: number = null;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contentfiles",
+            "name": "Contentfiles",
             "baseName": "contentfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "display",
+            "name": "Display",
             "baseName": "display",
             "type": "number"
         },
         {
-            "name": "displayoptions",
+            "name": "Displayoptions",
             "baseName": "displayoptions",
             "type": "string"
         },
         {
-            "name": "filterfiles",
+            "name": "Filterfiles",
             "baseName": "filterfiles",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "legacyfiles",
+            "name": "Legacyfiles",
             "baseName": "legacyfiles",
             "type": "number"
         },
         {
-            "name": "legacyfileslast",
+            "name": "Legacyfileslast",
             "baseName": "legacyfileslast",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "revision",
+            "name": "Revision",
             "baseName": "revision",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "tobemigrated",
+            "name": "Tobemigrated",
             "baseName": "tobemigrated",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

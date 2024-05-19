@@ -15,46 +15,46 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModDataSearchEntries200ResponseEntriesInner } from './modDataSearchEntries200ResponseEntriesInner';
 
 export class ModDataSearchEntries200Response {
-    'entries': Array<ModDataSearchEntries200ResponseEntriesInner>;
+    'Entries': Array<ModDataSearchEntries200ResponseEntriesInner>;
     /**
     * The list view contents as is rendered in the site.
     */
-    'listviewcontents'?: string;
+    'Listviewcontents'?: string;
     /**
     * Total count of records that the user could see in the database                     (if all the search criterias were removed).
     */
-    'maxcount'?: number = null;
+    'Maxcount'?: number = null;
     /**
     * Total count of records returned by the search.
     */
-    'totalcount': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Totalcount': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entries",
+            "name": "Entries",
             "baseName": "entries",
             "type": "Array<ModDataSearchEntries200ResponseEntriesInner>"
         },
         {
-            "name": "listviewcontents",
+            "name": "Listviewcontents",
             "baseName": "listviewcontents",
             "type": "string"
         },
         {
-            "name": "maxcount",
+            "name": "Maxcount",
             "baseName": "maxcount",
             "type": "number"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

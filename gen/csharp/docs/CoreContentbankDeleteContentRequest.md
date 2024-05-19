@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreContentbankDeleteContentRequest
+# MoodleClient.Model.CoreContentbankDeleteContentRequest
 
 ## Properties
 

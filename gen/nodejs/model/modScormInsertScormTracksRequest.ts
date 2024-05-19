@@ -17,28 +17,28 @@ export class ModScormInsertScormTracksRequest {
     /**
     * attempt number
     */
-    'attempt': number;
+    'Attempt': number;
     /**
     * SCO id
     */
-    'scoid': number = null;
-    'tracks': Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>;
+    'Scoid': number = null;
+    'Tracks': Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "number"
         },
         {
-            "name": "scoid",
+            "name": "Scoid",
             "baseName": "scoid",
             "type": "number"
         },
         {
-            "name": "tracks",
+            "name": "Tracks",
             "baseName": "tracks",
             "type": "Array<ModScormGetScormUserData200ResponseDataInnerDefaultdataInner>"
         }    ];

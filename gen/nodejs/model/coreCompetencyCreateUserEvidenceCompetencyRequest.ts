@@ -16,22 +16,22 @@ export class CoreCompetencyCreateUserEvidenceCompetencyRequest {
     /**
     * The competency ID.
     */
-    'competencyid': number = null;
+    'Competencyid': number = null;
     /**
     * The user evidence ID.
     */
-    'userevidenceid': number = null;
+    'Userevidenceid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "userevidenceid",
+            "name": "Userevidenceid",
             "baseName": "userevidenceid",
             "type": "number"
         }    ];

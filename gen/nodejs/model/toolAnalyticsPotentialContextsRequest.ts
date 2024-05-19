@@ -16,22 +16,22 @@ export class ToolAnalyticsPotentialContextsRequest {
     /**
     * The model id
     */
-    'modelid'?: number = null;
+    'Modelid'?: number = null;
     /**
     * The model id
     */
-    'query'?: string = 'null';
+    'Query'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "modelid",
+            "name": "Modelid",
             "baseName": "modelid",
             "type": "number"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

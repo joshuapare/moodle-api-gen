@@ -16,13 +16,13 @@ export class ModBigbluebuttonbnCompletionValidateRequest {
     /**
     * bigbluebuttonbn instance id
     */
-    'bigbluebuttonbnid': number = null;
+    'Bigbluebuttonbnid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "bigbluebuttonbnid",
+            "name": "Bigbluebuttonbnid",
             "baseName": "bigbluebuttonbnid",
             "type": "number"
         }    ];

@@ -19,67 +19,67 @@ export class ModLessonGetUserTimers200ResponseTimersInner {
     /**
     * If the lesson for this timer was completed
     */
-    'completed'?: number = null;
+    'Completed'?: number = null;
     /**
     * The attempt id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The lesson id
     */
-    'lessonid'?: number = null;
+    'Lessonid'?: number = null;
     /**
     * Last access time to the lesson during the timer session
     */
-    'lessontime'?: number = null;
+    'Lessontime'?: number = null;
     /**
     * First access time for a new timer session
     */
-    'starttime'?: number = null;
+    'Starttime'?: number = null;
     /**
     * Last modified time via webservices.
     */
-    'timemodifiedoffline'?: number = null;
+    'Timemodifiedoffline'?: number = null;
     /**
     * The user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "lessontime",
+            "name": "Lessontime",
             "baseName": "lessontime",
             "type": "number"
         },
         {
-            "name": "starttime",
+            "name": "Starttime",
             "baseName": "starttime",
             "type": "number"
         },
         {
-            "name": "timemodifiedoffline",
+            "name": "Timemodifiedoffline",
             "baseName": "timemodifiedoffline",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

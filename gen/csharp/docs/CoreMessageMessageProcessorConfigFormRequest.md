@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMessageProcessorConfigFormRequest
+# MoodleClient.Model.CoreMessageMessageProcessorConfigFormRequest
 
 ## Properties
 

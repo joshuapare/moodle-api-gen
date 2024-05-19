@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor } from './modAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor';
 
 export class ModAssignSaveGradeRequestPlugindata {
-    'assignfeedbackcommentsEditor'?: ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor;
+    'AssignfeedbackcommentsEditor'?: ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor;
     /**
     * The id of a draft area containing files for this feedback.
     */
-    'filesFilemanager'?: number = null;
+    'FilesFilemanager'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignfeedbackcommentsEditor",
+            "name": "AssignfeedbackcommentsEditor",
             "baseName": "assignfeedbackcomments_editor",
             "type": "ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor"
         },
         {
-            "name": "filesFilemanager",
+            "name": "FilesFilemanager",
             "baseName": "files_filemanager",
             "type": "number"
         }    ];

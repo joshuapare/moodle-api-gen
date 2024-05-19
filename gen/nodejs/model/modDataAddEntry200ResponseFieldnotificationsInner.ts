@@ -16,22 +16,22 @@ export class ModDataAddEntry200ResponseFieldnotificationsInner {
     /**
     * The field name.
     */
-    'fieldname'?: string = 'null';
+    'Fieldname'?: string = 'null';
     /**
     * The notification for the field.
     */
-    'notification'?: string = 'null';
+    'Notification'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fieldname",
+            "name": "Fieldname",
             "baseName": "fieldname",
             "type": "string"
         },
         {
-            "name": "notification",
+            "name": "Notification",
             "baseName": "notification",
             "type": "string"
         }    ];

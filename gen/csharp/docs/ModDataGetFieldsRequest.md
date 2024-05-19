@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataGetFieldsRequest
+# MoodleClient.Model.ModDataGetFieldsRequest
 
 ## Properties
 

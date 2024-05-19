@@ -16,13 +16,13 @@ export class CoreCompetencyReadTemplateRequest {
     /**
     * Data base record id for the template
     */
-    'id': number;
+    'Id': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

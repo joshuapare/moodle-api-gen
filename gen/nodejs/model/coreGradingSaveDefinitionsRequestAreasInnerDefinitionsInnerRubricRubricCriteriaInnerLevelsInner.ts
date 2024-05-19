@@ -16,40 +16,40 @@ export class CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerRubricRu
     /**
     * definition
     */
-    'definition'?: string;
+    'Definition'?: string;
     /**
     * definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'definitionformat'?: number;
+    'Definitionformat'?: number;
     /**
     * level id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * score
     */
-    'score'?: number;
+    'Score'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "definition",
+            "name": "Definition",
             "baseName": "definition",
             "type": "string"
         },
         {
-            "name": "definitionformat",
+            "name": "Definitionformat",
             "baseName": "definitionformat",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "number"
         }    ];

@@ -16,31 +16,31 @@ export class ModGlossaryGetCategoriesRequest {
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * The glossary ID
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
+    'Limit'?: number = 20;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         }    ];

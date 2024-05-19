@@ -16,31 +16,31 @@ export class BlockIomadCompanyAdminUnallocateLicensesRequestLicensesInner {
     /**
     * Course ID
     */
-    'licensecourseid'?: number;
+    'Licensecourseid'?: number;
     /**
     * License ID
     */
-    'licenseid'?: number;
+    'Licenseid'?: number;
     /**
     * User ID
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "licensecourseid",
+            "name": "Licensecourseid",
             "baseName": "licensecourseid",
             "type": "number"
         },
         {
-            "name": "licenseid",
+            "name": "Licenseid",
             "baseName": "licenseid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

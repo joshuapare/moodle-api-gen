@@ -17,217 +17,217 @@ export class ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetency {
     /**
     * canrequestreview
     */
-    'canrequestreview': boolean;
+    'Canrequestreview': boolean;
     /**
     * canreview
     */
-    'canreview': boolean;
+    'Canreview': boolean;
     /**
     * competencyid
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * gradename
     */
-    'gradename': string;
+    'Gradename': string;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * iscancelreviewrequestallowed
     */
-    'iscancelreviewrequestallowed': boolean;
+    'Iscancelreviewrequestallowed': boolean;
     /**
     * isrequestreviewallowed
     */
-    'isrequestreviewallowed': boolean;
+    'Isrequestreviewallowed': boolean;
     /**
     * isstartreviewallowed
     */
-    'isstartreviewallowed': boolean;
+    'Isstartreviewallowed': boolean;
     /**
     * isstatusidle
     */
-    'isstatusidle': boolean = null;
+    'Isstatusidle': boolean = null;
     /**
     * isstatusinreview
     */
-    'isstatusinreview': boolean = null;
+    'Isstatusinreview': boolean = null;
     /**
     * isstatuswaitingforreview
     */
-    'isstatuswaitingforreview': boolean = null;
+    'Isstatuswaitingforreview': boolean = null;
     /**
     * isstopreviewallowed
     */
-    'isstopreviewallowed': boolean;
+    'Isstopreviewallowed': boolean;
     /**
     * proficiency
     */
-    'proficiency': boolean;
+    'Proficiency': boolean;
     /**
     * proficiencyname
     */
-    'proficiencyname': string;
-    'reviewer'?: CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Proficiencyname': string;
+    'Reviewer'?: CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * reviewerid
     */
-    'reviewerid': number;
+    'Reviewerid': number;
     /**
     * status
     */
-    'status': number = 0;
+    'Status': number = 0;
     /**
     * statusname
     */
-    'statusname': string;
+    'Statusname': string;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * url
     */
-    'url': string;
+    'Url': string;
     /**
     * userid
     */
-    'userid': number;
+    'Userid': number;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canrequestreview",
+            "name": "Canrequestreview",
             "baseName": "canrequestreview",
             "type": "boolean"
         },
         {
-            "name": "canreview",
+            "name": "Canreview",
             "baseName": "canreview",
             "type": "boolean"
         },
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradename",
+            "name": "Gradename",
             "baseName": "gradename",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "iscancelreviewrequestallowed",
+            "name": "Iscancelreviewrequestallowed",
             "baseName": "iscancelreviewrequestallowed",
             "type": "boolean"
         },
         {
-            "name": "isrequestreviewallowed",
+            "name": "Isrequestreviewallowed",
             "baseName": "isrequestreviewallowed",
             "type": "boolean"
         },
         {
-            "name": "isstartreviewallowed",
+            "name": "Isstartreviewallowed",
             "baseName": "isstartreviewallowed",
             "type": "boolean"
         },
         {
-            "name": "isstatusidle",
+            "name": "Isstatusidle",
             "baseName": "isstatusidle",
             "type": "boolean"
         },
         {
-            "name": "isstatusinreview",
+            "name": "Isstatusinreview",
             "baseName": "isstatusinreview",
             "type": "boolean"
         },
         {
-            "name": "isstatuswaitingforreview",
+            "name": "Isstatuswaitingforreview",
             "baseName": "isstatuswaitingforreview",
             "type": "boolean"
         },
         {
-            "name": "isstopreviewallowed",
+            "name": "Isstopreviewallowed",
             "baseName": "isstopreviewallowed",
             "type": "boolean"
         },
         {
-            "name": "proficiency",
+            "name": "Proficiency",
             "baseName": "proficiency",
             "type": "boolean"
         },
         {
-            "name": "proficiencyname",
+            "name": "Proficiencyname",
             "baseName": "proficiencyname",
             "type": "string"
         },
         {
-            "name": "reviewer",
+            "name": "Reviewer",
             "baseName": "reviewer",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "reviewerid",
+            "name": "Reviewerid",
             "baseName": "reviewerid",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "statusname",
+            "name": "Statusname",
             "baseName": "statusname",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

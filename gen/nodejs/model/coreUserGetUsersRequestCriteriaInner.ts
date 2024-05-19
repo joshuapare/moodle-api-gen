@@ -16,22 +16,22 @@ export class CoreUserGetUsersRequestCriteriaInner {
     /**
     * the user column to search, expected keys (value format) are:                                 \"id\" (int) matching user id,                                 \"lastname\" (string) user last name (Note: you can use % for searching but it may be considerably slower!),                                 \"firstname\" (string) user first name (Note: you can use % for searching but it may be considerably slower!),                                 \"idnumber\" (string) matching user idnumber,                                 \"username\" (string) matching user username,                                 \"email\" (string) user email (Note: you can use % for searching but it may be considerably slower!),                                 \"auth\" (string) matching user auth plugin
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * the value to search
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

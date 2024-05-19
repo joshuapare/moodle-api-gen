@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWikiGetWikisByCoursesRequest
+# MoodleClient.Model.ModWikiGetWikisByCoursesRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner
+# MoodleClient.Model.ToolDataprivacyCreatePurposeForm200ResponsePurposeFormattedlawfulbasesInner
 
 ## Properties
 

@@ -16,22 +16,22 @@ export class ModAssignGetUserMappings200ResponseAssignmentsInnerMappingsInner {
     /**
     * user mapping id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * student id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

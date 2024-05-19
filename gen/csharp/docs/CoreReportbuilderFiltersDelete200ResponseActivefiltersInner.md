@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderFiltersDelete200ResponseActivefiltersInner
+# MoodleClient.Model.CoreReportbuilderFiltersDelete200ResponseActivefiltersInner
 
 ## Properties
 

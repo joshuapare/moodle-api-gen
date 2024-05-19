@@ -16,22 +16,22 @@ export class CoreTableGetDynamicTableContentRequestFiltersInnerFilteroptionsInne
     /**
     * Name of the filter option
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Value of the filter option
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

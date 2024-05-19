@@ -16,25 +16,25 @@ import { CoreReportbuilderRetrieveReport200ResponseData } from './coreReportbuil
 import { CoreReportbuilderRetrieveReport200ResponseDetails } from './coreReportbuilderRetrieveReport200ResponseDetails';
 
 export class CoreReportbuilderRetrieveReport200Response {
-    'data': CoreReportbuilderRetrieveReport200ResponseData;
-    'details': CoreReportbuilderRetrieveReport200ResponseDetails;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Data': CoreReportbuilderRetrieveReport200ResponseData;
+    'Details': CoreReportbuilderRetrieveReport200ResponseDetails;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "CoreReportbuilderRetrieveReport200ResponseData"
         },
         {
-            "name": "details",
+            "name": "Details",
             "baseName": "details",
             "type": "CoreReportbuilderRetrieveReport200ResponseDetails"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

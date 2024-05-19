@@ -13,40 +13,40 @@
 import { RequestFile } from './models';
 
 export class ModLessonGetUserAttempt200ResponseAnswerpagesInnerAnswerdata {
-    'answers'?: Array<object>;
+    'Answers'?: Array<object>;
     /**
     * The response text.
     */
-    'response': string = 'null';
+    'Response': string = 'null';
     /**
     * response. format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'responseformat': number = null;
+    'Responseformat': number = null;
     /**
     * The score (text version).
     */
-    'score': string = 'null';
+    'Score': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answers",
+            "name": "Answers",
             "baseName": "answers",
             "type": "Array<object>"
         },
         {
-            "name": "response",
+            "name": "Response",
             "baseName": "response",
             "type": "string"
         },
         {
-            "name": "responseformat",
+            "name": "Responseformat",
             "baseName": "responseformat",
             "type": "number"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "string"
         }    ];

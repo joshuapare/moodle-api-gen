@@ -13,31 +13,31 @@
 import { RequestFile } from './models';
 
 export class CoreCourseGetUpdatesSince200ResponseInstancesInnerUpdatesInner {
-    'itemids'?: Array<object>;
+    'Itemids'?: Array<object>;
     /**
     * Name of the area updated.
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Last time was updated
     */
-    'timeupdated'?: number;
+    'Timeupdated'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "itemids",
+            "name": "Itemids",
             "baseName": "itemids",
             "type": "Array<object>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "timeupdated",
+            "name": "Timeupdated",
             "baseName": "timeupdated",
             "type": "number"
         }    ];

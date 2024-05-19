@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiCreateToolProxyRequest
+# MoodleClient.Model.ModLtiCreateToolProxyRequest
 
 ## Properties
 

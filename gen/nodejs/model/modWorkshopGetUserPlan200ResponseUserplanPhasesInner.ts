@@ -15,46 +15,46 @@ import { ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerActionsInner } from
 import { ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner } from './modWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner';
 
 export class ModWorkshopGetUserPlan200ResponseUserplanPhasesInner {
-    'actions'?: Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerActionsInner>;
+    'Actions'?: Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerActionsInner>;
     /**
     * Whether is the active task.
     */
-    'active'?: boolean = null;
+    'Active'?: boolean = null;
     /**
     * Phase code.
     */
-    'code'?: number = null;
-    'tasks'?: Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner>;
+    'Code'?: number = null;
+    'Tasks'?: Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner>;
     /**
     * Phase title.
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "actions",
+            "name": "Actions",
             "baseName": "actions",
             "type": "Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerActionsInner>"
         },
         {
-            "name": "active",
+            "name": "Active",
             "baseName": "active",
             "type": "boolean"
         },
         {
-            "name": "code",
+            "name": "Code",
             "baseName": "code",
             "type": "number"
         },
         {
-            "name": "tasks",
+            "name": "Tasks",
             "baseName": "tasks",
             "type": "Array<ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner>"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

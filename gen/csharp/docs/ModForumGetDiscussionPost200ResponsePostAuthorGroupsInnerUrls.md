@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumGetDiscussionPost200ResponsePostAuthorGroupsInnerUrls
+# MoodleClient.Model.ModForumGetDiscussionPost200ResponsePostAuthorGroupsInnerUrls
 
 ## Properties
 

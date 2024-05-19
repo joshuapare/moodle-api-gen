@@ -16,49 +16,49 @@ export class CoreMessageGetUserNotificationPreferences200ResponsePreferencesProc
     /**
     * Context id
     */
-    'contextid'?: number;
+    'Contextid'?: number;
     /**
     * Display name
     */
-    'displayname'?: string;
+    'Displayname'?: string;
     /**
     * Whether has settings
     */
-    'hassettings'?: boolean;
+    'Hassettings'?: boolean;
     /**
     * Processor name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Whether is configured by the user
     */
-    'userconfigured'?: number;
+    'Userconfigured'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "hassettings",
+            "name": "Hassettings",
             "baseName": "hassettings",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "userconfigured",
+            "name": "Userconfigured",
             "baseName": "userconfigured",
             "type": "number"
         }    ];

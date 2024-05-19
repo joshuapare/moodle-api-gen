@@ -16,13 +16,13 @@ export class ModDataDeleteEntryRequest {
     /**
     * Record entry id.
     */
-    'entryid': number;
+    'Entryid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entryid",
+            "name": "Entryid",
             "baseName": "entryid",
             "type": "number"
         }    ];

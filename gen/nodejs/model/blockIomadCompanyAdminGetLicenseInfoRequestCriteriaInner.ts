@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminGetLicenseInfoRequestCriteriaInner {
     /**
     * the user column to search, expected keys (value format) are:                                 \"id\" (int) matching user id,                                 \"name\" (string) license name (Note: you can use % for searching but it may be considerably slower!),                                 \"startdate\" (int) license start date in unix time,                                 \"expirydate\" (int) license expiry date in unix time,                                 \"companyid\" (int) license company id,                                 \"parentid\"  (int) license parent id for split licenses,                                 \"program\"  (bool) license is program,                                 \"instant\"  (bool) license is instant,                                 \"type\"  (int) license type (0 = standard, 1 = reusable, 3 = educator),                                 \"reference\" license reference (Note: you can use % for searching but it may be considerably slower!)
     */
-    'key'?: string = 'null';
+    'Key'?: string = 'null';
     /**
     * the value to search
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

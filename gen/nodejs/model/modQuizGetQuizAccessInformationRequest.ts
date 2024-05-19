@@ -16,13 +16,13 @@ export class ModQuizGetQuizAccessInformationRequest {
     /**
     * quiz instance id
     */
-    'quizid': number;
+    'Quizid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "quizid",
+            "name": "Quizid",
             "baseName": "quizid",
             "type": "number"
         }    ];

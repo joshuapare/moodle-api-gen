@@ -17,103 +17,103 @@ import { ModScormGetScormScoes200ResponseScoesInnerExtradataInner } from './modS
 * SCORM SCO data
 */
 export class ModScormGetScormScoes200ResponseScoesInner {
-    'extradata'?: Array<ModScormGetScormScoes200ResponseScoesInnerExtradataInner>;
+    'Extradata'?: Array<ModScormGetScormScoes200ResponseScoesInnerExtradataInner>;
     /**
     * sco id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * identifier
     */
-    'identifier'?: string = 'null';
+    'Identifier'?: string = 'null';
     /**
     * launch file
     */
-    'launch'?: string = 'null';
+    'Launch'?: string = 'null';
     /**
     * manifest id
     */
-    'manifest'?: string = 'null';
+    'Manifest'?: string = 'null';
     /**
     * organization id
     */
-    'organization'?: string = 'null';
+    'Organization'?: string = 'null';
     /**
     * parent
     */
-    'parent'?: string = 'null';
+    'Parent'?: string = 'null';
     /**
     * scorm id
     */
-    'scorm'?: number = null;
+    'Scorm'?: number = null;
     /**
     * scorm type (asset, sco)
     */
-    'scormtype'?: string = 'null';
+    'Scormtype'?: string = 'null';
     /**
     * sort order
     */
-    'sortorder'?: number = null;
+    'Sortorder'?: number = null;
     /**
     * sco title
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "extradata",
+            "name": "Extradata",
             "baseName": "extradata",
             "type": "Array<ModScormGetScormScoes200ResponseScoesInnerExtradataInner>"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "identifier",
+            "name": "Identifier",
             "baseName": "identifier",
             "type": "string"
         },
         {
-            "name": "launch",
+            "name": "Launch",
             "baseName": "launch",
             "type": "string"
         },
         {
-            "name": "manifest",
+            "name": "Manifest",
             "baseName": "manifest",
             "type": "string"
         },
         {
-            "name": "organization",
+            "name": "Organization",
             "baseName": "organization",
             "type": "string"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "string"
         },
         {
-            "name": "scorm",
+            "name": "Scorm",
             "baseName": "scorm",
             "type": "number"
         },
         {
-            "name": "scormtype",
+            "name": "Scormtype",
             "baseName": "scormtype",
             "type": "string"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "number"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

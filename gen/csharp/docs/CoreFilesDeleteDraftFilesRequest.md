@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFilesDeleteDraftFilesRequest
+# MoodleClient.Model.CoreFilesDeleteDraftFilesRequest
 
 ## Properties
 

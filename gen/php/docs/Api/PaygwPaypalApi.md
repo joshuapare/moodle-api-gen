@@ -1,6 +1,6 @@
 # OpenAPI\Client\PaygwPaypalApi
 
-All URIs are relative to https://localhost/webservice/rest/server.php, except if the operation defines another base path.
+All URIs are relative to https://localhost/webservice/restful/server.php, except if the operation defines another base path.
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |

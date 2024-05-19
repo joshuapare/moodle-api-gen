@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { BlockIomadCompanyAdminGetDepartmentsRequestCriteriaInner } from './blockIomadCompanyAdminGetDepartmentsRequestCriteriaInner';
 
 export class BlockIomadCompanyAdminGetDepartmentsRequest {
-    'criteria': Array<BlockIomadCompanyAdminGetDepartmentsRequestCriteriaInner>;
+    'Criteria': Array<BlockIomadCompanyAdminGetDepartmentsRequestCriteriaInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criteria",
+            "name": "Criteria",
             "baseName": "criteria",
             "type": "Array<BlockIomadCompanyAdminGetDepartmentsRequestCriteriaInner>"
         }    ];

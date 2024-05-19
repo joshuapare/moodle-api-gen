@@ -16,13 +16,13 @@ export class ModWorkshopGetSubmissionRequest {
     /**
     * Submission id
     */
-    'submissionid': number;
+    'Submissionid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         }    ];

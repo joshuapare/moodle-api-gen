@@ -17,64 +17,64 @@ export class ModWorkshopGetGrades200Response {
     /**
     * Whether the grade is hidden or not.
     */
-    'assessmentgradehidden'?: boolean = null;
+    'Assessmentgradehidden'?: boolean = null;
     /**
     * The assessment string grade.
     */
-    'assessmentlongstrgrade'?: string = 'null';
+    'Assessmentlongstrgrade'?: string = 'null';
     /**
     * The assessment raw (numeric) grade.
     */
-    'assessmentrawgrade'?: number = null;
+    'Assessmentrawgrade'?: number = null;
     /**
     * Whether the grade is hidden or not.
     */
-    'submissiongradehidden'?: boolean;
+    'Submissiongradehidden'?: boolean;
     /**
     * The submission string grade.
     */
-    'submissionlongstrgrade'?: string = 'null';
+    'Submissionlongstrgrade'?: string = 'null';
     /**
     * The submission raw (numeric) grade.
     */
-    'submissionrawgrade'?: number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Submissionrawgrade'?: number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentgradehidden",
+            "name": "Assessmentgradehidden",
             "baseName": "assessmentgradehidden",
             "type": "boolean"
         },
         {
-            "name": "assessmentlongstrgrade",
+            "name": "Assessmentlongstrgrade",
             "baseName": "assessmentlongstrgrade",
             "type": "string"
         },
         {
-            "name": "assessmentrawgrade",
+            "name": "Assessmentrawgrade",
             "baseName": "assessmentrawgrade",
             "type": "number"
         },
         {
-            "name": "submissiongradehidden",
+            "name": "Submissiongradehidden",
             "baseName": "submissiongradehidden",
             "type": "boolean"
         },
         {
-            "name": "submissionlongstrgrade",
+            "name": "Submissionlongstrgrade",
             "baseName": "submissionlongstrgrade",
             "type": "string"
         },
         {
-            "name": "submissionrawgrade",
+            "name": "Submissionrawgrade",
             "baseName": "submissionrawgrade",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

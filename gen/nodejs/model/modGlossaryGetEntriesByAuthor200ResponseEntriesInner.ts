@@ -18,184 +18,184 @@ export class ModGlossaryGetEntriesByAuthor200ResponseEntriesInner {
     /**
     * Whether the entry was approved
     */
-    'approved'?: boolean = null;
+    'Approved'?: boolean = null;
     /**
     * Whether or not the entry has attachments
     */
-    'attachment'?: boolean = null;
-    'attachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Attachment'?: boolean = null;
+    'Attachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * When true, the matching is case sensitive
     */
-    'casesensitive'?: boolean = null;
+    'Casesensitive'?: boolean = null;
     /**
     * The concept
     */
-    'concept'?: string = 'null';
+    'Concept'?: string = 'null';
     /**
     * The definition
     */
-    'definition'?: string = 'null';
+    'Definition'?: string = 'null';
     /**
     * definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'definitionformat'?: number;
-    'definitioninlinefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Definitionformat'?: number;
+    'Definitioninlinefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * The definition trust flag
     */
-    'definitiontrust'?: boolean = null;
+    'Definitiontrust'?: boolean = null;
     /**
     * When true, the matching is done on full words only
     */
-    'fullmatch'?: boolean = null;
+    'Fullmatch'?: boolean = null;
     /**
     * The glossary ID
     */
-    'glossaryid'?: number;
+    'Glossaryid'?: number;
     /**
     * The entry ID
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The source glossary ID
     */
-    'sourceglossaryid'?: number = null;
-    'tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
+    'Sourceglossaryid'?: number = null;
+    'Tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
     /**
     * The entry was created by a teacher, or equivalent.
     */
-    'teacherentry'?: boolean = null;
+    'Teacherentry'?: boolean = null;
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time modified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Whether the concept should be automatically linked
     */
-    'usedynalink'?: boolean = null;
+    'Usedynalink'?: boolean = null;
     /**
     * Author full name
     */
-    'userfullname'?: string = 'null';
+    'Userfullname'?: string = 'null';
     /**
     * Author ID
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * Author picture
     */
-    'userpictureurl'?: string = 'null';
+    'Userpictureurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "approved",
+            "name": "Approved",
             "baseName": "approved",
             "type": "boolean"
         },
         {
-            "name": "attachment",
+            "name": "Attachment",
             "baseName": "attachment",
             "type": "boolean"
         },
         {
-            "name": "attachments",
+            "name": "Attachments",
             "baseName": "attachments",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "casesensitive",
+            "name": "Casesensitive",
             "baseName": "casesensitive",
             "type": "boolean"
         },
         {
-            "name": "concept",
+            "name": "Concept",
             "baseName": "concept",
             "type": "string"
         },
         {
-            "name": "definition",
+            "name": "Definition",
             "baseName": "definition",
             "type": "string"
         },
         {
-            "name": "definitionformat",
+            "name": "Definitionformat",
             "baseName": "definitionformat",
             "type": "number"
         },
         {
-            "name": "definitioninlinefiles",
+            "name": "Definitioninlinefiles",
             "baseName": "definitioninlinefiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "definitiontrust",
+            "name": "Definitiontrust",
             "baseName": "definitiontrust",
             "type": "boolean"
         },
         {
-            "name": "fullmatch",
+            "name": "Fullmatch",
             "baseName": "fullmatch",
             "type": "boolean"
         },
         {
-            "name": "glossaryid",
+            "name": "Glossaryid",
             "baseName": "glossaryid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "sourceglossaryid",
+            "name": "Sourceglossaryid",
             "baseName": "sourceglossaryid",
             "type": "number"
         },
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>"
         },
         {
-            "name": "teacherentry",
+            "name": "Teacherentry",
             "baseName": "teacherentry",
             "type": "boolean"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usedynalink",
+            "name": "Usedynalink",
             "baseName": "usedynalink",
             "type": "boolean"
         },
         {
-            "name": "userfullname",
+            "name": "Userfullname",
             "baseName": "userfullname",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "userpictureurl",
+            "name": "Userpictureurl",
             "baseName": "userpictureurl",
             "type": "string"
         }    ];

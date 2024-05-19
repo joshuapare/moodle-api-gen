@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCustomfieldDeleteFieldRequest
+# MoodleClient.Model.CoreCustomfieldDeleteFieldRequest
 
 ## Properties
 

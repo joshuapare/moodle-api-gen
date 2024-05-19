@@ -16,40 +16,40 @@ export class ModChatGetSessionMessagesRequest {
     /**
     * Chat instance id.
     */
-    'chatid': number = null;
+    'Chatid': number = null;
     /**
     * Get messages from users in this group.                                                 0 means that the function will determine the user group
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The session end time (timestamp).
     */
-    'sessionend': number = null;
+    'Sessionend': number = null;
     /**
     * The session start time (timestamp).
     */
-    'sessionstart': number = null;
+    'Sessionstart': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatid",
+            "name": "Chatid",
             "baseName": "chatid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "sessionend",
+            "name": "Sessionend",
             "baseName": "sessionend",
             "type": "number"
         },
         {
-            "name": "sessionstart",
+            "name": "Sessionstart",
             "baseName": "sessionstart",
             "type": "number"
         }    ];

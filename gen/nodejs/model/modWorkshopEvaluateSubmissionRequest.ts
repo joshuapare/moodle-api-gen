@@ -16,49 +16,49 @@ export class ModWorkshopEvaluateSubmissionRequest {
     /**
     * The feedback format for text.
     */
-    'feedbackformat'?: number = 0;
+    'Feedbackformat'?: number = 0;
     /**
     * The feedback for the author.
     */
-    'feedbacktext'?: string = '';
+    'Feedbacktext'?: string = '';
     /**
     * The new submission grade.
     */
-    'gradeover'?: string = '';
+    'Gradeover'?: string = '';
     /**
     * Publish the submission for others?.
     */
-    'published'?: boolean = false;
+    'Published'?: boolean = false;
     /**
     * submission id.
     */
-    'submissionid': number = null;
+    'Submissionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "feedbackformat",
+            "name": "Feedbackformat",
             "baseName": "feedbackformat",
             "type": "number"
         },
         {
-            "name": "feedbacktext",
+            "name": "Feedbacktext",
             "baseName": "feedbacktext",
             "type": "string"
         },
         {
-            "name": "gradeover",
+            "name": "Gradeover",
             "baseName": "gradeover",
             "type": "string"
         },
         {
-            "name": "published",
+            "name": "Published",
             "baseName": "published",
             "type": "boolean"
         },
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         }    ];

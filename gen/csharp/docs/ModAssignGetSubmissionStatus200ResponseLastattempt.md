@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetSubmissionStatus200ResponseLastattempt
+# MoodleClient.Model.ModAssignGetSubmissionStatus200ResponseLastattempt
 
 ## Properties
 

@@ -16,13 +16,13 @@ export class CoreChangeEditmode200Response {
     /**
     * The edit mode was changed
     */
-    'success': boolean = null;
+    'Success': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "success",
+            "name": "Success",
             "baseName": "success",
             "type": "boolean"
         }    ];

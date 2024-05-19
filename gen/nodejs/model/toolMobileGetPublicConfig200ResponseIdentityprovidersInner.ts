@@ -16,31 +16,31 @@ export class ToolMobileGetPublicConfig200ResponseIdentityprovidersInner {
     /**
     * The icon URL for the provider.
     */
-    'iconurl'?: string = 'null';
+    'Iconurl'?: string = 'null';
     /**
     * The identity provider name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The URL of the provider.
     */
-    'url'?: string = 'null';
+    'Url'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iconurl",
+            "name": "Iconurl",
             "baseName": "iconurl",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

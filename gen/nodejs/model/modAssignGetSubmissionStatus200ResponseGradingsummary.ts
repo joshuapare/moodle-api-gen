@@ -16,58 +16,58 @@ export class ModAssignGetSubmissionStatus200ResponseGradingsummary {
     /**
     * Number of users who can submit.
     */
-    'participantcount': number = null;
+    'Participantcount': number = null;
     /**
     * Number of submissions in draft status.
     */
-    'submissiondraftscount': number = null;
+    'Submissiondraftscount': number = null;
     /**
     * Whether submissions are enabled or not.
     */
-    'submissionsenabled': boolean = null;
+    'Submissionsenabled': boolean = null;
     /**
     * Number of submissions that need grading.
     */
-    'submissionsneedgradingcount': number = null;
+    'Submissionsneedgradingcount': number = null;
     /**
     * Number of submissions in submitted status.
     */
-    'submissionssubmittedcount': number = null;
+    'Submissionssubmittedcount': number = null;
     /**
     * Whether we need to warn people that there                                                                         are users without groups (\'warningrequired\'), warn                                                                         people there are users who will submit in the default                                                                         group (\'warningoptional\') or no warning (\'\').
     */
-    'warnofungroupedusers': string = 'null';
+    'Warnofungroupedusers': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "participantcount",
+            "name": "Participantcount",
             "baseName": "participantcount",
             "type": "number"
         },
         {
-            "name": "submissiondraftscount",
+            "name": "Submissiondraftscount",
             "baseName": "submissiondraftscount",
             "type": "number"
         },
         {
-            "name": "submissionsenabled",
+            "name": "Submissionsenabled",
             "baseName": "submissionsenabled",
             "type": "boolean"
         },
         {
-            "name": "submissionsneedgradingcount",
+            "name": "Submissionsneedgradingcount",
             "baseName": "submissionsneedgradingcount",
             "type": "number"
         },
         {
-            "name": "submissionssubmittedcount",
+            "name": "Submissionssubmittedcount",
             "baseName": "submissionssubmittedcount",
             "type": "number"
         },
         {
-            "name": "warnofungroupedusers",
+            "name": "Warnofungroupedusers",
             "baseName": "warnofungroupedusers",
             "type": "string"
         }    ];

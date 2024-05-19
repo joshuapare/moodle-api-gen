@@ -16,49 +16,49 @@ export class CoreCourseGetEnrolledUsersByCmid200ResponseUsersInner {
     /**
     * The first name(s) of the user
     */
-    'firstname'?: string;
+    'Firstname'?: string;
     /**
     * The full name of the user
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * ID of the user
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The family name of the user
     */
-    'lastname'?: string;
+    'Lastname'?: string;
     /**
     * The location of the users larger image
     */
-    'profileimage'?: string = 'null';
+    'Profileimage'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         },
         {
-            "name": "profileimage",
+            "name": "Profileimage",
             "baseName": "profileimage",
             "type": "string"
         }    ];

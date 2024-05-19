@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.LocalIomadLearningpathCopypathRequest
+# MoodleClient.Model.LocalIomadLearningpathCopypathRequest
 
 ## Properties
 

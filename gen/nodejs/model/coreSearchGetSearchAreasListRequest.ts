@@ -16,13 +16,13 @@ export class CoreSearchGetSearchAreasListRequest {
     /**
     * category to filter areas
     */
-    'cat'?: string = '';
+    'Cat'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cat",
+            "name": "Cat",
             "baseName": "cat",
             "type": "string"
         }    ];

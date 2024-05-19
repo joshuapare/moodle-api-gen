@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumDeletePost200Response
+# MoodleClient.Model.ModForumDeletePost200Response
 
 ## Properties
 

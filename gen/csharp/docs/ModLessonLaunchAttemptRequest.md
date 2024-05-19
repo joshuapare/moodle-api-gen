@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonLaunchAttemptRequest
+# MoodleClient.Model.ModLessonLaunchAttemptRequest
 
 ## Properties
 

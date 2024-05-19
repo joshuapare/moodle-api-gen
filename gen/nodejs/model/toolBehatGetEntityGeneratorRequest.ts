@@ -16,13 +16,13 @@ export class ToolBehatGetEntityGeneratorRequest {
     /**
     * Entity type that can be created by a generator.
     */
-    'entitytype': string = 'null';
+    'Entitytype': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entitytype",
+            "name": "Entitytype",
             "baseName": "entitytype",
             "type": "string"
         }    ];

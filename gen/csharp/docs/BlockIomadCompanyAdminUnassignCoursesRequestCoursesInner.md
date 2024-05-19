@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminUnassignCoursesRequestCoursesInner
+# MoodleClient.Model.BlockIomadCompanyAdminUnassignCoursesRequestCoursesInner
 
 ## Properties
 

@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class BlockIomadCompanyAdminGetDepartmentUsersRequest {
-    'departmentids'?: Array<object>;
+    'Departmentids'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "departmentids",
+            "name": "Departmentids",
             "baseName": "departmentids",
             "type": "Array<object>"
         }    ];

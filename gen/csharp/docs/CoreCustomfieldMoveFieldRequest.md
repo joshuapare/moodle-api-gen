@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCustomfieldMoveFieldRequest
+# MoodleClient.Model.CoreCustomfieldMoveFieldRequest
 
 ## Properties
 

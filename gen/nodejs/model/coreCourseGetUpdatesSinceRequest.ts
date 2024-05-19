@@ -16,28 +16,28 @@ export class CoreCourseGetUpdatesSinceRequest {
     /**
     * Course id to check
     */
-    'courseid': number;
-    'filter'?: Array<object>;
+    'Courseid': number;
+    'Filter'?: Array<object>;
     /**
     * Check updates since this time stamp
     */
-    'since': number;
+    'Since': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "filter",
+            "name": "Filter",
             "baseName": "filter",
             "type": "Array<object>"
         },
         {
-            "name": "since",
+            "name": "Since",
             "baseName": "since",
             "type": "number"
         }    ];

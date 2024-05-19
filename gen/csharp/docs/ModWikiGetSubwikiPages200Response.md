@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWikiGetSubwikiPages200Response
+# MoodleClient.Model.ModWikiGetSubwikiPages200Response
 
 ## Properties
 

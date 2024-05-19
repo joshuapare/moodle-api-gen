@@ -17,46 +17,46 @@ export class ModForumAddDiscussionPostRequest {
     /**
     * new post message (html assumed if messageformat is not provided)
     */
-    'message': string = 'null';
+    'Message': string = 'null';
     /**
     * message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'messageformat'?: number = 1;
-    'options'?: Array<ModForumAddDiscussionPostRequestOptionsInner>;
+    'Messageformat'?: number = 1;
+    'Options'?: Array<ModForumAddDiscussionPostRequestOptionsInner>;
     /**
     * the post id we are going to reply to                                                 (can be the initial discussion post
     */
-    'postid': number = null;
+    'Postid': number = null;
     /**
     * new post subject
     */
-    'subject': string = 'null';
+    'Subject': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "messageformat",
+            "name": "Messageformat",
             "baseName": "messageformat",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModForumAddDiscussionPostRequestOptionsInner>"
         },
         {
-            "name": "postid",
+            "name": "Postid",
             "baseName": "postid",
             "type": "number"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         }    ];

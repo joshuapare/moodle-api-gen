@@ -16,22 +16,22 @@ export class ModForumCanAddDiscussionRequest {
     /**
     * Forum instance ID
     */
-    'forumid': number;
+    'Forumid': number;
     /**
     * The group to check, default to active group.                                                 Use -1 to check if the user can post in all the groups.
     */
-    'groupid'?: number = null;
+    'Groupid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

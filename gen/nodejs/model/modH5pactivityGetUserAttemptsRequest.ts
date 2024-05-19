@@ -16,58 +16,58 @@ export class ModH5pactivityGetUserAttemptsRequest {
     /**
     * Users whose first name starts with $firstinitial
     */
-    'firstinitial'?: string = '';
+    'Firstinitial'?: string = '';
     /**
     * h5p activity instance id
     */
-    'h5pactivityid': number;
+    'H5pactivityid': number;
     /**
     * Users whose last name starts with $lastinitial
     */
-    'lastinitial'?: string = '';
+    'Lastinitial'?: string = '';
     /**
     * current page
     */
-    'page'?: number = -1;
+    'Page'?: number = -1;
     /**
     * items per page
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * sort by either user id, firstname or lastname (with optional asc/desc)
     */
-    'sortorder'?: string = 'id ASC';
+    'Sortorder'?: string = 'id ASC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "firstinitial",
+            "name": "Firstinitial",
             "baseName": "firstinitial",
             "type": "string"
         },
         {
-            "name": "h5pactivityid",
+            "name": "H5pactivityid",
             "baseName": "h5pactivityid",
             "type": "number"
         },
         {
-            "name": "lastinitial",
+            "name": "Lastinitial",
             "baseName": "lastinitial",
             "type": "string"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetUserMappings200ResponseWarningsInner
+# MoodleClient.Model.ModAssignGetUserMappings200ResponseWarningsInner
 warning
 
 ## Properties

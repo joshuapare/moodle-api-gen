@@ -15,46 +15,46 @@ import { ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetency
 import { ToolLpDataForCompetencySummary200ResponseComppathAncestorsInner } from './toolLpDataForCompetencySummary200ResponseComppathAncestorsInner';
 
 export class ToolLpDataForCompetencySummary200ResponseComppath {
-    'ancestors': Array<ToolLpDataForCompetencySummary200ResponseComppathAncestorsInner>;
-    'framework': ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework;
+    'Ancestors': Array<ToolLpDataForCompetencySummary200ResponseComppathAncestorsInner>;
+    'Framework': ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework;
     /**
     * pagecontextid
     */
-    'pagecontextid': number;
+    'Pagecontextid': number;
     /**
     * pluginbaseurl
     */
-    'pluginbaseurl': string;
+    'Pluginbaseurl': string;
     /**
     * showlinks
     */
-    'showlinks': boolean;
+    'Showlinks': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ancestors",
+            "name": "Ancestors",
             "baseName": "ancestors",
             "type": "Array<ToolLpDataForCompetencySummary200ResponseComppathAncestorsInner>"
         },
         {
-            "name": "framework",
+            "name": "Framework",
             "baseName": "framework",
             "type": "ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "showlinks",
+            "name": "Showlinks",
             "baseName": "showlinks",
             "type": "boolean"
         }    ];

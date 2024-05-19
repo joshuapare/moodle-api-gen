@@ -17,40 +17,40 @@ import { ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInn
 import { ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary } from './toolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary';
 
 export class ToolLpDataForUserCompetencySummaryInCourse200Response {
-    'course': CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse;
-    'coursemodules': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner>;
-    'plans': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>;
+    'Course': CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse;
+    'Coursemodules': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner>;
+    'Plans': Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>;
     /**
     * pluginbaseurl
     */
-    'pluginbaseurl': string;
-    'usercompetencysummary': ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary;
+    'Pluginbaseurl': string;
+    'Usercompetencysummary': ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInnerCourse"
         },
         {
-            "name": "coursemodules",
+            "name": "Coursemodules",
             "baseName": "coursemodules",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerCoursemodulesInner>"
         },
         {
-            "name": "plans",
+            "name": "Plans",
             "baseName": "plans",
             "type": "Array<ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerPlansInner>"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "usercompetencysummary",
+            "name": "Usercompetencysummary",
             "baseName": "usercompetencysummary",
             "type": "ToolLpDataForUserCompetencySummaryInCourse200ResponseUsercompetencysummary"
         }    ];

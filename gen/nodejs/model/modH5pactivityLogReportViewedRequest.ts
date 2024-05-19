@@ -16,31 +16,31 @@ export class ModH5pactivityLogReportViewedRequest {
     /**
     * The attempt id
     */
-    'attemptid'?: number = null;
+    'Attemptid'?: number = null;
     /**
     * h5p activity instance id
     */
-    'h5pactivityid': number;
+    'H5pactivityid': number;
     /**
     * The user id to log attempt (null means only current user)
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptid",
+            "name": "Attemptid",
             "baseName": "attemptid",
             "type": "number"
         },
         {
-            "name": "h5pactivityid",
+            "name": "H5pactivityid",
             "baseName": "h5pactivityid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -19,22 +19,22 @@ export class CoreCalendarDeleteCalendarEventsRequestEventsInner {
     /**
     * Event ID
     */
-    'eventid'?: number = ;
+    'Eventid'?: number = ;
     /**
     * Delete comeplete series if repeated event
     */
-    'repeat'?: boolean = null;
+    'Repeat'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "eventid",
+            "name": "Eventid",
             "baseName": "eventid",
             "type": "number"
         },
         {
-            "name": "repeat",
+            "name": "Repeat",
             "baseName": "repeat",
             "type": "boolean"
         }    ];

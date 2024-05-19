@@ -16,22 +16,22 @@ export class CoreAuthConfirmUserRequest {
     /**
     * Confirmation secret
     */
-    'secret': string = 'null';
+    'Secret': string = 'null';
     /**
     * User name
     */
-    'username': string = 'null';
+    'Username': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "secret",
+            "name": "Secret",
             "baseName": "secret",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

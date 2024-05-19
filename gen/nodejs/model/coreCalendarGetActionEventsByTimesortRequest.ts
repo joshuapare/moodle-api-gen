@@ -16,67 +16,67 @@ export class CoreCalendarGetActionEventsByTimesortRequest {
     /**
     * The last seen event id
     */
-    'aftereventid'?: number = 0;
+    'Aftereventid'?: number = 0;
     /**
     * Limit number
     */
-    'limitnum'?: number = 20;
+    'Limitnum'?: number = 20;
     /**
     * Limit the events to courses the user is not suspended in
     */
-    'limittononsuspendedevents'?: boolean = false;
+    'Limittononsuspendedevents'?: boolean = false;
     /**
     * The value a user wishes to search against
     */
-    'searchvalue'?: string;
+    'Searchvalue'?: string;
     /**
     * Time sort from
     */
-    'timesortfrom'?: number = 0;
+    'Timesortfrom'?: number = 0;
     /**
     * Time sort to
     */
-    'timesortto'?: number;
+    'Timesortto'?: number;
     /**
     * The user id
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aftereventid",
+            "name": "Aftereventid",
             "baseName": "aftereventid",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "limittononsuspendedevents",
+            "name": "Limittononsuspendedevents",
             "baseName": "limittononsuspendedevents",
             "type": "boolean"
         },
         {
-            "name": "searchvalue",
+            "name": "Searchvalue",
             "baseName": "searchvalue",
             "type": "string"
         },
         {
-            "name": "timesortfrom",
+            "name": "Timesortfrom",
             "baseName": "timesortfrom",
             "type": "number"
         },
         {
-            "name": "timesortto",
+            "name": "Timesortto",
             "baseName": "timesortto",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

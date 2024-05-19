@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuide
+# MoodleClient.Model.CoreGradingGetDefinitions200ResponseAreasInnerDefinitionsInnerGuide
 
 ## Properties
 

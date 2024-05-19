@@ -17,37 +17,37 @@ export class ModQuizGetUserBestGrade200Response {
     /**
     * The grade (only if the user has a grade).
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * The grade to pass the quiz (only if set).
     */
-    'gradetopass'?: number = null;
+    'Gradetopass'?: number = null;
     /**
     * Whether the user has a grade on the given quiz.
     */
-    'hasgrade': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Hasgrade': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradetopass",
+            "name": "Gradetopass",
             "baseName": "gradetopass",
             "type": "number"
         },
         {
-            "name": "hasgrade",
+            "name": "Hasgrade",
             "baseName": "hasgrade",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

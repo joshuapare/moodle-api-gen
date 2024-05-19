@@ -16,22 +16,22 @@ export class CoreReportbuilderColumnsDeleteRequest {
     /**
     * Column ID
     */
-    'columnid': number = null;
+    'Columnid': number = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "columnid",
+            "name": "Columnid",
             "baseName": "columnid",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

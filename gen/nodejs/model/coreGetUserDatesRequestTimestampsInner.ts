@@ -16,49 +16,49 @@ export class CoreGetUserDatesRequestTimestampsInner {
     /**
     * Remove leading zero for day
     */
-    'fixday'?: number = 1;
+    'Fixday'?: number = 1;
     /**
     * Remove leading zero for hour
     */
-    'fixhour'?: number = 1;
+    'Fixhour'?: number = 1;
     /**
     * format string
     */
-    'format'?: string = 'null';
+    'Format'?: string = 'null';
     /**
     * unix timestamp
     */
-    'timestamp'?: number = null;
+    'Timestamp'?: number = null;
     /**
     * The calendar type
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "fixday",
+            "name": "Fixday",
             "baseName": "fixday",
             "type": "number"
         },
         {
-            "name": "fixhour",
+            "name": "Fixhour",
             "baseName": "fixhour",
             "type": "number"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "string"
         },
         {
-            "name": "timestamp",
+            "name": "Timestamp",
             "baseName": "timestamp",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

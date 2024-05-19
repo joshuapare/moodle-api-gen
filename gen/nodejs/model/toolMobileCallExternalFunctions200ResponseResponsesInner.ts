@@ -16,31 +16,31 @@ export class ToolMobileCallExternalFunctions200ResponseResponsesInner {
     /**
     * JSON-encoded response data
     */
-    'data'?: string = 'null';
+    'Data'?: string = 'null';
     /**
     * Whether an exception was thrown.
     */
-    'error'?: boolean = null;
+    'Error'?: boolean = null;
     /**
     * JSON-encoed exception info
     */
-    'exception'?: string = 'null';
+    'Exception'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "string"
         },
         {
-            "name": "error",
+            "name": "Error",
             "baseName": "error",
             "type": "boolean"
         },
         {
-            "name": "exception",
+            "name": "Exception",
             "baseName": "exception",
             "type": "string"
         }    ];

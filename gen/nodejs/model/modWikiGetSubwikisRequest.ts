@@ -16,13 +16,13 @@ export class ModWikiGetSubwikisRequest {
     /**
     * Wiki instance ID.
     */
-    'wikiid': number;
+    'Wikiid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "wikiid",
+            "name": "Wikiid",
             "baseName": "wikiid",
             "type": "number"
         }    ];

@@ -16,40 +16,40 @@ export class ModBigbluebuttonbnMeetingInfo200ResponsePresentationsInner {
     /**
     * icon text
     */
-    'icondesc'?: string = 'null';
+    'Icondesc'?: string = 'null';
     /**
     * icon name
     */
-    'iconname'?: string = 'null';
+    'Iconname'?: string = 'null';
     /**
     * presentation name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * presentation URL
     */
-    'url'?: string = 'null';
+    'Url'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "icondesc",
+            "name": "Icondesc",
             "baseName": "icondesc",
             "type": "string"
         },
         {
-            "name": "iconname",
+            "name": "Iconname",
             "baseName": "iconname",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

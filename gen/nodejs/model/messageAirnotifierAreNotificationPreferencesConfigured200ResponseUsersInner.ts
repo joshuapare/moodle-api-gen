@@ -16,22 +16,22 @@ export class MessageAirnotifierAreNotificationPreferencesConfigured200ResponseUs
     /**
     * 1 if the user preferences have been configured and 0 if not
     */
-    'configured'?: number = null;
+    'Configured'?: number = null;
     /**
     * userid id
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "configured",
+            "name": "Configured",
             "baseName": "configured",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

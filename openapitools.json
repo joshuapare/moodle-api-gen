@@ -4,12 +4,25 @@
     "version": "7.5.0",
     "generators": {
       "go": {
+        "apiPackage": "github.com/joshuapare/moodle-client-go",
         "gitUserId": "joshuapare",
         "gitRepoId": "moodle-client-go",
         "inputSpec": "gen/openapi.yaml",
         "skipValidateSpec": true,
         "generatorName": "go",
         "output": "gen/go",
+        "additionalProperties": {
+          "packageName": "moodleclient",
+          "packageVersion": "1.0.0"
+        }
+      },
+      "go-package": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-go",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "go",
+        "output": "packages/go",
         "additionalProperties": {
           "packageName": "moodleclient",
           "packageVersion": "1.0.0"
@@ -29,7 +42,7 @@
       },
       "php": {
         "gitUserId": "joshuapare",
-        "gitRepoId": "moodle-client-php",
+        "gitRepoId": "moodle-api-gen",
         "inputSpec": "gen/openapi.yaml",
         "skipValidateSpec": true,
         "generatorName": "php",
@@ -37,34 +50,47 @@
       },
       "nestjs": {
         "gitUserId": "joshuapare",
-        "gitRepoId": "moodle-client-nestjs",
+        "gitRepoId": "moodle-api-gen",
         "inputSpec": "gen/openapi.yaml",
         "skipValidateSpec": true,
         "generatorName": "typescript-nestjs",
         "output": "gen/nestjs",
-        "apiPackage": "@joshuapare/moodle-client-nestjs",
-        "artifactVersion": "0.1.0",
+        "apiPackage": "joshuapare/moodle-client-nestjs",
+        "artifactVersion": "4.3.4",
         "additionalProperties": {
           "modelPropertyNaming": "PascalCase",
           "fileNaming": "kebab-case",
-          "npmName": "@joshuapare/moodle-client-nestjs"
+          "npmName": "joshuapare/moodle-client-nestjs"
         }
       },
       "typescript-fetch": {
         "gitUserId": "joshuapare",
-        "gitRepoId": "moodle-client-ts",
+        "gitRepoId": "moodle-api-gen",
         "inputSpec": "gen/openapi.yaml",
         "skipValidateSpec": true,
         "generatorName": "typescript-fetch",
-        "output": "gen/ts-fetch"
+        "output": "gen/ts-fetch",
+        "apiPackage": "joshuapare/moodle-client-ts",
+        "artifactVersion": "4.3.4",
+        "additionalProperties": {
+          "modelPropertyNaming": "PascalCase",
+          "fileNaming": "kebab-case",
+          "npmName": "joshuapare/moodle-client"
+        }
       },
       "typescript-node": {
         "gitUserId": "joshuapare",
-        "gitRepoId": "moodle-client-node",
+        "gitRepoId": "moodle-api-gen",
         "inputSpec": "gen/openapi.yaml",
         "skipValidateSpec": true,
         "generatorName": "typescript-node",
-        "output": "gen/nodejs"
+        "apiPackage": "joshuapare/moodle-client-node",
+        "output": "gen/nodejs",
+        "additionalProperties": {
+          "modelPropertyNaming": "PascalCase",
+          "fileNaming": "kebab-case",
+          "npmName": "joshuapare/moodle-client-node"
+        }
       },
       "python": {
         "gitUserId": "joshuapare",
@@ -84,7 +110,7 @@
         "additionalProperties": {
           "apiPackage": "com.joshuapare.moodleclient",
           "artifactVersion": "0.1.0",
-          "artifactId": "moodle-client-java",
+          "artifactId": "moodle-client",
           "artifactUrl": "https://github.com/joshuapare/moodle-api-gen",
           "groupId": "com.joshuapare"
         }
@@ -103,7 +129,11 @@
         "inputSpec": "gen/openapi.yaml",
         "skipValidateSpec": true,
         "generatorName": "csharp",
-        "output": "gen/csharp"
+        "output": "gen/csharp",
+        "additionalProperties": {
+          "packageName": "MoodleClient",
+          "packageVersion": "4.3.4"
+        }
       }
     }
   }

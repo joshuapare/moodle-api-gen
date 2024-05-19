@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetPinState200ResponseTimed
+# MoodleClient.Model.ModForumSetPinState200ResponseTimed
 
 ## Properties
 

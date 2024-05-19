@@ -14,19 +14,19 @@ import { RequestFile } from './models';
 import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUser200ResponseWarningsInner';
 
 export class CoreCalendarGetAllowedEventTypes200Response {
-    'allowedeventtypes': Array<object>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Allowedeventtypes': Array<object>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowedeventtypes",
+            "name": "Allowedeventtypes",
             "baseName": "allowedeventtypes",
             "type": "Array<object>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

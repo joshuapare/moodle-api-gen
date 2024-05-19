@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupCreateGroupingsRequestGroupingsInner
+# MoodleClient.Model.CoreGroupCreateGroupingsRequestGroupingsInner
 
 ## Properties
 

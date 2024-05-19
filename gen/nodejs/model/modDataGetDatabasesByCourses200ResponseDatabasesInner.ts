@@ -17,343 +17,343 @@ export class ModDataGetDatabasesByCourses200ResponseDatabasesInner {
     /**
     * addtemplate field
     */
-    'addtemplate'?: string = 'null';
+    'Addtemplate'?: string = 'null';
     /**
     * approval field
     */
-    'approval'?: boolean = null;
+    'Approval'?: boolean = null;
     /**
     * asearchtemplate field
     */
-    'asearchtemplate'?: string = 'null';
+    'Asearchtemplate'?: string = 'null';
     /**
     * assessed field
     */
-    'assessed'?: number = null;
+    'Assessed'?: number = null;
     /**
     * assesstimefinish field
     */
-    'assesstimefinish'?: number = null;
+    'Assesstimefinish'?: number = null;
     /**
     * assesstimestart field
     */
-    'assesstimestart'?: number = null;
+    'Assesstimestart'?: number = null;
     /**
     * comments enabled
     */
-    'comments'?: boolean = null;
+    'Comments'?: boolean = null;
     /**
     * Course id
     */
-    'course'?: number = null;
+    'Course'?: number = null;
     /**
     * coursemodule
     */
-    'coursemodule'?: number = null;
+    'Coursemodule'?: number = null;
     /**
     * csstemplate field
     */
-    'csstemplate'?: string = 'null';
+    'Csstemplate'?: string = 'null';
     /**
     * defaultsort field
     */
-    'defaultsort'?: number = null;
+    'Defaultsort'?: number = null;
     /**
     * defaultsortdir field
     */
-    'defaultsortdir'?: number = null;
+    'Defaultsortdir'?: number = null;
     /**
     * editany field (not used any more)
     */
-    'editany'?: boolean = null;
+    'Editany'?: boolean = null;
     /**
     * Database id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The Database intro
     */
-    'intro'?: string = 'null';
-    'introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Intro'?: string = 'null';
+    'Introfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = 0;
+    'Introformat'?: number = 0;
     /**
     * jstemplate field
     */
-    'jstemplate'?: string = 'null';
+    'Jstemplate'?: string = 'null';
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * listtemplate field
     */
-    'listtemplate'?: string = 'null';
+    'Listtemplate'?: string = 'null';
     /**
     * listtemplatefooter field
     */
-    'listtemplatefooter'?: string = 'null';
+    'Listtemplatefooter'?: string = 'null';
     /**
     * listtemplateheader field
     */
-    'listtemplateheader'?: string = 'null';
+    'Listtemplateheader'?: string = 'null';
     /**
     * manageapproved field
     */
-    'manageapproved'?: boolean = null;
+    'Manageapproved'?: boolean = null;
     /**
     * maxentries field
     */
-    'maxentries'?: number = null;
+    'Maxentries'?: number = null;
     /**
     * Database name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * notification field (not used any more)
     */
-    'notification'?: number = null;
+    'Notification'?: number = null;
     /**
     * requiredentries field
     */
-    'requiredentries'?: number = null;
+    'Requiredentries'?: number = null;
     /**
     * requiredentriestoview field
     */
-    'requiredentriestoview'?: number = null;
+    'Requiredentriestoview'?: number = null;
     /**
     * rssarticles field
     */
-    'rssarticles'?: number = null;
+    'Rssarticles'?: number = null;
     /**
     * rsstemplate field
     */
-    'rsstemplate'?: string = 'null';
+    'Rsstemplate'?: string = 'null';
     /**
     * rsstitletemplate field
     */
-    'rsstitletemplate'?: string = 'null';
+    'Rsstitletemplate'?: string = 'null';
     /**
     * scale field
     */
-    'scale'?: number = null;
+    'Scale'?: number = null;
     /**
     * singletemplate field
     */
-    'singletemplate'?: string = 'null';
+    'Singletemplate'?: string = 'null';
     /**
     * timeavailablefrom field
     */
-    'timeavailablefrom'?: number = null;
+    'Timeavailablefrom'?: number = null;
     /**
     * timeavailableto field
     */
-    'timeavailableto'?: number = null;
+    'Timeavailableto'?: number = null;
     /**
     * Time modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * timeviewfrom field
     */
-    'timeviewfrom'?: number = null;
+    'Timeviewfrom'?: number = null;
     /**
     * timeviewto field
     */
-    'timeviewto'?: number = null;
+    'Timeviewto'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addtemplate",
+            "name": "Addtemplate",
             "baseName": "addtemplate",
             "type": "string"
         },
         {
-            "name": "approval",
+            "name": "Approval",
             "baseName": "approval",
             "type": "boolean"
         },
         {
-            "name": "asearchtemplate",
+            "name": "Asearchtemplate",
             "baseName": "asearchtemplate",
             "type": "string"
         },
         {
-            "name": "assessed",
+            "name": "Assessed",
             "baseName": "assessed",
             "type": "number"
         },
         {
-            "name": "assesstimefinish",
+            "name": "Assesstimefinish",
             "baseName": "assesstimefinish",
             "type": "number"
         },
         {
-            "name": "assesstimestart",
+            "name": "Assesstimestart",
             "baseName": "assesstimestart",
             "type": "number"
         },
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "boolean"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "csstemplate",
+            "name": "Csstemplate",
             "baseName": "csstemplate",
             "type": "string"
         },
         {
-            "name": "defaultsort",
+            "name": "Defaultsort",
             "baseName": "defaultsort",
             "type": "number"
         },
         {
-            "name": "defaultsortdir",
+            "name": "Defaultsortdir",
             "baseName": "defaultsortdir",
             "type": "number"
         },
         {
-            "name": "editany",
+            "name": "Editany",
             "baseName": "editany",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "jstemplate",
+            "name": "Jstemplate",
             "baseName": "jstemplate",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "listtemplate",
+            "name": "Listtemplate",
             "baseName": "listtemplate",
             "type": "string"
         },
         {
-            "name": "listtemplatefooter",
+            "name": "Listtemplatefooter",
             "baseName": "listtemplatefooter",
             "type": "string"
         },
         {
-            "name": "listtemplateheader",
+            "name": "Listtemplateheader",
             "baseName": "listtemplateheader",
             "type": "string"
         },
         {
-            "name": "manageapproved",
+            "name": "Manageapproved",
             "baseName": "manageapproved",
             "type": "boolean"
         },
         {
-            "name": "maxentries",
+            "name": "Maxentries",
             "baseName": "maxentries",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "notification",
+            "name": "Notification",
             "baseName": "notification",
             "type": "number"
         },
         {
-            "name": "requiredentries",
+            "name": "Requiredentries",
             "baseName": "requiredentries",
             "type": "number"
         },
         {
-            "name": "requiredentriestoview",
+            "name": "Requiredentriestoview",
             "baseName": "requiredentriestoview",
             "type": "number"
         },
         {
-            "name": "rssarticles",
+            "name": "Rssarticles",
             "baseName": "rssarticles",
             "type": "number"
         },
         {
-            "name": "rsstemplate",
+            "name": "Rsstemplate",
             "baseName": "rsstemplate",
             "type": "string"
         },
         {
-            "name": "rsstitletemplate",
+            "name": "Rsstitletemplate",
             "baseName": "rsstitletemplate",
             "type": "string"
         },
         {
-            "name": "scale",
+            "name": "Scale",
             "baseName": "scale",
             "type": "number"
         },
         {
-            "name": "singletemplate",
+            "name": "Singletemplate",
             "baseName": "singletemplate",
             "type": "string"
         },
         {
-            "name": "timeavailablefrom",
+            "name": "Timeavailablefrom",
             "baseName": "timeavailablefrom",
             "type": "number"
         },
         {
-            "name": "timeavailableto",
+            "name": "Timeavailableto",
             "baseName": "timeavailableto",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timeviewfrom",
+            "name": "Timeviewfrom",
             "baseName": "timeviewfrom",
             "type": "number"
         },
         {
-            "name": "timeviewto",
+            "name": "Timeviewto",
             "baseName": "timeviewto",
             "type": "number"
         }    ];

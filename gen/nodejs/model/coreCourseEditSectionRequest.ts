@@ -16,31 +16,31 @@ export class CoreCourseEditSectionRequest {
     /**
     * action: hide, show, stealth, setmarker, removemarker
     */
-    'action': string = 'null';
+    'Action': string = 'null';
     /**
     * course section id
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * section to return to
     */
-    'sectionreturn'?: number;
+    'Sectionreturn'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "sectionreturn",
+            "name": "Sectionreturn",
             "baseName": "sectionreturn",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumPrepareDraftAreaForPost200Response
+# MoodleClient.Model.ModForumPrepareDraftAreaForPost200Response
 
 ## Properties
 

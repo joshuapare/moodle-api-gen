@@ -16,13 +16,13 @@ export class ModChoiceGetChoiceOptionsRequest {
     /**
     * choice instance id
     */
-    'choiceid': number;
+    'Choiceid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "choiceid",
+            "name": "Choiceid",
             "baseName": "choiceid",
             "type": "number"
         }    ];

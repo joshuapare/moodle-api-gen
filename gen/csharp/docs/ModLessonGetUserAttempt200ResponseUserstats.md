@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetUserAttempt200ResponseUserstats
+# MoodleClient.Model.ModLessonGetUserAttempt200ResponseUserstats
 
 ## Properties
 

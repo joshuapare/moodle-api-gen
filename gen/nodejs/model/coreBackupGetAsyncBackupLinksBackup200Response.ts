@@ -16,31 +16,31 @@ export class CoreBackupGetAsyncBackupLinksBackup200Response {
     /**
     * Backup file size
     */
-    'filesize': string = 'null';
+    'Filesize': string = 'null';
     /**
     * Backup file URL
     */
-    'fileurl': string = 'null';
+    'Fileurl': string = 'null';
     /**
     * Backup restore URL
     */
-    'restoreurl': string = 'null';
+    'Restoreurl': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "string"
         },
         {
-            "name": "fileurl",
+            "name": "Fileurl",
             "baseName": "fileurl",
             "type": "string"
         },
         {
-            "name": "restoreurl",
+            "name": "Restoreurl",
             "baseName": "restoreurl",
             "type": "string"
         }    ];

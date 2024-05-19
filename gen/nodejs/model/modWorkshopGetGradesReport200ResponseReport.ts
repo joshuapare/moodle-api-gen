@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { ModWorkshopGetGradesReport200ResponseReportGradesInner } from './modWorkshopGetGradesReport200ResponseReportGradesInner';
 
 export class ModWorkshopGetGradesReport200ResponseReport {
-    'grades': Array<ModWorkshopGetGradesReport200ResponseReportGradesInner>;
+    'Grades': Array<ModWorkshopGetGradesReport200ResponseReportGradesInner>;
     /**
     * Number of total submissions.
     */
-    'totalcount': number = null;
+    'Totalcount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grades",
+            "name": "Grades",
             "baseName": "grades",
             "type": "Array<ModWorkshopGetGradesReport200ResponseReportGradesInner>"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         }    ];

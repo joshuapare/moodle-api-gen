@@ -16,58 +16,58 @@ export class CoreMessageGetConversationMessagesRequest {
     /**
     * The conversation id
     */
-    'convid': number;
+    'Convid': number;
     /**
     * The current user\'s id
     */
-    'currentuserid': number = null;
+    'Currentuserid': number = null;
     /**
     * Limit from
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Limit number
     */
-    'limitnum'?: number = 0;
+    'Limitnum'?: number = 0;
     /**
     * Newest first?
     */
-    'newest'?: boolean = false;
+    'Newest'?: boolean = false;
     /**
     * The timestamp from which the messages were created
     */
-    'timefrom'?: number = 0;
+    'Timefrom'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "convid",
+            "name": "Convid",
             "baseName": "convid",
             "type": "number"
         },
         {
-            "name": "currentuserid",
+            "name": "Currentuserid",
             "baseName": "currentuserid",
             "type": "number"
         },
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "newest",
+            "name": "Newest",
             "baseName": "newest",
             "type": "boolean"
         },
         {
-            "name": "timefrom",
+            "name": "Timefrom",
             "baseName": "timefrom",
             "type": "number"
         }    ];

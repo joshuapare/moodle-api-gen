@@ -16,31 +16,31 @@ export class CoreGradesGraderGradingpanelScaleFetch200ResponseGradeOptionsInner 
     /**
     * Whether this item is currently selected
     */
-    'selected'?: boolean = null;
+    'Selected'?: boolean = null;
     /**
     * The description fo the option
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
     /**
     * The grade value
     */
-    'value'?: number = null;
+    'Value'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "selected",
+            "name": "Selected",
             "baseName": "selected",
             "type": "boolean"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "number"
         }    ];

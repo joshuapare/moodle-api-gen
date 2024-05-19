@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileCallExternalFunctions200Response
+# MoodleClient.Model.ToolMobileCallExternalFunctions200Response
 
 ## Properties
 

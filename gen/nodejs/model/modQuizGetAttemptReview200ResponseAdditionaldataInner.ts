@@ -16,31 +16,31 @@ export class ModQuizGetAttemptReview200ResponseAdditionaldataInner {
     /**
     * data content
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * id of the data
     */
-    'id'?: string = 'null';
+    'Id'?: string = 'null';
     /**
     * data title
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

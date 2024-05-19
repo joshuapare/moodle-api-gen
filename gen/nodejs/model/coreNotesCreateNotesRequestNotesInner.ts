@@ -16,58 +16,58 @@ export class CoreNotesCreateNotesRequestNotesInner {
     /**
     * your own client id for the note. If this id is provided, the fail message id will be returned to you
     */
-    'clientnoteid'?: string = 'null';
+    'Clientnoteid'?: string = 'null';
     /**
     * course id of the note (in Moodle a note can only be created into a course, even for site and personal notes)
     */
-    'courseid'?: number = null;
+    'Courseid'?: number = null;
     /**
     * text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number = 1;
+    'Format'?: number = 1;
     /**
     * \'personal\', \'course\' or \'site\'
     */
-    'publishstate'?: string = 'null';
+    'Publishstate'?: string = 'null';
     /**
     * the text of the message - text or HTML
     */
-    'text'?: string = 'null';
+    'Text'?: string = 'null';
     /**
     * id of the user the note is about
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "clientnoteid",
+            "name": "Clientnoteid",
             "baseName": "clientnoteid",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "publishstate",
+            "name": "Publishstate",
             "baseName": "publishstate",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

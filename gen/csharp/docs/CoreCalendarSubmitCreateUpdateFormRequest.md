@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarSubmitCreateUpdateFormRequest
+# MoodleClient.Model.CoreCalendarSubmitCreateUpdateFormRequest
 
 ## Properties
 

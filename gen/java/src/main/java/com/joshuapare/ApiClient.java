@@ -61,11 +61,11 @@ import com.joshuapare.auth.ApiKeyAuth;
  */
 public class ApiClient {
 
-    private String basePath = "https://localhost/webservice/rest/server.php";
+    private String basePath = "https://localhost/webservice/restful/server.php";
     protected List<ServerConfiguration> servers = new ArrayList<ServerConfiguration>(Arrays.asList(
     new ServerConfiguration(
-      "{scheme}://{host}/webservice/rest/server.php",
-      "Custom Moodle server URL",
+      "{scheme}://{host}/webservice/restful/server.php",
+      "Moodle Server URL",
       new HashMap<String, ServerVariable>() {{
         put("host", new ServerVariable(
           "The hostname of the Moodle server",
@@ -175,7 +175,7 @@ public class ApiClient {
     /**
      * Set base path
      *
-     * @param basePath Base path of the URL (e.g https://localhost/webservice/rest/server.php
+     * @param basePath Base path of the URL (e.g https://localhost/webservice/restful/server.php
      * @return An instance of OkHttpClient
      */
     public ApiClient setBasePath(String basePath) {

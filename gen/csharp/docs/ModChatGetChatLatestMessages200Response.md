@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChatGetChatLatestMessages200Response
+# MoodleClient.Model.ModChatGetChatLatestMessages200Response
 
 ## Properties
 

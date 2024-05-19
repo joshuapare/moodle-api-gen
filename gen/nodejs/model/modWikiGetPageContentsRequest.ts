@@ -16,13 +16,13 @@ export class ModWikiGetPageContentsRequest {
     /**
     * Page ID.
     */
-    'pageid': number;
+    'Pageid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         }    ];

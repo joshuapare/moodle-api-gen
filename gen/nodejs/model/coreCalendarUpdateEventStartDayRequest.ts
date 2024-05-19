@@ -16,22 +16,22 @@ export class CoreCalendarUpdateEventStartDayRequest {
     /**
     * Timestamp for the new start day
     */
-    'daytimestamp': number = null;
+    'Daytimestamp': number = null;
     /**
     * Id of event to be updated
     */
-    'eventid': number = null;
+    'Eventid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "daytimestamp",
+            "name": "Daytimestamp",
             "baseName": "daytimestamp",
             "type": "number"
         },
         {
-            "name": "eventid",
+            "name": "Eventid",
             "baseName": "eventid",
             "type": "number"
         }    ];

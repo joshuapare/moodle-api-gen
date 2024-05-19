@@ -16,22 +16,22 @@ export class PaygwPaypalCreateTransactionComplete200Response {
     /**
     * Message (usually the error message).
     */
-    'message': string = 'null';
+    'Message': string = 'null';
     /**
     * Whether everything was successful or not.
     */
-    'success': boolean = null;
+    'Success': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "success",
+            "name": "Success",
             "baseName": "success",
             "type": "boolean"
         }    ];

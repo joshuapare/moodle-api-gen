@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetGrades200Response
+# MoodleClient.Model.ModAssignGetGrades200Response
 
 ## Properties
 

@@ -19,103 +19,103 @@ export class CoreCalendarCreateCalendarEventsRequestEventsInner {
     /**
     * course id
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * Event type
     */
-    'eventtype'?: string = 'user';
+    'Eventtype'?: string = 'user';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number = 1;
+    'Format'?: number = 1;
     /**
     * group id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * event name
     */
-    'name'?: string = '';
+    'Name'?: string = '';
     /**
     * number of repeats
     */
-    'repeats'?: number = 0;
+    'Repeats'?: number = 0;
     /**
     * sequence
     */
-    'sequence'?: number = 1;
+    'Sequence'?: number = 1;
     /**
     * time duration
     */
-    'timeduration'?: number = 0;
+    'Timeduration'?: number = 0;
     /**
     * timestart
     */
-    'timestart'?: number = 1716010508;
+    'Timestart'?: number = 1716010508;
     /**
     * visible
     */
-    'visible'?: number = 1;
+    'Visible'?: number = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "eventtype",
+            "name": "Eventtype",
             "baseName": "eventtype",
             "type": "string"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "repeats",
+            "name": "Repeats",
             "baseName": "repeats",
             "type": "number"
         },
         {
-            "name": "sequence",
+            "name": "Sequence",
             "baseName": "sequence",
             "type": "number"
         },
         {
-            "name": "timeduration",
+            "name": "Timeduration",
             "baseName": "timeduration",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         }    ];

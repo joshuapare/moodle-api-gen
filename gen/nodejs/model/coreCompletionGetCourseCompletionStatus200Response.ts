@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatus } from './coreCompletionGetCourseCompletionStatus200ResponseCompletionstatus';
 
 export class CoreCompletionGetCourseCompletionStatus200Response {
-    'completionstatus': CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatus;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Completionstatus': CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatus;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completionstatus",
+            "name": "Completionstatus",
             "baseName": "completionstatus",
             "type": "CoreCompletionGetCourseCompletionStatus200ResponseCompletionstatus"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

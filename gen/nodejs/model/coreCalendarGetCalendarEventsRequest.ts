@@ -15,19 +15,19 @@ import { CoreCalendarGetCalendarEventsRequestEvents } from './coreCalendarGetCal
 import { CoreCalendarGetCalendarEventsRequestOptions } from './coreCalendarGetCalendarEventsRequestOptions';
 
 export class CoreCalendarGetCalendarEventsRequest {
-    'events'?: CoreCalendarGetCalendarEventsRequestEvents;
-    'options'?: CoreCalendarGetCalendarEventsRequestOptions;
+    'Events'?: CoreCalendarGetCalendarEventsRequestEvents;
+    'Options'?: CoreCalendarGetCalendarEventsRequestOptions;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "CoreCalendarGetCalendarEventsRequestEvents"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "CoreCalendarGetCalendarEventsRequestOptions"
         }    ];

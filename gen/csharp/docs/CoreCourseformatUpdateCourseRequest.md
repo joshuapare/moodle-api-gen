@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseformatUpdateCourseRequest
+# MoodleClient.Model.CoreCourseformatUpdateCourseRequest
 
 ## Properties
 

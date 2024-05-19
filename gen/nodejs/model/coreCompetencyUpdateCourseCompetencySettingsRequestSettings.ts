@@ -16,13 +16,13 @@ export class CoreCompetencyUpdateCourseCompetencySettingsRequestSettings {
     /**
     * New value of the setting
     */
-    'pushratingstouserplans': boolean = null;
+    'Pushratingstouserplans': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pushratingstouserplans",
+            "name": "Pushratingstouserplans",
             "baseName": "pushratingstouserplans",
             "type": "boolean"
         }    ];

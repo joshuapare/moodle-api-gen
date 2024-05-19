@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserGetPrivateFilesInfoRequest
+# MoodleClient.Model.CoreUserGetPrivateFilesInfoRequest
 
 ## Properties
 

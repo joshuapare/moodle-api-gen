@@ -16,130 +16,130 @@ export class CoreCompetencyCreateCompetencyFrameworkRequestCompetencyframework {
     /**
     * The context id
     */
-    'contextid'?: number = null;
+    'Contextid'?: number = null;
     /**
     * The context level
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * description
     */
-    'description'?: string = '';
+    'Description'?: string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * idnumber
     */
-    'idnumber': string;
+    'Idnumber': string;
     /**
     * The Instance id
     */
-    'instanceid'?: number = null;
+    'Instanceid'?: number = null;
     /**
     * scaleconfiguration
     */
-    'scaleconfiguration': string = 'null';
+    'Scaleconfiguration': string = 'null';
     /**
     * scaleid
     */
-    'scaleid': number = null;
+    'Scaleid': number = null;
     /**
     * shortname
     */
-    'shortname': string;
+    'Shortname': string;
     /**
     * taxonomies
     */
-    'taxonomies'?: string = '';
+    'Taxonomies'?: string = '';
     /**
     * timecreated
     */
-    'timecreated'?: number = 0;
+    'Timecreated'?: number = 0;
     /**
     * timemodified
     */
-    'timemodified'?: number = 0;
+    'Timemodified'?: number = 0;
     /**
     * usermodified
     */
-    'usermodified'?: number = 0;
+    'Usermodified'?: number = 0;
     /**
     * visible
     */
-    'visible'?: boolean = 1;
+    'Visible'?: boolean = 1;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "scaleconfiguration",
+            "name": "Scaleconfiguration",
             "baseName": "scaleconfiguration",
             "type": "string"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "taxonomies",
+            "name": "Taxonomies",
             "baseName": "taxonomies",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

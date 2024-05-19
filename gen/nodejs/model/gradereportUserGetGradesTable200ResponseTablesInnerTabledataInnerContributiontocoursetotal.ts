@@ -16,31 +16,31 @@ export class GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerCo
     /**
     * class
     */
-    '_class': string;
+    'Class': string;
     /**
     * cell content
     */
-    'content': string;
+    'Content': string;
     /**
     * headers
     */
-    'headers': string;
+    'Headers': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "_class",
+            "name": "Class",
             "baseName": "class",
             "type": "string"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "headers",
+            "name": "Headers",
             "baseName": "headers",
             "type": "string"
         }    ];

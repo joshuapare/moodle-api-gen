@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModWikiGetSubwikis200ResponseSubwikisInner } from './modWikiGetSubwikis200ResponseSubwikisInner';
 
 export class ModWikiGetSubwikis200Response {
-    'subwikis': Array<ModWikiGetSubwikis200ResponseSubwikisInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Subwikis': Array<ModWikiGetSubwikis200ResponseSubwikisInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "subwikis",
+            "name": "Subwikis",
             "baseName": "subwikis",
             "type": "Array<ModWikiGetSubwikis200ResponseSubwikisInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

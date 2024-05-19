@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolXmldbInvokeMoveActionRequest
+# MoodleClient.Model.ToolXmldbInvokeMoveActionRequest
 
 ## Properties
 

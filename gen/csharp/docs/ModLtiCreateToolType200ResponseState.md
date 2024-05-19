@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiCreateToolType200ResponseState
+# MoodleClient.Model.ModLtiCreateToolType200ResponseState
 
 ## Properties
 

@@ -18,124 +18,124 @@ export class CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInner {
     /**
     * copied from id
     */
-    'copiedfromid'?: number;
+    'Copiedfromid'?: number;
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
-    'guide'?: CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerGuide;
+    'Descriptionformat'?: number;
+    'Guide'?: CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerGuide;
     /**
     * definition id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * method
     */
-    'method'?: string;
+    'Method'?: string;
     /**
     * name
     */
-    'name'?: string;
-    'rubric'?: CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerRubric;
+    'Name'?: string;
+    'Rubric'?: CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerRubric;
     /**
     * status
     */
-    'status'?: number;
+    'Status'?: number;
     /**
     * time copied
     */
-    'timecopied'?: number;
+    'Timecopied'?: number;
     /**
     * creation time
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * last modified time
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * user who created definition
     */
-    'usercreated'?: number;
+    'Usercreated'?: number;
     /**
     * user who modified definition
     */
-    'usermodified'?: number;
+    'Usermodified'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "copiedfromid",
+            "name": "Copiedfromid",
             "baseName": "copiedfromid",
             "type": "number"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "guide",
+            "name": "Guide",
             "baseName": "guide",
             "type": "CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerGuide"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "method",
+            "name": "Method",
             "baseName": "method",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "rubric",
+            "name": "Rubric",
             "baseName": "rubric",
             "type": "CoreGradingSaveDefinitionsRequestAreasInnerDefinitionsInnerRubric"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "timecopied",
+            "name": "Timecopied",
             "baseName": "timecopied",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usercreated",
+            "name": "Usercreated",
             "baseName": "usercreated",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

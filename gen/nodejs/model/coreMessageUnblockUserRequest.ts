@@ -16,22 +16,22 @@ export class CoreMessageUnblockUserRequest {
     /**
     * The id of the user being unblocked
     */
-    'unblockeduserid': number = null;
+    'Unblockeduserid': number = null;
     /**
     * The id of the user who is unblocking
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "unblockeduserid",
+            "name": "Unblockeduserid",
             "baseName": "unblockeduserid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

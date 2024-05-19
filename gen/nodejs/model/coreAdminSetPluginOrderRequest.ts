@@ -16,22 +16,22 @@ export class CoreAdminSetPluginOrderRequest {
     /**
     * The direction to move
     */
-    'direction': number = null;
+    'Direction': number = null;
     /**
     * The name of the plugin
     */
-    'plugin': string;
+    'Plugin': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "direction",
+            "name": "Direction",
             "baseName": "direction",
             "type": "number"
         },
         {
-            "name": "plugin",
+            "name": "Plugin",
             "baseName": "plugin",
             "type": "string"
         }    ];

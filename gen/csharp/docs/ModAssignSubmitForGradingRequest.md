@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSubmitForGradingRequest
+# MoodleClient.Model.ModAssignSubmitForGradingRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnUpdateRecordingRequest
+# MoodleClient.Model.ModBigbluebuttonbnUpdateRecordingRequest
 
 ## Properties
 

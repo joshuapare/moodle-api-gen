@@ -16,22 +16,22 @@ export class CoreGroupUnassignGroupingRequestUnassignmentsInner {
     /**
     * group record id
     */
-    'groupid'?: number;
+    'Groupid'?: number;
     /**
     * grouping record id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         }    ];

@@ -17,73 +17,73 @@ export class ModScormGetScormAccessInformation200Response {
     /**
     * Whether the user has the capability mod/scorm:addinstance allowed.
     */
-    'canaddinstance'?: boolean = null;
+    'Canaddinstance'?: boolean = null;
     /**
     * Whether the user has the capability mod/scorm:deleteownresponses allowed.
     */
-    'candeleteownresponses'?: boolean = null;
+    'Candeleteownresponses'?: boolean = null;
     /**
     * Whether the user has the capability mod/scorm:deleteresponses allowed.
     */
-    'candeleteresponses'?: boolean = null;
+    'Candeleteresponses'?: boolean = null;
     /**
     * Whether the user has the capability mod/scorm:savetrack allowed.
     */
-    'cansavetrack'?: boolean = null;
+    'Cansavetrack'?: boolean = null;
     /**
     * Whether the user has the capability mod/scorm:skipview allowed.
     */
-    'canskipview'?: boolean = null;
+    'Canskipview'?: boolean = null;
     /**
     * Whether the user has the capability mod/scorm:viewreport allowed.
     */
-    'canviewreport'?: boolean = null;
+    'Canviewreport'?: boolean = null;
     /**
     * Whether the user has the capability mod/scorm:viewscores allowed.
     */
-    'canviewscores'?: boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canviewscores'?: boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canaddinstance",
+            "name": "Canaddinstance",
             "baseName": "canaddinstance",
             "type": "boolean"
         },
         {
-            "name": "candeleteownresponses",
+            "name": "Candeleteownresponses",
             "baseName": "candeleteownresponses",
             "type": "boolean"
         },
         {
-            "name": "candeleteresponses",
+            "name": "Candeleteresponses",
             "baseName": "candeleteresponses",
             "type": "boolean"
         },
         {
-            "name": "cansavetrack",
+            "name": "Cansavetrack",
             "baseName": "cansavetrack",
             "type": "boolean"
         },
         {
-            "name": "canskipview",
+            "name": "Canskipview",
             "baseName": "canskipview",
             "type": "boolean"
         },
         {
-            "name": "canviewreport",
+            "name": "Canviewreport",
             "baseName": "canviewreport",
             "type": "boolean"
         },
         {
-            "name": "canviewscores",
+            "name": "Canviewscores",
             "baseName": "canviewscores",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

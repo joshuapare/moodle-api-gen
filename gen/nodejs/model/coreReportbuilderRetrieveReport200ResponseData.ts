@@ -14,28 +14,28 @@ import { RequestFile } from './models';
 import { CoreReportbuilderRetrieveReport200ResponseDataRowsInner } from './coreReportbuilderRetrieveReport200ResponseDataRowsInner';
 
 export class CoreReportbuilderRetrieveReport200ResponseData {
-    'headers': Array<object>;
-    'rows': Array<CoreReportbuilderRetrieveReport200ResponseDataRowsInner>;
+    'Headers': Array<object>;
+    'Rows': Array<CoreReportbuilderRetrieveReport200ResponseDataRowsInner>;
     /**
     * totalrowcount
     */
-    'totalrowcount': number = null;
+    'Totalrowcount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "headers",
+            "name": "Headers",
             "baseName": "headers",
             "type": "Array<object>"
         },
         {
-            "name": "rows",
+            "name": "Rows",
             "baseName": "rows",
             "type": "Array<CoreReportbuilderRetrieveReport200ResponseDataRowsInner>"
         },
         {
-            "name": "totalrowcount",
+            "name": "Totalrowcount",
             "baseName": "totalrowcount",
             "type": "number"
         }    ];

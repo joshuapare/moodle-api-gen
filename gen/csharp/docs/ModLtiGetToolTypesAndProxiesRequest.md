@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetToolTypesAndProxiesRequest
+# MoodleClient.Model.ModLtiGetToolTypesAndProxiesRequest
 
 ## Properties
 

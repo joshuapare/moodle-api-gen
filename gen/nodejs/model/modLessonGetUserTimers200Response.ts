@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModLessonGetUserTimers200ResponseTimersInner } from './modLessonGetUserTimers200ResponseTimersInner';
 
 export class ModLessonGetUserTimers200Response {
-    'timers': Array<ModLessonGetUserTimers200ResponseTimersInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Timers': Array<ModLessonGetUserTimers200ResponseTimersInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "timers",
+            "name": "Timers",
             "baseName": "timers",
             "type": "Array<ModLessonGetUserTimers200ResponseTimersInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -16,22 +16,22 @@ export class CoreMessageGetMessageProcessor200Response {
     /**
     * Site configuration status
     */
-    'systemconfigured': boolean = null;
+    'Systemconfigured': boolean = null;
     /**
     * The user configuration status
     */
-    'userconfigured': boolean = null;
+    'Userconfigured': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "systemconfigured",
+            "name": "Systemconfigured",
             "baseName": "systemconfigured",
             "type": "boolean"
         },
         {
-            "name": "userconfigured",
+            "name": "Userconfigured",
             "baseName": "userconfigured",
             "type": "boolean"
         }    ];

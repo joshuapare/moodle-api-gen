@@ -16,31 +16,31 @@ export class ModChatViewSessionsRequest {
     /**
     * Course module id
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * Session end time
     */
-    'end'?: number = 0;
+    'End'?: number = 0;
     /**
     * Session start time
     */
-    'start'?: number = 0;
+    'Start'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "end",
+            "name": "End",
             "baseName": "end",
             "type": "number"
         },
         {
-            "name": "start",
+            "name": "Start",
             "baseName": "start",
             "type": "number"
         }    ];

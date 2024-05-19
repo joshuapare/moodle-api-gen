@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminMoveUsersRequest
+# MoodleClient.Model.BlockIomadCompanyAdminMoveUsersRequest
 
 ## Properties
 

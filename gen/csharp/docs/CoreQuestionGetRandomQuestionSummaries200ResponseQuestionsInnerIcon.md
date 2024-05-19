@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInnerIcon
+# MoodleClient.Model.CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInnerIcon
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.QbankColumnsortorderSetHiddenColumnsRequest
+# MoodleClient.Model.QbankColumnsortorderSetHiddenColumnsRequest
 
 ## Properties
 

@@ -19,40 +19,40 @@ export class ModLessonGetPagesPossibleJumps200ResponseJumpsInner {
     /**
     * The answer id
     */
-    'answerid'?: number = null;
+    'Answerid'?: number = null;
     /**
     * The real page id (or EOL) to jump
     */
-    'calculatedjump'?: number = null;
+    'Calculatedjump'?: number = null;
     /**
     * The jump (page id or type of jump)
     */
-    'jumpto'?: number = null;
+    'Jumpto'?: number = null;
     /**
     * The page id
     */
-    'pageid'?: number = null;
+    'Pageid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answerid",
+            "name": "Answerid",
             "baseName": "answerid",
             "type": "number"
         },
         {
-            "name": "calculatedjump",
+            "name": "Calculatedjump",
             "baseName": "calculatedjump",
             "type": "number"
         },
         {
-            "name": "jumpto",
+            "name": "Jumpto",
             "baseName": "jumpto",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         }    ];

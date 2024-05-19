@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreWebserviceGetSiteInfo200ResponseFunctionsInner
+# MoodleClient.Model.CoreWebserviceGetSiteInfo200ResponseFunctionsInner
 functions that are available
 
 ## Properties

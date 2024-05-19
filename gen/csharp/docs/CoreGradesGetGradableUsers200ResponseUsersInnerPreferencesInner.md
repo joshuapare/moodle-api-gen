@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesGetGradableUsers200ResponseUsersInnerPreferencesInner
+# MoodleClient.Model.CoreGradesGetGradableUsers200ResponseUsersInnerPreferencesInner
 
 ## Properties
 

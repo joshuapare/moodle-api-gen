@@ -17,37 +17,37 @@ export class CoreCourseImportCourseRequest {
     /**
     * whether to delete the course content where we are importing to (default to 0 = No)
     */
-    'deletecontent'?: number = 0;
+    'Deletecontent'?: number = 0;
     /**
     * the id of the course we are importing from
     */
-    'importfrom': number = null;
+    'Importfrom': number = null;
     /**
     * the id of the course we are importing to
     */
-    'importto': number = null;
-    'options'?: Array<CoreCourseImportCourseRequestOptionsInner>;
+    'Importto': number = null;
+    'Options'?: Array<CoreCourseImportCourseRequestOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "deletecontent",
+            "name": "Deletecontent",
             "baseName": "deletecontent",
             "type": "number"
         },
         {
-            "name": "importfrom",
+            "name": "Importfrom",
             "baseName": "importfrom",
             "type": "number"
         },
         {
-            "name": "importto",
+            "name": "Importto",
             "baseName": "importto",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreCourseImportCourseRequestOptionsInner>"
         }    ];

@@ -16,31 +16,31 @@ export class CoreBlockGetDashboardBlocksRequest {
     /**
     * What my page to return blocks of
     */
-    'mypage'?: string = '__default';
+    'Mypage'?: string = '__default';
     /**
     * Whether to return the block contents.
     */
-    'returncontents'?: boolean = false;
+    'Returncontents'?: boolean = false;
     /**
     * User id (optional), default is current user.
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "mypage",
+            "name": "Mypage",
             "baseName": "mypage",
             "type": "string"
         },
         {
-            "name": "returncontents",
+            "name": "Returncontents",
             "baseName": "returncontents",
             "type": "boolean"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

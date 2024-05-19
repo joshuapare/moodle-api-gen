@@ -15,37 +15,37 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreGradesGraderGradingpanelScaleFetch200ResponseGrade } from './coreGradesGraderGradingpanelScaleFetch200ResponseGrade';
 
 export class CoreGradesGraderGradingpanelScaleFetch200Response {
-    'grade': CoreGradesGraderGradingpanelScaleFetch200ResponseGrade;
+    'Grade': CoreGradesGraderGradingpanelScaleFetch200ResponseGrade;
     /**
     * Does the user have a grade?
     */
-    'hasgrade': boolean;
+    'Hasgrade': boolean;
     /**
     * The template to use when rendering this data
     */
-    'templatename': string;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Templatename': string;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "CoreGradesGraderGradingpanelScaleFetch200ResponseGrade"
         },
         {
-            "name": "hasgrade",
+            "name": "Hasgrade",
             "baseName": "hasgrade",
             "type": "boolean"
         },
         {
-            "name": "templatename",
+            "name": "Templatename",
             "baseName": "templatename",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

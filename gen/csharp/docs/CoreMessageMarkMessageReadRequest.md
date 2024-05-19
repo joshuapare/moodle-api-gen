@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMarkMessageReadRequest
+# MoodleClient.Model.CoreMessageMarkMessageReadRequest
 
 ## Properties
 

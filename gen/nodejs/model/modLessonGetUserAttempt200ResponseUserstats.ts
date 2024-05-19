@@ -17,37 +17,37 @@ export class ModLessonGetUserAttempt200ResponseUserstats {
     /**
     * Time completed.
     */
-    'completed': number = null;
+    'Completed': number = null;
     /**
     * Attempt final grade.
     */
-    'grade': number = null;
-    'gradeinfo'?: ModLessonGetUserAttempt200ResponseUserstatsGradeinfo;
+    'Grade': number = null;
+    'Gradeinfo'?: ModLessonGetUserAttempt200ResponseUserstatsGradeinfo;
     /**
     * Time taken.
     */
-    'timetotake': number = null;
+    'Timetotake': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradeinfo",
+            "name": "Gradeinfo",
             "baseName": "gradeinfo",
             "type": "ModLessonGetUserAttempt200ResponseUserstatsGradeinfo"
         },
         {
-            "name": "timetotake",
+            "name": "Timetotake",
             "baseName": "timetotake",
             "type": "number"
         }    ];

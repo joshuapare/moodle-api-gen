@@ -17,46 +17,46 @@ export class ModFeedbackProcessPage200Response {
     /**
     * If the user completed the feedback.
     */
-    'completed': boolean = null;
+    'Completed': boolean = null;
     /**
     * The completion page contents.
     */
-    'completionpagecontents': string = 'null';
+    'Completionpagecontents': string = 'null';
     /**
     * The page to jump to.
     */
-    'jumpto': number = null;
+    'Jumpto': number = null;
     /**
     * The link (could be relative) to show after submit.
     */
-    'siteaftersubmit': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Siteaftersubmit': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "boolean"
         },
         {
-            "name": "completionpagecontents",
+            "name": "Completionpagecontents",
             "baseName": "completionpagecontents",
             "type": "string"
         },
         {
-            "name": "jumpto",
+            "name": "Jumpto",
             "baseName": "jumpto",
             "type": "number"
         },
         {
-            "name": "siteaftersubmit",
+            "name": "Siteaftersubmit",
             "baseName": "siteaftersubmit",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

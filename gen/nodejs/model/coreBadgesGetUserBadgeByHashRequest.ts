@@ -16,13 +16,13 @@ export class CoreBadgesGetUserBadgeByHashRequest {
     /**
     * Badge issued hash
     */
-    'hash': string = 'null';
+    'Hash': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "hash",
+            "name": "Hash",
             "baseName": "hash",
             "type": "string"
         }    ];

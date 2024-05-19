@@ -16,22 +16,22 @@ export class ModDataGetDataAccessInformationRequest {
     /**
     * Database instance id.
     */
-    'databaseid': number = null;
+    'Databaseid': number = null;
     /**
     * Group id, 0 means that the function will determine the user group.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "databaseid",
+            "name": "Databaseid",
             "baseName": "databaseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

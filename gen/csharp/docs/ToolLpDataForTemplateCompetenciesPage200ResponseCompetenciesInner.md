@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForTemplateCompetenciesPage200ResponseCompetenciesInner
+# MoodleClient.Model.ToolLpDataForTemplateCompetenciesPage200ResponseCompetenciesInner
 
 ## Properties
 

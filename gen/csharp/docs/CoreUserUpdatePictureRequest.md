@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserUpdatePictureRequest
+# MoodleClient.Model.CoreUserUpdatePictureRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyGetScaleValuesRequest
+# MoodleClient.Model.CoreCompetencyGetScaleValuesRequest
 
 ## Properties
 

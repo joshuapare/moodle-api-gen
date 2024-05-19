@@ -16,31 +16,31 @@ export class ToolTemplatelibraryListTemplatesRequest {
     /**
     * The component to search
     */
-    'component'?: string = '';
+    'Component'?: string = '';
     /**
     * The search string
     */
-    'search'?: string = '';
+    'Search'?: string = '';
     /**
     * The current theme
     */
-    'themename'?: string = '';
+    'Themename'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "search",
+            "name": "Search",
             "baseName": "search",
             "type": "string"
         },
         {
-            "name": "themename",
+            "name": "Themename",
             "baseName": "themename",
             "type": "string"
         }    ];

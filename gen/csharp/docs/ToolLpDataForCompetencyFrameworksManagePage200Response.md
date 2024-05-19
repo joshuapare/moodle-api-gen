@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForCompetencyFrameworksManagePage200Response
+# MoodleClient.Model.ToolLpDataForCompetencyFrameworksManagePage200Response
 
 ## Properties
 

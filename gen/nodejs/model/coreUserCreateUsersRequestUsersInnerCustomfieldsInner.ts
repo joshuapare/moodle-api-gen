@@ -16,22 +16,22 @@ export class CoreUserCreateUsersRequestUsersInnerCustomfieldsInner {
     /**
     * The name of the custom field
     */
-    'type'?: string;
+    'Type'?: string;
     /**
     * The value of the custom field
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

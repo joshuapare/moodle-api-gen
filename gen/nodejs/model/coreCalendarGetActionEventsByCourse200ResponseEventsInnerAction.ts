@@ -16,49 +16,49 @@ export class CoreCalendarGetActionEventsByCourse200ResponseEventsInnerAction {
     /**
     * actionable
     */
-    'actionable': boolean = null;
+    'Actionable': boolean = null;
     /**
     * itemcount
     */
-    'itemcount': number = null;
+    'Itemcount': number = null;
     /**
     * name
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * showitemcount
     */
-    'showitemcount': boolean = false;
+    'Showitemcount': boolean = false;
     /**
     * url
     */
-    'url': string = 'null';
+    'Url': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "actionable",
+            "name": "Actionable",
             "baseName": "actionable",
             "type": "boolean"
         },
         {
-            "name": "itemcount",
+            "name": "Itemcount",
             "baseName": "itemcount",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "showitemcount",
+            "name": "Showitemcount",
             "baseName": "showitemcount",
             "type": "boolean"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

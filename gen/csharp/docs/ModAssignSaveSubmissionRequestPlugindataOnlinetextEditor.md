@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSaveSubmissionRequestPlugindataOnlinetextEditor
+# MoodleClient.Model.ModAssignSaveSubmissionRequestPlugindataOnlinetextEditor
 
 ## Properties
 

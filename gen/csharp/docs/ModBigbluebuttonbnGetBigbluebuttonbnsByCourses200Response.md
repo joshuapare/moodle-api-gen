@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnGetBigbluebuttonbnsByCourses200Response
+# MoodleClient.Model.ModBigbluebuttonbnGetBigbluebuttonbnsByCourses200Response
 
 ## Properties
 

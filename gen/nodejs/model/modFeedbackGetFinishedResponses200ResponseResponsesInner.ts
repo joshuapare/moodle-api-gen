@@ -16,58 +16,58 @@ export class ModFeedbackGetFinishedResponses200ResponseResponsesInner {
     /**
     * Reference to the feedback_completed table.
     */
-    'completed'?: number = null;
+    'Completed'?: number = null;
     /**
     * The course id this record belongs to.
     */
-    'courseId'?: number = null;
+    'CourseId'?: number = null;
     /**
     * The record id.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * The item id that was responded.
     */
-    'item'?: number = null;
+    'Item'?: number = null;
     /**
     * Old field - not used anymore.
     */
-    'tmpCompleted'?: number = null;
+    'TmpCompleted'?: number = null;
     /**
     * The response value.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "number"
         },
         {
-            "name": "courseId",
+            "name": "CourseId",
             "baseName": "course_id",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "number"
         },
         {
-            "name": "tmpCompleted",
+            "name": "TmpCompleted",
             "baseName": "tmp_completed",
             "type": "number"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

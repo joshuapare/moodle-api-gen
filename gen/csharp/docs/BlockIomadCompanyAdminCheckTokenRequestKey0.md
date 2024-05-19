@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminCheckTokenRequestKey0
+# MoodleClient.Model.BlockIomadCompanyAdminCheckTokenRequestKey0
 
 ## Properties
 

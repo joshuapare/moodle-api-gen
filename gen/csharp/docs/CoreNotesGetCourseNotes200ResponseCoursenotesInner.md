@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreNotesGetCourseNotes200ResponseCoursenotesInner
+# MoodleClient.Model.CoreNotesGetCourseNotes200ResponseCoursenotesInner
 
 ## Properties
 

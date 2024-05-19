@@ -16,31 +16,31 @@ export class CoreReportbuilderColumnsReorderRequest {
     /**
     * Column ID
     */
-    'columnid': number;
+    'Columnid': number;
     /**
     * New column position
     */
-    'position': number = null;
+    'Position': number = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "columnid",
+            "name": "Columnid",
             "baseName": "columnid",
             "type": "number"
         },
         {
-            "name": "position",
+            "name": "Position",
             "baseName": "position",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

@@ -16,13 +16,13 @@ export class LocalIomadLearningpathCopypathRequest {
     /**
     * ID of Iomad Learning Path
     */
-    'pathid': number;
+    'Pathid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         }    ];

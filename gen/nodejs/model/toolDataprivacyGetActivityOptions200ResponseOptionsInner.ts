@@ -16,22 +16,22 @@ export class ToolDataprivacyGetActivityOptions200ResponseOptionsInner {
     /**
     * The display name of the activity
     */
-    'displayname'?: string = 'null';
+    'Displayname'?: string = 'null';
     /**
     * The plugin name of the activity
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

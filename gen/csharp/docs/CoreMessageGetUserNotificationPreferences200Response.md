@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetUserNotificationPreferences200Response
+# MoodleClient.Model.CoreMessageGetUserNotificationPreferences200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizSetQuestionVersionRequest
+# MoodleClient.Model.ModQuizSetQuestionVersionRequest
 
 ## Properties
 

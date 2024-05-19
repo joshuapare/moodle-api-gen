@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageMarkAllConversationMessagesAsReadRequest
+# MoodleClient.Model.CoreMessageMarkAllConversationMessagesAsReadRequest
 
 ## Properties
 

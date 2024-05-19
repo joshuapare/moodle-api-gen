@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInner } from './coreQuestionGetRandomQuestionSummaries200ResponseQuestionsInner';
 
 export class CoreQuestionGetRandomQuestionSummaries200Response {
-    'questions': Array<CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInner>;
+    'Questions': Array<CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInner>;
     /**
     * total number of questions in result set
     */
-    'totalcount': number = null;
+    'Totalcount': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "questions",
+            "name": "Questions",
             "baseName": "questions",
             "type": "Array<CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInner>"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         }    ];

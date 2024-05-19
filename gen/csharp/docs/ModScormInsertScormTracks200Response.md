@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormInsertScormTracks200Response
+# MoodleClient.Model.ModScormInsertScormTracks200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyApproveDataRequestRequest
+# MoodleClient.Model.ToolDataprivacyApproveDataRequestRequest
 
 ## Properties
 

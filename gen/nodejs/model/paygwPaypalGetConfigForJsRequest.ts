@@ -16,31 +16,31 @@ export class PaygwPaypalGetConfigForJsRequest {
     /**
     * Component
     */
-    'component': string;
+    'Component': string;
     /**
     * An identifier for payment area in the component
     */
-    'itemid': number;
+    'Itemid': number;
     /**
     * Payment area in the component
     */
-    'paymentarea': string;
+    'Paymentarea': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "paymentarea",
+            "name": "Paymentarea",
             "baseName": "paymentarea",
             "type": "string"
         }    ];

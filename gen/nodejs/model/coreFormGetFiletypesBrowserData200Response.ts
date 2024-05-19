@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreFormGetFiletypesBrowserData200ResponseGroupsInner } from './coreFormGetFiletypesBrowserData200ResponseGroupsInner';
 
 export class CoreFormGetFiletypesBrowserData200Response {
-    'groups': Array<CoreFormGetFiletypesBrowserData200ResponseGroupsInner>;
+    'Groups': Array<CoreFormGetFiletypesBrowserData200ResponseGroupsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "groups",
+            "name": "Groups",
             "baseName": "groups",
             "type": "Array<CoreFormGetFiletypesBrowserData200ResponseGroupsInner>"
         }    ];

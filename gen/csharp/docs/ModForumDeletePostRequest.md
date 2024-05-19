@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumDeletePostRequest
+# MoodleClient.Model.ModForumDeletePostRequest
 
 ## Properties
 

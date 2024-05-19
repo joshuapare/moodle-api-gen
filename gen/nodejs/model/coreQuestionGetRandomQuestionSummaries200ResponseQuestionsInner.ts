@@ -17,55 +17,55 @@ export class CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInner {
     /**
     * category
     */
-    'category'?: number = null;
-    'icon'?: CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInnerIcon;
+    'Category'?: number = null;
+    'Icon'?: CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInnerIcon;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * parent
     */
-    'parent'?: number;
+    'Parent'?: number;
     /**
     * qtype
     */
-    'qtype'?: string = 'null';
+    'Qtype'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "category",
+            "name": "Category",
             "baseName": "category",
             "type": "number"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "CoreQuestionGetRandomQuestionSummaries200ResponseQuestionsInnerIcon"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "number"
         },
         {
-            "name": "qtype",
+            "name": "Qtype",
             "baseName": "qtype",
             "type": "string"
         }    ];

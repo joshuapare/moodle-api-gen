@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserUpdateUserDevicePublicKey200Response
+# MoodleClient.Model.CoreUserUpdateUserDevicePublicKey200Response
 
 ## Properties
 

@@ -16,49 +16,49 @@ export class CoreCalendarGetCalendarEventsRequestOptions {
     /**
     * Ignore hidden events or not
     */
-    'ignorehidden'?: boolean = true;
+    'Ignorehidden'?: boolean = true;
     /**
     * Set to true to return site events
     */
-    'siteevents'?: boolean = true;
+    'Siteevents'?: boolean = true;
     /**
     * Time to which the events should be returned. We treat 0 and null as no end
     */
-    'timeend'?: number = 0;
+    'Timeend'?: number = 0;
     /**
     * Time from which events should be returned
     */
-    'timestart'?: number = 0;
+    'Timestart'?: number = 0;
     /**
     * Set to true to return current user\'s user events
     */
-    'userevents'?: boolean = true;
+    'Userevents'?: boolean = true;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ignorehidden",
+            "name": "Ignorehidden",
             "baseName": "ignorehidden",
             "type": "boolean"
         },
         {
-            "name": "siteevents",
+            "name": "Siteevents",
             "baseName": "siteevents",
             "type": "boolean"
         },
         {
-            "name": "timeend",
+            "name": "Timeend",
             "baseName": "timeend",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "userevents",
+            "name": "Userevents",
             "baseName": "userevents",
             "type": "boolean"
         }    ];

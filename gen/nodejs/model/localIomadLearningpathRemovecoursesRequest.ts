@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class LocalIomadLearningpathRemovecoursesRequest {
-    'courseids': Array<object>;
+    'Courseids': Array<object>;
     /**
     * ID of Iomad Learning Path
     */
-    'pathid': number;
+    'Pathid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "pathid",
+            "name": "Pathid",
             "baseName": "pathid",
             "type": "number"
         }    ];

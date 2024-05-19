@@ -16,22 +16,22 @@ export class CoreCourseDuplicateCourse200Response {
     /**
     * course id
     */
-    'id': number;
+    'Id': number;
     /**
     * short name
     */
-    'shortname': string = 'null';
+    'Shortname': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         }    ];

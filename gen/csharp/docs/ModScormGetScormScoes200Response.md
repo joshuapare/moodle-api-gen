@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormScoes200Response
+# MoodleClient.Model.ModScormGetScormScoes200Response
 
 ## Properties
 

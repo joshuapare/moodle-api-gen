@@ -1,5 +1,5 @@
 {
-    "name": "joshuapare/moodle-client-php",
+    "name": "joshuapare/moodle-api-gen",
     "description": "Auto-generated OpenAPI spec for Moodle's Webservice API. Requires installation of the Catalyst RESTful API plugin: https://github.com/catalyst/moodle-webservice_restful.",
     "keywords": [
         "openapitools",

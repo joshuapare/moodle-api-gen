@@ -16,31 +16,31 @@ export class ModChatSendChatMessageRequest {
     /**
     * the beep id
     */
-    'beepid'?: string = '';
+    'Beepid'?: string = '';
     /**
     * chat session id (obtained via mod_chat_login_user)
     */
-    'chatsid': string;
+    'Chatsid': string;
     /**
     * the message text
     */
-    'messagetext': string = 'null';
+    'Messagetext': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "beepid",
+            "name": "Beepid",
             "baseName": "beepid",
             "type": "string"
         },
         {
-            "name": "chatsid",
+            "name": "Chatsid",
             "baseName": "chatsid",
             "type": "string"
         },
         {
-            "name": "messagetext",
+            "name": "Messagetext",
             "baseName": "messagetext",
             "type": "string"
         }    ];

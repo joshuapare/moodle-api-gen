@@ -16,58 +16,58 @@ export class BlockIomadCompanyAdminGetDepartmentUsers200ResponseUsersInner {
     /**
     * Company ID
     */
-    'companyid'?: number;
+    'Companyid'?: number;
     /**
     * Department ID
     */
-    'departmentid'?: number;
+    'Departmentid'?: number;
     /**
     * User email address
     */
-    'email'?: string = 'null';
+    'Email'?: string = 'null';
     /**
     * User firstname
     */
-    'firstname'?: string = 'null';
+    'Firstname'?: string = 'null';
     /**
     * User ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * User lastname
     */
-    'lastname'?: string = 'null';
+    'Lastname'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "departmentid",
+            "name": "Departmentid",
             "baseName": "departmentid",
             "type": "number"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         }    ];

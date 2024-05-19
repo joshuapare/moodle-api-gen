@@ -16,13 +16,13 @@ export class CoreAuthIsMinor200Response {
     /**
     * True if the user is considered to be a digital minor,                     false if not
     */
-    'status': boolean = null;
+    'Status': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         }    ];

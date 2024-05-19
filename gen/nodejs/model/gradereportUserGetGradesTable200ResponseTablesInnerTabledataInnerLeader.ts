@@ -16,22 +16,22 @@ export class GradereportUserGetGradesTable200ResponseTablesInnerTabledataInnerLe
     /**
     * class
     */
-    '_class': string;
+    'Class': string;
     /**
     * row span
     */
-    'rowspan': number = null;
+    'Rowspan': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "_class",
+            "name": "Class",
             "baseName": "class",
             "type": "string"
         },
         {
-            "name": "rowspan",
+            "name": "Rowspan",
             "baseName": "rowspan",
             "type": "number"
         }    ];

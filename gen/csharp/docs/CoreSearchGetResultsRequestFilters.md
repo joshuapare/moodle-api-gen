@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreSearchGetResultsRequestFilters
+# MoodleClient.Model.CoreSearchGetResultsRequestFilters
 
 ## Properties
 

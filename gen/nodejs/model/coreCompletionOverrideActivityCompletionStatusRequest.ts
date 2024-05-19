@@ -16,31 +16,31 @@ export class CoreCompletionOverrideActivityCompletionStatusRequest {
     /**
     * course module id
     */
-    'cmid': number = null;
+    'Cmid': number = null;
     /**
     * the new activity completion state
     */
-    'newstate': number = null;
+    'Newstate': number = null;
     /**
     * user id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "newstate",
+            "name": "Newstate",
             "baseName": "newstate",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

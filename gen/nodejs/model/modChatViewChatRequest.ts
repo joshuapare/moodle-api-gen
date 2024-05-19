@@ -16,13 +16,13 @@ export class ModChatViewChatRequest {
     /**
     * chat instance id
     */
-    'chatid': number;
+    'Chatid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatid",
+            "name": "Chatid",
             "baseName": "chatid",
             "type": "number"
         }    ];

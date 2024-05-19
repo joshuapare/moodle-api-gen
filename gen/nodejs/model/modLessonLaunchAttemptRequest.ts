@@ -16,40 +16,40 @@ export class ModLessonLaunchAttemptRequest {
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * page id to continue from (only when continuing an attempt)
     */
-    'pageid'?: number = 0;
+    'Pageid'?: number = 0;
     /**
     * optional password (the lesson may be protected)
     */
-    'password'?: string = '';
+    'Password'?: string = '';
     /**
     * if we want to review just after finishing
     */
-    'review'?: boolean = false;
+    'Review'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "review",
+            "name": "Review",
             "baseName": "review",
             "type": "boolean"
         }    ];

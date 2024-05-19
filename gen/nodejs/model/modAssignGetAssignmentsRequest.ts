@@ -13,28 +13,28 @@
 import { RequestFile } from './models';
 
 export class ModAssignGetAssignmentsRequest {
-    'capabilities'?: Array<object>;
-    'courseids'?: Array<object>;
+    'Capabilities'?: Array<object>;
+    'Courseids'?: Array<object>;
     /**
     * whether to return courses that the user can see                                                                     even if is not enroled in. This requires the parameter courseids                                                                     to not be empty.
     */
-    'includenotenrolledcourses'?: boolean = false;
+    'Includenotenrolledcourses'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilities",
+            "name": "Capabilities",
             "baseName": "capabilities",
             "type": "Array<object>"
         },
         {
-            "name": "courseids",
+            "name": "Courseids",
             "baseName": "courseids",
             "type": "Array<object>"
         },
         {
-            "name": "includenotenrolledcourses",
+            "name": "Includenotenrolledcourses",
             "baseName": "includenotenrolledcourses",
             "type": "boolean"
         }    ];

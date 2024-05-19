@@ -19,103 +19,103 @@ export class CoreCommentGetComments200ResponseCommentsInner {
     /**
     * HTML user picture
     */
-    'avatar'?: string = 'null';
+    'Avatar'?: string = 'null';
     /**
     * The content text formatted
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * Permission to delete=true/false
     */
-    '_delete'?: boolean = null;
+    'Delete'?: boolean = null;
     /**
     * content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number;
+    'Format'?: number;
     /**
     * fullname
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * Comment ID
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * URL profile
     */
-    'profileurl'?: string = 'null';
+    'Profileurl'?: string = 'null';
     /**
     * Time format
     */
-    'strftimeformat'?: string = 'null';
+    'Strftimeformat'?: string = 'null';
     /**
     * Time in human format
     */
-    'time'?: string = 'null';
+    'Time'?: string = 'null';
     /**
     * Time created (timestamp)
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * User ID
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "avatar",
+            "name": "Avatar",
             "baseName": "avatar",
             "type": "string"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "_delete",
+            "name": "Delete",
             "baseName": "delete",
             "type": "boolean"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "profileurl",
+            "name": "Profileurl",
             "baseName": "profileurl",
             "type": "string"
         },
         {
-            "name": "strftimeformat",
+            "name": "Strftimeformat",
             "baseName": "strftimeformat",
             "type": "string"
         },
         {
-            "name": "time",
+            "name": "Time",
             "baseName": "time",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

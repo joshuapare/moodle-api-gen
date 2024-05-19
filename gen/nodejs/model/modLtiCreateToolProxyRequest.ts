@@ -13,37 +13,37 @@
 import { RequestFile } from './models';
 
 export class ModLtiCreateToolProxyRequest {
-    'capabilityoffered'?: Array<object>;
+    'Capabilityoffered'?: Array<object>;
     /**
     * Tool proxy name
     */
-    'name'?: string = '';
+    'Name'?: string = '';
     /**
     * Tool proxy registration URL
     */
-    'regurl': string = 'null';
-    'serviceoffered'?: Array<object>;
+    'Regurl': string = 'null';
+    'Serviceoffered'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilityoffered",
+            "name": "Capabilityoffered",
             "baseName": "capabilityoffered",
             "type": "Array<object>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "regurl",
+            "name": "Regurl",
             "baseName": "regurl",
             "type": "string"
         },
         {
-            "name": "serviceoffered",
+            "name": "Serviceoffered",
             "baseName": "serviceoffered",
             "type": "Array<object>"
         }    ];

@@ -16,40 +16,40 @@ export class ModBigbluebuttonbnUpdateRecordingRequest {
     /**
     * The action to perform
     */
-    'action': string = 'null';
+    'Action': string = 'null';
     /**
     * Additional options
     */
-    'additionaloptions': string = 'null';
+    'Additionaloptions': string = 'null';
     /**
     * bigbluebuttonbn instance id, this might be a different one from the one set in recordingid in case of importing
     */
-    'bigbluebuttonbnid': number = null;
+    'Bigbluebuttonbnid': number = null;
     /**
     * The moodle internal recording ID
     */
-    'recordingid': number = null;
+    'Recordingid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "string"
         },
         {
-            "name": "additionaloptions",
+            "name": "Additionaloptions",
             "baseName": "additionaloptions",
             "type": "string"
         },
         {
-            "name": "bigbluebuttonbnid",
+            "name": "Bigbluebuttonbnid",
             "baseName": "bigbluebuttonbnid",
             "type": "number"
         },
         {
-            "name": "recordingid",
+            "name": "Recordingid",
             "baseName": "recordingid",
             "type": "number"
         }    ];

@@ -16,31 +16,31 @@ export class CoreGradesGetEnrolledUsersForSearchWidgetRequest {
     /**
     * The base URL for the user option
     */
-    'actionbaseurl': string = 'null';
+    'Actionbaseurl': string = 'null';
     /**
     * Course Id
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * Group Id
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "actionbaseurl",
+            "name": "Actionbaseurl",
             "baseName": "actionbaseurl",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         }    ];

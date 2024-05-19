@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreBlogGetEntriesRequest
+# MoodleClient.Model.CoreBlogGetEntriesRequest
 
 ## Properties
 

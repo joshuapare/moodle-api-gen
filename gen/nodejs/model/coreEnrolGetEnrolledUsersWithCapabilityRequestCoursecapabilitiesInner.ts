@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner {
-    'capabilities'?: Array<object>;
+    'Capabilities'?: Array<object>;
     /**
     * Course ID number in the Moodle course table
     */
-    'courseid'?: number = null;
+    'Courseid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilities",
+            "name": "Capabilities",
             "baseName": "capabilities",
             "type": "Array<object>"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         }    ];

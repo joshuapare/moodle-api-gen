@@ -15,28 +15,28 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreBlogGetEntries200ResponseEntriesInner } from './coreBlogGetEntries200ResponseEntriesInner';
 
 export class CoreBlogGetEntries200Response {
-    'entries': Array<CoreBlogGetEntries200ResponseEntriesInner>;
+    'Entries': Array<CoreBlogGetEntries200ResponseEntriesInner>;
     /**
     * The total number of entries found.
     */
-    'totalentries': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Totalentries': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "entries",
+            "name": "Entries",
             "baseName": "entries",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInner>"
         },
         {
-            "name": "totalentries",
+            "name": "Totalentries",
             "baseName": "totalentries",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetToolLaunchData200Response
+# MoodleClient.Model.ModLtiGetToolLaunchData200Response
 
 ## Properties
 

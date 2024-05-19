@@ -16,22 +16,22 @@ export class GradereportOverviewViewGradeReportRequest {
     /**
     * id of the course
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * id of the user, 0 means current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

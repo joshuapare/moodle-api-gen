@@ -16,49 +16,49 @@ export class CoreBlockFetchAddableBlocksRequest {
     /**
     * The context ID of the page.
     */
-    'pagecontextid': number = null;
+    'Pagecontextid': number = null;
     /**
     * Page hash
     */
-    'pagehash'?: string = '';
+    'Pagehash'?: string = '';
     /**
     * The layout of the page.
     */
-    'pagelayout': string = 'null';
+    'Pagelayout': string = 'null';
     /**
     * The type of the page.
     */
-    'pagetype': string = 'null';
+    'Pagetype': string = 'null';
     /**
     * The subpage identifier
     */
-    'subpage'?: string = '';
+    'Subpage'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pagehash",
+            "name": "Pagehash",
             "baseName": "pagehash",
             "type": "string"
         },
         {
-            "name": "pagelayout",
+            "name": "Pagelayout",
             "baseName": "pagelayout",
             "type": "string"
         },
         {
-            "name": "pagetype",
+            "name": "Pagetype",
             "baseName": "pagetype",
             "type": "string"
         },
         {
-            "name": "subpage",
+            "name": "Subpage",
             "baseName": "subpage",
             "type": "string"
         }    ];

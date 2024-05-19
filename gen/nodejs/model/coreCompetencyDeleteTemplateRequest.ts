@@ -16,22 +16,22 @@ export class CoreCompetencyDeleteTemplateRequest {
     /**
     * Boolean to indicate if plans must be deleted
     */
-    'deleteplans': boolean = null;
+    'Deleteplans': boolean = null;
     /**
     * Data base record id for the template
     */
-    'id': number = null;
+    'Id': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "deleteplans",
+            "name": "Deleteplans",
             "baseName": "deleteplans",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

@@ -16,94 +16,94 @@ export class CoreFilesGetFiles200ResponseFilesInner {
     /**
     * File owner
     */
-    'author'?: string = 'null';
-    'component'?: string = 'null';
-    'contextid'?: number = null;
-    'filearea'?: string;
-    'filename'?: string;
-    'filepath'?: string;
+    'Author'?: string = 'null';
+    'Component'?: string = 'null';
+    'Contextid'?: number = null;
+    'Filearea'?: string;
+    'Filename'?: string;
+    'Filepath'?: string;
     /**
     * File size
     */
-    'filesize'?: number = null;
-    'isdir'?: boolean = null;
-    'itemid'?: number;
+    'Filesize'?: number = null;
+    'Isdir'?: boolean = null;
+    'Itemid'?: number;
     /**
     * File license
     */
-    'license'?: string = 'null';
+    'License'?: string = 'null';
     /**
     * Time created
     */
-    'timecreated'?: number = null;
-    'timemodified'?: number;
-    'url'?: string;
+    'Timecreated'?: number = null;
+    'Timemodified'?: number;
+    'Url'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "author",
+            "name": "Author",
             "baseName": "author",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "isdir",
+            "name": "Isdir",
             "baseName": "isdir",
             "type": "boolean"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "license",
+            "name": "License",
             "baseName": "license",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

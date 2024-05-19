@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { BlockIomadCompanyAdminCheckTokenRequestKey0 } from './blockIomadCompanyAdminCheckTokenRequestKey0';
 
 export class BlockIomadCompanyAdminCheckTokenRequest {
-    'key0': BlockIomadCompanyAdminCheckTokenRequestKey0;
+    'Key0': BlockIomadCompanyAdminCheckTokenRequestKey0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "key0",
+            "name": "Key0",
             "baseName": "key0",
             "type": "BlockIomadCompanyAdminCheckTokenRequestKey0"
         }    ];

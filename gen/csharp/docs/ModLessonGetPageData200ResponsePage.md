@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetPageData200ResponsePage
+# MoodleClient.Model.ModLessonGetPageData200ResponsePage
 
 ## Properties
 

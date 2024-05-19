@@ -16,13 +16,13 @@ export class ModImscpViewImscpRequest {
     /**
     * imscp instance id
     */
-    'imscpid': number = null;
+    'Imscpid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "imscpid",
+            "name": "Imscpid",
             "baseName": "imscpid",
             "type": "number"
         }    ];

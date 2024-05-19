@@ -16,13 +16,13 @@ export class ToolDataprivacySetContextlevelFormRequest {
     /**
     * The context level data, encoded as a json array
     */
-    'jsonformdata': string;
+    'Jsonformdata': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "jsonformdata",
+            "name": "Jsonformdata",
             "baseName": "jsonformdata",
             "type": "string"
         }    ];

@@ -18,259 +18,259 @@ export class CoreUserCreateUsersRequestUsersInner {
     /**
     * Postal address
     */
-    'address'?: string;
+    'Address'?: string;
     /**
     * The alternate name of the user
     */
-    'alternatename'?: string = 'null';
+    'Alternatename'?: string = 'null';
     /**
     * Auth plugins include manual, ldap, etc
     */
-    'auth'?: string = 'manual';
+    'Auth'?: string = 'manual';
     /**
     * Calendar type such as \"gregorian\", must exist on server
     */
-    'calendartype'?: string = 'gregorian';
+    'Calendartype'?: string = 'gregorian';
     /**
     * Home city of the user
     */
-    'city'?: string;
+    'City'?: string;
     /**
     * Home country code of the user, such as AU or CZ
     */
-    'country'?: string;
+    'Country'?: string;
     /**
     * True if password should be created and mailed to user.
     */
-    'createpassword'?: boolean = null;
-    'customfields'?: Array<CoreUserCreateUsersRequestUsersInnerCustomfieldsInner>;
+    'Createpassword'?: boolean = null;
+    'Customfields'?: Array<CoreUserCreateUsersRequestUsersInnerCustomfieldsInner>;
     /**
     * department
     */
-    'department'?: string;
+    'Department'?: string;
     /**
     * User profile description, no HTML
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * A valid and unique email address
     */
-    'email'?: string;
+    'Email'?: string;
     /**
     * The first name(s) of the user
     */
-    'firstname'?: string;
+    'Firstname'?: string;
     /**
     * The first name(s) phonetically of the user
     */
-    'firstnamephonetic'?: string = 'null';
+    'Firstnamephonetic'?: string = 'null';
     /**
     * An arbitrary ID code number perhaps from the institution
     */
-    'idnumber'?: string = '';
+    'Idnumber'?: string = '';
     /**
     * institution
     */
-    'institution'?: string;
+    'Institution'?: string;
     /**
     * User interests (separated by commas)
     */
-    'interests'?: string = 'null';
+    'Interests'?: string = 'null';
     /**
     * Language code such as \"en\", must exist on server
     */
-    'lang'?: string = 'en';
+    'Lang'?: string = 'en';
     /**
     * The family name of the user
     */
-    'lastname'?: string;
+    'Lastname'?: string;
     /**
     * The family name phonetically of the user
     */
-    'lastnamephonetic'?: string = 'null';
+    'Lastnamephonetic'?: string = 'null';
     /**
     * Email visibility
     */
-    'maildisplay'?: number = null;
+    'Maildisplay'?: number = null;
     /**
     * Mail format code is 0 for plain text, 1 for HTML etc
     */
-    'mailformat'?: number;
+    'Mailformat'?: number;
     /**
     * The middle name of the user
     */
-    'middlename'?: string = 'null';
+    'Middlename'?: string = 'null';
     /**
     * Plain text password consisting of any characters
     */
-    'password'?: string = 'null';
+    'Password'?: string = 'null';
     /**
     * Phone 1
     */
-    'phone1'?: string;
+    'Phone1'?: string;
     /**
     * Phone 2
     */
-    'phone2'?: string;
-    'preferences'?: Array<CoreUserCreateUsersRequestUsersInnerPreferencesInner>;
+    'Phone2'?: string;
+    'Preferences'?: Array<CoreUserCreateUsersRequestUsersInnerPreferencesInner>;
     /**
     * Theme name such as \"standard\", must exist on server
     */
-    'theme'?: string;
+    'Theme'?: string;
     /**
     * Timezone code such as Australia/Perth, or 99 for default
     */
-    'timezone'?: string;
+    'Timezone'?: string;
     /**
     * Username policy is defined in Moodle security config.
     */
-    'username'?: string = 'null';
+    'Username'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "address",
+            "name": "Address",
             "baseName": "address",
             "type": "string"
         },
         {
-            "name": "alternatename",
+            "name": "Alternatename",
             "baseName": "alternatename",
             "type": "string"
         },
         {
-            "name": "auth",
+            "name": "Auth",
             "baseName": "auth",
             "type": "string"
         },
         {
-            "name": "calendartype",
+            "name": "Calendartype",
             "baseName": "calendartype",
             "type": "string"
         },
         {
-            "name": "city",
+            "name": "City",
             "baseName": "city",
             "type": "string"
         },
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "createpassword",
+            "name": "Createpassword",
             "baseName": "createpassword",
             "type": "boolean"
         },
         {
-            "name": "customfields",
+            "name": "Customfields",
             "baseName": "customfields",
             "type": "Array<CoreUserCreateUsersRequestUsersInnerCustomfieldsInner>"
         },
         {
-            "name": "department",
+            "name": "Department",
             "baseName": "department",
             "type": "string"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "email",
+            "name": "Email",
             "baseName": "email",
             "type": "string"
         },
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "firstnamephonetic",
+            "name": "Firstnamephonetic",
             "baseName": "firstnamephonetic",
             "type": "string"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "institution",
+            "name": "Institution",
             "baseName": "institution",
             "type": "string"
         },
         {
-            "name": "interests",
+            "name": "Interests",
             "baseName": "interests",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         },
         {
-            "name": "lastnamephonetic",
+            "name": "Lastnamephonetic",
             "baseName": "lastnamephonetic",
             "type": "string"
         },
         {
-            "name": "maildisplay",
+            "name": "Maildisplay",
             "baseName": "maildisplay",
             "type": "number"
         },
         {
-            "name": "mailformat",
+            "name": "Mailformat",
             "baseName": "mailformat",
             "type": "number"
         },
         {
-            "name": "middlename",
+            "name": "Middlename",
             "baseName": "middlename",
             "type": "string"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "phone1",
+            "name": "Phone1",
             "baseName": "phone1",
             "type": "string"
         },
         {
-            "name": "phone2",
+            "name": "Phone2",
             "baseName": "phone2",
             "type": "string"
         },
         {
-            "name": "preferences",
+            "name": "Preferences",
             "baseName": "preferences",
             "type": "Array<CoreUserCreateUsersRequestUsersInnerPreferencesInner>"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "timezone",
+            "name": "Timezone",
             "baseName": "timezone",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

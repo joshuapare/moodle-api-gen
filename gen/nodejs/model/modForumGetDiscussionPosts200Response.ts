@@ -19,40 +19,40 @@ export class ModForumGetDiscussionPosts200Response {
     /**
     * The forum course id
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * The forum id
     */
-    'forumid': number = null;
-    'posts': Array<ModForumGetDiscussionPosts200ResponsePostsInner>;
-    'ratinginfo'?: ModForumGetDiscussionPosts200ResponseRatinginfo;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Forumid': number = null;
+    'Posts': Array<ModForumGetDiscussionPosts200ResponsePostsInner>;
+    'Ratinginfo'?: ModForumGetDiscussionPosts200ResponseRatinginfo;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "posts",
+            "name": "Posts",
             "baseName": "posts",
             "type": "Array<ModForumGetDiscussionPosts200ResponsePostsInner>"
         },
         {
-            "name": "ratinginfo",
+            "name": "Ratinginfo",
             "baseName": "ratinginfo",
             "type": "ModForumGetDiscussionPosts200ResponseRatinginfo"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

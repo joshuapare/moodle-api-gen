@@ -16,31 +16,31 @@ export class ModWikiGetSubwikiPagesRequestOptions {
     /**
     * Include each page contents or just the contents size.
     */
-    'includecontent'?: number = 1;
+    'Includecontent'?: number = 1;
     /**
     * Field to sort by (id, title, ...).
     */
-    'sortby'?: string = 'title';
+    'Sortby'?: string = 'title';
     /**
     * Sort direction: ASC or DESC.
     */
-    'sortdirection'?: string = 'ASC';
+    'Sortdirection'?: string = 'ASC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includecontent",
+            "name": "Includecontent",
             "baseName": "includecontent",
             "type": "number"
         },
         {
-            "name": "sortby",
+            "name": "Sortby",
             "baseName": "sortby",
             "type": "string"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "string"
         }    ];

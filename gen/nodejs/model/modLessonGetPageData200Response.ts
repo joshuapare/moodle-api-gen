@@ -18,82 +18,82 @@ import { ModLessonGetPageData200ResponseMessagesInner } from './modLessonGetPage
 import { ModLessonGetPageData200ResponsePage } from './modLessonGetPageData200ResponsePage';
 
 export class ModLessonGetPageData200Response {
-    'answers': Array<ModLessonGetPageData200ResponseAnswersInner>;
-    'contentfiles': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Answers': Array<ModLessonGetPageData200ResponseAnswersInner>;
+    'Contentfiles': Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * Whether we should display the menu or not in this page.
     */
-    'displaymenu': boolean = null;
-    'messages': Array<ModLessonGetPageData200ResponseMessagesInner>;
+    'Displaymenu': boolean = null;
+    'Messages': Array<ModLessonGetPageData200ResponseMessagesInner>;
     /**
     * New page id (if a jump was made)
     */
-    'newpageid': number = null;
+    'Newpageid': number = null;
     /**
     * The ongoing score message
     */
-    'ongoingscore': string = 'null';
-    'page'?: ModLessonGetPageData200ResponsePage;
+    'Ongoingscore': string = 'null';
+    'Page'?: ModLessonGetPageData200ResponsePage;
     /**
     * Page html content
     */
-    'pagecontent'?: string = 'null';
+    'Pagecontent'?: string = 'null';
     /**
     * Progress percentage in the lesson
     */
-    'progress': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Progress': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "answers",
+            "name": "Answers",
             "baseName": "answers",
             "type": "Array<ModLessonGetPageData200ResponseAnswersInner>"
         },
         {
-            "name": "contentfiles",
+            "name": "Contentfiles",
             "baseName": "contentfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "displaymenu",
+            "name": "Displaymenu",
             "baseName": "displaymenu",
             "type": "boolean"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<ModLessonGetPageData200ResponseMessagesInner>"
         },
         {
-            "name": "newpageid",
+            "name": "Newpageid",
             "baseName": "newpageid",
             "type": "number"
         },
         {
-            "name": "ongoingscore",
+            "name": "Ongoingscore",
             "baseName": "ongoingscore",
             "type": "string"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "ModLessonGetPageData200ResponsePage"
         },
         {
-            "name": "pagecontent",
+            "name": "Pagecontent",
             "baseName": "pagecontent",
             "type": "string"
         },
         {
-            "name": "progress",
+            "name": "Progress",
             "baseName": "progress",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

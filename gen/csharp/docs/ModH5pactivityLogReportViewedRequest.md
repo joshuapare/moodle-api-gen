@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModH5pactivityLogReportViewedRequest
+# MoodleClient.Model.ModH5pactivityLogReportViewedRequest
 
 ## Properties
 

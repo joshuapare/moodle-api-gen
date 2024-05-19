@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyContactDpoRequest
+# MoodleClient.Model.ToolDataprivacyContactDpoRequest
 
 ## Properties
 

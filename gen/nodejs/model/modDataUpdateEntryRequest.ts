@@ -14,22 +14,22 @@ import { RequestFile } from './models';
 import { ModDataUpdateEntryRequestDataInner } from './modDataUpdateEntryRequestDataInner';
 
 export class ModDataUpdateEntryRequest {
-    'data': Array<ModDataUpdateEntryRequestDataInner>;
+    'Data': Array<ModDataUpdateEntryRequestDataInner>;
     /**
     * The entry record id.
     */
-    'entryid': number = null;
+    'Entryid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "data",
+            "name": "Data",
             "baseName": "data",
             "type": "Array<ModDataUpdateEntryRequestDataInner>"
         },
         {
-            "name": "entryid",
+            "name": "Entryid",
             "baseName": "entryid",
             "type": "number"
         }    ];

@@ -16,13 +16,13 @@ export class TinyPremiumGetApiKey200Response {
     /**
     * The API key for Tiny Premium
     */
-    'apikey': string = 'null';
+    'Apikey': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "apikey",
+            "name": "Apikey",
             "baseName": "apikey",
             "type": "string"
         }    ];

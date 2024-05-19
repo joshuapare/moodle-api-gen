@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryAddEntryRequest
+# MoodleClient.Model.ModGlossaryAddEntryRequest
 
 ## Properties
 

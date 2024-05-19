@@ -16,31 +16,31 @@ export class CoreReportbuilderSchedulesToggleRequest {
     /**
     * Schedule enabled
     */
-    'enabled': boolean = null;
+    'Enabled': boolean = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
     /**
     * Schedule ID
     */
-    'scheduleid': number;
+    'Scheduleid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "enabled",
+            "name": "Enabled",
             "baseName": "enabled",
             "type": "boolean"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         },
         {
-            "name": "scheduleid",
+            "name": "Scheduleid",
             "baseName": "scheduleid",
             "type": "number"
         }    ];

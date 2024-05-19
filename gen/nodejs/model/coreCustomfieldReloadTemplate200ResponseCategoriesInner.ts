@@ -17,37 +17,37 @@ export class CoreCustomfieldReloadTemplate200ResponseCategoriesInner {
     /**
     * addfieldmenu
     */
-    'addfieldmenu'?: string = 'null';
-    'fields'?: Array<CoreCustomfieldReloadTemplate200ResponseCategoriesInnerFieldsInner>;
+    'Addfieldmenu'?: string = 'null';
+    'Fields'?: Array<CoreCustomfieldReloadTemplate200ResponseCategoriesInnerFieldsInner>;
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * inplace editable name
     */
-    'nameeditable'?: string = 'null';
+    'Nameeditable'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addfieldmenu",
+            "name": "Addfieldmenu",
             "baseName": "addfieldmenu",
             "type": "string"
         },
         {
-            "name": "fields",
+            "name": "Fields",
             "baseName": "fields",
             "type": "Array<CoreCustomfieldReloadTemplate200ResponseCategoriesInnerFieldsInner>"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "nameeditable",
+            "name": "Nameeditable",
             "baseName": "nameeditable",
             "type": "string"
         }    ];

@@ -16,58 +16,58 @@ export class ModH5pactivityGetH5pactivitiesByCourses200ResponseH5pactivitiesInne
     /**
     * File name.
     */
-    'filename'?: string;
+    'Filename'?: string;
     /**
     * File path.
     */
-    'filepath'?: string;
+    'Filepath'?: string;
     /**
     * File size.
     */
-    'filesize'?: number;
+    'Filesize'?: number;
     /**
     * Downloadable file url.
     */
-    'fileurl'?: string;
+    'Fileurl'?: string;
     /**
     * File mime type.
     */
-    'mimetype'?: string;
+    'Mimetype'?: string;
     /**
     * Time modified.
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "fileurl",
+            "name": "Fileurl",
             "baseName": "fileurl",
             "type": "string"
         },
         {
-            "name": "mimetype",
+            "name": "Mimetype",
             "baseName": "mimetype",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

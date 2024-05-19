@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderColumnsAdd200Response
+# MoodleClient.Model.CoreReportbuilderColumnsAdd200Response
 
 ## Properties
 

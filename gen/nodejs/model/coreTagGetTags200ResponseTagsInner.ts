@@ -19,94 +19,94 @@ export class CoreTagGetTags200ResponseTagsInner {
     /**
     * tag description
     */
-    'description'?: string = 'null';
+    'Description'?: string = 'null';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number;
+    'Descriptionformat'?: number;
     /**
     * flag
     */
-    'flag'?: number = null;
+    'Flag'?: number = null;
     /**
     * tag id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * whether this flag is standard
     */
-    'isstandard'?: number = null;
+    'Isstandard'?: number = null;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * whether this flag is standard (deprecated, use isstandard)
     */
-    'official'?: number = null;
+    'Official'?: number = null;
     /**
     * tag raw name (may contain capital letters)
     */
-    'rawname'?: string = 'null';
+    'Rawname'?: string = 'null';
     /**
     * tag collection id
     */
-    'tagcollid'?: number;
+    'Tagcollid'?: number;
     /**
     * URL to view
     */
-    'viewurl'?: string = 'null';
+    'Viewurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "flag",
+            "name": "Flag",
             "baseName": "flag",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isstandard",
+            "name": "Isstandard",
             "baseName": "isstandard",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "official",
+            "name": "Official",
             "baseName": "official",
             "type": "number"
         },
         {
-            "name": "rawname",
+            "name": "Rawname",
             "baseName": "rawname",
             "type": "string"
         },
         {
-            "name": "tagcollid",
+            "name": "Tagcollid",
             "baseName": "tagcollid",
             "type": "number"
         },
         {
-            "name": "viewurl",
+            "name": "Viewurl",
             "baseName": "viewurl",
             "type": "string"
         }    ];

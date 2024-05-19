@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetGlossariesByCourses200Response
+# MoodleClient.Model.ModGlossaryGetGlossariesByCourses200Response
 
 ## Properties
 

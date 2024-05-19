@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetUserNavigationOptions200ResponseCoursesInnerOptionsInner
+# MoodleClient.Model.CoreCourseGetUserNavigationOptions200ResponseCoursesInnerOptionsInner
 
 ## Properties
 

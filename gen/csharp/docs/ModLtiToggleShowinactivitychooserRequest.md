@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiToggleShowinactivitychooserRequest
+# MoodleClient.Model.ModLtiToggleShowinactivitychooserRequest
 
 ## Properties
 

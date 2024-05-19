@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompletionMarkCourseSelfCompletedRequest
+# MoodleClient.Model.CoreCompletionMarkCourseSelfCompletedRequest
 
 ## Properties
 

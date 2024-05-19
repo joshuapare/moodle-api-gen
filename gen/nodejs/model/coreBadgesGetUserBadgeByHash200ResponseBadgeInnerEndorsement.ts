@@ -16,76 +16,76 @@ export class CoreBadgesGetUserBadgeByHash200ResponseBadgeInnerEndorsement {
     /**
     * Badge id
     */
-    'badgeid': number;
+    'Badgeid': number;
     /**
     * Claim comment
     */
-    'claimcomment': string = 'null';
+    'Claimcomment': string = 'null';
     /**
     * Claim URL
     */
-    'claimid': string = 'null';
+    'Claimid': string = 'null';
     /**
     * Date issued
     */
-    'dateissued': number = 0;
+    'Dateissued': number = 0;
     /**
     * Endorsement id
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * Endorsement issuer email
     */
-    'issueremail': string = 'null';
+    'Issueremail': string = 'null';
     /**
     * Endorsement issuer name
     */
-    'issuername': string = 'null';
+    'Issuername': string = 'null';
     /**
     * Endorsement issuer URL
     */
-    'issuerurl': string = 'null';
+    'Issuerurl': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "badgeid",
+            "name": "Badgeid",
             "baseName": "badgeid",
             "type": "number"
         },
         {
-            "name": "claimcomment",
+            "name": "Claimcomment",
             "baseName": "claimcomment",
             "type": "string"
         },
         {
-            "name": "claimid",
+            "name": "Claimid",
             "baseName": "claimid",
             "type": "string"
         },
         {
-            "name": "dateissued",
+            "name": "Dateissued",
             "baseName": "dateissued",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "issueremail",
+            "name": "Issueremail",
             "baseName": "issueremail",
             "type": "string"
         },
         {
-            "name": "issuername",
+            "name": "Issuername",
             "baseName": "issuername",
             "type": "string"
         },
         {
-            "name": "issuerurl",
+            "name": "Issuerurl",
             "baseName": "issuerurl",
             "type": "string"
         }    ];

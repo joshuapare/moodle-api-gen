@@ -22,238 +22,238 @@ export class CoreReportbuilderReportsGet200Response {
     /**
     * area
     */
-    'area': string = '';
-    'attributes': Array<CoreReportbuilderReportsGet200ResponseAttributesInner>;
-    'cardview'?: CoreReportbuilderReportsGet200ResponseCardview;
+    'Area': string = '';
+    'Attributes': Array<CoreReportbuilderReportsGet200ResponseAttributesInner>;
+    'Cardview'?: CoreReportbuilderReportsGet200ResponseCardview;
     /**
     * classes
     */
-    'classes': string = 'null';
+    'Classes': string = 'null';
     /**
     * component
     */
-    'component': string = '';
+    'Component': string = '';
     /**
     * conditiondata
     */
-    'conditiondata': string;
-    'conditions'?: CoreReportbuilderConditionsDelete200Response;
+    'Conditiondata': string;
+    'Conditions'?: CoreReportbuilderConditionsDelete200Response;
     /**
     * contextid
     */
-    'contextid': number = {};
+    'Contextid': number = {};
     /**
     * editmode
     */
-    'editmode': boolean = null;
-    'filters'?: CoreReportbuilderFiltersDelete200Response;
+    'Editmode': boolean = null;
+    'Filters'?: CoreReportbuilderFiltersDelete200Response;
     /**
     * filtersapplied
     */
-    'filtersapplied': number = null;
+    'Filtersapplied': number = null;
     /**
     * filtersform
     */
-    'filtersform': string = 'null';
+    'Filtersform': string = 'null';
     /**
     * filterspresent
     */
-    'filterspresent': boolean = null;
+    'Filterspresent': boolean = null;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * itemid
     */
-    'itemid': number = 0;
+    'Itemid': number = 0;
     /**
     * javascript
     */
-    'javascript': string;
+    'Javascript': string;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * settingsdata
     */
-    'settingsdata': string;
-    'sidebarmenucards'?: CoreReportbuilderReportsGet200ResponseSidebarmenucards;
-    'sorting'?: CoreReportbuilderColumnsDelete200Response;
+    'Settingsdata': string;
+    'Sidebarmenucards'?: CoreReportbuilderReportsGet200ResponseSidebarmenucards;
+    'Sorting'?: CoreReportbuilderColumnsDelete200Response;
     /**
     * source
     */
-    'source': string;
+    'Source': string;
     /**
     * table
     */
-    'table': string = 'null';
+    'Table': string = 'null';
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * type
     */
-    'type': number;
+    'Type': number;
     /**
     * uniquerows
     */
-    'uniquerows': boolean = false;
+    'Uniquerows': boolean = false;
     /**
     * usercreated
     */
-    'usercreated': number = {};
+    'Usercreated': number = {};
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "attributes",
+            "name": "Attributes",
             "baseName": "attributes",
             "type": "Array<CoreReportbuilderReportsGet200ResponseAttributesInner>"
         },
         {
-            "name": "cardview",
+            "name": "Cardview",
             "baseName": "cardview",
             "type": "CoreReportbuilderReportsGet200ResponseCardview"
         },
         {
-            "name": "classes",
+            "name": "Classes",
             "baseName": "classes",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "conditiondata",
+            "name": "Conditiondata",
             "baseName": "conditiondata",
             "type": "string"
         },
         {
-            "name": "conditions",
+            "name": "Conditions",
             "baseName": "conditions",
             "type": "CoreReportbuilderConditionsDelete200Response"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "editmode",
+            "name": "Editmode",
             "baseName": "editmode",
             "type": "boolean"
         },
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "CoreReportbuilderFiltersDelete200Response"
         },
         {
-            "name": "filtersapplied",
+            "name": "Filtersapplied",
             "baseName": "filtersapplied",
             "type": "number"
         },
         {
-            "name": "filtersform",
+            "name": "Filtersform",
             "baseName": "filtersform",
             "type": "string"
         },
         {
-            "name": "filterspresent",
+            "name": "Filterspresent",
             "baseName": "filterspresent",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "settingsdata",
+            "name": "Settingsdata",
             "baseName": "settingsdata",
             "type": "string"
         },
         {
-            "name": "sidebarmenucards",
+            "name": "Sidebarmenucards",
             "baseName": "sidebarmenucards",
             "type": "CoreReportbuilderReportsGet200ResponseSidebarmenucards"
         },
         {
-            "name": "sorting",
+            "name": "Sorting",
             "baseName": "sorting",
             "type": "CoreReportbuilderColumnsDelete200Response"
         },
         {
-            "name": "source",
+            "name": "Source",
             "baseName": "source",
             "type": "string"
         },
         {
-            "name": "table",
+            "name": "Table",
             "baseName": "table",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "uniquerows",
+            "name": "Uniquerows",
             "baseName": "uniquerows",
             "type": "boolean"
         },
         {
-            "name": "usercreated",
+            "name": "Usercreated",
             "baseName": "usercreated",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ToolIomadpolicyGetIomadpolicyVersion200ResponseResult } from './toolIomadpolicyGetIomadpolicyVersion200ResponseResult';
 
 export class ToolIomadpolicyGetIomadpolicyVersion200Response {
-    'result': ToolIomadpolicyGetIomadpolicyVersion200ResponseResult;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Result': ToolIomadpolicyGetIomadpolicyVersion200ResponseResult;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "result",
+            "name": "Result",
             "baseName": "result",
             "type": "ToolIomadpolicyGetIomadpolicyVersion200ResponseResult"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

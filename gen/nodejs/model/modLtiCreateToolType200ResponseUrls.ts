@@ -16,58 +16,58 @@ export class ModLtiCreateToolType200ResponseUrls {
     /**
     * Access Token URL
     */
-    'accesstoken': string = 'null';
+    'Accesstoken': string = 'null';
     /**
     * Authorisation Request URL
     */
-    'authrequest': string = 'null';
+    'Authrequest': string = 'null';
     /**
     * Tool type edit URL
     */
-    'course'?: string = 'null';
+    'Course'?: string = 'null';
     /**
     * Tool type edit URL
     */
-    'edit': string;
+    'Edit': string;
     /**
     * Tool type icon URL
     */
-    'icon': string = 'null';
+    'Icon': string = 'null';
     /**
     * Public Keyset URL
     */
-    'publickeyset': string = 'null';
+    'Publickeyset': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "accesstoken",
+            "name": "Accesstoken",
             "baseName": "accesstoken",
             "type": "string"
         },
         {
-            "name": "authrequest",
+            "name": "Authrequest",
             "baseName": "authrequest",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "string"
         },
         {
-            "name": "edit",
+            "name": "Edit",
             "baseName": "edit",
             "type": "string"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "string"
         },
         {
-            "name": "publickeyset",
+            "name": "Publickeyset",
             "baseName": "publickeyset",
             "type": "string"
         }    ];

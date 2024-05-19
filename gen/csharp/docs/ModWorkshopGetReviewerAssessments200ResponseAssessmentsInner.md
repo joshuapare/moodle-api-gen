@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopGetReviewerAssessments200ResponseAssessmentsInner
+# MoodleClient.Model.ModWorkshopGetReviewerAssessments200ResponseAssessmentsInner
 
 ## Properties
 

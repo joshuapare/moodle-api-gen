@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyTreeExtraBranches200Response
+# MoodleClient.Model.ToolDataprivacyTreeExtraBranches200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAuthRequestPasswordResetRequest
+# MoodleClient.Model.CoreAuthRequestPasswordResetRequest
 
 ## Properties
 

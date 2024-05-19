@@ -18,88 +18,88 @@ export class ModLessonGetLessonAccessInformation200Response {
     /**
     * The number of attempts done by the user.
     */
-    'attemptscount': number = null;
+    'Attemptscount': number = null;
     /**
     * Whether the user can grade the lesson or not.
     */
-    'cangrade': boolean = null;
+    'Cangrade': boolean = null;
     /**
     * Whether the user can manage the lesson or not.
     */
-    'canmanage': boolean = null;
+    'Canmanage': boolean = null;
     /**
     * Whether the user can view the lesson reports or not.
     */
-    'canviewreports': boolean = null;
+    'Canviewreports': boolean = null;
     /**
     * The lesson first page id.
     */
-    'firstpageid': number = null;
+    'Firstpageid': number = null;
     /**
     * The last page seen id.
     */
-    'lastpageseen': number = null;
+    'Lastpageseen': number = null;
     /**
     * Whether the user left during a timed session.
     */
-    'leftduringtimedsession': boolean = null;
-    'preventaccessreasons': Array<ModLessonGetLessonAccessInformation200ResponsePreventaccessreasonsInner>;
+    'Leftduringtimedsession': boolean = null;
+    'Preventaccessreasons': Array<ModLessonGetLessonAccessInformation200ResponsePreventaccessreasonsInner>;
     /**
     * Whether the lesson is in review mode for the current user.
     */
-    'reviewmode': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Reviewmode': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptscount",
+            "name": "Attemptscount",
             "baseName": "attemptscount",
             "type": "number"
         },
         {
-            "name": "cangrade",
+            "name": "Cangrade",
             "baseName": "cangrade",
             "type": "boolean"
         },
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "canviewreports",
+            "name": "Canviewreports",
             "baseName": "canviewreports",
             "type": "boolean"
         },
         {
-            "name": "firstpageid",
+            "name": "Firstpageid",
             "baseName": "firstpageid",
             "type": "number"
         },
         {
-            "name": "lastpageseen",
+            "name": "Lastpageseen",
             "baseName": "lastpageseen",
             "type": "number"
         },
         {
-            "name": "leftduringtimedsession",
+            "name": "Leftduringtimedsession",
             "baseName": "leftduringtimedsession",
             "type": "boolean"
         },
         {
-            "name": "preventaccessreasons",
+            "name": "Preventaccessreasons",
             "baseName": "preventaccessreasons",
             "type": "Array<ModLessonGetLessonAccessInformation200ResponsePreventaccessreasonsInner>"
         },
         {
-            "name": "reviewmode",
+            "name": "Reviewmode",
             "baseName": "reviewmode",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

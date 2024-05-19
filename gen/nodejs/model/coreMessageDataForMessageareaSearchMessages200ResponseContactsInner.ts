@@ -16,139 +16,139 @@ export class CoreMessageDataForMessageareaSearchMessages200ResponseContactsInner
     /**
     * The id of the conversation
     */
-    'conversationid'?: number = null;
+    'Conversationid'?: number = null;
     /**
     * The user\'s name
     */
-    'fullname'?: string = 'null';
+    'Fullname'?: string = 'null';
     /**
     * If the user has been blocked
     */
-    'isblocked'?: boolean = null;
+    'Isblocked'?: boolean = null;
     /**
     * If we are messaging the user
     */
-    'ismessaging'?: boolean = null;
+    'Ismessaging'?: boolean = null;
     /**
     * The user\'s online status
     */
-    'isonline'?: boolean = null;
+    'Isonline'?: boolean = null;
     /**
     * If the user has read the message
     */
-    'isread'?: boolean = null;
+    'Isread'?: boolean = null;
     /**
     * The user\'s last message
     */
-    'lastmessage'?: string = 'null';
+    'Lastmessage'?: string = 'null';
     /**
     * Timestamp for last message
     */
-    'lastmessagedate'?: number = null;
+    'Lastmessagedate'?: number = null;
     /**
     * The unique search message id
     */
-    'messageid'?: number = null;
+    'Messageid'?: number = null;
     /**
     * User picture URL
     */
-    'profileimageurl'?: string = 'null';
+    'Profileimageurl'?: string = 'null';
     /**
     * Small user picture URL
     */
-    'profileimageurlsmall'?: string = 'null';
+    'Profileimageurlsmall'?: string = 'null';
     /**
     * Was the last message sent from the current user?
     */
-    'sentfromcurrentuser'?: boolean = null;
+    'Sentfromcurrentuser'?: boolean = null;
     /**
     * Show the user\'s online status?
     */
-    'showonlinestatus'?: boolean = null;
+    'Showonlinestatus'?: boolean = null;
     /**
     * The number of unread messages in this conversation
     */
-    'unreadcount'?: number = null;
+    'Unreadcount'?: number = null;
     /**
     * The user\'s id
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "conversationid",
+            "name": "Conversationid",
             "baseName": "conversationid",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "isblocked",
+            "name": "Isblocked",
             "baseName": "isblocked",
             "type": "boolean"
         },
         {
-            "name": "ismessaging",
+            "name": "Ismessaging",
             "baseName": "ismessaging",
             "type": "boolean"
         },
         {
-            "name": "isonline",
+            "name": "Isonline",
             "baseName": "isonline",
             "type": "boolean"
         },
         {
-            "name": "isread",
+            "name": "Isread",
             "baseName": "isread",
             "type": "boolean"
         },
         {
-            "name": "lastmessage",
+            "name": "Lastmessage",
             "baseName": "lastmessage",
             "type": "string"
         },
         {
-            "name": "lastmessagedate",
+            "name": "Lastmessagedate",
             "baseName": "lastmessagedate",
             "type": "number"
         },
         {
-            "name": "messageid",
+            "name": "Messageid",
             "baseName": "messageid",
             "type": "number"
         },
         {
-            "name": "profileimageurl",
+            "name": "Profileimageurl",
             "baseName": "profileimageurl",
             "type": "string"
         },
         {
-            "name": "profileimageurlsmall",
+            "name": "Profileimageurlsmall",
             "baseName": "profileimageurlsmall",
             "type": "string"
         },
         {
-            "name": "sentfromcurrentuser",
+            "name": "Sentfromcurrentuser",
             "baseName": "sentfromcurrentuser",
             "type": "boolean"
         },
         {
-            "name": "showonlinestatus",
+            "name": "Showonlinestatus",
             "baseName": "showonlinestatus",
             "type": "boolean"
         },
         {
-            "name": "unreadcount",
+            "name": "Unreadcount",
             "baseName": "unreadcount",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

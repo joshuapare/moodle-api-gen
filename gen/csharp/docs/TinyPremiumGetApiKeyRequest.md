@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.TinyPremiumGetApiKeyRequest
+# MoodleClient.Model.TinyPremiumGetApiKeyRequest
 
 ## Properties
 

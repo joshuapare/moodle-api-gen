@@ -16,31 +16,31 @@ export class CoreReportbuilderFiltersReorderRequest {
     /**
     * Filter ID
     */
-    'filterid': number;
+    'Filterid': number;
     /**
     * New filter position
     */
-    'position': number = null;
+    'Position': number = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filterid",
+            "name": "Filterid",
             "baseName": "filterid",
             "type": "number"
         },
         {
-            "name": "position",
+            "name": "Position",
             "baseName": "position",
             "type": "number"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

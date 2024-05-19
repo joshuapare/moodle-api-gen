@@ -16,22 +16,22 @@ export class CoreCourseGetUserAdministrationOptions200ResponseCoursesInnerOption
     /**
     * Whether the option is available or not
     */
-    'available'?: boolean = null;
+    'Available'?: boolean = null;
     /**
     * Option name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "available",
+            "name": "Available",
             "baseName": "available",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

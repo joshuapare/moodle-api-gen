@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChoiceDeleteChoiceResponses200Response
+# MoodleClient.Model.ModChoiceDeleteChoiceResponses200Response
 
 ## Properties
 

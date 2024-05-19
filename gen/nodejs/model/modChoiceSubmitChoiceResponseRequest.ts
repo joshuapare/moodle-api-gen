@@ -16,19 +16,19 @@ export class ModChoiceSubmitChoiceResponseRequest {
     /**
     * choice instance id
     */
-    'choiceid': number;
-    'responses': Array<object>;
+    'Choiceid': number;
+    'Responses': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "choiceid",
+            "name": "Choiceid",
             "baseName": "choiceid",
             "type": "number"
         },
         {
-            "name": "responses",
+            "name": "Responses",
             "baseName": "responses",
             "type": "Array<object>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnMeetingInfo200Response
+# MoodleClient.Model.ModBigbluebuttonbnMeetingInfo200Response
 
 ## Properties
 

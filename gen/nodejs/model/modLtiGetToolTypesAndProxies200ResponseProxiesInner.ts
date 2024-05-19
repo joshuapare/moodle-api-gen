@@ -16,112 +16,112 @@ export class ModLtiGetToolTypesAndProxies200ResponseProxiesInner {
     /**
     * Tool proxy capabilities offered
     */
-    'capabilityoffered'?: string;
+    'Capabilityoffered'?: string;
     /**
     * Tool proxy globally unique identifier
     */
-    'guid'?: string;
+    'Guid'?: string;
     /**
     * Tool proxy id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Tool proxy name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Tool proxy registration URL
     */
-    'regurl'?: string;
+    'Regurl'?: string;
     /**
     * Tool proxy shared secret
     */
-    'secret'?: string;
+    'Secret'?: string;
     /**
     * Tool proxy services offered
     */
-    'serviceoffered'?: string;
+    'Serviceoffered'?: string;
     /**
     * Tool proxy state
     */
-    'state'?: number;
+    'State'?: number;
     /**
     * Tool proxy time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Tool proxy modified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Tool proxy
     */
-    'toolproxy'?: string;
+    'Toolproxy'?: string;
     /**
     * Tool proxy consumer code
     */
-    'vendorcode'?: string;
+    'Vendorcode'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capabilityoffered",
+            "name": "Capabilityoffered",
             "baseName": "capabilityoffered",
             "type": "string"
         },
         {
-            "name": "guid",
+            "name": "Guid",
             "baseName": "guid",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "regurl",
+            "name": "Regurl",
             "baseName": "regurl",
             "type": "string"
         },
         {
-            "name": "secret",
+            "name": "Secret",
             "baseName": "secret",
             "type": "string"
         },
         {
-            "name": "serviceoffered",
+            "name": "Serviceoffered",
             "baseName": "serviceoffered",
             "type": "string"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "toolproxy",
+            "name": "Toolproxy",
             "baseName": "toolproxy",
             "type": "string"
         },
         {
-            "name": "vendorcode",
+            "name": "Vendorcode",
             "baseName": "vendorcode",
             "type": "string"
         }    ];

@@ -16,94 +16,94 @@ export class CoreGradesUpdateGradesRequestItemdetails {
     /**
     * True if the grade item should be deleted
     */
-    'deleted'?: boolean = null;
+    'Deleted'?: boolean = null;
     /**
     * Maximum grade allowed
     */
-    'grademax'?: number = null;
+    'Grademax'?: number = null;
     /**
     * Minimum grade allowed
     */
-    'grademin'?: number = null;
+    'Grademin'?: number = null;
     /**
     * The type of grade (0 = none, 1 = value, 2 = scale, 3 = text)
     */
-    'gradetype'?: number = null;
+    'Gradetype'?: number = null;
     /**
     * True if the grade item is hidden
     */
-    'hidden'?: boolean = null;
+    'Hidden'?: boolean = null;
     /**
     * Arbitrary ID provided by the module responsible for the grade item
     */
-    'idnumber'?: number = null;
+    'Idnumber'?: number = null;
     /**
     * The grade item name
     */
-    'itemname'?: string = 'null';
+    'Itemname'?: string = 'null';
     /**
     * Multiply all grades by this number
     */
-    'multfactor'?: number = null;
+    'Multfactor'?: number = null;
     /**
     * Add this to all grades
     */
-    'plusfactor'?: number = null;
+    'Plusfactor'?: number = null;
     /**
     * The ID of the custom scale being is used
     */
-    'scaleid'?: number = null;
+    'Scaleid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "deleted",
+            "name": "Deleted",
             "baseName": "deleted",
             "type": "boolean"
         },
         {
-            "name": "grademax",
+            "name": "Grademax",
             "baseName": "grademax",
             "type": "number"
         },
         {
-            "name": "grademin",
+            "name": "Grademin",
             "baseName": "grademin",
             "type": "number"
         },
         {
-            "name": "gradetype",
+            "name": "Gradetype",
             "baseName": "gradetype",
             "type": "number"
         },
         {
-            "name": "hidden",
+            "name": "Hidden",
             "baseName": "hidden",
             "type": "boolean"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "number"
         },
         {
-            "name": "itemname",
+            "name": "Itemname",
             "baseName": "itemname",
             "type": "string"
         },
         {
-            "name": "multfactor",
+            "name": "Multfactor",
             "baseName": "multfactor",
             "type": "number"
         },
         {
-            "name": "plusfactor",
+            "name": "Plusfactor",
             "baseName": "plusfactor",
             "type": "number"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         }    ];

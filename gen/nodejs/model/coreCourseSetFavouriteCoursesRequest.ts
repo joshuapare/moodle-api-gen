@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCourseSetFavouriteCoursesRequestCoursesInner } from './coreCourseSetFavouriteCoursesRequestCoursesInner';
 
 export class CoreCourseSetFavouriteCoursesRequest {
-    'courses': Array<CoreCourseSetFavouriteCoursesRequestCoursesInner>;
+    'Courses': Array<CoreCourseSetFavouriteCoursesRequestCoursesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<CoreCourseSetFavouriteCoursesRequestCoursesInner>"
         }    ];

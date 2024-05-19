@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMoodlenetAuthCheck200Response
+# MoodleClient.Model.CoreMoodlenetAuthCheck200Response
 
 ## Properties
 

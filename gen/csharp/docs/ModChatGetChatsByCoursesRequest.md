@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChatGetChatsByCoursesRequest
+# MoodleClient.Model.ModChatGetChatsByCoursesRequest
 
 ## Properties
 

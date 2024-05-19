@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetLastCompleted200ResponseCompleted
+# MoodleClient.Model.ModFeedbackGetLastCompleted200ResponseCompleted
 
 ## Properties
 

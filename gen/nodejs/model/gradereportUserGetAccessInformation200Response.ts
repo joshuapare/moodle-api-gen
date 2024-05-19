@@ -17,37 +17,37 @@ export class GradereportUserGetAccessInformation200Response {
     /**
     * Whether the user can view all users grades in the course.
     */
-    'canviewallgrades': boolean = null;
+    'Canviewallgrades': boolean = null;
     /**
     * Whether the user can view his grades in the course.
     */
-    'canviewmygrades': boolean = null;
+    'Canviewmygrades': boolean = null;
     /**
     * Whether the user can view the user grade report.
     */
-    'canviewusergradereport': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canviewusergradereport': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canviewallgrades",
+            "name": "Canviewallgrades",
             "baseName": "canviewallgrades",
             "type": "boolean"
         },
         {
-            "name": "canviewmygrades",
+            "name": "Canviewmygrades",
             "baseName": "canviewmygrades",
             "type": "boolean"
         },
         {
-            "name": "canviewusergradereport",
+            "name": "Canviewusergradereport",
             "baseName": "canviewusergradereport",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

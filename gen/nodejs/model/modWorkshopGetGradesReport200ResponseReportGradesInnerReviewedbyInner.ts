@@ -16,67 +16,67 @@ export class ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewedbyInn
     /**
     * The id of the assessment.
     */
-    'assessmentid'?: number = null;
+    'Assessmentid'?: number = null;
     /**
     * The grade for submission.
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * The grade for assessment.
     */
-    'gradinggrade'?: number = null;
+    'Gradinggrade'?: number = null;
     /**
     * The aggregated grade overrided.
     */
-    'gradinggradeover'?: number = null;
+    'Gradinggradeover'?: number = null;
     /**
     * The id of the submission assessed.
     */
-    'submissionid'?: number = null;
+    'Submissionid'?: number = null;
     /**
     * The id of the user (0 when is configured to do not display names).
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * The weight of the assessment for aggregation.
     */
-    'weight'?: number = null;
+    'Weight'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentid",
+            "name": "Assessmentid",
             "baseName": "assessmentid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradinggrade",
+            "name": "Gradinggrade",
             "baseName": "gradinggrade",
             "type": "number"
         },
         {
-            "name": "gradinggradeover",
+            "name": "Gradinggradeover",
             "baseName": "gradinggradeover",
             "type": "number"
         },
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "weight",
+            "name": "Weight",
             "baseName": "weight",
             "type": "number"
         }    ];

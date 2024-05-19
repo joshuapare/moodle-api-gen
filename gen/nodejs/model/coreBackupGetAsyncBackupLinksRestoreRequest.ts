@@ -16,22 +16,22 @@ export class CoreBackupGetAsyncBackupLinksRestoreRequest {
     /**
     * Backup id
     */
-    'backupid': string;
+    'Backupid': string;
     /**
     * Context id
     */
-    'contextid': number;
+    'Contextid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "backupid",
+            "name": "Backupid",
             "baseName": "backupid",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class CoreCourseRemoveContentItemFromUserFavouritesRequest {
     /**
     * frankenstyle name of the component to which the content item belongs
     */
-    'componentname': string;
+    'Componentname': string;
     /**
     * id of the content item
     */
-    'contentitemid': number = ;
+    'Contentitemid': number = ;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "componentname",
+            "name": "Componentname",
             "baseName": "componentname",
             "type": "string"
         },
         {
-            "name": "contentitemid",
+            "name": "Contentitemid",
             "baseName": "contentitemid",
             "type": "number"
         }    ];

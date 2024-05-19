@@ -16,31 +16,31 @@ export class CoreCourseCheckUpdatesRequestTocheckInner {
     /**
     * The context level for the file location.                                                                                 Only module supported right now.
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * Context instance id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Check updates since this time stamp
     */
-    'since'?: number = null;
+    'Since'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "since",
+            "name": "Since",
             "baseName": "since",
             "type": "number"
         }    ];

@@ -16,40 +16,40 @@ export class CoreReportbuilderColumnsSortToggleRequest {
     /**
     * Column ID
     */
-    'columnid': number;
+    'Columnid': number;
     /**
     * Sort direction
     */
-    'direction'?: number = 4;
+    'Direction'?: number = 4;
     /**
     * Sort enabled
     */
-    'enabled': boolean = null;
+    'Enabled': boolean = null;
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "columnid",
+            "name": "Columnid",
             "baseName": "columnid",
             "type": "number"
         },
         {
-            "name": "direction",
+            "name": "Direction",
             "baseName": "direction",
             "type": "number"
         },
         {
-            "name": "enabled",
+            "name": "Enabled",
             "baseName": "enabled",
             "type": "boolean"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         }    ];

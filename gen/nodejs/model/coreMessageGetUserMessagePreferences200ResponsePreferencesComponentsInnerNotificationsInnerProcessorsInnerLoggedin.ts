@@ -16,31 +16,31 @@ export class CoreMessageGetUserMessagePreferences200ResponsePreferencesComponent
     /**
     * Is checked?
     */
-    'checked': boolean = null;
+    'Checked': boolean = null;
     /**
     * Display name
     */
-    'displayname': string;
+    'Displayname': string;
     /**
     * Name
     */
-    'name': string = 'null';
+    'Name': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "checked",
+            "name": "Checked",
             "baseName": "checked",
             "type": "boolean"
         },
         {
-            "name": "displayname",
+            "name": "Displayname",
             "baseName": "displayname",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

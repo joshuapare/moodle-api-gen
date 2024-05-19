@@ -17,37 +17,37 @@ export class CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner
     /**
     * courseid
     */
-    'courseid'?: number = null;
-    'events'?: Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner>;
+    'Courseid'?: number = null;
+    'Events'?: Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner>;
     /**
     * firstid
     */
-    'firstid'?: number;
+    'Firstid'?: number;
     /**
     * lastid
     */
-    'lastid'?: number;
+    'Lastid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInnerEventsInner>"
         },
         {
-            "name": "firstid",
+            "name": "Firstid",
             "baseName": "firstid",
             "type": "number"
         },
         {
-            "name": "lastid",
+            "name": "Lastid",
             "baseName": "lastid",
             "type": "number"
         }    ];

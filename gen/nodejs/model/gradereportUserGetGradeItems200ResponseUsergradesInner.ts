@@ -17,64 +17,64 @@ export class GradereportUserGetGradeItems200ResponseUsergradesInner {
     /**
     * course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * course idnumber
     */
-    'courseidnumber'?: string = 'null';
-    'gradeitems'?: Array<GradereportUserGetGradeItems200ResponseUsergradesInnerGradeitemsInner>;
+    'Courseidnumber'?: string = 'null';
+    'Gradeitems'?: Array<GradereportUserGetGradeItems200ResponseUsergradesInnerGradeitemsInner>;
     /**
     * table max depth (needed for printing it)
     */
-    'maxdepth'?: number = null;
+    'Maxdepth'?: number = null;
     /**
     * user fullname
     */
-    'userfullname'?: string;
+    'Userfullname'?: string;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * user idnumber
     */
-    'useridnumber'?: string = 'null';
+    'Useridnumber'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "courseidnumber",
+            "name": "Courseidnumber",
             "baseName": "courseidnumber",
             "type": "string"
         },
         {
-            "name": "gradeitems",
+            "name": "Gradeitems",
             "baseName": "gradeitems",
             "type": "Array<GradereportUserGetGradeItems200ResponseUsergradesInnerGradeitemsInner>"
         },
         {
-            "name": "maxdepth",
+            "name": "Maxdepth",
             "baseName": "maxdepth",
             "type": "number"
         },
         {
-            "name": "userfullname",
+            "name": "Userfullname",
             "baseName": "userfullname",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "useridnumber",
+            "name": "Useridnumber",
             "baseName": "useridnumber",
             "type": "string"
         }    ];

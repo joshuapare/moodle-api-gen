@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetUserTimers200Response
+# MoodleClient.Model.ModLessonGetUserTimers200Response
 
 ## Properties
 

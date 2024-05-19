@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSaveGradesRequest
+# MoodleClient.Model.ModAssignSaveGradesRequest
 
 ## Properties
 

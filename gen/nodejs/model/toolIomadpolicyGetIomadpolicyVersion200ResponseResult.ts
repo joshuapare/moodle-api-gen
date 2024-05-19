@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy } from './toolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy';
 
 export class ToolIomadpolicyGetIomadpolicyVersion200ResponseResult {
-    'iomadpolicy'?: ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy;
+    'Iomadpolicy'?: ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "iomadpolicy",
+            "name": "Iomadpolicy",
             "baseName": "iomadpolicy",
             "type": "ToolIomadpolicyGetIomadpolicyVersion200ResponseResultIomadpolicy"
         }    ];

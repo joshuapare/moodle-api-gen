@@ -17,238 +17,238 @@ export class ToolDataprivacyGetDataRequest200ResponseResult {
     /**
     * allowfiltering
     */
-    'allowfiltering'?: boolean = false;
+    'Allowfiltering'?: boolean = false;
     /**
     * approvedeny
     */
-    'approvedeny'?: boolean = false;
+    'Approvedeny'?: boolean = false;
     /**
     * canmarkcomplete
     */
-    'canmarkcomplete'?: boolean = false;
+    'Canmarkcomplete'?: boolean = false;
     /**
     * canreview
     */
-    'canreview'?: boolean = false;
+    'Canreview'?: boolean = false;
     /**
     * comments
     */
-    'comments': string = '';
+    'Comments': string = '';
     /**
     * commentsformat
     */
-    'commentsformat': number = 2;
+    'Commentsformat': number = 2;
     /**
     * creationmethod
     */
-    'creationmethod': number = 0;
+    'Creationmethod': number = 0;
     /**
     * dpo
     */
-    'dpo': number = 0;
+    'Dpo': number = 0;
     /**
     * dpocomment
     */
-    'dpocomment': string = '';
+    'Dpocomment': string = '';
     /**
     * dpocommentformat
     */
-    'dpocommentformat': number = 2;
-    'dpouser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
-    'foruser': CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Dpocommentformat': number = 2;
+    'Dpouser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Foruser': CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * messagehtml
     */
-    'messagehtml'?: string = 'null';
+    'Messagehtml'?: string = 'null';
     /**
     * requestedby
     */
-    'requestedby': number = 0;
-    'requestedbyuser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Requestedby': number = 0;
+    'Requestedbyuser'?: CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * status
     */
-    'status': number = 2;
+    'Status': number = 2;
     /**
     * statuslabel
     */
-    'statuslabel': string = 'null';
+    'Statuslabel': string = 'null';
     /**
     * statuslabelclass
     */
-    'statuslabelclass': string = 'null';
+    'Statuslabelclass': string = 'null';
     /**
     * systemapproved
     */
-    'systemapproved': boolean = false;
+    'Systemapproved': boolean = false;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * type
     */
-    'type': number;
+    'Type': number;
     /**
     * typename
     */
-    'typename': string = 'null';
+    'Typename': string = 'null';
     /**
     * typenameshort
     */
-    'typenameshort': string = 'null';
+    'Typenameshort': string = 'null';
     /**
     * userid
     */
-    'userid': number = {};
+    'Userid': number = {};
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowfiltering",
+            "name": "Allowfiltering",
             "baseName": "allowfiltering",
             "type": "boolean"
         },
         {
-            "name": "approvedeny",
+            "name": "Approvedeny",
             "baseName": "approvedeny",
             "type": "boolean"
         },
         {
-            "name": "canmarkcomplete",
+            "name": "Canmarkcomplete",
             "baseName": "canmarkcomplete",
             "type": "boolean"
         },
         {
-            "name": "canreview",
+            "name": "Canreview",
             "baseName": "canreview",
             "type": "boolean"
         },
         {
-            "name": "comments",
+            "name": "Comments",
             "baseName": "comments",
             "type": "string"
         },
         {
-            "name": "commentsformat",
+            "name": "Commentsformat",
             "baseName": "commentsformat",
             "type": "number"
         },
         {
-            "name": "creationmethod",
+            "name": "Creationmethod",
             "baseName": "creationmethod",
             "type": "number"
         },
         {
-            "name": "dpo",
+            "name": "Dpo",
             "baseName": "dpo",
             "type": "number"
         },
         {
-            "name": "dpocomment",
+            "name": "Dpocomment",
             "baseName": "dpocomment",
             "type": "string"
         },
         {
-            "name": "dpocommentformat",
+            "name": "Dpocommentformat",
             "baseName": "dpocommentformat",
             "type": "number"
         },
         {
-            "name": "dpouser",
+            "name": "Dpouser",
             "baseName": "dpouser",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "foruser",
+            "name": "Foruser",
             "baseName": "foruser",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "messagehtml",
+            "name": "Messagehtml",
             "baseName": "messagehtml",
             "type": "string"
         },
         {
-            "name": "requestedby",
+            "name": "Requestedby",
             "baseName": "requestedby",
             "type": "number"
         },
         {
-            "name": "requestedbyuser",
+            "name": "Requestedbyuser",
             "baseName": "requestedbyuser",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "statuslabel",
+            "name": "Statuslabel",
             "baseName": "statuslabel",
             "type": "string"
         },
         {
-            "name": "statuslabelclass",
+            "name": "Statuslabelclass",
             "baseName": "statuslabelclass",
             "type": "string"
         },
         {
-            "name": "systemapproved",
+            "name": "Systemapproved",
             "baseName": "systemapproved",
             "type": "boolean"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "typename",
+            "name": "Typename",
             "baseName": "typename",
             "type": "string"
         },
         {
-            "name": "typenameshort",
+            "name": "Typenameshort",
             "baseName": "typenameshort",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

@@ -19,193 +19,193 @@ export class CoreBlogGetEntries200ResponseEntriesInner {
     /**
     * Post atachment.
     */
-    'attachment'?: string = 'null';
-    'attachmentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerAttachmentfilesInner>;
+    'Attachment'?: string = 'null';
+    'Attachmentfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerAttachmentfilesInner>;
     /**
     * Post content.
     */
-    'content'?: string = 'null';
+    'Content'?: string = 'null';
     /**
     * Course where the post was created.
     */
-    'courseid'?: number = 0;
+    'Courseid'?: number = 0;
     /**
     * Course module id where the post was created.
     */
-    'coursemoduleid'?: number = 0;
+    'Coursemoduleid'?: number = 0;
     /**
     * When it was created.
     */
-    'created'?: number = 0;
+    'Created'?: number = 0;
     /**
     * Post content format.
     */
-    'format'?: number = 0;
+    'Format'?: number = 0;
     /**
     * Group post was created for.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * Post/entry id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * When it was last modified.
     */
-    'lastmodified'?: number = 0;
+    'Lastmodified'?: number = 0;
     /**
     * Where it was published the post (blog, blog_external...).
     */
-    'module'?: string = 'null';
+    'Module'?: string = 'null';
     /**
     * Module id where the post was created (not used anymore).
     */
-    'moduleid'?: number = 0;
+    'Moduleid'?: number = 0;
     /**
     * Post publish state.
     */
-    'publishstate'?: string = 'draft';
+    'Publishstate'?: string = 'draft';
     /**
     * Post rating.
     */
-    'rating'?: number = 0;
+    'Rating'?: number = 0;
     /**
     * Post subject.
     */
-    'subject'?: string = 'null';
+    'Subject'?: string = 'null';
     /**
     * Post summary.
     */
-    'summary'?: string = 'null';
-    'summaryfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
+    'Summary'?: string = 'null';
+    'Summaryfiles'?: Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>;
     /**
     * summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'summaryformat'?: number = 0;
-    'tags'?: Array<CoreBlogGetEntries200ResponseEntriesInnerTagsInner>;
+    'Summaryformat'?: number = 0;
+    'Tags'?: Array<CoreBlogGetEntries200ResponseEntriesInnerTagsInner>;
     /**
     * Post unique hash.
     */
-    'uniquehash'?: string = 'null';
+    'Uniquehash'?: string = 'null';
     /**
     * Post author.
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
     /**
     * User that updated the post.
     */
-    'usermodified'?: number = null;
+    'Usermodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attachment",
+            "name": "Attachment",
             "baseName": "attachment",
             "type": "string"
         },
         {
-            "name": "attachmentfiles",
+            "name": "Attachmentfiles",
             "baseName": "attachmentfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerAttachmentfilesInner>"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "coursemoduleid",
+            "name": "Coursemoduleid",
             "baseName": "coursemoduleid",
             "type": "number"
         },
         {
-            "name": "created",
+            "name": "Created",
             "baseName": "created",
             "type": "number"
         },
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "lastmodified",
+            "name": "Lastmodified",
             "baseName": "lastmodified",
             "type": "number"
         },
         {
-            "name": "module",
+            "name": "Module",
             "baseName": "module",
             "type": "string"
         },
         {
-            "name": "moduleid",
+            "name": "Moduleid",
             "baseName": "moduleid",
             "type": "number"
         },
         {
-            "name": "publishstate",
+            "name": "Publishstate",
             "baseName": "publishstate",
             "type": "string"
         },
         {
-            "name": "rating",
+            "name": "Rating",
             "baseName": "rating",
             "type": "number"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         },
         {
-            "name": "summary",
+            "name": "Summary",
             "baseName": "summary",
             "type": "string"
         },
         {
-            "name": "summaryfiles",
+            "name": "Summaryfiles",
             "baseName": "summaryfiles",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>"
         },
         {
-            "name": "summaryformat",
+            "name": "Summaryformat",
             "baseName": "summaryformat",
             "type": "number"
         },
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<CoreBlogGetEntries200ResponseEntriesInnerTagsInner>"
         },
         {
-            "name": "uniquehash",
+            "name": "Uniquehash",
             "baseName": "uniquehash",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

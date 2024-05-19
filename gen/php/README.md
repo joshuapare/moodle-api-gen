@@ -20,11 +20,11 @@ To install the bindings via [Composer](https://getcomposer.org/), add the follow
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/joshuapare/moodle-client-php.git"
+      "url": "https://github.com/joshuapare/moodle-api-gen.git"
     }
   ],
   "require": {
-    "joshuapare/moodle-client-php": "*@dev"
+    "joshuapare/moodle-api-gen": "*@dev"
   }
 }
 ```
@@ -74,7 +74,7 @@ try {
 
 ## API Endpoints
 
-All URIs are relative to *https://localhost/webservice/rest/server.php*
+All URIs are relative to *https://localhost/webservice/restful/server.php*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

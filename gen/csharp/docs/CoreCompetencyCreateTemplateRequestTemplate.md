@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyCreateTemplateRequestTemplate
+# MoodleClient.Model.CoreCompetencyCreateTemplateRequestTemplate
 
 ## Properties
 

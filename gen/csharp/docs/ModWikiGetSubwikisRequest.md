@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWikiGetSubwikisRequest
+# MoodleClient.Model.ModWikiGetSubwikisRequest
 
 ## Properties
 

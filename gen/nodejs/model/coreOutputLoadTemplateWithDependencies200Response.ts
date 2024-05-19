@@ -15,19 +15,19 @@ import { CoreOutputLoadTemplateWithDependencies200ResponseStringsInner } from '.
 import { CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner } from './coreOutputLoadTemplateWithDependencies200ResponseTemplatesInner';
 
 export class CoreOutputLoadTemplateWithDependencies200Response {
-    'strings': Array<CoreOutputLoadTemplateWithDependencies200ResponseStringsInner>;
-    'templates': Array<CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner>;
+    'Strings': Array<CoreOutputLoadTemplateWithDependencies200ResponseStringsInner>;
+    'Templates': Array<CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "strings",
+            "name": "Strings",
             "baseName": "strings",
             "type": "Array<CoreOutputLoadTemplateWithDependencies200ResponseStringsInner>"
         },
         {
-            "name": "templates",
+            "name": "Templates",
             "baseName": "templates",
             "type": "Array<CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner>"
         }    ];

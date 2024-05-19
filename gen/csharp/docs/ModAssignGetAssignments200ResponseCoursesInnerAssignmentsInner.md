@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner
+# MoodleClient.Model.ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner
 assignment information object
 
 ## Properties

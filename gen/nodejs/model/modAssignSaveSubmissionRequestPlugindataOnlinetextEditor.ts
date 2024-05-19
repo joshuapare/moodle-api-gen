@@ -16,31 +16,31 @@ export class ModAssignSaveSubmissionRequestPlugindataOnlinetextEditor {
     /**
     * The format for this submission
     */
-    'format': number = null;
+    'Format': number = null;
     /**
     * The draft area id for files attached to the submission
     */
-    'itemid': number = null;
+    'Itemid': number = null;
     /**
     * The text for this submission.
     */
-    'text': string = 'null';
+    'Text': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

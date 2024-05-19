@@ -19,58 +19,58 @@ export class ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInnerConfi
     /**
     * assignment id
     */
-    'assignment'?: number = null;
+    'Assignment'?: number = null;
     /**
     * assign_plugin_config id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * plugin
     */
-    'plugin'?: string = 'null';
+    'Plugin'?: string = 'null';
     /**
     * subtype
     */
-    'subtype'?: string = 'null';
+    'Subtype'?: string = 'null';
     /**
     * value
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignment",
+            "name": "Assignment",
             "baseName": "assignment",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "plugin",
+            "name": "Plugin",
             "baseName": "plugin",
             "type": "string"
         },
         {
-            "name": "subtype",
+            "name": "Subtype",
             "baseName": "subtype",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

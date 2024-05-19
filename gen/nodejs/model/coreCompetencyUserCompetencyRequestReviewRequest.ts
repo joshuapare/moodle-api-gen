@@ -16,22 +16,22 @@ export class CoreCompetencyUserCompetencyRequestReviewRequest {
     /**
     * The competency ID
     */
-    'competencyid': number;
+    'Competencyid': number;
     /**
     * The user ID
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

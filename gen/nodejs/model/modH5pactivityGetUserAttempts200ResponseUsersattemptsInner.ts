@@ -15,28 +15,28 @@ import { ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInn
 import { ModH5pactivityGetUserAttempts200ResponseUsersattemptsInnerScored } from './modH5pactivityGetUserAttempts200ResponseUsersattemptsInnerScored';
 
 export class ModH5pactivityGetUserAttempts200ResponseUsersattemptsInner {
-    'attempts'?: Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner>;
-    'scored'?: ModH5pactivityGetUserAttempts200ResponseUsersattemptsInnerScored;
+    'Attempts'?: Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner>;
+    'Scored'?: ModH5pactivityGetUserAttempts200ResponseUsersattemptsInnerScored;
     /**
     * The user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner>"
         },
         {
-            "name": "scored",
+            "name": "Scored",
             "baseName": "scored",
             "type": "ModH5pactivityGetUserAttempts200ResponseUsersattemptsInnerScored"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

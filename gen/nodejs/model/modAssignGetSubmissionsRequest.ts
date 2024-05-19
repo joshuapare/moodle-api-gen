@@ -13,40 +13,40 @@
 import { RequestFile } from './models';
 
 export class ModAssignGetSubmissionsRequest {
-    'assignmentids': Array<object>;
+    'Assignmentids': Array<object>;
     /**
     * submitted before
     */
-    'before'?: number = 0;
+    'Before'?: number = 0;
     /**
     * submitted since
     */
-    'since'?: number = 0;
+    'Since'?: number = 0;
     /**
     * status
     */
-    'status'?: string = '';
+    'Status'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentids",
+            "name": "Assignmentids",
             "baseName": "assignmentids",
             "type": "Array<object>"
         },
         {
-            "name": "before",
+            "name": "Before",
             "baseName": "before",
             "type": "number"
         },
         {
-            "name": "since",
+            "name": "Since",
             "baseName": "since",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "string"
         }    ];

@@ -15,37 +15,37 @@ import { ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerEditorfields
 import { ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner } from './modAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner';
 
 export class ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInner {
-    'editorfields'?: Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerEditorfieldsInner>;
-    'fileareas'?: Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner>;
+    'Editorfields'?: Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerEditorfieldsInner>;
+    'Fileareas'?: Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner>;
     /**
     * submission plugin name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * submission plugin type
     */
-    'type'?: string = 'null';
+    'Type'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "editorfields",
+            "name": "Editorfields",
             "baseName": "editorfields",
             "type": "Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerEditorfieldsInner>"
         },
         {
-            "name": "fileareas",
+            "name": "Fileareas",
             "baseName": "fileareas",
             "type": "Array<ModAssignGetSubmissionStatus200ResponseFeedbackPluginsInnerFileareasInner>"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         }    ];

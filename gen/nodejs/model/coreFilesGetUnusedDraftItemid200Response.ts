@@ -17,55 +17,55 @@ export class CoreFilesGetUnusedDraftItemid200Response {
     /**
     * File area component.
     */
-    'component': string = 'null';
+    'Component': string = 'null';
     /**
     * File area context.
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * File area name.
     */
-    'filearea': string = 'null';
+    'Filearea': string = 'null';
     /**
     * File are item id.
     */
-    'itemid': number = null;
+    'Itemid': number = null;
     /**
     * File area user id.
     */
-    'userid': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Userid': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

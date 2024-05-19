@@ -17,19 +17,19 @@ export class ToolLpSearchUsers200Response {
     /**
     * Total number of results.
     */
-    'count': number = null;
-    'users': Array<ToolLpSearchUsers200ResponseUsersInner>;
+    'Count': number = null;
+    'Users': Array<ToolLpSearchUsers200ResponseUsersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "users",
+            "name": "Users",
             "baseName": "users",
             "type": "Array<ToolLpSearchUsers200ResponseUsersInner>"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolLpDataForUserEvidenceListPage200ResponseEvidenceInner
+# MoodleClient.Model.ToolLpDataForUserEvidenceListPage200ResponseEvidenceInner
 
 ## Properties
 

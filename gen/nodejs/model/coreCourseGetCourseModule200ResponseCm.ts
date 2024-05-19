@@ -18,277 +18,277 @@ export class CoreCourseGetCourseModule200ResponseCm {
     /**
     * Time added
     */
-    'added'?: number = null;
-    'advancedgrading'?: Array<CoreCourseGetCourseModule200ResponseCmAdvancedgradingInner>;
+    'Added'?: number = null;
+    'Advancedgrading'?: Array<CoreCourseGetCourseModule200ResponseCmAdvancedgradingInner>;
     /**
     * Availability settings
     */
-    'availability'?: string = 'null';
+    'Availability'?: string = 'null';
     /**
     * If completion is enabled
     */
-    'completion': number = null;
+    'Completion': number = null;
     /**
     * Completion time expected
     */
-    'completionexpected'?: number = null;
+    'Completionexpected'?: number = null;
     /**
     * Completion grade item
     */
-    'completiongradeitemnumber'?: number = null;
+    'Completiongradeitemnumber'?: number = null;
     /**
     * Completion pass grade setting
     */
-    'completionpassgrade'?: number = null;
+    'Completionpassgrade'?: number = null;
     /**
     * Completion view setting
     */
-    'completionview'?: number = null;
+    'Completionview'?: number = null;
     /**
     * The course id
     */
-    'course': number;
+    'Course': number;
     /**
     * The download content value
     */
-    'downloadcontent'?: number = null;
+    'Downloadcontent'?: number = null;
     /**
     * Grade (max value or scale id)
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * Grade category
     */
-    'gradecat'?: number = null;
+    'Gradecat'?: number = null;
     /**
     * Grade to pass (float)
     */
-    'gradepass'?: string = 'null';
+    'Gradepass'?: string = 'null';
     /**
     * Grouping id
     */
-    'groupingid': number = null;
+    'Groupingid': number = null;
     /**
     * Group mode
     */
-    'groupmode': number = null;
+    'Groupmode': number = null;
     /**
     * The course module id
     */
-    'id': number;
+    'Id': number;
     /**
     * Module id number
     */
-    'idnumber'?: string = 'null';
+    'Idnumber'?: string = 'null';
     /**
     * Indentation
     */
-    'indent'?: number = null;
+    'Indent'?: number = null;
     /**
     * The activity instance id
     */
-    'instance': number = null;
+    'Instance': number = null;
     /**
     * The module component name (forum, assign, etc..)
     */
-    'modname': string = 'null';
+    'Modname': string = 'null';
     /**
     * The module type id
     */
-    'module': number = null;
+    'Module': number = null;
     /**
     * The activity name
     */
-    'name': string = 'null';
-    'outcomes'?: Array<CoreCourseGetCourseModule200ResponseCmOutcomesInner>;
+    'Name': string = 'null';
+    'Outcomes'?: Array<CoreCourseGetCourseModule200ResponseCmOutcomesInner>;
     /**
     * Scale items (if used)
     */
-    'scale'?: string = 'null';
+    'Scale'?: string = 'null';
     /**
     * Score
     */
-    'score'?: number = null;
+    'Score'?: number = null;
     /**
     * The module section id
     */
-    'section': number = null;
+    'Section': number = null;
     /**
     * The module section number
     */
-    'sectionnum': number = null;
+    'Sectionnum': number = null;
     /**
     * If the description is showed
     */
-    'showdescription'?: number = null;
+    'Showdescription'?: number = null;
     /**
     * If visible
     */
-    'visible'?: number = null;
+    'Visible'?: number = null;
     /**
     * Visible old
     */
-    'visibleold'?: number = null;
+    'Visibleold'?: number = null;
     /**
     * If visible on course page
     */
-    'visibleoncoursepage'?: number = null;
+    'Visibleoncoursepage'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "added",
+            "name": "Added",
             "baseName": "added",
             "type": "number"
         },
         {
-            "name": "advancedgrading",
+            "name": "Advancedgrading",
             "baseName": "advancedgrading",
             "type": "Array<CoreCourseGetCourseModule200ResponseCmAdvancedgradingInner>"
         },
         {
-            "name": "availability",
+            "name": "Availability",
             "baseName": "availability",
             "type": "string"
         },
         {
-            "name": "completion",
+            "name": "Completion",
             "baseName": "completion",
             "type": "number"
         },
         {
-            "name": "completionexpected",
+            "name": "Completionexpected",
             "baseName": "completionexpected",
             "type": "number"
         },
         {
-            "name": "completiongradeitemnumber",
+            "name": "Completiongradeitemnumber",
             "baseName": "completiongradeitemnumber",
             "type": "number"
         },
         {
-            "name": "completionpassgrade",
+            "name": "Completionpassgrade",
             "baseName": "completionpassgrade",
             "type": "number"
         },
         {
-            "name": "completionview",
+            "name": "Completionview",
             "baseName": "completionview",
             "type": "number"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "downloadcontent",
+            "name": "Downloadcontent",
             "baseName": "downloadcontent",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradecat",
+            "name": "Gradecat",
             "baseName": "gradecat",
             "type": "number"
         },
         {
-            "name": "gradepass",
+            "name": "Gradepass",
             "baseName": "gradepass",
             "type": "string"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "indent",
+            "name": "Indent",
             "baseName": "indent",
             "type": "number"
         },
         {
-            "name": "instance",
+            "name": "Instance",
             "baseName": "instance",
             "type": "number"
         },
         {
-            "name": "modname",
+            "name": "Modname",
             "baseName": "modname",
             "type": "string"
         },
         {
-            "name": "module",
+            "name": "Module",
             "baseName": "module",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "outcomes",
+            "name": "Outcomes",
             "baseName": "outcomes",
             "type": "Array<CoreCourseGetCourseModule200ResponseCmOutcomesInner>"
         },
         {
-            "name": "scale",
+            "name": "Scale",
             "baseName": "scale",
             "type": "string"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "number"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "sectionnum",
+            "name": "Sectionnum",
             "baseName": "sectionnum",
             "type": "number"
         },
         {
-            "name": "showdescription",
+            "name": "Showdescription",
             "baseName": "showdescription",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "number"
         },
         {
-            "name": "visibleold",
+            "name": "Visibleold",
             "baseName": "visibleold",
             "type": "number"
         },
         {
-            "name": "visibleoncoursepage",
+            "name": "Visibleoncoursepage",
             "baseName": "visibleoncoursepage",
             "type": "number"
         }    ];

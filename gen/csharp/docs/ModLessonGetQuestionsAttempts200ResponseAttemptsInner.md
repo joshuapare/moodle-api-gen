@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonGetQuestionsAttempts200ResponseAttemptsInner
+# MoodleClient.Model.ModLessonGetQuestionsAttempts200ResponseAttemptsInner
 The question page attempts
 
 ## Properties

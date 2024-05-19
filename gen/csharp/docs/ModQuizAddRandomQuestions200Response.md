@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizAddRandomQuestions200Response
+# MoodleClient.Model.ModQuizAddRandomQuestions200Response
 
 ## Properties
 

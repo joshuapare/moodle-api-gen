@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseImportCourseRequestOptionsInner
+# MoodleClient.Model.CoreCourseImportCourseRequestOptionsInner
 
 ## Properties
 

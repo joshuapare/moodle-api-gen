@@ -19,136 +19,136 @@ export class CoreCalendarGetCalendarDayView200Response {
     /**
     * categoryid
     */
-    'categoryid'?: number = 0;
+    'Categoryid'?: number = 0;
     /**
     * courseid
     */
-    'courseid': number;
-    'date': CoreCalendarGetCalendarDayView200ResponseDate;
+    'Courseid': number;
+    'Date': CoreCalendarGetCalendarDayView200ResponseDate;
     /**
     * defaulteventcontext
     */
-    'defaulteventcontext': number = 0;
-    'events': Array<CoreCalendarGetCalendarDayView200ResponseEventsInner>;
+    'Defaulteventcontext': number = 0;
+    'Events': Array<CoreCalendarGetCalendarDayView200ResponseEventsInner>;
     /**
     * filter_selector
     */
-    'filterSelector': string = 'null';
+    'FilterSelector': string = 'null';
     /**
     * larrow
     */
-    'larrow': string = 'null';
+    'Larrow': string = 'null';
     /**
     * neweventtimestamp
     */
-    'neweventtimestamp': number = null;
-    'nextperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
+    'Neweventtimestamp': number = null;
+    'Nextperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
     /**
     * nextperiodlink
     */
-    'nextperiodlink': string = 'null';
+    'Nextperiodlink': string = 'null';
     /**
     * nextperiodname
     */
-    'nextperiodname': string = 'null';
+    'Nextperiodname': string = 'null';
     /**
     * periodname
     */
-    'periodname': string = 'null';
-    'previousperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
+    'Periodname': string = 'null';
+    'Previousperiod': CoreCalendarGetCalendarDayView200ResponseNextperiod;
     /**
     * previousperiodlink
     */
-    'previousperiodlink': string = 'null';
+    'Previousperiodlink': string = 'null';
     /**
     * previousperiodname
     */
-    'previousperiodname': string = 'null';
+    'Previousperiodname': string = 'null';
     /**
     * rarrow
     */
-    'rarrow': string = 'null';
+    'Rarrow': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "date",
+            "name": "Date",
             "baseName": "date",
             "type": "CoreCalendarGetCalendarDayView200ResponseDate"
         },
         {
-            "name": "defaulteventcontext",
+            "name": "Defaulteventcontext",
             "baseName": "defaulteventcontext",
             "type": "number"
         },
         {
-            "name": "events",
+            "name": "Events",
             "baseName": "events",
             "type": "Array<CoreCalendarGetCalendarDayView200ResponseEventsInner>"
         },
         {
-            "name": "filterSelector",
+            "name": "FilterSelector",
             "baseName": "filter_selector",
             "type": "string"
         },
         {
-            "name": "larrow",
+            "name": "Larrow",
             "baseName": "larrow",
             "type": "string"
         },
         {
-            "name": "neweventtimestamp",
+            "name": "Neweventtimestamp",
             "baseName": "neweventtimestamp",
             "type": "number"
         },
         {
-            "name": "nextperiod",
+            "name": "Nextperiod",
             "baseName": "nextperiod",
             "type": "CoreCalendarGetCalendarDayView200ResponseNextperiod"
         },
         {
-            "name": "nextperiodlink",
+            "name": "Nextperiodlink",
             "baseName": "nextperiodlink",
             "type": "string"
         },
         {
-            "name": "nextperiodname",
+            "name": "Nextperiodname",
             "baseName": "nextperiodname",
             "type": "string"
         },
         {
-            "name": "periodname",
+            "name": "Periodname",
             "baseName": "periodname",
             "type": "string"
         },
         {
-            "name": "previousperiod",
+            "name": "Previousperiod",
             "baseName": "previousperiod",
             "type": "CoreCalendarGetCalendarDayView200ResponseNextperiod"
         },
         {
-            "name": "previousperiodlink",
+            "name": "Previousperiodlink",
             "baseName": "previousperiodlink",
             "type": "string"
         },
         {
-            "name": "previousperiodname",
+            "name": "Previousperiodname",
             "baseName": "previousperiodname",
             "type": "string"
         },
         {
-            "name": "rarrow",
+            "name": "Rarrow",
             "baseName": "rarrow",
             "type": "string"
         }    ];

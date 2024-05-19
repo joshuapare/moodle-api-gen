@@ -18,103 +18,103 @@ export class AuthEmailGetSignupSettings200Response {
     /**
     * Default country
     */
-    'country'?: string = 'null';
+    'Country'?: string = 'null';
     /**
     * Default city
     */
-    'defaultcity'?: string = 'null';
-    'namefields': Array<object>;
+    'Defaultcity'?: string = 'null';
+    'Namefields': Array<object>;
     /**
     * Password policy
     */
-    'passwordpolicy'?: string = 'null';
-    'profilefields'?: Array<AuthEmailGetSignupSettings200ResponseProfilefieldsInner>;
+    'Passwordpolicy'?: string = 'null';
+    'Profilefields'?: Array<AuthEmailGetSignupSettings200ResponseProfilefieldsInner>;
     /**
     * Recaptcha challenge hash
     */
-    'recaptchachallengehash'?: string = 'null';
+    'Recaptchachallengehash'?: string = 'null';
     /**
     * Recaptcha challenge noscript image
     */
-    'recaptchachallengeimage'?: string = 'null';
+    'Recaptchachallengeimage'?: string = 'null';
     /**
     * Recaptcha challenge js url
     */
-    'recaptchachallengejs'?: string = 'null';
+    'Recaptchachallengejs'?: string = 'null';
     /**
     * Recaptcha public key
     */
-    'recaptchapublickey'?: string = 'null';
+    'Recaptchapublickey'?: string = 'null';
     /**
     * Site policy
     */
-    'sitepolicy'?: string = 'null';
+    'Sitepolicy'?: string = 'null';
     /**
     * Site policy handler
     */
-    'sitepolicyhandler'?: string = 'null';
-    'warnings'?: Array<AuthEmailGetSignupSettings200ResponseWarningsInner>;
+    'Sitepolicyhandler'?: string = 'null';
+    'Warnings'?: Array<AuthEmailGetSignupSettings200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "country",
+            "name": "Country",
             "baseName": "country",
             "type": "string"
         },
         {
-            "name": "defaultcity",
+            "name": "Defaultcity",
             "baseName": "defaultcity",
             "type": "string"
         },
         {
-            "name": "namefields",
+            "name": "Namefields",
             "baseName": "namefields",
             "type": "Array<object>"
         },
         {
-            "name": "passwordpolicy",
+            "name": "Passwordpolicy",
             "baseName": "passwordpolicy",
             "type": "string"
         },
         {
-            "name": "profilefields",
+            "name": "Profilefields",
             "baseName": "profilefields",
             "type": "Array<AuthEmailGetSignupSettings200ResponseProfilefieldsInner>"
         },
         {
-            "name": "recaptchachallengehash",
+            "name": "Recaptchachallengehash",
             "baseName": "recaptchachallengehash",
             "type": "string"
         },
         {
-            "name": "recaptchachallengeimage",
+            "name": "Recaptchachallengeimage",
             "baseName": "recaptchachallengeimage",
             "type": "string"
         },
         {
-            "name": "recaptchachallengejs",
+            "name": "Recaptchachallengejs",
             "baseName": "recaptchachallengejs",
             "type": "string"
         },
         {
-            "name": "recaptchapublickey",
+            "name": "Recaptchapublickey",
             "baseName": "recaptchapublickey",
             "type": "string"
         },
         {
-            "name": "sitepolicy",
+            "name": "Sitepolicy",
             "baseName": "sitepolicy",
             "type": "string"
         },
         {
-            "name": "sitepolicyhandler",
+            "name": "Sitepolicyhandler",
             "baseName": "sitepolicyhandler",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailGetSignupSettings200ResponseWarningsInner>"
         }    ];

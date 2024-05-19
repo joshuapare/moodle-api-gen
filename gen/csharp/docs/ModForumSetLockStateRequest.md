@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumSetLockStateRequest
+# MoodleClient.Model.ModForumSetLockStateRequest
 
 ## Properties
 

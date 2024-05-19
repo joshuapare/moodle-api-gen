@@ -20,298 +20,298 @@ export class ModLtiGetLtisByCourses200ResponseLtisInner {
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Debug launch
     */
-    'debuglaunch'?: number = null;
+    'Debuglaunch'?: number = null;
     /**
     * Enable grades
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Alternative icon URL
     */
-    'icon'?: string = 'null';
+    'Icon'?: string = 'null';
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * instructor choice accept grades
     */
-    'instructorchoiceacceptgrades'?: number = null;
+    'Instructorchoiceacceptgrades'?: number = null;
     /**
     * Instructor choice allow roster
     */
-    'instructorchoiceallowroster'?: number = null;
+    'Instructorchoiceallowroster'?: number = null;
     /**
     * Instructor choice allow setting
     */
-    'instructorchoiceallowsetting'?: number = null;
+    'Instructorchoiceallowsetting'?: number = null;
     /**
     * instructor choice send mail address
     */
-    'instructorchoicesendemailaddr'?: number = null;
+    'Instructorchoicesendemailaddr'?: number = null;
     /**
     * Instructor choice send name
     */
-    'instructorchoicesendname'?: string = 'null';
+    'Instructorchoicesendname'?: string = 'null';
     /**
     * instructor custom parameters
     */
-    'instructorcustomparameters'?: string = 'null';
+    'Instructorcustomparameters'?: string = 'null';
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Launch container mode
     */
-    'launchcontainer'?: number = null;
+    'Launchcontainer'?: number = null;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Shared secret
     */
-    'password'?: string = 'null';
+    'Password'?: string = 'null';
     /**
     * Resource key
     */
-    'resourcekey'?: string = 'null';
+    'Resourcekey'?: string = 'null';
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Secure icon URL
     */
-    'secureicon'?: string = 'null';
+    'Secureicon'?: string = 'null';
     /**
     * Secure tool url
     */
-    'securetoolurl'?: string = 'null';
+    'Securetoolurl'?: string = 'null';
     /**
     * Service salt
     */
-    'servicesalt'?: string = 'null';
+    'Servicesalt'?: string = 'null';
     /**
     * Show description launch
     */
-    'showdescriptionlaunch'?: number = null;
+    'Showdescriptionlaunch'?: number = null;
     /**
     * Show title launch
     */
-    'showtitlelaunch'?: number = null;
+    'Showtitlelaunch'?: number = null;
     /**
     * Time of creation
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time of last modification
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Tool url
     */
-    'toolurl'?: string = 'null';
+    'Toolurl'?: string = 'null';
     /**
     * Type id
     */
-    'typeid'?: number = null;
+    'Typeid'?: number = null;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "debuglaunch",
+            "name": "Debuglaunch",
             "baseName": "debuglaunch",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instructorchoiceacceptgrades",
+            "name": "Instructorchoiceacceptgrades",
             "baseName": "instructorchoiceacceptgrades",
             "type": "number"
         },
         {
-            "name": "instructorchoiceallowroster",
+            "name": "Instructorchoiceallowroster",
             "baseName": "instructorchoiceallowroster",
             "type": "number"
         },
         {
-            "name": "instructorchoiceallowsetting",
+            "name": "Instructorchoiceallowsetting",
             "baseName": "instructorchoiceallowsetting",
             "type": "number"
         },
         {
-            "name": "instructorchoicesendemailaddr",
+            "name": "Instructorchoicesendemailaddr",
             "baseName": "instructorchoicesendemailaddr",
             "type": "number"
         },
         {
-            "name": "instructorchoicesendname",
+            "name": "Instructorchoicesendname",
             "baseName": "instructorchoicesendname",
             "type": "string"
         },
         {
-            "name": "instructorcustomparameters",
+            "name": "Instructorcustomparameters",
             "baseName": "instructorcustomparameters",
             "type": "string"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "launchcontainer",
+            "name": "Launchcontainer",
             "baseName": "launchcontainer",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "resourcekey",
+            "name": "Resourcekey",
             "baseName": "resourcekey",
             "type": "string"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "secureicon",
+            "name": "Secureicon",
             "baseName": "secureicon",
             "type": "string"
         },
         {
-            "name": "securetoolurl",
+            "name": "Securetoolurl",
             "baseName": "securetoolurl",
             "type": "string"
         },
         {
-            "name": "servicesalt",
+            "name": "Servicesalt",
             "baseName": "servicesalt",
             "type": "string"
         },
         {
-            "name": "showdescriptionlaunch",
+            "name": "Showdescriptionlaunch",
             "baseName": "showdescriptionlaunch",
             "type": "number"
         },
         {
-            "name": "showtitlelaunch",
+            "name": "Showtitlelaunch",
             "baseName": "showtitlelaunch",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "toolurl",
+            "name": "Toolurl",
             "baseName": "toolurl",
             "type": "string"
         },
         {
-            "name": "typeid",
+            "name": "Typeid",
             "baseName": "typeid",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

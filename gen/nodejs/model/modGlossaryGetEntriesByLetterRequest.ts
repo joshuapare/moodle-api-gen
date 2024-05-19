@@ -17,46 +17,46 @@ export class ModGlossaryGetEntriesByLetterRequest {
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * Glossary entry ID
     */
-    'id': number;
+    'Id': number;
     /**
     * A letter, or either keywords: \'ALL\' or \'SPECIAL\'.
     */
-    'letter': string = 'null';
+    'Letter': string = 'null';
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
-    'options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
+    'Limit'?: number = 20;
+    'Options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "letter",
+            "name": "Letter",
             "baseName": "letter",
             "type": "string"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModGlossaryGetEntriesByAuthorRequestOptions"
         }    ];

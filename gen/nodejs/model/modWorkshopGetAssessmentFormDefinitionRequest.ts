@@ -16,22 +16,22 @@ export class ModWorkshopGetAssessmentFormDefinitionRequest {
     /**
     * Assessment id
     */
-    'assessmentid': number;
+    'Assessmentid': number;
     /**
     * The form mode (assessment or preview)
     */
-    'mode'?: string = 'assessment';
+    'Mode'?: string = 'assessment';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assessmentid",
+            "name": "Assessmentid",
             "baseName": "assessmentid",
             "type": "number"
         },
         {
-            "name": "mode",
+            "name": "Mode",
             "baseName": "mode",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminEnrolUsersRequestEnrolmentsInner
+# MoodleClient.Model.BlockIomadCompanyAdminEnrolUsersRequestEnrolmentsInner
 
 ## Properties
 

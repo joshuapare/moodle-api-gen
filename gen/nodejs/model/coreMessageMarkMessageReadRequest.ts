@@ -16,22 +16,22 @@ export class CoreMessageMarkMessageReadRequest {
     /**
     * id of the message in the messages table
     */
-    'messageid': number = null;
+    'Messageid': number = null;
     /**
     * timestamp for when the message should be marked read
     */
-    'timeread'?: number = 0;
+    'Timeread'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messageid",
+            "name": "Messageid",
             "baseName": "messageid",
             "type": "number"
         },
         {
-            "name": "timeread",
+            "name": "Timeread",
             "baseName": "timeread",
             "type": "number"
         }    ];

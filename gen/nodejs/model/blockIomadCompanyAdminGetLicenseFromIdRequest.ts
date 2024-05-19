@@ -16,13 +16,13 @@ export class BlockIomadCompanyAdminGetLicenseFromIdRequest {
     /**
     * License ID.
     */
-    'licenseid': number = null;
+    'Licenseid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "licenseid",
+            "name": "Licenseid",
             "baseName": "licenseid",
             "type": "number"
         }    ];

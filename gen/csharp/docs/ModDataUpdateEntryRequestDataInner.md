@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataUpdateEntryRequestDataInner
+# MoodleClient.Model.ModDataUpdateEntryRequestDataInner
 
 ## Properties
 

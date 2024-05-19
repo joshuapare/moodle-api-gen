@@ -16,22 +16,22 @@ export class ModForumAddDiscussionRequestOptionsInner {
     /**
     * The allowed keys (value format) are:                                         discussionsubscribe (bool); subscribe to the discussion?, default to true                                         discussionpinned    (bool); is the discussion pinned, default to false                                         inlineattachmentsid              (int); the draft file area id for inline attachments                                         attachmentsid       (int); the draft file area id for attachments                             
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The value of the option,                                                             This param is validated in the external function.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

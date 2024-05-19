@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner } from './modH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner';
 
 export class ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScored {
-    'attempts': Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner>;
+    'Attempts': Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner>;
     /**
     * Scored attempts title
     */
-    'grademethod': string = 'null';
+    'Grademethod': string = 'null';
     /**
     * Scored attempts title
     */
-    'title': string;
+    'Title': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempts",
+            "name": "Attempts",
             "baseName": "attempts",
             "type": "Array<ModH5pactivityGetAttempts200ResponseUsersattemptsInnerScoredAttemptsInner>"
         },
         {
-            "name": "grademethod",
+            "name": "Grademethod",
             "baseName": "grademethod",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

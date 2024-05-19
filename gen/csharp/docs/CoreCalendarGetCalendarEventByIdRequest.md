@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarGetCalendarEventByIdRequest
+# MoodleClient.Model.CoreCalendarGetCalendarEventByIdRequest
 
 ## Properties
 

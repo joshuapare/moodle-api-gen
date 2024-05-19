@@ -16,58 +16,58 @@ export class CoreGradesGraderGradingpanelPointFetch200ResponseGrade {
     /**
     * The numeric grade
     */
-    'grade': number = null;
+    'Grade': number = null;
     /**
     * The assumed grader of this grading instance
     */
-    'gradedby': string = 'null';
+    'Gradedby': string = 'null';
     /**
     * Max possible grade
     */
-    'maxgrade': string = 'null';
+    'Maxgrade': string = 'null';
     /**
     * The time that the grade was created
     */
-    'timecreated': number = null;
+    'Timecreated': number = null;
     /**
     * The time that the grade was last updated
     */
-    'timemodified': number = null;
+    'Timemodified': number = null;
     /**
     * Current user grade
     */
-    'usergrade': string = 'null';
+    'Usergrade': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradedby",
+            "name": "Gradedby",
             "baseName": "gradedby",
             "type": "string"
         },
         {
-            "name": "maxgrade",
+            "name": "Maxgrade",
             "baseName": "maxgrade",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "usergrade",
+            "name": "Usergrade",
             "baseName": "usergrade",
             "type": "string"
         }    ];

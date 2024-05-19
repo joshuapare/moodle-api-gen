@@ -1,11 +1,11 @@
 {
-  "name": "@joshuapare/moodle-client-nestjs",
+  "name": "joshuapare/moodle-client-nestjs",
   "version": "4.3.4",
-  "description": "REST client for @joshuapare/moodle-client-nestjs",
+  "description": "REST client for joshuapare/moodle-client-nestjs",
   "author": "OpenAPI Generator Contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshuapare/moodle-client-nestjs.git"
+    "url": "https://github.com/joshuapare/moodle-api-gen.git"
   },
   "keywords": [
     "swagger-client"

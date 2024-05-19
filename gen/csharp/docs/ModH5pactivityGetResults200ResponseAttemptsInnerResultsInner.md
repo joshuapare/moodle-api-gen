@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModH5pactivityGetResults200ResponseAttemptsInnerResultsInner
+# MoodleClient.Model.ModH5pactivityGetResults200ResponseAttemptsInnerResultsInner
 A single result statement tracking information
 
 ## Properties

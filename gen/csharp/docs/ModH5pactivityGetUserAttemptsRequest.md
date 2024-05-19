@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModH5pactivityGetUserAttemptsRequest
+# MoodleClient.Model.ModH5pactivityGetUserAttemptsRequest
 
 ## Properties
 

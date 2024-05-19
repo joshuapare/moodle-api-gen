@@ -16,22 +16,22 @@ export class CoreCreateUserfeedbackActionRecordRequest {
     /**
     * The action taken by user
     */
-    'action': string = 'null';
+    'Action': string = 'null';
     /**
     * The context id of the page the user is in
     */
-    'contextid': number = null;
+    'Contextid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

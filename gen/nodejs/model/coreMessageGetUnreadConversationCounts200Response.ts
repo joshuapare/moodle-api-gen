@@ -17,19 +17,19 @@ export class CoreMessageGetUnreadConversationCounts200Response {
     /**
     * Total number of unread favourite conversations
     */
-    'favourites': number = null;
-    'types': CoreMessageGetUnreadConversationCounts200ResponseTypes;
+    'Favourites': number = null;
+    'Types': CoreMessageGetUnreadConversationCounts200ResponseTypes;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourites",
+            "name": "Favourites",
             "baseName": "favourites",
             "type": "number"
         },
         {
-            "name": "types",
+            "name": "Types",
             "baseName": "types",
             "type": "CoreMessageGetUnreadConversationCounts200ResponseTypes"
         }    ];

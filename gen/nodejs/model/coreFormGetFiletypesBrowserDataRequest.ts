@@ -16,31 +16,31 @@ export class CoreFormGetFiletypesBrowserDataRequest {
     /**
     * Allows to select All file types, does not apply with onlytypes are set.
     */
-    'allowall'?: boolean = true;
+    'Allowall'?: boolean = true;
     /**
     * Current types that should be selected.
     */
-    'current'?: string = '';
+    'Current'?: string = '';
     /**
     * Limit the browser to the given groups and extensions
     */
-    'onlytypes'?: string = '';
+    'Onlytypes'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowall",
+            "name": "Allowall",
             "baseName": "allowall",
             "type": "boolean"
         },
         {
-            "name": "current",
+            "name": "Current",
             "baseName": "current",
             "type": "string"
         },
         {
-            "name": "onlytypes",
+            "name": "Onlytypes",
             "baseName": "onlytypes",
             "type": "string"
         }    ];

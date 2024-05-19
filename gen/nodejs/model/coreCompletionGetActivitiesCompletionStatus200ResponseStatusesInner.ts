@@ -20,118 +20,118 @@ export class CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInner
     /**
     * course module ID
     */
-    'cmid'?: number = null;
-    'details'?: Array<CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInner>;
+    'Cmid'?: number = null;
+    'Details'?: Array<CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInner>;
     /**
     * Whether this activity module has completion enabled
     */
-    'hascompletion'?: boolean = null;
+    'Hascompletion'?: boolean = null;
     /**
     * instance ID
     */
-    'instance'?: number = null;
+    'Instance'?: number = null;
     /**
     * Whether this activity module instance tracks completion automatically.
     */
-    'isautomatic'?: boolean = null;
+    'Isautomatic'?: boolean = null;
     /**
     * Whether completion is being tracked for this user.
     */
-    'istrackeduser'?: boolean = null;
+    'Istrackeduser'?: boolean = null;
     /**
     * activity module name
     */
-    'modname'?: string = 'null';
+    'Modname'?: string = 'null';
     /**
     * The user id who has overriden the status, or null
     */
-    'overrideby'?: number = null;
+    'Overrideby'?: number = null;
     /**
     * Completion state value:                                     0 means incomplete,                                     1 complete,                                     2 complete pass,                                     3 complete fail
     */
-    'state'?: number = null;
+    'State'?: number = null;
     /**
     * timestamp for completed activity
     */
-    'timecompleted'?: number = null;
+    'Timecompleted'?: number = null;
     /**
     * type of tracking:                                     0 means none,                                     1 manual,                                     2 automatic
     */
-    'tracking'?: number = null;
+    'Tracking'?: number = null;
     /**
     * Whether this activity is visible to the user.
     */
-    'uservisible'?: boolean = null;
+    'Uservisible'?: boolean = null;
     /**
     * Whether the completion status affects the availability of another activity.
     */
-    'valueused'?: boolean = null;
+    'Valueused'?: boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "details",
+            "name": "Details",
             "baseName": "details",
             "type": "Array<CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInner>"
         },
         {
-            "name": "hascompletion",
+            "name": "Hascompletion",
             "baseName": "hascompletion",
             "type": "boolean"
         },
         {
-            "name": "instance",
+            "name": "Instance",
             "baseName": "instance",
             "type": "number"
         },
         {
-            "name": "isautomatic",
+            "name": "Isautomatic",
             "baseName": "isautomatic",
             "type": "boolean"
         },
         {
-            "name": "istrackeduser",
+            "name": "Istrackeduser",
             "baseName": "istrackeduser",
             "type": "boolean"
         },
         {
-            "name": "modname",
+            "name": "Modname",
             "baseName": "modname",
             "type": "string"
         },
         {
-            "name": "overrideby",
+            "name": "Overrideby",
             "baseName": "overrideby",
             "type": "number"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         },
         {
-            "name": "timecompleted",
+            "name": "Timecompleted",
             "baseName": "timecompleted",
             "type": "number"
         },
         {
-            "name": "tracking",
+            "name": "Tracking",
             "baseName": "tracking",
             "type": "number"
         },
         {
-            "name": "uservisible",
+            "name": "Uservisible",
             "baseName": "uservisible",
             "type": "boolean"
         },
         {
-            "name": "valueused",
+            "name": "Valueused",
             "baseName": "valueused",
             "type": "boolean"
         }    ];

@@ -16,22 +16,22 @@ export class ModForumSetSubscriptionState200ResponseUserstate {
     /**
     * favourited
     */
-    'favourited': boolean;
+    'Favourited': boolean;
     /**
     * subscribed
     */
-    'subscribed': boolean;
+    'Subscribed': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourited",
+            "name": "Favourited",
             "baseName": "favourited",
             "type": "boolean"
         },
         {
-            "name": "subscribed",
+            "name": "Subscribed",
             "baseName": "subscribed",
             "type": "boolean"
         }    ];

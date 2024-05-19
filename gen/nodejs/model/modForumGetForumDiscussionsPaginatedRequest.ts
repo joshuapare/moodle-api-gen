@@ -16,49 +16,49 @@ export class ModForumGetForumDiscussionsPaginatedRequest {
     /**
     * forum instance id
     */
-    'forumid': number;
+    'Forumid': number;
     /**
     * current page
     */
-    'page'?: number = -1;
+    'Page'?: number = -1;
     /**
     * items per page
     */
-    'perpage'?: number = 0;
+    'Perpage'?: number = 0;
     /**
     * sort by this element: id, timemodified, timestart or timeend
     */
-    'sortby'?: string = 'timemodified';
+    'Sortby'?: string = 'timemodified';
     /**
     * sort direction: ASC or DESC
     */
-    'sortdirection'?: string = 'DESC';
+    'Sortdirection'?: string = 'DESC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "forumid",
+            "name": "Forumid",
             "baseName": "forumid",
             "type": "number"
         },
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "number"
         },
         {
-            "name": "perpage",
+            "name": "Perpage",
             "baseName": "perpage",
             "type": "number"
         },
         {
-            "name": "sortby",
+            "name": "Sortby",
             "baseName": "sortby",
             "type": "string"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "string"
         }    ];

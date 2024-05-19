@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreBackupGetCopyProgressRequestCopiesInner } from './coreBackupGetCopyProgressRequestCopiesInner';
 
 export class CoreBackupGetCopyProgressRequest {
-    'copies': Array<CoreBackupGetCopyProgressRequestCopiesInner>;
+    'Copies': Array<CoreBackupGetCopyProgressRequestCopiesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "copies",
+            "name": "Copies",
             "baseName": "copies",
             "type": "Array<CoreBackupGetCopyProgressRequestCopiesInner>"
         }    ];

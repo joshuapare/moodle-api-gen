@@ -16,31 +16,31 @@ export class CoreMessageMarkAllNotificationsAsReadRequest {
     /**
     * mark messages created before this time as read, 0 for all messages
     */
-    'timecreatedto'?: number = 0;
+    'Timecreatedto'?: number = 0;
     /**
     * the user id who send the message, 0 for any user. -10 or -20 for no-reply or support user
     */
-    'useridfrom'?: number = 0;
+    'Useridfrom'?: number = 0;
     /**
     * the user id who received the message, 0 for any user
     */
-    'useridto': number;
+    'Useridto': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "timecreatedto",
+            "name": "Timecreatedto",
             "baseName": "timecreatedto",
             "type": "number"
         },
         {
-            "name": "useridfrom",
+            "name": "Useridfrom",
             "baseName": "useridfrom",
             "type": "number"
         },
         {
-            "name": "useridto",
+            "name": "Useridto",
             "baseName": "useridto",
             "type": "number"
         }    ];

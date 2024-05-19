@@ -16,13 +16,13 @@ export class CoreMyViewPageRequest {
     /**
     * My page to trigger a view event
     */
-    'page': string = 'null';
+    'Page': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "page",
+            "name": "Page",
             "baseName": "page",
             "type": "string"
         }    ];

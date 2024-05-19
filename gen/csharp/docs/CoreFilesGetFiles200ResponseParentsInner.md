@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreFilesGetFiles200ResponseParentsInner
+# MoodleClient.Model.CoreFilesGetFiles200ResponseParentsInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonFinishAttempt200Response
+# MoodleClient.Model.ModLessonFinishAttempt200Response
 
 ## Properties
 

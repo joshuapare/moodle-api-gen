@@ -16,58 +16,58 @@ export class ModLtiGetToolTypesAndProxies200ResponseTypesInnerUrls {
     /**
     * Access Token URL
     */
-    'accesstoken': string;
+    'Accesstoken': string;
     /**
     * Authorisation Request URL
     */
-    'authrequest': string;
+    'Authrequest': string;
     /**
     * Tool type edit URL
     */
-    'course'?: string;
+    'Course'?: string;
     /**
     * Tool type edit URL
     */
-    'edit': string;
+    'Edit': string;
     /**
     * Tool type icon URL
     */
-    'icon': string;
+    'Icon': string;
     /**
     * Public Keyset URL
     */
-    'publickeyset': string;
+    'Publickeyset': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "accesstoken",
+            "name": "Accesstoken",
             "baseName": "accesstoken",
             "type": "string"
         },
         {
-            "name": "authrequest",
+            "name": "Authrequest",
             "baseName": "authrequest",
             "type": "string"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "string"
         },
         {
-            "name": "edit",
+            "name": "Edit",
             "baseName": "edit",
             "type": "string"
         },
         {
-            "name": "icon",
+            "name": "Icon",
             "baseName": "icon",
             "type": "string"
         },
         {
-            "name": "publickeyset",
+            "name": "Publickeyset",
             "baseName": "publickeyset",
             "type": "string"
         }    ];

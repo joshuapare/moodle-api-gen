@@ -20,235 +20,235 @@ export class ModChoiceGetChoicesByCourses200ResponseChoicesInner {
     /**
     * Allow multiple choices
     */
-    'allowmultiple'?: boolean = null;
+    'Allowmultiple'?: boolean = null;
     /**
     * Allow update
     */
-    'allowupdate'?: boolean = null;
+    'Allowupdate'?: boolean = null;
     /**
     * Completion on user submission
     */
-    'completionsubmit'?: boolean = null;
+    'Completionsubmit'?: boolean = null;
     /**
     * Course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * Course module id
     */
-    'coursemodule'?: number;
+    'Coursemodule'?: number;
     /**
     * Display mode (vertical, horizontal)
     */
-    'display'?: number = null;
+    'Display'?: number = null;
     /**
     * Group id
     */
-    'groupingid'?: number;
+    'Groupingid'?: number;
     /**
     * Group mode
     */
-    'groupmode'?: number;
+    'Groupmode'?: number;
     /**
     * Activity instance id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Include inactive users
     */
-    'includeinactive'?: boolean = null;
+    'Includeinactive'?: boolean = null;
     /**
     * Activity introduction
     */
-    'intro'?: string;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number;
+    'Introformat'?: number;
     /**
     * Forced activity language
     */
-    'lang'?: string;
+    'Lang'?: string;
     /**
     * Limit unswers
     */
-    'limitanswers'?: boolean = null;
+    'Limitanswers'?: boolean = null;
     /**
     * Activity name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * If choice is published
     */
-    'publish'?: boolean = null;
+    'Publish'?: boolean = null;
     /**
     * Course section id
     */
-    'section'?: number;
+    'Section'?: number;
     /**
     * Show available spaces
     */
-    'showavailable'?: boolean = null;
+    'Showavailable'?: boolean = null;
     /**
     * Show preview before timeopen
     */
-    'showpreview'?: boolean = null;
+    'Showpreview'?: boolean = null;
     /**
     * 0 never, 1 after answer, 2 after close, 3 always
     */
-    'showresults'?: number = null;
+    'Showresults'?: number = null;
     /**
     * Show users who not answered yet
     */
-    'showunanswered'?: boolean = null;
+    'Showunanswered'?: boolean = null;
     /**
     * Date of closing validity
     */
-    'timeclose'?: number = null;
+    'Timeclose'?: number = null;
     /**
     * Time of last modification
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Date of opening validity
     */
-    'timeopen'?: number = null;
+    'Timeopen'?: number = null;
     /**
     * Visible
     */
-    'visible'?: boolean;
+    'Visible'?: boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allowmultiple",
+            "name": "Allowmultiple",
             "baseName": "allowmultiple",
             "type": "boolean"
         },
         {
-            "name": "allowupdate",
+            "name": "Allowupdate",
             "baseName": "allowupdate",
             "type": "boolean"
         },
         {
-            "name": "completionsubmit",
+            "name": "Completionsubmit",
             "baseName": "completionsubmit",
             "type": "boolean"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "coursemodule",
+            "name": "Coursemodule",
             "baseName": "coursemodule",
             "type": "number"
         },
         {
-            "name": "display",
+            "name": "Display",
             "baseName": "display",
             "type": "number"
         },
         {
-            "name": "groupingid",
+            "name": "Groupingid",
             "baseName": "groupingid",
             "type": "number"
         },
         {
-            "name": "groupmode",
+            "name": "Groupmode",
             "baseName": "groupmode",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "includeinactive",
+            "name": "Includeinactive",
             "baseName": "includeinactive",
             "type": "boolean"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "limitanswers",
+            "name": "Limitanswers",
             "baseName": "limitanswers",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "publish",
+            "name": "Publish",
             "baseName": "publish",
             "type": "boolean"
         },
         {
-            "name": "section",
+            "name": "Section",
             "baseName": "section",
             "type": "number"
         },
         {
-            "name": "showavailable",
+            "name": "Showavailable",
             "baseName": "showavailable",
             "type": "boolean"
         },
         {
-            "name": "showpreview",
+            "name": "Showpreview",
             "baseName": "showpreview",
             "type": "boolean"
         },
         {
-            "name": "showresults",
+            "name": "Showresults",
             "baseName": "showresults",
             "type": "number"
         },
         {
-            "name": "showunanswered",
+            "name": "Showunanswered",
             "baseName": "showunanswered",
             "type": "boolean"
         },
         {
-            "name": "timeclose",
+            "name": "Timeclose",
             "baseName": "timeclose",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timeopen",
+            "name": "Timeopen",
             "baseName": "timeopen",
             "type": "number"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

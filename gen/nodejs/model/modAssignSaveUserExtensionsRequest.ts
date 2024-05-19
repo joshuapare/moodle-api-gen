@@ -16,25 +16,25 @@ export class ModAssignSaveUserExtensionsRequest {
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
-    'dates': Array<object>;
-    'userids': Array<object>;
+    'Assignmentid': number;
+    'Dates': Array<object>;
+    'Userids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "dates",
+            "name": "Dates",
             "baseName": "dates",
             "type": "Array<object>"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

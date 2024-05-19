@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolDataprivacyDeleteCategoryRequest
+# MoodleClient.Model.ToolDataprivacyDeleteCategoryRequest
 
 ## Properties
 

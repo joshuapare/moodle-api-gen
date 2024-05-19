@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { EnrolMetaDeleteInstancesRequestInstancesInner } from './enrolMetaDeleteInstancesRequestInstancesInner';
 
 export class EnrolMetaDeleteInstancesRequest {
-    'instances'?: Array<EnrolMetaDeleteInstancesRequestInstancesInner>;
+    'Instances'?: Array<EnrolMetaDeleteInstancesRequestInstancesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instances",
+            "name": "Instances",
             "baseName": "instances",
             "type": "Array<EnrolMetaDeleteInstancesRequestInstancesInner>"
         }    ];

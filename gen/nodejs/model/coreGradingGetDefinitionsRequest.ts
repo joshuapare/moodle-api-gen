@@ -16,28 +16,28 @@ export class CoreGradingGetDefinitionsRequest {
     /**
     * Only the active method
     */
-    'activeonly'?: boolean = 0;
+    'Activeonly'?: boolean = 0;
     /**
     * area name
     */
-    'areaname': string = 'null';
-    'cmids': Array<object>;
+    'Areaname': string = 'null';
+    'Cmids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activeonly",
+            "name": "Activeonly",
             "baseName": "activeonly",
             "type": "boolean"
         },
         {
-            "name": "areaname",
+            "name": "Areaname",
             "baseName": "areaname",
             "type": "string"
         },
         {
-            "name": "cmids",
+            "name": "Cmids",
             "baseName": "cmids",
             "type": "Array<object>"
         }    ];

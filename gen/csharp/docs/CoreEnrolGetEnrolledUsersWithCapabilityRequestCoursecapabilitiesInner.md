@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner
+# MoodleClient.Model.CoreEnrolGetEnrolledUsersWithCapabilityRequestCoursecapabilitiesInner
 
 ## Properties
 

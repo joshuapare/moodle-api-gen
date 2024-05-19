@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockIomadCompanyAdminGetCompaniesRequest
+# MoodleClient.Model.BlockIomadCompanyAdminGetCompaniesRequest
 
 ## Properties
 

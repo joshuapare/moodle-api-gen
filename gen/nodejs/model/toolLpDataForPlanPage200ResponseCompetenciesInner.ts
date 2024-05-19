@@ -17,31 +17,31 @@ import { ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetency } from 
 import { ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetencyplan } from './toolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetencyplan';
 
 export class ToolLpDataForPlanPage200ResponseCompetenciesInner {
-    'competency'?: CoreCompetencyCreateCompetency200Response;
-    'comppath'?: ToolLpDataForCompetencySummary200ResponseComppath;
-    'usercompetency'?: ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetency;
-    'usercompetencyplan'?: ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetencyplan;
+    'Competency'?: CoreCompetencyCreateCompetency200Response;
+    'Comppath'?: ToolLpDataForCompetencySummary200ResponseComppath;
+    'Usercompetency'?: ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetency;
+    'Usercompetencyplan'?: ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetencyplan;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "CoreCompetencyCreateCompetency200Response"
         },
         {
-            "name": "comppath",
+            "name": "Comppath",
             "baseName": "comppath",
             "type": "ToolLpDataForCompetencySummary200ResponseComppath"
         },
         {
-            "name": "usercompetency",
+            "name": "Usercompetency",
             "baseName": "usercompetency",
             "type": "ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetency"
         },
         {
-            "name": "usercompetencyplan",
+            "name": "Usercompetencyplan",
             "baseName": "usercompetencyplan",
             "type": "ToolLpDataForPlanPage200ResponseCompetenciesInnerUsercompetencyplan"
         }    ];

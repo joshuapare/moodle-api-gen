@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizUpdateFilterConditionRequest
+# MoodleClient.Model.ModQuizUpdateFilterConditionRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencySetCourseCompetencyRuleoutcomeRequest
+# MoodleClient.Model.CoreCompetencySetCourseCompetencyRuleoutcomeRequest
 
 ## Properties
 

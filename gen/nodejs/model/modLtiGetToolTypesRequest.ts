@@ -16,13 +16,13 @@ export class ModLtiGetToolTypesRequest {
     /**
     * Tool proxy id
     */
-    'toolproxyid'?: number = 0;
+    'Toolproxyid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "toolproxyid",
+            "name": "Toolproxyid",
             "baseName": "toolproxyid",
             "type": "number"
         }    ];

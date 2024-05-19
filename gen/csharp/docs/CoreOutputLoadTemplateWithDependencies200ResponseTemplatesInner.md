@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner
+# MoodleClient.Model.CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner
 
 ## Properties
 

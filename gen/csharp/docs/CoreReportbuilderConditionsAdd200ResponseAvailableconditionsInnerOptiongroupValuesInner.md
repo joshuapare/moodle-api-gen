@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroupValuesInner
+# MoodleClient.Model.CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInnerOptiongroupValuesInner
 
 ## Properties
 

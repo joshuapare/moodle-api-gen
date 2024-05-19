@@ -16,31 +16,31 @@ export class ModLtiCreateToolTypeRequest {
     /**
     * URL to cardridge to load tool information
     */
-    'cartridgeurl'?: string = '';
+    'Cartridgeurl'?: string = '';
     /**
     * Consumer key
     */
-    'key'?: string = '';
+    'Key'?: string = '';
     /**
     * Shared secret
     */
-    'secret'?: string = '';
+    'Secret'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cartridgeurl",
+            "name": "Cartridgeurl",
             "baseName": "cartridgeurl",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "secret",
+            "name": "Secret",
             "baseName": "secret",
             "type": "string"
         }    ];

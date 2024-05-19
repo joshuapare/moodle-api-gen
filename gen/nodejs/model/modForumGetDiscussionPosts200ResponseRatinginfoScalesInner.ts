@@ -20,55 +20,55 @@ export class ModForumGetDiscussionPosts200ResponseRatinginfoScalesInner {
     /**
     * Course id.
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * Scale id.
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Whether is a numeric scale.
     */
-    'isnumeric'?: boolean;
-    'items'?: Array<ModForumGetDiscussionPosts200ResponseRatinginfoScalesInnerItemsInner>;
+    'Isnumeric'?: boolean;
+    'Items'?: Array<ModForumGetDiscussionPosts200ResponseRatinginfoScalesInnerItemsInner>;
     /**
     * Max value for the scale.
     */
-    'max'?: number;
+    'Max'?: number;
     /**
     * Scale name (when a real scale is used).
     */
-    'name'?: string;
+    'Name'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isnumeric",
+            "name": "Isnumeric",
             "baseName": "isnumeric",
             "type": "boolean"
         },
         {
-            "name": "items",
+            "name": "Items",
             "baseName": "items",
             "type": "Array<ModForumGetDiscussionPosts200ResponseRatinginfoScalesInnerItemsInner>"
         },
         {
-            "name": "max",
+            "name": "Max",
             "baseName": "max",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         }    ];

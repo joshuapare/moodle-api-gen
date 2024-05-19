@@ -16,148 +16,148 @@ export class ModQuizGetAttemptData200ResponseAttempt {
     /**
     * Sequentially numbers this students attempts at this quiz.
     */
-    'attempt'?: number = null;
+    'Attempt'?: number = null;
     /**
     * Attempt current page.
     */
-    'currentpage'?: number = null;
+    'Currentpage'?: number = null;
     /**
     * Time when the student was notified that manual grading of their attempt was complete.
     */
-    'gradednotificationsenttime'?: number = null;
+    'Gradednotificationsenttime'?: number = null;
     /**
     * Attempt id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Attempt layout.
     */
-    'layout'?: string = 'null';
+    'Layout'?: string = 'null';
     /**
     * Whether is a preview attempt or not.
     */
-    'preview'?: number = null;
+    'Preview'?: number = null;
     /**
     * Foreign key reference to the quiz that was attempted.
     */
-    'quiz'?: number = null;
+    'Quiz'?: number = null;
     /**
     * The current state of the attempts. \'inprogress\',                                                 \'overdue\', \'finished\' or \'abandoned\'.
     */
-    'state'?: string = 'null';
+    'State'?: string = 'null';
     /**
     * Total marks for this attempt.
     */
-    'sumgrades'?: number = null;
+    'Sumgrades'?: number = null;
     /**
     * Next time quiz cron should check attempt for                                                         state changes.  NULL means never check.
     */
-    'timecheckstate'?: number = null;
+    'Timecheckstate'?: number = null;
     /**
     * Time when the attempt was submitted.                                                     0 if the attempt has not been submitted yet.
     */
-    'timefinish'?: number = null;
+    'Timefinish'?: number = null;
     /**
     * Last modified time.
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * Last modified time via webservices.
     */
-    'timemodifiedoffline'?: number;
+    'Timemodifiedoffline'?: number;
     /**
     * Time when the attempt was started.
     */
-    'timestart'?: number = null;
+    'Timestart'?: number = null;
     /**
     * Foreign key reference to the question_usage that holds the                                                     details of the the question_attempts that make up this quiz                                                     attempt.
     */
-    'uniqueid'?: number = null;
+    'Uniqueid'?: number = null;
     /**
     * Foreign key reference to the user whose attempt this is.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attempt",
+            "name": "Attempt",
             "baseName": "attempt",
             "type": "number"
         },
         {
-            "name": "currentpage",
+            "name": "Currentpage",
             "baseName": "currentpage",
             "type": "number"
         },
         {
-            "name": "gradednotificationsenttime",
+            "name": "Gradednotificationsenttime",
             "baseName": "gradednotificationsenttime",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "layout",
+            "name": "Layout",
             "baseName": "layout",
             "type": "string"
         },
         {
-            "name": "preview",
+            "name": "Preview",
             "baseName": "preview",
             "type": "number"
         },
         {
-            "name": "quiz",
+            "name": "Quiz",
             "baseName": "quiz",
             "type": "number"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "string"
         },
         {
-            "name": "sumgrades",
+            "name": "Sumgrades",
             "baseName": "sumgrades",
             "type": "number"
         },
         {
-            "name": "timecheckstate",
+            "name": "Timecheckstate",
             "baseName": "timecheckstate",
             "type": "number"
         },
         {
-            "name": "timefinish",
+            "name": "Timefinish",
             "baseName": "timefinish",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timemodifiedoffline",
+            "name": "Timemodifiedoffline",
             "baseName": "timemodifiedoffline",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "uniqueid",
+            "name": "Uniqueid",
             "baseName": "uniqueid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

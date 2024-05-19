@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiIsCartridge200Response
+# MoodleClient.Model.ModLtiIsCartridge200Response
 
 ## Properties
 

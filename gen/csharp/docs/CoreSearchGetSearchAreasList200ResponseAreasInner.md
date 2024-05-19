@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreSearchGetSearchAreasList200ResponseAreasInner
+# MoodleClient.Model.CoreSearchGetSearchAreasList200ResponseAreasInner
 Search area
 
 ## Properties

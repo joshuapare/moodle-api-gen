@@ -16,22 +16,22 @@ export class ModGlossaryGetEntryById200ResponsePermissions {
     /**
     * Whether the user can delete the entry.
     */
-    'candelete': boolean = null;
+    'Candelete': boolean = null;
     /**
     * Whether the user can update the entry.
     */
-    'canupdate': boolean = null;
+    'Canupdate': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "candelete",
+            "name": "Candelete",
             "baseName": "candelete",
             "type": "boolean"
         },
         {
-            "name": "canupdate",
+            "name": "Canupdate",
             "baseName": "canupdate",
             "type": "boolean"
         }    ];

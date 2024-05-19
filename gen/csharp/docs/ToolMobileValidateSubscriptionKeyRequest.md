@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileValidateSubscriptionKeyRequest
+# MoodleClient.Model.ToolMobileValidateSubscriptionKeyRequest
 
 ## Properties
 

@@ -16,31 +16,31 @@ export class CoreOutputLoadTemplateWithDependencies200ResponseTemplatesInner {
     /**
     * component containing the resource
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * name of the resource
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * resource value
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

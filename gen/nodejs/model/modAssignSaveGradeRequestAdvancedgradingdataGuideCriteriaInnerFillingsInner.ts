@@ -16,49 +16,49 @@ export class ModAssignSaveGradeRequestAdvancedgradingdataGuideCriteriaInnerFilli
     /**
     * criterion id
     */
-    'criterionid'?: number;
+    'Criterionid'?: number;
     /**
     * level id
     */
-    'levelid'?: number;
+    'Levelid'?: number;
     /**
     * remark
     */
-    'remark'?: string;
+    'Remark'?: string;
     /**
     * remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'remarkformat'?: number;
+    'Remarkformat'?: number;
     /**
     * maximum score
     */
-    'score'?: number;
+    'Score'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "criterionid",
+            "name": "Criterionid",
             "baseName": "criterionid",
             "type": "number"
         },
         {
-            "name": "levelid",
+            "name": "Levelid",
             "baseName": "levelid",
             "type": "number"
         },
         {
-            "name": "remark",
+            "name": "Remark",
             "baseName": "remark",
             "type": "string"
         },
         {
-            "name": "remarkformat",
+            "name": "Remarkformat",
             "baseName": "remarkformat",
             "type": "number"
         },
         {
-            "name": "score",
+            "name": "Score",
             "baseName": "score",
             "type": "number"
         }    ];

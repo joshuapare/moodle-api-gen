@@ -17,37 +17,37 @@ export class CoreCalendarGetCalendarAccessInformation200Response {
     /**
     * Whether the user can manage entries.
     */
-    'canmanageentries': boolean = null;
+    'Canmanageentries': boolean = null;
     /**
     * Whether the user can manage group entries.
     */
-    'canmanagegroupentries': boolean = null;
+    'Canmanagegroupentries': boolean = null;
     /**
     * Whether the user can manage its own entries.
     */
-    'canmanageownentries': boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canmanageownentries': boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanageentries",
+            "name": "Canmanageentries",
             "baseName": "canmanageentries",
             "type": "boolean"
         },
         {
-            "name": "canmanagegroupentries",
+            "name": "Canmanagegroupentries",
             "baseName": "canmanagegroupentries",
             "type": "boolean"
         },
         {
-            "name": "canmanageownentries",
+            "name": "Canmanageownentries",
             "baseName": "canmanageownentries",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

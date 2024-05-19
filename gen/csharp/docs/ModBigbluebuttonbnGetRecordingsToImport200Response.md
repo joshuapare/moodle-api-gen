@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModBigbluebuttonbnGetRecordingsToImport200Response
+# MoodleClient.Model.ModBigbluebuttonbnGetRecordingsToImport200Response
 
 ## Properties
 

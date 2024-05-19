@@ -17,55 +17,55 @@ export class ModGlossaryGetEntriesByDateRequest {
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * Glossary entry ID
     */
-    'id': number;
+    'Id': number;
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
-    'options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
+    'Limit'?: number = 20;
+    'Options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
     /**
     * Order the records by: \'CREATION\' or \'UPDATE\'.
     */
-    'order'?: string = 'UPDATE';
+    'Order'?: string = 'UPDATE';
     /**
     * The direction of the order: \'ASC\' or \'DESC\'
     */
-    'sort'?: string = 'DESC';
+    'Sort'?: string = 'DESC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModGlossaryGetEntriesByAuthorRequestOptions"
         },
         {
-            "name": "order",
+            "name": "Order",
             "baseName": "order",
             "type": "string"
         },
         {
-            "name": "sort",
+            "name": "Sort",
             "baseName": "sort",
             "type": "string"
         }    ];

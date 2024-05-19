@@ -17,19 +17,19 @@ export class ModGlossaryPrepareEntryForEdition200ResponseAreasInner {
     /**
     * File area name.
     */
-    'area'?: string;
-    'options'?: Array<ModGlossaryPrepareEntryForEdition200ResponseAreasInnerOptionsInner>;
+    'Area'?: string;
+    'Options'?: Array<ModGlossaryPrepareEntryForEdition200ResponseAreasInnerOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<ModGlossaryPrepareEntryForEdition200ResponseAreasInnerOptionsInner>"
         }    ];

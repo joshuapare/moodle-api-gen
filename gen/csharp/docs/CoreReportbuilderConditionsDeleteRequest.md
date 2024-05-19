@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderConditionsDeleteRequest
+# MoodleClient.Model.CoreReportbuilderConditionsDeleteRequest
 
 ## Properties
 

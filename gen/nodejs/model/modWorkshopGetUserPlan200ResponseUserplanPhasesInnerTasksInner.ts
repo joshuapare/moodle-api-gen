@@ -16,49 +16,49 @@ export class ModWorkshopGetUserPlan200ResponseUserplanPhasesInnerTasksInner {
     /**
     * Task code.
     */
-    'code'?: string = 'null';
+    'Code'?: string = 'null';
     /**
     * Completion information (maybe empty, maybe a boolean or generic info.
     */
-    'completed'?: string = 'null';
+    'Completed'?: string = 'null';
     /**
     * Task details.
     */
-    'details'?: string = 'null';
+    'Details'?: string = 'null';
     /**
     * Link to task.
     */
-    'link'?: string = 'null';
+    'Link'?: string = 'null';
     /**
     * Task title.
     */
-    'title'?: string = 'null';
+    'Title'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "code",
+            "name": "Code",
             "baseName": "code",
             "type": "string"
         },
         {
-            "name": "completed",
+            "name": "Completed",
             "baseName": "completed",
             "type": "string"
         },
         {
-            "name": "details",
+            "name": "Details",
             "baseName": "details",
             "type": "string"
         },
         {
-            "name": "link",
+            "name": "Link",
             "baseName": "link",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

@@ -16,94 +16,94 @@ export class ModForumGetDiscussionPosts200ResponseRatinginfoRatingsInner {
     /**
     * Aggregated ratings grade.
     */
-    'aggregate'?: number;
+    'Aggregate'?: number;
     /**
     * The aggregation label.
     */
-    'aggregatelabel'?: string;
+    'Aggregatelabel'?: string;
     /**
     * Aggregated ratings as string.
     */
-    'aggregatestr'?: string;
+    'Aggregatestr'?: string;
     /**
     * Whether the user can rate the item.
     */
-    'canrate'?: boolean;
+    'Canrate'?: boolean;
     /**
     * Whether the user can view the aggregated grade.
     */
-    'canviewaggregate'?: boolean;
+    'Canviewaggregate'?: boolean;
     /**
     * Ratings count (used when aggregating).
     */
-    'count'?: number;
+    'Count'?: number;
     /**
     * Item id.
     */
-    'itemid'?: number;
+    'Itemid'?: number;
     /**
     * The rating the user gave.
     */
-    'rating'?: number;
+    'Rating'?: number;
     /**
     * Scale id.
     */
-    'scaleid'?: number;
+    'Scaleid'?: number;
     /**
     * User who rated id.
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "aggregate",
+            "name": "Aggregate",
             "baseName": "aggregate",
             "type": "number"
         },
         {
-            "name": "aggregatelabel",
+            "name": "Aggregatelabel",
             "baseName": "aggregatelabel",
             "type": "string"
         },
         {
-            "name": "aggregatestr",
+            "name": "Aggregatestr",
             "baseName": "aggregatestr",
             "type": "string"
         },
         {
-            "name": "canrate",
+            "name": "Canrate",
             "baseName": "canrate",
             "type": "boolean"
         },
         {
-            "name": "canviewaggregate",
+            "name": "Canviewaggregate",
             "baseName": "canviewaggregate",
             "type": "boolean"
         },
         {
-            "name": "count",
+            "name": "Count",
             "baseName": "count",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "rating",
+            "name": "Rating",
             "baseName": "rating",
             "type": "number"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

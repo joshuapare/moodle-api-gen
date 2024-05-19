@@ -16,58 +16,58 @@ export class ModForumSetSubscriptionState200ResponseCapabilities {
     /**
     * favourite
     */
-    'favourite': boolean;
+    'Favourite': boolean;
     /**
     * manage
     */
-    'manage': boolean;
+    'Manage': boolean;
     /**
     * move
     */
-    'move': boolean;
+    'Move': boolean;
     /**
     * pin
     */
-    'pin': boolean;
+    'Pin': boolean;
     /**
     * post
     */
-    'post': boolean;
+    'Post': boolean;
     /**
     * subscribe
     */
-    'subscribe': boolean;
+    'Subscribe': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "favourite",
+            "name": "Favourite",
             "baseName": "favourite",
             "type": "boolean"
         },
         {
-            "name": "manage",
+            "name": "Manage",
             "baseName": "manage",
             "type": "boolean"
         },
         {
-            "name": "move",
+            "name": "Move",
             "baseName": "move",
             "type": "boolean"
         },
         {
-            "name": "pin",
+            "name": "Pin",
             "baseName": "pin",
             "type": "boolean"
         },
         {
-            "name": "post",
+            "name": "Post",
             "baseName": "post",
             "type": "boolean"
         },
         {
-            "name": "subscribe",
+            "name": "Subscribe",
             "baseName": "subscribe",
             "type": "boolean"
         }    ];

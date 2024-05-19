@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetTokensForQrLogin200Response
+# MoodleClient.Model.ToolMobileGetTokensForQrLogin200Response
 
 ## Properties
 

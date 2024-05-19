@@ -14,31 +14,31 @@ import { RequestFile } from './models';
 import { CoreUserSearchIdentity200ResponseListInnerExtrafieldsInner } from './coreUserSearchIdentity200ResponseListInnerExtrafieldsInner';
 
 export class CoreUserSearchIdentity200ResponseListInner {
-    'extrafields'?: Array<CoreUserSearchIdentity200ResponseListInnerExtrafieldsInner>;
+    'Extrafields'?: Array<CoreUserSearchIdentity200ResponseListInnerExtrafieldsInner>;
     /**
     * The fullname of the user
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * ID of the user
     */
-    'id'?: number;
+    'Id'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "extrafields",
+            "name": "Extrafields",
             "baseName": "extrafields",
             "type": "Array<CoreUserSearchIdentity200ResponseListInnerExtrafieldsInner>"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         }    ];

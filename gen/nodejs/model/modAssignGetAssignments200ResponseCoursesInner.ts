@@ -17,49 +17,49 @@ import { ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner } from '
 * course information object
 */
 export class ModAssignGetAssignments200ResponseCoursesInner {
-    'assignments'?: Array<ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner>;
+    'Assignments'?: Array<ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner>;
     /**
     * course full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * course id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * course short name
     */
-    'shortname'?: string;
+    'Shortname'?: string;
     /**
     * last time modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignments",
+            "name": "Assignments",
             "baseName": "assignments",
             "type": "Array<ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner>"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

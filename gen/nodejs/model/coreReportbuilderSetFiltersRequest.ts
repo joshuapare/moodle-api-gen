@@ -16,31 +16,31 @@ export class CoreReportbuilderSetFiltersRequest {
     /**
     * JSON encoded report parameters
     */
-    'parameters'?: string = '';
+    'Parameters'?: string = '';
     /**
     * Report ID
     */
-    'reportid': number;
+    'Reportid': number;
     /**
     * JSON encoded filter values
     */
-    'values': string = 'null';
+    'Values': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "parameters",
+            "name": "Parameters",
             "baseName": "parameters",
             "type": "string"
         },
         {
-            "name": "reportid",
+            "name": "Reportid",
             "baseName": "reportid",
             "type": "number"
         },
         {
-            "name": "values",
+            "name": "Values",
             "baseName": "values",
             "type": "string"
         }    ];

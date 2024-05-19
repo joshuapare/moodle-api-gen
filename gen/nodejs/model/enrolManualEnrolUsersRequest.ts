@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { EnrolManualEnrolUsersRequestEnrolmentsInner } from './enrolManualEnrolUsersRequestEnrolmentsInner';
 
 export class EnrolManualEnrolUsersRequest {
-    'enrolments': Array<EnrolManualEnrolUsersRequestEnrolmentsInner>;
+    'Enrolments': Array<EnrolManualEnrolUsersRequestEnrolmentsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "enrolments",
+            "name": "Enrolments",
             "baseName": "enrolments",
             "type": "Array<EnrolManualEnrolUsersRequestEnrolmentsInner>"
         }    ];

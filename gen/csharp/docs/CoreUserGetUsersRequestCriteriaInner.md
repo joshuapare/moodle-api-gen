@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserGetUsersRequestCriteriaInner
+# MoodleClient.Model.CoreUserGetUsersRequestCriteriaInner
 
 ## Properties
 

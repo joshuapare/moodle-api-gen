@@ -17,43 +17,43 @@ export class ToolLpDataForTemplatesManagePage200Response {
     /**
     * Whether the user manage the templates
     */
-    'canmanage': boolean = null;
-    'navigation': Array<object>;
+    'Canmanage': boolean = null;
+    'Navigation': Array<object>;
     /**
     * The page context id
     */
-    'pagecontextid': number;
+    'Pagecontextid': number;
     /**
     * Url to the tool_lp plugin folder on this Moodle site
     */
-    'pluginbaseurl': string;
-    'templates': Array<ToolLpDataForTemplatesManagePage200ResponseTemplatesInner>;
+    'Pluginbaseurl': string;
+    'Templates': Array<ToolLpDataForTemplatesManagePage200ResponseTemplatesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "navigation",
+            "name": "Navigation",
             "baseName": "navigation",
             "type": "Array<object>"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "templates",
+            "name": "Templates",
             "baseName": "templates",
             "type": "Array<ToolLpDataForTemplatesManagePage200ResponseTemplatesInner>"
         }    ];

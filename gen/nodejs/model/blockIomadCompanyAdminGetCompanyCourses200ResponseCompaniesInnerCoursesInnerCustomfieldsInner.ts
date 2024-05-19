@@ -16,31 +16,31 @@ export class BlockIomadCompanyAdminGetCompanyCourses200ResponseCompaniesInnerCou
     /**
     * Custom field id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Custom field name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Custom field data value
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

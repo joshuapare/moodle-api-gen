@@ -16,31 +16,31 @@ export class QbankTagquestionSubmitTagsFormRequest {
     /**
     * The editing context id
     */
-    'contextid': number;
+    'Contextid': number;
     /**
     * The data from the tag form
     */
-    'formdata': string;
+    'Formdata': string;
     /**
     * The question id
     */
-    'questionid': number;
+    'Questionid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "formdata",
+            "name": "Formdata",
             "baseName": "formdata",
             "type": "string"
         },
         {
-            "name": "questionid",
+            "name": "Questionid",
             "baseName": "questionid",
             "type": "number"
         }    ];

@@ -16,121 +16,121 @@ export class CoreCompetencyUpdatePlanRequestPlan {
     /**
     * description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * duedate
     */
-    'duedate'?: number = null;
+    'Duedate'?: number = null;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * origtemplateid
     */
-    'origtemplateid'?: number;
+    'Origtemplateid'?: number;
     /**
     * reviewerid
     */
-    'reviewerid'?: number;
+    'Reviewerid'?: number;
     /**
     * status
     */
-    'status'?: number = null;
+    'Status'?: number = null;
     /**
     * templateid
     */
-    'templateid'?: number;
+    'Templateid'?: number;
     /**
     * timecreated
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * timemodified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * userid
     */
-    'userid'?: number;
+    'Userid'?: number;
     /**
     * usermodified
     */
-    'usermodified'?: number;
+    'Usermodified'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "duedate",
+            "name": "Duedate",
             "baseName": "duedate",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "origtemplateid",
+            "name": "Origtemplateid",
             "baseName": "origtemplateid",
             "type": "number"
         },
         {
-            "name": "reviewerid",
+            "name": "Reviewerid",
             "baseName": "reviewerid",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "templateid",
+            "name": "Templateid",
             "baseName": "templateid",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

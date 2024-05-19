@@ -1,4 +1,4 @@
-## @joshuapare/moodle-client-nestjs@4.3.4
+## joshuapare/moodle-client-nestjs@4.3.4
 
 ### Building
 
@@ -15,7 +15,7 @@ In your Nestjs project:
 
 ```
 // without configuring providers
-import { ApiModule } from '@joshuapare/moodle-client-nestjs';
+import { ApiModule } from 'joshuapare/moodle-client-nestjs';
 import { HttpModule } from '@nestjs/axios';
 
 @Module({
@@ -30,7 +30,7 @@ export class AppModule {}
 
 ```
 // configuring providers
-import { ApiModule, Configuration, ConfigurationParameters } from '@joshuapare/moodle-client-nestjs';
+import { ApiModule, Configuration, ConfigurationParameters } from 'joshuapare/moodle-client-nestjs';
 
 export function apiConfigFactory (): Configuration => {
   const params: ConfigurationParameters = {
@@ -49,7 +49,7 @@ export class AppModule {}
 ```
 
 ```
-import { DefaultApi } from '@joshuapare/moodle-client-nestjs';
+import { DefaultApi } from 'joshuapare/moodle-client-nestjs';
 
 export class AppComponent {
     constructor(private apiGateway: DefaultApi) { }
@@ -85,7 +85,7 @@ export class AppModule {
 If different than the generated base path, during app bootstrap, you can provide the base path to your service.
 
 ```
-import { BASE_PATH } from '@joshuapare/moodle-client-nestjs';
+import { BASE_PATH } from 'joshuapare/moodle-client-nestjs';
 
 bootstrap(AppComponent, [
     { provide: BASE_PATH, useValue: 'https://your-web-service.com' },
@@ -94,7 +94,7 @@ bootstrap(AppComponent, [
 or
 
 ```
-import { BASE_PATH } from '@joshuapare/moodle-client-nestjs';
+import { BASE_PATH } from 'joshuapare/moodle-client-nestjs';
 
 @Module({
     imports: [],
@@ -143,7 +143,7 @@ export const environment = {
 
 In the src/app/app.module.ts:
 ```
-import { BASE_PATH } from '@joshuapare/moodle-client-nestjs';
+import { BASE_PATH } from 'joshuapare/moodle-client-nestjs';
 import { environment } from '../environments/environment';
 
 @Module({

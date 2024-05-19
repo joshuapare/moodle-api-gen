@@ -17,19 +17,19 @@ export class ToolLpDataForUserEvidencePage200Response {
     /**
     * Url to the tool_lp plugin folder on this Moodle site
     */
-    'pluginbaseurl': string;
-    'userevidence': ToolLpDataForUserEvidencePage200ResponseUserevidence;
+    'Pluginbaseurl': string;
+    'Userevidence': ToolLpDataForUserEvidencePage200ResponseUserevidence;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "userevidence",
+            "name": "Userevidence",
             "baseName": "userevidence",
             "type": "ToolLpDataForUserEvidencePage200ResponseUserevidence"
         }    ];

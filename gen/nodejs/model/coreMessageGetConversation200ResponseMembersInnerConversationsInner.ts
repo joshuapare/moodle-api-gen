@@ -19,40 +19,40 @@ export class CoreMessageGetConversation200ResponseMembersInnerConversationsInner
     /**
     * Conversations id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Multilang compatible conversation name2
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The timecreated timestamp for the conversation
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * Conversation type: private or public
     */
-    'type'?: number = null;
+    'Type'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         }    ];

@@ -16,58 +16,58 @@ export class CoreCommentAddCommentsRequestCommentsInner {
     /**
     * string comment area
     */
-    'area'?: string = '';
+    'Area'?: string = '';
     /**
     * component
     */
-    'component'?: string;
+    'Component'?: string;
     /**
     * component
     */
-    'content'?: string;
+    'Content'?: string;
     /**
     * contextlevel system, course, user...
     */
-    'contextlevel'?: string = 'null';
+    'Contextlevel'?: string = 'null';
     /**
     * the id of item associated with the contextlevel
     */
-    'instanceid'?: number = null;
+    'Instanceid'?: number = null;
     /**
     * associated id
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "content",
+            "name": "Content",
             "baseName": "content",
             "type": "string"
         },
         {
-            "name": "contextlevel",
+            "name": "Contextlevel",
             "baseName": "contextlevel",
             "type": "string"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         }    ];

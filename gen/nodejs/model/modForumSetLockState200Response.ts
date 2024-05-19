@@ -17,28 +17,28 @@ export class ModForumSetLockState200Response {
     /**
     * The discussion we are locking.
     */
-    'id': number = null;
+    'Id': number = null;
     /**
     * The locked state of the discussion.
     */
-    'locked': boolean = null;
-    'times': ModForumSetLockState200ResponseTimes;
+    'Locked': boolean = null;
+    'Times': ModForumSetLockState200ResponseTimes;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "times",
+            "name": "Times",
             "baseName": "times",
             "type": "ModForumSetLockState200ResponseTimes"
         }    ];

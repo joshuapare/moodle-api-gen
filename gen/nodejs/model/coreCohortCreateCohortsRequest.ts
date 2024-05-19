@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreCohortCreateCohortsRequestCohortsInner } from './coreCohortCreateCohortsRequestCohortsInner';
 
 export class CoreCohortCreateCohortsRequest {
-    'cohorts': Array<CoreCohortCreateCohortsRequestCohortsInner>;
+    'Cohorts': Array<CoreCohortCreateCohortsRequestCohortsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cohorts",
+            "name": "Cohorts",
             "baseName": "cohorts",
             "type": "Array<CoreCohortCreateCohortsRequestCohortsInner>"
         }    ];

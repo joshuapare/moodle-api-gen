@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreReportbuilderReportsGet200ResponseSidebarmenucards
+# MoodleClient.Model.CoreReportbuilderReportsGet200ResponseSidebarmenucards
 
 ## Properties
 

@@ -17,28 +17,28 @@ export class ModAssignGetSubmissionStatus200ResponseAssignmentdata {
     /**
     * Text of activity
     */
-    'activity'?: string = 'null';
+    'Activity'?: string = 'null';
     /**
     * activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'activityformat'?: number;
-    'attachments'?: ModAssignGetSubmissionStatus200ResponseAssignmentdataAttachments;
+    'Activityformat'?: number;
+    'Attachments'?: ModAssignGetSubmissionStatus200ResponseAssignmentdataAttachments;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activity",
+            "name": "Activity",
             "baseName": "activity",
             "type": "string"
         },
         {
-            "name": "activityformat",
+            "name": "Activityformat",
             "baseName": "activityformat",
             "type": "number"
         },
         {
-            "name": "attachments",
+            "name": "Attachments",
             "baseName": "attachments",
             "type": "ModAssignGetSubmissionStatus200ResponseAssignmentdataAttachments"
         }    ];

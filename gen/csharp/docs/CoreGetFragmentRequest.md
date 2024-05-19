@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGetFragmentRequest
+# MoodleClient.Model.CoreGetFragmentRequest
 
 ## Properties
 

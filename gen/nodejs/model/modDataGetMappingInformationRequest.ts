@@ -16,22 +16,22 @@ export class ModDataGetMappingInformationRequest {
     /**
     * Id of the data activity
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * Preset to be imported
     */
-    'importedpreset': string = 'null';
+    'Importedpreset': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "importedpreset",
+            "name": "Importedpreset",
             "baseName": "importedpreset",
             "type": "string"
         }    ];

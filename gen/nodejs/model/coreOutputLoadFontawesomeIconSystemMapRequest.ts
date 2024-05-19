@@ -16,13 +16,13 @@ export class CoreOutputLoadFontawesomeIconSystemMapRequest {
     /**
     * The theme to fetch the map for
     */
-    'themename': string = 'null';
+    'Themename': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "themename",
+            "name": "Themename",
             "baseName": "themename",
             "type": "string"
         }    ];

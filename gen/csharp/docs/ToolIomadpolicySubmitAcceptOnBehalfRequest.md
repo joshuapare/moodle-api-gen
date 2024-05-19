@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolIomadpolicySubmitAcceptOnBehalfRequest
+# MoodleClient.Model.ToolIomadpolicySubmitAcceptOnBehalfRequest
 
 ## Properties
 

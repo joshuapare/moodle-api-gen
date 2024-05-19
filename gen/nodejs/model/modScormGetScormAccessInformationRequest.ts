@@ -16,13 +16,13 @@ export class ModScormGetScormAccessInformationRequest {
     /**
     * scorm instance id.
     */
-    'scormid': number = null;
+    'Scormid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "scormid",
+            "name": "Scormid",
             "baseName": "scormid",
             "type": "number"
         }    ];

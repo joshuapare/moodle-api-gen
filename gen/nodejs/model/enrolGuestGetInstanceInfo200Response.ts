@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { EnrolGuestGetInstanceInfo200ResponseInstanceinfo } from './enrolGuestGetInstanceInfo200ResponseInstanceinfo';
 
 export class EnrolGuestGetInstanceInfo200Response {
-    'instanceinfo': EnrolGuestGetInstanceInfo200ResponseInstanceinfo;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Instanceinfo': EnrolGuestGetInstanceInfo200ResponseInstanceinfo;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instanceinfo",
+            "name": "Instanceinfo",
             "baseName": "instanceinfo",
             "type": "EnrolGuestGetInstanceInfo200ResponseInstanceinfo"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -16,85 +16,85 @@ export class ModAssignGetSubmissionStatus200ResponseFeedbackGrade {
     /**
     * assignment id
     */
-    'assignment'?: number;
+    'Assignment'?: number;
     /**
     * attempt number
     */
-    'attemptnumber': number;
+    'Attemptnumber': number;
     /**
     * grade
     */
-    'grade': string;
+    'Grade': string;
     /**
     * grade rendered into a format suitable for display
     */
-    'gradefordisplay'?: string;
+    'Gradefordisplay'?: string;
     /**
     * grader, -1 if grader is hidden
     */
-    'grader': number;
+    'Grader': number;
     /**
     * grade id
     */
-    'id': number;
+    'Id': number;
     /**
     * grade creation time
     */
-    'timecreated': number;
+    'Timecreated': number;
     /**
     * grade last modified time
     */
-    'timemodified': number;
+    'Timemodified': number;
     /**
     * student id
     */
-    'userid': number;
+    'Userid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignment",
+            "name": "Assignment",
             "baseName": "assignment",
             "type": "number"
         },
         {
-            "name": "attemptnumber",
+            "name": "Attemptnumber",
             "baseName": "attemptnumber",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "string"
         },
         {
-            "name": "gradefordisplay",
+            "name": "Gradefordisplay",
             "baseName": "gradefordisplay",
             "type": "string"
         },
         {
-            "name": "grader",
+            "name": "Grader",
             "baseName": "grader",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserGetUsers200Response
+# MoodleClient.Model.CoreUserGetUsers200Response
 
 ## Properties
 

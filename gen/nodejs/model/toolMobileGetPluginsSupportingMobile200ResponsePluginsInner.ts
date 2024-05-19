@@ -16,82 +16,82 @@ export class ToolMobileGetPluginsSupportingMobile200ResponsePluginsInner {
     /**
     * The Mobile addon (package) name.
     */
-    'addon'?: string = 'null';
+    'Addon'?: string = 'null';
     /**
     * The plugin component name.
     */
-    'component'?: string = 'null';
-    'dependencies'?: Array<object>;
+    'Component'?: string = 'null';
+    'Dependencies'?: Array<object>;
     /**
     * The addon package hash or empty if it doesn\'t exist.
     */
-    'filehash'?: string = 'null';
+    'Filehash'?: string = 'null';
     /**
     * The addon package size or empty if it doesn\'t exist.
     */
-    'filesize'?: number = null;
+    'Filesize'?: number = null;
     /**
     * The addon package url for download                                                             or empty if it doesn\'t exist.
     */
-    'fileurl'?: string = 'null';
+    'Fileurl'?: string = 'null';
     /**
     * Handlers definition (JSON)
     */
-    'handlers'?: string = 'null';
+    'Handlers'?: string = 'null';
     /**
     * Language strings used by the handlers (JSON)
     */
-    'lang'?: string = 'null';
+    'Lang'?: string = 'null';
     /**
     * The plugin version number.
     */
-    'version'?: string = 'null';
+    'Version'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addon",
+            "name": "Addon",
             "baseName": "addon",
             "type": "string"
         },
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "dependencies",
+            "name": "Dependencies",
             "baseName": "dependencies",
             "type": "Array<object>"
         },
         {
-            "name": "filehash",
+            "name": "Filehash",
             "baseName": "filehash",
             "type": "string"
         },
         {
-            "name": "filesize",
+            "name": "Filesize",
             "baseName": "filesize",
             "type": "number"
         },
         {
-            "name": "fileurl",
+            "name": "Fileurl",
             "baseName": "fileurl",
             "type": "string"
         },
         {
-            "name": "handlers",
+            "name": "Handlers",
             "baseName": "handlers",
             "type": "string"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         }    ];

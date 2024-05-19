@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetToolTypesAndProxies200ResponseTypesInnerState
+# MoodleClient.Model.ModLtiGetToolTypesAndProxies200ResponseTypesInnerState
 
 ## Properties
 

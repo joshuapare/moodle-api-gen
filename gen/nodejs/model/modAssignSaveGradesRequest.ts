@@ -17,28 +17,28 @@ export class ModAssignSaveGradesRequest {
     /**
     * If true, this grade will be applied to all members of the group (for group assignments).
     */
-    'applytoall': boolean;
+    'Applytoall': boolean;
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
-    'grades': Array<ModAssignSaveGradesRequestGradesInner>;
+    'Assignmentid': number;
+    'Grades': Array<ModAssignSaveGradesRequestGradesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "applytoall",
+            "name": "Applytoall",
             "baseName": "applytoall",
             "type": "boolean"
         },
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "grades",
+            "name": "Grades",
             "baseName": "grades",
             "type": "Array<ModAssignSaveGradesRequestGradesInner>"
         }    ];

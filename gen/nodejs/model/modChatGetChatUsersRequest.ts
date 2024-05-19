@@ -16,13 +16,13 @@ export class ModChatGetChatUsersRequest {
     /**
     * chat session id (obtained via mod_chat_login_user)
     */
-    'chatsid': string;
+    'Chatsid': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatsid",
+            "name": "Chatsid",
             "baseName": "chatsid",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageUnblockUserRequest
+# MoodleClient.Model.CoreMessageUnblockUserRequest
 
 ## Properties
 

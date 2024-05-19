@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageSendInstantMessagesRequestMessagesInner
+# MoodleClient.Model.CoreMessageSendInstantMessagesRequestMessagesInner
 
 ## Properties
 

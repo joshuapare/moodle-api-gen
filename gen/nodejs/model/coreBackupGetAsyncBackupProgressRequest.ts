@@ -13,22 +13,22 @@
 import { RequestFile } from './models';
 
 export class CoreBackupGetAsyncBackupProgressRequest {
-    'backupids': Array<object>;
+    'Backupids': Array<object>;
     /**
     * Context id
     */
-    'contextid': number;
+    'Contextid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "backupids",
+            "name": "Backupids",
             "baseName": "backupids",
             "type": "Array<object>"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         }    ];

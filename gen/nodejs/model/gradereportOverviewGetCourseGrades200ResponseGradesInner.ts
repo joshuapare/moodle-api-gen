@@ -16,40 +16,40 @@ export class GradereportOverviewGetCourseGrades200ResponseGradesInner {
     /**
     * Course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * Grade formatted
     */
-    'grade'?: string = 'null';
+    'Grade'?: string = 'null';
     /**
     * Your rank in the course
     */
-    'rank'?: number = null;
+    'Rank'?: number = null;
     /**
     * Raw grade, not formatted
     */
-    'rawgrade'?: string = 'null';
+    'Rawgrade'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "string"
         },
         {
-            "name": "rank",
+            "name": "Rank",
             "baseName": "rank",
             "type": "number"
         },
         {
-            "name": "rawgrade",
+            "name": "Rawgrade",
             "baseName": "rawgrade",
             "type": "string"
         }    ];

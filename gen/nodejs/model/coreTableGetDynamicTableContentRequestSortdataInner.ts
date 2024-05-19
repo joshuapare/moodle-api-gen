@@ -16,22 +16,22 @@ export class CoreTableGetDynamicTableContentRequestSortdataInner {
     /**
     * The name of a sortable column
     */
-    'sortby'?: string = 'null';
+    'Sortby'?: string = 'null';
     /**
     * The direction that this column should be sorted by
     */
-    'sortorder'?: string = 'null';
+    'Sortorder'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "sortby",
+            "name": "Sortby",
             "baseName": "sortby",
             "type": "string"
         },
         {
-            "name": "sortorder",
+            "name": "Sortorder",
             "baseName": "sortorder",
             "type": "string"
         }    ];

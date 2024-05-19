@@ -16,22 +16,22 @@ export class CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInner
     /**
     * Completion description
     */
-    'description': string = 'null';
+    'Description': string = 'null';
     /**
     * Completion status
     */
-    'status': number = null;
+    'Status': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         }    ];

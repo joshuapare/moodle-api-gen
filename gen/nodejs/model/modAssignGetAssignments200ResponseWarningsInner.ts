@@ -19,40 +19,40 @@ export class ModAssignGetAssignments200ResponseWarningsInner {
     /**
     * item can be \'course\' (errorcode 1 or 2) or \'module\' (errorcode 1)
     */
-    'item'?: string = 'null';
+    'Item'?: string = 'null';
     /**
     * When item is a course then itemid is a course id. When the item is a module then itemid is a module id
     */
-    'itemid'?: number = null;
+    'Itemid'?: number = null;
     /**
     * untranslated english message to explain the warning
     */
-    'message'?: string;
+    'Message'?: string;
     /**
     * errorcode can be 1 (no access rights) or 2 (not enrolled or no permissions)
     */
-    'warningcode'?: string = 'null';
+    'Warningcode'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "item",
+            "name": "Item",
             "baseName": "item",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "warningcode",
+            "name": "Warningcode",
             "baseName": "warningcode",
             "type": "string"
         }    ];

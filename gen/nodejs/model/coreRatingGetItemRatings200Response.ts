@@ -15,19 +15,19 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { CoreRatingGetItemRatings200ResponseRatingsInner } from './coreRatingGetItemRatings200ResponseRatingsInner';
 
 export class CoreRatingGetItemRatings200Response {
-    'ratings': Array<CoreRatingGetItemRatings200ResponseRatingsInner>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Ratings': Array<CoreRatingGetItemRatings200ResponseRatingsInner>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ratings",
+            "name": "Ratings",
             "baseName": "ratings",
             "type": "Array<CoreRatingGetItemRatings200ResponseRatingsInner>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

@@ -15,19 +15,19 @@ import { CoreCompetencyCreateCompetency200Response } from './coreCompetencyCreat
 import { ToolLpDataForUserCompetencySummary200ResponseUsercompetency } from './toolLpDataForUserCompetencySummary200ResponseUsercompetency';
 
 export class ToolLpDataForUserEvidenceListPage200ResponseEvidenceInnerUsercompetenciesInner {
-    'competency'?: CoreCompetencyCreateCompetency200Response;
-    'usercompetency'?: ToolLpDataForUserCompetencySummary200ResponseUsercompetency;
+    'Competency'?: CoreCompetencyCreateCompetency200Response;
+    'Usercompetency'?: ToolLpDataForUserCompetencySummary200ResponseUsercompetency;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "CoreCompetencyCreateCompetency200Response"
         },
         {
-            "name": "usercompetency",
+            "name": "Usercompetency",
             "baseName": "usercompetency",
             "type": "ToolLpDataForUserCompetencySummary200ResponseUsercompetency"
         }    ];

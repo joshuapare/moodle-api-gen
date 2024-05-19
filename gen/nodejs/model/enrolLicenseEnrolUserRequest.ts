@@ -16,31 +16,31 @@ export class EnrolLicenseEnrolUserRequest {
     /**
     * Id of the course
     */
-    'courseid': number = null;
+    'Courseid': number = null;
     /**
     * Instance id oflicenseenrolment plugin.
     */
-    'instanceid'?: number = 0;
+    'Instanceid'?: number = 0;
     /**
     * Enrolment key
     */
-    'password'?: string = '';
+    'Password'?: string = '';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "instanceid",
+            "name": "Instanceid",
             "baseName": "instanceid",
             "type": "number"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         }    ];

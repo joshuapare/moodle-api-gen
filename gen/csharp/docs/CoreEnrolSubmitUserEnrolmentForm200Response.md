@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreEnrolSubmitUserEnrolmentForm200Response
+# MoodleClient.Model.CoreEnrolSubmitUserEnrolmentForm200Response
 
 ## Properties
 

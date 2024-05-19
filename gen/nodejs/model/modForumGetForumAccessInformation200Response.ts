@@ -17,334 +17,334 @@ export class ModForumGetForumAccessInformation200Response {
     /**
     * Whether the user has the capability mod/forum:addinstance allowed.
     */
-    'canaddinstance'?: boolean = null;
+    'Canaddinstance'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:addnews allowed.
     */
-    'canaddnews'?: boolean = null;
+    'Canaddnews'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:addquestion allowed.
     */
-    'canaddquestion'?: boolean = null;
+    'Canaddquestion'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:allowforcesubscribe allowed.
     */
-    'canallowforcesubscribe'?: boolean = null;
+    'Canallowforcesubscribe'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:canmailnow allowed.
     */
-    'cancanmailnow'?: boolean = null;
+    'Cancanmailnow'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:canoverridecutoff allowed.
     */
-    'cancanoverridecutoff'?: boolean = null;
+    'Cancanoverridecutoff'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:canoverridediscussionlock allowed.
     */
-    'cancanoverridediscussionlock'?: boolean = null;
+    'Cancanoverridediscussionlock'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:canposttomygroups allowed.
     */
-    'cancanposttomygroups'?: boolean = null;
+    'Cancanposttomygroups'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:cantogglefavourite allowed.
     */
-    'cancantogglefavourite'?: boolean = null;
+    'Cancantogglefavourite'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:createattachment allowed.
     */
-    'cancreateattachment'?: boolean = null;
+    'Cancreateattachment'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:deleteanypost allowed.
     */
-    'candeleteanypost'?: boolean = null;
+    'Candeleteanypost'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:deleteownpost allowed.
     */
-    'candeleteownpost'?: boolean = null;
+    'Candeleteownpost'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:editanypost allowed.
     */
-    'caneditanypost'?: boolean = null;
+    'Caneditanypost'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:exportdiscussion allowed.
     */
-    'canexportdiscussion'?: boolean = null;
+    'Canexportdiscussion'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:exportforum allowed.
     */
-    'canexportforum'?: boolean = null;
+    'Canexportforum'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:exportownpost allowed.
     */
-    'canexportownpost'?: boolean = null;
+    'Canexportownpost'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:exportpost allowed.
     */
-    'canexportpost'?: boolean = null;
+    'Canexportpost'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:grade allowed.
     */
-    'cangrade'?: boolean = null;
+    'Cangrade'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:managesubscriptions allowed.
     */
-    'canmanagesubscriptions'?: boolean = null;
+    'Canmanagesubscriptions'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:movediscussions allowed.
     */
-    'canmovediscussions'?: boolean = null;
+    'Canmovediscussions'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:pindiscussions allowed.
     */
-    'canpindiscussions'?: boolean = null;
+    'Canpindiscussions'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:postprivatereply allowed.
     */
-    'canpostprivatereply'?: boolean = null;
+    'Canpostprivatereply'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:postwithoutthrottling allowed.
     */
-    'canpostwithoutthrottling'?: boolean = null;
+    'Canpostwithoutthrottling'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:rate allowed.
     */
-    'canrate'?: boolean = null;
+    'Canrate'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:readprivatereplies allowed.
     */
-    'canreadprivatereplies'?: boolean = null;
+    'Canreadprivatereplies'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:replynews allowed.
     */
-    'canreplynews'?: boolean = null;
+    'Canreplynews'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:replypost allowed.
     */
-    'canreplypost'?: boolean = null;
+    'Canreplypost'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:splitdiscussions allowed.
     */
-    'cansplitdiscussions'?: boolean = null;
+    'Cansplitdiscussions'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:startdiscussion allowed.
     */
-    'canstartdiscussion'?: boolean = null;
+    'Canstartdiscussion'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewallratings allowed.
     */
-    'canviewallratings'?: boolean = null;
+    'Canviewallratings'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewanyrating allowed.
     */
-    'canviewanyrating'?: boolean = null;
+    'Canviewanyrating'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewdiscussion allowed.
     */
-    'canviewdiscussion'?: boolean = null;
+    'Canviewdiscussion'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewhiddentimedposts allowed.
     */
-    'canviewhiddentimedposts'?: boolean = null;
+    'Canviewhiddentimedposts'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewqandawithoutposting allowed.
     */
-    'canviewqandawithoutposting'?: boolean = null;
+    'Canviewqandawithoutposting'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewrating allowed.
     */
-    'canviewrating'?: boolean = null;
+    'Canviewrating'?: boolean = null;
     /**
     * Whether the user has the capability mod/forum:viewsubscribers allowed.
     */
-    'canviewsubscribers'?: boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canviewsubscribers'?: boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canaddinstance",
+            "name": "Canaddinstance",
             "baseName": "canaddinstance",
             "type": "boolean"
         },
         {
-            "name": "canaddnews",
+            "name": "Canaddnews",
             "baseName": "canaddnews",
             "type": "boolean"
         },
         {
-            "name": "canaddquestion",
+            "name": "Canaddquestion",
             "baseName": "canaddquestion",
             "type": "boolean"
         },
         {
-            "name": "canallowforcesubscribe",
+            "name": "Canallowforcesubscribe",
             "baseName": "canallowforcesubscribe",
             "type": "boolean"
         },
         {
-            "name": "cancanmailnow",
+            "name": "Cancanmailnow",
             "baseName": "cancanmailnow",
             "type": "boolean"
         },
         {
-            "name": "cancanoverridecutoff",
+            "name": "Cancanoverridecutoff",
             "baseName": "cancanoverridecutoff",
             "type": "boolean"
         },
         {
-            "name": "cancanoverridediscussionlock",
+            "name": "Cancanoverridediscussionlock",
             "baseName": "cancanoverridediscussionlock",
             "type": "boolean"
         },
         {
-            "name": "cancanposttomygroups",
+            "name": "Cancanposttomygroups",
             "baseName": "cancanposttomygroups",
             "type": "boolean"
         },
         {
-            "name": "cancantogglefavourite",
+            "name": "Cancantogglefavourite",
             "baseName": "cancantogglefavourite",
             "type": "boolean"
         },
         {
-            "name": "cancreateattachment",
+            "name": "Cancreateattachment",
             "baseName": "cancreateattachment",
             "type": "boolean"
         },
         {
-            "name": "candeleteanypost",
+            "name": "Candeleteanypost",
             "baseName": "candeleteanypost",
             "type": "boolean"
         },
         {
-            "name": "candeleteownpost",
+            "name": "Candeleteownpost",
             "baseName": "candeleteownpost",
             "type": "boolean"
         },
         {
-            "name": "caneditanypost",
+            "name": "Caneditanypost",
             "baseName": "caneditanypost",
             "type": "boolean"
         },
         {
-            "name": "canexportdiscussion",
+            "name": "Canexportdiscussion",
             "baseName": "canexportdiscussion",
             "type": "boolean"
         },
         {
-            "name": "canexportforum",
+            "name": "Canexportforum",
             "baseName": "canexportforum",
             "type": "boolean"
         },
         {
-            "name": "canexportownpost",
+            "name": "Canexportownpost",
             "baseName": "canexportownpost",
             "type": "boolean"
         },
         {
-            "name": "canexportpost",
+            "name": "Canexportpost",
             "baseName": "canexportpost",
             "type": "boolean"
         },
         {
-            "name": "cangrade",
+            "name": "Cangrade",
             "baseName": "cangrade",
             "type": "boolean"
         },
         {
-            "name": "canmanagesubscriptions",
+            "name": "Canmanagesubscriptions",
             "baseName": "canmanagesubscriptions",
             "type": "boolean"
         },
         {
-            "name": "canmovediscussions",
+            "name": "Canmovediscussions",
             "baseName": "canmovediscussions",
             "type": "boolean"
         },
         {
-            "name": "canpindiscussions",
+            "name": "Canpindiscussions",
             "baseName": "canpindiscussions",
             "type": "boolean"
         },
         {
-            "name": "canpostprivatereply",
+            "name": "Canpostprivatereply",
             "baseName": "canpostprivatereply",
             "type": "boolean"
         },
         {
-            "name": "canpostwithoutthrottling",
+            "name": "Canpostwithoutthrottling",
             "baseName": "canpostwithoutthrottling",
             "type": "boolean"
         },
         {
-            "name": "canrate",
+            "name": "Canrate",
             "baseName": "canrate",
             "type": "boolean"
         },
         {
-            "name": "canreadprivatereplies",
+            "name": "Canreadprivatereplies",
             "baseName": "canreadprivatereplies",
             "type": "boolean"
         },
         {
-            "name": "canreplynews",
+            "name": "Canreplynews",
             "baseName": "canreplynews",
             "type": "boolean"
         },
         {
-            "name": "canreplypost",
+            "name": "Canreplypost",
             "baseName": "canreplypost",
             "type": "boolean"
         },
         {
-            "name": "cansplitdiscussions",
+            "name": "Cansplitdiscussions",
             "baseName": "cansplitdiscussions",
             "type": "boolean"
         },
         {
-            "name": "canstartdiscussion",
+            "name": "Canstartdiscussion",
             "baseName": "canstartdiscussion",
             "type": "boolean"
         },
         {
-            "name": "canviewallratings",
+            "name": "Canviewallratings",
             "baseName": "canviewallratings",
             "type": "boolean"
         },
         {
-            "name": "canviewanyrating",
+            "name": "Canviewanyrating",
             "baseName": "canviewanyrating",
             "type": "boolean"
         },
         {
-            "name": "canviewdiscussion",
+            "name": "Canviewdiscussion",
             "baseName": "canviewdiscussion",
             "type": "boolean"
         },
         {
-            "name": "canviewhiddentimedposts",
+            "name": "Canviewhiddentimedposts",
             "baseName": "canviewhiddentimedposts",
             "type": "boolean"
         },
         {
-            "name": "canviewqandawithoutposting",
+            "name": "Canviewqandawithoutposting",
             "baseName": "canviewqandawithoutposting",
             "type": "boolean"
         },
         {
-            "name": "canviewrating",
+            "name": "Canviewrating",
             "baseName": "canviewrating",
             "type": "boolean"
         },
         {
-            "name": "canviewsubscribers",
+            "name": "Canviewsubscribers",
             "baseName": "canviewsubscribers",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

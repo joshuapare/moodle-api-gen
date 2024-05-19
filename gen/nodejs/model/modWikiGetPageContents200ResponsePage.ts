@@ -17,100 +17,100 @@ export class ModWikiGetPageContents200ResponsePage {
     /**
     * Page contents.
     */
-    'cachedcontent': string;
+    'Cachedcontent': string;
     /**
     * True if user can edit the page.
     */
-    'caneditpage': boolean = null;
+    'Caneditpage': boolean = null;
     /**
     * cachedcontent format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'contentformat'?: number = null;
+    'Contentformat'?: number = null;
     /**
     * Page\'s group ID.
     */
-    'groupid': number = null;
+    'Groupid': number = null;
     /**
     * Page ID.
     */
-    'id': number;
+    'Id': number;
     /**
     * Page\'s subwiki ID.
     */
-    'subwikiid': number = null;
-    'tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
+    'Subwikiid': number = null;
+    'Tags'?: Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>;
     /**
     * Page title.
     */
-    'title': string;
+    'Title': string;
     /**
     * Page\'s user ID.
     */
-    'userid': number = null;
+    'Userid': number = null;
     /**
     * Latest version of the page.
     */
-    'version'?: number = null;
+    'Version'?: number = null;
     /**
     * Page\'s wiki ID.
     */
-    'wikiid': number = null;
+    'Wikiid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cachedcontent",
+            "name": "Cachedcontent",
             "baseName": "cachedcontent",
             "type": "string"
         },
         {
-            "name": "caneditpage",
+            "name": "Caneditpage",
             "baseName": "caneditpage",
             "type": "boolean"
         },
         {
-            "name": "contentformat",
+            "name": "Contentformat",
             "baseName": "contentformat",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "subwikiid",
+            "name": "Subwikiid",
             "baseName": "subwikiid",
             "type": "number"
         },
         {
-            "name": "tags",
+            "name": "Tags",
             "baseName": "tags",
             "type": "Array<ModDataGetEntries200ResponseEntriesInnerTagsInner>"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "number"
         },
         {
-            "name": "wikiid",
+            "name": "Wikiid",
             "baseName": "wikiid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreEnrolSubmitUserEnrolmentFormRequest
+# MoodleClient.Model.CoreEnrolSubmitUserEnrolmentFormRequest
 
 ## Properties
 

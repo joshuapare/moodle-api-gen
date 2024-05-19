@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInner
+# MoodleClient.Model.CoreCompletionGetActivitiesCompletionStatus200ResponseStatusesInnerDetailsInner
 
 ## Properties
 

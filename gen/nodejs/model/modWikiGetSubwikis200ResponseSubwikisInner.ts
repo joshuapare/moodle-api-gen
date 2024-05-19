@@ -19,49 +19,49 @@ export class ModWikiGetSubwikis200ResponseSubwikisInner {
     /**
     * True if user can edit the subwiki.
     */
-    'canedit'?: boolean = null;
+    'Canedit'?: boolean = null;
     /**
     * Group ID.
     */
-    'groupid'?: string = 'null';
+    'Groupid'?: string = 'null';
     /**
     * Subwiki ID.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * User ID.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * Wiki ID.
     */
-    'wikiid'?: number = null;
+    'Wikiid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canedit",
+            "name": "Canedit",
             "baseName": "canedit",
             "type": "boolean"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "wikiid",
+            "name": "Wikiid",
             "baseName": "wikiid",
             "type": "number"
         }    ];

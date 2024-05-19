@@ -17,64 +17,64 @@ export class CoreMoodlenetGetShareInfoActivity200Response {
     /**
     * MoodleNet issuer id
     */
-    'issuerid': number = null;
+    'Issuerid': number = null;
     /**
     * Activity name
     */
-    'name': string = 'null';
+    'Name': string = 'null';
     /**
     * MoodleNet server
     */
-    'server': string = 'null';
+    'Server': string = 'null';
     /**
     * status: true if success
     */
-    'status': boolean;
+    'Status': boolean;
     /**
     * Support page URL
     */
-    'supportpageurl': string = 'null';
+    'Supportpageurl': string = 'null';
     /**
     * Activity type
     */
-    'type': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Type': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "issuerid",
+            "name": "Issuerid",
             "baseName": "issuerid",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "server",
+            "name": "Server",
             "baseName": "server",
             "type": "string"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "boolean"
         },
         {
-            "name": "supportpageurl",
+            "name": "Supportpageurl",
             "baseName": "supportpageurl",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

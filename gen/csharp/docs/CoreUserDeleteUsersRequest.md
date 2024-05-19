@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreUserDeleteUsersRequest
+# MoodleClient.Model.CoreUserDeleteUsersRequest
 
 ## Properties
 

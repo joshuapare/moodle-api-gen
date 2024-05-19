@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.GradereportOverviewGetCourseGrades200Response
+# MoodleClient.Model.GradereportOverviewGetCourseGrades200Response
 
 ## Properties
 

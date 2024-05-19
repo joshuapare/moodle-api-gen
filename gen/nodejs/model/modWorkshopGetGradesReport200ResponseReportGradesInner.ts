@@ -18,97 +18,97 @@ export class ModWorkshopGetGradesReport200ResponseReportGradesInner {
     /**
     * Computed grade for the assessment.
     */
-    'gradinggrade'?: number = null;
-    'reviewedby'?: Array<ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewedbyInner>;
-    'reviewerof'?: Array<ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewerofInner>;
+    'Gradinggrade'?: number = null;
+    'Reviewedby'?: Array<ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewedbyInner>;
+    'Reviewerof'?: Array<ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewerofInner>;
     /**
     * Aggregated grade for the submission.
     */
-    'submissiongrade'?: number = null;
+    'Submissiongrade'?: number = null;
     /**
     * Grade for the assessment overrided                                         by the teacher.
     */
-    'submissiongradeover'?: number = null;
+    'Submissiongradeover'?: number = null;
     /**
     * The id of the user who overrided                                         the grade.
     */
-    'submissiongradeoverby'?: number = null;
+    'Submissiongradeoverby'?: number = null;
     /**
     * Submission id.
     */
-    'submissionid'?: number = null;
+    'Submissionid'?: number = null;
     /**
     * Timestamp submission was updated.
     */
-    'submissionmodified'?: number = null;
+    'Submissionmodified'?: number = null;
     /**
     * Whether is a submission published.
     */
-    'submissionpublished'?: number = null;
+    'Submissionpublished'?: number = null;
     /**
     * Submission title.
     */
-    'submissiontitle'?: string = 'null';
+    'Submissiontitle'?: string = 'null';
     /**
     * The id of the user being displayed in the report.
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "gradinggrade",
+            "name": "Gradinggrade",
             "baseName": "gradinggrade",
             "type": "number"
         },
         {
-            "name": "reviewedby",
+            "name": "Reviewedby",
             "baseName": "reviewedby",
             "type": "Array<ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewedbyInner>"
         },
         {
-            "name": "reviewerof",
+            "name": "Reviewerof",
             "baseName": "reviewerof",
             "type": "Array<ModWorkshopGetGradesReport200ResponseReportGradesInnerReviewerofInner>"
         },
         {
-            "name": "submissiongrade",
+            "name": "Submissiongrade",
             "baseName": "submissiongrade",
             "type": "number"
         },
         {
-            "name": "submissiongradeover",
+            "name": "Submissiongradeover",
             "baseName": "submissiongradeover",
             "type": "number"
         },
         {
-            "name": "submissiongradeoverby",
+            "name": "Submissiongradeoverby",
             "baseName": "submissiongradeoverby",
             "type": "number"
         },
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         },
         {
-            "name": "submissionmodified",
+            "name": "Submissionmodified",
             "baseName": "submissionmodified",
             "type": "number"
         },
         {
-            "name": "submissionpublished",
+            "name": "Submissionpublished",
             "baseName": "submissionpublished",
             "type": "number"
         },
         {
-            "name": "submissiontitle",
+            "name": "Submissiontitle",
             "baseName": "submissiontitle",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -16,22 +16,22 @@ export class BlockIomadCompanyAdminCheckTokenRequestKey0 {
     /**
     * The user moodle session key
     */
-    'token': string = 'null';
+    'Token': string = 'null';
     /**
     * The user that is going to be enrolled
     */
-    'username': string = 'null';
+    'Username': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "token",
+            "name": "Token",
             "baseName": "token",
             "type": "string"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         }    ];

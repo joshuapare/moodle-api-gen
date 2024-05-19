@@ -16,37 +16,37 @@ export class CoreMessageGetMemberInfoRequest {
     /**
     * include contact requests in response
     */
-    'includecontactrequests'?: boolean = false;
+    'Includecontactrequests'?: boolean = false;
     /**
     * include privacy info in response
     */
-    'includeprivacyinfo'?: boolean = false;
+    'Includeprivacyinfo'?: boolean = false;
     /**
     * id of the user
     */
-    'referenceuserid': number = null;
-    'userids': Array<object>;
+    'Referenceuserid': number = null;
+    'Userids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includecontactrequests",
+            "name": "Includecontactrequests",
             "baseName": "includecontactrequests",
             "type": "boolean"
         },
         {
-            "name": "includeprivacyinfo",
+            "name": "Includeprivacyinfo",
             "baseName": "includeprivacyinfo",
             "type": "boolean"
         },
         {
-            "name": "referenceuserid",
+            "name": "Referenceuserid",
             "baseName": "referenceuserid",
             "type": "number"
         },
         {
-            "name": "userids",
+            "name": "Userids",
             "baseName": "userids",
             "type": "Array<object>"
         }    ];

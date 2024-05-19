@@ -16,202 +16,202 @@ export class CoreCalendarGetActionEventsByCourses200ResponseGroupedbycourseInner
     /**
     * coursecategory
     */
-    'coursecategory': string;
+    'Coursecategory': string;
     /**
     * courseimage
     */
-    'courseimage': string;
+    'Courseimage': string;
     /**
     * enddate
     */
-    'enddate': number;
+    'Enddate': number;
     /**
     * fullname
     */
-    'fullname': string;
+    'Fullname': string;
     /**
     * fullnamedisplay
     */
-    'fullnamedisplay': string;
+    'Fullnamedisplay': string;
     /**
     * hasprogress
     */
-    'hasprogress': boolean;
+    'Hasprogress': boolean;
     /**
     * hidden
     */
-    'hidden': boolean;
+    'Hidden': boolean;
     /**
     * id
     */
-    'id': number;
+    'Id': number;
     /**
     * idnumber
     */
-    'idnumber': string;
+    'Idnumber': string;
     /**
     * isfavourite
     */
-    'isfavourite': boolean;
+    'Isfavourite': boolean;
     /**
     * pdfexportfont
     */
-    'pdfexportfont': string;
+    'Pdfexportfont': string;
     /**
     * progress
     */
-    'progress'?: number;
+    'Progress'?: number;
     /**
     * shortname
     */
-    'shortname': string;
+    'Shortname': string;
     /**
     * showactivitydates
     */
-    'showactivitydates': boolean;
+    'Showactivitydates': boolean;
     /**
     * showcompletionconditions
     */
-    'showcompletionconditions': boolean;
+    'Showcompletionconditions': boolean;
     /**
     * showshortname
     */
-    'showshortname': boolean;
+    'Showshortname': boolean;
     /**
     * startdate
     */
-    'startdate': number;
+    'Startdate': number;
     /**
     * summary
     */
-    'summary': string;
+    'Summary': string;
     /**
     * summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'summaryformat': number;
+    'Summaryformat': number;
     /**
     * timeaccess
     */
-    'timeaccess'?: number;
+    'Timeaccess'?: number;
     /**
     * viewurl
     */
-    'viewurl': string;
+    'Viewurl': string;
     /**
     * visible
     */
-    'visible': boolean;
+    'Visible': boolean;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "coursecategory",
+            "name": "Coursecategory",
             "baseName": "coursecategory",
             "type": "string"
         },
         {
-            "name": "courseimage",
+            "name": "Courseimage",
             "baseName": "courseimage",
             "type": "string"
         },
         {
-            "name": "enddate",
+            "name": "Enddate",
             "baseName": "enddate",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "fullnamedisplay",
+            "name": "Fullnamedisplay",
             "baseName": "fullnamedisplay",
             "type": "string"
         },
         {
-            "name": "hasprogress",
+            "name": "Hasprogress",
             "baseName": "hasprogress",
             "type": "boolean"
         },
         {
-            "name": "hidden",
+            "name": "Hidden",
             "baseName": "hidden",
             "type": "boolean"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "idnumber",
+            "name": "Idnumber",
             "baseName": "idnumber",
             "type": "string"
         },
         {
-            "name": "isfavourite",
+            "name": "Isfavourite",
             "baseName": "isfavourite",
             "type": "boolean"
         },
         {
-            "name": "pdfexportfont",
+            "name": "Pdfexportfont",
             "baseName": "pdfexportfont",
             "type": "string"
         },
         {
-            "name": "progress",
+            "name": "Progress",
             "baseName": "progress",
             "type": "number"
         },
         {
-            "name": "shortname",
+            "name": "Shortname",
             "baseName": "shortname",
             "type": "string"
         },
         {
-            "name": "showactivitydates",
+            "name": "Showactivitydates",
             "baseName": "showactivitydates",
             "type": "boolean"
         },
         {
-            "name": "showcompletionconditions",
+            "name": "Showcompletionconditions",
             "baseName": "showcompletionconditions",
             "type": "boolean"
         },
         {
-            "name": "showshortname",
+            "name": "Showshortname",
             "baseName": "showshortname",
             "type": "boolean"
         },
         {
-            "name": "startdate",
+            "name": "Startdate",
             "baseName": "startdate",
             "type": "number"
         },
         {
-            "name": "summary",
+            "name": "Summary",
             "baseName": "summary",
             "type": "string"
         },
         {
-            "name": "summaryformat",
+            "name": "Summaryformat",
             "baseName": "summaryformat",
             "type": "number"
         },
         {
-            "name": "timeaccess",
+            "name": "Timeaccess",
             "baseName": "timeaccess",
             "type": "number"
         },
         {
-            "name": "viewurl",
+            "name": "Viewurl",
             "baseName": "viewurl",
             "type": "string"
         },
         {
-            "name": "visible",
+            "name": "Visible",
             "baseName": "visible",
             "type": "boolean"
         }    ];

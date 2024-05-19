@@ -17,55 +17,55 @@ export class ModFeedbackGetResponsesAnalysis200ResponseAttemptsInner {
     /**
     * Course id
     */
-    'courseid'?: number;
+    'Courseid'?: number;
     /**
     * User full name
     */
-    'fullname'?: string;
+    'Fullname'?: string;
     /**
     * Completed id
     */
-    'id'?: number;
-    'responses'?: Array<ModFeedbackGetResponsesAnalysis200ResponseAttemptsInnerResponsesInner>;
+    'Id'?: number;
+    'Responses'?: Array<ModFeedbackGetResponsesAnalysis200ResponseAttemptsInnerResponsesInner>;
     /**
     * Time modified for the response
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * User who responded
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "responses",
+            "name": "Responses",
             "baseName": "responses",
             "type": "Array<ModFeedbackGetResponsesAnalysis200ResponseAttemptsInnerResponsesInner>"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

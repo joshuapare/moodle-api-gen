@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCohortDeleteCohortMembersRequest
+# MoodleClient.Model.CoreCohortDeleteCohortMembersRequest
 
 ## Properties
 

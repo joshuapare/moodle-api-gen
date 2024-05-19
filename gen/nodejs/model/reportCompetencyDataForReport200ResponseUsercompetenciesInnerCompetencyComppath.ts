@@ -15,46 +15,46 @@ import { ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetency
 import { ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework } from './reportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework';
 
 export class ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppath {
-    'ancestors': Array<ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathAncestorsInner>;
-    'framework': ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework;
+    'Ancestors': Array<ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathAncestorsInner>;
+    'Framework': ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework;
     /**
     * pagecontextid
     */
-    'pagecontextid': number = null;
+    'Pagecontextid': number = null;
     /**
     * pluginbaseurl
     */
-    'pluginbaseurl': string = 'null';
+    'Pluginbaseurl': string = 'null';
     /**
     * showlinks
     */
-    'showlinks': boolean = null;
+    'Showlinks': boolean = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "ancestors",
+            "name": "Ancestors",
             "baseName": "ancestors",
             "type": "Array<ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathAncestorsInner>"
         },
         {
-            "name": "framework",
+            "name": "Framework",
             "baseName": "framework",
             "type": "ReportCompetencyDataForReport200ResponseUsercompetenciesInnerCompetencyComppathFramework"
         },
         {
-            "name": "pagecontextid",
+            "name": "Pagecontextid",
             "baseName": "pagecontextid",
             "type": "number"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "showlinks",
+            "name": "Showlinks",
             "baseName": "showlinks",
             "type": "boolean"
         }    ];

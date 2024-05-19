@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreMessageSendInstantMessagesRequestMessagesInner } from './coreMessageSendInstantMessagesRequestMessagesInner';
 
 export class CoreMessageSendInstantMessagesRequest {
-    'messages': Array<CoreMessageSendInstantMessagesRequestMessagesInner>;
+    'Messages': Array<CoreMessageSendInstantMessagesRequestMessagesInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<CoreMessageSendInstantMessagesRequestMessagesInner>"
         }    ];

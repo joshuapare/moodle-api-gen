@@ -15,37 +15,37 @@ import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUs
 import { ModWorkshopGetSubmissions200ResponseSubmissionsInner } from './modWorkshopGetSubmissions200ResponseSubmissionsInner';
 
 export class ModWorkshopGetSubmissions200Response {
-    'submissions': Array<ModWorkshopGetSubmissions200ResponseSubmissionsInner>;
+    'Submissions': Array<ModWorkshopGetSubmissions200ResponseSubmissionsInner>;
     /**
     * Total count of submissions.
     */
-    'totalcount': number = null;
+    'Totalcount': number = null;
     /**
     * Total size (bytes) of the files attached to all the                     submissions (even the ones not returned due to pagination).
     */
-    'totalfilesize': number = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Totalfilesize': number = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "submissions",
+            "name": "Submissions",
             "baseName": "submissions",
             "type": "Array<ModWorkshopGetSubmissions200ResponseSubmissionsInner>"
         },
         {
-            "name": "totalcount",
+            "name": "Totalcount",
             "baseName": "totalcount",
             "type": "number"
         },
         {
-            "name": "totalfilesize",
+            "name": "Totalfilesize",
             "baseName": "totalfilesize",
             "type": "number"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

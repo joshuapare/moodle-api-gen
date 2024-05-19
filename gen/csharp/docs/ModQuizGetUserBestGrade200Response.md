@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetUserBestGrade200Response
+# MoodleClient.Model.ModQuizGetUserBestGrade200Response
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModPageGetPagesByCourses200Response
+# MoodleClient.Model.ModPageGetPagesByCourses200Response
 
 ## Properties
 

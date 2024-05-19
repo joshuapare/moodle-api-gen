@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreGetStringsRequestStringsInner } from './coreGetStringsRequestStringsInner';
 
 export class CoreGetStringsRequest {
-    'strings': Array<CoreGetStringsRequestStringsInner>;
+    'Strings': Array<CoreGetStringsRequestStringsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "strings",
+            "name": "Strings",
             "baseName": "strings",
             "type": "Array<CoreGetStringsRequestStringsInner>"
         }    ];

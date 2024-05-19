@@ -18,91 +18,91 @@ import { CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesI
 import { ToolLpDataForCompetencySummary200ResponseComppath } from './toolLpDataForCompetencySummary200ResponseComppath';
 
 export class ToolLpDataForCompetencySummary200Response {
-    'competency': CoreCompetencyCreateCompetency200Response;
-    'comppath': ToolLpDataForCompetencySummary200ResponseComppath;
-    'framework': CoreCompetencyDuplicateCompetencyFramework200Response;
+    'Competency': CoreCompetencyCreateCompetency200Response;
+    'Comppath': ToolLpDataForCompetencySummary200ResponseComppath;
+    'Framework': CoreCompetencyDuplicateCompetencyFramework200Response;
     /**
     * hascourses
     */
-    'hascourses': boolean;
+    'Hascourses': boolean;
     /**
     * hasrelatedcompetencies
     */
-    'hasrelatedcompetencies': boolean;
-    'linkedcourses': Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>;
+    'Hasrelatedcompetencies': boolean;
+    'Linkedcourses': Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>;
     /**
     * pluginbaseurl
     */
-    'pluginbaseurl': string;
-    'relatedcompetencies': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
+    'Pluginbaseurl': string;
+    'Relatedcompetencies': Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>;
     /**
     * scaleconfiguration
     */
-    'scaleconfiguration': string;
+    'Scaleconfiguration': string;
     /**
     * scaleid
     */
-    'scaleid': number;
+    'Scaleid': number;
     /**
     * taxonomyterm
     */
-    'taxonomyterm': string;
+    'Taxonomyterm': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "CoreCompetencyCreateCompetency200Response"
         },
         {
-            "name": "comppath",
+            "name": "Comppath",
             "baseName": "comppath",
             "type": "ToolLpDataForCompetencySummary200ResponseComppath"
         },
         {
-            "name": "framework",
+            "name": "Framework",
             "baseName": "framework",
             "type": "CoreCompetencyDuplicateCompetencyFramework200Response"
         },
         {
-            "name": "hascourses",
+            "name": "Hascourses",
             "baseName": "hascourses",
             "type": "boolean"
         },
         {
-            "name": "hasrelatedcompetencies",
+            "name": "Hasrelatedcompetencies",
             "baseName": "hasrelatedcompetencies",
             "type": "boolean"
         },
         {
-            "name": "linkedcourses",
+            "name": "Linkedcourses",
             "baseName": "linkedcourses",
             "type": "Array<CoreCourseGetEnrolledCoursesByTimelineClassification200ResponseCoursesInner>"
         },
         {
-            "name": "pluginbaseurl",
+            "name": "Pluginbaseurl",
             "baseName": "pluginbaseurl",
             "type": "string"
         },
         {
-            "name": "relatedcompetencies",
+            "name": "Relatedcompetencies",
             "baseName": "relatedcompetencies",
             "type": "Array<CoreCompetencyReadUserEvidence200ResponseCompetenciesInner>"
         },
         {
-            "name": "scaleconfiguration",
+            "name": "Scaleconfiguration",
             "baseName": "scaleconfiguration",
             "type": "string"
         },
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         },
         {
-            "name": "taxonomyterm",
+            "name": "Taxonomyterm",
             "baseName": "taxonomyterm",
             "type": "string"
         }    ];

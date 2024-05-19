@@ -16,31 +16,31 @@ export class EnrolMetaAddInstancesRequestInstancesInner {
     /**
     * ID of the course where meta enrolment is linked to.
     */
-    'courseid'?: string = 'null';
+    'Courseid'?: string = 'null';
     /**
     * Creates group in meta course named after linked course and puts all enrolled users in this group
     */
-    'creategroup'?: boolean = false;
+    'Creategroup'?: boolean = false;
     /**
     * ID of the course where meta enrolment is added.
     */
-    'metacourseid'?: number = null;
+    'Metacourseid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "string"
         },
         {
-            "name": "creategroup",
+            "name": "Creategroup",
             "baseName": "creategroup",
             "type": "boolean"
         },
         {
-            "name": "metacourseid",
+            "name": "Metacourseid",
             "baseName": "metacourseid",
             "type": "number"
         }    ];

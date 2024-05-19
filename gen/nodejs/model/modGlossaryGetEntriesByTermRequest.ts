@@ -17,46 +17,46 @@ export class ModGlossaryGetEntriesByTermRequest {
     /**
     * Start returning records from here
     */
-    'from'?: number = 0;
+    'From'?: number = 0;
     /**
     * Glossary entry ID
     */
-    'id': number;
+    'Id': number;
     /**
     * Number of records to return
     */
-    'limit'?: number = 20;
-    'options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
+    'Limit'?: number = 20;
+    'Options'?: ModGlossaryGetEntriesByAuthorRequestOptions;
     /**
     * The entry concept, or alias
     */
-    'term': string = 'null';
+    'Term': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "from",
+            "name": "From",
             "baseName": "from",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "ModGlossaryGetEntriesByAuthorRequestOptions"
         },
         {
-            "name": "term",
+            "name": "Term",
             "baseName": "term",
             "type": "string"
         }    ];

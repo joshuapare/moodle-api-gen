@@ -16,49 +16,49 @@ export class ModLessonGetPageDataRequest {
     /**
     * lesson instance id
     */
-    'lessonid': number;
+    'Lessonid': number;
     /**
     * the page id
     */
-    'pageid': number = null;
+    'Pageid': number = null;
     /**
     * optional password (the lesson may be protected)
     */
-    'password'?: string = '';
+    'Password'?: string = '';
     /**
     * if we must return the complete page contents once rendered
     */
-    'returncontents'?: boolean = false;
+    'Returncontents'?: boolean = false;
     /**
     * if we want to review just after finishing (1 hour margin)
     */
-    'review'?: boolean = false;
+    'Review'?: boolean = false;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "lessonid",
+            "name": "Lessonid",
             "baseName": "lessonid",
             "type": "number"
         },
         {
-            "name": "pageid",
+            "name": "Pageid",
             "baseName": "pageid",
             "type": "number"
         },
         {
-            "name": "password",
+            "name": "Password",
             "baseName": "password",
             "type": "string"
         },
         {
-            "name": "returncontents",
+            "name": "Returncontents",
             "baseName": "returncontents",
             "type": "boolean"
         },
         {
-            "name": "review",
+            "name": "Review",
             "baseName": "review",
             "type": "boolean"
         }    ];

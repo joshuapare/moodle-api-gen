@@ -15,253 +15,253 @@ import { CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner } from './cor
 import { CoreWebserviceGetSiteInfo200ResponseFunctionsInner } from './coreWebserviceGetSiteInfo200ResponseFunctionsInner';
 
 export class CoreWebserviceGetSiteInfo200Response {
-    'advancedfeatures'?: Array<CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner>;
+    'Advancedfeatures'?: Array<CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner>;
     /**
     * 1 if users are allowed to download files, 0 if not
     */
-    'downloadfiles'?: number = null;
+    'Downloadfiles'?: number = null;
     /**
     * first name
     */
-    'firstname': string = 'null';
+    'Firstname': string = 'null';
     /**
     * user full name
     */
-    'fullname': string = 'null';
-    'functions': Array<CoreWebserviceGetSiteInfo200ResponseFunctionsInner>;
+    'Fullname': string = 'null';
+    'Functions': Array<CoreWebserviceGetSiteInfo200ResponseFunctionsInner>;
     /**
     * Current language.
     */
-    'lang': string = 'null';
+    'Lang': string = 'null';
     /**
     * last name
     */
-    'lastname': string = 'null';
+    'Lastname': string = 'null';
     /**
     * Number of concurrent sessions allowed
     */
-    'limitconcurrentlogins'?: number = null;
+    'Limitconcurrentlogins'?: number = null;
     /**
     * Mobile custom CSS theme
     */
-    'mobilecssurl'?: string = 'null';
+    'Mobilecssurl'?: string = 'null';
     /**
     * Moodle release number
     */
-    'release'?: string = 'null';
+    'Release'?: string = 'null';
     /**
     * Calendar type set in the site.
     */
-    'sitecalendartype'?: string = 'null';
+    'Sitecalendartype'?: string = 'null';
     /**
     * Site course ID
     */
-    'siteid'?: number = null;
+    'Siteid'?: number = null;
     /**
     * site name
     */
-    'sitename': string = 'null';
+    'Sitename': string = 'null';
     /**
     * site url
     */
-    'siteurl': string = 'null';
+    'Siteurl': string = 'null';
     /**
     * Current theme for the user.
     */
-    'theme'?: string = 'null';
+    'Theme'?: string = 'null';
     /**
     * 1 if users are allowed to upload files, 0 if not
     */
-    'uploadfiles'?: number = null;
+    'Uploadfiles'?: number = null;
     /**
     * Calendar typed used by the user.
     */
-    'usercalendartype'?: string = 'null';
+    'Usercalendartype'?: string = 'null';
     /**
     * true if the user can manage his own files
     */
-    'usercanmanageownfiles'?: boolean = null;
+    'Usercanmanageownfiles'?: boolean = null;
     /**
     * the default home page for the user: 0 for the site home, 1 for dashboard
     */
-    'userhomepage'?: number = null;
+    'Userhomepage'?: number = null;
     /**
     * user id
     */
-    'userid': number;
+    'Userid': number;
     /**
     * Whether the user is a site admin or not.
     */
-    'userissiteadmin'?: boolean = null;
+    'Userissiteadmin'?: boolean = null;
     /**
     * user max upload file size (bytes). -1 means the user can ignore the upload file size
     */
-    'usermaxuploadfilesize'?: number = null;
+    'Usermaxuploadfilesize'?: number = null;
     /**
     * username
     */
-    'username': string = 'null';
+    'Username': string = 'null';
     /**
     * the user profile picture.                     Warning: this url is the public URL that only works when forcelogin is set to NO and guestaccess is set to YES.                     In order to retrieve user profile pictures independently of the Moodle config, replace \"pluginfile.php\" by                     \"webservice/pluginfile.php?token=WSTOKEN&file=\"                     Of course the user can only see profile picture depending                     on his/her permissions. Moreover it is recommended to use HTTPS too.
     */
-    'userpictureurl': string = 'null';
+    'Userpictureurl': string = 'null';
     /**
     * Private user access key for fetching files.
     */
-    'userprivateaccesskey'?: string = 'null';
+    'Userprivateaccesskey'?: string = 'null';
     /**
     * user quota (bytes). 0 means user can ignore the quota
     */
-    'userquota'?: number = null;
+    'Userquota'?: number = null;
     /**
     * Number of active sessions for current user.                     Only returned when limitconcurrentlogins is used.
     */
-    'usersessionscount'?: number = null;
+    'Usersessionscount'?: number = null;
     /**
     * Moodle version number
     */
-    'version'?: string = 'null';
+    'Version'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "advancedfeatures",
+            "name": "Advancedfeatures",
             "baseName": "advancedfeatures",
             "type": "Array<CoreWebserviceGetSiteInfo200ResponseAdvancedfeaturesInner>"
         },
         {
-            "name": "downloadfiles",
+            "name": "Downloadfiles",
             "baseName": "downloadfiles",
             "type": "number"
         },
         {
-            "name": "firstname",
+            "name": "Firstname",
             "baseName": "firstname",
             "type": "string"
         },
         {
-            "name": "fullname",
+            "name": "Fullname",
             "baseName": "fullname",
             "type": "string"
         },
         {
-            "name": "functions",
+            "name": "Functions",
             "baseName": "functions",
             "type": "Array<CoreWebserviceGetSiteInfo200ResponseFunctionsInner>"
         },
         {
-            "name": "lang",
+            "name": "Lang",
             "baseName": "lang",
             "type": "string"
         },
         {
-            "name": "lastname",
+            "name": "Lastname",
             "baseName": "lastname",
             "type": "string"
         },
         {
-            "name": "limitconcurrentlogins",
+            "name": "Limitconcurrentlogins",
             "baseName": "limitconcurrentlogins",
             "type": "number"
         },
         {
-            "name": "mobilecssurl",
+            "name": "Mobilecssurl",
             "baseName": "mobilecssurl",
             "type": "string"
         },
         {
-            "name": "release",
+            "name": "Release",
             "baseName": "release",
             "type": "string"
         },
         {
-            "name": "sitecalendartype",
+            "name": "Sitecalendartype",
             "baseName": "sitecalendartype",
             "type": "string"
         },
         {
-            "name": "siteid",
+            "name": "Siteid",
             "baseName": "siteid",
             "type": "number"
         },
         {
-            "name": "sitename",
+            "name": "Sitename",
             "baseName": "sitename",
             "type": "string"
         },
         {
-            "name": "siteurl",
+            "name": "Siteurl",
             "baseName": "siteurl",
             "type": "string"
         },
         {
-            "name": "theme",
+            "name": "Theme",
             "baseName": "theme",
             "type": "string"
         },
         {
-            "name": "uploadfiles",
+            "name": "Uploadfiles",
             "baseName": "uploadfiles",
             "type": "number"
         },
         {
-            "name": "usercalendartype",
+            "name": "Usercalendartype",
             "baseName": "usercalendartype",
             "type": "string"
         },
         {
-            "name": "usercanmanageownfiles",
+            "name": "Usercanmanageownfiles",
             "baseName": "usercanmanageownfiles",
             "type": "boolean"
         },
         {
-            "name": "userhomepage",
+            "name": "Userhomepage",
             "baseName": "userhomepage",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "userissiteadmin",
+            "name": "Userissiteadmin",
             "baseName": "userissiteadmin",
             "type": "boolean"
         },
         {
-            "name": "usermaxuploadfilesize",
+            "name": "Usermaxuploadfilesize",
             "baseName": "usermaxuploadfilesize",
             "type": "number"
         },
         {
-            "name": "username",
+            "name": "Username",
             "baseName": "username",
             "type": "string"
         },
         {
-            "name": "userpictureurl",
+            "name": "Userpictureurl",
             "baseName": "userpictureurl",
             "type": "string"
         },
         {
-            "name": "userprivateaccesskey",
+            "name": "Userprivateaccesskey",
             "baseName": "userprivateaccesskey",
             "type": "string"
         },
         {
-            "name": "userquota",
+            "name": "Userquota",
             "baseName": "userquota",
             "type": "number"
         },
         {
-            "name": "usersessionscount",
+            "name": "Usersessionscount",
             "baseName": "usersessionscount",
             "type": "number"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         }    ];

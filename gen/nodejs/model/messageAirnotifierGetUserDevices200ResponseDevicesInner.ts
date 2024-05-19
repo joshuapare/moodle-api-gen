@@ -16,103 +16,103 @@ export class MessageAirnotifierGetUserDevices200ResponseDevicesInner {
     /**
     * The app id, something like com.moodle.moodlemobile
     */
-    'appid'?: string;
+    'Appid'?: string;
     /**
     * Whether the device is enabled or not
     */
-    'enable'?: number = null;
+    'Enable'?: number = null;
     /**
     * Device id (in the message_airnotifier table)
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The device model \'Nexus4\' or \'iPad1,1\' etc.
     */
-    'model'?: string = 'null';
+    'Model'?: string = 'null';
     /**
     * The device name, \'occam\' or \'iPhone\' etc.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The device platform \'iOS\' or \'Android\' etc.
     */
-    'platform'?: string = 'null';
+    'Platform'?: string = 'null';
     /**
     * The device PUSH token/key/identifier/registration id
     */
-    'pushid'?: string = 'null';
+    'Pushid'?: string = 'null';
     /**
     * Time created
     */
-    'timecreated'?: number;
+    'Timecreated'?: number;
     /**
     * Time modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
     /**
     * The device UUID
     */
-    'uuid'?: string = 'null';
+    'Uuid'?: string = 'null';
     /**
     * The device version \'6.1.2\' or \'4.2.2\' etc.
     */
-    'version'?: string = 'null';
+    'Version'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "appid",
+            "name": "Appid",
             "baseName": "appid",
             "type": "string"
         },
         {
-            "name": "enable",
+            "name": "Enable",
             "baseName": "enable",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "model",
+            "name": "Model",
             "baseName": "model",
             "type": "string"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "platform",
+            "name": "Platform",
             "baseName": "platform",
             "type": "string"
         },
         {
-            "name": "pushid",
+            "name": "Pushid",
             "baseName": "pushid",
             "type": "string"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "uuid",
+            "name": "Uuid",
             "baseName": "uuid",
             "type": "string"
         },
         {
-            "name": "version",
+            "name": "Version",
             "baseName": "version",
             "type": "string"
         }    ];

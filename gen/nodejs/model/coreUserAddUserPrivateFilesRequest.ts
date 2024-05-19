@@ -16,13 +16,13 @@ export class CoreUserAddUserPrivateFilesRequest {
     /**
     * draft area id
     */
-    'draftid': number = null;
+    'Draftid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "draftid",
+            "name": "Draftid",
             "baseName": "draftid",
             "type": "number"
         }    ];

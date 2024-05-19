@@ -16,55 +16,55 @@ export class CoreQuestionGetRandomQuestionSummariesRequest {
     /**
     * Category id to find random questions
     */
-    'categoryid': number = null;
+    'Categoryid': number = null;
     /**
     * Context id that the questions will be rendered in (used for exporting)
     */
-    'contextid': number = null;
+    'Contextid': number = null;
     /**
     * Include the subcategories in the search
     */
-    'includesubcategories': boolean = null;
+    'Includesubcategories': boolean = null;
     /**
     * Maximum number of results to return
     */
-    'limit'?: number = 0;
+    'Limit'?: number = 0;
     /**
     * Number of items to skip from the begging of the result set
     */
-    'offset'?: number = 0;
-    'tagids': Array<object>;
+    'Offset'?: number = 0;
+    'Tagids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "includesubcategories",
+            "name": "Includesubcategories",
             "baseName": "includesubcategories",
             "type": "boolean"
         },
         {
-            "name": "limit",
+            "name": "Limit",
             "baseName": "limit",
             "type": "number"
         },
         {
-            "name": "offset",
+            "name": "Offset",
             "baseName": "offset",
             "type": "number"
         },
         {
-            "name": "tagids",
+            "name": "Tagids",
             "baseName": "tagids",
             "type": "Array<object>"
         }    ];

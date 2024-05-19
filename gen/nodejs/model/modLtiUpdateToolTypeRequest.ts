@@ -16,40 +16,40 @@ export class ModLtiUpdateToolTypeRequest {
     /**
     * Tool type description
     */
-    'description'?: string;
+    'Description'?: string;
     /**
     * Tool type id
     */
-    'id': number;
+    'Id': number;
     /**
     * Tool type name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Tool type state
     */
-    'state'?: number = null;
+    'State'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "state",
+            "name": "State",
             "baseName": "state",
             "type": "number"
         }    ];

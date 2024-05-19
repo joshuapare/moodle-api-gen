@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetMessages200ResponseMessagesInner
+# MoodleClient.Model.CoreMessageGetMessages200ResponseMessagesInner
 message
 
 ## Properties

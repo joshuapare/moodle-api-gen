@@ -17,28 +17,28 @@ export class CoreReportbuilderColumnsDelete200Response {
     /**
     * hassortablecolumns
     */
-    'hassortablecolumns': boolean;
+    'Hassortablecolumns': boolean;
     /**
     * helpicon
     */
-    'helpicon': string;
-    'sortablecolumns': Array<CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInner>;
+    'Helpicon': string;
+    'Sortablecolumns': Array<CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "hassortablecolumns",
+            "name": "Hassortablecolumns",
             "baseName": "hassortablecolumns",
             "type": "boolean"
         },
         {
-            "name": "helpicon",
+            "name": "Helpicon",
             "baseName": "helpicon",
             "type": "string"
         },
         {
-            "name": "sortablecolumns",
+            "name": "Sortablecolumns",
             "baseName": "sortablecolumns",
             "type": "Array<CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInner>"
         }    ];

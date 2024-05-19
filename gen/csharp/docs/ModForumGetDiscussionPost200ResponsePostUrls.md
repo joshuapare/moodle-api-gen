@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModForumGetDiscussionPost200ResponsePostUrls
+# MoodleClient.Model.ModForumGetDiscussionPost200ResponsePostUrls
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLessonFinishAttempt200ResponseMessagesInner
+# MoodleClient.Model.ModLessonFinishAttempt200ResponseMessagesInner
 The lesson generated messages
 
 ## Properties

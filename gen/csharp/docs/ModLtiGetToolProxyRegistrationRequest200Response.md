@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModLtiGetToolProxyRegistrationRequest200Response
+# MoodleClient.Model.ModLtiGetToolProxyRegistrationRequest200Response
 
 ## Properties
 

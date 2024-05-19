@@ -13,49 +13,49 @@
 import { RequestFile } from './models';
 
 export class CoreFilesUpload200Response {
-    'component': string;
-    'contextid': number;
-    'filearea': string;
-    'filename': string;
-    'filepath': string;
-    'itemid': number;
-    'url': string;
+    'Component': string;
+    'Contextid': number;
+    'Filearea': string;
+    'Filename': string;
+    'Filepath': string;
+    'Itemid': number;
+    'Url': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "contextid",
+            "name": "Contextid",
             "baseName": "contextid",
             "type": "number"
         },
         {
-            "name": "filearea",
+            "name": "Filearea",
             "baseName": "filearea",
             "type": "string"
         },
         {
-            "name": "filename",
+            "name": "Filename",
             "baseName": "filename",
             "type": "string"
         },
         {
-            "name": "filepath",
+            "name": "Filepath",
             "baseName": "filepath",
             "type": "string"
         },
         {
-            "name": "itemid",
+            "name": "Itemid",
             "baseName": "itemid",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         }    ];

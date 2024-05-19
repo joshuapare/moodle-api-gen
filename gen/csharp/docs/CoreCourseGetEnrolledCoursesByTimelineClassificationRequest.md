@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseGetEnrolledCoursesByTimelineClassificationRequest
+# MoodleClient.Model.CoreCourseGetEnrolledCoursesByTimelineClassificationRequest
 
 ## Properties
 

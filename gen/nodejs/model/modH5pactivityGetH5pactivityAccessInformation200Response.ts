@@ -17,46 +17,46 @@ export class ModH5pactivityGetH5pactivityAccessInformation200Response {
     /**
     * Whether the user has the capability mod/h5pactivity:addinstance allowed.
     */
-    'canaddinstance'?: boolean = null;
+    'Canaddinstance'?: boolean = null;
     /**
     * Whether the user has the capability mod/h5pactivity:reviewattempts allowed.
     */
-    'canreviewattempts'?: boolean = null;
+    'Canreviewattempts'?: boolean = null;
     /**
     * Whether the user has the capability mod/h5pactivity:submit allowed.
     */
-    'cansubmit'?: boolean = null;
+    'Cansubmit'?: boolean = null;
     /**
     * Whether the user has the capability mod/h5pactivity:view allowed.
     */
-    'canview'?: boolean = null;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canview'?: boolean = null;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canaddinstance",
+            "name": "Canaddinstance",
             "baseName": "canaddinstance",
             "type": "boolean"
         },
         {
-            "name": "canreviewattempts",
+            "name": "Canreviewattempts",
             "baseName": "canreviewattempts",
             "type": "boolean"
         },
         {
-            "name": "cansubmit",
+            "name": "Cansubmit",
             "baseName": "cansubmit",
             "type": "boolean"
         },
         {
-            "name": "canview",
+            "name": "Canview",
             "baseName": "canview",
             "type": "boolean"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

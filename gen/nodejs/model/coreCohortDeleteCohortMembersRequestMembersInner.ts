@@ -16,22 +16,22 @@ export class CoreCohortDeleteCohortMembersRequestMembersInner {
     /**
     * cohort record id
     */
-    'cohortid'?: number = null;
+    'Cohortid'?: number = null;
     /**
     * user id
     */
-    'userid'?: number;
+    'Userid'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cohortid",
+            "name": "Cohortid",
             "baseName": "cohortid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

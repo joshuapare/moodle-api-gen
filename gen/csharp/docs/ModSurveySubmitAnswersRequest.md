@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModSurveySubmitAnswersRequest
+# MoodleClient.Model.ModSurveySubmitAnswersRequest
 
 ## Properties
 

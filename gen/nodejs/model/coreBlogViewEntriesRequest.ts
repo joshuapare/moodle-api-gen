@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreBlogViewEntriesRequestFiltersInner } from './coreBlogViewEntriesRequestFiltersInner';
 
 export class CoreBlogViewEntriesRequest {
-    'filters'?: Array<CoreBlogViewEntriesRequestFiltersInner>;
+    'Filters'?: Array<CoreBlogViewEntriesRequestFiltersInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "filters",
+            "name": "Filters",
             "baseName": "filters",
             "type": "Array<CoreBlogViewEntriesRequestFiltersInner>"
         }    ];

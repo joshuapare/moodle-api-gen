@@ -16,22 +16,22 @@ export class ModWorkshopUpdateAssessmentRequestDataInner {
     /**
     * The assessment data (use WS get_assessment_form_definition for obtaining the data to sent).                                 Apart from that data, you can optionally send:                                 feedbackauthor (str); the feedback for the submission author                                 feedbackauthorformat (int); the format of the feedbackauthor                                 feedbackauthorinlineattachmentsid (int); the draft file area for the editor attachments                                 feedbackauthorattachmentsid (int); the draft file area id for the feedback attachments
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The value of the option.
     */
-    'value'?: string;
+    'Value'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

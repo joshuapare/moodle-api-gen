@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAdminSetPluginStateRequest
+# MoodleClient.Model.CoreAdminSetPluginStateRequest
 
 ## Properties
 

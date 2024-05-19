@@ -21,352 +21,352 @@ export class ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInner {
     /**
     * Description of activity
     */
-    'activity'?: string = 'null';
-    'activityattachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Activity'?: string = 'null';
+    'Activityattachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'activityformat'?: number = null;
+    'Activityformat'?: number = null;
     /**
     * allow submissions from date
     */
-    'allowsubmissionsfromdate'?: number = null;
+    'Allowsubmissionsfromdate'?: number = null;
     /**
     * method used to control opening new attempts
     */
-    'attemptreopenmethod'?: string = 'null';
+    'Attemptreopenmethod'?: string = 'null';
     /**
     * if enabled, hide identities until reveal identities actioned
     */
-    'blindmarking'?: number = null;
+    'Blindmarking'?: number = null;
     /**
     * course module id
     */
-    'cmid'?: number;
+    'Cmid'?: number;
     /**
     * if enabled, set activity as complete following submission
     */
-    'completionsubmit'?: number = null;
-    'configs'?: Array<ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInnerConfigsInner>;
+    'Completionsubmit'?: number = null;
+    'Configs'?: Array<ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInnerConfigsInner>;
     /**
     * course id
     */
-    'course'?: number;
+    'Course'?: number;
     /**
     * date after which submission is not accepted without an extension
     */
-    'cutoffdate'?: number = null;
+    'Cutoffdate'?: number = null;
     /**
     * assignment due date
     */
-    'duedate'?: number = null;
+    'Duedate'?: number = null;
     /**
     * grade type
     */
-    'grade'?: number = null;
+    'Grade'?: number = null;
     /**
     * the expected date for marking the submissions
     */
-    'gradingduedate'?: number = null;
+    'Gradingduedate'?: number = null;
     /**
     * If enabled, hide grader to student
     */
-    'hidegrader'?: number = null;
+    'Hidegrader'?: number = null;
     /**
     * assignment id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * assignment intro, not allways returned because it deppends on the activity configuration
     */
-    'intro'?: string = 'null';
-    'introattachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
-    'introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Intro'?: string = 'null';
+    'Introattachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Introfiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'introformat'?: number = null;
+    'Introformat'?: number = null;
     /**
     * enable marking allocation
     */
-    'markingallocation'?: number = null;
+    'Markingallocation'?: number = null;
     /**
     * enable marking workflow
     */
-    'markingworkflow'?: number = null;
+    'Markingworkflow'?: number = null;
     /**
     * maximum number of attempts allowed
     */
-    'maxattempts'?: number = null;
+    'Maxattempts'?: number = null;
     /**
     * assignment name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * no submissions
     */
-    'nosubmissions'?: number = null;
+    'Nosubmissions'?: number = null;
     /**
     * Prevent submission not in group
     */
-    'preventsubmissionnotingroup'?: number = null;
+    'Preventsubmissionnotingroup'?: number = null;
     /**
     * if enabled, all team members must submit
     */
-    'requireallteammemberssubmit'?: number = null;
+    'Requireallteammemberssubmit'?: number = null;
     /**
     * student must accept submission statement
     */
-    'requiresubmissionstatement'?: number = null;
+    'Requiresubmissionstatement'?: number = null;
     /**
     * show identities for a blind marking assignment
     */
-    'revealidentities'?: number = null;
+    'Revealidentities'?: number = null;
     /**
     * send notifications
     */
-    'sendlatenotifications'?: number = null;
+    'Sendlatenotifications'?: number = null;
     /**
     * send notifications
     */
-    'sendnotifications'?: number;
+    'Sendnotifications'?: number;
     /**
     * send student notifications (default)
     */
-    'sendstudentnotifications'?: number = null;
+    'Sendstudentnotifications'?: number = null;
     /**
     * Flag to only show files during submission
     */
-    'submissionattachments'?: number = null;
+    'Submissionattachments'?: number = null;
     /**
     * submissions drafts
     */
-    'submissiondrafts'?: number = null;
+    'Submissiondrafts'?: number = null;
     /**
     * Submission statement formatted.
     */
-    'submissionstatement'?: string = 'null';
+    'Submissionstatement'?: string = 'null';
     /**
     * submissionstatement format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'submissionstatementformat'?: number = null;
+    'Submissionstatementformat'?: number = null;
     /**
     * if enabled, students submit as a team
     */
-    'teamsubmission'?: number = null;
+    'Teamsubmission'?: number = null;
     /**
     * the grouping id for the team submission groups
     */
-    'teamsubmissiongroupingid'?: number = null;
+    'Teamsubmissiongroupingid'?: number = null;
     /**
     * Time limit to complete assigment
     */
-    'timelimit'?: number = null;
+    'Timelimit'?: number = null;
     /**
     * last time assignment was modified
     */
-    'timemodified'?: number = null;
+    'Timemodified'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activity",
+            "name": "Activity",
             "baseName": "activity",
             "type": "string"
         },
         {
-            "name": "activityattachments",
+            "name": "Activityattachments",
             "baseName": "activityattachments",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "activityformat",
+            "name": "Activityformat",
             "baseName": "activityformat",
             "type": "number"
         },
         {
-            "name": "allowsubmissionsfromdate",
+            "name": "Allowsubmissionsfromdate",
             "baseName": "allowsubmissionsfromdate",
             "type": "number"
         },
         {
-            "name": "attemptreopenmethod",
+            "name": "Attemptreopenmethod",
             "baseName": "attemptreopenmethod",
             "type": "string"
         },
         {
-            "name": "blindmarking",
+            "name": "Blindmarking",
             "baseName": "blindmarking",
             "type": "number"
         },
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "completionsubmit",
+            "name": "Completionsubmit",
             "baseName": "completionsubmit",
             "type": "number"
         },
         {
-            "name": "configs",
+            "name": "Configs",
             "baseName": "configs",
             "type": "Array<ModAssignGetAssignments200ResponseCoursesInnerAssignmentsInnerConfigsInner>"
         },
         {
-            "name": "course",
+            "name": "Course",
             "baseName": "course",
             "type": "number"
         },
         {
-            "name": "cutoffdate",
+            "name": "Cutoffdate",
             "baseName": "cutoffdate",
             "type": "number"
         },
         {
-            "name": "duedate",
+            "name": "Duedate",
             "baseName": "duedate",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "gradingduedate",
+            "name": "Gradingduedate",
             "baseName": "gradingduedate",
             "type": "number"
         },
         {
-            "name": "hidegrader",
+            "name": "Hidegrader",
             "baseName": "hidegrader",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "intro",
+            "name": "Intro",
             "baseName": "intro",
             "type": "string"
         },
         {
-            "name": "introattachments",
+            "name": "Introattachments",
             "baseName": "introattachments",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introfiles",
+            "name": "Introfiles",
             "baseName": "introfiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "introformat",
+            "name": "Introformat",
             "baseName": "introformat",
             "type": "number"
         },
         {
-            "name": "markingallocation",
+            "name": "Markingallocation",
             "baseName": "markingallocation",
             "type": "number"
         },
         {
-            "name": "markingworkflow",
+            "name": "Markingworkflow",
             "baseName": "markingworkflow",
             "type": "number"
         },
         {
-            "name": "maxattempts",
+            "name": "Maxattempts",
             "baseName": "maxattempts",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "nosubmissions",
+            "name": "Nosubmissions",
             "baseName": "nosubmissions",
             "type": "number"
         },
         {
-            "name": "preventsubmissionnotingroup",
+            "name": "Preventsubmissionnotingroup",
             "baseName": "preventsubmissionnotingroup",
             "type": "number"
         },
         {
-            "name": "requireallteammemberssubmit",
+            "name": "Requireallteammemberssubmit",
             "baseName": "requireallteammemberssubmit",
             "type": "number"
         },
         {
-            "name": "requiresubmissionstatement",
+            "name": "Requiresubmissionstatement",
             "baseName": "requiresubmissionstatement",
             "type": "number"
         },
         {
-            "name": "revealidentities",
+            "name": "Revealidentities",
             "baseName": "revealidentities",
             "type": "number"
         },
         {
-            "name": "sendlatenotifications",
+            "name": "Sendlatenotifications",
             "baseName": "sendlatenotifications",
             "type": "number"
         },
         {
-            "name": "sendnotifications",
+            "name": "Sendnotifications",
             "baseName": "sendnotifications",
             "type": "number"
         },
         {
-            "name": "sendstudentnotifications",
+            "name": "Sendstudentnotifications",
             "baseName": "sendstudentnotifications",
             "type": "number"
         },
         {
-            "name": "submissionattachments",
+            "name": "Submissionattachments",
             "baseName": "submissionattachments",
             "type": "number"
         },
         {
-            "name": "submissiondrafts",
+            "name": "Submissiondrafts",
             "baseName": "submissiondrafts",
             "type": "number"
         },
         {
-            "name": "submissionstatement",
+            "name": "Submissionstatement",
             "baseName": "submissionstatement",
             "type": "string"
         },
         {
-            "name": "submissionstatementformat",
+            "name": "Submissionstatementformat",
             "baseName": "submissionstatementformat",
             "type": "number"
         },
         {
-            "name": "teamsubmission",
+            "name": "Teamsubmission",
             "baseName": "teamsubmission",
             "type": "number"
         },
         {
-            "name": "teamsubmissiongroupingid",
+            "name": "Teamsubmissiongroupingid",
             "baseName": "teamsubmissiongroupingid",
             "type": "number"
         },
         {
-            "name": "timelimit",
+            "name": "Timelimit",
             "baseName": "timelimit",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         }    ];

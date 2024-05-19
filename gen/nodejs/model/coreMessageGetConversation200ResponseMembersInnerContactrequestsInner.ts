@@ -16,40 +16,40 @@ export class CoreMessageGetConversation200ResponseMembersInnerContactrequestsInn
     /**
     * The id of the contact request
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * The id of the user confirming the request
     */
-    'requesteduserid'?: number = null;
+    'Requesteduserid'?: number = null;
     /**
     * The timecreated timestamp for the contact request
     */
-    'timecreated'?: number = null;
+    'Timecreated'?: number = null;
     /**
     * The id of the user who created the contact request
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "requesteduserid",
+            "name": "Requesteduserid",
             "baseName": "requesteduserid",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

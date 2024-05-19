@@ -16,13 +16,13 @@ export class ModWorkshopDeleteSubmissionRequest {
     /**
     * Submission id
     */
-    'submissionid': number = null;
+    'Submissionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "submissionid",
+            "name": "Submissionid",
             "baseName": "submissionid",
             "type": "number"
         }    ];

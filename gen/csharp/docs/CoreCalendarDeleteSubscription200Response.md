@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCalendarDeleteSubscription200Response
+# MoodleClient.Model.CoreCalendarDeleteSubscription200Response
 
 ## Properties
 

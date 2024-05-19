@@ -16,13 +16,13 @@ export class ModGlossaryGetAuthorsRequestOptions {
     /**
     * When false, includes self even if all of their entries require approval. When true, also includes authors only having entries pending approval.
     */
-    'includenotapproved'?: boolean = 0;
+    'Includenotapproved'?: boolean = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "includenotapproved",
+            "name": "Includenotapproved",
             "baseName": "includenotapproved",
             "type": "boolean"
         }    ];

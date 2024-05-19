@@ -16,22 +16,22 @@ export class CoreMoodlenetAuthCheckRequest {
     /**
     * Course ID
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * OAuth 2 issuer ID
     */
-    'issuerid': number = null;
+    'Issuerid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "issuerid",
+            "name": "Issuerid",
             "baseName": "issuerid",
             "type": "number"
         }    ];

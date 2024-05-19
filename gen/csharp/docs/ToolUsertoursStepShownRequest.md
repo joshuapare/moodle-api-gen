@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolUsertoursStepShownRequest
+# MoodleClient.Model.ToolUsertoursStepShownRequest
 
 ## Properties
 

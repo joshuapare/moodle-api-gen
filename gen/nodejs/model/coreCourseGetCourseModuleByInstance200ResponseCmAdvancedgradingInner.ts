@@ -16,22 +16,22 @@ export class CoreCourseGetCourseModuleByInstance200ResponseCmAdvancedgradingInne
     /**
     * Gradable area name
     */
-    'area'?: string;
+    'Area'?: string;
     /**
     * Grading method
     */
-    'method'?: string;
+    'Method'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "area",
+            "name": "Area",
             "baseName": "area",
             "type": "string"
         },
         {
-            "name": "method",
+            "name": "Method",
             "baseName": "method",
             "type": "string"
         }    ];

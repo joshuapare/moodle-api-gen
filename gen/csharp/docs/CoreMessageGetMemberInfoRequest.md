@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetMemberInfoRequest
+# MoodleClient.Model.CoreMessageGetMemberInfoRequest
 
 ## Properties
 

@@ -17,55 +17,55 @@ export class CoreReportbuilderConditionsAdd200Response {
     /**
     * activeconditionsform
     */
-    'activeconditionsform': string = 'null';
-    'availableconditions': Array<CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInner>;
+    'Activeconditionsform': string = 'null';
+    'Availableconditions': Array<CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInner>;
     /**
     * hasactiveconditions
     */
-    'hasactiveconditions': boolean = null;
+    'Hasactiveconditions': boolean = null;
     /**
     * hasavailableconditions
     */
-    'hasavailableconditions': boolean = null;
+    'Hasavailableconditions': boolean = null;
     /**
     * helpicon
     */
-    'helpicon': string;
+    'Helpicon': string;
     /**
     * javascript
     */
-    'javascript'?: string = 'null';
+    'Javascript'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "activeconditionsform",
+            "name": "Activeconditionsform",
             "baseName": "activeconditionsform",
             "type": "string"
         },
         {
-            "name": "availableconditions",
+            "name": "Availableconditions",
             "baseName": "availableconditions",
             "type": "Array<CoreReportbuilderConditionsAdd200ResponseAvailableconditionsInner>"
         },
         {
-            "name": "hasactiveconditions",
+            "name": "Hasactiveconditions",
             "baseName": "hasactiveconditions",
             "type": "boolean"
         },
         {
-            "name": "hasavailableconditions",
+            "name": "Hasavailableconditions",
             "baseName": "hasavailableconditions",
             "type": "boolean"
         },
         {
-            "name": "helpicon",
+            "name": "Helpicon",
             "baseName": "helpicon",
             "type": "string"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "baseName": "javascript",
             "type": "string"
         }    ];

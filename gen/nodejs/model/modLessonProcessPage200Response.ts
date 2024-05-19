@@ -18,160 +18,160 @@ export class ModLessonProcessPage200Response {
     /**
     * Number of attempts remaining.
     */
-    'attemptsremaining': number = null;
+    'Attemptsremaining': number = null;
     /**
     * Whether the answer is correct.
     */
-    'correctanswer': boolean = null;
+    'Correctanswer': boolean = null;
     /**
     * Whether we should display the menu or not in this page.
     */
-    'displaymenu': boolean;
+    'Displaymenu': boolean;
     /**
     * The response feedback.
     */
-    'feedback': string = 'null';
+    'Feedback': string = 'null';
     /**
     * Whether the page processing redirect directly to anoter page.
     */
-    'inmediatejump': boolean = null;
+    'Inmediatejump': boolean = null;
     /**
     * Whether is a essay question.
     */
-    'isessayquestion': boolean = null;
+    'Isessayquestion': boolean = null;
     /**
     * Whether we reachered the max number of attempts.
     */
-    'maxattemptsreached': boolean = null;
-    'messages': Array<ModLessonGetPageData200ResponseMessagesInner>;
+    'Maxattemptsreached': boolean = null;
+    'Messages': Array<ModLessonGetPageData200ResponseMessagesInner>;
     /**
     * New page id (if a jump was made).
     */
-    'newpageid': number = null;
+    'Newpageid': number = null;
     /**
     * Whether there aren\'t answers.
     */
-    'noanswer': boolean = null;
+    'Noanswer': boolean = null;
     /**
     * Whether there is not a default response.
     */
-    'nodefaultresponse': boolean = null;
+    'Nodefaultresponse': boolean = null;
     /**
     * The ongoing message.
     */
-    'ongoingscore': string = 'null';
+    'Ongoingscore': string = 'null';
     /**
     * Progress percentage in the lesson.
     */
-    'progress': number = null;
+    'Progress': number = null;
     /**
     * The response.
     */
-    'response': string = 'null';
+    'Response': string = 'null';
     /**
     * Whether the user is reviewing.
     */
-    'reviewmode': boolean = null;
+    'Reviewmode': boolean = null;
     /**
     * The student answer.
     */
-    'studentanswer': string = 'null';
+    'Studentanswer': string = 'null';
     /**
     * The user response.
     */
-    'userresponse': string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Userresponse': string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attemptsremaining",
+            "name": "Attemptsremaining",
             "baseName": "attemptsremaining",
             "type": "number"
         },
         {
-            "name": "correctanswer",
+            "name": "Correctanswer",
             "baseName": "correctanswer",
             "type": "boolean"
         },
         {
-            "name": "displaymenu",
+            "name": "Displaymenu",
             "baseName": "displaymenu",
             "type": "boolean"
         },
         {
-            "name": "feedback",
+            "name": "Feedback",
             "baseName": "feedback",
             "type": "string"
         },
         {
-            "name": "inmediatejump",
+            "name": "Inmediatejump",
             "baseName": "inmediatejump",
             "type": "boolean"
         },
         {
-            "name": "isessayquestion",
+            "name": "Isessayquestion",
             "baseName": "isessayquestion",
             "type": "boolean"
         },
         {
-            "name": "maxattemptsreached",
+            "name": "Maxattemptsreached",
             "baseName": "maxattemptsreached",
             "type": "boolean"
         },
         {
-            "name": "messages",
+            "name": "Messages",
             "baseName": "messages",
             "type": "Array<ModLessonGetPageData200ResponseMessagesInner>"
         },
         {
-            "name": "newpageid",
+            "name": "Newpageid",
             "baseName": "newpageid",
             "type": "number"
         },
         {
-            "name": "noanswer",
+            "name": "Noanswer",
             "baseName": "noanswer",
             "type": "boolean"
         },
         {
-            "name": "nodefaultresponse",
+            "name": "Nodefaultresponse",
             "baseName": "nodefaultresponse",
             "type": "boolean"
         },
         {
-            "name": "ongoingscore",
+            "name": "Ongoingscore",
             "baseName": "ongoingscore",
             "type": "string"
         },
         {
-            "name": "progress",
+            "name": "Progress",
             "baseName": "progress",
             "type": "number"
         },
         {
-            "name": "response",
+            "name": "Response",
             "baseName": "response",
             "type": "string"
         },
         {
-            "name": "reviewmode",
+            "name": "Reviewmode",
             "baseName": "reviewmode",
             "type": "boolean"
         },
         {
-            "name": "studentanswer",
+            "name": "Studentanswer",
             "baseName": "studentanswer",
             "type": "string"
         },
         {
-            "name": "userresponse",
+            "name": "Userresponse",
             "baseName": "userresponse",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

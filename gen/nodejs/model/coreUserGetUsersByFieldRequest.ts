@@ -16,19 +16,19 @@ export class CoreUserGetUsersByFieldRequest {
     /**
     * the search field can be                     \'id\' or \'idnumber\' or \'username\' or \'email\'
     */
-    'field': string = 'null';
-    'values': Array<object>;
+    'Field': string = 'null';
+    'Values': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "field",
+            "name": "Field",
             "baseName": "field",
             "type": "string"
         },
         {
-            "name": "values",
+            "name": "Values",
             "baseName": "values",
             "type": "Array<object>"
         }    ];

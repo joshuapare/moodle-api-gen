@@ -16,19 +16,19 @@ export class ReportInsightsActionExecutedRequest {
     /**
     * The name of the action
     */
-    'actionname': string = 'null';
-    'predictionids': Array<object>;
+    'Actionname': string = 'null';
+    'Predictionids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "actionname",
+            "name": "Actionname",
             "baseName": "actionname",
             "type": "string"
         },
         {
-            "name": "predictionids",
+            "name": "Predictionids",
             "baseName": "predictionids",
             "type": "Array<object>"
         }    ];

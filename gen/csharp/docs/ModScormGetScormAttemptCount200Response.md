@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormAttemptCount200Response
+# MoodleClient.Model.ModScormGetScormAttemptCount200Response
 
 ## Properties
 

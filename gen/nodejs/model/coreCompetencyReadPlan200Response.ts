@@ -19,337 +19,337 @@ export class CoreCompetencyReadPlan200Response {
     /**
     * canbeedited
     */
-    'canbeedited': boolean;
+    'Canbeedited': boolean;
     /**
     * canmanage
     */
-    'canmanage': boolean;
+    'Canmanage': boolean;
     /**
     * canrequestreview
     */
-    'canrequestreview': boolean;
+    'Canrequestreview': boolean;
     /**
     * canreview
     */
-    'canreview': boolean;
-    'commentarea': CoreCompetencyReadPlan200ResponseCommentarea;
+    'Canreview': boolean;
+    'Commentarea': CoreCompetencyReadPlan200ResponseCommentarea;
     /**
     * description
     */
-    'description': string = '';
+    'Description': string = '';
     /**
     * description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'descriptionformat'?: number = 1;
+    'Descriptionformat'?: number = 1;
     /**
     * duedate
     */
-    'duedate': number = 0;
+    'Duedate': number = 0;
     /**
     * duedateformatted
     */
-    'duedateformatted': string;
+    'Duedateformatted': string;
     /**
     * id
     */
-    'id': number = 0;
+    'Id': number = 0;
     /**
     * isactive
     */
-    'isactive': boolean;
+    'Isactive': boolean;
     /**
     * isapproveallowed
     */
-    'isapproveallowed': boolean;
+    'Isapproveallowed': boolean;
     /**
     * isbasedontemplate
     */
-    'isbasedontemplate': boolean;
+    'Isbasedontemplate': boolean;
     /**
     * iscancelreviewrequestallowed
     */
-    'iscancelreviewrequestallowed': boolean;
+    'Iscancelreviewrequestallowed': boolean;
     /**
     * iscompleteallowed
     */
-    'iscompleteallowed': boolean;
+    'Iscompleteallowed': boolean;
     /**
     * iscompleted
     */
-    'iscompleted': boolean;
+    'Iscompleted': boolean;
     /**
     * isdraft
     */
-    'isdraft': boolean;
+    'Isdraft': boolean;
     /**
     * isinreview
     */
-    'isinreview': boolean;
+    'Isinreview': boolean;
     /**
     * isreopenallowed
     */
-    'isreopenallowed': boolean;
+    'Isreopenallowed': boolean;
     /**
     * isrequestreviewallowed
     */
-    'isrequestreviewallowed': boolean;
+    'Isrequestreviewallowed': boolean;
     /**
     * isstartreviewallowed
     */
-    'isstartreviewallowed': boolean;
+    'Isstartreviewallowed': boolean;
     /**
     * isstopreviewallowed
     */
-    'isstopreviewallowed': boolean;
+    'Isstopreviewallowed': boolean;
     /**
     * isunapproveallowed
     */
-    'isunapproveallowed': boolean;
+    'Isunapproveallowed': boolean;
     /**
     * isunlinkallowed
     */
-    'isunlinkallowed': boolean;
+    'Isunlinkallowed': boolean;
     /**
     * iswaitingforreview
     */
-    'iswaitingforreview': boolean;
+    'Iswaitingforreview': boolean;
     /**
     * name
     */
-    'name': string;
+    'Name': string;
     /**
     * origtemplateid
     */
-    'origtemplateid': number;
-    'reviewer'?: CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Origtemplateid': number;
+    'Reviewer'?: CoreCompetencyGradeCompetency200ResponseActionuser;
     /**
     * reviewerid
     */
-    'reviewerid': number;
+    'Reviewerid': number;
     /**
     * status
     */
-    'status': number = 0;
+    'Status': number = 0;
     /**
     * statusname
     */
-    'statusname': string;
-    'template'?: CoreCompetencyCreateTemplate200Response;
+    'Statusname': string;
+    'Template'?: CoreCompetencyCreateTemplate200Response;
     /**
     * templateid
     */
-    'templateid': number;
+    'Templateid': number;
     /**
     * timecreated
     */
-    'timecreated': number = 0;
+    'Timecreated': number = 0;
     /**
     * timemodified
     */
-    'timemodified': number = 0;
+    'Timemodified': number = 0;
     /**
     * url
     */
-    'url': string;
+    'Url': string;
     /**
     * userid
     */
-    'userid': number;
+    'Userid': number;
     /**
     * usermodified
     */
-    'usermodified': number = 0;
+    'Usermodified': number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "canbeedited",
+            "name": "Canbeedited",
             "baseName": "canbeedited",
             "type": "boolean"
         },
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "canrequestreview",
+            "name": "Canrequestreview",
             "baseName": "canrequestreview",
             "type": "boolean"
         },
         {
-            "name": "canreview",
+            "name": "Canreview",
             "baseName": "canreview",
             "type": "boolean"
         },
         {
-            "name": "commentarea",
+            "name": "Commentarea",
             "baseName": "commentarea",
             "type": "CoreCompetencyReadPlan200ResponseCommentarea"
         },
         {
-            "name": "description",
+            "name": "Description",
             "baseName": "description",
             "type": "string"
         },
         {
-            "name": "descriptionformat",
+            "name": "Descriptionformat",
             "baseName": "descriptionformat",
             "type": "number"
         },
         {
-            "name": "duedate",
+            "name": "Duedate",
             "baseName": "duedate",
             "type": "number"
         },
         {
-            "name": "duedateformatted",
+            "name": "Duedateformatted",
             "baseName": "duedateformatted",
             "type": "string"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "isactive",
+            "name": "Isactive",
             "baseName": "isactive",
             "type": "boolean"
         },
         {
-            "name": "isapproveallowed",
+            "name": "Isapproveallowed",
             "baseName": "isapproveallowed",
             "type": "boolean"
         },
         {
-            "name": "isbasedontemplate",
+            "name": "Isbasedontemplate",
             "baseName": "isbasedontemplate",
             "type": "boolean"
         },
         {
-            "name": "iscancelreviewrequestallowed",
+            "name": "Iscancelreviewrequestallowed",
             "baseName": "iscancelreviewrequestallowed",
             "type": "boolean"
         },
         {
-            "name": "iscompleteallowed",
+            "name": "Iscompleteallowed",
             "baseName": "iscompleteallowed",
             "type": "boolean"
         },
         {
-            "name": "iscompleted",
+            "name": "Iscompleted",
             "baseName": "iscompleted",
             "type": "boolean"
         },
         {
-            "name": "isdraft",
+            "name": "Isdraft",
             "baseName": "isdraft",
             "type": "boolean"
         },
         {
-            "name": "isinreview",
+            "name": "Isinreview",
             "baseName": "isinreview",
             "type": "boolean"
         },
         {
-            "name": "isreopenallowed",
+            "name": "Isreopenallowed",
             "baseName": "isreopenallowed",
             "type": "boolean"
         },
         {
-            "name": "isrequestreviewallowed",
+            "name": "Isrequestreviewallowed",
             "baseName": "isrequestreviewallowed",
             "type": "boolean"
         },
         {
-            "name": "isstartreviewallowed",
+            "name": "Isstartreviewallowed",
             "baseName": "isstartreviewallowed",
             "type": "boolean"
         },
         {
-            "name": "isstopreviewallowed",
+            "name": "Isstopreviewallowed",
             "baseName": "isstopreviewallowed",
             "type": "boolean"
         },
         {
-            "name": "isunapproveallowed",
+            "name": "Isunapproveallowed",
             "baseName": "isunapproveallowed",
             "type": "boolean"
         },
         {
-            "name": "isunlinkallowed",
+            "name": "Isunlinkallowed",
             "baseName": "isunlinkallowed",
             "type": "boolean"
         },
         {
-            "name": "iswaitingforreview",
+            "name": "Iswaitingforreview",
             "baseName": "iswaitingforreview",
             "type": "boolean"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "origtemplateid",
+            "name": "Origtemplateid",
             "baseName": "origtemplateid",
             "type": "number"
         },
         {
-            "name": "reviewer",
+            "name": "Reviewer",
             "baseName": "reviewer",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "reviewerid",
+            "name": "Reviewerid",
             "baseName": "reviewerid",
             "type": "number"
         },
         {
-            "name": "status",
+            "name": "Status",
             "baseName": "status",
             "type": "number"
         },
         {
-            "name": "statusname",
+            "name": "Statusname",
             "baseName": "statusname",
             "type": "string"
         },
         {
-            "name": "template",
+            "name": "Template",
             "baseName": "template",
             "type": "CoreCompetencyCreateTemplate200Response"
         },
         {
-            "name": "templateid",
+            "name": "Templateid",
             "baseName": "templateid",
             "type": "number"
         },
         {
-            "name": "timecreated",
+            "name": "Timecreated",
             "baseName": "timecreated",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "url",
+            "name": "Url",
             "baseName": "url",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         }    ];

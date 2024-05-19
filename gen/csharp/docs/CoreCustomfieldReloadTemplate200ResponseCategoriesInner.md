@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCustomfieldReloadTemplate200ResponseCategoriesInner
+# MoodleClient.Model.CoreCustomfieldReloadTemplate200ResponseCategoriesInner
 
 ## Properties
 

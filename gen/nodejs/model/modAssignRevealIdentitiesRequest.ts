@@ -16,13 +16,13 @@ export class ModAssignRevealIdentitiesRequest {
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
+    'Assignmentid': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGradesUpdateGradesRequest
+# MoodleClient.Model.CoreGradesUpdateGradesRequest
 
 ## Properties
 

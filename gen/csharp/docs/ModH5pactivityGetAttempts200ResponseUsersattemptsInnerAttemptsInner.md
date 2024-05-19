@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModH5pactivityGetAttempts200ResponseUsersattemptsInnerAttemptsInner
+# MoodleClient.Model.ModH5pactivityGetAttempts200ResponseUsersattemptsInnerAttemptsInner
 
 ## Properties
 

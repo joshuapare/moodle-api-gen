@@ -16,22 +16,22 @@ export class CoreReportbuilderConditionsDelete200ResponseAvailableconditionsInne
     /**
     * value
     */
-    'value'?: string;
+    'Value'?: string;
     /**
     * visiblename
     */
-    'visiblename'?: string;
+    'Visiblename'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         },
         {
-            "name": "visiblename",
+            "name": "Visiblename",
             "baseName": "visiblename",
             "type": "string"
         }    ];

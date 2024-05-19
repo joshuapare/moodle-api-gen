@@ -16,46 +16,46 @@ export class CoreCourseformatUpdateCourseRequest {
     /**
     * action: cm_hide, cm_show, section_hide, section_show, cm_moveleft...
     */
-    'action': string = 'null';
+    'Action': string = 'null';
     /**
     * course id
     */
-    'courseid': number;
-    'ids'?: Array<object>;
+    'Courseid': number;
+    'Ids'?: Array<object>;
     /**
     * Optional target cm id
     */
-    'targetcmid'?: number = null;
+    'Targetcmid'?: number = null;
     /**
     * Optional target section id
     */
-    'targetsectionid'?: number = null;
+    'Targetsectionid'?: number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "action",
+            "name": "Action",
             "baseName": "action",
             "type": "string"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "ids",
+            "name": "Ids",
             "baseName": "ids",
             "type": "Array<object>"
         },
         {
-            "name": "targetcmid",
+            "name": "Targetcmid",
             "baseName": "targetcmid",
             "type": "number"
         },
         {
-            "name": "targetsectionid",
+            "name": "Targetsectionid",
             "baseName": "targetsectionid",
             "type": "number"
         }    ];

@@ -16,49 +16,49 @@ export class CoreCalendarGetCalendarDayViewRequest {
     /**
     * Category being viewed
     */
-    'categoryid'?: number = null;
+    'Categoryid'?: number = null;
     /**
     * Course being viewed
     */
-    'courseid'?: number = 1;
+    'Courseid'?: number = 1;
     /**
     * Day to be viewed
     */
-    'day': number = null;
+    'Day': number = null;
     /**
     * Month to be viewed
     */
-    'month': number = null;
+    'Month': number = null;
     /**
     * Year to be viewed
     */
-    'year': number = null;
+    'Year': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "day",
+            "name": "Day",
             "baseName": "day",
             "type": "number"
         },
         {
-            "name": "month",
+            "name": "Month",
             "baseName": "month",
             "type": "number"
         },
         {
-            "name": "year",
+            "name": "Year",
             "baseName": "year",
             "type": "number"
         }    ];

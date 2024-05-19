@@ -20,304 +20,304 @@ export class ModForumGetForumDiscussions200ResponseDiscussionsInner {
     /**
     * Has attachments?
     */
-    'attachment'?: string = 'null';
-    'attachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Attachment'?: string = 'null';
+    'Attachments'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * Can the user star the discussion
     */
-    'canfavourite'?: boolean = null;
+    'Canfavourite'?: boolean = null;
     /**
     * Can the user lock the discussion
     */
-    'canlock'?: boolean = null;
+    'Canlock'?: boolean = null;
     /**
     * Can the user reply to the discussion
     */
-    'canreply'?: boolean = null;
+    'Canreply'?: boolean = null;
     /**
     * Creation time
     */
-    'created'?: number = null;
+    'Created'?: number = null;
     /**
     * Discussion id
     */
-    'discussion'?: number = null;
+    'Discussion'?: number = null;
     /**
     * Group id
     */
-    'groupid'?: number;
+    'Groupid'?: number;
     /**
     * Post id
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Is the discussion locked
     */
-    'locked'?: boolean = null;
+    'Locked'?: boolean = null;
     /**
     * Mailed?
     */
-    'mailed'?: number = null;
+    'Mailed'?: number = null;
     /**
     * Mail now?
     */
-    'mailnow'?: number = null;
+    'Mailnow'?: number = null;
     /**
     * The post message
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
     /**
     * message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'messageformat'?: number;
-    'messageinlinefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
+    'Messageformat'?: number;
+    'Messageinlinefiles'?: Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>;
     /**
     * Can we trust?
     */
-    'messagetrust'?: number = null;
+    'Messagetrust'?: number = null;
     /**
     * Time modified
     */
-    'modified'?: number;
+    'Modified'?: number;
     /**
     * Discussion name
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * The number of replies in the discussion
     */
-    'numreplies'?: number = null;
+    'Numreplies'?: number = null;
     /**
     * The number of unread discussions.
     */
-    'numunread'?: number = null;
+    'Numunread'?: number = null;
     /**
     * Parent id
     */
-    'parent'?: number = null;
+    'Parent'?: number = null;
     /**
     * Is the discussion pinned
     */
-    'pinned'?: boolean = null;
+    'Pinned'?: boolean = null;
     /**
     * Is the discussion starred
     */
-    'starred'?: boolean = null;
+    'Starred'?: boolean = null;
     /**
     * The post subject
     */
-    'subject'?: string = 'null';
+    'Subject'?: string = 'null';
     /**
     * Time discussion ends
     */
-    'timeend'?: number = null;
+    'Timeend'?: number = null;
     /**
     * Time modified
     */
-    'timemodified'?: number;
+    'Timemodified'?: number;
     /**
     * Time discussion can start
     */
-    'timestart'?: number = null;
+    'Timestart'?: number = null;
     /**
     * The post message total score
     */
-    'totalscore'?: number = null;
+    'Totalscore'?: number = null;
     /**
     * Post author full name
     */
-    'userfullname'?: string = 'null';
+    'Userfullname'?: string = 'null';
     /**
     * User who started the discussion id
     */
-    'userid'?: number = null;
+    'Userid'?: number = null;
     /**
     * The id of the user who last modified
     */
-    'usermodified'?: number = null;
+    'Usermodified'?: number = null;
     /**
     * Post modifier full name
     */
-    'usermodifiedfullname'?: string = 'null';
+    'Usermodifiedfullname'?: string = 'null';
     /**
     * Post modifier picture.
     */
-    'usermodifiedpictureurl'?: string = 'null';
+    'Usermodifiedpictureurl'?: string = 'null';
     /**
     * Post author picture.
     */
-    'userpictureurl'?: string = 'null';
+    'Userpictureurl'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "attachment",
+            "name": "Attachment",
             "baseName": "attachment",
             "type": "string"
         },
         {
-            "name": "attachments",
+            "name": "Attachments",
             "baseName": "attachments",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "canfavourite",
+            "name": "Canfavourite",
             "baseName": "canfavourite",
             "type": "boolean"
         },
         {
-            "name": "canlock",
+            "name": "Canlock",
             "baseName": "canlock",
             "type": "boolean"
         },
         {
-            "name": "canreply",
+            "name": "Canreply",
             "baseName": "canreply",
             "type": "boolean"
         },
         {
-            "name": "created",
+            "name": "Created",
             "baseName": "created",
             "type": "number"
         },
         {
-            "name": "discussion",
+            "name": "Discussion",
             "baseName": "discussion",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "boolean"
         },
         {
-            "name": "mailed",
+            "name": "Mailed",
             "baseName": "mailed",
             "type": "number"
         },
         {
-            "name": "mailnow",
+            "name": "Mailnow",
             "baseName": "mailnow",
             "type": "number"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "messageformat",
+            "name": "Messageformat",
             "baseName": "messageformat",
             "type": "number"
         },
         {
-            "name": "messageinlinefiles",
+            "name": "Messageinlinefiles",
             "baseName": "messageinlinefiles",
             "type": "Array<CoreBlockGetDashboardBlocks200ResponseBlocksInnerContentsFilesInner>"
         },
         {
-            "name": "messagetrust",
+            "name": "Messagetrust",
             "baseName": "messagetrust",
             "type": "number"
         },
         {
-            "name": "modified",
+            "name": "Modified",
             "baseName": "modified",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "numreplies",
+            "name": "Numreplies",
             "baseName": "numreplies",
             "type": "number"
         },
         {
-            "name": "numunread",
+            "name": "Numunread",
             "baseName": "numunread",
             "type": "number"
         },
         {
-            "name": "parent",
+            "name": "Parent",
             "baseName": "parent",
             "type": "number"
         },
         {
-            "name": "pinned",
+            "name": "Pinned",
             "baseName": "pinned",
             "type": "boolean"
         },
         {
-            "name": "starred",
+            "name": "Starred",
             "baseName": "starred",
             "type": "boolean"
         },
         {
-            "name": "subject",
+            "name": "Subject",
             "baseName": "subject",
             "type": "string"
         },
         {
-            "name": "timeend",
+            "name": "Timeend",
             "baseName": "timeend",
             "type": "number"
         },
         {
-            "name": "timemodified",
+            "name": "Timemodified",
             "baseName": "timemodified",
             "type": "number"
         },
         {
-            "name": "timestart",
+            "name": "Timestart",
             "baseName": "timestart",
             "type": "number"
         },
         {
-            "name": "totalscore",
+            "name": "Totalscore",
             "baseName": "totalscore",
             "type": "number"
         },
         {
-            "name": "userfullname",
+            "name": "Userfullname",
             "baseName": "userfullname",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "usermodified",
+            "name": "Usermodified",
             "baseName": "usermodified",
             "type": "number"
         },
         {
-            "name": "usermodifiedfullname",
+            "name": "Usermodifiedfullname",
             "baseName": "usermodifiedfullname",
             "type": "string"
         },
         {
-            "name": "usermodifiedpictureurl",
+            "name": "Usermodifiedpictureurl",
             "baseName": "usermodifiedpictureurl",
             "type": "string"
         },
         {
-            "name": "userpictureurl",
+            "name": "Userpictureurl",
             "baseName": "userpictureurl",
             "type": "string"
         }    ];

@@ -16,22 +16,22 @@ export class CoreReportbuilderReportsGet200ResponseCardview {
     /**
     * form
     */
-    'form': string = 'null';
+    'Form': string = 'null';
     /**
     * helpicon
     */
-    'helpicon': string;
+    'Helpicon': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "form",
+            "name": "Form",
             "baseName": "form",
             "type": "string"
         },
         {
-            "name": "helpicon",
+            "name": "Helpicon",
             "baseName": "helpicon",
             "type": "string"
         }    ];

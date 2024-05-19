@@ -16,13 +16,13 @@ export class ToolUsertoursResetTour200Response {
     /**
     * Tour ID
     */
-    'startTour'?: number;
+    'StartTour'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "startTour",
+            "name": "StartTour",
             "baseName": "startTour",
             "type": "number"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetSubmissions200Response
+# MoodleClient.Model.ModAssignGetSubmissions200Response
 
 ## Properties
 

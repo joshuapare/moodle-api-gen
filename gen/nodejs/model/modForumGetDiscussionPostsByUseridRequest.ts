@@ -16,40 +16,40 @@ export class ModForumGetDiscussionPostsByUseridRequest {
     /**
     * The ID of the module of which to fetch items.
     */
-    'cmid': number = null;
+    'Cmid': number = null;
     /**
     * Sort by this element: id, created or modified
     */
-    'sortby'?: string = 'created';
+    'Sortby'?: string = 'created';
     /**
     * Sort direction: ASC or DESC
     */
-    'sortdirection'?: string = 'DESC';
+    'Sortdirection'?: string = 'DESC';
     /**
     * The ID of the user of whom to fetch posts.
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "sortby",
+            "name": "Sortby",
             "baseName": "sortby",
             "type": "string"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

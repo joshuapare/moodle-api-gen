@@ -16,49 +16,49 @@ export class CoreCompetencyGradeCompetencyInCourseRequest {
     /**
     * Competency id
     */
-    'competencyid': number = null;
+    'Competencyid': number = null;
     /**
     * Course id
     */
-    'courseid': number;
+    'Courseid': number;
     /**
     * New grade
     */
-    'grade': number;
+    'Grade': number;
     /**
     * A note to attach to the evidence
     */
-    'note'?: string;
+    'Note'?: string;
     /**
     * User id
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "competencyid",
+            "name": "Competencyid",
             "baseName": "competencyid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "note",
+            "name": "Note",
             "baseName": "note",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

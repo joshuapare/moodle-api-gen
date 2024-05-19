@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMoodlenetGetShareInfoActivity200Response
+# MoodleClient.Model.CoreMoodlenetGetShareInfoActivity200Response
 
 ## Properties
 

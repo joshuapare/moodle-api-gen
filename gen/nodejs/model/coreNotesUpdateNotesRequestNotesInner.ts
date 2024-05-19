@@ -16,40 +16,40 @@ export class CoreNotesUpdateNotesRequestNotesInner {
     /**
     * text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN)
     */
-    'format'?: number = 1;
+    'Format'?: number = 1;
     /**
     * id of the note
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * \'personal\', \'course\' or \'site\'
     */
-    'publishstate'?: string;
+    'Publishstate'?: string;
     /**
     * the text of the message - text or HTML
     */
-    'text'?: string;
+    'Text'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "format",
+            "name": "Format",
             "baseName": "format",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "publishstate",
+            "name": "Publishstate",
             "baseName": "publishstate",
             "type": "string"
         },
         {
-            "name": "text",
+            "name": "Text",
             "baseName": "text",
             "type": "string"
         }    ];

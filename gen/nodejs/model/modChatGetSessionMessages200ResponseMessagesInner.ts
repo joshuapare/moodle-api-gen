@@ -16,67 +16,67 @@ export class ModChatGetSessionMessages200ResponseMessagesInner {
     /**
     * The chat id.
     */
-    'chatid'?: number = 0;
+    'Chatid'?: number = 0;
     /**
     * The group this message belongs to.
     */
-    'groupid'?: number = 0;
+    'Groupid'?: number = 0;
     /**
     * The message record id.
     */
-    'id'?: number = null;
+    'Id'?: number = null;
     /**
     * Whether is a system message or not.
     */
-    'issystem'?: boolean = false;
+    'Issystem'?: boolean = false;
     /**
     * The message text.
     */
-    'message'?: string = 'null';
+    'Message'?: string = 'null';
     /**
     * The message timestamp (indicates when the message was sent).
     */
-    'timestamp'?: number = 0;
+    'Timestamp'?: number = 0;
     /**
     * The user who wrote the message.
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "chatid",
+            "name": "Chatid",
             "baseName": "chatid",
             "type": "number"
         },
         {
-            "name": "groupid",
+            "name": "Groupid",
             "baseName": "groupid",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "issystem",
+            "name": "Issystem",
             "baseName": "issystem",
             "type": "boolean"
         },
         {
-            "name": "message",
+            "name": "Message",
             "baseName": "message",
             "type": "string"
         },
         {
-            "name": "timestamp",
+            "name": "Timestamp",
             "baseName": "timestamp",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

@@ -16,13 +16,13 @@ export class CoreCalendarDeleteSubscriptionRequest {
     /**
     * The id of the subscription
     */
-    'subscriptionid': number = null;
+    'Subscriptionid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "subscriptionid",
+            "name": "Subscriptionid",
             "baseName": "subscriptionid",
             "type": "number"
         }    ];

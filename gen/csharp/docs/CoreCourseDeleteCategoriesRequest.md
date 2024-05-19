@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseDeleteCategoriesRequest
+# MoodleClient.Model.CoreCourseDeleteCategoriesRequest
 
 ## Properties
 

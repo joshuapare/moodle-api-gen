@@ -20,118 +20,118 @@ export class BlockIomadCompanyAdminEditLicensesRequestLicensesInner {
     /**
     * Number of license slots
     */
-    'allocation'?: number;
+    'Allocation'?: number;
     /**
     * Company id
     */
-    'companyid'?: number;
-    'courses'?: Array<BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInner>;
+    'Companyid'?: number;
+    'Courses'?: Array<BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInner>;
     /**
     * License expiry date
     */
-    'expirydate'?: number = null;
+    'Expirydate'?: number = null;
     /**
     * license ID
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * Instant access - 0 = no, 1 = yes
     */
-    'instant'?: number;
+    'Instant'?: number;
     /**
     * License name
     */
-    'name'?: string;
+    'Name'?: string;
     /**
     * Parent license id
     */
-    'parentid'?: number;
+    'Parentid'?: number;
     /**
     * Program pf courses 0 = no, 1 = yes
     */
-    'program'?: number;
+    'Program'?: number;
     /**
     * License reference
     */
-    'reference'?: string;
+    'Reference'?: string;
     /**
     * License type - 0 = standard, 1 = reusable, 2 = standard educator, 3 = reusable educator
     */
-    'type'?: number;
+    'Type'?: number;
     /**
     * Number allocated
     */
-    'used'?: number = null;
+    'Used'?: number = null;
     /**
     * Course access length (days)
     */
-    'validlength'?: number;
+    'Validlength'?: number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "allocation",
+            "name": "Allocation",
             "baseName": "allocation",
             "type": "number"
         },
         {
-            "name": "companyid",
+            "name": "Companyid",
             "baseName": "companyid",
             "type": "number"
         },
         {
-            "name": "courses",
+            "name": "Courses",
             "baseName": "courses",
             "type": "Array<BlockIomadCompanyAdminCreateLicensesRequestLicensesInnerCoursesInner>"
         },
         {
-            "name": "expirydate",
+            "name": "Expirydate",
             "baseName": "expirydate",
             "type": "number"
         },
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "instant",
+            "name": "Instant",
             "baseName": "instant",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "parentid",
+            "name": "Parentid",
             "baseName": "parentid",
             "type": "number"
         },
         {
-            "name": "program",
+            "name": "Program",
             "baseName": "program",
             "type": "number"
         },
         {
-            "name": "reference",
+            "name": "Reference",
             "baseName": "reference",
             "type": "string"
         },
         {
-            "name": "type",
+            "name": "Type",
             "baseName": "type",
             "type": "number"
         },
         {
-            "name": "used",
+            "name": "Used",
             "baseName": "used",
             "type": "number"
         },
         {
-            "name": "validlength",
+            "name": "Validlength",
             "baseName": "validlength",
             "type": "number"
         }    ];

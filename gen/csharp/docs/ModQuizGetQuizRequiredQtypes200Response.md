@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModQuizGetQuizRequiredQtypes200Response
+# MoodleClient.Model.ModQuizGetQuizRequiredQtypes200Response
 
 ## Properties
 

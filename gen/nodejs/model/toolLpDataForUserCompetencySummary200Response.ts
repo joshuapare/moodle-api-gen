@@ -23,64 +23,64 @@ export class ToolLpDataForUserCompetencySummary200Response {
     /**
     * cangrade
     */
-    'cangrade': boolean = null;
-    'commentarea'?: CoreCompetencyReadPlan200ResponseCommentarea;
-    'competency': ToolLpDataForCompetencySummary200Response;
-    'evidence': Array<ToolLpDataForUserCompetencySummary200ResponseEvidenceInner>;
+    'Cangrade': boolean = null;
+    'Commentarea'?: CoreCompetencyReadPlan200ResponseCommentarea;
+    'Competency': ToolLpDataForCompetencySummary200Response;
+    'Evidence': Array<ToolLpDataForUserCompetencySummary200ResponseEvidenceInner>;
     /**
     * showrelatedcompetencies
     */
-    'showrelatedcompetencies': boolean = null;
-    'user': CoreCompetencyGradeCompetency200ResponseActionuser;
-    'usercompetency'?: ToolLpDataForUserCompetencySummary200ResponseUsercompetency;
-    'usercompetencycourse'?: ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse;
-    'usercompetencyplan'?: ToolLpDataForUserCompetencySummary200ResponseUsercompetencyplan;
+    'Showrelatedcompetencies': boolean = null;
+    'User': CoreCompetencyGradeCompetency200ResponseActionuser;
+    'Usercompetency'?: ToolLpDataForUserCompetencySummary200ResponseUsercompetency;
+    'Usercompetencycourse'?: ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse;
+    'Usercompetencyplan'?: ToolLpDataForUserCompetencySummary200ResponseUsercompetencyplan;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cangrade",
+            "name": "Cangrade",
             "baseName": "cangrade",
             "type": "boolean"
         },
         {
-            "name": "commentarea",
+            "name": "Commentarea",
             "baseName": "commentarea",
             "type": "CoreCompetencyReadPlan200ResponseCommentarea"
         },
         {
-            "name": "competency",
+            "name": "Competency",
             "baseName": "competency",
             "type": "ToolLpDataForCompetencySummary200Response"
         },
         {
-            "name": "evidence",
+            "name": "Evidence",
             "baseName": "evidence",
             "type": "Array<ToolLpDataForUserCompetencySummary200ResponseEvidenceInner>"
         },
         {
-            "name": "showrelatedcompetencies",
+            "name": "Showrelatedcompetencies",
             "baseName": "showrelatedcompetencies",
             "type": "boolean"
         },
         {
-            "name": "user",
+            "name": "User",
             "baseName": "user",
             "type": "CoreCompetencyGradeCompetency200ResponseActionuser"
         },
         {
-            "name": "usercompetency",
+            "name": "Usercompetency",
             "baseName": "usercompetency",
             "type": "ToolLpDataForUserCompetencySummary200ResponseUsercompetency"
         },
         {
-            "name": "usercompetencycourse",
+            "name": "Usercompetencycourse",
             "baseName": "usercompetencycourse",
             "type": "ToolLpDataForCourseCompetenciesPage200ResponseCompetenciesInnerUsercompetencycourse"
         },
         {
-            "name": "usercompetencyplan",
+            "name": "Usercompetencyplan",
             "baseName": "usercompetencyplan",
             "type": "ToolLpDataForUserCompetencySummary200ResponseUsercompetencyplan"
         }    ];

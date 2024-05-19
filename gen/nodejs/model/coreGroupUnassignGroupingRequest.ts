@@ -14,13 +14,13 @@ import { RequestFile } from './models';
 import { CoreGroupUnassignGroupingRequestUnassignmentsInner } from './coreGroupUnassignGroupingRequestUnassignmentsInner';
 
 export class CoreGroupUnassignGroupingRequest {
-    'unassignments': Array<CoreGroupUnassignGroupingRequestUnassignmentsInner>;
+    'Unassignments': Array<CoreGroupUnassignGroupingRequestUnassignmentsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "unassignments",
+            "name": "Unassignments",
             "baseName": "unassignments",
             "type": "Array<CoreGroupUnassignGroupingRequestUnassignmentsInner>"
         }    ];

@@ -17,19 +17,19 @@ export class CoreCourseGetUserNavigationOptions200ResponseCoursesInner {
     /**
     * Course id
     */
-    'id'?: number;
-    'options'?: Array<CoreCourseGetUserNavigationOptions200ResponseCoursesInnerOptionsInner>;
+    'Id'?: number;
+    'Options'?: Array<CoreCourseGetUserNavigationOptions200ResponseCoursesInnerOptionsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "options",
+            "name": "Options",
             "baseName": "options",
             "type": "Array<CoreCourseGetUserNavigationOptions200ResponseCoursesInnerOptionsInner>"
         }    ];

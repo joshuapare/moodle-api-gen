@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner
+# MoodleClient.Model.ModFeedbackGetResponsesAnalysis200ResponseAnonattemptsInner
 
 ## Properties
 

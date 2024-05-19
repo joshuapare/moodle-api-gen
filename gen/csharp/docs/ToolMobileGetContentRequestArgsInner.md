@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ToolMobileGetContentRequestArgsInner
+# MoodleClient.Model.ToolMobileGetContentRequestArgsInner
 
 ## Properties
 

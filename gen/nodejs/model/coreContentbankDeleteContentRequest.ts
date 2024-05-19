@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreContentbankDeleteContentRequest {
-    'contentids': Array<object>;
+    'Contentids': Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "contentids",
+            "name": "Contentids",
             "baseName": "contentids",
             "type": "Array<object>"
         }    ];

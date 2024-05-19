@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.BlockAccessreviewGetModuleDataRequest
+# MoodleClient.Model.BlockAccessreviewGetModuleDataRequest
 
 ## Properties
 

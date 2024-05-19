@@ -16,13 +16,13 @@ export class ModForumGetDiscussionPost200ResponsePostAttachmentsInnerUrls {
     /**
     * The URL used to export the attachment
     */
-    '_export'?: string;
+    'Export'?: string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "_export",
+            "name": "Export",
             "baseName": "export",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreEnrolGetUsersCoursesRequest
+# MoodleClient.Model.CoreEnrolGetUsersCoursesRequest
 
 ## Properties
 

@@ -18,79 +18,79 @@ export class ModAssignSaveGradeRequest {
     /**
     * Allow another attempt if the attempt reopen method is manual
     */
-    'addattempt': boolean = null;
-    'advancedgradingdata'?: ModAssignSaveGradeRequestAdvancedgradingdata;
+    'Addattempt': boolean = null;
+    'Advancedgradingdata'?: ModAssignSaveGradeRequestAdvancedgradingdata;
     /**
     * If true, this grade will be applied to all members of the group (for group assignments).
     */
-    'applytoall': boolean = null;
+    'Applytoall': boolean = null;
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
+    'Assignmentid': number;
     /**
     * The attempt number (-1 means latest attempt)
     */
-    'attemptnumber': number = null;
+    'Attemptnumber': number = null;
     /**
     * The new grade for this user. Ignored if advanced grading used
     */
-    'grade': number = null;
-    'plugindata'?: ModAssignSaveGradeRequestPlugindata;
+    'Grade': number = null;
+    'Plugindata'?: ModAssignSaveGradeRequestPlugindata;
     /**
     * The student id to operate on
     */
-    'userid': number = null;
+    'Userid': number = null;
     /**
     * The next marking workflow state
     */
-    'workflowstate': string = 'null';
+    'Workflowstate': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "addattempt",
+            "name": "Addattempt",
             "baseName": "addattempt",
             "type": "boolean"
         },
         {
-            "name": "advancedgradingdata",
+            "name": "Advancedgradingdata",
             "baseName": "advancedgradingdata",
             "type": "ModAssignSaveGradeRequestAdvancedgradingdata"
         },
         {
-            "name": "applytoall",
+            "name": "Applytoall",
             "baseName": "applytoall",
             "type": "boolean"
         },
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "attemptnumber",
+            "name": "Attemptnumber",
             "baseName": "attemptnumber",
             "type": "number"
         },
         {
-            "name": "grade",
+            "name": "Grade",
             "baseName": "grade",
             "type": "number"
         },
         {
-            "name": "plugindata",
+            "name": "Plugindata",
             "baseName": "plugindata",
             "type": "ModAssignSaveGradeRequestPlugindata"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         },
         {
-            "name": "workflowstate",
+            "name": "Workflowstate",
             "baseName": "workflowstate",
             "type": "string"
         }    ];

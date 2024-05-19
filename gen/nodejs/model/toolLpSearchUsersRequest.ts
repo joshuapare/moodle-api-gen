@@ -16,40 +16,40 @@ export class ToolLpSearchUsersRequest {
     /**
     * Required capability
     */
-    'capability': string = 'null';
+    'Capability': string = 'null';
     /**
     * Number of records to skip
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Number of records to fetch
     */
-    'limitnum'?: string = '100';
+    'Limitnum'?: string = '100';
     /**
     * Query string
     */
-    'query': string;
+    'Query': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "capability",
+            "name": "Capability",
             "baseName": "capability",
             "type": "string"
         },
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "string"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

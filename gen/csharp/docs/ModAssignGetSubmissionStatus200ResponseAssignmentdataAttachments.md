@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignGetSubmissionStatus200ResponseAssignmentdataAttachments
+# MoodleClient.Model.ModAssignGetSubmissionStatus200ResponseAssignmentdataAttachments
 
 ## Properties
 

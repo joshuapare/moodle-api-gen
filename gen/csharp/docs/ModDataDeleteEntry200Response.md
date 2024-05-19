@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModDataDeleteEntry200Response
+# MoodleClient.Model.ModDataDeleteEntry200Response
 
 ## Properties
 

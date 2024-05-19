@@ -17,19 +17,19 @@ export class ModBigbluebuttonbnGetJoinUrl200Response {
     /**
     * Can join session
     */
-    'joinUrl'?: string = 'null';
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'JoinUrl'?: string = 'null';
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "joinUrl",
+            "name": "JoinUrl",
             "baseName": "join_url",
             "type": "string"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

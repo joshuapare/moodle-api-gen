@@ -14,49 +14,49 @@ import { RequestFile } from './models';
 import { CoreCohortSearchCohortsRequestContext } from './coreCohortSearchCohortsRequestContext';
 
 export class CoreCohortSearchCohortsRequest {
-    'context': CoreCohortSearchCohortsRequestContext;
+    'Context': CoreCohortSearchCohortsRequestContext;
     /**
     * What other contexts to fetch the frameworks from. (all, parents, self)
     */
-    'includes'?: string = 'parents';
+    'Includes'?: string = 'parents';
     /**
     * limitfrom we are fetching the records from
     */
-    'limitfrom'?: number = 0;
+    'Limitfrom'?: number = 0;
     /**
     * Number of records to fetch
     */
-    'limitnum'?: number = 25;
+    'Limitnum'?: number = 25;
     /**
     * Query string
     */
-    'query': string = 'null';
+    'Query': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "context",
+            "name": "Context",
             "baseName": "context",
             "type": "CoreCohortSearchCohortsRequestContext"
         },
         {
-            "name": "includes",
+            "name": "Includes",
             "baseName": "includes",
             "type": "string"
         },
         {
-            "name": "limitfrom",
+            "name": "Limitfrom",
             "baseName": "limitfrom",
             "type": "number"
         },
         {
-            "name": "limitnum",
+            "name": "Limitnum",
             "baseName": "limitnum",
             "type": "number"
         },
         {
-            "name": "query",
+            "name": "Query",
             "baseName": "query",
             "type": "string"
         }    ];

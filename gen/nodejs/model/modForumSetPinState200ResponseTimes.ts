@@ -16,40 +16,40 @@ export class ModForumSetPinState200ResponseTimes {
     /**
     * end
     */
-    'end': number = null;
+    'End': number = null;
     /**
     * locked
     */
-    'locked': number = null;
+    'Locked': number = null;
     /**
     * modified
     */
-    'modified': number = null;
+    'Modified': number = null;
     /**
     * start
     */
-    'start': number = null;
+    'Start': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "end",
+            "name": "End",
             "baseName": "end",
             "type": "number"
         },
         {
-            "name": "locked",
+            "name": "Locked",
             "baseName": "locked",
             "type": "number"
         },
         {
-            "name": "modified",
+            "name": "Modified",
             "baseName": "modified",
             "type": "number"
         },
         {
-            "name": "start",
+            "name": "Start",
             "baseName": "start",
             "type": "number"
         }    ];

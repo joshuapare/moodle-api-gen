@@ -16,13 +16,13 @@ export class CoreCompetencyGetScaleValuesRequest {
     /**
     * The scale id
     */
-    'scaleid': number = null;
+    'Scaleid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "scaleid",
+            "name": "Scaleid",
             "baseName": "scaleid",
             "type": "number"
         }    ];

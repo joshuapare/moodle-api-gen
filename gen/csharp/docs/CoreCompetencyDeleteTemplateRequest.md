@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyDeleteTemplateRequest
+# MoodleClient.Model.CoreCompetencyDeleteTemplateRequest
 
 ## Properties
 

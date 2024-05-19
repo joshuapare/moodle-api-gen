@@ -16,31 +16,31 @@ export class CoreReportbuilderColumnsDelete200ResponseSortablecolumnsInnerSortic
     /**
     * component
     */
-    'component': string;
+    'Component': string;
     /**
     * key
     */
-    'key': string;
+    'Key': string;
     /**
     * title
     */
-    'title': string;
+    'Title': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "component",
+            "name": "Component",
             "baseName": "component",
             "type": "string"
         },
         {
-            "name": "key",
+            "name": "Key",
             "baseName": "key",
             "type": "string"
         },
         {
-            "name": "title",
+            "name": "Title",
             "baseName": "title",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreAuthConfirmUserRequest
+# MoodleClient.Model.CoreAuthConfirmUserRequest
 
 ## Properties
 

@@ -16,58 +16,58 @@ export class CoreQuestionUpdateFlagRequest {
     /**
     * computed checksum with the last three arguments and                              the users username
     */
-    'checksum': string = 'null';
+    'Checksum': string = 'null';
     /**
     * the new state of the flag. true = flagged
     */
-    'newstate': boolean = null;
+    'Newstate': boolean = null;
     /**
     * the question_attempt id
     */
-    'qaid': number = null;
+    'Qaid': number = null;
     /**
     * the question usage id.
     */
-    'qubaid': number = null;
+    'Qubaid': number = null;
     /**
     * the question id
     */
-    'questionid': number = null;
+    'Questionid': number = null;
     /**
     * the slot number within the usage
     */
-    'slot': number = null;
+    'Slot': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "checksum",
+            "name": "Checksum",
             "baseName": "checksum",
             "type": "string"
         },
         {
-            "name": "newstate",
+            "name": "Newstate",
             "baseName": "newstate",
             "type": "boolean"
         },
         {
-            "name": "qaid",
+            "name": "Qaid",
             "baseName": "qaid",
             "type": "number"
         },
         {
-            "name": "qubaid",
+            "name": "Qubaid",
             "baseName": "qubaid",
             "type": "number"
         },
         {
-            "name": "questionid",
+            "name": "Questionid",
             "baseName": "questionid",
             "type": "number"
         },
         {
-            "name": "slot",
+            "name": "Slot",
             "baseName": "slot",
             "type": "number"
         }    ];

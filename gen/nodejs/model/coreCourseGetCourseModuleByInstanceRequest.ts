@@ -16,22 +16,22 @@ export class CoreCourseGetCourseModuleByInstanceRequest {
     /**
     * The module instance id
     */
-    'instance': number = null;
+    'Instance': number = null;
     /**
     * The module name
     */
-    'module': string = 'null';
+    'Module': string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "instance",
+            "name": "Instance",
             "baseName": "instance",
             "type": "number"
         },
         {
-            "name": "module",
+            "name": "Module",
             "baseName": "module",
             "type": "string"
         }    ];

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCompetencyReadUserEvidence200ResponseCompetenciesInner
+# MoodleClient.Model.CoreCompetencyReadUserEvidence200ResponseCompetenciesInner
 
 ## Properties
 

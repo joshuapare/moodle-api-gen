@@ -17,19 +17,19 @@ export class CoreCompetencyUpdateCourseCompetencySettingsRequest {
     /**
     * Course id for the course to update
     */
-    'courseid': number = null;
-    'settings': CoreCompetencyUpdateCourseCompetencySettingsRequestSettings;
+    'Courseid': number = null;
+    'Settings': CoreCompetencyUpdateCourseCompetencySettingsRequestSettings;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "settings",
+            "name": "Settings",
             "baseName": "settings",
             "type": "CoreCompetencyUpdateCourseCompetencySettingsRequestSettings"
         }    ];

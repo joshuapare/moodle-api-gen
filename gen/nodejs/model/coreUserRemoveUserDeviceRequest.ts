@@ -16,22 +16,22 @@ export class CoreUserRemoveUserDeviceRequest {
     /**
     * the app id, if empty devices matching the UUID for the user will be removed
     */
-    'appid'?: string = '';
+    'Appid'?: string = '';
     /**
     * the device UUID
     */
-    'uuid': string;
+    'Uuid': string;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "appid",
+            "name": "Appid",
             "baseName": "appid",
             "type": "string"
         },
         {
-            "name": "uuid",
+            "name": "Uuid",
             "baseName": "uuid",
             "type": "string"
         }    ];

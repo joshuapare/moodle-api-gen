@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupAddGroupMembersRequest
+# MoodleClient.Model.CoreGroupAddGroupMembersRequest
 
 ## Properties
 

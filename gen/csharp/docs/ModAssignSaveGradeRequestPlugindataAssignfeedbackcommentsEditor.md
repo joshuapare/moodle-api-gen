@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor
+# MoodleClient.Model.ModAssignSaveGradeRequestPlugindataAssignfeedbackcommentsEditor
 
 ## Properties
 

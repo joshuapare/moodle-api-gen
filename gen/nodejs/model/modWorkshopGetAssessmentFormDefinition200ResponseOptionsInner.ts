@@ -16,22 +16,22 @@ export class ModWorkshopGetAssessmentFormDefinition200ResponseOptionsInner {
     /**
     * Option name.
     */
-    'name'?: string = 'null';
+    'Name'?: string = 'null';
     /**
     * Option value.
     */
-    'value'?: string = 'null';
+    'Value'?: string = 'null';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "value",
+            "name": "Value",
             "baseName": "value",
             "type": "string"
         }    ];

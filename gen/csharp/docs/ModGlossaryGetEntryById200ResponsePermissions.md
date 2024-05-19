@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModGlossaryGetEntryById200ResponsePermissions
+# MoodleClient.Model.ModGlossaryGetEntryById200ResponsePermissions
 
 ## Properties
 

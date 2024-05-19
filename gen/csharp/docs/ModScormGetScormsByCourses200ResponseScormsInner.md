@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModScormGetScormsByCourses200ResponseScormsInner
+# MoodleClient.Model.ModScormGetScormsByCourses200ResponseScormsInner
 SCORM
 
 ## Properties

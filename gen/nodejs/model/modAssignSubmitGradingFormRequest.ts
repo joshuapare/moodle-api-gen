@@ -16,31 +16,31 @@ export class ModAssignSubmitGradingFormRequest {
     /**
     * The assignment id to operate on
     */
-    'assignmentid': number;
+    'Assignmentid': number;
     /**
     * The data from the grading form, encoded as a json array
     */
-    'jsonformdata': string = 'null';
+    'Jsonformdata': string = 'null';
     /**
     * The user id the submission belongs to
     */
-    'userid': number = null;
+    'Userid': number = null;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "assignmentid",
+            "name": "Assignmentid",
             "baseName": "assignmentid",
             "type": "number"
         },
         {
-            "name": "jsonformdata",
+            "name": "Jsonformdata",
             "baseName": "jsonformdata",
             "type": "string"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

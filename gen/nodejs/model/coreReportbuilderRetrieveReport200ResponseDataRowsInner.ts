@@ -13,13 +13,13 @@
 import { RequestFile } from './models';
 
 export class CoreReportbuilderRetrieveReport200ResponseDataRowsInner {
-    'columns'?: Array<object>;
+    'Columns'?: Array<object>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "columns",
+            "name": "Columns",
             "baseName": "columns",
             "type": "Array<object>"
         }    ];

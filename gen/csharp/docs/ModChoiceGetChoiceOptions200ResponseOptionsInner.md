@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModChoiceGetChoiceOptions200ResponseOptionsInner
+# MoodleClient.Model.ModChoiceGetChoiceOptions200ResponseOptionsInner
 
 ## Properties
 

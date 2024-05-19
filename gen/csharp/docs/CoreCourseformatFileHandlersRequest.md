@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreCourseformatFileHandlersRequest
+# MoodleClient.Model.CoreCourseformatFileHandlersRequest
 
 ## Properties
 

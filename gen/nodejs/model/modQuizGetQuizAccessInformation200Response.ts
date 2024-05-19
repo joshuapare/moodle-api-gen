@@ -14,76 +14,76 @@ import { RequestFile } from './models';
 import { AuthEmailSignupUser200ResponseWarningsInner } from './authEmailSignupUser200ResponseWarningsInner';
 
 export class ModQuizGetQuizAccessInformation200Response {
-    'accessrules': Array<object>;
-    'activerulenames': Array<object>;
+    'Accessrules': Array<object>;
+    'Activerulenames': Array<object>;
     /**
     * Whether the user can do the quiz or not.
     */
-    'canattempt': boolean = null;
+    'Canattempt': boolean = null;
     /**
     * Whether the user can edit the quiz settings or not.
     */
-    'canmanage': boolean = null;
+    'Canmanage': boolean = null;
     /**
     * Whether the user can preview the quiz or not.
     */
-    'canpreview': boolean = null;
+    'Canpreview': boolean = null;
     /**
     * Whether the users can review their previous attempts                                                                 or not.
     */
-    'canreviewmyattempts': boolean = null;
+    'Canreviewmyattempts': boolean = null;
     /**
     * Whether the user can view the quiz reports or not.
     */
-    'canviewreports': boolean = null;
-    'preventaccessreasons': Array<object>;
-    'warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
+    'Canviewreports': boolean = null;
+    'Preventaccessreasons': Array<object>;
+    'Warnings'?: Array<AuthEmailSignupUser200ResponseWarningsInner>;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "accessrules",
+            "name": "Accessrules",
             "baseName": "accessrules",
             "type": "Array<object>"
         },
         {
-            "name": "activerulenames",
+            "name": "Activerulenames",
             "baseName": "activerulenames",
             "type": "Array<object>"
         },
         {
-            "name": "canattempt",
+            "name": "Canattempt",
             "baseName": "canattempt",
             "type": "boolean"
         },
         {
-            "name": "canmanage",
+            "name": "Canmanage",
             "baseName": "canmanage",
             "type": "boolean"
         },
         {
-            "name": "canpreview",
+            "name": "Canpreview",
             "baseName": "canpreview",
             "type": "boolean"
         },
         {
-            "name": "canreviewmyattempts",
+            "name": "Canreviewmyattempts",
             "baseName": "canreviewmyattempts",
             "type": "boolean"
         },
         {
-            "name": "canviewreports",
+            "name": "Canviewreports",
             "baseName": "canviewreports",
             "type": "boolean"
         },
         {
-            "name": "preventaccessreasons",
+            "name": "Preventaccessreasons",
             "baseName": "preventaccessreasons",
             "type": "Array<object>"
         },
         {
-            "name": "warnings",
+            "name": "Warnings",
             "baseName": "warnings",
             "type": "Array<AuthEmailSignupUser200ResponseWarningsInner>"
         }    ];

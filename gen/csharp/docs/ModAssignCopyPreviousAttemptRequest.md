@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModAssignCopyPreviousAttemptRequest
+# MoodleClient.Model.ModAssignCopyPreviousAttemptRequest
 
 ## Properties
 

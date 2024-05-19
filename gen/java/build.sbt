@@ -1,7 +1,7 @@
 lazy val root = (project in file(".")).
   settings(
     organization := "com.joshuapare",
-    name := "moodle-client-java",
+    name := "moodle-client",
     version := "0.1.0",
     scalaVersion := "2.11.4",
     scalacOptions ++= Seq("-feature"),

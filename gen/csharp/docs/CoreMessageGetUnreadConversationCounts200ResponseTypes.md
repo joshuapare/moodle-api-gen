@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreMessageGetUnreadConversationCounts200ResponseTypes
+# MoodleClient.Model.CoreMessageGetUnreadConversationCounts200ResponseTypes
 
 ## Properties
 

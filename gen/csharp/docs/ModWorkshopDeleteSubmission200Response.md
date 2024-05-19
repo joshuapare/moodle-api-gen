@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.ModWorkshopDeleteSubmission200Response
+# MoodleClient.Model.ModWorkshopDeleteSubmission200Response
 
 ## Properties
 

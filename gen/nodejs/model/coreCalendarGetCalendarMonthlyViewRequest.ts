@@ -16,76 +16,76 @@ export class CoreCalendarGetCalendarMonthlyViewRequest {
     /**
     * Category being viewed
     */
-    'categoryid'?: number;
+    'Categoryid'?: number;
     /**
     * Course being viewed
     */
-    'courseid'?: number = 1;
+    'Courseid'?: number = 1;
     /**
     * Day to be viewed
     */
-    'day'?: number = 1;
+    'Day'?: number = 1;
     /**
     * Whether to show course navigation
     */
-    'includenavigation'?: boolean = true;
+    'Includenavigation'?: boolean = true;
     /**
     * Whether to return the mini month view or not
     */
-    'mini'?: boolean = false;
+    'Mini'?: boolean = false;
     /**
     * Month to be viewed
     */
-    'month': number;
+    'Month': number;
     /**
     * The view mode of the calendar
     */
-    'view'?: string = 'month';
+    'View'?: string = 'month';
     /**
     * Year to be viewed
     */
-    'year': number;
+    'Year': number;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "categoryid",
+            "name": "Categoryid",
             "baseName": "categoryid",
             "type": "number"
         },
         {
-            "name": "courseid",
+            "name": "Courseid",
             "baseName": "courseid",
             "type": "number"
         },
         {
-            "name": "day",
+            "name": "Day",
             "baseName": "day",
             "type": "number"
         },
         {
-            "name": "includenavigation",
+            "name": "Includenavigation",
             "baseName": "includenavigation",
             "type": "boolean"
         },
         {
-            "name": "mini",
+            "name": "Mini",
             "baseName": "mini",
             "type": "boolean"
         },
         {
-            "name": "month",
+            "name": "Month",
             "baseName": "month",
             "type": "number"
         },
         {
-            "name": "view",
+            "name": "View",
             "baseName": "view",
             "type": "string"
         },
         {
-            "name": "year",
+            "name": "Year",
             "baseName": "year",
             "type": "number"
         }    ];

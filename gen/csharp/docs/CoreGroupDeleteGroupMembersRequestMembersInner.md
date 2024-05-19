@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreGroupDeleteGroupMembersRequestMembersInner
+# MoodleClient.Model.CoreGroupDeleteGroupMembersRequestMembersInner
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Org.OpenAPITools.Model.CoreQuestionSubmitTagsForm200Response
+# MoodleClient.Model.CoreQuestionSubmitTagsForm200Response
 
 ## Properties
 

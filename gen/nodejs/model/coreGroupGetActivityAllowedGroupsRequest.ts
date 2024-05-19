@@ -16,22 +16,22 @@ export class CoreGroupGetActivityAllowedGroupsRequest {
     /**
     * course module id
     */
-    'cmid': number;
+    'Cmid': number;
     /**
     * id of user, empty for current user
     */
-    'userid'?: number = 0;
+    'Userid'?: number = 0;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "cmid",
+            "name": "Cmid",
             "baseName": "cmid",
             "type": "number"
         },
         {
-            "name": "userid",
+            "name": "Userid",
             "baseName": "userid",
             "type": "number"
         }    ];

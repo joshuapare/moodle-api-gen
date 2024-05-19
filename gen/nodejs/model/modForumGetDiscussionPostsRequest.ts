@@ -16,40 +16,40 @@ export class ModForumGetDiscussionPostsRequest {
     /**
     * The ID of the discussion from which to fetch posts.
     */
-    'discussionid': number = null;
+    'Discussionid': number = null;
     /**
     * Whether inline attachments should be included or not
     */
-    'includeinlineattachments'?: boolean = false;
+    'Includeinlineattachments'?: boolean = false;
     /**
     * Sort by this element: id, created or modified
     */
-    'sortby'?: string = 'created';
+    'Sortby'?: string = 'created';
     /**
     * Sort direction: ASC or DESC
     */
-    'sortdirection'?: string = 'DESC';
+    'Sortdirection'?: string = 'DESC';
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "discussionid",
+            "name": "Discussionid",
             "baseName": "discussionid",
             "type": "number"
         },
         {
-            "name": "includeinlineattachments",
+            "name": "Includeinlineattachments",
             "baseName": "includeinlineattachments",
             "type": "boolean"
         },
         {
-            "name": "sortby",
+            "name": "Sortby",
             "baseName": "sortby",
             "type": "string"
         },
         {
-            "name": "sortdirection",
+            "name": "Sortdirection",
             "baseName": "sortdirection",
             "type": "string"
         }    ];

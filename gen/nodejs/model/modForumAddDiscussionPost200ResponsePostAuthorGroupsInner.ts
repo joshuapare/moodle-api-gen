@@ -17,28 +17,28 @@ export class ModForumAddDiscussionPost200ResponsePostAuthorGroupsInner {
     /**
     * id
     */
-    'id'?: number;
+    'Id'?: number;
     /**
     * name
     */
-    'name'?: string;
-    'urls'?: ModForumAddDiscussionPost200ResponsePostAuthorGroupsInnerUrls;
+    'Name'?: string;
+    'Urls'?: ModForumAddDiscussionPost200ResponsePostAuthorGroupsInnerUrls;
 
     static discriminator: string | undefined = undefined;
 
     static attributeTypeMap: Array<{name: string, baseName: string, type: string}> = [
         {
-            "name": "id",
+            "name": "Id",
             "baseName": "id",
             "type": "number"
         },
         {
-            "name": "name",
+            "name": "Name",
             "baseName": "name",
             "type": "string"
         },
         {
-            "name": "urls",
+            "name": "Urls",
             "baseName": "urls",
             "type": "ModForumAddDiscussionPost200ResponsePostAuthorGroupsInnerUrls"
         }    ];
