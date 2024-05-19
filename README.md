@@ -114,7 +114,7 @@ go install github.com/joshuapare/moodle-api-gen@latest
 <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 
 ```bash
-go get github.com/joshuapare/moodle-client-go
+go get github.com/joshuapare/moodle-client-go/v4
 ```
 
 <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
