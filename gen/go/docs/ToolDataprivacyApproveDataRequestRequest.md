@@ -1,0 +1,51 @@
+# ToolDataprivacyApproveDataRequestRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Requestid** | **int32** | The request ID | [default to null]
+
+## Methods
+
+### NewToolDataprivacyApproveDataRequestRequest
+
+`func NewToolDataprivacyApproveDataRequestRequest(requestid int32, ) *ToolDataprivacyApproveDataRequestRequest`
+
+NewToolDataprivacyApproveDataRequestRequest instantiates a new ToolDataprivacyApproveDataRequestRequest object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewToolDataprivacyApproveDataRequestRequestWithDefaults
+
+`func NewToolDataprivacyApproveDataRequestRequestWithDefaults() *ToolDataprivacyApproveDataRequestRequest`
+
+NewToolDataprivacyApproveDataRequestRequestWithDefaults instantiates a new ToolDataprivacyApproveDataRequestRequest object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetRequestid
+
+`func (o *ToolDataprivacyApproveDataRequestRequest) GetRequestid() int32`
+
+GetRequestid returns the Requestid field if non-nil, zero value otherwise.
+
+### GetRequestidOk
+
+`func (o *ToolDataprivacyApproveDataRequestRequest) GetRequestidOk() (*int32, bool)`
+
+GetRequestidOk returns a tuple with the Requestid field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetRequestid
+
+`func (o *ToolDataprivacyApproveDataRequestRequest) SetRequestid(v int32)`
+
+SetRequestid sets Requestid field to given value.
+
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,56 @@
+# ModLessonGetLessonsByCourses200ResponseLessonsInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**activitylink** | Option<**i32**> | Id of the next activity to be linked once the lesson is completed | [optional]
+**allowofflineattempts** | Option<**bool**> | Whether to allow the lesson to be attempted offline in the mobile app | [optional]
+**available** | Option<**i32**> | Available from | [optional]
+**bgcolor** | Option<**String**> | Slideshow bgcolor | [optional]
+**completionendreached** | Option<**i32**> | Require end reached for completion? | [optional]
+**completiontimespent** | Option<**i32**> | Student must do this activity at least for | [optional]
+**conditions** | Option<**String**> | Conditions to enable the lesson | [optional]
+**course** | Option<**i32**> | Foreign key reference to the course this lesson is part of. | [optional]
+**coursemodule** | Option<**i32**> | Course module id. | [optional]
+**custom** | Option<**bool**> | Custom scoring? | [optional]
+**deadline** | Option<**i32**> | Available until | [optional]
+**dependency** | Option<**i32**> | Dependent on (another lesson id) | [optional]
+**displayleft** | Option<**bool**> | Display left pages menu? | [optional]
+**displayleftif** | Option<**i32**> | Minimum grade to display menu | [optional]
+**feedback** | Option<**bool**> | Display default feedback | [optional]
+**grade** | Option<**i32**> | The total that the grade is scaled to be out of | [optional]
+**height** | Option<**i32**> | Slideshow height | [optional]
+**id** | Option<**i32**> | Standard Moodle primary key. | [optional]
+**intro** | Option<**String**> | Lesson introduction text. | [optional]
+**introfiles** | Option<[**Vec<models::CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>**](core_blog_get_entries_200_response_entries_inner_summaryfiles_inner.md)> |  | [optional]
+**introformat** | Option<**i32**> | intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN) | [optional][default to 0]
+**lang** | Option<**String**> | Forced activity language | [optional]
+**maxanswers** | Option<**i32**> | Maximum answers per page | [optional]
+**maxattempts** | Option<**i32**> | Maximum attempts | [optional]
+**maxpages** | Option<**i32**> | Number of pages to show | [optional]
+**mediaclose** | Option<**i32**> | Display a close button in the popup? | [optional]
+**mediafile** | Option<**String**> | Local file path or full external URL | [optional]
+**mediafiles** | Option<[**Vec<models::CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner>**](core_blog_get_entries_200_response_entries_inner_summaryfiles_inner.md)> |  | [optional]
+**mediaheight** | Option<**i32**> | Popup for media file height | [optional]
+**mediawidth** | Option<**i32**> | Popup for media with | [optional]
+**minquestions** | Option<**i32**> | Minimum number of questions | [optional]
+**modattempts** | Option<**bool**> | Allow student review? | [optional]
+**name** | Option<**String**> | Lesson name. | [optional]
+**nextpagedefault** | Option<**i32**> | Action for a correct answer | [optional]
+**ongoing** | Option<**bool**> | Display ongoing score? | [optional]
+**password** | Option<**String**> | Password | [optional]
+**practice** | Option<**bool**> | Practice lesson? | [optional]
+**progressbar** | Option<**bool**> | Display progress bar? | [optional]
+**retake** | Option<**bool**> | Re-takes allowed | [optional]
+**review** | Option<**bool**> | Provide option to try a question again | [optional]
+**slideshow** | Option<**bool**> | Display lesson as slideshow | [optional]
+**timelimit** | Option<**i32**> | Time limit | [optional]
+**timemodified** | Option<**i32**> | Last time settings were updated | [optional]
+**usemaxgrade** | Option<**i32**> | How to calculate the final grade | [optional]
+**usepassword** | Option<**bool**> | Password protected lesson? | [optional]
+**width** | Option<**i32**> | Slideshow width | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

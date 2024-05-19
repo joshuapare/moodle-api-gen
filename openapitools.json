@@ -1,0 +1,110 @@
+{
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.5.0",
+    "generators": {
+      "go": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-go",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "go",
+        "output": "gen/go",
+        "additionalProperties": {
+          "packageName": "moodleclient",
+          "packageVersion": "1.0.0"
+        }
+      },
+      "swagger": {
+        "inputSpec": "gen/openapi.yaml",
+        "generatorName": "openapi",
+        "output": "gen/swagger",
+        "skipValidateSpec": true
+      },
+      "protobuf": {
+        "inputSpec": "gen/openapi.yaml",
+        "generatorName": "protobuf-schema",
+        "output": "gen/proto",
+        "skipValidateSpec": true
+      },
+      "php": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-php",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "php",
+        "output": "gen/php"
+      },
+      "nestjs": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-nestjs",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "typescript-nestjs",
+        "output": "gen/nestjs",
+        "apiPackage": "@joshuapare/moodle-client-nestjs",
+        "artifactVersion": "0.1.0",
+        "additionalProperties": {
+          "modelPropertyNaming": "PascalCase",
+          "fileNaming": "kebab-case",
+          "npmName": "@joshuapare/moodle-client-nestjs"
+        }
+      },
+      "typescript-fetch": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-ts",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "typescript-fetch",
+        "output": "gen/ts-fetch"
+      },
+      "typescript-node": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-node",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "typescript-node",
+        "output": "gen/nodejs"
+      },
+      "python": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-python",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "python",
+        "output": "gen/python"
+      },
+      "java": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-java",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "java",
+        "output": "gen/java",
+        "additionalProperties": {
+          "apiPackage": "com.joshuapare.moodleclient",
+          "artifactVersion": "0.1.0",
+          "artifactId": "moodle-client-java",
+          "artifactUrl": "https://github.com/joshuapare/moodle-api-gen",
+          "groupId": "com.joshuapare"
+        }
+      },
+      "rust": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-rust",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "rust",
+        "output": "gen/rust"
+      },
+      "csharp": {
+        "gitUserId": "joshuapare",
+        "gitRepoId": "moodle-client-csharp",
+        "inputSpec": "gen/openapi.yaml",
+        "skipValidateSpec": true,
+        "generatorName": "csharp",
+        "output": "gen/csharp"
+      }
+    }
+  }
+}

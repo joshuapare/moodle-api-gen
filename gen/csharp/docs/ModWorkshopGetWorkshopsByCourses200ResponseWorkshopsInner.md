@@ -1,0 +1,52 @@
+# Org.OpenAPITools.Model.ModWorkshopGetWorkshopsByCourses200ResponseWorkshopsInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Assessmentend** | **int** | 0 &#x3D; will be closed manually, greater than 0 the timestamp of the end of the assessment phase. | [optional] [default to 0]
+**Assessmentstart** | **int** | 0 &#x3D; will be started manually, greater than 0 the timestamp of the start of the assessment phase. | [optional] [default to 0]
+**Conclusion** | **string** | A text to be displayed at the end of the workshop. | [optional] [default to "null"]
+**Conclusionfiles** | [**List&lt;CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner&gt;**](CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner.md) |  | [optional] 
+**Conclusionformat** | **int** | conclusion format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to 0]
+**Course** | **int** | Course id this workshop is part of. | [optional] [default to null]
+**Coursemodule** | **int** | coursemodule | [optional] 
+**Evaluation** | **string** | The recently used grading evaluation method. | [optional] [default to "null"]
+**Examplesmode** | **int** | 0 &#x3D; example assessments are voluntary, 1 &#x3D; examples must be assessed before submission,                     2 &#x3D; examples are available after own submission and must be assessed before peer/self assessment phase. | [optional] [default to 0]
+**Grade** | **decimal** | The maximum grade for submission. | [optional] [default to 80M]
+**Gradedecimals** | **int** | Number of digits that should be shown after the decimal point when displaying grades. | [optional] [default to 0]
+**Gradinggrade** | **decimal** | The maximum grade for assessment. | [optional] [default to 20M]
+**Id** | **int** | The primary key of the record. | [optional] 
+**Instructauthors** | **string** | Instructions for the submission phase. | [optional] [default to "null"]
+**Instructauthorsfiles** | [**List&lt;CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner&gt;**](CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner.md) |  | [optional] 
+**Instructauthorsformat** | **int** | instructauthors format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to 0]
+**Instructreviewers** | **string** | Instructions for the assessment phase. | [optional] [default to "null"]
+**Instructreviewersfiles** | [**List&lt;CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner&gt;**](CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner.md) |  | [optional] 
+**Instructreviewersformat** | **int** | instructreviewers format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to 0]
+**Intro** | **string** | Workshop introduction text. | [optional] [default to ""]
+**Introfiles** | [**List&lt;CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner&gt;**](CoreBlogGetEntries200ResponseEntriesInnerSummaryfilesInner.md) |  | [optional] 
+**Introformat** | **int** | intro format (1 &#x3D; HTML, 0 &#x3D; MOODLE, 2 &#x3D; PLAIN, or 4 &#x3D; MARKDOWN) | [optional] [default to 0]
+**Lang** | **string** | Forced activity language | [optional] 
+**Latesubmissions** | **bool** | Allow submitting the work after the deadline. | [optional] [default to false]
+**Maxbytes** | **int** | Maximum size of the one attached file. | [optional] [default to 100000]
+**Name** | **string** | Workshop name. | [optional] [default to "null"]
+**Nattachments** | **int** | Maximum number of submission attachments. | [optional] [default to 1]
+**Overallfeedbackfiles** | **int** | Number of allowed attachments to the overall feedback. | [optional] [default to 0]
+**Overallfeedbackfiletypes** | **string** | Comma separated list of file extensions. | [optional] [default to "null"]
+**Overallfeedbackmaxbytes** | **int** | Maximum size of one file attached to the overall feedback. | [optional] [default to 100000]
+**Overallfeedbackmode** | **int** | Mode of the overall feedback support. | [optional] [default to 1]
+**Phase** | **int** | The current phase of workshop (0 &#x3D; not available, 1 &#x3D; submission, 2 &#x3D; assessment, 3 &#x3D; closed). | [optional] [default to 0]
+**Phaseswitchassessment** | **bool** | Automatically switch to the assessment phase after the submissions deadline. | [optional] [default to false]
+**Strategy** | **string** | The type of the current grading strategy used in this workshop. | [optional] [default to "null"]
+**Submissionend** | **int** | 0 &#x3D; will be closed manually, greater than 0 the timestamp of the end of the submission phase. | [optional] [default to 0]
+**Submissionfiletypes** | **string** | Comma separated list of file extensions. | [optional] 
+**Submissionstart** | **int** | 0 &#x3D; will be started manually, greater than 0 the timestamp of the start of the submission phase. | [optional] [default to 0]
+**Submissiontypefile** | **int** | Indicates whether a file upload is required as part of each submission. 0 for no, 1 for optional, 2 for required. | [optional] [default to 1]
+**Submissiontypetext** | **int** | Indicates whether text is required as part of each submission. 0 for no, 1 for optional, 2 for required. | [optional] [default to 1]
+**Timemodified** | **int** | The timestamp when the module was modified. | [optional] [default to null]
+**Useexamples** | **bool** | Optional feature: students practise evaluating on example submissions from teacher. | [optional] [default to false]
+**Usepeerassessment** | **bool** | Optional feature: students perform peer assessment of others&#39; work. | [optional] [default to false]
+**Useselfassessment** | **bool** | Optional feature: students perform self assessment of their own work. | [optional] [default to false]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

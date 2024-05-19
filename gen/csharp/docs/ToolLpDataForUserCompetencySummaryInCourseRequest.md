@@ -1,0 +1,12 @@
+# Org.OpenAPITools.Model.ToolLpDataForUserCompetencySummaryInCourseRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Competencyid** | **int** | Data base record id for the competency | 
+**Courseid** | **int** | Data base record id for the course | [default to null]
+**Userid** | **int** | Data base record id for the user | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
