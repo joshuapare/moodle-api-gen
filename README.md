@@ -59,7 +59,7 @@
 | Go                      | [Go](https://pkg.go.dev/github.com/joshuapare/moodle-client-go)                             | 4.3.4                |
 | C#                      | [C#](https://www.nuget.org/packages/MoodleClient)                                           | 4.3.4 (Unreleased, prerelease in `gen/csharp`)   |
 | Kotlin                  | [Kotlin](https://search.maven.org/artifact/com.joshuapare/moodle-client)                    | 4.3.4 (Unreleased, prerelease in `gen/java`)   |
-| NestJS                  | [NestJS](https://www.npmjs.com/package/joshuapare/moodle-client-nestjs)                     | 4.3.4 (Unreleased, prerelease in `gen/nestjs`)   |
+| NestJS                  | [NestJS](https://www.npmjs.com/package/joshuapare/moodle-client-nestjs)                     | 4.3.4   |
 | Node.js                 | [Node.js](https://www.npmjs.com/package/joshuapare/moodle-client-node)                      | 4.3.4 (Unreleased, prerelease in `gen/nodejs`)   |
 | PHP                     | [PHP](https://packagist.org/packages/joshuapare/moodle-client)                              | 4.3.4 (Unreleased, prerelease in `gen/php`)   |
 | Python                  | [Python](https://pypi.org/project/moodle-client)                                            | 4.3.4 (Unreleased, prerelease in `gen/python`)   |
@@ -126,7 +126,7 @@ composer require joshuapare/moodle-client
 <img alt="NestJS" src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
 
 ```bash
-npm install joshuapare/moodle-client-nestjs
+npm install moodle-client-nestjs
 ```
 
 <img alt="Node.js" src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
